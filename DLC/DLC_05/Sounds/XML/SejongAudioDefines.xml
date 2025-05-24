@@ -1,0 +1,210 @@
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Geoff Knorr (Firaxis Games) -->
+<AudioDefinesFile>
+  <SoundDatas>
+    <!--Sejong Music
+		-->
+    <SoundData>
+      <SoundID>SND_LEADER_MUSIC_SEJONG_PEACE</SoundID>
+      <Filename>SejongPeace</Filename>
+      <bDontCache />
+      <LoadType>STREAMED</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_LEADER_MUSIC_SEJONG_WAR</SoundID>
+      <Filename>SejongWar</Filename>
+      <bDontCache />
+      <LoadType>STREAMED</LoadType>
+    </SoundData>
+    <!--Sejong Speech, Sfx, Ambience
+		-->
+    <SoundData>
+      <SoundID>SND_LEADER_SPEECH_SEJONG_HATE_YES03</SoundID>
+      <Filename>SejongHateYes03</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_LEADER_SPEECH_SEJONG_INTRO</SoundID>
+      <Filename>SejongIntro</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_LEADER_SPEECH_SEJONG_NEUTRAL_HELLO</SoundID>
+      <Filename>SejongNeutralHello</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_LEADER_SPEECH_SEJONG_NEUTRAL_LETS_HEAR_IT01</SoundID>
+      <Filename>SejongNeutralLetsHearIt01</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_LEADER_SPEECH_SEJONG_NEUTRAL_LETS_HEAR_IT02</SoundID>
+      <Filename>SejongNeutralLetsHearIt02</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_LEADER_SPEECH_SEJONG_NEUTRAL_LETS_HEAR_IT03</SoundID>
+      <Filename>SejongNeutralLetsHearIt03</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_LEADER_SPEECH_SEJONG_NEUTRAL_NO01</SoundID>
+      <Filename>SejongNeutralNo01</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_LEADER_SPEECH_SEJONG_NEUTRAL_NO02</SoundID>
+      <Filename>SejongNeutralNo02</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_LEADER_SPEECH_SEJONG_NEUTRAL_NO03</SoundID>
+      <Filename>SejongNeutralNo03</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_LEADER_SPEECH_SEJONG_NEUTRAL_YES01</SoundID>
+      <Filename>SejongNeutralYes01</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_LEADER_SPEECH_SEJONG_NEUTRAL_YES02</SoundID>
+      <Filename>SejongNeutralYes02</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_LEADER_SPEECH_SEJONG_NEUTRAL_YES03</SoundID>
+      <Filename>SejongNeutralYes03</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_LEADER_SPEECH_SEJONG_PEACEFUL</SoundID>
+      <Filename>SejongPeaceful</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_LEADER_SPEECH_SEJONG_REQUEST</SoundID>
+      <Filename>SejongRequest</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_LEADER_SPEECH_SEJONG_ATTACKED</SoundID>
+      <Filename>SejongAttacked</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_LEADER_SPEECH_SEJONG_DECLARES_WAR</SoundID>
+      <Filename>SejongDeclaresWar</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_LEADER_SPEECH_SEJONG_DECLARES_WAR_PT2</SoundID>
+      <Filename>SejongDeclaresWarPt2</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_LEADER_SPEECH_SEJONG_DEFEATED</SoundID>
+      <Filename>SejongDefeated</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_LEADER_SPEECH_SEJONG_HATE_HELLO</SoundID>
+      <Filename>SejongHateHello</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_LEADER_SPEECH_SEJONG_HATE_LETS_HEAR_IT01</SoundID>
+      <Filename>SejongHateLetsHearIt01</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_LEADER_SPEECH_SEJONG_HATE_LETS_HEAR_IT02</SoundID>
+      <Filename>SejongHateLetsHearIt02</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_LEADER_SPEECH_SEJONG_HATE_LETS_HEAR_IT03</SoundID>
+      <Filename>SejongHateLetsHearIt03</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_LEADER_SPEECH_SEJONG_HATE_NO01</SoundID>
+      <Filename>SejongHateNo01</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_LEADER_SPEECH_SEJONG_HATE_NO02</SoundID>
+      <Filename>SejongHateNo02</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_LEADER_SPEECH_SEJONG_HATE_NO03</SoundID>
+      <Filename>SejongHateNo03</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_LEADER_SPEECH_SEJONG_HATE_YES01</SoundID>
+      <Filename>SejongHateYes01</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_LEADER_SPEECH_SEJONG_HATE_YES02</SoundID>
+      <Filename>SejongHateYes02</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+  </SoundDatas>
+</AudioDefinesFile>

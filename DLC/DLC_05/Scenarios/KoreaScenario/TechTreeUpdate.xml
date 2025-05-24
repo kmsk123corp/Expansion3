@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<!-- Created by ModBuddy on 11/16/2010 1:15:41 PM -->
+<GameData>
+	<Defines>
+		<Update>
+			<Where Name="EMBARKED_UNIT_MOVEMENT"/>
+			<Set>
+				<Value>4</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where Name="BASE_CITY_GROWTH_THRESHOLD"/>
+			<Set>
+				<Value>35</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where Name="CITY_GROWTH_EXPONENT"/>
+			<Set>
+				<Value>1.2</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where Name="AI_STRATEGY_DEFEND_MY_LANDS_UNITS_PER_CITY"/>
+			<Set>
+				<Value>0.0</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where Name="AI_OPERATIONAL_MAX_RECRUIT_TURNS_ENEMY_TERRITORY"/>
+			<Set>
+				<Value>5</Value>
+			</Set>
+		</Update>
+	</Defines>
+	<HandicapInfos>
+		<Update>
+			<Set>
+				<ProductionFreeUnitsPerCity>10</ProductionFreeUnitsPerCity>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="HANDICAP_KING"/>
+			<Set>
+				<AIDeclareWarProb>200</AIDeclareWarProb>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="HANDICAP_EMPEROR"/>
+			<Set>
+				<AIDeclareWarProb>300</AIDeclareWarProb>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="HANDICAP_IMMORTAL"/>
+			<Set>
+				<AIDeclareWarProb>400</AIDeclareWarProb>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="HANDICAP_DEITY"/>
+			<Set>
+				<AIDeclareWarProb>500</AIDeclareWarProb>
+			</Set>
+		</Update>
+	</HandicapInfos>
+	<PolicyBranchTypes>
+		<Update>
+			<Where Type="POLICY_BRANCH_FREEDOM"/>
+			<Set>
+				<EraPrereq>ERA_INDUSTRIAL</EraPrereq>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="POLICY_BRANCH_PATRONAGE"/>
+			<Set>
+				<EraPrereq>ERA_INDUSTRIAL</EraPrereq>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="POLICY_BRANCH_RATIONALISM"/>
+			<Set>
+				<EraPrereq>ERA_INDUSTRIAL</EraPrereq>
+			</Set>
+		</Update>
+	</PolicyBranchTypes>
+	<BuildingClasses>
+		<Delete Type="BUILDINGCLASS_GREAT_LIGHTHOUSE"/>
+		<Delete Type="BUILDINGCLASS_STONEHENGE"/>
+		<Delete Type="BUILDINGCLASS_GREAT_LIBRARY"/>
+		<Delete Type="BUILDINGCLASS_PYRAMID"/>
+		<Delete Type="BUILDINGCLASS_COLOSSUS"/>
+		<Delete Type="BUILDINGCLASS_ORACLE"/>
+		<Delete Type="BUILDINGCLASS_HANGING_GARDEN"/>
+		<Delete Type="BUILDINGCLASS_ANGKOR_WAT"/>
+		<Delete Type="BUILDINGCLASS_HAGIA_SOPHIA"/>
+		<Delete Type="BUILDINGCLASS_CHICHEN_ITZA"/>
+		<Delete Type="BUILDINGCLASS_MACHU_PICHU"/>
+		<Delete Type="BUILDINGCLASS_NOTRE_DAME"/>
+		<Delete Type="BUILDINGCLASS_STATUE_ZEUS"/>
+		<Delete Type="BUILDINGCLASS_TEMPLE_ARTEMIS"/>
+		<Delete Type="BUILDINGCLASS_MAUSOLEUM_HALICARNASSUS"/>
+		<Delete Type="BUILDINGCLASS_LIBRARY"/>
+		<Delete Type="BUILDINGCLASS_UNIVERSITY"/>
+		<Delete Type="BUILDINGCLASS_OXFORD_UNIVERSITY"/>
+		<Delete Type="BUILDINGCLASS_NATIONAL_COLLEGE"/>
+	</BuildingClasses>
+	<Buildings>
+		<Delete Type="BUILDING_GREAT_LIGHTHOUSE"/>
+		<Delete Type="BUILDING_STONEHENGE"/>
+		<Delete Type="BUILDING_GREAT_LIBRARY"/>
+		<Delete Type="BUILDING_PYRAMID"/>
+		<Delete Type="BUILDING_COLOSSUS"/>
+		<Delete Type="BUILDING_ORACLE"/>
+		<Delete Type="BUILDING_HANGING_GARDEN"/>
+		<Delete Type="BUILDING_ANGKOR_WAT"/>
+		<Delete Type="BUILDING_HAGIA_SOPHIA"/>
+		<Delete Type="BUILDING_CHICHEN_ITZA"/>
+		<Delete Type="BUILDING_MACHU_PICHU"/>
+		<Delete Type="BUILDING_NOTRE_DAME"/>
+		<Delete Type="BUILDING_STATUE_ZEUS"/>
+		<Delete Type="BUILDING_TEMPLE_ARTEMIS"/>
+		<Delete Type="BUILDING_MAUSOLEUM_HALICARNASSUS"/>
+		<Delete Type="BUILDING_LIBRARY"/>
+		<Delete Type="BUILDING_UNIVERSITY"/>
+		<Delete Type="BUILDING_OXFORD_UNIVERSITY"/>
+		<Delete Type="BUILDING_NATIONAL_COLLEGE"/>
+		<Update>
+			<Where Type="BUILDING_GREAT_WALL"/>
+			<Set>
+				<BorderObstacle>false</BorderObstacle>
+				<PlayerBorderObstacle>true</PlayerBorderObstacle>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_MARKET"/>
+			<Set>
+				<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_MONUMENT"/>
+			<Set>
+				<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_GRANARY"/>
+			<Set>
+				<FreeStartEra>ERA_ANCIENT</FreeStartEra>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_PAPER_MAKER"/>
+			<Set>
+				<BuildingClass>BUILDINGCLASS_BANK</BuildingClass>
+				<PrereqTech>TECH_BANKING</PrereqTech>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_PORCELAIN_TOWER"/>
+			<Set>
+				<MedianTechPercentChange/>
+				<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			</Set>
+		</Update>
+	</Buildings>
+	<Building_Flavors>
+		<Delete BuildingType="BUILDING_PORCELAIN_TOWER"/>
+		<Row>
+			<BuildingType>BUILDING_PORCELAIN_TOWER</BuildingType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PORCELAIN_TOWER</BuildingType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PORCELAIN_TOWER</BuildingType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PORCELAIN_TOWER</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_FreeUnits>
+		<Delete BuildingType="BUILDING_PORCELAIN_TOWER"/>
+	</Building_FreeUnits>
+	<Building_UnitCombatProductionModifiers>
+		<Row>
+			<BuildingType>BUILDING_PORCELAIN_TOWER</BuildingType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<Modifier>15</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PORCELAIN_TOWER</BuildingType>
+			<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+			<Modifier>15</Modifier>
+		</Row>
+	</Building_UnitCombatProductionModifiers>
+	<Building_YieldChanges>
+		<Update>
+			<Where BuildingType="BUILDING_PAPER_MAKER"/>
+			<Set>
+				<Yield>4</Yield>
+			</Set>
+		</Update>
+		<Row>
+			<BuildingType>BUILDING_PORCELAIN_TOWER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_YieldChangesPerPop>
+		<Delete BuildingType="BUILDING_PAPER_MAKER"/>
+	</Building_YieldChangesPerPop>
+	<DeleteMissingReferences table="BuildingClasses" column="Type"/>
+	<DeleteMissingReferences table="Buildings" column="Type"/>
+	<Units>
+		<Delete Type="UNIT_JAPANESE_ZERO"/>
+		<Update>
+			<Where Type="UNIT_KOREAN_HWACHA"/>
+			<Set>
+				<ObsoleteTech/>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SCIENTIST"/>
+			<Set>
+				<NumFreeTechs/>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_ARCHER"/>
+			<Set>
+				<Combat>5</Combat>
+				<RangedCombat>9</RangedCombat>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_TRIREME"/>
+			<Set>
+				<Combat>12</Combat>
+				<RangedCombat>8</RangedCombat>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_CARAVEL"/>
+			<Set>
+				<Combat>16</Combat>
+				<RangedCombat>10</RangedCombat>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_SETTLER"/>
+			<Set>
+				<UnitFlagAtlas>SEJONG_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+				<UnitFlagIconOffset>2</UnitFlagIconOffset>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="UNIT_MONGOLIAN_KESHIK"/>
+			<Set>
+				<UnitFlagAtlas>SEJONG_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+				<UnitFlagIconOffset>3</UnitFlagIconOffset>
+			</Set>
+		</Update>
+	</Units>
+	<ArtDefine_StrategicView>
+		<Update>
+			<Where StrategicViewType="ART_DEF_UNIT_U_MONGOLIAN_KESHIK"/>
+			<Set>
+				<Asset>SV_BannerCavalry.dds</Asset>
+			</Set>
+		</Update>
+		<Update>
+			<Where StrategicViewType="ART_DEF_UNIT__SETTLER"/>
+			<Set>
+				<Asset>SV_Clan.dds</Asset>
+			</Set>
+		</Update>
+	</ArtDefine_StrategicView>
+	<Unit_ClassUpgrades>
+		<Delete UnitType="UNIT_KOREAN_HWACHA"/>
+	</Unit_ClassUpgrades>
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_WAJO</BuildType>
+		</Row>
+	</Unit_Builds>
+	<DeleteMissingReferences table="Units" column="Type"/>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_GUERILLA_WITHDRAW</Type>
+			<Description>TXT_KEY_PROMOTION_GUERILLA_WITHDRAW</Description>
+			<Help>TXT_KEY_PROMOTION_GUERILLA_WITHDRAW_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<ExtraWithdrawal>80</ExtraWithdrawal>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_GUERILLA_WITHDRAW</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<Improvements>
+		<Delete Type="IMPROVEMENT_ACADEMY"/>
+		<Delete Type="IMPROVEMENT_FORT"/>
+		<Row>
+			<Type>IMPROVEMENT_WAJO</Type>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_WAJO</ArtDefineTag>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>KOREA_TERRAIN_ATLAS</IconAtlas>
+			<Coastal>true</Coastal>
+			<SpecificCivRequired>true</SpecificCivRequired>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<NearbyEnemyDamage>2</NearbyEnemyDamage>
+			<Description>TXT_KEY_KOREA_SCENARIO_IMPROVEMENT_WAJO</Description>
+			<Help>TXT_KEY_CIV5_IMPROVEMENTS_WAJO_HELP</Help>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_WAJO_TEXT</Civilopedia>
+		</Row>
+	</Improvements>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>KOREA_TERRAIN_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>TerrainIcons256_DLC_Korea.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>KOREA_TERRAIN_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>TerrainIcons64_DLC_Korea.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>UNIT_ACTION_DLC05_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>UnitAction64_DLC_Korea.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>UNIT_ACTION_DLC05_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>UnitAction45_DLC_Korea.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>UNIT_ACTION_DLC05_GOLD_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>UnitActionGold64_DLC_Korea.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>UNIT_ACTION_DLC05_GOLD_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>UnitActionGold45_DLC_Korea.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+	<Builds>
+		<Row>
+			<Type>BUILD_WAJO</Type>
+			<PrereqTech>TECH_ENGINEERING</PrereqTech>
+			<Time>800</Time>
+			<ImprovementType>IMPROVEMENT_WAJO</ImprovementType>
+			<Description>TXT_KEY_KOREA_SCENARIO_BUILD_WAJO</Description>
+			<Help>TXT_KEY_KOREA_SCENARIO_BUILD_WAJO_HELP</Help>
+			<Recommendation>TXT_KEY_KOREA_SCENARIO_BUILD_WAJO_REC</Recommendation>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<HotKey>KB_F</HotKey>
+			<OrderPriority>1</OrderPriority>
+			<CtrlDown>1</CtrlDown>
+			<IconIndex>0</IconIndex>
+			<IconAtlas>UNIT_ACTION_DLC05_ATLAS</IconAtlas>
+		</Row>
+	</Builds>
+	<BuildFeatures>
+		<Row>
+			<BuildType>BUILD_WAJO</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+		</Row>
+		<Row>
+			<BuildType>BUILD_WAJO</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Time>400</Time>
+		</Row>
+		<Row>
+			<BuildType>BUILD_WAJO</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>600</Time>
+		</Row>
+	</BuildFeatures>
+	<Improvement_ValidTerrains>
+		<Row>
+			<ImprovementType>IMPROVEMENT_WAJO</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_WAJO</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_WAJO</ImprovementType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_WAJO</ImprovementType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_WAJO</ImprovementType>
+			<TerrainType>TERRAIN_SNOW</TerrainType>
+		</Row>
+	</Improvement_ValidTerrains>
+	<DeleteMissingReferences table="Improvements" column="Type"/>
+	<Processes>
+		<Update>
+			<Where Type="PROCESS_RESEARCH"/>
+			<Set>
+				<TechPrereq>TECH_FUTURE_TECH</TechPrereq>
+			</Set>
+		</Update>
+	</Processes>
+	<AIMilitaryStrategies>
+		<Update>
+			<Where Type="MILITARYAISTRATEGY_ERADICATE_BARBARIANS"/>
+			<Set>
+				<FirstTurnExecuted>0</FirstTurnExecuted>
+			</Set>
+		</Update>
+	</AIMilitaryStrategies>
+	<MultiUnitFormation_SlotEntries>
+		<Delete MultiUnitFormationType="MUFORMATION_NAVAL_INVASION" PrimaryUnitType="UNITAI_ESCORT_SEA"/>
+		<Delete MultiUnitFormationType="MUFORMATION_NAVAL_INVASION" PrimaryUnitType="UNITAI_CITY_BOMBARD" SecondaryUnitType="UNITAI_DEFENSE"/>
+		<Update>
+			<Where MultiUnitFormationType="MUFORMATION_NAVAL_INVASION" PrimaryUnitType="UNITAI_CITY_BOMBARD" SecondaryUnitType="UNITAI_CITY_BOMBARD"/>
+			<Set>
+				<SecondaryUnitType>UNITAI_RANGED</SecondaryUnitType>
+			</Set>
+		</Update>
+	</MultiUnitFormation_SlotEntries>
+</GameData>

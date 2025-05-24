@@ -1,0 +1,4423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_CITY_NAME_AARHUS">
+      <Text>Орхус</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ABUSIR">
+      <Text>Абусир</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ABYDOS">
+      <Text>Абидос</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ADANA">
+      <Text>Адана</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ADEN">
+      <Text>Аден</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_AFYON">
+      <Text>Афьон</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_AGRA">
+      <Text>Агра</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_AGRIPPINA">
+      <Text>Агриппина</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_AHMEDABAD">
+      <Text>Ахмедабад</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_AINU">
+      <Text>Айны</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_AIX_EN_PROVINCE">
+      <Text>Экс-ан-Прованс</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_AKHETATEN">
+      <Text>Ахетатон</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_AKHMIN">
+      <Text>Хент-Мин</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_AKITA">
+      <Text>Акита</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_AKORIS">
+      <Text>Акорида</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ALBAFUCENS">
+      <Text>Альба-Фуценс</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ALBUQUERQUE">
+      <Text>Альбукерке</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ALEMANNI">
+      <Text>Алеманны</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ALEPPO">
+      <Text>Алеппо</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ALEXANDRIA">
+      <Text>Александрия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ALGIERS">
+      <Text>Алжир</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ALMATY">
+      <Text>Алма-Ата</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ALTINTEPE">
+      <Text>Алтын-Депе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_AMARA">
+      <Text>Амара</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_AMARAVATI">
+      <Text>Амаравати</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_AMASYA">
+      <Text>Амасья</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_AMBRACIA">
+      <Text>Амбракия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_AMIENS">
+      <Text>Амьен</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_AMPHIPOLIS">
+      <Text>Амфиполис</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_AMRAH">
+      <Text>Амрах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ANASAZI">
+      <Text>Анасази</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ANCHORAGE">
+      <Text>Анкоридж</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ANGLE">
+      <Text>Англы</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ANIBA">
+      <Text>Аниба</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ANJAR">
+      <Text>Анджар</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ANKARA">
+      <Text>Анкара</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ANTALYA">
+      <Text>Анталья</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ANTIUM">
+      <Text>Анций</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ANTWERP">
+      <Text>Антверпен</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_AOMORI">
+      <Text>Аомори</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_APACHE">
+      <Text>Апачи</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_APOLLONIA">
+      <Text>Аполлония</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_APOLYTON">
+      <Text>Аполитон</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_AQUILEIA">
+      <Text>Аквилея</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ARDEA">
+      <Text>Ардея</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ARGOS">
+      <Text>Аргос</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ARKHANGELSK">
+      <Text>Архангельск</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ARMANT">
+      <Text>Гермонтис</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ARMINIUM">
+      <Text>Арминий</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ARPINUM">
+      <Text>Арпин</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ARRETIUM">
+      <Text>Арреций</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ARSHADA">
+      <Text>Аршада</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ARTAKOANA">
+      <Text>Артакоана</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ARTAXATA">
+      <Text>Арташат</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ARTUIN">
+      <Text>Артуин</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ARYAN">
+      <Text>Арии</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ASPABOTA">
+      <Text>Аспабота</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ASSYRIAN">
+      <Text>Ассирийцы</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ASTRAKHAN">
+      <Text>Астрахань</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ASYUT">
+      <Text>Асьют</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ATHENS">
+      <Text>Афины</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ATHRIBIS">
+      <Text>Атрибис</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ATLANTA">
+      <Text>Атланта</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ATZCAPOTZALCO">
+      <Text>Аскапоцалько</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_AUGUSTADORUM">
+      <Text>Августодор</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_AURELIANORUM">
+      <Text>Аврелианорум</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_AUTIYARA">
+      <Text>Аутияра</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_AVAR">
+      <Text>Авары</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_AVARIS">
+      <Text>Аварис</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_AVIGNON">
+      <Text>Авиньон</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_AYDAB">
+      <Text>Айдаб</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_AYODHYA">
+      <Text>Айодхья</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_AYOTZINCO">
+      <Text>Айоцинко</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BACTRA">
+      <Text>Бактра</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BACTRIAN">
+      <Text>Бактрийцы</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BADARI">
+      <Text>Бадари</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BAGACUM">
+      <Text>Багакум</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BAGASTANA">
+      <Text>Багастана</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BAGHDAD">
+      <Text>Багдад</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BAI_BALIQ">
+      <Text>Бай-Балык</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BALAT">
+      <Text>Балат</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BALKH">
+      <Text>Балх</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BALTIMORE">
+      <Text>Балтимор</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BAMPUR">
+      <Text>Бампур</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BANGALORE">
+      <Text>Бангалор</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BANTU">
+      <Text>Банту</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BAODING">
+      <Text>Баодин</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BASRA">
+      <Text>Басра</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BATH">
+      <Text>Бат</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BATTAMBANG">
+      <Text>Баттамбанг</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BAXTRI">
+      <Text>Бахтри</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BAYONNE">
+      <Text>Байонна</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BAYT_RAS">
+      <Text>Байт-Рас</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BEHISTUN">
+      <Text>Бехистун</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BEIJING">
+      <Text>Пекин</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BELFAST">
+      <Text>Белфаст</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BELGIUM">
+      <Text>Бельгия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BELGRADE">
+      <Text>Белград</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BENIHASAN">
+      <Text>Бени-Хасан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BERGEN">
+      <Text>Берген</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BERLIN">
+      <Text>Берлин</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BERN">
+      <Text>Берн</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BERWICK">
+      <Text>Бервик</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BIELEFELD">
+      <Text>Билефельд</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BIRMINGHAM">
+      <Text>Бирмингем</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BITLIS">
+      <Text>Битлис</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BIZEN">
+      <Text>Бидзэн</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BLACKPOOL">
+      <Text>Блэкпул</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BOCHUM">
+      <Text>Бохум</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BODHGAYA">
+      <Text>Бодх-Гая</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BODRUM">
+      <Text>Бодрум</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BOISE">
+      <Text>Бойсе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BONN">
+      <Text>Бонн</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BORAZJAN">
+      <Text>Боразджан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BORDEAUX">
+      <Text>Бордо</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BOSTON">
+      <Text>Бостон</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BOURGES">
+      <Text>Бурж</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BRAUNSCHWEIG">
+      <Text>Брауншвейг</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BREMEN">
+      <Text>Бремен</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BREST">
+      <Text>Брест</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BRIGHTON">
+      <Text>Брайтон</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BRISTOL">
+      <Text>Бристоль</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BRUNDISIUM">
+      <Text>Брундизий</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BRUSSELS">
+      <Text>Брюссель</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BRYANSK">
+      <Text>Брянск</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BUBASTIS">
+      <Text>Бубастис</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BUCHAREST">
+      <Text>Бухарест</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BUDAPEST">
+      <Text>Будапешт</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BUFFALO">
+      <Text>Баффало</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BUKHARA">
+      <Text>Бухара</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BULGAR">
+      <Text>Булгары</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BUNYAN">
+      <Text>Бюньян</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BURGUNDIAN">
+      <Text>Бургунды</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BURSA">
+      <Text>Бурса</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BUSIRIS">
+      <Text>Бусирис</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BUTO">
+      <Text>Буто</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_BYBLOS">
+      <Text>Библ</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CAEN">
+      <Text>Кан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CAESARAUGUSTA">
+      <Text>Цезарея-Августа</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CAESAREA">
+      <Text>Кесария</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CALAIS">
+      <Text>Кале</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CALCUTTA">
+      <Text>Калькутта</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CALIXTLAHUACA">
+      <Text>Калиштлауака</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CAMBODIA">
+      <Text>Камбоджа</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CAMBRIDGE">
+      <Text>Кембридж</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CANNES">
+      <Text>Канны</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CANTERBURY">
+      <Text>Кентербери</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CAPISA">
+      <Text>Каписа</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARCASSONNE">
+      <Text>Каркассон</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARIB">
+      <Text>Карибы</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CARLISLE">
+      <Text>Карлайл</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CASABLANCA">
+      <Text>Касабланка</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CASTRUMNOVUM">
+      <Text>Каструм-Новум</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CEMPOALA">
+      <Text>Семпоала</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CENTRALIA">
+      <Text>Централия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CHALCHIUITES">
+      <Text>Чальчиуитес</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CHALCO">
+      <Text>Чалько</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CHALKIS">
+      <Text>Халкида</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CHAPULTEPEC">
+      <Text>Чапультепек</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CHARLESTON">
+      <Text>Чарльстон</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CHARSADDA">
+      <Text>Чарсадда</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CHARTRES">
+      <Text>Шартр</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CHEHALIS">
+      <Text>Чехалис</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CHELYABINSK">
+      <Text>Челябинск</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CHEMNITZ">
+      <Text>Хемниц</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CHENGDU">
+      <Text>Чэнду</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CHERBOURG">
+      <Text>Шербур</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CHEROKEE">
+      <Text>Чероки</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CHIAUHITA">
+      <Text>Чиаухита</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CHICAGO">
+      <Text>Чикаго</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CHICONAUTLA">
+      <Text>Чиконаутла</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CHINOOK">
+      <Text>Чинуки</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CHIOS">
+      <Text>Хиос</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CHITA">
+      <Text>Чита</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CHONGQING">
+      <Text>Чунцин</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CIMMERIAN">
+      <Text>Киммерийцы</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CINCINNATI">
+      <Text>Цинциннати</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CIRCASSIAN">
+      <Text>Черкесы</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CIRCEI">
+      <Text>Киркеи</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CLEVELAN">
+      <Text>Кливленд</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CLUSIUM">
+      <Text>Клузий</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_COATEPEC">
+      <Text>Коатепек</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_COLCHESTER">
+      <Text>Колчестер</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_COLOGNE">
+      <Text>Кельн</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_COLUMBUS">
+      <Text>Колумбус</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_COPENHAGEN">
+      <Text>Копенгаген</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CORFINIUM">
+      <Text>Корфиний</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CORINTH">
+      <Text>Коринф</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_COVENTRY">
+      <Text>Ковентри</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_COYOTEPEC">
+      <Text>Койотепек</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CREMONA">
+      <Text>Кремона</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CUMAE">
+      <Text>Кумы</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CUMAN">
+      <Text>Куманы</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_CURIA">
+      <Text>Курия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_DAKYANUS">
+      <Text>Дакьянус</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_DALIAN">
+      <Text>Далянь</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_DALLAS">
+      <Text>Даллас</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_DAMANHUR">
+      <Text>Даманхур</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_DAMASCUS">
+      <Text>Дамаск</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_DAPHNAI">
+      <Text>Тафнис</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_DARIUSHKABIR">
+      <Text>Дариуш Кабир</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_DARMASA">
+      <Text>Дармаса</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_DARMSTADT">
+      <Text>Дармштадт</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_DASHUR">
+      <Text>Дахшур</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_DEBRECEN">
+      <Text>Дебрецен</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_DELHI">
+      <Text>Дели</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_DENIZLI">
+      <Text>Денизли</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_DENMARK">
+      <Text>Дания</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_DENVER">
+      <Text>Денвер</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_DETROIT">
+      <Text>Детройт</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_DIYARBAKIR">
+      <Text>Диярбакыр</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_DJENNE">
+      <Text>Дженне</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_DJION">
+      <Text>Дижон</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_DORTMUND">
+      <Text>Дортмунд</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_DOVER">
+      <Text>Дувр</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_DRAPSAKA">
+      <Text>Драпсака</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_DRESDEN">
+      <Text>Дрезден</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_DUBLIN">
+      <Text>Дублин</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_DUISBURG">
+      <Text>Дуйсбург</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_DUNHUANG">
+      <Text>Дуньхуан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_DURAEUROPOS">
+      <Text>Дура-Европос</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_DUSSELDORF">
+      <Text>Дюссельдорф</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_EBURACUM">
+      <Text>Эбуракум</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ECATEPEC">
+      <Text>Экатепек</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ECBATANA">
+      <Text>Экбатана</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ECHIGO">
+      <Text>Этиго</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ECHIZEN">
+      <Text>Этидзэн</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_EDFU">
+      <Text>Эдфу</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_EDINBURGH">
+      <Text>Эдинбург</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_EDIRNE">
+      <Text>Эдирне</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_EION">
+      <Text>Эйон</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_EKATOMPYLOS">
+      <Text>Гекатомпил</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ELASHMUNEIN">
+      <Text>Эль-Ашмунейн</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ELEPHANTINE">
+      <Text>Элефантина</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ELIS">
+      <Text>Элида</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ELKAB">
+      <Text>Нехеб</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ELLAHUN">
+      <Text>Эль-Лахун</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_EPHESUS">
+      <Text>Эфес</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_EREGLI">
+      <Text>Эрегли</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ERETRIA">
+      <Text>Эретрия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ERFURT">
+      <Text>Эрфурт</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ERGILI">
+      <Text>Эргили</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ERLANGEN">
+      <Text>Эрланген</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ERZURUM">
+      <Text>Эрзурум</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ESKISEHIR">
+      <Text>Эскишехир</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ESPOO">
+      <Text>Эспоо</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ESSEN">
+      <Text>Эссен</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ESTRUSCAN">
+      <Text>Этруски</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_EXETER">
+      <Text>Эксетер</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FEZ">
+      <Text>Фес</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FINLAND">
+      <Text>Финляндия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FRANKFURT">
+      <Text>Франкфурт</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FREGELLAE">
+      <Text>Фрегеллы</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FREIBURG">
+      <Text>Фрайбург</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FUKUOKA">
+      <Text>Фукуока</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FUKUSHIMA">
+      <Text>Фукусима</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_FUSTAT">
+      <Text>Фустат</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_GABAE">
+      <Text>Габы</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_GANDUTAVA">
+      <Text>Гандутава</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_GANSU">
+      <Text>Ганьсу</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_GAOYU">
+      <Text>Гаою</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_GAUGAMELA">
+      <Text>Гавгамелы</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_GAUL">
+      <Text>Галлы</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_GAUR">
+      <Text>Гаур</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_GAZIANTEP">
+      <Text>Газиантеп</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_GELSENKIRCHEN">
+      <Text>Гельзенкирхен</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_GEPID">
+      <Text>Гепиды</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_GHULAMAN">
+      <Text>Гхуламан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_GHURAB">
+      <Text>Ком Мединет-Гураб</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_GHUZZ">
+      <Text>Огузы</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_GIZA">
+      <Text>Гиза</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_GLASGOW">
+      <Text>Глазго</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_GLOUCESTER">
+      <Text>Глостер</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_GORDION">
+      <Text>Гордион</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_GORDIUM">
+      <Text>Гордий</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_GORTYN">
+      <Text>Гортина</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_GOTEBORG">
+      <Text>Гетеборг</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_GOTH">
+      <Text>Готы</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_GOTTINGEN">
+      <Text>Геттинген</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_GRENOBLE">
+      <Text>Гренобль</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_GUANGZHOU">
+      <Text>Гуанчжоу</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_GULBARGA">
+      <Text>Гулбарга</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_GWALIOR">
+      <Text>Гвалиор</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HADRIA">
+      <Text>Адрия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HAERBIN">
+      <Text>Харбин</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HAGEN">
+      <Text>Хаген</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HAKODATE">
+      <Text>Хакодатэ</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HALICARNASSUS">
+      <Text>Галикарнас</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HALLE">
+      <Text>Галле</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HAMA">
+      <Text>Хама</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HAMBURG">
+      <Text>Гамбург</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HAMM">
+      <Text>Хамм</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HANDAN">
+      <Text>Ханьдань</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HANGZHOU">
+      <Text>Ханчжоу</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HANNOVER">
+      <Text>Ганновер</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HANOI">
+      <Text>Ханой</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HARAPPAN">
+      <Text>Хараппа</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HARMOZEIA">
+      <Text>Ормуз</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HASANLU">
+      <Text>Хасанлу</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HASTINGS">
+      <Text>Гастингс</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HAWARA">
+      <Text>Хавара</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HELIOPOLIS">
+      <Text>Гелиополь</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HELSINKI">
+      <Text>Хельсинки</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HERAKLEIA">
+      <Text>Гераклея</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HERAKLEOPOLIS">
+      <Text>Гераклеополь</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HERAT">
+      <Text>Герат</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HERMONTHIS">
+      <Text>Гермонтис</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HERMOPOLIS">
+      <Text>Гермополь</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HERNE">
+      <Text>Герне</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HEYUAN">
+      <Text>Хэюань</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HIERACONPOLIS">
+      <Text>Нехен</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HILDESHEIM">
+      <Text>Хильдесхайм</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HIROSHIMA">
+      <Text>Хиросима</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HISPALIS">
+      <Text>Гиспалис</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HITTITE">
+      <Text>Хетты</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HONOLULU">
+      <Text>Гонолулу</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HOUSTON">
+      <Text>Хьюстон</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HSUNGNU">
+      <Text>Хунну</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HUANGSHI">
+      <Text>Хуанши</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HUBEI">
+      <Text>Хубэй</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HUEXOTLA">
+      <Text>Уэшотла</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HULL">
+      <Text>Гулль</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HUN">
+      <Text>Гунны</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HUNGARY">
+      <Text>Венгрия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HUNT_VALLEY">
+      <Text>Хант-Вэлли</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HURRIAN">
+      <Text>Хурриты</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_HYDERABAD">
+      <Text>Хайдерабад</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_IASI">
+      <Text>Яссы</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ILLINOIS">
+      <Text>Иллинойс</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_INDRAPRASTHA">
+      <Text>Индрапраштха</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_INEBOLU">
+      <Text>Инеболу</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_INTERRAMA">
+      <Text>Интеррама</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_IPSWICH">
+      <Text>Ипсвич</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_IRELAND">
+      <Text>Ирландия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_IRKUSTK">
+      <Text>Иркутск</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ISE">
+      <Text>Исэ</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ISTAKHR">
+      <Text>Истахр</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ISTANBUL">
+      <Text>Стамбул</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ITZAPALAPA">
+      <Text>Истапалапа</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_IXTAPALUCA">
+      <Text>Икcтапалука</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_IZATA">
+      <Text>Исата</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_IZMIR">
+      <Text>Измир</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_IZMIT">
+      <Text>Измит</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_IZTAPAM">
+      <Text>Ицтапам</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_IZUMI">
+      <Text>Идзуми</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_IZUMO">
+      <Text>Идзумо</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_JACKSONVILLE">
+      <Text>Джексонвиль</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_JAIPUR">
+      <Text>Джайпур</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_JAUNPUR">
+      <Text>Джаунпур</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_JILOTZINGO">
+      <Text>Хилоцинго</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_JINJAN">
+      <Text>Джинджан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_JUTE">
+      <Text>Юты</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KABUL">
+      <Text>Кабул</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KAGOSHIMA">
+      <Text>Кагосима</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KAHUN">
+      <Text>Кахун</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KAIFENG">
+      <Text>Кайфэн</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KAIROUAN">
+      <Text>Кайруан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KAMAKURO">
+      <Text>Камакуро</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KAMPADA">
+      <Text>Кампада</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KANDAHAR">
+      <Text>Кандагар</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KANSAS_CITY">
+      <Text>Канзас-Сити</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KAPISA">
+      <Text>Каписа</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KARACHI">
+      <Text>Карачи</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KARAGANDA">
+      <Text>Караганда</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KARLSRUHE">
+      <Text>Карлсруэ</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KARMANA">
+      <Text>Кармана</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KARNAK">
+      <Text>Карнак</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KASSEL">
+      <Text>Кассель</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KASSITE">
+      <Text>Касситы</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KAYSERI">
+      <Text>Кайсери</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KAZAKH">
+      <Text>Казахи</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KHABAROVSK">
+      <Text>Хабаровск</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KHAZAK">
+      <Text>Сечь</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KHOISAN">
+      <Text>Койсаны</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KHURASAN">
+      <Text>Хорасан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KIEL">
+      <Text>Киль</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KNIDOS">
+      <Text>Книд</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KNOSSOS">
+      <Text>Кносс</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KOBE">
+      <Text>Кобэ</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KOBLENZ">
+      <Text>Кобленц</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KOCHI">
+      <Text>Коти</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KOLHAPUR">
+      <Text>Колхапур</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KONYA">
+      <Text>Конья</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KOPTOS">
+      <Text>Копты</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KOREA">
+      <Text>Корея</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KOS">
+      <Text>Кос</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KOSTROMA">
+      <Text>Кострома</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KOUNAXA">
+      <Text>Кунакса</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KOZUKE">
+      <Text>Кодзукэ</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KRAKOW">
+      <Text>Краков</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KRASNOYARSK">
+      <Text>Красноярск</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KREFELD">
+      <Text>Крефельд</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KUFAH">
+      <Text>Куфа</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KUGANAKA">
+      <Text>Куганака</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KUNMING">
+      <Text>Куньмин</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KURSK">
+      <Text>Курск</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KUSHANS">
+      <Text>Кушаны</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KUSHINAGAR">
+      <Text>Кушинагар</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KYOTO">
+      <Text>Киото</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_KYRESKHATA">
+      <Text>Кирэсхата</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LA_ROCHELLE">
+      <Text>Ла-Рошель</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LAHORE">
+      <Text>Лахор</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LAMIA">
+      <Text>Ламия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LANCASTER">
+      <Text>Ланкастер</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LARISSA">
+      <Text>Ларисса</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LAS_VEGAS">
+      <Text>Лас-Вегас</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LAURIACUM">
+      <Text>Лауриак</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LE_BAM">
+      <Text>Ле Бам</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LE_HAVRE">
+      <Text>Гавр</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LE_MANS">
+      <Text>Ле-Ман</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LEEDS">
+      <Text>Лидс</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LEICESTER">
+      <Text>Лестер</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LEIPZIG">
+      <Text>Лейпциг</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LEVERKUSEN">
+      <Text>Леверкузен</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LHASA">
+      <Text>Лхаса</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LIAONING">
+      <Text>Ляонин</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LIBYAN">
+      <Text>Ливийцы</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LIGURIAN">
+      <Text>Лигурийцы</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LIJIANG">
+      <Text>Лицзян</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LILLE">
+      <Text>Лилль</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LIMOGES">
+      <Text>Лимож</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LISBON">
+      <Text>Лиссабон</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LISHT">
+      <Text>Лишт</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LITTLE_ROCK">
+      <Text>Литл-Рок</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LIVERPOOL">
+      <Text>Ливерпуль</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LONDINIUM">
+      <Text>Лондиниум</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LONDON">
+      <Text>Лондон</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LOS_ANGELES">
+      <Text>Лос-Анджелес</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LOURDES">
+      <Text>Лурд</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LOYANG">
+      <Text>Лоян</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LUCERIA">
+      <Text>Люцерия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LUDWIGSHAFEN">
+      <Text>Людвигсхафен</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LUGDUNUM">
+      <Text>Лугдунум</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LUXOR">
+      <Text>Луксор</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_LYONS">
+      <Text>Лион</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MACAU">
+      <Text>Макао</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MADURAI">
+      <Text>Мадурай</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MAGADAN">
+      <Text>Магадан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MAGNITOGORSK">
+      <Text>Магнитогорск</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MAGYAR">
+      <Text>Мадьяры</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MALATYA">
+      <Text>Малатья</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MALI">
+      <Text>Мали</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MALINALCO">
+      <Text>Малиналько</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MANCHESTER">
+      <Text>Манчестер</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MANSURA">
+      <Text>Мансура</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MAOMING">
+      <Text>Маомин</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MARAKANDA">
+      <Text>Мараканда</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MARMARIS">
+      <Text>Мармарис</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MARRAKECH">
+      <Text>Марракеш</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MARSEILLES">
+      <Text>Марсель</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MARSIN">
+      <Text>Марсин</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MATHURA">
+      <Text>Матура</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MATSUYAMA">
+      <Text>Мацуяма</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MAURYAN">
+      <Text>Маурьи</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MAYA">
+      <Text>Майя</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MECCA">
+      <Text>Мекка</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MEDINA">
+      <Text>Медина</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MEDIOLANUM">
+      <Text>Медиолан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MEGARA">
+      <Text>Мегара</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MEMPHIS">
+      <Text>Мемфис</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MENDES">
+      <Text>Мендес</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MERIMDE">
+      <Text>Меримде</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MERV">
+      <Text>Маргуш</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MERW">
+      <Text>Мерв</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MESSENE">
+      <Text>Мессена</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MIAMI">
+      <Text>Майями</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MILETOS">
+      <Text>Милет</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MILWAUKEE">
+      <Text>Милуоки</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MINNEAPOLIS">
+      <Text>Миннеаполис</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MINOAN">
+      <Text>Минойцы</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MONCHENGLADBACH">
+      <Text>Менхенгладбах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MONTEREY">
+      <Text>Монтерей</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MONTPELLIER">
+      <Text>Монпелье</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MOSCOW">
+      <Text>Москва</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MOSUL">
+      <Text>Мосул</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MUGLA">
+      <Text>Мугла</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MULHEIM">
+      <Text>Мульхайм</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MUMBAI">
+      <Text>Мумбаи</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MUMBLES">
+      <Text>Мамблс</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MUNICH">
+      <Text>Мюнхен</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MUNSTER">
+      <Text>Мюнстер</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MURMANSK">
+      <Text>Мурманск</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MUSCAT">
+      <Text>Маскат</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MYCENAE">
+      <Text>Микены</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MYCENIAN">
+      <Text>Микенцы</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_MYTILENE">
+      <Text>Митилена</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NAFPLION">
+      <Text>Навплия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NAGANO">
+      <Text>Нагано</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NAGASAKI">
+      <Text>Нагасаки</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NAGOYA">
+      <Text>Нагоя</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NAHA">
+      <Text>Наха</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NAJRAN">
+      <Text>Наджран</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NANCY">
+      <Text>Нанси</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NANJING">
+      <Text>Нанкин</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NANTES">
+      <Text>Нант</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NANTONG">
+      <Text>Наньтун</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NARA">
+      <Text>Нара</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NAUTAKA">
+      <Text>Наутака</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NAVAJO">
+      <Text>Навахо</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NAXOS">
+      <Text>Наксос</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NEAPOLIS">
+      <Text>Неаполь</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NEGADE">
+      <Text>Негада</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NEUSS">
+      <Text>Нейсс</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NEW_ORLEANS">
+      <Text>Новый Орлеан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NEW_YORK">
+      <Text>Нью-Йорк</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NEWCASTLE">
+      <Text>Ньюкасл</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NICE">
+      <Text>Ницца</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NICOPOLIS">
+      <Text>Никополис</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NIMES">
+      <Text>Ним</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NINGBO">
+      <Text>Нинбо</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NIZHNIYNOVGOROD">
+      <Text>Нижний Новгород</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NORWAY">
+      <Text>Норвегия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NORWICH">
+      <Text>Норидж</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NOTTHINGHAM">
+      <Text>Ноттингем</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NOVGOROD">
+      <Text>Новгород</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NOVOSIBIRSK">
+      <Text>Новосибирск</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NUBIAN">
+      <Text>Нубийцы</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_NUMIDIAN">
+      <Text>Нумидийцы</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_OAKLAND">
+      <Text>Окленд</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_OBERHAUSEN">
+      <Text>Оберхаузен</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_OIDU">
+      <Text>Ойду</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_OLDENBURG">
+      <Text>Ольденбург</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_OLMEC">
+      <Text>Ольмеки</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_OLYMPIA">
+      <Text>Олимпия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_OMAHA">
+      <Text>Омаха</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_OMBOS">
+      <Text>Омбос</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_OMI">
+      <Text>Оми</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_OMSK">
+      <Text>Омск</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_OPORTO">
+      <Text>Опорто</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ORAN">
+      <Text>Оран</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ORCHOMENOS">
+      <Text>Орхомен</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ORDU_BALIQ">
+      <Text>Орду-Балык</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ORENBURG">
+      <Text>Оренбург</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ORLANDO">
+      <Text>Орландо</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ORLEANS">
+      <Text>Орлеан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ORYX">
+      <Text>Орикс</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_OSAKA">
+      <Text>Осака</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_OSLO">
+      <Text>Осло</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_OSNABRUCK">
+      <Text>Оснабрюк</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_OSTIA">
+      <Text>Остия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_OXFORD">
+      <Text>Оксфорд</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PAISHIYAUVADA">
+      <Text>Пайшьяувада</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PALENQUE">
+      <Text>Паленке</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PALMYRA">
+      <Text>Пальмира</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PALO_ALTO">
+      <Text>Пало-Альто</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PARIS">
+      <Text>Париж</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PAROS">
+      <Text>Парос</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PARTHIAN">
+      <Text>Парфяне</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PASARGADAE">
+      <Text>Пасаргады</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PATALIPUTRA">
+      <Text>Паталипутра</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PATIGRBANA">
+      <Text>Патигрбана</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PATRAS">
+      <Text>Патры</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PELLA">
+      <Text>Пелла</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERGAMON">
+      <Text>Пергам</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERM">
+      <Text>Пермь</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PERSEPOLIS">
+      <Text>Персеполис</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PESHAWAR">
+      <Text>Пешавар</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PHARSALOS">
+      <Text>Фарсала</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PHEONICIAN">
+      <Text>Финикийцы</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PHILADELPHIA">
+      <Text>Филадельфия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PHNOM_PENH">
+      <Text>Пномпень</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PHOCAEA">
+      <Text>Фокея</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PHOENIX">
+      <Text>Феникс</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PHRADA">
+      <Text>Фрада</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PHRYGIAN">
+      <Text>Фригийцы</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PIRAMESSES">
+      <Text>Пер-Рамсес</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PITHOM">
+      <Text>Пер-Атум</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PITTSBURGH">
+      <Text>Питтсбург</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PLACENTIA">
+      <Text>Плаценция</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PLYMOUTH">
+      <Text>Плимут</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_POITIERS">
+      <Text>Пуатье</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_POLAND">
+      <Text>Польша</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_POLYNESIAN">
+      <Text>Полинезийцы</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PORTLAND">
+      <Text>Портленд</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PORTSMOUTH">
+      <Text>Портсмут</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PORTUGAL">
+      <Text>Португалия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_POTSDAM">
+      <Text>Потсдам</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PRAYAGA">
+      <Text>Праяга</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PRISTINA">
+      <Text>Приштина</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PSKOV">
+      <Text>Псков</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PTEIRA">
+      <Text>Птейра</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PUSAN">
+      <Text>Пусан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_PYLOS">
+      <Text>Пилос</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_QATNA">
+      <Text>Катна</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_RAJAGRIHA">
+      <Text>Раджагриха</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_RAQOTE">
+      <Text>Ракотис</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_RAVENNA">
+      <Text>Равенна</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_READING">
+      <Text>Рединг</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_RECKLINGHAUSEN">
+      <Text>Реклингхаузен</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_REIMS">
+      <Text>Реймс</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_RENNES">
+      <Text>Ренн</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_RENO">
+      <Text>Рено</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_REY">
+      <Text>Реи</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_RHEIMS">
+      <Text>Труа</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_RHODES">
+      <Text>Родос</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_RICHMOND">
+      <Text>Ричмонд</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ROMANIA">
+      <Text>Румыния</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ROME">
+      <Text>Рим</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ROSTOCK">
+      <Text>Росток</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ROSTOV">
+      <Text>Ростов</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ROUEN">
+      <Text>Руан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SAARBRUCKEN">
+      <Text>Саарбрюккен</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SACRAMENTO">
+      <Text>Сакраменто</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SADO">
+      <Text>Садо</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SAIGON">
+      <Text>Сайгон</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SAINT_ETIENNE">
+      <Text>Сент-Этьен</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SAKAE">
+      <Text>Саки</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SALISBURY">
+      <Text>Солсбери</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SALT_LAKE_CITY">
+      <Text>Солт-Лейк-Сити</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SAMARA">
+      <Text>Самара</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SAMOS">
+      <Text>Самос</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SAMSUN">
+      <Text>Самсун</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SAN_ANTONIO">
+      <Text>Сан-Антонио</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SAN_DIEGO">
+      <Text>Сан-Диего</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SAN_FRANCISCO">
+      <Text>Сан-Франциско</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SANAA">
+      <Text>Сана</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SANTA_CRUZ">
+      <Text>Санта-Крус</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SANTA_FE">
+      <Text>Санта-Фе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SANTA_MONICA">
+      <Text>Санта-Моника</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SAPPORO">
+      <Text>Саппоро</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SARATOV">
+      <Text>Саратов</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SARDIS">
+      <Text>Сарды</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SARMATIAN">
+      <Text>Сарматы</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SATICULA">
+      <Text>Сатикула</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SATRICUM">
+      <Text>Сатрикум</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SATSUMA">
+      <Text>Сацума</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SAVANNAH">
+      <Text>Саванна</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SAXON">
+      <Text>Саксы</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SCOTLAND">
+      <Text>Шотландия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SCYTHIAN">
+      <Text>Скифы</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SEATTLE">
+      <Text>Сиэтл</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SEBENNYTUS">
+      <Text>Себеннит</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SEMNA">
+      <Text>Семна</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SENAGALLICA">
+      <Text>Сена Галльская</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SEOUL">
+      <Text>Сеул</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SERBIA">
+      <Text>Сербия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SETIA">
+      <Text>Сетия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SHANDONG">
+      <Text>Шандун</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SHANGHAI">
+      <Text>Шанхай</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SHANGIAN">
+      <Text>Тсонга</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SHAOGUAN">
+      <Text>Шаогуань</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SHEFFIELD">
+      <Text>Шеффилд</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SHENYANG">
+      <Text>Шэньян</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SHIGATSE">
+      <Text>Шигадзе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SHIHR">
+      <Text>Шихр</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SHIMONOSEKI">
+      <Text>Симоносеки</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SHIRAZ">
+      <Text>Шираз</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SICYON">
+      <Text>Сикион</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SIGNIA">
+      <Text>Сигния</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SILIFKE">
+      <Text>Силифке</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SINOP">
+      <Text>Синоп</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SIRMIUM">
+      <Text>Сирмий</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SIVAS">
+      <Text>Севастия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SMOLENSK">
+      <Text>Смоленск</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SMYRNA">
+      <Text>Смирна</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SOLEB">
+      <Text>Солеб</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SOLINGEN">
+      <Text>Золинген</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SORA">
+      <Text>Сора</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SOUTHAMPTON">
+      <Text>Саутгемптон</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SPARTA">
+      <Text>Спарта</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SPOKANE">
+      <Text>Спокан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SPRINGFIELD">
+      <Text>Спрингфилд</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SRAVASTI">
+      <Text>Шравасти</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ST_LOUIS">
+      <Text>Сент-Луис</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_STARAYARUSSA">
+      <Text>Старая Русса</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_STOCKHOLM">
+      <Text>Стокгольм</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_STPETERSBURG">
+      <Text>Санкт-Петербург</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_STRASBOURG">
+      <Text>Страсбург</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_STUTTGART">
+      <Text>Штутгарт</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SUESSA">
+      <Text>Свесса</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SUHAR">
+      <Text>Сохар</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SUO">
+      <Text>Суо</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SUSA">
+      <Text>Сузы</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SUTRIUM">
+      <Text>Сутрий</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SUZDAL">
+      <Text>Суздаль</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SUZHOU">
+      <Text>Сучжоу</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SWEDEN">
+      <Text>Швеция</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SWITZERLAND">
+      <Text>Швейцария</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_SYRACUSE">
+      <Text>Сиракузы</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TABUK">
+      <Text>Табук</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TACOMA">
+      <Text>Такома</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TAIF">
+      <Text>Таиф</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TAINAN">
+      <Text>Тайнань</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TAIPEI">
+      <Text>Тайбэй</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TAIYUAN">
+      <Text>Тайюань</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TAKAYAMA">
+      <Text>Такаяма</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TAMPA_BAY">
+      <Text>Тампа-Бэй</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TAMUIN">
+      <Text>Тамуин</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TANGIER">
+      <Text>Танжер</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TANIS">
+      <Text>Танис</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TARENTUM">
+      <Text>Тарент</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TARSUS">
+      <Text>Тарс</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TARTAR">
+      <Text>Тартар</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TASA">
+      <Text>Таза</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TEAYO">
+      <Text>Теайо</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TEGEA">
+      <Text>Тегея</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TENOCHTITLAN">
+      <Text>Теночтитлан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TEOIHUACAN">
+      <Text>Теоиуакан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TEOTIHUACAN">
+      <Text>Теотиуакан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TEPETLAOXTOC">
+      <Text>Тепетлаосток</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TEPEXPAN">
+      <Text>Тепешпан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TEQUIXQUIAC">
+      <Text>Текискьяк</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TEURNIA">
+      <Text>Теурния</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TEXCOCO">
+      <Text>Тескоко</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_THANJAVUR">
+      <Text>Танджавур</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_THEBES">
+      <Text>Фивы</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_THIS">
+      <Text>Чени</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_THRACIAN">
+      <Text>Фракийцы</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TIANJIN">
+      <Text>Тяньцзинь</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TIBET">
+      <Text>Тибет</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TIKAL">
+      <Text>Тикаль</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TIMBUKTU">
+      <Text>Тимбукту</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TIRUCHIRAPALLI">
+      <Text>Тиручирапалли</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TIRYNS">
+      <Text>Тиринф</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TLACOPAN">
+      <Text>Тлакопан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TLALMANALCO">
+      <Text>Тлалманалько</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TLAPANALOYA">
+      <Text>Тлапаналойя</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TLATELOLCO">
+      <Text>Тлателолько</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TLAXCALA">
+      <Text>Тласкала</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TOBOLSK">
+      <Text>Тобольск</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TOKYO">
+      <Text>Токио</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TOULON">
+      <Text>Тулон</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TOULOUSE">
+      <Text>Тулуза</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TOURS">
+      <Text>Тур</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TOYAMA">
+      <Text>Тояма</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TRABZON">
+      <Text>Трабзон</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TRES_ZAPOTES">
+      <Text>Трес-Сапотес</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TREVERI">
+      <Text>Треверы</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TRIPOLI">
+      <Text>Триполи</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TULA">
+      <Text>Тула</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TULTITAN">
+      <Text>Тултитан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TUNIS">
+      <Text>Тунис</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TURENGTEPE">
+      <Text>Туренг-Тепе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TUSHPA">
+      <Text>Тушпа</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TVER">
+      <Text>Тверь</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_TZINTZUNTZEN">
+      <Text>Цинцунцан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_UIGHUR">
+      <Text>Уйгуры</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_UJJAIN">
+      <Text>Удджайн</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ULUNDI">
+      <Text>Улунди</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_UMGUNGUNDLOVU">
+      <Text>Умгунгундлову</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_URATYUBE">
+      <Text>Истаравшан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_URFA">
+      <Text>Урфа</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_UZBEK">
+      <Text>Узбеки</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_VAN">
+      <Text>Ван</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_VANDAL">
+      <Text>Вандалы</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_VARANASI">
+      <Text>Варанаси</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_VELITRAE">
+      <Text>Велитры</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_VERONA">
+      <Text>Верона</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_VIETNAM">
+      <Text>Вьетнам</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_VIJAYANAGARA">
+      <Text>Виджаянагара</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_VIROCONIUM">
+      <Text>Вироконий</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_VISIGOTH">
+      <Text>Вестготы</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_VLADIMIR">
+      <Text>Владимир</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_VLADIVOSTOK">
+      <Text>Владивосток</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_VOLOGDA">
+      <Text>Вологда</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_VORONEZH">
+      <Text>Воронеж</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_WARSAW">
+      <Text>Варшава</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_WARWICK">
+      <Text>Уорвик</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_WASHINGTON">
+      <Text>Вашингтон</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_WEIFANG">
+      <Text>Вэйфан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_WIESBADEN">
+      <Text>Висбаден</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_WINCHESTER">
+      <Text>Винчестер</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_WOLFSBURG">
+      <Text>Вольфсбург</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_WUPPERTAL">
+      <Text>Вупперталь</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_WURZBURG">
+      <Text>Вюрцбург</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_WUXI">
+      <Text>Уси</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_XIAN">
+      <Text>Сиань</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_XIKANG">
+      <Text>Сикан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_XINYU">
+      <Text>Синьюй</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_XINZHENG">
+      <Text>Синьчжэн</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_XOCHICALCO">
+      <Text>Шочикалько</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_YAKUTSK">
+      <Text>Якутск</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_YAMAMA">
+      <Text>Ямама</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_YANGJIANG">
+      <Text>Янцзян</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_YANGZHOU">
+      <Text>Янчжоу</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_YAROSLAVI">
+      <Text>Ярославль</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_YAYOI">
+      <Text>Яей</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_YEKATERINBURG">
+      <Text>Екатеринбург</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_YICHANG">
+      <Text>Ичан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_YINGTAN">
+      <Text>Интань</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_YOKOHAMA">
+      <Text>Иокогама</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_YORK">
+      <Text>Йорк</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_YUECHI">
+      <Text>Юэчжи</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ZAPOTEC">
+      <Text>Сапотеки</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ZHOU">
+      <Text>Чжоу</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ZITLALTEPEC">
+      <Text>Цитлальтепек</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ZOHAK">
+      <Text>Заххак</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ZONGULDAK">
+      <Text>Зонгулдак</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ZULU">
+      <Text>Зулу</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NAME_ZURICH">
+      <Text>Цюрих</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_AKRON">
+      <Text>Акрон</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_AKWESASNE">
+      <Text>Аквесасне</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_BAY_OF_QUINTE">
+      <Text>Бэй-оф-Квинт</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_BRANTFORD">
+      <Text>Брентфорд</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_BUFFALO">
+      <Text>Баффало</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_BUFFALO_CREEK">
+      <Text>Буффало-Крик</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_CANAJOHARIE">
+      <Text>Канаджохари</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_CANANDAIGUA_LAKE">
+      <Text>Канандайгуа-Лейк</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_CAYUGA_CASTLE">
+      <Text>Кайюга-касл</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_CHONDOTE">
+      <Text>Чондоте</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_CUBA">
+      <Text>Кьюба</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_GANIENKEH">
+      <Text>Ганиенке</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_GENESSE_RIVER">
+      <Text>Джинеси-Ривер</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_GOWANDA">
+      <Text>Гоуанда</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_GRAND_RIVER">
+      <Text>Гранд-Ривер</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_GREEN_BAY">
+      <Text>Грин-Бей</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_HAHTA">
+      <Text>Хахта</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_KANATSIOKAREKE">
+      <Text>Канатсиокареке</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_KANAWALE">
+      <Text>Канауале</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_KANESATAKE">
+      <Text>Канесатаке</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_KANONWALOHALE">
+      <Text>Канонуалохале</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_LAKE_SIMCOE">
+      <Text>Симко-Лейк</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_MOHAWK_VALLEY">
+      <Text>Мохок-Вэлли</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_MONTREAL">
+      <Text>Монреаль</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_NEDROW">
+      <Text>Недроу</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_ONEIDA_LAKE">
+      <Text>Онейда-Лейк</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_ONONDAGA">
+      <Text>Онондага</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_OSININKA">
+      <Text>Осининка</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_SALAMANCA">
+      <Text>Саламанка</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_SCHOHARIE">
+      <Text>Шохарие</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_SOUTHWOLD">
+      <Text>Саузволд</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_SYRACUSE">
+      <Text>Сиракузы</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IROQ_CITY_NAME_TYENDINAGA">
+      <Text>Тьендинага</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SIAM_CITY_NAME_AYUTTHAYA">
+      <Text>Аюттхайя</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SIAM_CITY_NAME_BAN_PHAI">
+      <Text>Бан-Пхай</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SIAM_CITY_NAME_CHAINAT">
+      <Text>Чаинат</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SIAM_CITY_NAME_CHIANG_THONG">
+      <Text>Чианг-Тхонг</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SIAM_CITY_NAME_HONGSAWADEE">
+      <Text>Гонгсавади</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SIAM_CITY_NAME_KAMPHAENG_PHET">
+      <Text>Кампхенг-Пхет</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SIAM_CITY_NAME_KHAN_KAEN">
+      <Text>Кхан-Кен</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SIAM_CITY_NAME_LAMPANG">
+      <Text>Лампанг</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SIAM_CITY_NAME_LAP_BURI">
+      <Text>Лап-Бури</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SIAM_CITY_NAME_LOCI">
+      <Text>Лочи</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SIAM_CITY_NAME_LUANG_PRABANG">
+      <Text>Луанг-Прабанг</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SIAM_CITY_NAME_MARTABAN">
+      <Text>Мартабан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SIAM_CITY_NAME_MUANG_SALUANG">
+      <Text>Муанг-Салуанг</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SIAM_CITY_NAME_NAKHON_CHUM">
+      <Text>Накхон-Чхум</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SIAM_CITY_NAME_NAKHON_SAWAN">
+      <Text>Накхон-Саван</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SIAM_CITY_NAME_NAKHON_SI_THAMMARAT">
+      <Text>Накхон-Си-Тхаммарат</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SIAM_CITY_NAME_NAN">
+      <Text>Нан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SIAM_CITY_NAME_PHITSANULOK">
+      <Text>Пхитсанулок</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SIAM_CITY_NAME_PHRAE">
+      <Text>Пхре</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SIAM_CITY_NAME_RATCHASIMA">
+      <Text>Ратчхасима</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SIAM_CITY_NAME_SI_SATCHANALAI">
+      <Text>Си-Сатчханалай</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SIAM_CITY_NAME_SUKHOTHAI">
+      <Text>Сукотай</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SIAM_CITY_NAME_SUPHANBURI">
+      <Text>Супханбури</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SIAM_CITY_NAME_SURIN">
+      <Text>Сурин</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SIAM_CITY_NAME_TAK">
+      <Text>Так</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SIAM_CITY_NAME_TAPHAN_HIN">
+      <Text>Тапхан-Хин</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SIAM_CITY_NAME_THAWAII">
+      <Text>Тхаваии</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SIAM_CITY_NAME_UTHAI_THANI">
+      <Text>Утхан-Тхани</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SIAM_CITY_NAME_UTTARADIT">
+      <Text>Уттрадит</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SIAM_CITY_NAME_VIENTIANE">
+      <Text>Вьентьян</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SONG_CITY_NAME_AGADEZ">
+      <Text>Агадез</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SONG_CITY_NAME_ARGUNGU">
+      <Text>Аргунгу</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SONG_CITY_NAME_AWDAGHOST">
+      <Text>Авдагхост</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SONG_CITY_NAME_BAMAKO">
+      <Text>Бамако</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SONG_CITY_NAME_BAMBA">
+      <Text>Бамба</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SONG_CITY_NAME_BOUSSA">
+      <Text>Боусса</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SONG_CITY_NAME_DAKAR">
+      <Text>Дакар</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SONG_CITY_NAME_DORI">
+      <Text>Дори</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SONG_CITY_NAME_GAO">
+      <Text>Гао</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SONG_CITY_NAME_GWANDU">
+      <Text>Гванду</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SONG_CITY_NAME_JENNE">
+      <Text>Дженне</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SONG_CITY_NAME_KANO">
+      <Text>Кано</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SONG_CITY_NAME_KAYES">
+      <Text>Кайе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SONG_CITY_NAME_KEBBI">
+      <Text>Кебби</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SONG_CITY_NAME_KUKIA">
+      <Text>Кукия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SONG_CITY_NAME_KUMBI_SALEH">
+      <Text>Кумби-Салех</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SONG_CITY_NAME_MOPTI">
+      <Text>Мопти</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SONG_CITY_NAME_NIAMEY">
+      <Text>Ниамей</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SONG_CITY_NAME_OUADANE">
+      <Text>Уадан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SONG_CITY_NAME_OUATAGOUNA">
+      <Text>Куатагуна</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SONG_CITY_NAME_SEGOU">
+      <Text>Сегоу</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SONG_CITY_NAME_TADMEKKET">
+      <Text>Тадмеккет</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SONG_CITY_NAME_TAGHAZA">
+      <Text>Тагхаза</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SONG_CITY_NAME_TEGDAOUST">
+      <Text>Тегдауст</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SONG_CITY_NAME_TEKEDDA">
+      <Text>Текедда</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SONG_CITY_NAME_TOMBOUCTU">
+      <Text>Томбукту</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SONG_CITY_NAME_TONDIBI">
+      <Text>Тондиби</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SONG_CITY_NAME_TORODI">
+      <Text>Тороди</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SONG_CITY_NAME_WA">
+      <Text>Ва</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SONG_CITY_NAME_WALATA">
+      <Text>Валата</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+  </Language_RU_RU>
+</GameData>

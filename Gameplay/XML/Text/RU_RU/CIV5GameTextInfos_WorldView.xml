@@ -1,0 +1,1055 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_ACPANEL_END_TURN">
+      <Text>КОНЕЦ ХОДА</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_BLOCKED_BY_FEATURE">
+      <Text>На этой клетке есть {@2_FeatureName}. Чтобы очистить клетку, нужно изучить [COLOR_RED]{@1_TechName[4]}[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_BLOCKED_OUTSIDE_TERRITORY">
+      <Text>{@1_ImprovementName[4]} нельзя строить вне вашей территории.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_BLOCKED_PREREQ_TECH">
+      <Text>Для строительства {@2_ImprovementName[2]} нужно изучить [COLOR_RED]{@1_TechName[4]}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_CONNECTS_RESOURCE">
+      <Text>Включает {1_Icon} [COLOR_POSITIVE_TEXT]{@2_ResouceName[4]}[ENDCOLOR] с этой клетки в торговую сеть империи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_FEATURE_CLEARED">
+      <Text>{@1_FeatureName} на этой клетке {@1: plural 1?исчезнет; 2?исчезнут; other?исчезнет;}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_NUM_TURNS">
+      <Text>{1_Num} {1_Num: plural 1?ход; 2?хода; 3?ходов;}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_ANNEX_TT">
+      <Text>Щелкните, чтобы аннексировать этот город.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_BLOCKADED">
+      <Text>Вражеский юнит [ICON_BLOCKADED] блокирует город!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_BURNING">
+      <Text>Город будет [ICON_RAZING] разрушен через {1_Num} хд.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_CONNECTED">
+      <Text>Между этим городом и [ICON_CAPITAL] столицей установлен [ICON_CONNECTED] торговый путь!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_CURRENTLY_PRODUCING_99PLUS_TT">
+      <Text>{@2_BldgName} {@2: plural 1?будет; 2?будут; other?будет;} создаваться в городе {@1_CityName} больше 99 ходов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_CURRENTLY_PRODUCING_TT">
+      <Text>Создание {@2_BldgName[2]} в городе {@1_CityName} будет завершено через {3_Num} {3_Num: plural 1?ход; 2?хода; other?ходов;}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_ENTER_CITY_SCREEN">
+      <Text>[COLOR_YELLOW]Щелкните здесь, чтобы открыть экран города.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_MAKE_RANGED_ATTACK">
+      <Text>[COLOR_YELLOW]Щелкните здесь, чтобы город начал дистанционную атаку.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_NOT_PRODUCING">
+      <Text>Город {1_CityName} сейчас ничего не производит.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_OCCUPIED">
+      <Text>Город [ICON_OCCUPIED] оккупирован! Он будет порождать дополнительное [ICON_HAPPINESS_4] недовольство, пока в нем не построят суд.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_OF">
+      <Text>{@1_CivAdjective} город {2_CityName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_PUPPET">
+      <Text>Это [ICON_PUPPET] город-сателлит! Вы не можете принимать за него решения, пока он сохраняет такой статус.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_PUPPET_OTHER">
+      <Text>Это [ICON_PUPPET] город-сателлит</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_RESISTANCE">
+      <Text>Ходов до окончания [ICON_RESISTANCE] сопротивления города: {1_Num}! Пока город сопротивляется, он не производит ничего полезного.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_SCREEN_EXIT_TOOLTIP">
+      <Text>Закрыть экран города и вернуться к карте мира.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STARVING_TT">
+      <Text>Жители города {1_CityName} [COLOR_WARNING_TEXT]голодают![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_BARB_QUEST_LONG">
+      <Text>Правитель{@1: gender masculine? ; feminine? ; neuter? ; other? города-государства ;}{@1_CivName[2]} желает, чтобы вы уничтожили варварское поселение в этой клетке</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_BARB_QUEST_SHORT">
+      <Text>Задание города-государства</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STOPPED_GROWING_TT">
+      <Text>{@1: gender masculine? ; feminine? ; neuter? ; other?Город ;}{1_CityName} прекратил рост, и его население останется неизменным ({2_Num}).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_WILL_GROW_TT">
+      <Text>Город {1_CityName} увеличится с размера [COLOR_YELLOW]{2_Num}[ENDCOLOR] до размера [COLOR_YELLOW]{3_Num}[ENDCOLOR] за [COLOR_GREEN]{4_NumTurns}[ENDCOLOR] {4_NumTurns: plural 1?ход; 2?хода; 3?ходов;}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_BLOCKADED_CITY_TILE">
+      <Text>Эту клетку блокирует враг. Вы не сможете обрабатывать ее, пока противник не будет убран.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_BUILDING_LIST">
+      <Text>Список зданий</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_BUY_PLOT_TEXT">
+      <Text>Текст "Покупка клетки"</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_BUY_TILE">
+      <Text>Купить клетку</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_BUY_TILE_TT">
+      <Text>Потратьте [ICON_GOLD] золото на покупку приграничных клеток для ваших поселенцев.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_BUYPLOT_TT">
+      <Text>Когда у вас будет достаточно [ICON_GOLD] золота, вы сможете купить одну из подсвеченных клеток.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_CHANGE_PROD">
+      <Text>Изменить проект</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_CHANGE_PROD_TT">
+      <Text>Меняет проект, над которым ведется работа в этом городе. Одновременно можно строить только один объект.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_CHOOSE_PROD">
+      <Text>Выбрать проект</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_CHOOSE_PROD_TT">
+      <Text>Выбирает проект для строительства в этом городе. Одновременно можно строить только что-нибудь одно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_CITIZEN_ALLOCATION">
+      <Text>Расстановка горожан</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_CITIZEN_ICON_TT">
+      <Text>Символ горожанина</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_CITY_CENTER">
+      <Text>Центр города обрабатывается автоматически. Щелкните здесь, чтобы помощник перераспределил рабочую силу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_CITY_COMB_STRENGTH_TT">
+      <Text>Боевая мощь города</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_CITYINFO_TEXT">
+      <Text>Информация о городе</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_CLAIM_NEW_LAND">
+      <Text>Купить этот участок земли за {1_Num} [ICON_GOLD] золота.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_EACH">
+      <Text>каждый</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_EMPTY_SLOT">
+      <Text>Пустая ячейка специалиста</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_ENEMY_UNIT_CITY_TILE">
+      <Text>На этой клетке находится враг. Вы не сможете обрабатывать ее, пока враг не будет убран.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_AVOID_GROWTH_TEXT">
+      <Text>Нулевая рождаемость</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_AVOID_GROWTH_TT">
+      <Text>Приказывает сохранять численность населения.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_BALANCED_TEXT">
+      <Text>По умолчанию</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_BALANCED_TT">
+      <Text>Приказывать городу расставлять горожан по умолчанию.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_BUTTON_C_TEXT">
+      <Text>Отменить приоритеты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_BUTTON_O_TEXT">
+      <Text>Задать приоритеты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_BUTTON_TT">
+      <Text>Изменить приоритеты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_CULTURE_TEXT">
+      <Text>Приоритет [ICON_CULTURE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_CULTURE_TT">
+      <Text>Приказывает сосредоточиться на развитии [ICON_CULTURE] культуры.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_FOOD_TEXT">
+      <Text>Приоритет [ICON_FOOD]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_FOOD_TT">
+      <Text>Приказывает сосредоточиться на производстве [ICON_FOOD] пищи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_GOLD_TEXT">
+      <Text>Приоритет [ICON_GOLD]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_GOLD_TT">
+      <Text>Приказывает сосредоточиться на производстве [ICON_GOLD] золота.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_GREAT_PERSON_TEXT">
+      <Text>Приоритет [ICON_GREAT_PEOPLE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_GREAT_PERSON_TT">
+      <Text>Приказывает сосредоточиться на создании [ICON_GREAT_PEOPLE] великих людей.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_PROD_TEXT">
+      <Text>Приоритет [ICON_PRODUCTION]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_PROD_TT">
+      <Text>Приказывает сосредоточиться на [ICON_PRODUCTION] производстве.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_RESEARCH_TEXT">
+      <Text>Приоритет [ICON_RESEARCH]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_RESEARCH_TT">
+      <Text>Приказывает сосредоточиться на развитии [ICON_RESEARCH] науки.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_RESET_TEXT">
+      <Text>Переназначить клетки</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOCUS_RESET_TT">
+      <Text>Снимает установленные приоритеты клеток.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOOD_IN_TURNS">
+      <Text>{1_Num} [ICON_FOOD] за ход, {2_Num} {2_Num: plural 1?ход; 2?хода; 3?ходов;}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOOD_IN_TURNS_TT">
+      <Text>Через {1_Num} {1_Num: plural 1?ход; 2?хода; 3?ходов;} ваш город вырастет, и появится новый горожанин, который сможет добывать ресурсы с клетки рядом с городом.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FOOD_TEXT">
+      <Text>Пища</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_FORCED_WORK_TILE">
+      <Text>Вы выбрали эту клетку для обработки.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_GG_PROGRGRESS">
+      <Text>Великий полководец</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_GP_PROGRGRESS">
+      <Text>Великий человек</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_GUVNA_WORK_TILE">
+      <Text>Ваш помощник выбрал эту клетку для обработки. Щелкните здесь, чтобы отдать другой приказ.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_MAINTENANCE">
+      <Text>Содержание</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_MANUAL_SPEC_CONTROL">
+      <Text>Ручной контроль</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_NEED_MONEY_BUY_TILE">
+      <Text>Для покупки этого участка требуется {1_Num} [ICON_GOLD] золота.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_NEED_MONEY_BUY_TILE_TT">
+      <Text>Ваше поселение приобретет одну из подсвеченных клеток, когда у вас будет для этого достаточно [ICON_GOLD] золота.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_NUTHA_CITY_TILE">
+      <Text>Эту клетку обрабатывает другой город вашего государства. Можно поставить на нее жителя этого города, но тогда другой город не сможет обрабатывать ее.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_OFF">
+      <Text>ВЫКЛ.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_OTHER">
+      <Text>Другое</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_PERTURN_TEXT">
+      <Text>+{1_perTurn:number "#.##"}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_PERTURN_TEXT_NEGATIVE">
+      <Text>[COLOR_WARNING_TEXT]{1_perTurn:number "#.##"}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_PLACEHOLDER_TT">
+      <Text>Метка-заполнитель</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_PROD_METER_TT">
+      <Text>Щелкните правой кнопкой мыши, чтобы получить более подробную информацию.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_PRODUCE_BUTTON">
+      <Text>Создать</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_PRODUCE_RESEARCH">
+      <Text>Производить исследования</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_PRODUCE_WEALTH">
+      <Text>Производить золото</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_PURCHASE_BUTTON">
+      <Text>Купить</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_PURCHASE_TT">
+      <Text>Если у вас достаточно [ICON_GOLD] золота, вы можете немедленно приобрести юнит или здание.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_Q_DOWN_TEXT">
+      <Text>Переместить вниз в очереди производства.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_Q_UP_TEXT">
+      <Text>Переместить вверх в очереди производства.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_Q_X_TEXT">
+      <Text>Удалить из очереди производства.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_QUEUE_C">
+      <Text>Скрыть очередь</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_QUEUE_C_TT">
+      <Text>Закрывает очередь производства</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_QUEUE_O">
+      <Text>Показать очередь</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_QUEUE_O_TT">
+      <Text>Открывает очередь производства</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_QUEUE_PROD">
+      <Text>Добавить в очередь</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_QUEUE_PROD_TT">
+      <Text>Добавляет дополнительный объект в очередь производства (до шести объектов). Одновременно может вестись работа только над чем-то одним.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_QUEUE_SELECTION">
+      <Text>Выбор очереди</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_RAZE_BUTTON_DISABLED_BECAUSE_CAPITAL_TT">
+      <Text>Невозможно разрушить город, который прежде был столицей.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_RAZE_BUTTON_TEXT">
+      <Text>Разрушить</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_RAZE_BUTTON_TT">
+      <Text>Сжечь его дотла!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_RESOURCE_DEMANDED">
+      <Text>Требуется ресурс: [COLOR_RED]{1_ResourceName}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_RESOURCE_DEMANDED_TT">
+      <Text>Если вы соедините дорогами этот ресурс со своей торговой сетью, то в этом городе начнется День любви к отчизне. Это увеличит количество [ICON_FOOD] пищи!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_RESOURCE_FULFILLED_TT">
+      <Text>В этом городе проходит День любви к отчизне, что увеличивает прирост [ICON_FOOD]!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_RETURN_TO_MAP">
+      <Text>Вернуться на карту</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_RETURN_TT">
+      <Text>Вернуться</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_SPECIALISTCONTROL_TT">
+      <Text>Переключает ручной контроль над созданием специалистов на автоматический и обратно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_STAGNATION_TEXT">
+      <Text>[COLOR_YELLOW]Застой[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_STARVATION_TEXT">
+      <Text>[COLOR_WARNING_TEXT]Голод[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_TOGGLE_FOCUS_TT">
+      <Text>Изменяет приоритет города</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_TURNS_TILL_CITIZEN_TEXT">
+      <Text>{1_Turns:number} {1_Turns: plural 1?ход; 2?хода; 3?ходов;} до нового горожанина</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_TURNS_TILL_TILE_TEXT">
+      <Text>{1_Turns:number} {1_Turns: plural 1?ход; 2?хода; 3?ходов;} до расширения границ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_UNEMPLOYED_TEXT">
+      <Text>Безработные горожане</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_UNEMPLOYED_TOOLTIP">
+      <Text>Приказать помощнику заново распределить рабочую силу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_UNRAZE_BUTTON_TEXT">
+      <Text>Прекратить</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_UNRAZE_BUTTON_TT">
+      <Text>Останавливает разорение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_UNWORKED_CITY_TILE">
+      <Text>Эта клетка в данный момент не обрабатывается. При желании можно разместить здесь горожанина, но так вы нарушите возможные планы автоматического помощника.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_WLTKD_COUNTER">
+      <Text>День любви к отчизне! ({1_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_TOOLTIP">
+      <Text>Открывает Цивилопедию, где можно узнать почти обо всех аспектах игры.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOMACY_OVERVIEW">
+      <Text>Дипломатия</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ECONOMIC_OVERVIEW">
+      <Text>Экономика</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_ADJACENT_FRIEND_UNIT_BONUS">
+      <Text>Соседний дружеский юнит</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_AIR_INTERCEPT_WARNING1">
+      <Text>[COLOR_YELLOW]Урон увеличен: грозит перехват[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_AIR_INTERCEPT_WARNING2">
+      <Text>[COLOR_YELLOW]истребителями или ПВО[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_AMPHIBIOUS_ATTACK">
+      <Text>Атака морского десанта</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_ATTACK_CITIES">
+      <Text>Бонус против городов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_ATTACK_CITIES_PENALTY">
+      <Text>Штраф против городов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_ATTACK_IN_FRIEND_LANDS">
+      <Text>Атака на друж. землю</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_ATTACK_INTO_BONUS">
+      <Text>Бонус к атаке на: {1_TerrainType: lower}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_ATTACK_MOD_BONUS">
+      <Text>Бонус к атаке</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_ATTACK_OVER_RIVER">
+      <Text>Атака через реку</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_BONUS_CITY_STATE">
+      <Text>Бонус города-государства</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_BONUS_DEFENSE_TERRAIN">
+      <Text>Бонус к защите на: {1_TerrainType: lower}: {2_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_BONUS_GOLDEN_AGE">
+      <Text>Бонус золотого века</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_BONUS_RELIGIOUS_BELIEF">
+      <Text>Бонус религиозных верований</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_BONUS_VS_CLASS">
+      <Text>Бонус против {@1_UnitType[2]}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_BONUS_VS_DOMAIN">
+      <Text>Бонус против типа юнита</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_BONUS_VS_FORT_UNITS">
+      <Text>Бонус против окопавшихся частей</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_BONUS_VS_WOUND_UNITS">
+      <Text>Бонус против частей, уже понесших урон</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_CURRENT_STATUS">
+      <Text>Текущий статус</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_DEFENSE_BONUS">
+      <Text>Бонус к защите</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_EMPIRE_UNHAPPY_PENALTY">
+      <Text>[ICON_HAPPINESS_4] Крайнее недовольство</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_EXTRA_PERCENT">
+      <Text>Боевой бонус</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_FIGHT_AT_HOME_BONUS">
+      <Text>Бонус на дружественной земле</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_FLANKING_BONUS">
+      <Text>Бонус за атаку с флангов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_FORTIFICATION_BONUS">
+      <Text>Бонус укреплений</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_GARRISONED_CITY_RANGE_BONUS">
+      <Text>Бонус гарнизона</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_GG_NEAR">
+      <Text>Близость к великому полководцу</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_HILL_ATTACK_BONUS">
+      <Text>Бонус к атаке с холма</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_HILL_DEFENSE_BONUS">
+      <Text>Бонус к защите на холме</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_IMPROVEMENT_NEAR">
+      <Text>Бонус соседнего улучшения</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_LOWER_STRENGTH">
+      <Text>Боевая мощь</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_MAJOR_DEFEAT">
+      <Text>ТЯЖЕЛОЕ ПОРАЖЕНИЕ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_MAJOR_VICTORY">
+      <Text>ЗНАЧИТЕЛЬНАЯ ПОБЕДА</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_MINOR_DEFEAT">
+      <Text>ПОРАЖЕНИЕ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_MINOR_VICTORY">
+      <Text>ПОБЕДА</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_MOVEMENT">
+      <Text>Перемещение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_MY_COMBAT_INFO">
+      <Text>МОЯ БОЕВАЯ СВОДКА</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_OPEN_TERRAIN_BONUS">
+      <Text>Бонус к атаке на открытой местности</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_OPEN_TERRAIN_DEF_BONUS">
+      <Text>Бонус к защите на открытой местности</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_OPEN_TERRAIN_RANGE_BONUS">
+      <Text>Бонус к стрельбе на открытой местности</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_OUTSIDE_HOME_BONUS">
+      <Text>Бонус вне друж. земель</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_POLICY_ATTACK_BONUS">
+      <Text>Временный бонус к атаке ({1_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_RANGED_ATTACK">
+      <Text>Дальнобойная атака</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_RANGED_ATTACK_MODIFIER">
+      <Text>Влияние дальнего боя</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_REVERSE_GG_NEAR">
+      <Text>Рядом с военным танцем врага</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_RISKY_ATTACK">
+      <Text>Рискованная атака</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_ROUGH_TERRAIN_BONUS">
+      <Text>Бонус к атаке на пересеченной местности</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_ROUGH_TERRAIN_DEF_BONUS">
+      <Text>Бонус к защите на пересеченной местности</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_ROUGH_TERRAIN_RANGED_BONUS">
+      <Text>Бонус к стрельбе на пересеченной местности</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_SAFE_ATTACK">
+      <Text>Безопасная атака</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_STALEMATE">
+      <Text>Пат</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_STRATEGIC_RESOURCE">
+      <Text>Штраф за стратегический ресурс</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_SUPPORT_DMG">
+      <Text>Урон поддержки: ~{1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_TERRAIN_MODIFIER">
+      <Text>Свойства местности</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_THEIR_COMBAT_INFO">
+      <Text>ИХ БОЕВАЯ СВОДКА</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_TOTAL_DEFEAT">
+      <Text>ПОЛНЫЙ РАЗГРОМ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_TOTAL_VICTORY">
+      <Text>ПОЛНАЯ ПОБЕДА</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_UNIT_STRENGTH">
+      <Text>ОБЩАЯ МОЩЬ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_UNIT_THEIR_APPROXIMATE_DAMAGE">
+      <Text>: Наносимый урон</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_UNIT_THEIR_STRENGTH">
+      <Text>: Их мощь [ICON_STRENGTH]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_UNIT_YOUR_APPROXIMATE_DAMAGE">
+      <Text>Наносимый урон:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_UNIT_YOUR_STRENGTH">
+      <Text>[ICON_STRENGTH] Ваша мощь:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_VISIBLE_AA_UNITS">
+      <Text>[COLOR_WARNING_TEXT]Известно вражеских юнитов ПВО: {1_Number}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_VS_BARBARIANS_BONUS">
+      <Text>Бонус против варваров</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GENERAL_INFORMATION">
+      <Text>Общая информация</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOLDEN_AGE_ANNOUNCE">
+      <Text>Зол. век!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HAPPINESS_AND_RESOURCES">
+      <Text>Ресурсы и настроение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HELP">
+      <Text>Помощь</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HELP_CAPS">
+      <Text>Помощь</Text>
+    </Row>
+    <Row Tag="TXT_KEY_IC_CHOOSE">
+      <Text>Выберите панель информации</Text>
+    </Row>
+    <Row Tag="TXT_KEY_IC_CITY">
+      <Text>Список городов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_IC_DIPLO">
+      <Text>Окно дипломатии</Text>
+    </Row>
+    <Row Tag="TXT_KEY_IC_NONE">
+      <Text>Выход</Text>
+    </Row>
+    <Row Tag="TXT_KEY_IC_RESEARCH">
+      <Text>Окно исследований</Text>
+    </Row>
+    <Row Tag="TXT_KEY_IC_UNIT">
+      <Text>Список юнитов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_IMPROVEMENT">
+      <Text>Улучшение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTIONS">
+      <Text>Карта</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTIONS_HEX_GRID">
+      <Text>Сетка карты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTIONS_HEX_GRID_TT">
+      <Text>Включает или отключает отображение сетки на карте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTIONS_RECOMMENDATIONS">
+      <Text>Без советов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTIONS_RECOMMENDATIONS_TT">
+      <Text>Скрывает советы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTIONS_RESOURCE_ICONS">
+      <Text>Значки ресурсов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTIONS_RESOURCE_ICONS_TT">
+      <Text>Показывает все значки ресурсов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTIONS_TRADE_ROUTES">
+      <Text>Торговые пути</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTIONS_TRADE_ROUTES_TT">
+      <Text>Показать торговые пути.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTIONS_UNIT_FLAGS">
+      <Text>Флаги юнитов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTIONS_UNIT_FLAGS_TT">
+      <Text>Скрывает все флаги юнитов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTIONS_YIELD_ICONS">
+      <Text>Значки продукции</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_OPTIONS_YIELD_ICONS_TT">
+      <Text>Показывает все значки производительности.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MENU">
+      <Text>Меню</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MENU_CAPS">
+      <Text>Меню</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MENU_TOOLTIP">
+      <Text>Открывает меню игры, где можно сохраниться, выйти в главное меню и так далее.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MILITARY_OVERVIEW">
+      <Text>Военные силы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOVES_LEFT">
+      <Text>Осталось ходов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NAME">
+      <Text>Название</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_SCIENCE">
+      <Text>Без науки!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OUTPUT">
+      <Text>Выработка</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_EMBARKED">
+      <Text>(на борту)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_FRESH_WATER">
+      <Text>Пресная вода</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_HILL">
+      <Text>Холмы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_LAKE">
+      <Text>Озера</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_MIL_UNIT_STRENGTH">
+      <Text>{1_CivName} ({2_Player}), {3_Num}[ICON_STRENGTH], {4_Num} ОЗ {5_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_MOUNTAIN">
+      <Text>Горы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_OCEAN">
+      <Text>Океан</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_OWNED_CIV">
+      <Text>Клетка принадлежит державе {@1_CivName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_OWNED_PLAYER">
+      <Text>Клеткой {@1_PlayerName: plural 1?владеет; 2?владеют; other?владеет;} {@1_PlayerName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_PILLAGED">
+      <Text>(Разграблено!)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_REQUIRES_TECH">
+      <Text>[COLOR_WARNING_TEXT]({@1: plural 1?Требуется; 2?Требуются; other?Требуется;} {@1_TechName})[ENDCOLOR] </Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_REQUIRES_TECH_TO_USE">
+      <Text>[COLOR_WARNING_TEXT](Для использования {@1: plural 1?требуется; 2?требуются; other?требуется;} {@1_TechName})[ENDCOLOR] </Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_RIVER">
+      <Text>Река</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_TRADE_ROUTE">
+      <Text>Торговый путь</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_UNIT_DESCRIPTION_CIV">
+      <Text>{@1_CivAdjective} {@2_UnitName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_UNIT_DESCRIPTION_PLAYER">
+      <Text>{1_PlayerName}: {2_UnitName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_UNIT_HP">
+      <Text>{1_Num} ОЗ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_NOTIFICATION_LOG">
+      <Text>Журнал извещений</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POPUP_CIVILIZATION">
+      <Text>Цивилизация</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROCESSING_MINOR_CIVS">
+      <Text>Ход городов-государств</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROCESSING_TURN_FOR">
+      <Text>Ход державы {1_CivilizationName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROCESSING_TURN_FOR_UNMET_PLAYER">
+      <Text>Ход {1_PlayerCount}-го игрока</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE">
+      <Text>Ресурсы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RETURN">
+      <Text>Назад</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STATUS">
+      <Text>Статус</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_ICONS_ALL">
+      <Text>Все</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_ICONS_IMPROVEMENTS">
+      <Text>Улучшения</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_ICONS_NONE">
+      <Text>Нет</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_ICONS_RESOURCES">
+      <Text>Ресурсы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_ICONS_UNITS">
+      <Text>Юниты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_OVERLAY_CULTURE">
+      <Text>Политическая карта</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_OVERLAY_NONE">
+      <Text>Без наложения</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_OVERLAY_PASSABLE_TERRAIN">
+      <Text>Проходимая местность</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_OVERLAY_RESOURCES">
+      <Text>Ресурсы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_OVERLAY_TRADE_ROUTES">
+      <Text>Торговые пути</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_OVERLAY_UNIT_COMBAT_TYPE">
+      <Text>Вид боя для юнита</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_OVERLAY_UNIT_CULTURE">
+      <Text>Владелец юнита</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_OVERLAY_UNIT_DOMAIN">
+      <Text>Область юнита</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_OVERLAY_UNIT_TYPE">
+      <Text>Вид юнита</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_AVAILABLE_GOLD">
+      <Text>Можно потратить [COLOR_GREEN]{1_Num}[ENDCOLOR] [ICON_GOLD] золота.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CITY_OUTPUT">
+      <Text>{1_Num} от производства во всех городах.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CULTURE_ACCUMULATED">
+      <Text>{1_Num} [ICON_CULTURE] культуры накоплено всей империей.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CULTURE_CITY_COST">
+      <Text>Каждый новый город вашего государства повысит стоимость общественных институтов на [COLOR_RED]{1_Num}%[ENDCOLOR]! Чтобы добиться культурной победы, не следует увлекаться экспансией!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CULTURE_FOR_FREE">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] бесплатно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CULTURE_FROM_CITIES">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] произведено городами.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CULTURE_FROM_HAPPINESS">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] от излишков хорошего настроения.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CULTURE_FROM_MINORS">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] от городов-государств.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CULTURE_FROM_TRAITS">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] от умений.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CULTURE_NEXT_POLICY">
+      <Text>Чтобы принять новый общественный институт, требуется [COLOR_RED]{1_Num}[ENDCOLOR] [ICON_CULTURE] культуры.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_EMPIRE_SUPER_UNHAPPY">
+      <Text>Поскольку [ICON_HAPPINESS_4] недовольство в империи достигло уровня 20, жители поднимают бунт! Пока вы не исправите ситуацию, каждые несколько ходов будет вспыхивать восстание!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_EMPIRE_UNHAPPY">
+      <Text>Города будут расти в четыре раза медленнее обычного, если население державы [ICON_HAPPINESS_3] недовольно!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_EMPIRE_VERY_UNHAPPY">
+      <Text>Население державы [ICON_HAPPINESS_4] очень недовольно, поскольку уровень недовольства упал ниже 10! Города больше не растут, нельзя создавать поселенцев, [ICON_PRODUCTION] производство падает, снижается боеспособность подразделений!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_BUILDING_MAINT">
+      <Text>{1_Num} на содержание зданий.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_EXPLANATION">
+      <Text>За [ICON_GOLD] золото вы можете приобретать земли, юниты, здания в городах. Кроме того, золото можно передавать городам-государствам, чтобы увеличить на них влияние.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_OTHERS">
+      <Text>{1_Num} от других цивилизаций.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_TR">
+      <Text>{1_Num} от торговых путей между вашими городами и столицей.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_TILE_MAINT">
+      <Text>{1_Num} на содержание улучшений.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_TO_OTHERS">
+      <Text>{1_Num} на выплаты другим цивилизациям.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_UNIT_SUPPLY">
+      <Text>{1_Num} на содержание юнитов за пределами империи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLDEN_AGE_ADDITION">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] прибавляется за ход от излишков [ICON_HAPPINESS_1] хорошего настроения.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLDEN_AGE_EFFECT">
+      <Text>Во время [ICON_GOLDEN_AGE] золотого века каждая клетка державы, приносящая как минимум единицу [ICON_GOLD] золота, приносит дополнительную единицу золота. [ICON_PRODUCTION] Производство в городе вырастает на 20%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLDEN_AGE_LOSS">
+      <Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] теряется за ход из-за [ICON_HAPPINESS_4] недовольства населения!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLDEN_AGE_NOW">
+      <Text>[ICON_GOLDEN_AGE] Золотой век в державе продолжится еще {1_Num} {1_Num: plural 1?ход; 2?хода; 3?ходов;}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLDEN_AGE_PROGRESS">
+      <Text>До следующего [ICON_GOLDEN_AGE] золотого века: [COLOR_POSITIVE_TEXT]{1_NumCurrent}/{2_NumNeeded}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_BUILDINGS">
+      <Text>{1_Num} от зданий.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_CITY_COUNT">
+      <Text>{1_Num} от числа городов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_CITY_STATE_FRIENDSHIP">
+      <Text>{1_Num} от влияния на города-государства.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_CONNECTED_CITIES">
+      <Text>{1_Num} от торговых путей между вашими городами и столицей.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_DIFFICULTY_LEVEL">
+      <Text>{1_Num} от уровня сложности.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_EACH_RESOURCE">
+      <Text>{1_Num} от {2_ResourceIcon} {@3_ResourceName[2]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_EXPLANATION">
+      <Text>Хорошее [ICON_HAPPINESS_1] настроение необходимо для роста городов. Оно позволяет снизить уровень [ICON_HAPPINESS_4] недовольства.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_EXTRA_PER_RESOURCE">
+      <Text>{1_Num} дополнительно за каждый редкий ресурс (всего {2_NumResources}).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_FROM_RESOURCES">
+      <Text>{1_Num} от следующих редких ресурсов:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_GARRISONED_UNITS">
+      <Text>{1_Num} от юнитов в гарнизонах.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_NATURAL_WONDERS">
+      <Text>{1_Num} от обнаруженных чудес природы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_OTHER_SOURCES">
+      <Text>{1_Num} от других источников.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_POLICIES">
+      <Text>{1_Num} от общественных институтов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_RESOURCE_VARIETY">
+      <Text>{1_Num} от разнообразных редких ресурсов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_SOURCES">
+      <Text>Хорошее настроение изо всех источников: {1_Num} [ICON_HAPPINESS_1]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_STATE_RELIGION">
+      <Text>{1_Num} от религиозных верований.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_LOSING_SCIENCE_FROM_DEFICIT">
+      <Text>Неоплаченные расходы будут покрыты из очков науки!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_NO_RESOURCES_DISCOVERED">
+      <Text>Ресурсов пока не обнаружено!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_RESOURCE_INFO">
+      <Text>[COLOR_POSITIVE_TEXT]всего {1_Num}[ENDCOLOR], [COLOR_WARNING_TEXT]используется {2_Num}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_RESOURCE_NONE">
+      <Text>Нет торговых путей между вашими городами и столицей.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_SCIENCE">
+      <Text>Всего в границах вашей державы производится [COLOR_GREEN]{1_Num}[ENDCOLOR] [ICON_RESEARCH] науки для текущего исследования.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_SCIENCE_FROM_BUDGET_DEFICIT">
+      <Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]{1_Num} от дефицита бюджета![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_SCIENCE_FROM_CITIES">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] от городов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_SCIENCE_FROM_HAPPINESS">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] от излишков хорошего настроения.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_SCIENCE_FROM_MINORS">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] от городов-государств.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_SCIENCE_FROM_RESEARCH_AGREEMENTS">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] от договоров об исследованиях с другими игроками.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_TOTAL_EXPENSES">
+      <Text>{1_Num} расходуется</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_TOTAL_HAPPINESS">
+      <Text>Общий уровень [ICON_HAPPINESS_1] настроения в империи: {1_Num}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_TOTAL_INCOME">
+      <Text>{1_Num} поступает в казну</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_TOTAL_UNHAPPINESS">
+      <Text>Уровень {1_Icon} недовольства в империи: {2_Num}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_TURN_COUNTER">
+      <Text>Ход: {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_UNHAPPINESS_CAPTURED_CITY_COUNT">
+      <Text>{1_Num} от оккупированных городов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_UNHAPPINESS_CITY_COUNT">
+      <Text>{1_Num} от числа городов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_UNHAPPINESS_OCCUPIED_POPULATION">
+      <Text>{1_Num} от населения в оккупированных городах.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_UNHAPPINESS_POPULATION">
+      <Text>{1_Num} от населения.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_UNHAPPINESS_PUPPET_CITIES">
+      <Text>{1_Num : number "#.##"} от населения в городах-сателлитах.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_UNHAPPINESS_SPECIALISTS">
+      <Text>{1_Num : number "#.##"} от специалистов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_UNHAPPINESS_TOTAL">
+      <Text>Недовольство изо всех источников: {1_Num} [ICON_HAPPINESS_4]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_UNHAPPINESS_UNITS">
+      <Text>{1_Num} от юнитов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_UNIT_MAINT">
+      <Text>{1_Num} на содержание юнитов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UN_VOTES_TO_WIN">
+      <Text>голосов в ООН требуется для победы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_NAME">
+      <Text>Название юнита</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_STATUS">
+      <Text>Статус</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_CLICK_TO_SELECT">
+      <Text>[NEWLINE][COLOR_YELLOW]Нажмите, чтобы выбрать данный юнит.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_CYCLELEFT">
+      <Text>Перейти к следующему юниту, у которого еще нет приказов на этот ход.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_CYCLERIGHT">
+      <Text>Перейти к предыдущему юниту, у которого еще нет приказов на этот ход.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_HEALTH">
+      <Text>Здоровье</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_MOVEMENT">
+      <Text>Перемещение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_MOVEMENT_TT">
+      <Text>Число клеток, которые юнит может пройти за ход.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_RANGED_ATTACK">
+      <Text>Дальнобойная атака</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_RANGED_ATTACK_TT">
+      <Text>Показатель мощи юнита в дальнем бою. Чем он выше, тем эффективней войска в сражении.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_RANGEMOVEMENT">
+      <Text>Радиус</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_RANGEMOVEMENT_TT">
+      <Text>Дистанция, на которую юнит может делать вылет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_RECOMMENDED">
+      <Text>Рекомендации:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_REPAIR_TILE">
+      <Text>Починить клетку</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_REPAIR_TILE_3">
+      <Text>Починить клетку (3)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_SET_HITPOINTS_TT">
+      <Text>{1_Num}/{2_Num} ОЗ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_STRENGTH">
+      <Text>Боевая мощь</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_STRENGTH_TT">
+      <Text>Показатель боевой мощи юнита. Чем он выше, тем эффективней юнит в сражении.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_UNIT_MAY_MOVE">
+      <Text>За этот ход ваш юнит может пройти еще {1_Num} {1_Num: plural 1?клетку; 2?клетки; 3?клеток;}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_UNIT_MAY_STRIKE_REBASE">
+      <Text>Ваше подразделение может нанести удар на расстоянии {1_Num} {1_Num: plural 1?клетки; 2?клеток; 3?клеток;} или перебазироваться на расстояние не более {2_Num} {2_Num: plural 1?клетки; 2?клеток; 3?клеток;}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_UNIT_NAME">
+      <Text>НАЗВАНИЕ ЮНИТА</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_UNIT_NO_MOVES">
+      <Text>НЕТ ОП</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_UNIT_PROMOTED">
+      <Text>ПОВЫШЕНИЕ!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_UNIT_PROMOTED_TT">
+      <Text>Открывает доступные повышения.</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

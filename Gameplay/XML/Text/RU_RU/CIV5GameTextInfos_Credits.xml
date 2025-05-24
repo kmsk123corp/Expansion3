@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_CREDITS_1_0_0_0">
+      <Text>Авторы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CREDITS_2_0_0_0">
+      <Text>Firaxis Games</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CREDITS_2_1_0_0">
+      <Text>Разработчики</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CREDITS_2_1_1_0">
+      <Text>Создатель игры Civilization</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CREDITS_2_1_1_1">
+      <Text>Сид Мейер</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CREDITS_2_1_2_0">
+      <Text>Дизайнер</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CREDITS_2_1_2_1">
+      <Text>Джон Шэфер</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CREDITS_2_1_3_0">
+      <Text>Дополнительный дизайн</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CREDITS_2_1_3_1">
+      <Text>Эд Бич</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CREDITS_2_1_3_2">
+      <Text>Скотт Льюис</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CREDITS_2_2_0_0">
+      <Text>Производство</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CREDITS_2_2_1_0">
+      <Text>Продюсер</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CREDITS_2_2_1_1">
+      <Text>Деннис Ширк</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CREDITS_2_2_2_0">
+      <Text>Помощник продюсера</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CREDITS_2_2_2_1">
+      <Text>Лиза Миллер</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CREDITS_2_2_3_0">
+      <Text>Продюсерская группа</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CREDITS_2_2_3_1">
+      <Text>Клинт Маккол</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CREDITS_2_2_3_2">
+      <Text>Мишель Менар</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CREDITS_2_2_4_0">
+      <Text>Сценаристы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CREDITS_2_2_4_1">
+      <Text>Мишель Менар</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CREDITS_2_2_4_2">
+      <Text>Пол Мерфи</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

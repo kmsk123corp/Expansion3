@@ -1,0 +1,2087 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_ABSTAIN">
+      <Text>Воздерживается</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVANCED_VIEW">
+      <Text>Показать все</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ALLIED_WITH">
+      <Text>[COLOR_POSITIVE_TEXT]{@1_ally} - {@1_ally: plural 1?союзник; other?союзники;}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ALLOWS_BRIDGES">
+      <Text>Позволяет сооружать мосты через реки.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ALLOWS_CROSSING_OCEANS">
+      <Text>Позволяет юнитам, погруженным на борт, пересекать океаны.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ALLOWS_DEFENSIVE_PACTS">
+      <Text>Позволяет заключать оборонительные союзы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ALLOWS_EMBARKING">
+      <Text>Позволяет сухопутным юнитам грузиться на борт и пересекать клетки с водой. Эту способность получат все юниты, попав на дружественную территорию.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ALLOWS_OPEN_BORDERS">
+      <Text>Позволяет заключать договоры об открытии границ.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ALLOWS_RESEARCH_AGREEMENTS">
+      <Text>Позволяет заключать договоры об исследованиях.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ALLOWS_TRADE_AGREEMENTS">
+      <Text>Позволяет заключать договоры о торговле.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ALWAYS">
+      <Text>Всегда</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AT_WAR_WITH">
+      <Text>[COLOR_NEGATIVE_TEXT]{@1_enemy} - {@1_enemy: plural 1?враг; other?враги;}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AUDIO_OPTIONS">
+      <Text>Звук</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AUTO_UNIT_CYCLE">
+      <Text>Автоматическая смена юнитов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AUTO_UNIT_CYCLE_TT">
+      <Text>Автоматически меняет выбранный юнит после выполнения приказов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BIND_MOUSE">
+      <Text>Привязка мыши</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BIND_MOUSE_TT">
+      <Text>Привязывает мышь к окну игры.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_FROM_FOLLOWING">
+      <Text>Выберите {1 : spellout} из следующих вариантов:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITIES_SUPPLY">
+      <Text>Города</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITIES_SUPPLY_TT">
+      <Text>Обеспечивается числом городов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILIZATIONS_SECTION_1">
+      <Text>Державы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILIZATIONS_SECTION_2">
+      <Text>Лидеры</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA">
+      <Text>Цивилопедия</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONFIRM_KICK_PLAYER_DESC">
+      <Text>Вы уверены, что игрок {1_player} должен быть изгнан из игры?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONFIRM_KICK_PLAYER_TITLE">
+      <Text>Подтвердить изгнание игрока</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CURRENT_ERA">
+      <Text>Текущая эпоха</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEFEAT_BANG">
+      <Text>ПОРАЖЕНИЕ!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEMO_BANG">
+      <Text>ДЕМОВЕРСИЯ ПРОЙДЕНА!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEMOGRAPHICS">
+      <Text>Демография</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEMOGRAPHICS_APPROVAL">
+      <Text>Поддержка населения</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEMOGRAPHICS_ARMY">
+      <Text>Солдаты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEMOGRAPHICS_ARMY_MEASURE">
+      <Text>чел.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEMOGRAPHICS_FOOD">
+      <Text>Урожайность</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEMOGRAPHICS_FOOD_MEASURE">
+      <Text>млн бушелей</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEMOGRAPHICS_GOLD">
+      <Text>ВНП</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEMOGRAPHICS_GOLD_MEASURE">
+      <Text>млн ед. золота</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEMOGRAPHICS_LAND">
+      <Text>Площадь</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEMOGRAPHICS_LAND_MEASURE">
+      <Text>кв. км</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEMOGRAPHICS_LITERACY">
+      <Text>Грамотность</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEMOGRAPHICS_POPULATION">
+      <Text>Население</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEMOGRAPHICS_POPULATION_MEASURE">
+      <Text>чел.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEMOGRAPHICS_PRODUCTION">
+      <Text>Производство</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEMOGRAPHICS_PRODUCTION_MEASURE">
+      <Text>млн тонн</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEMOGRAPHICS_RANK">
+      <Text>Место</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEMOGRAPHICS_RIVAL_AVERAGE">
+      <Text>В среднем</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEMOGRAPHICS_RIVAL_BEST">
+      <Text>Максимум</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEMOGRAPHICS_RIVAL_WORST">
+      <Text>Минимум</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEMOGRAPHICS_TITLE">
+      <Text>Демография</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEMOGRAPHICS_TYPE">
+      <Text>Параметр</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DEMOGRAPHICS_VALUE">
+      <Text>Значение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_REQUEST_IN_PROGRESS">
+      <Text>Вы не можете сделать дипломатическое предложение этой державе, поскольку еще не разрешилась ситуация с вашим предложением другой державе.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_REQUEST_INCOMING">
+      <Text>Дипломатическое предложение этой державы ждет вашего ответа.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_REQUEST_OUTGOING">
+      <Text>Эта держава пока не ответила на ваше дипломатическое предложение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_STATUS_TT">
+      <Text>Ваши отношения с жителями города {@1_cityName} носят {2_statusType: lower} характер: {3_curNumber} / {4_maxNumber} [ICON_INFLUENCE].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DO_AT_WAR">
+      <Text>Война</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DO_CITY_STATES">
+      <Text>Города-гос.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DO_COMPLETE_DEALS">
+      <Text>Совершенные сделки</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DO_CURRENT_DEALS">
+      <Text>Текущие сделки</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DO_DEAL_BEGAN">
+      <Text>Сделка началась на {1_turn} ходу</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DO_DEAL_DURATION">
+      <Text>Длительность сделки: {1_turn} ход.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DO_DEAL_HISTORY">
+      <Text>История сделок</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DO_DEAL_LASTED">
+      <Text>Сделка продолжается {1_turn} {1_turn: plural 1?ход; 2?хода; 3?ходов;}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DO_DIPLO_LOG">
+      <Text>Дипломатическая история</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DO_ENDED_ON">
+      <Text>Закончилась на:[NEWLINE]ход {1_turn}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DO_ENDS_ON">
+      <Text>Заканчивается на:[NEWLINE]ход {1_turn}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DO_GLOBAL_RELATIONS">
+      <Text>Глобальная политика</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DO_MAJORS">
+      <Text>Великие державы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DO_NO_DEALS">
+      <Text>Вы не заключали никаких сделок.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DO_NO_HISTORY">
+      <Text>У вас не было дипломатических контактов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DO_NO_MAJORS">
+      <Text>Вы не встречались с другими цивилизациями.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DO_NO_MINORS">
+      <Text>Вы не встречались с городами-государствами.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DO_ON_TURN">
+      <Text>{1_turn}й ход</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DO_OPEN_BORDERS">
+      <Text>Открытые границы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DO_PACT">
+      <Text>Оборонительный союз</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DO_RESEARCH_AGREEMENT">
+      <Text>Договор об исследованиях</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DO_THEY_PROVIDE">
+      <Text>Они дают {1_misc}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DO_TURN">
+      <Text>Ход</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DO_TURNS">
+      <Text>Ходов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DO_WE_PROVIDE">
+      <Text>Мы даем {1_misc}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DO_WORKING_AGAINST">
+      <Text>Сотрудничество против</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DO_WORKING_WITH">
+      <Text>Сотрудничество с</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DO_YOUR_RELATIONS">
+      <Text>Ваши отношения</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ENABLE_PRODUCITON_CONVERSION">
+      <Text>Позволяет конверсию производства в [COLOR_GREEN]{@1_ResourceName[4]}[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_BUILDINGS">
+      <Text>[ICON_PLUS] Здания</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_BUILDINGS_COLLAPSE">
+      <Text>[ICON_MINUS] Здания</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITIES">
+      <Text>Города</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_BUILDINGS">
+      <Text>[ICON_PLUS] Здания</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_BUILDINGS_COLLAPSE">
+      <Text>[ICON_MINUS] Здания</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_IS_OCCUPIED">
+      <Text>Город [ICON_OCCUPIED] захвачен!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_UNHAPPINESS">
+      <Text>[ICON_PLUS] Недовольство в городах</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_UNHAPPINESS_COLLAPSE">
+      <Text>[ICON_MINUS] Недовольство в городах</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_DIPLOMACY">
+      <Text>Дипломатия</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_DIPLOMACY_AND_UN_VOTE">
+      <Text>Дипломатия[NEWLINE][NEWLINE]До голосования в ООН осталось {1_Num} {1_Num: plural 1?ход; 2?хода; 3?ходов;}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_EX_BASE_BUILDINGS">
+      <Text>На высоких уровнях сложности за это придется заплатить полную цену.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_EX_BUILDINGS">
+      <Text>Общие расходы на содержание построенных вами зданий.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_EX_DIPLOMACY">
+      <Text>Расходы на дипломатию.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_EX_IMPROVEMENTS">
+      <Text>Общие расходы на содержание обычных и железных дорог, построенных вами или находящихся под вашей ответственностью. Вы платите по 1 [ICON_GOLD] золота за клетку с обычной дорогой и по 2 [ICON_GOLD] золота за клетку с железной дорогой.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_EX_UNITS">
+      <Text>Общие расходы на содержание ваших юнитов (боевых подразделений и мирных жителей). Текущая цена за каждый юнит равна {1_Num} [ICON_GOLD] золота. Она вырастает со временем и в зависимости от общего числа подразделений (всего сейчас у вас {2_Num} {2_Num: plural 1?юнит; 2?юнита; 3?юнитов;}).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_EX_UNITS_NO_MAINT">
+      <Text>У вас есть {1_Num} {1_Num: plural 1?ракета; 2?ракеты; 3?ракет;}, на содержание  {1_Num: plural 1?которой; 2?которых; 3?которых;} не требуется тратить средства.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_EXPENSES">
+      <Text>Расходы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_GARRISON">
+      <Text>[ICON_PLUS] Гарнизон</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_GARRISON_COLLAPSE">
+      <Text>[ICON_MINUS] Гарнизон</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_GPT">
+      <Text>Золото за ход</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_GROSS">
+      <Text>Всего золота</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_IMPROVEMENTS">
+      <Text>Дороги</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INCOME">
+      <Text>Доход</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INCOME_CITIES">
+      <Text>[ICON_PLUS] Города</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INCOME_CITIES_COLLAPSE">
+      <Text>[ICON_MINUS] Города</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INCOME_DIPLOMACY">
+      <Text>Доход от дипломатии</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INCOME_TRADE">
+      <Text>Доход от торговых путей</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INCOME_TRADE_DETAILS">
+      <Text>[ICON_PLUS] Торговые пути</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INCOME_TRADE_DETAILS_COLLAPSE">
+      <Text>[ICON_MINUS] Торговые пути</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_LOCAL_RESOURCES">
+      <Text>Собственные ресурсы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_LUXURY_HAPPINESS">
+      <Text>[ICON_PLUS] Редкие ресурсы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_LUXURY_HAPPINESS_COLLAPSE">
+      <Text>[ICON_MINUS] Редкие ресурсы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_NET_PER_TURN">
+      <Text>Чистый доход</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_PENALTY">
+      <Text>Потери науки</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_PENALTY_TT">
+      <Text>Штраф за дефицит золота</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_RESOURCES_AVAILBLE">
+      <Text>Доступные ресурсы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_RESOURCES_TRADED">
+      <Text>Купленные ресурсы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SORT_CULTURE">
+      <Text>Сортировать по культуре</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SORT_FAITH">
+      <Text>Сортировать по вере</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SORT_FOOD">
+      <Text>Сортировать по пище</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SORT_GOLD">
+      <Text>Сортировать по золоту</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SORT_NAME">
+      <Text>Сортировать по названию</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SORT_POPULATION">
+      <Text>Сортировать по населению</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SORT_PRODUCTION">
+      <Text>Сортировать по производству</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SORT_RANGED">
+      <Text>Сортировать по дальнобойной атаке</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SORT_RESEARCH">
+      <Text>Сортировать по исследованиям</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SORT_STRENGTH">
+      <Text>Сортировать по мощи</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_TOTAL_EXPENSE">
+      <Text>Всего расходов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_TOTAL_GOLD">
+      <Text>Казна</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_TRADE">
+      <Text>Торговые пути</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_TRADE_ROUTES">
+      <Text>[ICON_PLUS] Торговые пути</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_TRADE_ROUTES_COLLAPSE">
+      <Text>[ICON_MINUS] Торговые пути</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_UNITS">
+      <Text>Юниты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_AVAILALBE">
+      <Text>Доступная эра</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FASTER_EMBARKED_MOVEMENT">
+      <Text>Более быстрое передвижение на борту.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FASTER_MOVEMENT">
+      <Text>{@1_TerrainName} {@1_TerrainName: plural 1?ускоряет; other?ускоряют;} движение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FREE_HAPP_PER_CITY">
+      <Text>Остается [ICON_HAPPINESS_1] на город</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FRESH_WATER">
+      <Text>{@2_YieldType} на клетках с {@1_ImprovementName[5]}, имеющих доступ к пресной воде, {@2_YieldType: plural 1?увеличивается; other?увеличиваются;} на {3_Num}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FULLSCREEN_ONLY">
+      <Text>Полный экран</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_1">
+      <Text>Города</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_10">
+      <Text>Настроение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_11">
+      <Text>Туман войны</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_12">
+      <Text>Общественные институты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_13">
+      <Text>Золото и экономика</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_14">
+      <Text>Советники</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_15">
+      <Text>Великие люди, специалисты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_16">
+      <Text>Города-государства</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_17">
+      <Text>Передвижение юнитов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_18">
+      <Text>Правила воздушного боя</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_19">
+      <Text>Руины и варвары</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_2">
+      <Text>Правила боя</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_20">
+      <Text>Юниты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_21">
+      <Text>Победа</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_3">
+      <Text>Местность</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_4">
+      <Text>Ресурсы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_5">
+      <Text>Постройка улучшений</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_6">
+      <Text>Пища и рост города</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_7">
+      <Text>Технологии</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_8">
+      <Text>Советник по культуре</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_9">
+      <Text>Дипломатия</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_NAME">
+      <Text>Название игры:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTIONS">
+      <Text>Игра</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HALL_OF_FAME_EMPTY">
+      <Text>Вы еще не завершили ни одной игры.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HANDICAP_MAINTENANCE_MOD">
+      <Text>При текущей сложности игры вы платите лишь {1_Num}% от обычной стоимости.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HANDICAP_SUPPLY">
+      <Text>Общее снабжение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HANDICAP_SUPPLY_TT">
+      <Text>Обеспечивается настройкой сложности</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTERFACE_OPTIONS">
+      <Text>Интерфейс</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LUXURY_BONUS">
+      <Text>Бонус за редкие ресурсы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LUXURY_MISC">
+      <Text>Другие источники</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LUXURY_VARIETY">
+      <Text>Разнообразие редких ресурсов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MENU_EXIT_TO_MAIN">
+      <Text>Выход в главное меню</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MENU_EXIT_TO_WINDOWS">
+      <Text>Выход на рабочий стол</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MENU_EXIT_WARN">
+      <Text>Вы действительно хотите выйти из игры Civilization V?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MENU_LOAD_GAME_BUTTON">
+      <Text>Загрузка</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MENU_OPTIONS_BUTTON">
+      <Text>Настройки</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MENU_QUICK_SAVE_BUTTON">
+      <Text>Быстрое сохранение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MENU_RESTART_GAME_BUTTON">
+      <Text>Перезапуск игры</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MENU_RETURN_EXIT_WARN">
+      <Text>Выйти из игры?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MENU_RETURN_MM_WARN">
+      <Text>Выйти в главное меню без сохранения?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MENU_RETURN_TO_GAME">
+      <Text>К игре</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MENU_SAVE">
+      <Text>Сохранение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MENU_SAVE_BUTTON">
+      <Text>Сохранение игры</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MENU_SAVE_MAP_BUTTON">
+      <Text>Сохранение мира</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MENU_SAVE_MAP_DESC">
+      <Text>Это позволит вам сохранить сведения о мире, на карте которого вы сейчас играете, в формате, читаемом программой по созданию мира. Сохраненную таким образом карту можно использовать в качестве шаблона для создания своей собственной карты или новой игры на той же карте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MENU_SAVE_MAP_LOWER">
+      <Text>Сохранение мира</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MINOR_TRAIT_CULTURED">
+      <Text>Культурн. города-гос.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MINOR_TRAIT_MARITIME">
+      <Text>Приморск. города-гос.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MINOR_TRAIT_MILITARISTIC">
+      <Text>Воинств. города-гос.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MO_GENERAL_TT">
+      <Text>{1_current}/{2_needed}[NEWLINE]Возможность появления следующего великого полководца зависит от опыта, полученного подразделениями в битвах.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MO_SORT_MAX_MOVES">
+      <Text>Сортировать по максимуму ОП</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MO_SORT_MOVEMENT">
+      <Text>Сортировать по оставшимся ОП</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MO_SORT_NAME">
+      <Text>Сортировать по названию</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MO_SORT_RANGED">
+      <Text>Сортировать по дальнобойной атаке</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MO_SORT_STATUS">
+      <Text>Сортировать по статусу</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MO_SORT_STRENGTH">
+      <Text>Сортировать по боевой мощи</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_HOT_JOIN_NOTICE">
+      <Text>Игроки вступают в игру.  Игра в режиме паузы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_PLAYER_CONNECTED">
+      <Text>Игрок сейчас в игре.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_PLAYER_CONNECTING">
+      <Text>Игрок вступает в игру.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MP_PLAYER_NOTCONNECTED">
+      <Text>Игрок не подключен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MULTIPLAYER_OPTIONS">
+      <Text>Сетевая игра</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEVER">
+      <Text>Никогда</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_DIPLO_ACTIONS">
+      <Text>Нет дипломатических действий</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_FRESH_WATER">
+      <Text>{@2_YieldType} на клетках с {@1_ImprovementName[5]}, НЕ имеющих доступ к пресной воде, {@2_YieldType: plural 1?увеличивается; 2?увеличиваются; other?увеличивается;} на {3_Num}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NORMALLY">
+      <Text>(в среднем)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NUMBER_OF_CITIES">
+      <Text>Городов ({1_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NUMBER_OF_CITIES_HANDICAP_TT">
+      <Text>Благодаря текущей сложности игры этот показатель снижен на {1_Num}%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NUMBER_OF_CITIES_TT">
+      <Text>Каждый не оккупированный город приносит 3 [ICON_HAPPINESS_4] недовольства.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NUMBER_OF_CITIES_TT_NORMALLY">
+      <Text>Каждый город (если он не оккупирован) приносит, как правило, 3 [ICON_HAPPINESS_4] недовольства.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NUMBER_OF_OCCUPIED_CITIES">
+      <Text>Оккупированных городов ({1_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NUMBER_OF_OCCUPIED_CITIES_TT">
+      <Text>Каждый [ICON_OCCUPIED] оккупированный город приносит 5 [ICON_HAPPINESS_4] недовольства</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OCCUPIED_POP_UNHAPPINESS">
+      <Text>Горожане в оккупации ({1_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OCCUPIED_POP_UNHAPPINESS_TT">
+      <Text>Каждый [ICON_CITIZEN] горожанин в [ICON_OCCUPIED] оккупированном городе приносит 1,34 [ICON_HAPPINESS_4] недовольства</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_ADVISOR_COUNSEL">
+      <Text>Всплывающие подсказки от советника</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_ADVISOR_COUNSEL_TT">
+      <Text>Показывает периодические советы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_AMBIANCE_SLIDER">
+      <Text>Громкость звуков: {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_APPLY_BUTTON">
+      <Text>Применение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_APPLY_BUTTON_TT">
+      <Text>Сохраняет настройки.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_APPLY_RESOLUTION">
+      <Text>Применение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_APPLY_RESOLUTION_TT">
+      <Text>Применяет настройки разрешения к игре.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_AUDIO_QUALITY">
+      <Text>Качество аудио</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_AUTO_WORKERS_DONT_REMOVE_FEATURES">
+      <Text>Авторабочие не трогают природу</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_AUTO_WORKERS_DONT_REMOVE_FEATURES_TT">
+      <Text>Автоматизированные рабочие не вырубают леса и джунгли и не осушают болота, за исключением клеток со стратегическими или редкими ресурсами.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_AUTO_WORKERS_DONT_REPLACE">
+      <Text>Авторабочие не заменяют улучшения</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_AUTO_WORKERS_DONT_REPLACE_TT">
+      <Text>Автоматизированные рабочие не заменяют существующие улучшения.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_AUTOSIZE_UI">
+      <Text>Автоматический размер интерфейса</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_AUTOSIZE_UI_TT">
+      <Text>Выбирает размер интерфейса, наиболее подходящий вашему разрешению экрана.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_BLOCK_LOAD">
+      <Text>Полная загрузка карты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_BLOCK_LOAD_TT">
+      <Text>Держит экран загрузки до тех пор, пока вся карта мира не будет сгенерирована полностью.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_CANCEL_BUTTON">
+      <Text>Отмена</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_CANCEL_BUTTON_TT">
+      <Text>Позволяет вернуться в главное меню.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_CIVILIAN_YIELDS">
+      <Text>Производительность мирных жителей</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_CIVILIAN_YIELDS_TT">
+      <Text>При выделении мирных жителей на карте показывает данные о производительности.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_CONFIRM">
+      <Text>Вы уверены?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_DEFAULTS_BUTTON">
+      <Text>По умолчанию</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_DEFAULTS_BUTTON_TT">
+      <Text>Возвращает все настройки к параметрам по умолчанию.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_DYNAMIC_BORDERS">
+      <Text>Сложные культурные границы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_DYNAMIC_BORDERS_TT">
+      <Text>Включает сложный расчет культурных границ. Это требует повышенной производительности от компьютера.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_DYNAMIC_CAMERA_ZOOM">
+      <Text>Альтернативный режим камеры</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_DYNAMIC_CAMERA_ZOOM_TT">
+      <Text>При отдалении камера возвращается без привязки к курсору.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_ENABLE_MAP_INERTIA">
+      <Text>Инерция карты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_ENABLE_MAP_INERTIA_TT">
+      <Text>Включает инерцию при перемещении карты.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_END_TURN_TIMER_LENGTH">
+      <Text>Время между ходами: 10 сек.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_END_TURN_TIMER_SET">
+      <Text>Время между ходами:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_FADE_SHADOWS">
+      <Text>Разрешить угасание теней</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_FADE_SHADOWS_TT">
+      <Text>Разрешить убирать тени при сильном уменьшении. Улучшает производительность.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_FOW_QUALITY">
+      <Text>Качество тумана войны</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_FULLSCREEN">
+      <Text>Полноэкранный режим</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_GPU_TEXTURE_DECODE">
+      <Text>Декодирование текстур</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_GPU_TEXTURE_DECODE_TT">
+      <Text>При необходимости для декодирования сжатых текстур будет использован графический процессор.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_HIGH_DETAIL_STRAT_VIEW">
+      <Text>Детализованный стратегич. вид</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_HIGH_DETAIL_STRAT_VIEW_TT">
+      <Text>Использует более высокое разрешение текстур в стратегическом виде, позволяя приближать камеру еще ближе. Это требует повышенной производительности от компьютера.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_LANGUAGE_TIMER">
+      <Text>Изменение языка вызовет перезагрузку интерфейса. Продолжить? </Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_LEADER_QUALITY">
+      <Text>Качество сцен с лидерами</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_MAX_AUTOSAVES_KEPT">
+      <Text>Макс. автосохранений:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_MAX_AUTOSAVES_KEPT_TT">
+      <Text>Устанавливает максимальное число автосохранений, после достижения которого игра начнет удалять старые автосохранения.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_MINIMIZE_GRAY_TILES">
+      <Text>Минимизировать серые клетки</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_MINIMIZE_GRAY_TILES_TT">
+      <Text>Минимизировать серые клетки при прокрутке карты.. Это может вызвать зависание.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_MP_SCORE_LIST">
+      <Text>Таблица рекордов сетевой игры</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_MP_SCORE_LIST_TT">
+      <Text>Показывает простую таблицу рекордов для сетевой игры.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_MSAA">
+      <Text>Антиалиасинг</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_MSAA_2X">
+      <Text>2X MSAA</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_MSAA_4X">
+      <Text>4X MSAA</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_MSAA_8X">
+      <Text>8X MSAA</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_MSAA_OFF">
+      <Text>Выкл.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_MULTIPLAYER_AUTO_END_TURN">
+      <Text>Автозавершение хода в сетевой игре</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_MULTIPLAYER_AUTO_END_TURN_TT">
+      <Text>Включает автоматическое завершение хода в сетевых играх.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_MULTIPLAYER_QUICK_COMBAT">
+      <Text>Быстрый бой в сетевой игре</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_MULTIPLAYER_QUICK_COMBAT_TT">
+      <Text>Включает ускоренные битвы в сетевых играх.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_MULTIPLAYER_QUICK_MOVEMENT">
+      <Text>Ускорение в сетевой игре</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_MULTIPLAYER_QUICK_MOVEMENT_TT">
+      <Text>Включает ускоренное передвижение юнитов в сетевых играх.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_MUSIC_SLIDER">
+      <Text>Громкость музыки: {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_NO_BASIC_HELP">
+      <Text>Отмена базовых подсказок</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_NO_BASIC_HELP_TT">
+      <Text>Сокращает игровые подсказки, не показывает расширенные пояснения.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_NO_CITIZEN_WARNING">
+      <Text>Без предупреждений о гражданах на экране города</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_NO_REWARD_POPUPS">
+      <Text>Без подсказок о наградах</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_NO_REWARD_POPUPS_TT">
+      <Text>Не показывает сообщения о наградах (о технологиях, древних руинах и так далее).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_NO_TILE_RECOMMENDATIONS">
+      <Text>Без советов о клетках</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_NO_TILE_RECOMMENDATIONS_TT">
+      <Text>Отключает подсказки относительно клеток на карте, которые могут появляться, когда выбраны поселенцы или рабочие.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_ONE_UNIT">
+      <Text>Юниты одиночными моделями</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_ONE_UNIT_TT">
+      <Text>Показывает несколько юнитов на одной клетке карты в виде одиночных моделей.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_OVERLAY_DETAIL">
+      <Text>Детализация наложения</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_QUICK_COMBAT">
+      <Text>Быстрый бой</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_QUICK_COMBAT_TT">
+      <Text>Показывает бой без анимации.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_QUICK_MOVEMENT">
+      <Text>Ускорение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_QUICK_MOVEMENT_TT">
+      <Text>Юниты мгновенно перемещаются в точку назначения.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_QUICK_SELECTION_ADVANCE">
+      <Text>Быстрый выбор развития</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_QUICK_SELECTION_ADVANCE_TT">
+      <Text>Юниты перейдут в следующую стадию, как только будет отдан приказ, без анимации.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_RELOAD_UI">
+      <Text>Перезагрузка интерфейса</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_RELOAD_UI_TT">
+      <Text>Изменяет размеры интерфейса.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_RESET_TUTORIAL">
+      <Text>Все советы еще раз</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_RESET_TUTORIAL_TT">
+      <Text>Перегружает всю систему обучения, что позволяет просмотреть все сообщения советников еще раз.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_RESOLUTION">
+      <Text>Разрешение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_RESOLUTION_TIMER">
+      <Text>Сохранить изменения? (Иначе будут возвращены исходные настройки)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_RESTART_REQ_TT">
+      <Text>Изменения вступят в силу после перезапуска игры.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_SAVE_BUTTON">
+      <Text>ОК</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_SAVE_BUTTON_TT">
+      <Text>Сохраняет настройки и возвращает в главное меню.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_SCORE_LIST">
+      <Text>Рекорды в одиночной игре</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_SCORE_LIST_TT">
+      <Text>Показывает простую таблицу рекордов для одиночной игры.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_SELECT_LANG">
+      <Text>Язык текстов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_SELECT_SPOKEN_LANG">
+      <Text>Язык озвучения</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_SETTINGS_HIGH">
+      <Text>Высок.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_SETTINGS_LOW">
+      <Text>Низк.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_SETTINGS_MEDIUM">
+      <Text>Средн.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_SETTINGS_MINIMUM">
+      <Text>Миним.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_SETTINGS_OFF">
+      <Text>Выкл.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_SF_SLIDER">
+      <Text>Громкость звуковых эффектов: {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_SHADOW_QUALITY">
+      <Text>Качество теней</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_SHOW_ALL_POLICY_INFO">
+      <Text>Вся информация об институтах</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_SHOW_ALL_POLICY_INFO_TT">
+      <Text>Отображает все институты на экране "Общественные институты", независимо от эпохи и того, какие ветви уже открыты.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_SKIP_INTRO_VIDEO">
+      <Text>Без вступительного ролика</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_SKIP_INTRO_VIDEO_TT">
+      <Text>Пропускает вступительный ролик.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_SPEECH_SLIDER">
+      <Text>Громкость речи: {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_SPLAYER_AUTO_END_TURN">
+      <Text>Автозавершение хода в одиночной игре</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_SPLAYER_AUTO_END_TURN_TT">
+      <Text>Включает автоматическое завершение хода в одиночных играх.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_SPLAYER_QUICK_COMBAT">
+      <Text>Быстрый бой в одиночной игре</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_SPLAYER_QUICK_COMBAT_TT">
+      <Text>Включает ускоренные битвы в одиночных играх.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_SPLAYER_QUICK_MOVEMENT">
+      <Text>Ускорение в одиночной игре</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_SPLAYER_QUICK_MOVEMENT_TT">
+      <Text>Включает ускоренное передвижение юнитов в одиночных играх.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TERRAIN_DETAIL_LEVEL">
+      <Text>Уровень детализации поверхности</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TERRAIN_SHADOW_QUALITY">
+      <Text>Качество теней поверхности</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TERRAIN_TESS_LEVEL">
+      <Text>Уровень мозаичности поверхности</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TEXTURE_QUALITY">
+      <Text>Качество текстур</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TOOLTIP_1_TIMER_LENGTH">
+      <Text>Задержка подсказок на карте: {1_Num} сек.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TOOLTIP_1_TIMER_LENGTH_TT">
+      <Text>Устанавливает время до появления всплывающей подсказки на карте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TOOLTIP_2_TIMER_LENGTH">
+      <Text>Задержка подсказки 2 уровня: {1_Num} сек.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TOOLTIP_2_TIMER_LENGTH_TT">
+      <Text>Устанавливает время до появления на карте всплывающей подсказки 2-го уровня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TURN_NOTIFY_EMAIL">
+      <Text>Электронная почта</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TURN_NOTIFY_EMAIL_ADDRESS">
+      <Text>Адрес электронной почты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TURN_NOTIFY_EMAIL_ADDRESS_TT">
+      <Text>Адрес электронной почты для извещений о времени хода.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TURN_NOTIFY_EMAIL_TT">
+      <Text>Когда будет ваш ход в игре типа "крупье", вам пришлют извещение на почту.  Извещения будут приходить только в том случае, если хост настроил игру соответствующим образом.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TURN_NOTIFY_HOST_OPTIONS">
+      <Text>Извещения о ходе для хоста</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TURN_NOTIFY_OPTIONS">
+      <Text>Извещения о ходе</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TURN_NOTIFY_SMTP_HOST">
+      <Text>Сервер Email (SMTP)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TURN_NOTIFY_SMTP_HOST_TT">
+      <Text>SMTP-сервер для отправки извещений в качестве хоста.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TURN_NOTIFY_SMTP_PASSWORD">
+      <Text>Пароль</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TURN_NOTIFY_SMTP_PASSWORD_TT">
+      <Text>Пароль для сервера SMTP.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TURN_NOTIFY_SMTP_PASSWORDS_MATCH">
+      <Text>Пароль совпадает</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TURN_NOTIFY_SMTP_PASSWORDS_MATCH_TT">
+      <Text>Пароль SMTP совпадает.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TURN_NOTIFY_SMTP_PASSWORDS_NOT_MATCH">
+      <Text>Пароль не совпадает</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TURN_NOTIFY_SMTP_PASSWORDS_NOT_MATCH_TT">
+      <Text>Пароль SMTP не совпадает.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TURN_NOTIFY_SMTP_PORT">
+      <Text>Порт:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TURN_NOTIFY_SMTP_PORT_TT">
+      <Text>Сетевой порт, используемый сервером SMTP.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TURN_NOTIFY_SMTP_RETYPE_PASSWORD">
+      <Text>Повторить пароль</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TURN_NOTIFY_SMTP_RETYPE_PASSWORD_TT">
+      <Text>Повторить пароль</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TURN_NOTIFY_SMTP_TLS">
+      <Text>Использовать TLS</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TURN_NOTIFY_SMTP_TLS_TT">
+      <Text>Использовать шифрование TLS для этого сервера SMTP.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TURN_NOTIFY_SMTP_USERNAME">
+      <Text>Имя пользователя</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TURN_NOTIFY_SMTP_USERNAME_TT">
+      <Text>Имя пользователя для сервера SMTP.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TURN_NOTIFY_STEAM_INVITE">
+      <Text>Приглашение Steam</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TURN_NOTIFY_STEAM_INVITE_TT">
+      <Text>Получите приглашение Steam, когда будет ваш ход в игре типа "крупье".  Это извещение работает только в том случае, если игра идет в Интернете, а вы с хостом являетесь друзьями в Steam.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TURNS_FOR_AUTOSAVES">
+      <Text>Ходов между автосохранениями: </Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TURNS_FOR_AUTOSAVES_TT">
+      <Text>Определяет частоту автосохранений игры.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TUTORIAL_HIGH">
+      <Text>Только самое важное</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TUTORIAL_LEVEL">
+      <Text>Подсказки</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TUTORIAL_LEVEL_TT">
+      <Text>Устанавливает число подсказок, получаемых от советников.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TUTORIAL_LOW">
+      <Text>Рассказывать все</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TUTORIAL_MEDIUM">
+      <Text>Рассказывать новое</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TUTORIAL_OFF">
+      <Text>Советы не требуются</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_USE_SMALL_UI">
+      <Text>Мелкий интерфейс</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_USE_SMALL_UI_TT">
+      <Text>Заставляет игру использовать интерфейс более мелкого масштаба.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_VDOP_DISABLED">
+      <Text>Настройки видео не могут быть изменены в ходе игры.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_VDOP_RESTART">
+      <Text>Изменения в настройках видео будут применены только после перезагрузки игры.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_VIDEO_VERIFY">
+      <Text>Сохранить настройки?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_VSYNC">
+      <Text>Вертикальная синхронизация</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_WATER_QUALITY">
+      <Text>Качество воды</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PACT_OF_COOPERATION">
+      <Text>Договор о сотрудничестве</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PACT_OF_SECRECY">
+      <Text>{1_ally} - заключено тайное соглашение. Общий враг - {2_enemy}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_ABILITIES_LABEL">
+      <Text>Особые возможности:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_ALWAYS_VISIBLE">
+      <Text>Всегда видимый</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_BLDG_UNLOCK_LABEL">
+      <Text>Открывает здания:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_BUILDINGS_HELP_TEXT">
+      <Text>Здания могут увеличить богатство, прирост населения, производительность города, а также улучшить его защиту. Некоторые могут улучшить качество военных подразделений, другие помогут прибрежному городу добывать продовольствие в океане. [NEWLINE][NEWLINE]Создание построек очень важно. Если ваша цивилизация занята войной, есть искушение тратить все средства на военные подразделения, но это рано или поздно приведет к тому, что города других цивилизаций обгонят вас в развитии. Это даст остальным державам значительное преимущество над вами.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_BUILDINGS_PAGE_LABEL">
+      <Text>Здания</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_CATEGORY_1_LABEL">
+      <Text>Цивилопедия</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_CATEGORY_10_LABEL">
+      <Text>Цивилизации и лидеры</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_CATEGORY_11_LABEL">
+      <Text>Города-государства</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_CATEGORY_12_LABEL">
+      <Text>Ландшафт и особенности</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_CATEGORY_13_LABEL">
+      <Text>Ресурсы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_CATEGORY_14_LABEL">
+      <Text>Улучшения</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_CATEGORY_2_LABEL">
+      <Text>Игровые понятия</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_CATEGORY_3_LABEL">
+      <Text>Технологии</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_CATEGORY_4_LABEL">
+      <Text>Юниты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_CATEGORY_5_LABEL">
+      <Text>Повышения</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_CATEGORY_6_LABEL">
+      <Text>Здания</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_CATEGORY_7_LABEL">
+      <Text>Чудеса</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_CATEGORY_8_LABEL">
+      <Text>Общественные институты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_CATEGORY_9_LABEL">
+      <Text>Специалисты и великие люди</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_CITY_STATES_PAGE_LABEL">
+      <Text>Города-государства</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_CIVILIZATION_ADJECTIVE">
+      <Text>Прилагательное</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_CIVILIZATION_NAME">
+      <Text>Название цивилизации</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_CIVILIZATION_SHORT_NAME">
+      <Text>Короткое название</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_CIVILIZATIONS_LABEL">
+      <Text>Цивилизация:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_CIVILIZATIONS_PAGE_LABEL">
+      <Text>Цивилизации и лидеры</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_CIVS_HELP_TEXT">
+      <Text>В игре представлен огромный выбор цивилизаций и лидеров. У каждой есть особые юниты, здания и возможности - к примеру, у Америки есть минитмены и бомбардировщики B-17, у Рима - легион и баллисты, у России - казаки и острог. Один из самых интересных аспектов игры - разобраться в сильных и слабых сторонах каждой цивилизации. Каждая игра будет уникальной. Если вы играете одинаково и за Египет, и за Индию, возможно, вы упускаете нечто важное.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_COMBAT_LABEL">
+      <Text>Бой:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_COMBATMOD_LABEL">
+      <Text>Влияние на бой:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_COMBATTYPE_LABEL">
+      <Text>Тип юнита:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_COST_LABEL">
+      <Text>Стоимость:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_CSTATES_HELP_TEXT">
+      <Text>Города-государства - это малые цивилизации, разбросанные по миру. Они не могут создавать поселенцев и новые города. Их территория, тем не менее, может расширяться, но она всегда будет ограничена одним городом. Исключение касается только завоеваний: во время войны города-государства могут захватывать чужие города.[NEWLINE][NEWLINE]Дружественный город-государство может снабжать вас продовольствием, очками культуры или даже военными подразделениями. Напав на город-государство, вы можете захватить его и присоединить к своей великой империи. (При этом другие города могут объявить вам войну, так что будьте осторожны.)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_CULTURE_LABEL">
+      <Text>Культура:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_DEFENSE_LABEL">
+      <Text>Оборона:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_DNOTES_LABEL">
+      <Text>Заметки разработчика:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_EXTENDED_LABEL">
+      <Text>Расширенная информация:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_FACTOID">
+      <Text>Исторические факты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_FEATURE_NAME">
+      <Text>Особенности</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_FEATURES_LABEL">
+      <Text>Особенности:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_FOOD_LABEL">
+      <Text>Пища:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_FOUNDON_LABEL">
+      <Text>Место постройки:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_FREEPROMOTIONS_LABEL">
+      <Text>Возможности:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_GAME_CONCEPT_HELP_TEXT">
+      <Text>Игра Civilization V охватывает всю историю человечества - от древних веков до ближайшего будущего. Раздел "Основы игры" в Цивилопедии объясняет наиболее важные аспекты игрового процесса: как строить города и управлять ими, как вести войны, исследовать технологии и так далее. Основные разделы отображены на панели навигации слева: щелкните по закладке, чтобы увидеть подразделы, относящиеся к ней. [NEWLINE][NEWLINE]Вы, конечно, можете прочитать весь раздел от начала до конца, но вы же не собираетесь сдавать экзамены по Civilization? Лучше попробуйте начать игру, а к Цивилопедии обращайтесь по необходимости. Мы надеемся, что игровое обучение удалось сделать достаточно понятным, так что после него вы сможете без проблем ориентироваться в игре.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_GAME_CONCEPT_PAGE_LABEL">
+      <Text>Игровые понятия</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_GAME_INFO_LABEL">
+      <Text>Игровая информация:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_GOLD_LABEL">
+      <Text>Золото:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_GP_LABEL">
+      <Text>Великие люди:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_HAPPINESS_LABEL">
+      <Text>Настроение:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_HISTORICAL_LABEL">
+      <Text>Историческая информация:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_HOME_PAGE_BLURB_TEXT">
+      <Text>[NEWLINE][TAB][TAB]"Где б ни был я, каких бы царств ни зрел, [NEWLINE]К тебе мой дух из странствия летел; [NEWLINE]Прикован к дому цепью растяжимой..."[NEWLINE][TAB][TAB] - Оливер Голдсмит[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_HOME_PAGE_HELP_LABEL">
+      <Text>Цивилопедия</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_HOME_PAGE_HELP_TEXT">
+      <Text>Добро пожаловать в Цивилопедию! Здесь вы найдете подробное описание всех аспектов игры. Используйте поле "Поиск", чтобы найти какую-то определенную статью. С помощью закладок в верхней части экрана можно перемещаться по разделам Цивилопедии. На панели навигации слева показаны статьи, входящие в состав раздела. Нажмите на статью, чтобы открыть ее.[NEWLINE][NEWLINE]Вверху слева расположены кнопки "Назад" и "Вперед", которые помогут вам быстро перемещаться между страницами. Щелкните по кнопке "X" в верхнем правом углу экрана, чтобы вернуться в игру. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_HOME_PAGE_LABEL">
+      <Text>Цивилопедия</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_HOME_PAGE_VERSION_LABEL">
+      <Text>Версия</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_HOME_PAGE_VERSION_TEXT">
+      <Text>Civilization V v.1.0.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_IMPASSABLE">
+      <Text>Непроходимо</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_IMPROVEMENT_HELP_TEXT">
+      <Text>В игре вы будете создавать рабочих - мирных жителей, которые улучшают земли вокруг ваших городов, повышают производительность клеток или обеспечивают доступ к соседним ресурсам. К улучшениям относятся фермы, торговые посты, лесопилки, каменоломни, рудники и другие объекты. Во время войны враг может разграбить ваши улучшения. Разграбленные объекты бесполезны, пока рабочие их не починят.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_IMPROVEMENT_NAME">
+      <Text>Тип улучшения</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_IMPROVEMENTS_LABEL">
+      <Text>Улучшение:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_IMPROVEMENTS_PAGE_LABEL">
+      <Text>Улучшения</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_IMPROVES_RESRC_LABEL">
+      <Text>Улучшение ресурсов:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_LEADER_NAME">
+      <Text>Имя лидера</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_LEADERS_LABEL">
+      <Text>Лидеры:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_LEADS_TO_TECH_LABEL">
+      <Text>Ведет к технологиям:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_LIVED_LABEL">
+      <Text>Годы жизни:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_LOCAL_RESOURCE_NAME">
+      <Text>Местные ресурсы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_LOCAL_RESRC_LABEL">
+      <Text>Нужные ресурсы:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_MAINT_LABEL">
+      <Text>Содержание:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_MOUNTAINADJYIELD_LABEL">
+      <Text>Бонус от горы рядом:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_MOVECOST_LABEL">
+      <Text>Стоимость движения:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_MOVEMENT_LABEL">
+      <Text>Перемещение:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_NO_YIELD">
+      <Text>нет</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_OBSOLETE_TECH_LABEL">
+      <Text>Устаревает после:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_PEOPLE_PAGE_LABEL">
+      <Text>Специалисты и великие люди</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_POLICIES_PAGE_LABEL">
+      <Text>Институты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_POLICY_NAME">
+      <Text>Институт</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_POLICYBRANCH_LABEL">
+      <Text>Ветвь институтов:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_PREREQ_ERA_LABEL">
+      <Text>Нужная эпоха:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_PREREQ_POLICY_LABEL">
+      <Text>Нужные институты:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_PREREQ_TECH_LABEL">
+      <Text>Нужные технологии:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_PRODUCTION_LABEL">
+      <Text>Производство:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_PROJ_UNLOCK_LABEL">
+      <Text>Открывает проекты:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_PROMOTION_NAME">
+      <Text>Повышение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_PROMOTIONS_HELP_TEXT">
+      <Text>Ваши подразделения повышают квалификацию, участвуя в боях, а также если они созданы в городах с казармами или иными военными зданиями. Повышения поднимают боеспособность, скорость восстановления или перемещения. Подразделения, повышавшие квалификацию несколько раз, весьма ценны: используйте их с умом и старайтесь улучшать по мере возможности.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_PROMOTIONS_PAGE_LABEL">
+      <Text>Повышение квалификации</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_QUOTE_BLOCK_BUILDINGS">
+      <Text>[NEWLINE][TAB][TAB]"Врач может похоронить свои ошибки, а архитектору остается посоветовать клиенту посадить вьюнки".[NEWLINE][TAB][TAB] - Фрэнк Ллойд Райт[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_QUOTE_BLOCK_CITYSTATES">
+      <Text>[NEWLINE][TAB][TAB]"Город - учитель человека".[NEWLINE][TAB][TAB] - Симонид[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_QUOTE_BLOCK_CIVS">
+      <Text>[NEWLINE][TAB][TAB]"Истинный показатель цивилизации - не уровень богатства и образования, не величина городов, не обилие урожаев, а облик человека, воспитываемого страной".[NEWLINE][TAB][TAB] - Ральф Уолдо Эмерсон[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_QUOTE_BLOCK_GCONCEPTS">
+      <Text>[NEWLINE][TAB][TAB]"Я могу считать понятие абсурда существенно важным и полагать его в качестве первой истины".[NEWLINE][TAB][TAB] - Альбер Камю[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_QUOTE_BLOCK_IMPROVEMENTS">
+      <Text>[NEWLINE][TAB][TAB]"И если я могу сколько-нибудь способствовать развитию или преуспеванию страны, в которой живу, то я оставлю ее (...) с тайным чувством удовлетворения, что жил недаром".[NEWLINE][TAB][TAB] - Джозеф Аддисон[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_QUOTE_BLOCK_PEOPLE">
+      <Text>[NEWLINE][TAB][TAB]"Не страшись величия: иные родятся великими, иные достигают величия, а иным величие жалуется".[NEWLINE][TAB][TAB] - Уильям Шекспир[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_QUOTE_BLOCK_POLICIES">
+      <Text>[NEWLINE][TAB][TAB]"Честность - лучшая политика".[NEWLINE][TAB][TAB] - Мигель  де Сервантес[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_QUOTE_BLOCK_PROMOTIONS">
+      <Text>[NEWLINE][TAB][TAB]"Каждый французский солдат носит в своем ранце маршальский жезл".[NEWLINE][TAB][TAB] - Наполеон Бонапарт[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_QUOTE_BLOCK_RESOURCES">
+      <Text>[NEWLINE][TAB][TAB]"Не ищи участи бессмертных, наслаждайся тем, что есть под рукой". [NEWLINE][TAB][TAB] - Пиндар[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_QUOTE_BLOCK_TECHS">
+      <Text>[NEWLINE][TAB][TAB]"Мозг подобен мышцам. Когда мы используем его, то чувствуем себя хорошо. Знание - радость".[NEWLINE][TAB][TAB] - Карл Саган[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_QUOTE_BLOCK_TERRAIN">
+      <Text>[NEWLINE][TAB][TAB]"Держать строй. Первыми не стрелять. Но если они жаждут войны, они ее получат!"[NEWLINE][TAB][TAB] - Джон Паркер[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_QUOTE_BLOCK_UNITS">
+      <Text>[NEWLINE][TAB][TAB]"Судьбы миллионов нерожденных потомков зависят, по Божьей воле, от храбрости и успеха нашей армии... И нам остается простой выбор - победить или погибнуть".[NEWLINE][TAB][TAB] - Джордж Вашингтон[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_QUOTE_BLOCK_WONDERS">
+      <Text>[NEWLINE][TAB][TAB]"Много есть чудес на свете, но человек - их всех чудесней".[NEWLINE][TAB][TAB] - Софокл[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_QUOTE_LABEL">
+      <Text>Цитата:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_RANGE_LABEL">
+      <Text>Радиус:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_RANGEDCOMBAT_LABEL">
+      <Text>Дальний бой:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_RELATED_ARTICLES_LABEL">
+      <Text>См. также:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_RELATED_IMAGES_LABEL">
+      <Text>Связанные изображения:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_REPLACE_NAME">
+      <Text>Заменить название</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_REPLACES_LABEL">
+      <Text>Замещает:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_REQ_BLDG_LABEL">
+      <Text>Нужные здания:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_REQ_PROMOTIONS_LABEL">
+      <Text>Нужные повышения:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_REQ_RESRC_LABEL">
+      <Text>Нужные ресурсы:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_REQUIRED_BUILDING_NAME">
+      <Text>Нужные здания:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_RESEARCH_LABEL">
+      <Text>Исследования</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_RESOURCE_NAME">
+      <Text>Ресурсы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_RESOURCES_HELP_TEXT">
+      <Text>Мир наполнен различными ресурсами, которые способствуют развитию цивилизации. Сюда относятся скот, зерно, уголь, железо, киты и нефть. Во время игры, чтобы ускорить развитие городов, старайтесь основывать их возле ресурсов. Часть ресурсов, например рыба и золото, доступны с самого начала игры, а другие - алюминий, нефть, уран - скрыты до тех пор, пока вы не освоите соответствующую технологию.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_RESOURCES_PAGE_LABEL">
+      <Text>Ресурсы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_RESOURCESFOUND_LABEL">
+      <Text>Ресурсы:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_RESRC_RVL_LABEL">
+      <Text>Открывает ресурсы:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_REVEAL_TECH_LABEL">
+      <Text>Открывается после:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_SCIENCE_LABEL">
+      <Text>Наука:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_SOCIAL_POL_HELP_TEXT">
+      <Text>Общественные институты - это те основные принципы общественного устройства, которым следует народ под вашим управлением. Станете ли вы диктатором, пожертвовав свободой ради порядка и производительности? Направите усилия на создание мощной армии или на культурную экспансию? Выберете монархию или демократию?[NEWLINE][NEWLINE]Общественные институты влияют на ход игры самым непосредственным образом. Часть способствует увеличению производства в городах, другие помогают увеличить богатство, а третьи - усиливаю ваши войска. [NEWLINE] [NEWLINE]Выбор институтов не может быть верным или неверным. Один институт может быть лучше другого в определенных обстоятельствах (к примеру, в окружении враждебных цивилизаций вы выберете один путь, а в изоляции - другой) или больше соответствовать вашему стилю игры. Попробуйте разные подходы!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_SOUND_BITE_LABEL">
+      <Text>Проиграть звуковой фрагмент</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_SPEC_HELP_TEXT">
+      <Text>Во все времена были люди, способные изменить мир: художники, ученые, полководцы и прочие, чей гений выделял их среди остальных. В игре все эти выдающиеся личности называются великими людьми. [NEWLINE][NEWLINE]Всего существует пять типов великих людей: торговцы, художники, ученые, инженеры и полководцы. У каждого великого человека есть особое умение. [NEWLINE][NEWLINE]Великие люди появляются при постройке определенных зданий и чудес, куда на работу отправляются специалисты (горожане, работающие не на полях). Специалисты не обрабатывают клетки, их основная задача - ускорить появление великих людей. Сохранить баланс между специалистами и рабочими - одна из важнейших задач при управлении городом. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_SPEC_LABEL">
+      <Text>Специалисты:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_SPEC_NAME">
+      <Text>Специалист</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_STRATEGY_LABEL">
+      <Text>Описание:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_SUMMARY_LABEL">
+      <Text>Краткий обзор:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_TECH_PAGE_LABEL">
+      <Text>Технологии</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_TECH_SECTION">
+      <Text>Технологии</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_TECHNOLOGIES_HELP_TEXT">
+      <Text>От технологий зависит судьба всей вашей державы. В игре представлено более 70 технологий, и все они дают определенные преимущества. Часть технологий позволит вам строить новые здания и чудеса, другие повысят производительность полей и рудников, а третьи позволят строить железные дороги и современное оружие.[NEWLINE][NEWLINE]В гонке технологий волей-неволей приходится участвовать всем державам. Стоит отстать на пару ступеней, и вы рискуете оказаться в том же положении, что и ацтеки, сражавшиеся против испанских мушкетов каменными мечами и пращами. Как показывает история, технологическое превосходство - залог победы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_TECHNOLOGY_NAME">
+      <Text>Название технологии</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_TERRAIN_FEATURES_HELP_TEXT">
+      <Text>Особенности местности - это элементы ландшафта или растительности, расположенные на клетке вдобавок к типу местности. Так, на клетке с лугами могут располагаться лес или болото. Особенности влияют на производительность клетки и могут сказываться на количестве очков передвижения (ОП), которые тратит юнит, заходя на эту клетку. Кроме того, особенности местности могут давать преимущества или штрафы к обороне войск, расположенных на этой клетке.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_TERRAIN_FEATURES_LABEL">
+      <Text>Особенности</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_TERRAIN_HELP_TEXT">
+      <Text>Весь игровой мир разделен на шестигранные "клетки". Каждая клетка характеризуется ландшафтом: это может быть пустыня, равнина, холмы и так далее. На многих клетках встречаются такие особенности, как лес или джунгли. От этих элементов зависит, насколько полезной может быть клетка и насколько юнитам сложно по ней передвигаться. Кроме того, ландшафт и особенности местности оказывают значительное влияние на боевые действия в клетке.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_TERRAIN_LABEL">
+      <Text>Ландшафт</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_TERRAIN_NAME">
+      <Text>Тип ландшафта</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_TERRAIN_PAGE_LABEL">
+      <Text>Ландшафт</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_TERRAINS_LABEL">
+      <Text>Местоположение:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_TITLES_LABEL">
+      <Text>Титулы:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_TRAIT_NAME">
+      <Text>Название умения</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_TRAITS_LABEL">
+      <Text>Уникальные умения:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_UNIQUEBLDG_LABEL">
+      <Text>Уникальные здания:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_UNIQUEBLDG_NAME">
+      <Text>Название уникального здания</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_UNIQUEIMPR_NAME">
+      <Text>Название уникального улучшения</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_UNIQUEIMPRV_LABEL">
+      <Text>Уникальные улучш.:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_UNIQUEUNIT_LABEL">
+      <Text>Уникальные юниты:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_UNIQUEUNIT_NAME">
+      <Text>Название уникального юнита</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_UNIT_UNLOCK_LABEL">
+      <Text>Открывает юниты:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_UNITS_HELP_TEXT">
+      <Text>Юниты - это любые подвижные отряды вашей цивилизации: рабочие, поселенцы, которые могут основать новые города, великие люди, каждый из которых способен в одиночку изменить ход истории. И, разумеется, к юнитам относятся все виды войск. [NEWLINE][NEWLINE]Большинство юнитов создается в городах. Используйте их с умом. Войск должно хватать для выполнения боевых задач и обороны городов, но их не должно быть слишком много: расходы на армию разорят вашу державу. Улучшайте подразделения по мере возможности. Если военное бремя станет непомерным, часть подразделений можно расформировать. Без рабочих создать мощную державу не выйдет, однако не стоит забывать о затратах на их снабжение. Словом, следите за своими финансами. [NEWLINE][NEWLINE]Какова бы ни была ваша стратегия, в самом начале игры отправляйте людей исследовать мир! Если вы не знаете, что происходит вокруг, вас могут ожидать крайне неприятные сюрпризы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_UNITS_PAGE_LABEL">
+      <Text>Юниты </Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_UNLKED_PROJECT_NAME">
+      <Text>Открытый проект</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_UNLOCKED_UNIT_NAME">
+      <Text>Открытый юнит</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_WONDERS_HELP_TEXT">
+      <Text>Чудеса - удивительные здания, изобретения и идеи, которые выдержали проверку временем и навсегда изменили мир. [NEWLINE][NEWLINE]Чудесами являются и Пирамида Хеопса, и Нотр-Дам, и Стоунхендж. Создание чудес требует немалых усилий, затрат энергии и времени для постройки - но после завершения работ ваша держава получает множество преимуществ. [NEWLINE][NEWLINE]Есть три вида чудес: чудеса света, национальные чудеса и проекты-чудеса. Чудо света может быть построено лишь в единственном экземпляре - оно одно на весь мир. Национальные чудеса не столь редки: каждая нация вправе построить один экземпляр такого чуда.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_WONDERS_PAGE_LABEL">
+      <Text>Чудеса</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_WORKER_ACTION_LABEL">
+      <Text>Открывает действия:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_WORKER_ACTION_NAME">
+      <Text>Список действий рабочих</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_YIELD_LABEL">
+      <Text>Производительность:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEOPLE_SECTION_1">
+      <Text>Специалисты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEOPLE_SECTION_2">
+      <Text>Великие люди</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICIES_ADOPTED">
+      <Text>Принятые институты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_ADOPT_BUTTON">
+      <Text>Принять</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_UNHAPPINESS">
+      <Text>Горожане ({1_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_UNHAPPINESS_TT">
+      <Text>Каждый [ICON_CITIZEN] горожанин в неоккупированном городе приносит 1 [ICON_HAPPINESS_4] недовольства</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POPULATION_SUPPLY">
+      <Text>Население</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POPULATION_SUPPLY_TT">
+      <Text>Предоставляется общим населением</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROGRESS_TOWARDS">
+      <Text>{1_name}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTIONS_SECTION_1">
+      <Text>Ближний бой</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTIONS_SECTION_2">
+      <Text>Дальний бой</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTIONS_SECTION_3">
+      <Text>Флот</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTIONS_SECTION_4">
+      <Text>Медицина</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTIONS_SECTION_5">
+      <Text>Разведка</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTIONS_SECTION_6">
+      <Text>Авиация и ракеты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTIONS_SECTION_7">
+      <Text>Общие повышения</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTIONS_SECTION_8">
+      <Text>Характеристики юнита</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RANKING_STATEMENT">
+      <Text>Вы достигли того же, что и {1_GreatLeader}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RANKING_TITLE">
+      <Text>Рейтинг</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_DATA_BUILDINGMAINTENANCE">
+      <Text>Содержание зданий</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_DATA_CITYCOUNT">
+      <Text>Число городов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_DATA_CULTUREPERTURN">
+      <Text>Культура [ICON_CULTURE] за ход</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_DATA_EXCESSHAPPINESS">
+      <Text>Излишки [ICON_HAPPINESS_1] настроения</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_DATA_FOODPERTURN">
+      <Text>Пища [ICON_FOOD] за ход</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_DATA_GOLDAGETURNS">
+      <Text>Ходы [ICON_GOLDEN_AGE] золотого века</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_DATA_GOLDPERTURN">
+      <Text>Золото [ICON_GOLD] за ход</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_DATA_GPTCITYCONNECTIONS">
+      <Text>Золото [ICON_GOLD] за торг. пути</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_DATA_GPTDEALS">
+      <Text>Золото [ICON_GOLD] за договоры</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_DATA_HAPPINESS">
+      <Text>Настроение [ICON_HAPPINESS_1]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_DATA_IMPROVEDTILES">
+      <Text>Улучшенные клетки</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_DATA_IMPROVEMENTMAINTENANCE">
+      <Text>Содержание улучшений</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_DATA_MILITARYMIGHT">
+      <Text>Военная мощь</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_DATA_NUMBEROFPOLICIES">
+      <Text>Число институтов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_DATA_NUMBEROFWORKERS">
+      <Text>Число рабочих</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_DATA_PRODUCTIONPERTURN">
+      <Text>Производство [ICON_PRODUCTION] за ход</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_DATA_SCIENCEPERTURN">
+      <Text>Наука [ICON_RESEARCH] за ход</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_DATA_TECHSKNOWN">
+      <Text>Число технологий</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_DATA_TOTALCULTURE">
+      <Text>Всего [ICON_CULTURE] культуры</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_DATA_TOTALGOLD">
+      <Text>Всего [ICON_GOLD] золота</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_DATA_TOTALLAND">
+      <Text>Общая территория</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_DATA_TOTALPOPULATION">
+      <Text>Население [ICON_CITIZEN]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_DATA_UNHAPPINESS">
+      <Text>Недовольство [ICON_HAPPINESS_3]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_DATA_UNITMAINTENANCE">
+      <Text>Содержание юнитов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_DATA_WORKEDTILES">
+      <Text>Обрабатываемые клетки</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_NOGRAPHDATA">
+      <Text>Нет данных</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_PLAYPAUSE">
+      <Text>Игра/Пауза</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_TITLE">
+      <Text>Повтор</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_VIEWER_GRAPHBY_SCORE">
+      <Text>Счет</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_VIEWER_GRAPHS_TITLE">
+      <Text>Графики</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_VIEWER_GRAPHS_TT">
+      <Text>Просмотр различных графиков, построенных на основе данных каждого игрока.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_VIEWER_MAP_TITLE">
+      <Text>Карта</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_VIEWER_MAP_TT">
+      <Text>Просмотр карты мира и роста территорий со временем.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_VIEWER_MESSAGES_TITLE">
+      <Text>Сообщения</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REPLAY_VIEWER_MESSAGES_TT">
+      <Text>Просмотр сообщений о важнейших событиях игры.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESEARCH_FINISHED">
+      <Text>Готово:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESEARCH_HALTED">
+      <Text>ПРЕРВАНО: {1_Name}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESEARCH_ONGOING">
+      <Text>Исследуется:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCES_EXPORTED">
+      <Text>Экспортируемые ресурсы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCES_IMPORTED">
+      <Text>Импортируемые ресурсы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCES_SECTION_0">
+      <Text>Бонусные ресурсы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCES_SECTION_1">
+      <Text>Стратегические ресурсы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCES_SECTION_2">
+      <Text>Редкие ресурсы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REVEALS_ENTIRE_MAP">
+      <Text>Открывает всю карту.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_REVEALS_RESOURCE_ON_MAP">
+      <Text>Открывает [COLOR_GREEN]{@1_ResourceName[4]}[ENDCOLOR] на карте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SEARCH">
+      <Text>Поиск</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SEARCH_BUTTON">
+      <Text>Поиск</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SEARCH_NOT_FOUND">
+      <Text>По запросу "{1_stringEntered}" ничего не найдено.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SORT_BY_MEMBERS">
+      <Text>Сортировка по участникам</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SORT_BY_SERVER_NAME">
+      <Text>Сортировка по имени сервера</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STRAT_FEATURES">
+      <Text>Особенности</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STRAT_FOW">
+      <Text>Туман войны</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STRAT_ICON_MODE">
+      <Text>Отображение значков:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STRAT_MAP_OPTIONS_TT">
+      <Text>Включает/выключает меню настроек карты.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STRAT_OVERLAY">
+      <Text>Активное наложение:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SUPPLY_CAP">
+      <Text>Всего снабжения</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SUPPLY_CAP_TT">
+      <Text>Всего снабжения обеспечено</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SUPPLY_DEFICIT">
+      <Text>Дефицит</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SUPPLY_DEFICIT_PENALTY">
+      <Text>Штраф</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SUPPLY_DEFICIT_PENALTY_TT">
+      <Text>Штраф при производстве из-за дефицита снабжения</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SUPPLY_DEFICIT_TT">
+      <Text>Юниты, превышающие лимит снабжения</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SUPPLY_REMAINING">
+      <Text>Излишки</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SUPPLY_REMAINING_TT">
+      <Text>Доступно снабжение для новых юнитов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SUPPLY_TITLE">
+      <Text>Снабжение юнитов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SUPPLY_USE">
+      <Text>Используется</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SUPPLY_USE_TT">
+      <Text>Снабжение, используемое юнитами</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_AVAILABLE">
+      <Text>Доступно</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_CURR_RESEARCH">
+      <Text>Исследуется сейчас</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_NOT_YET_AVAILABLE">
+      <Text>Пока недоступно</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_RESEARCHED">
+      <Text>Исследовано</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TERRAIN_SECTION_1">
+      <Text>Ландшафт</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TERRAIN_SECTION_2">
+      <Text>Особенности</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_GOLD">
+      <Text>[ICON_GOLD][COLOR:255:235:0:255]{1_TotalGold: number "##"} {2_GoldPerTurn: number "'(+'##')';'[COLOR:255:60:60:255](-'##')'"}[/COLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_GOLDEN_AGES_OFF">
+      <Text>Золотой век: выкл.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_HAPPINESS_OFF">
+      <Text>Недовольство: выкл.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_HAPPINESS_OFF_TOOLTIP">
+      <Text>Система настроения отключена. Золотой век не наступает. Все штрафы, связанные с недовольством, также не действуют.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_POLICIES_OFF">
+      <Text>Институты: выкл.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_POLICIES_OFF_TOOLTIP">
+      <Text>Система общественных институтов отключена. Принимать новые институты нельзя, но культура по-прежнему влияет на скорость расширения границ.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_SCIENCE_OFF">
+      <Text>Наука: выкл.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_SCIENCE_OFF_TOOLTIP">
+      <Text>Система исследований отключена. Открытий новых технологий не будет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOTAL">
+      <Text>Всего</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TURN_REMINDER_EMAIL_BODY_HEADER">
+      <Text>Привет!&lt;br&gt;&lt;br&gt;Ваш ход в игре "{1_GameName}".&lt;br&gt;&lt;br&gt;</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TURN_REMINDER_EMAIL_GENERIC_RECIPENT">
+      <Text>Крупье</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TURN_REMINDER_EMAIL_MANUAL_LINK">
+      <Text>&lt;br&gt;&lt;br&gt;Если приведенная выше ссылка не работает, скопируйте и вставьте в строку адреса вашего веб-обозревателя следующую ссылку:&lt;br&gt;{1_SteamURL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TURN_REMINDER_EMAIL_SENDER">
+      <Text>Крупье Civilization 5</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TURN_REMINDER_EMAIL_START_CIV5">
+      <Text>&lt;a href="{1_SteamURL}"&gt;Щелкните, чтобы запустить Civilization 5&lt;/a&gt;</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TURN_REMINDER_EMAIL_STEAM_LINK">
+      <Text>&lt;a href="{1_SteamURL}"&gt;Щелкните здесь, чтобы присоединиться к игре.&lt;/a&gt;</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TURN_REMINDER_EMAIL_SUBJECT">
+      <Text>Уведомление Civilization 5:  Ваш ход. Игра "{1_GameName}", ход {2_Turn}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNHAPPINESS">
+      <Text>Недовольство</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNHAPPINESS_MOD_CAPITAL">
+      <Text>Благодаря общественным институтам [ICON_CITIZEN] жители вашей столицы приносят на {1_Num}% меньше обычного.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNHAPPINESS_MOD_MAP">
+      <Text>Из-за размера текущей карты они приносят на {1_Num}% меньше обычного.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNHAPPINESS_MOD_PLAYER">
+      <Text>Благодаря преимуществам, которые получила ваша держава, они приносят {1_Num}% от обычного уровня недовольства.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNHAPPINESS_MOD_SPECIALIST">
+      <Text>Благодаря преимуществам, которые получила ваша держава, горожане-специалисты приносят в два раза меньше [ICON_HAPPINESS_4] недовольства, чем обычно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNHAPPINESS_MOD_TRAIT">
+      <Text>Благодаря свойствам вашей цивилизации, они приносят {1_Num}% от обычного уровня недовольства.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_STATUS_EMBARKED">
+      <Text>На борту</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_STATUS_FORTIFIED">
+      <Text>Укрепиться</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VICTORY_BANG">
+      <Text>ПОБЕДА!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VICTORY_CULTURE_BANG">
+      <Text>Культурная победа!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VICTORY_DOMINATION_BANG">
+      <Text>Военная победа!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VICTORY_ECONOMIC_BANG">
+      <Text>Дипломатическая победа!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VICTORY_FLAVOR_CULTURE">
+      <Text>Вы одержали победу благодаря неотразимой силе культуры. Пышные монументы и гений творческой мысли возвеличили вашу цивилизацию в глазах всего мира. О вас будут слагать стихи, пока сила красоты способна исцелить измученное сердце.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VICTORY_FLAVOR_DEMO">
+      <Text>Много лет прошло с тех пор, как зародилась ваша великая цивилизация. К сожалению, ваше время истекло. Но ваш народ не отчаивается: люди знают, что однажды вы вернетесь и приведете их к победе!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VICTORY_FLAVOR_DIPLOMACY">
+      <Text>Вы одержали победу над всеми врагами благодаря искусной дипломатии! Ваши мудрость и прозорливость привлекали верных союзников и стравливали между собой врагов! Вас навеки запомнят как правителя, подарившего миру - мир.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VICTORY_FLAVOR_DOMINATION">
+      <Text>Мир сотрясали жестокие войны. Многие великие державы пали, но вы устояли - и стали победителем! Вашу великую победу будут помнить долгие века!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VICTORY_FLAVOR_LOSS">
+      <Text>Вы потерпели поражение. Ваша цивилизация не устояла под натиском невзгод. Однако ваш народ не погрузился в отчаянье: он верит, что однажды вы вернетесь и приведете его к победе!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VICTORY_FLAVOR_TECHNOLOGY">
+      <Text>Вы достигли победы благодаря достижениям науки! Вы постигли и подчинили себе тайны природы и привели свой народ в дивный новый мир! Ваш триумф будут помнить, пока на небе сияют звезды!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VICTORY_FLAVOR_TIME">
+      <Text>Мир погрузился в пучину войн и раздоров. Множество великих и могущественных цивилизаций пали, но вам удалось уцелеть - и одержать победу! Мир долго не забудет ваш великий триумф!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VICTORY_INFO">
+      <Text>Информация</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VICTORY_TECHNOLOGY_BANG">
+      <Text>Технологическая победа!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VICTORY_TIME_BANG">
+      <Text>Победа временем!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VIDEO_OPTIONS">
+      <Text>Видео</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_CITIES">
+      <Text>Города</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_CULTURE_VICTORY_DISABLED">
+      <Text>Культурная победа отключена.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_CAPITALS_REMAINING">
+      <Text>{1_NumPlayers} {1_NumPlayers: plural 1?игрок удерживает; 2?игрока удерживают; 3?игроков удерживают;} свои [ICON_CAPITAL] столицы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_CIV_RANK">
+      <Text>Место цивилизации</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_DETAILS">
+      <Text>Подробности</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_LIBERATED_CIV_TITLE">
+      <Text>Освобожд. [ICON_CAPITAL]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_LIBERATED_TITLE">
+      <Text>Освобожд.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_MY_VOTES">
+      <Text>Голосуют за вас:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_MY_VOTES_TITLE">
+      <Text>Всего голосов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_PROJECT_BUILT_BY">
+      <Text>Игроки, создавшие ООН: {1_player}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_PROJECT_PLAYERS_COMPLETE">
+      <Text>У {1_NumPlayers} {1_NumPlayers: plural 1?игрока; 2?игроков; 3?игроков;} завершена {2_apolloProgram}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_SELF_VOTES_TITLE">
+      <Text>За себя</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_SOCIAL_POLICIES">
+      <Text>{@1_player}: {2_completedNum} из {3_totalNum} ветвей общественных институтов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_VICTORY_DISABLED">
+      <Text>Дипломатическая победа отключена.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_VOTES">
+      <Text>Всего голосов доступно:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_VOTES_NEEDED">
+      <Text>Необходимо голосов для победы:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DOMINATION_PROGRESS">
+      <Text>Игроки, сохраняющие власть над своей столицей:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DOMINATION_VICTORY_DISABLED">
+      <Text>Военная победа отключена.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_FUTURE_TECH">
+      <Text>Технологии будущего</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_LAND">
+      <Text>Территория</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_POLICIES_FINISHED">
+      <Text>Исследовано ветвей общественных институтов:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_POPULATION">
+      <Text>Население</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_SCIENCE_VICTORY_DISABLED">
+      <Text>Научная победа отключена.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_SCORE">
+      <Text>Счет</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_TECH">
+      <Text>Технологии</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_TECH_PROGRESS">
+      <Text>Технический прогресс</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_TECH_SS">
+      <Text>Детали звездолета:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_TIME_VICTORY_DISABLED">
+      <Text>Победа по времени отключена.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_TITLE">
+      <Text>Путь к победе</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_TT">
+      <Text>Путь к победе</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_TURNS">
+      <Text>х. осталось</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_TURNS_TT">
+      <Text>х. осталось до окончания игры</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_UTOPIA_PROGRESS">
+      <Text>Прогресс проекта "Утопия"</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_WONDERS">
+      <Text>Чудеса</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_SECTION_1">
+      <Text>Чудеса</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_SECTION_2">
+      <Text>Малые чудеса света</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_SECTION_3">
+      <Text>Проекты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDERS_CONSTRUCTED">
+      <Text>Созданные чудеса</Text>
+    </Row>
+    <Row Tag="TXT_KEY_YIELD_IMPROVED">
+      <Text>{@2_YieldType} на клетках с {@1_ImprovementName[5]} {@2_YieldType: plural 1?увеличивается; other?увеличиваются;} на {3_Num}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_YOUR_SCORE">
+      <Text>Ваш результат</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

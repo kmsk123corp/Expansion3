@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited koba | 01.02.2024 -->
+<GameData>
+
+    <!-- Стоимость постройки -->
+    <Building_ResourceCostRequirements>
+
+
+
+
+        <!-- Летописец -->
+        <Row>
+			<BuildingType>BUILDING_CHRONICLER</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CHRONICLER</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Святилище -->
+		<Row>
+			<BuildingType>BUILDING_SHRINE</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+
+        <!-- Собрание друидов (кельты) -->
+        <Row>
+			<BuildingType>BUILDING_CELTS_DRUIDS</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+
+        <!-- Пирамида (Майя) -->
+        <Row>
+			<BuildingType>BUILDING_MAYA_PYRAMID</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+
+
+
+        <!-- Библиотека -->
+		<Row>
+			<BuildingType>BUILDING_LIBRARY</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LIBRARY</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
+        <!-- Бумажная мастерская (Китай) -->
+		<Row>
+			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>60</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+
+        <!-- Царская библиотека (Ассирия) -->
+		<Row>
+			<BuildingType>BUILDING_ROYAL_LIBRARY</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ROYAL_LIBRARY</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>60</Cost>
+		</Row>
+
+
+
+
+
+
+
+
+
+        <!-- Городские стены -->
+		<Row>
+			<BuildingType>BUILDING_WALLS</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+        <!-- Ворота иштар -->
+        <Row>
+			<BuildingType>BUILDING_WALLS_OF_BABYLON</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>150</Cost>
+		</Row>
+
+        <!-- Каменный карьер -->
+        <Row>
+			<BuildingType>BUILDING_STONEQUARRY</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_STONEQUARRY</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
+        <!-- Мраморная мастерская -->
+        <Row>
+			<BuildingType>BUILDING_MARBLE_WORKS</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_MARBLE_WORKS</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_MARBLE_WORKS</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+
+
+
+    </Building_ResourceCostRequirements>
+
+
+
+    <!-- Производит ресурсов -->
+    <Building_ResourceQuantity>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Каменный карьер -->
+        <Row>
+            <BuildingType>BUILDING_STONEQUARRY</BuildingType>
+            <ResourceType>RESOURCE_STONE</ResourceType>
+            <Quantity>10</Quantity>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_STONEQUARRY</BuildingType>
+            <ResourceType>RESOURCE_MARBLE</ResourceType>
+            <Quantity>1</Quantity>
+        </Row>
+
+        <!-- Мраморная мастерская -->
+        <Row>
+			<BuildingType>BUILDING_MARBLE_WORKS</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Quantity>3</Quantity>
+		</Row>
+
+    </Building_ResourceQuantity>
+
+
+
+    <!-- Потребляет за ход -->
+	<Building_ResourceQuantityRequirements>
+
+
+
+
+
+
+
+        <!-- Святилище -->
+		<Row>
+			<BuildingType>BUILDING_SHRINE</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+        <!-- Собрание друидов (кельты) -->
+        <Row>
+			<BuildingType>BUILDING_CELTS_DRUIDS</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+        <!-- Пирамида (Майя) -->
+        <Row>
+			<BuildingType>BUILDING_MAYA_PYRAMID</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+
+
+        <!-- Каменный карьер -->
+        <Row>
+			<BuildingType>BUILDING_STONEQUARRY</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+
+        <!-- Мраморная мастерская -->
+		<Row>
+			<BuildingType>BUILDING_MARBLE_WORKS</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_MARBLE_WORKS</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+    </Building_ResourceQuantityRequirements>
+
+</GameData>

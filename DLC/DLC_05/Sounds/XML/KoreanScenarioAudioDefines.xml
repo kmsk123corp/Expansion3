@@ -1,0 +1,22 @@
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Michael Curran (Firaxis Games) -->
+<AudioDefinesFile>
+  <SoundDatas>
+    <!--Music
+		-->
+    <SoundData>
+      <SoundID>SND_SCENARIO_MUSIC_YELLOW_SEA_MUSIC</SoundID>
+      <Filename>YellowSeaMusic</Filename>
+      <bDontCache/>
+      <LoadType>STREAMED</LoadType>
+    </SoundData>
+    <!--Speech
+		-->
+    <SoundData>
+      <SoundID>SND_SCENARIO_SPEECH_YELLOW_SEA</SoundID>
+      <Filename>YellowSea</Filename>
+      <bDontCache/>
+      <bOnlyLoadOneVariationEachTime/>
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+  </SoundDatas>
+</AudioDefinesFile>

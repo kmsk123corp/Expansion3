@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+
+	<Units>
+
+		<!-- ############################### -->
+		<!--   	   корабли ближнего боя  	 -->
+		<!-- ############################### -->
+
+		<!-- Трирема -->
+		<Row>
+			<Class>UNITCLASS_TRIREME</Class>
+			<Type>UNIT_TRIREME</Type>
+			<PrereqTech>TECH_SHIPBUILDING</PrereqTech>
+			<Combat>10</Combat>
+			<Cost>45</Cost>
+			<Moves>4</Moves>
+			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_TRIREME</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_TRIREME_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_TRIREME_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_TRIREME</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<Mechanized>true</Mechanized>
+			<ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_TRIREME</UnitArtInfo>
+			<UnitFlagIconOffset>24</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>24</PortraitIndex>
+			<MoveRate>WOODEN_BOAT</MoveRate>
+		</Row>
+
+		<!-- Пиниси (Индонезия) -->
+		<Row>
+			<Class>UNITCLASS_TRIREME</Class>
+			<Type>UNIT_INDONESIA_CETBANG</Type>
+			<PrereqTech>TECH_SAILING</PrereqTech>
+			<Combat>10</Combat>
+			<Cost>30</Cost>
+			<Moves>3</Moves>
+			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_INDONESIA_CETBANG</Description>
+			<Civilopedia>TXT_KEY_UNIT_INDONESIA_CETBANG_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_INDONESIA_CETBANG_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_INDONESIA_CETBANG_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<Mechanized>true</Mechanized>
+			<ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_INDONESIA_CETBANG</UnitArtInfo>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<UnitFlagIconOffset>18</UnitFlagIconOffset>
+			<IconAtlas>UNIT_UNIQUE_ATLAS_3</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
+			<MoveRate>WOODEN_BOAT</MoveRate>
+		</Row>
+
+		<!-- Каноэ (Ирокезы) -->
+		<Row>
+			<Class>UNITCLASS_TRIREME</Class>
+			<Type>UNIT_IROQUOIS_WHALER</Type>
+			<PrereqTech>TECH_SAILING</PrereqTech>
+			<Combat>6</Combat>
+			<RangedCombat>9</RangedCombat>
+			<Cost>45</Cost>
+			<Moves>3</Moves>
+			<Range>2</Range>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_IROQUOIS_WHALER</Description>
+			<Civilopedia>TXT_KEY_UNIT_IROQUOIS_WHALER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_IROQUOIS_WHALER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_IROQUOIS_WHALER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<Mechanized>true</Mechanized>
+			<ObsoleteTech>TECH_COMPASS</ObsoleteTech>
+			<WorkRate>100</WorkRate>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_IROQUOIS_WHALER</UnitArtInfo>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<UnitFlagIconOffset>22</UnitFlagIconOffset>
+			<IconAtlas>UNIT_UNIQUE_ATLAS_3</IconAtlas>
+			<PortraitIndex>10</PortraitIndex>
+			<MoveRate>WOODEN_BOAT</MoveRate>
+		</Row>
+
+		<!-- Квинкверема (Карфаген) -->
+		<Row>
+			<Class>UNITCLASS_TRIREME</Class>
+			<Type>UNIT_CARTHAGINIAN_QUINQUEREME</Type>
+			<PrereqTech>TECH_SAILING</PrereqTech>
+			<Combat>14</Combat>
+			<Cost>45</Cost>
+			<Moves>4</Moves>
+			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_CARTHAGINIAN_QUINQUEREME</Description>
+			<Civilopedia>TXT_KEY_CIV5_CARTHAGINIAN_QUINQUEREME_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_CARTHAGINIAN_QUINQUEREME_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_CARTHAGINIAN_QUINQUEREME</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<Mechanized>true</Mechanized>
+			<ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_U_CARTHAGE_QUINQUEREME</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>11</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>11</PortraitIndex>
+			<MoveRate>WOODEN_BOAT</MoveRate>
+		</Row>
+
+		<!-- Дромон -->
+		<Row>
+			<Class>UNITCLASS_TRIREME</Class>
+			<Type>UNIT_BYZANTINE_DROMON</Type>
+			<PrereqTech>TECH_OPTICS</PrereqTech>
+			<Combat>8</Combat>
+			<RangedCombat>13</RangedCombat>
+			<Cost>56</Cost>
+			<Moves>4</Moves>
+			<Range>2</Range>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_BYZANTINE_DROMON</Description>
+			<Civilopedia>TXT_KEY_CIV5_BYZANTINE_DROMON_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_BYZANTINE_DROMON_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_BYZANTINE_DROMON</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<Mechanized>true</Mechanized>
+			<ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_U_BYZANTIUM_DROMON</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>5</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+			<MoveRate>WOODEN_BOAT</MoveRate>
+		</Row>
+
+		<!-- Галеас -->
+		<Row>
+			<Class>UNITCLASS_GALLEASS</Class>
+			<Type>UNIT_GALLEASS</Type>
+			<PrereqTech>TECH_COMPASS</PrereqTech>
+			<Combat>16</Combat>
+			<RangedCombat>17</RangedCombat>
+			<Cost>100</Cost>
+			<Moves>3</Moves>
+			<Range>2</Range>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_GALLEASS</Description>
+			<Civilopedia>TXT_KEY_CIV5_GALLEASS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_GALLEASS_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_GALLEASS</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<Mechanized>true</Mechanized>
+			<ObsoleteTech>TECH_NAVIGATION</ObsoleteTech>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_GALLEASS</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>14</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>14</PortraitIndex>
+			<MoveRate>WOODEN_BOAT</MoveRate>
+		</Row>
+
+		<!-- Великий галеас (Венеция) -->
+		<Row>
+			<Class>UNITCLASS_GALLEASS</Class>
+			<Type>UNIT_VENETIAN_GALLEASS</Type>
+			<PrereqTech>TECH_COMPASS</PrereqTech>
+			<Combat>18</Combat>
+			<RangedCombat>20</RangedCombat>
+			<Cost>110</Cost>
+			<Moves>3</Moves>
+			<Range>2</Range>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_VENETIAN_GALLEASS</Description>
+			<Civilopedia>TXT_KEY_CIV5_VENETIAN_GALLEASS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_VENETIAN_GALLEASS_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_VENETIAN_GALLEASS</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<Mechanized>true</Mechanized>
+			<ObsoleteTech>TECH_NAVIGATION</ObsoleteTech>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_U_VENETIAN_GALLEASS</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION2_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>19</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION2_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>19</PortraitIndex>
+			<MoveRate>WOODEN_BOAT</MoveRate>
+		</Row>
+
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_TRIREME</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIREME</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIREME</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIREME</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
+			<UnitAIType>UNITAI_WORKER_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BYZANTINE_DROMON</UnitType>
+			<UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BYZANTINE_DROMON</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BYZANTINE_DROMON</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BYZANTINE_DROMON</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GALLEASS</UnitType>
+			<UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GALLEASS</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GALLEASS</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GALLEASS</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VENETIAN_GALLEASS</UnitType>
+			<UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VENETIAN_GALLEASS</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VENETIAN_GALLEASS</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VENETIAN_GALLEASS</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<!-- Строит? -->
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
+			<BuildType>BUILD_FISHING_BOATS_NO_KILL</BuildType>
+		</Row>
+	</Unit_Builds>
+
+	<!-- Во что улучшается? -->
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_TRIREME</UnitType>
+			<UnitClassType>UNITCLASS_CARAVEL</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
+			<UnitClassType>UNITCLASS_CARAVEL</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
+			<UnitClassType>UNITCLASS_GALLEASS</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
+			<UnitClassType>UNITCLASS_CARAVEL</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BYZANTINE_DROMON</UnitType>
+			<UnitClassType>UNITCLASS_GALLEASS</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GALLEASS</UnitType>
+			<UnitClassType>UNITCLASS_FRIGATE</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VENETIAN_GALLEASS</UnitType>
+			<UnitClassType>UNITCLASS_FRIGATE</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+
+	<!-- Для советников -->
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_TRIREME</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIREME</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>14</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BYZANTINE_DROMON</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>16</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BYZANTINE_DROMON</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GALLEASS</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GALLEASS</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VENETIAN_GALLEASS</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VENETIAN_GALLEASS</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<!-- Способности юнита -->
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_TRIREME</UnitType>
+			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
+			<PromotionType>PROMOTION_EXTRA_SIGHT_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
+			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
+			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BYZANTINE_DROMON</UnitType>
+			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BYZANTINE_DROMON</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BYZANTINE_DROMON</UnitType>
+			<PromotionType>PROMOTION_NAVAL_BONUS</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GALLEASS</UnitType>
+			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GALLEASS</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VENETIAN_GALLEASS</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VENETIAN_GALLEASS</UnitType>
+			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<!-- Стоимость в ресурсов юнитов -->
+	<Unit_ResourceCostRequirements>
+
+		<!-- Флот -->
+
+			<!-- Уровень 1 -->
+
+				<!-- Каноэ -->
+				<Row>
+					<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
+					<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+					<Cost>10</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
+					<ResourceType>RESOURCE_WOOD</ResourceType>
+					<Cost>10</Cost>
+				</Row>
+				<!-- Трирема -->
+				<Row>
+					<UnitType>UNIT_TRIREME</UnitType>
+					<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+					<Cost>10</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_TRIREME</UnitType>
+					<ResourceType>RESOURCE_WOOD</ResourceType>
+					<Cost>20</Cost>
+				</Row>
+				<!-- Пиниси -->
+				<Row>
+					<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
+					<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+					<Cost>10</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
+					<ResourceType>RESOURCE_WOOD</ResourceType>
+					<Cost>15</Cost>
+				</Row>
+				<!-- Квинтерема -->
+				<Row>
+					<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
+					<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+					<Cost>20</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
+					<ResourceType>RESOURCE_WOOD</ResourceType>
+					<Cost>30</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
+					<ResourceType>RESOURCE_COPPER</ResourceType>
+					<Cost>5</Cost>
+				</Row>
+				<!-- Дромон -->
+				<Row>
+					<UnitType>UNIT_BYZANTINE_DROMON</UnitType>
+					<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+					<Cost>10</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_BYZANTINE_DROMON</UnitType>
+					<ResourceType>RESOURCE_WOOD</ResourceType>
+					<Cost>15</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_BYZANTINE_DROMON</UnitType>
+					<ResourceType>RESOURCE_IRON</ResourceType>
+					<Cost>5</Cost>
+				</Row>
+
+
+			<!-- Уровень 2 -->
+				<!-- Галеас -->
+				<Row>
+					<UnitType>UNIT_GALLEASS</UnitType>
+					<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+					<Cost>50</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_GALLEASS</UnitType>
+					<ResourceType>RESOURCE_LUMBER</ResourceType>
+					<Cost>50</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_GALLEASS</UnitType>
+					<ResourceType>RESOURCE_IRON</ResourceType>
+					<Cost>50</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_GALLEASS</UnitType>
+					<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+					<Cost>50</Cost>
+				</Row>
+
+				<!-- Великий галеас -->
+				<Row>
+					<UnitType>UNIT_VENETIAN_GALLEASS</UnitType>
+					<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+					<Cost>60</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_VENETIAN_GALLEASS</UnitType>
+					<ResourceType>RESOURCE_WOOD</ResourceType>
+					<Cost>60</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_VENETIAN_GALLEASS</UnitType>
+					<ResourceType>RESOURCE_IRON</ResourceType>
+					<Cost>60</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_VENETIAN_GALLEASS</UnitType>
+					<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+					<Cost>60</Cost>
+				</Row>
+
+
+
+				<!-- Каравелла -->
+				<Row>
+					<UnitType>UNIT_CARAVEL</UnitType>
+					<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+					<Cost>100</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_CARAVEL</UnitType>
+					<ResourceType>RESOURCE_WOOD</ResourceType>
+					<Cost>50</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_CARAVEL</UnitType>
+					<ResourceType>RESOURCE_IRON</ResourceType>
+					<Cost>40</Cost>
+				</Row>
+			<!-- Уровень 3 -->
+				<!-- Капер -->
+				<Row>
+					<UnitType>UNIT_PRIVATEER</UnitType>
+					<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+					<Cost>60</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_PRIVATEER</UnitType>
+					<ResourceType>RESOURCE_WOOD</ResourceType>
+					<Cost>60</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_PRIVATEER</UnitType>
+					<ResourceType>RESOURCE_IRON</ResourceType>
+					<Cost>60</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_PRIVATEER</UnitType>
+					<ResourceType>RESOURCE_SALTPETER</ResourceType>
+					<Cost>20</Cost>
+				</Row>
+
+
+				<!-- фрегат -->
+				<Row>
+					<UnitType>UNIT_FRIGATE</UnitType>
+					<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+					<Cost>100</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_FRIGATE</UnitType>
+					<ResourceType>RESOURCE_WOOD</ResourceType>
+					<Cost>100</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_FRIGATE</UnitType>
+					<ResourceType>RESOURCE_IRON</ResourceType>
+					<Cost>100</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_FRIGATE</UnitType>
+					<ResourceType>RESOURCE_SALTPETER</ResourceType>
+					<Cost>40</Cost>
+				</Row>
+
+			<!-- Уровень 4 -->
+				<!-- Рейдер -->
+				<Row>
+					<UnitType>UNIT_RAIDER</UnitType>
+					<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+					<Cost>100</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_RAIDER</UnitType>
+					<ResourceType>RESOURCE_WOOD</ResourceType>
+					<Cost>50</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_RAIDER</UnitType>
+					<ResourceType>RESOURCE_IRON</ResourceType>
+					<Cost>200</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_RAIDER</UnitType>
+					<ResourceType>RESOURCE_COAL</ResourceType>
+					<Cost>10</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_RAIDER</UnitType>
+					<ResourceType>RESOURCE_SALTPETER</ResourceType>
+					<Cost>30</Cost>
+				</Row>
+
+				<!-- Броненосец -->
+				<Row>
+					<UnitType>UNIT_IRONCLAD</UnitType>
+					<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+					<Cost>40</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_IRONCLAD</UnitType>
+					<ResourceType>RESOURCE_WOOD</ResourceType>
+					<Cost>30</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_IRONCLAD</UnitType>
+					<ResourceType>RESOURCE_IRON</ResourceType>
+					<Cost>300</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_IRONCLAD</UnitType>
+					<ResourceType>RESOURCE_COAL</ResourceType>
+					<Cost>20</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_IRONCLAD</UnitType>
+					<ResourceType>RESOURCE_SALTPETER</ResourceType>
+					<Cost>40</Cost>
+				</Row>
+
+			<!-- Уровень 5 -->
+				<!-- Подводная лодка -->
+				<Row>
+					<UnitType>UNIT_SUBMARINE</UnitType>
+					<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+					<Cost>100</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_SUBMARINE</UnitType>
+					<ResourceType>RESOURCE_IRON</ResourceType>
+					<Cost>200</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_SUBMARINE</UnitType>
+					<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+					<Cost>40</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_SUBMARINE</UnitType>
+					<ResourceType>RESOURCE_COPPER</ResourceType>
+					<Cost>20</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_SUBMARINE</UnitType>
+					<ResourceType>RESOURCE_OIL</ResourceType>
+					<Cost>20</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_SUBMARINE</UnitType>
+					<ResourceType>RESOURCE_SHELL</ResourceType>
+					<Cost>20</Cost>
+				</Row>
+
+				<!-- Канонерка -->
+				<Row>
+					<UnitType>UNIT_GUNBOAT</UnitType>
+					<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+					<Cost>50</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_GUNBOAT</UnitType>
+					<ResourceType>RESOURCE_IRON</ResourceType>
+					<Cost>200</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_GUNBOAT</UnitType>
+					<ResourceType>RESOURCE_SHELL</ResourceType>
+					<Cost>20</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_GUNBOAT</UnitType>
+					<ResourceType>RESOURCE_COAL</ResourceType>
+					<Cost>20</Cost>
+				</Row>
+
+
+			<!-- Уровень 6 -->
+				<!-- Авианосец -->
+				<Row>
+					<UnitType>UNIT_CARRIER</UnitType>
+					<ResourceType>RESOURCE_IRON</ResourceType>
+					<Cost>300</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_CARRIER</UnitType>
+					<ResourceType>RESOURCE_COPPER</ResourceType>
+					<Cost>50</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_CARRIER</UnitType>
+					<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+					<Cost>50</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_CARRIER</UnitType>
+					<ResourceType>RESOURCE_OIL</ResourceType>
+					<Cost>50</Cost>
+				</Row>
+
+
+
+				<!-- Линкор -->
+				<Row>
+					<UnitType>UNIT_BATTLESHIP</UnitType>
+					<ResourceType>RESOURCE_IRON</ResourceType>
+					<Cost>500</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_BATTLESHIP</UnitType>
+					<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+					<Cost>100</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_BATTLESHIP</UnitType>
+					<ResourceType>RESOURCE_COPPER</ResourceType>
+					<Cost>100</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_BATTLESHIP</UnitType>
+					<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+					<Cost>50</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_BATTLESHIP</UnitType>
+					<ResourceType>RESOURCE_SHELL</ResourceType>
+					<Cost>50</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_BATTLESHIP</UnitType>
+					<ResourceType>RESOURCE_OIL</ResourceType>
+					<Cost>50</Cost>
+				</Row>
+
+
+			<!-- Уровень 7 -->
+				<!-- Атомная судмарина -->
+				<Row>
+					<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
+					<ResourceType>RESOURCE_IRON</ResourceType>
+					<Cost>400</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
+					<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+					<Cost>100</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
+					<ResourceType>RESOURCE_COPPER</ResourceType>
+					<Cost>40</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
+					<ResourceType>RESOURCE_URANIUM</ResourceType>
+					<Cost>10</Cost>
+				</Row>
+				<!-- Атомный авианосец -->
+				<Row>
+					<UnitType>UNIT_NUCLEAR_CARRIER</UnitType>
+					<ResourceType>RESOURCE_IRON</ResourceType>
+					<Cost>500</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_NUCLEAR_CARRIER</UnitType>
+					<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+					<Cost>100</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_NUCLEAR_CARRIER</UnitType>
+					<ResourceType>RESOURCE_COPPER</ResourceType>
+					<Cost>50</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_NUCLEAR_CARRIER</UnitType>
+					<ResourceType>RESOURCE_URANIUM</ResourceType>
+					<Cost>10</Cost>
+				</Row>
+				<!-- Ракетный крейсер -->
+				<Row>
+					<UnitType>UNIT_MISSILE_CRUISER</UnitType>
+					<ResourceType>RESOURCE_IRON</ResourceType>
+					<Cost>600</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_MISSILE_CRUISER</UnitType>
+					<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+					<Cost>200</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_MISSILE_CRUISER</UnitType>
+					<ResourceType>RESOURCE_COPPER</ResourceType>
+					<Cost>50</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_MISSILE_CRUISER</UnitType>
+					<ResourceType>RESOURCE_URANIUM</ResourceType>
+					<Cost>20</Cost>
+				</Row>
+
+
+	</Unit_ResourceCostRequirements>
+
+	<!-- Содержание -->
+	<Unit_ResourceQuantityRequirements>
+
+		<!-- Каноэ -->
+		<Row>
+			<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+		<!-- Трирема -->
+		<Row>
+			<UnitType>UNIT_TRIREME</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+		<!-- Пиниси -->
+		<Row>
+			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+		<!-- Квинтерема -->
+		<Row>
+			<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+		<!-- Дромон -->
+		<Row>
+			<UnitType>UNIT_BYZANTINE_DROMON</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BYZANTINE_DROMON</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+		<!-- Галеас -->
+		<Row>
+			<UnitType>UNIT_GALLEASS</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GALLEASS</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GALLEASS</UnitType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+		<!-- Великий галеас -->
+		<Row>
+			<UnitType>UNIT_VENETIAN_GALLEASS</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VENETIAN_GALLEASS</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VENETIAN_GALLEASS</UnitType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+
+	</Unit_ResourceQuantityRequirements>
+
+
+
+
+
+
+</GameData>

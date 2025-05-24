@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_AGREE_SHORT_1">
+      <Text>Отлично.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_AGREE_SHORT_2">
+      <Text>Хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_AGREE_SHORT_3">
+      <Text>Конечно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_AGREE_SHORT_4">
+      <Text>Договорились.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_AGREE_SHORT_5">
+      <Text>О, очень хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_AGREE_SHORT_6">
+      <Text>Вынужден согласиться.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_AGREE_SHORT_7">
+      <Text>Прекрасно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_ATTACKED_1">
+      <Text>Прекрасно! Вы наконец-то попали в мои сети!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_ATTACKED_2">
+      <Text>Какое чрезвычайно дурацкое решение. Теперь вам придется заплатить за свою глупость.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_ATTACKED_3">
+      <Text>Да вы бессмысленный злодей! Мы уничтожим вас!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_DECLAREWAR_1">
+      <Text>Судя по моим расчетам, ваша страна может угрожать национальным интересам Германии. Поэтому я решил - с большой неохотой, я уверяю - уничтожить вас.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_DECLAREWAR_2">
+      <Text>Мне стало ясно, что две наших нации рано или поздно столкнутся на поле боя. У меня нет желания ждать, пока вы станете сильнее и могущественнее, поэтому готовьтесь к войне!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_DECLAREWAR_3">
+      <Text>Ваше дальнейшее существование представляет собой угрозу германским интересам. Готовьтесь к войне.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_DEFEATED_1">
+      <Text>Германия уничтожена. Я плачу о тех поколениях, что теперь не появятся на свет!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_DEFEATED_2">
+      <Text>Поздравляю вас с победой. Великая машина истории, должно быть, на вашей стороне.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_DEFEATED_3">
+      <Text>Немыслимо! Я, Отто фон Бисмарк, герцог Лауэнбургский, министр-председатель Пруссии и первый канцлер Германии, был побежден кем-то вроде вас?!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_DEFEATED_4">
+      <Text>Я поздравляю вас с победой. Пусть ваша великая империя стоит тысячи лет!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_DEMANDTRIBUTE_ANGRY">
+      <Text>Выполните следующие наши требования, и ваша жалкая страна останется жить.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_DEMANDTRIBUTE_HAPPY">
+      <Text>Германия нуждается в вашей помощи, мой друг. Подчинение - в ваших же интересах.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_DEMANDTRIBUTE_NEUTRAL">
+      <Text>Мы требуем немедленно принять наши требования. Германские войска с нетерпением ждут вашего ответа.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_DISAGREE_SHORT_1">
+      <Text>Нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_DISAGREE_SHORT_2">
+      <Text>Определенно нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_DISAGREE_SHORT_3">
+      <Text>Мы вынуждены отказать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_DISAGREE_SHORT_4">
+      <Text>Конечно же, нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_DISAGREE_SHORT_5">
+      <Text>Это неприемлемо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_DISAGREE_SHORT_6">
+      <Text>Вы, должно быть, шутите!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_DISAGREE_SHORT_7">
+      <Text>Прощу прощения, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_FIRSTGREETING_1">
+      <Text>Великий германский народ приветствует вас, незнакомец.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_FIRSTGREETING_2">
+      <Text>Германия приветствует вас. Я буду молиться, чтобы между нашими великими нациями всегда был мир.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_FIRSTGREETING_3">
+      <Text>От имени великого германского народа я приветствую вас!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_GOODBYE_1">
+      <Text>Хорошего вам дня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_GOODBYE_2">
+      <Text>Прощайте!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_GOODBYE_3">
+      <Text>До свидания.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_GOODBYE_4">
+      <Text>До следующей встречи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_GOODBYE_5">
+      <Text>Уходите сейчас же.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_GOODBYE_6">
+      <Text>На этом все.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_GOODBYE_7">
+      <Text>Дело сделано.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_GREETING_1">
+      <Text>Да?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_GREETING_2">
+      <Text>Мое почтение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_GREETING_3">
+      <Text>Да, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_GREETING_4">
+      <Text>Чего вы хотите?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_GREETING_5">
+      <Text>Ну, в чем дело?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_GREETING_6">
+      <Text>Чем обязан?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_LETSHEARIT_1">
+      <Text>Я слушаю.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_LETSHEARIT_2">
+      <Text>Я вас внимательнейшим образом слушаю.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_LETSHEARIT_3">
+      <Text>Продолжайте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_LETSHEARIT_4">
+      <Text>Я весь внимание.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_LETSHEARIT_5">
+      <Text>Да?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_LETSHEARIT_6">
+      <Text>Что вы сказали?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_LETSHEARIT_7">
+      <Text>И?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_LETSHEARIT_8">
+      <Text>Что дальше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_LOSEWAR_1">
+      <Text>Давайте назовем это ничьей, да?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_LOSEWAR_2">
+      <Text>Я рад, что мы смогли заключить этот справедливый и почетный мир.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_LOSEWAR_3">
+      <Text>Германия признает вашу победу. Позвольте принести вам поздравления.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_QUOTE_1">
+      <Text>Великие вопросы времени решаются не речами и резолюциями большинства - в этом и была ошибка 1848 и 1849 годов - но железом и кровью!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_QUOTE_2">
+      <Text>Армию вторжения нельзя остановить на границе одним лишь красноречием.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_QUOTE_3">
+      <Text>Бог бережет дураков, пьяниц и Соединенные Штаты Америки.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_QUOTE_4">
+      <Text>Любые договоры между великими государствами перестают быть обязательными, как только вступают в противоречие с борьбой за существование.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_TRADE_NEEDMORE_ANGRY_1">
+      <Text>Неприемлемо, неприемлемо, неприемлемо! Улучшите условия или уходите.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_TRADE_NEEDMORE_ANGRY_2">
+      <Text>Этого недостаточно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_TRADE_NEEDMORE_ANGRY_3">
+      <Text>Вы должны предложить больше.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_TRADE_NEEDMORE_ANGRY_4">
+      <Text>Маловато.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_TRADE_NEEDMORE_HAPPY_1">
+      <Text>Германия не может согласиться на ваше предложение, дружище. И я уверен, вы можете предложить лучшие условия.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_TRADE_NEEDMORE_HAPPY_2">
+      <Text>И это все, что вы можете предложить?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_TRADE_NEEDMORE_HAPPY_3">
+      <Text>Практически...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_TRADE_NEEDMORE_HAPPY_4">
+      <Text>Еще бы немного...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_TRADE_NEEDMORE_NEUTRAL_1">
+      <Text>Определенно, нет. Вам стоит сделать предложение получше.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_TRADE_NEEDMORE_NEUTRAL_2">
+      <Text>Можете предложить чуть побольше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_TRADE_NEEDMORE_NEUTRAL_3">
+      <Text>Этого не хватит.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_TRADE_NEEDMORE_NEUTRAL_4">
+      <Text>Маловато.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_TRADE_NO_ANGRY">
+      <Text>Нет! Это даже не обсуждается!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_TRADE_NO_HAPPY">
+      <Text>При всем моем стремлении к миру я вынужден отклонить ваше предложение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_TRADE_NO_NEUTRAL">
+      <Text>В данный момент Германии не интересно ваше предложение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_TRADE_YES_ANGRY">
+      <Text>Отлично.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_TRADE_YES_HAPPY">
+      <Text>Превосходно! А вы чрезвычайно проницательны.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_TRADE_YES_NEUTRAL">
+      <Text>Это приемлемые условия.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_TRADEREQUEST_ANGRY">
+      <Text>Вам стоит очень тщательно рассмотреть это предложение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_TRADEREQUEST_HAPPY">
+      <Text>Я уверен, что данное соглашение принесет прибыль обоим нашим народам. Что скажете?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_TRADEREQUEST_NEUTRAL">
+      <Text>Щедрый немецкий народ делает вам чрезвычайно выгодное предложение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_TRIBUTE_NO_ANGRY">
+      <Text>Приходите и попробуйте взять сами.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_TRIBUTE_NO_HAPPY">
+      <Text>Такой шаг в настоящий момент не в наших интересах.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_TRIBUTE_NO_NEUTRAL">
+      <Text>Германия никогда не подчинится угрозам низкоразвитых народов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_TRIBUTE_YES_ANGRY">
+      <Text>Вы чрезвычайно высокомерны. Мы запомним это.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_TRIBUTE_YES_HAPPY">
+      <Text>Хорошо. Уверен, в будущем вы сделаете то же самое для Германии.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_TRIBUTE_YES_NEUTRAL">
+      <Text>Что ж. Баланс сил на вашей стороне. Пока что.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_WARBLUFF_1">
+      <Text>Вы ведете весьма опасную игру.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_WARBLUFF_2">
+      <Text>Такая бравада может быть опасна, тем более, если она не подкреплена реальной силой.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_WARBLUFF_3">
+      <Text>Хотите спровоцировать меня, да? Что ж, поздравляю. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_WARBLUFF_4">
+      <Text>Какое разочарование.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_WARBLUFF_5">
+      <Text>Мы запомним это!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_WARBLUFF_6">
+      <Text>Как же вы глупы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_WINWAR_1">
+      <Text>Надеюсь, вы теперь поняли, как глупо становиться на пути великой Германии.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_WINWAR_2">
+      <Text>Хорошо. Надеюсь, вы выучили свой урок.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK_WINWAR_3">
+      <Text>Я рад, что вы наконец-то признали превосходство Германии. Не пытайтесь больше снова перейти нам дорогу!</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited kmsk | 13.03.2024 -->
+<GameData>
+
+    <!-- Стоимость постройки -->
+    <Building_ResourceCostRequirements>
+
+        <!-- Селитряница -->
+        <Row>
+			<BuildingType>BUILDING_SALTPETER</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_SALTPETER</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+        <!-- Пороховой погреб -->
+        <Row>
+			<BuildingType>BUILDING_POWDERMAGAZINE</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_POWDERMAGAZINE</BuildingType>
+			<ResourceType>RESOURCE_SALTPETER</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
+        <!-- Пудлинговая печь -->
+        <Row>
+			<BuildingType>BUILDING_PUDDLING_ROAST</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_PUDDLING_ROAST</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+
+    </Building_ResourceCostRequirements>
+
+
+
+    <!-- Производит ресурсов -->
+    <Building_ResourceQuantity>
+
+
+
+        <!-- Селитряница -->
+        <Row>
+			<BuildingType>BUILDING_SALTPETER</BuildingType>
+			<ResourceType>RESOURCE_SALTPETER</ResourceType>
+			<Quantity>2</Quantity>
+		</Row>
+
+        <!-- Пороховой погреб -->
+        <Row>
+			<BuildingType>BUILDING_POWDERMAGAZINE</BuildingType>
+			<ResourceType>RESOURCE_SALTPETER</ResourceType>
+			<Quantity>2</Quantity>
+		</Row>
+
+    </Building_ResourceQuantity>
+
+
+
+    <!-- Потребляет за ход -->
+	<Building_ResourceQuantityRequirements>
+
+
+
+        <!-- Селитряница -->
+        <Row>
+			<BuildingType>BUILDING_SALTPETER</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>4</Cost>
+		</Row>
+
+    </Building_ResourceQuantityRequirements>
+
+</GameData>

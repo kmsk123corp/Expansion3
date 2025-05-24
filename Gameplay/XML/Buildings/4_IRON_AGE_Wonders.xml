@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited kmsk | 01.02.2024 -->
+<GameData>
+
+    <Buildings>
+
+    </Buildings>
+
+
+    <!-- Производит -->
+    <Building_YieldChanges>
+
+    </Building_YieldChanges>
+
+
+    <!-- Улучшает клетку с данной почвой -->
+    <Building_TerrainYieldChanges>
+
+    </Building_TerrainYieldChanges>
+
+
+    <!-- Улучшает клетки с растительностью -->
+    <Building_FeatureYieldChanges>
+
+    </Building_FeatureYieldChanges>
+
+
+    <!-- Улучшает клетки с ресурсами -->
+    <Building_ResourceYieldChanges>
+
+    </Building_ResourceYieldChanges>
+
+
+    <!-- Улучшает после Археологии -->
+    <Building_TechEnhancedYieldChanges>
+
+    </Building_TechEnhancedYieldChanges>
+
+    <!-- Может быть построенно только с этим ресурсом -->
+    <Building_LocalResourceOrs>
+
+
+    </Building_LocalResourceOrs>
+
+
+    <!-- Общие модификаторы -->
+    <Building_GlobalYieldModifiers>
+
+	</Building_GlobalYieldModifiers>
+
+
+    <!-- Усиляет другие здания -->
+    <Building_BuildingClassYieldChanges>
+
+    </Building_BuildingClassYieldChanges>
+
+
+    <!-- Производит от каждого жителя города в процентах -->
+    <Building_YieldChangesPerPop>
+
+    </Building_YieldChangesPerPop>
+
+
+    <!-- Увеличивает скорость постройки юнитов -->
+    <Building_UnitCombatProductionModifiers>
+
+	</Building_UnitCombatProductionModifiers>
+
+
+    <!-- Хлявные юниты -->
+    <Building_FreeUnits>
+
+    </Building_FreeUnits>
+
+
+    <!-- Опыт юнитам -->
+    <Building_DomainFreeExperiences>
+
+    </Building_DomainFreeExperiences>
+
+
+    <!-- Для ботов похоже... -->
+    <Building_Flavors>
+
+    </Building_Flavors>
+
+
+
+
+
+</GameData>

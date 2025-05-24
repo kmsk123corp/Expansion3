@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER">
+      <Text>Александр</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA">
+      <Text>Аския</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS">
+      <Text>Октавиан Август</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BARBARIAN">
+      <Text>Варвар</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BISMARCK">
+      <Text>Бисмарк</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE">
+      <Text>Екатерина II</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS">
+      <Text>Дарий I</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH">
+      <Text>Елизавета</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI">
+      <Text>Ганди</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN">
+      <Text>Гарун аль-Рашид</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA">
+      <Text>Гайавата</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA">
+      <Text>Монтесума</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON">
+      <Text>Наполеон</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_NOBUNAGA">
+      <Text>Ода Нобунага</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES">
+      <Text>Рамсес II</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG">
+      <Text>Рамкамхенг</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN">
+      <Text>Сулейман</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON">
+      <Text>Вашингтон</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WU_ZETIAN">
+      <Text>У Цзэтянь</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+  </Language_RU_RU>
+</GameData>

@@ -1,0 +1,1113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+
+	<Buildings>
+
+
+
+    </Buildings>
+
+
+    <!-- Стоимость постройки -->
+	<Building_ResourceCostRequirements>
+
+		<!-- ############################################################ -->
+		<!-- Чудеса Институтов -->
+		<!-- ############################################################ -->
+
+		<!-- Ресторан -->
+		<Row>
+			<BuildingType>BUILDING_RESTAURANT</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RESTAURANT</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
+
+
+
+		<!-- АЭс -->
+		<Row>
+			<BuildingType>BUILDING_NUCLEAR_PLANT</BuildingType>
+			<ResourceType>RESOURCE_CEMENT</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NUCLEAR_PLANT</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NUCLEAR_PLANT</BuildingType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NUCLEAR_PLANT</BuildingType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NUCLEAR_PLANT</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NUCLEAR_PLANT</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+
+		<!-- Солнечная аэс -->
+		<Row>
+			<BuildingType>BUILDING_SOLAR_PLANT</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SOLAR_PLANT</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SOLAR_PLANT</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+
+		<!-- Радио вышка -->
+		<Row>
+			<BuildingType>BUILDING_BROADCAST_TOWER</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BROADCAST_TOWER</BuildingType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BROADCAST_TOWER</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+		<!-- Банк -->
+		<Row>
+			<BuildingType>BUILDING_BANK</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>300</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BANK</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+		<!-- Больница -->
+		<Row>
+			<BuildingType>BUILDING_HOSPITAL</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOSPITAL</BuildingType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>25</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOSPITAL</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOSPITAL</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOSPITAL</BuildingType>
+			<ResourceType>RESOURCE_CEMENT</ResourceType>
+			<Cost>125</Cost>
+		</Row>
+
+
+
+		<!-- Аэрапорт -->
+
+		<Row>
+			<BuildingType>BUILDING_AIRPORT</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AIRPORT</BuildingType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AIRPORT</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+
+
+		<!-- Школы -->
+		<Row>
+			<BuildingType>BUILDING_PUBLIC_SCHOOL</BuildingType>
+			<ResourceType>RESOURCE_CEMENT</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PUBLIC_SCHOOL</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PUBLIC_SCHOOL</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PUBLIC_SCHOOL</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+
+		<!-- Лаборатории -->
+		<Row>
+			<BuildingType>BUILDING_LABORATORY</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LABORATORY</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LABORATORY</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LABORATORY</BuildingType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LABORATORY</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LABORATORY</BuildingType>
+			<ResourceType>RESOURCE_SALTPETER</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LABORATORY</BuildingType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+
+
+		<!-- Золотой щит -->
+		<Row>
+			<BuildingType>BUILDING_GREAT_FIREWALL</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_FIREWALL</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+
+
+
+		<!-- Гильдия музыкантов -->
+		<Row>
+			<BuildingType>BUILDING_MUSICIANS_GUILD</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MUSICIANS_GUILD</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+
+
+
+		<!-- Запретный город -->
+		<Row>
+			<BuildingType>BUILDING_FORBIDDEN_PALACE</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FORBIDDEN_PALACE</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FORBIDDEN_PALACE</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FORBIDDEN_PALACE</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+		<!-- Фарфоровая пагода -->
+		<Row>
+			<BuildingType>BUILDING_PORCELAIN_TOWER</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PORCELAIN_TOWER</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PORCELAIN_TOWER</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
+		<!-- Лувр -->
+		<Row>
+			<BuildingType>BUILDING_LOUVRE</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LOUVRE</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LOUVRE</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LOUVRE</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+
+		<!-- Биг-Бен -->
+		<Row>
+			<BuildingType>BUILDING_BIG_BEN</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BIG_BEN</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BIG_BEN</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+
+		<!-- Галерея Уффици -->
+		<Row>
+			<BuildingType>BUILDING_UFFIZI</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>150</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UFFIZI</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>150</Cost>
+		</Row>
+
+
+
+		<!-- Красный крест -->
+		<Row>
+			<BuildingType>BUILDING_RED_CROSS</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RED_CROSS</BuildingType>
+			<ResourceType>RESOURCE_SALTPETER</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RED_CROSS</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>300</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RED_CROSS</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RED_CROSS</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+
+		<!-- ############################################################ -->
+		<!-- Чудеса от Идеалогий -->
+		<!-- ############################################################ -->
+
+		<!-- Статуя Свободы -->
+		<Row>
+			<BuildingType>BUILDING_STATUE_OF_LIBERTY</BuildingType>
+			<ResourceType>RESOURCE_CEMENT</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STATUE_OF_LIBERTY</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STATUE_OF_LIBERTY</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STATUE_OF_LIBERTY</BuildingType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STATUE_OF_LIBERTY</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+
+		<!-- Приморский коллос -->
+		<Row>
+			<BuildingType>BUILDING_PRORA_RESORT</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>300</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PRORA_RESORT</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PRORA_RESORT</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PRORA_RESORT</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PRORA_RESORT</BuildingType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+
+		<!-- Кремль -->
+
+
+		<Row>
+			<BuildingType>BUILDING_KREMLIN</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>400</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KREMLIN</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KREMLIN</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KREMLIN</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KREMLIN</BuildingType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+
+
+
+
+
+
+
+
+
+		<!-- ############################################################ -->
+		<!-- Чудеса от Уникальные -->
+		<!-- ############################################################ -->
+
+		<!-- Сикстинская капела -->
+		<Row>
+			<BuildingType>BUILDING_SISTINE_CHAPEL</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>300</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SISTINE_CHAPEL</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>300</Cost>
+		</Row>
+
+		<!-- Театр Глобус -->
+		<Row>
+			<BuildingType>BUILDING_GLOBE_THEATER</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GLOBE_THEATER</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GLOBE_THEATER</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+		<!-- Пизанская башня -->
+		<Row>
+			<BuildingType>BUILDING_LEANING_TOWER</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LEANING_TOWER</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LEANING_TOWER</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+
+		<!-- Замок Химэдзи -->
+		<Row>
+			<BuildingType>BUILDING_HIMEJI_CASTLE</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HIMEJI_CASTLE</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HIMEJI_CASTLE</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HIMEJI_CASTLE</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+
+		<!-- Тадж-Махал -->
+		<Row>
+			<BuildingType>BUILDING_TAJ_MAHAL</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>600</Cost>
+		</Row>
+
+		<!-- Красный форт -->
+		<Row>
+			<BuildingType>BUILDING_RED_FORT</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RED_FORT</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RED_FORT</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+		<!-- Бранд. Ворота -->
+		<Row>
+			<BuildingType>BUILDING_BRANDENBURG_GATE</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BRANDENBURG_GATE</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BRANDENBURG_GATE</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+
+		<!-- Эфелева башня -->
+		<Row>
+			<BuildingType>BUILDING_EIFFEL_TOWER</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EIFFEL_TOWER</BuildingType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+
+		<!-- Бродвей -->
+		<Row>
+			<BuildingType>BUILDING_BROADWAY</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BROADWAY</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BROADWAY</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+		<!-- Голивуд -->
+		<Row>
+			<BuildingType>BUILDING_HOLLYWOOD</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOLLYWOOD</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOLLYWOOD</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+
+
+		<!-- Ношваштайн -->
+		<Row>
+			<BuildingType>BUILDING_NEUSCHWANSTEIN</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NEUSCHWANSTEIN</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NEUSCHWANSTEIN</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NEUSCHWANSTEIN</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NEUSCHWANSTEIN</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+
+		<!-- Христос Искупитель -->
+		<Row>
+			<BuildingType>BUILDING_CRISTO_REDENTOR</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CRISTO_REDENTOR</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CRISTO_REDENTOR</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+
+		<!-- Панамский канал -->
+		<Row>
+			<BuildingType>BUILDING_PANAMA</BuildingType>
+			<ResourceType>RESOURCE_CEMENT</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PANAMA</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>2000</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PANAMA</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PANAMA</BuildingType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+		<!-- Трансибирская магистраль -->
+		<Row>
+			<BuildingType>BUILDING_SIBERIAN_EXPRESS</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SIBERIAN_EXPRESS</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SIBERIAN_EXPRESS</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+
+		<!-- Пентангон -->
+		<Row>
+			<BuildingType>BUILDING_PENTAGON</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PENTAGON</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PENTAGON</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+
+		<!-- Сидней -->
+		<Row>
+			<BuildingType>BUILDING_SYDNEY_OPERA_HOUSE</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>300</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SYDNEY_OPERA_HOUSE</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+
+		<!-- Останкино -->
+		<Row>
+			<BuildingType>BUILDING_CN_TOWER</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CN_TOWER</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>300</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CN_TOWER</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CN_TOWER</BuildingType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+
+		<!-- Хаббл -->
+		<Row>
+			<BuildingType>BUILDING_HUBBLE</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUBBLE</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUBBLE</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUBBLE</BuildingType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HUBBLE</BuildingType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+
+		<!-- Супер Коллайдер -->
+		<Row>
+			<BuildingType>BUILDING_SUPERCOLLIDER</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SUPERCOLLIDER</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SUPERCOLLIDER</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SUPERCOLLIDER</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SUPERCOLLIDER</BuildingType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- Обсерватория -->
+		<Row>
+			<BuildingType>BUILDING_OBSERVATORY</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OBSERVATORY</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OBSERVATORY</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- Арена -->
+		<Row>
+			<BuildingType>TECH_PHILOSOPHY</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- Фабрика -->
+		<Row>
+			<BuildingType>BUILDING_FACTORY</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>400</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FACTORY</BuildingType>
+			<ResourceType>RESOURCE_CEMENT</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FACTORY</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>400</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FACTORY</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FACTORY</BuildingType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+		<!-- Морской порт -->
+		<Row>
+			<BuildingType>BUILDING_SEAPORT</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SEAPORT</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+
+
+
+
+
+		<!-- ГЭС -->
+		<Row>
+			<BuildingType>BUILDING_HYDRO_PLANT</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HYDRO_PLANT</BuildingType>
+			<ResourceType>RESOURCE_CEMENT</ResourceType>
+			<Cost>300</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HYDRO_PLANT</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HYDRO_PLANT</BuildingType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HYDRO_PLANT</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
+
+
+	</Building_ResourceCostRequirements>
+
+	<!-- Потребляет за ход -->
+	<Building_ResourceQuantityRequirements>
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- ГЭС -->
+		<!-- <Row>
+			<BuildingType>BUILDING_HYDRO_PLANT</BuildingType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>1</Cost>
+		</Row> -->
+
+		<!-- Фабрика -->
+		<Row>
+			<BuildingType>BUILDING_FACTORY</BuildingType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FACTORY</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+
+		<!-- АЭС -->
+		<Row>
+			<BuildingType>BUILDING_NUCLEAR_PLANT</BuildingType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<!-- ФАбрика кос. кораблей -->
+		<Row>
+			<BuildingType>BUILDING_SPACESHIP_FACTORY</BuildingType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<!-- Транспортный комплекс -->
+		<Row>
+			<BuildingType>BUILDING_TRANSPORT</BuildingType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+	</Building_ResourceQuantityRequirements>
+
+
+	<!-- Производит ресурс -->
+	<Building_ResourceQuantity>
+
+		<!-- уникальные -->
+
+
+		<!-- Дворец -->
+		<Row>
+			<BuildingType>BUILDING_PALACE</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Quantity>5</Quantity>
+		</Row>
+		<!-- <Row>
+			<BuildingType>BUILDING_PALACE</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Quantity>3</Quantity>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Quantity>3</Quantity>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Quantity>1</Quantity>
+		</Row> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</Building_ResourceQuantity>
+
+
+
+
+</GameData>

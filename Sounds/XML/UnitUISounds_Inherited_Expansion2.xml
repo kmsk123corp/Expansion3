@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitGameplay2DScripts>
+		<Replace UnitType="UNIT_ETHIOPIAN_MEHAL_SEFARI">
+			<SelectionSound>AS2D_SELECT_MUSKETMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_MUSKETMAN</FirstSelectionSound>
+		</Replace>
+		<Replace UnitType="UNIT_GALLEASS">
+			<SelectionSound>AS2D_SELECT_TRIREME</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_TRIREME</FirstSelectionSound>
+		</Replace>
+		<Replace UnitType="UNIT_GATLINGGUN">
+			<SelectionSound>AS2D_SELECT_CANNON</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_CANNON</FirstSelectionSound>
+		</Replace>
+		<Replace UnitType="UNIT_GREAT_ADMIRAL">
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Replace>
+		<Replace UnitType="UNIT_GREAT_WAR_INFANTRY">
+			<SelectionSound>AS2D_SELECT_INFANTRY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_INFANTRY</FirstSelectionSound>
+		</Replace>
+		<Replace UnitType="UNIT_INQUISITOR">
+			<SelectionSound>AS2D_SELECT_SETTLER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_SETTLER</FirstSelectionSound>
+		</Replace>
+		<Replace UnitType="UNIT_MACHINE_GUN">
+			<SelectionSound>AS2D_SELECT_INFANTRY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_INFANTRY</FirstSelectionSound>
+		</Replace>
+		<Replace UnitType="UNIT_MARINE">
+			<SelectionSound>AS2D_SELECT_INFANTRY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_INFANTRY</FirstSelectionSound>
+		</Replace>
+		<Replace UnitType="UNIT_MISSIONARY">
+			<SelectionSound>AS2D_SELECT_SETTLER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_SETTLER</FirstSelectionSound>
+		</Replace>
+		<Replace UnitType="UNIT_PRIVATEER">
+			<SelectionSound>AS2D_SELECT_FRIGATE</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_FRIGATE</FirstSelectionSound>
+		</Replace>
+		<Replace UnitType="UNIT_PROPHET">
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Replace>
+		<Replace UnitType="UNIT_TRIPLANE">
+			<SelectionSound>AS2D_SELECT_FIGHTER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_FIGHTER</FirstSelectionSound>
+		</Replace>
+		<Replace UnitType="UNIT_WWI_BOMBER">
+			<SelectionSound>AS2D_SELECT_BOMBER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_BOMBER</FirstSelectionSound>
+		</Replace>
+		<Replace UnitType="UNIT_WWI_TANK">
+			<SelectionSound>AS2D_SELECT_TANK</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_TANK</FirstSelectionSound>
+		</Replace>
+		<Row UnitType="UNIT_POWERED_INFANTRY">
+			<SelectionSound>AS2D_SELECT_INFANTRY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_INFANTRY</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_STEAM_AIRSHIP">
+			<SelectionSound>AS2D_SELECT_BOMBER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_BOMBER</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_STEAM_LAND_IRONCLAD">
+			<SelectionSound>AS2D_SELECT_MECH_INFANTRY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_MECH_INFANTRY</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_STEAM_LANDSHIP">
+			<SelectionSound>AS2D_SELECT_TANK</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_TANK</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_STEAM_LAND_LEVIATHAN">
+			<SelectionSound>AS2D_SELECT_TANK</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_TANK</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_STURMTIGER">
+			<SelectionSound>AS2D_SELECT_TANK</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_TANK</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_GAUSS_TANK">
+			<SelectionSound>AS2D_SELECT_TANK</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_TANK</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_HEAVY_ISOTOPE_PROJECTOR">
+			<SelectionSound>AS2D_SELECT_TANK</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_TANK</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_JET_BOMBER">
+			<SelectionSound>AS2D_SELECT_STEALTH_BOMBER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_STEALTH_BOMBER</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_CUIRASSIER">
+			<SelectionSound>AS2D_SELECT_CAVALRY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CAVALRY</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_ARMORED_CAR">
+			<SelectionSound>AS2D_SELECT_MECH_INFANTRY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_MECH_INFANTRY</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_EARLY_DESTROYER">
+			<SelectionSound>AS2D_SELECT_BATTLESHIP</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_BATTLESHIP</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_NUCLEAR_CARRIER">
+			<SelectionSound>AS2D_SELECT_CARRIER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CARRIER</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_STEALTH_FIGHTER">
+			<SelectionSound>AS2D_SELECT_JET_FIGHTER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_JET_FIGHTER</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_HOVERPLANE">
+			<SelectionSound>AS2D_SELECT_HELICOPTER_GUNSHIP</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_HELICOPTER_GUNSHIP</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_LSAM">
+			<SelectionSound>AS2D_SELECT_ROCKET_ARTILLERY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_ROCKET_ARTILLERY</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+</GameData>

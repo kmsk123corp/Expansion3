@@ -1,0 +1,185 @@
+<AudioDefinesFile>
+  <SoundDatas>
+    <!--
+Tech Speech
+		-->
+    <SoundData>
+      <SoundID>
+SND_HEADING_TECH_ZEPPELIN</SoundID>
+      <Filename>HeadingTechZeppelin</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_HEADING_TECH_NOMAD</SoundID>
+      <Filename>HeadingTechNomad</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_HEADING_TECH_INTERNET</SoundID>
+      <Filename>HeadingTechInternet</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_TECH_INTERNET</SoundID>
+      <Filename>TechInternet</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+
+    <!-- Scenario Techs XP2 -->
+    <SoundData>
+      <SoundID>SND_HEADING_TECH_CIVIL_WAR_BALLOON_RECON</SoundID>
+      <Filename>HeadingTechCivilWarBalloonRecon</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_TECH_CIVIL_WAR_BALLOON_RECON</SoundID>
+      <Filename>TechCivilWarBalloonRecon</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_HEADING_TECH_CIVIL_WAR_CAVALRY_RAIDS</SoundID>
+      <Filename>HeadingTechCivilWarCavalryRaids</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_TECH_CIVIL_WAR_CAVALRY_RAIDS</SoundID>
+      <Filename>TechCivilWarCavalryRaids</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_TECH_CIVIL_WAR_ENGINEERING</SoundID>
+      <Filename>TechCivilWarEngineering</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_HEADING_TECH_CIVIL_WAR_ENTRENCHMENT</SoundID>
+      <Filename>HeadingTechCivilWarEntrenchment</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_TECH_CIVIL_WAR_ENTRENCHMENT</SoundID>
+      <Filename>TechCivilWarEntrenchment</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_HEADING_TECH_CIVIL_WAR_FIELD_HOSPITALS</SoundID>
+      <Filename>HeadingTechCivilWarFieldHospitals</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_TECH_CIVIL_WAR_FIELD_HOSPITALS</SoundID>
+      <Filename>TechCivilWarFieldHospitals</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_TECH_CIVIL_WAR_INDUSTRIALIZATION</SoundID>
+      <Filename>TechCivilWarIndustrialization</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_HEADING_TECH_CIVIL_WAR_IRONCLADS</SoundID>
+      <Filename>HeadingTechCivilWarIronclads</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_TECH_CIVIL_WAR_IRONCLADS</SoundID>
+      <Filename>TechCivilWarIronclads</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_HEADING_TECH_CIVIL_WAR_MILITARY_RAILROADS</SoundID>
+      <Filename>HeadingTechCivilWarMilitaryRailroads</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_TECH_CIVIL_WAR_MILITARY_RAILROADS</SoundID>
+      <Filename>TechCivilWarMilitaryRailroads</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_TECH_CIVIL_WAR_MILITARY_SCIENCE</SoundID>
+      <Filename>TechCivilWarMilitaryScience</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_HEADING_TECH_CIVIL_WAR_REPEATING_RIFLES</SoundID>
+      <Filename>HeadingTechCivilWarRepeatingRifles</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_TECH_CIVIL_WAR_REPEATING_RIFLES</SoundID>
+      <Filename>TechCivilWarRepeatingRifles</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_HEADING_TECH_CIVIL_WAR_RIFLED_ARTILLERY</SoundID>
+      <Filename>HeadingTechCivilWarRifledArtillery</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_TECH_CIVIL_WAR_RIFLED_ARTILLERY</SoundID>
+      <Filename>TechCivilWarRifledArtillery</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_HEADING_TECH_CIVIL_WAR_SCORCHED_EARTH</SoundID>
+      <Filename>HeadingTechCivilWarScorchedEarth</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+    <SoundData>
+      <SoundID>SND_TECH_CIVIL_WAR_SCORCHED_EARTH</SoundID>
+      <Filename>TechCivilWarScorchedEarth</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+  </SoundDatas>
+</AudioDefinesFile>

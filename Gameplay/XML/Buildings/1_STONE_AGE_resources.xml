@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited koba | 01.02.2024 -->
+<GameData>
+
+    <!-- Стоимость постройки -->
+    <Building_ResourceCostRequirements>
+
+        <!-- Деревянный частокол -->
+		<Row>
+			<BuildingType>BUILDING_CITYWALL</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>60</Cost>
+		</Row>
+
+        <!-- Рыбацкая хижина -->
+        <Row>
+			<BuildingType>BUILDING_FISH_HOUSE</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_FISH_HOUSE</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+
+        <!-- Рыбный загон (Полинезия) -->
+        <Row>
+			<BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
+        <!-- Погреб -->
+        <Row>
+			<BuildingType>BUILDING_CELLAR</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>40</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CELLAR</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+
+        <!-- Гончарная мастерская -->
+        <Row>
+			<BuildingType>BUILDING_POTTERY_WORKSHOP</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>40</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_POTTERY_WORKSHOP</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+
+        <!-- Углежогная яма -->
+        <Row>
+			<BuildingType>BUILDING_CHARCOAL_BURNER</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+
+        <!-- Кожевая мастерская -->
+		<Row>
+			<BuildingType>BUILDING_TANNER_HOUSE</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>40</Cost>
+		</Row>
+
+    </Building_ResourceCostRequirements>
+
+
+
+    <!-- Производит ресурсов -->
+    <Building_ResourceQuantity>
+
+        <!-- Рыбный загон -->
+        <Row>
+			<BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Quantity>10</Quantity>
+		</Row>
+
+        <!-- Углежогная яма -->
+        <Row>
+			<BuildingType>BUILDING_CHARCOAL_BURNER</BuildingType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Quantity>5</Quantity>
+		</Row>
+
+    </Building_ResourceQuantity>
+
+    <!-- Потребляет за ход -->
+	<Building_ResourceQuantityRequirements>
+
+        <!-- Углежогная яма -->
+        <Row>
+			<BuildingType>BUILDING_CHARCOAL_BURNER</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+
+        <!-- Погреб -->
+        <Row>
+			<BuildingType>BUILDING_CELLAR</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+
+    </Building_ResourceQuantityRequirements>
+
+</GameData>

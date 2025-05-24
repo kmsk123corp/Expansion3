@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<!-- Created by ModBuddy on 1/20/2011 10:36:21 AM -->
+<GameData>
+	<MinorCivilizations>
+		<Delete Type="MINOR_CIV_DUBLIN"/>
+		<Delete Type="MINOR_CIV_WARSAW"/>
+		<Delete Type="MINOR_CIV_EDINBURGH"/>
+		<Delete Type="MINOR_CIV_GENEVA"/>
+		<Delete Type="MINOR_CIV_VENICE"/>
+		<Delete Type="MINOR_CIV_GENOA"/>
+		<Delete Type="MINOR_CIV_FLORENCE"/>
+		<Delete Type="MINOR_CIV_RAGUSA"/>
+		<Delete Type="MINOR_CIV_COPENHAGEN"/>
+		<Delete Type="MINOR_CIV_OSLO"/>
+		<Delete Type="MINOR_CIV_STOCKHOLM"/>
+		<Delete Type="MINOR_CIV_HELSINKI"/>
+		<Delete Type="MINOR_CIV_BUCHAREST"/>
+		<Delete Type="MINOR_CIV_BUDAPEST"/>
+		<Delete Type="MINOR_CIV_BELGRADE"/>
+		<Delete Type="MINOR_CIV_VIENNA"/>
+		<Delete Type="MINOR_CIV_BRUSSELS"/>
+		<Delete Type="MINOR_CIV_MONACO"/>
+		<Delete Type="MINOR_CIV_SEOUL"/>
+		<Delete Type="MINOR_CIV_HANOI"/>
+		<Delete Type="MINOR_CIV_LHASA"/>
+		<Delete Type="MINOR_CIV_ALMATY"/>
+		<Delete Type="MINOR_CIV_KUALA_LUMPUR"/>
+		<Delete Type="MINOR_CIV_SINGAPORE"/>
+		<Delete Type="MINOR_CIV_RIO_DE_JANEIRO"/>
+		<Delete Type="MINOR_CAPE_TOWN"/>
+		<Delete Type="MINOR_SIDON"/>
+		<Delete Type="MINOR_TYRE"/>
+	</MinorCivilizations>
+	<MinorCivilization_CityNames>
+		<Delete MinorCivType="MINOR_CIV_DUBLIN"/>
+		<Delete MinorCivType="MINOR_CIV_WARSAW"/>
+		<Delete MinorCivType="MINOR_CIV_EDINBURGH"/>
+		<Delete MinorCivType="MINOR_CIV_GENEVA"/>
+		<Delete MinorCivType="MINOR_CIV_VENICE"/>
+		<Delete MinorCivType="MINOR_CIV_GENOA"/>
+		<Delete MinorCivType="MINOR_CIV_FLORENCE"/>
+		<Delete MinorCivType="MINOR_CIV_RAGUSA"/>
+		<Delete MinorCivType="MINOR_CIV_COPENHAGEN"/>
+		<Delete MinorCivType="MINOR_CIV_OSLO"/>
+		<Delete MinorCivType="MINOR_CIV_STOCKHOLM"/>
+		<Delete MinorCivType="MINOR_CIV_HELSINKI"/>
+		<Delete MinorCivType="MINOR_CIV_BUCHAREST"/>
+		<Delete MinorCivType="MINOR_CIV_BUDAPEST"/>
+		<Delete MinorCivType="MINOR_CIV_BELGRADE"/>
+		<Delete MinorCivType="MINOR_CIV_VIENNA"/>
+		<Delete MinorCivType="MINOR_CIV_BRUSSELS"/>
+		<Delete MinorCivType="MINOR_CIV_MONACO"/>
+		<Delete MinorCivType="MINOR_CIV_SEOUL"/>
+		<Delete MinorCivType="MINOR_CIV_HANOI"/>
+		<Delete MinorCivType="MINOR_CIV_LHASA"/>
+		<Delete MinorCivType="MINOR_CIV_ALMATY"/>
+		<Delete MinorCivType="MINOR_CIV_KUALA_LUMPUR"/>
+		<Delete MinorCivType="MINOR_CIV_SINGAPORE"/>
+		<Delete MinorCivType="MINOR_CIV_RIO_DE_JANEIRO"/>
+		<Delete MinorCivType="MINOR_CAPE_TOWN"/>
+		<Delete MinorCivType="MINOR_SIDON"/>
+		<Delete MinorCivType="MINOR_TYRE"/>
+	</MinorCivilization_CityNames>
+	<MinorCivilization_Flavors>
+		<Delete MinorCivType="MINOR_CIV_DUBLIN"/>
+		<Delete MinorCivType="MINOR_CIV_WARSAW"/>
+		<Delete MinorCivType="MINOR_CIV_EDINBURGH"/>
+		<Delete MinorCivType="MINOR_CIV_GENEVA"/>
+		<Delete MinorCivType="MINOR_CIV_VENICE"/>
+		<Delete MinorCivType="MINOR_CIV_GENOA"/>
+		<Delete MinorCivType="MINOR_CIV_FLORENCE"/>
+		<Delete MinorCivType="MINOR_CIV_RAGUSA"/>
+		<Delete MinorCivType="MINOR_CIV_COPENHAGEN"/>
+		<Delete MinorCivType="MINOR_CIV_OSLO"/>
+		<Delete MinorCivType="MINOR_CIV_STOCKHOLM"/>
+		<Delete MinorCivType="MINOR_CIV_HELSINKI"/>
+		<Delete MinorCivType="MINOR_CIV_BUCHAREST"/>
+		<Delete MinorCivType="MINOR_CIV_BUDAPEST"/>
+		<Delete MinorCivType="MINOR_CIV_BELGRADE"/>
+		<Delete MinorCivType="MINOR_CIV_VIENNA"/>
+		<Delete MinorCivType="MINOR_CIV_BRUSSELS"/>
+		<Delete MinorCivType="MINOR_CIV_MONACO"/>
+		<Delete MinorCivType="MINOR_CIV_SEOUL"/>
+		<Delete MinorCivType="MINOR_CIV_HANOI"/>
+		<Delete MinorCivType="MINOR_CIV_LHASA"/>
+		<Delete MinorCivType="MINOR_CIV_ALMATY"/>
+		<Delete MinorCivType="MINOR_CIV_KUALA_LUMPUR"/>
+		<Delete MinorCivType="MINOR_CIV_SINGAPORE"/>
+		<Delete MinorCivType="MINOR_CIV_RIO_DE_JANEIRO"/>
+		<Delete MinorCivType="MINOR_CAPE_TOWN"/>
+		<Delete MinorCivType="MINOR_SIDON"/>
+		<Delete MinorCivType="MINOR_TYRE"/>
+	</MinorCivilization_Flavors>
+</GameData>

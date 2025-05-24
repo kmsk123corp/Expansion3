@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited kmsk | 01.02.2024 -->
+<GameData>
+
+    <!-- Стоимость постройки -->
+    <Building_ResourceCostRequirements>
+
+        <!-- Фаросский маяк -->
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIGHTHOUSE</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>300</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIGHTHOUSE</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>300</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIGHTHOUSE</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>300</Cost>
+		</Row>
+
+        <!-- Александрийская библиотека -->
+        <Row>
+			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>150</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
+        <!-- Галикарнасский мавзалей -->
+		<Row>
+			<BuildingType>BUILDING_MAUSOLEUM_HALICARNASSUS</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MAUSOLEUM_HALICARNASSUS</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_MAUSOLEUM_HALICARNASSUS</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+
+        <!-- Статуа зевса -->
+        <Row>
+			<BuildingType>BUILDING_STATUE_ZEUS</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STATUE_ZEUS</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STATUE_ZEUS</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+
+        <!-- Большой цирк -->
+        <Row>
+			<BuildingType>BUILDING_CIRCUS_MAXIMUS</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CIRCUS_MAXIMUS</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CIRCUS_MAXIMUS</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+
+
+        <!-- Висячие сады -->
+		<Row>
+			<BuildingType>BUILDING_HANGING_GARDEN</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HANGING_GARDEN</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>600</Cost>
+		</Row>
+
+        <!-- Терракотовая армия -->
+        <Row>
+			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>400</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>400</Cost>
+		</Row>
+
+        <!-- Национальный колледж -->
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_COLLEGE</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_COLLEGE</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_COLLEGE</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_COLLEGE</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+        <!-- Национальная святыня -->
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+        <!-- Оракул -->
+		<Row>
+			<BuildingType>BUILDING_ORACLE</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>300</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ORACLE</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_ORACLE</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+        <!-- Национальный эпос -->
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_EPIC</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_EPIC</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+
+        <!-- Парфеон -->
+        <Row>
+			<BuildingType>BUILDING_PARTHENON</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PARTHENON</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PARTHENON</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+
+        <!-- Гильдия писателей -->
+        <Row>
+			<BuildingType>BUILDING_WRITERS_GUILD</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_WRITERS_GUILD</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+        <!-- Великая стена -->
+        <Row>
+			<BuildingType>BUILDING_GREAT_WALL</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_WALL</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_GREAT_WALL</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+
+        <!-- Героический эпос -->
+        <Row>
+			<BuildingType>BUILDING_HEROIC_EPIC</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HEROIC_EPIC</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+        <!-- Колосс -->
+        <Row>
+			<BuildingType>BUILDING_COLOSSUS</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>400</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COLOSSUS</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COLOSSUS</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COLOSSUS</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COLOSSUS</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+
+    </Building_ResourceCostRequirements>
+
+
+
+    <!-- Производит ресурсов -->
+    <Building_ResourceQuantity>
+
+        <!-- Висячие Сады -->
+		<Row>
+			<BuildingType>BUILDING_HANGING_GARDEN</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Quantity>10</Quantity>
+		</Row>
+
+        <!-- Галикарнасский мавзалей -->
+		<Row>
+			<BuildingType>BUILDING_MAUSOLEUM_HALICARNASSUS</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Quantity>6</Quantity>
+		</Row>
+
+    </Building_ResourceQuantity>
+
+
+
+    <!-- Потребляет за ход -->
+	<Building_ResourceQuantityRequirements>
+
+
+    </Building_ResourceQuantityRequirements>
+
+</GameData>

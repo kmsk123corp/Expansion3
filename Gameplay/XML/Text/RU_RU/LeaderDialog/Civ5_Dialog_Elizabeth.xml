@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_AGREE_SHORT_1">
+      <Text>Отлично.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_AGREE_SHORT_2">
+      <Text>Хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_AGREE_SHORT_3">
+      <Text>Конечно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_AGREE_SHORT_4">
+      <Text>Да будет так.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_AGREE_SHORT_5">
+      <Text>О, очень хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_AGREE_SHORT_6">
+      <Text>У меня нет выбора.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_AGREE_SHORT_7">
+      <Text>Великолепно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_ATTACKED_1">
+      <Text>Хорошо. А теперь вы лишитесь своей головы!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_ATTACKED_3">
+      <Text>Да как вы смеете! Клянусь, вы будете наказаны за свое чудовищное высокомерие!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_DECLAREWAR_1">
+      <Text>Ваши постоянные нападки не останутся безнаказанными. Готовьтесь к войне!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_DECLAREWAR_2">
+      <Text>Милостью божьей, ваши дни сочтены. Готовьтесь к войне!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_DECLAREWAR_3">
+      <Text>Время вежливых речей и красивых жестов закончилось - мы встретимся на поле боя!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_DEFEATED_1">
+      <Text>Вы превзошли нас в бою. Поздравляю вас с победой.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_DEFEATED_2">
+      <Text>Вы победили нас сегодня. Но однажды Англия восстанет из пепла, еще более могущественная, чем прежде.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_DEFEATED_3">
+      <Text>Вы одержали победу. Сегодня ваш день.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_DEMANDTRIBUTE_ANGRY">
+      <Text>Отдайте нам то, что мы хотим, или же будете наказаны.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_DEMANDTRIBUTE_HAPPY">
+      <Text>Мой дорогой друг, вы можете поддержать нас в столь тяжкие для нас времена?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_DEMANDTRIBUTE_NEUTRAL">
+      <Text>Некоторые потребности Англии можете удовлетворить только вы. И я уверена, вы сделаете это.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_DISAGREE_SHORT_1">
+      <Text>Нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_DISAGREE_SHORT_2">
+      <Text>Определенно нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_DISAGREE_SHORT_3">
+      <Text>Мы вынуждены отказать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_DISAGREE_SHORT_4">
+      <Text>Конечно же, нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_DISAGREE_SHORT_5">
+      <Text>Это совершенно невероятно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_DISAGREE_SHORT_6">
+      <Text>Вы, должно быть, шутите!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_DISAGREE_SHORT_7">
+      <Text>Прощу прощения, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_FIRSTGREETING_1">
+      <Text>Приветствую вас. Молю господа, чтобы наша встреча стала началом великой дружбы, но не великой вражды.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_FIRSTGREETING_2">
+      <Text>Мы рады встрече с вами. Я молюсь, чтобы ветер, который свел нас, был благоприятным.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_FIRSTGREETING_3">
+      <Text>Мы рады встрече.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_FIRSTGREETING_4">
+      <Text>Добро пожаловать в Англию.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_GOODBYE_1">
+      <Text>Хорошего вам дня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_GOODBYE_2">
+      <Text>Прощайте!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_GOODBYE_3">
+      <Text>До свидания.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_GOODBYE_4">
+      <Text>До следующей встречи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_GOODBYE_5">
+      <Text>Уходите немедленно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_GOODBYE_6">
+      <Text>На этом все.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_GOODBYE_7">
+      <Text>Уходите прочь.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_GREETING_1">
+      <Text>Какая встреча!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_GREETING_2">
+      <Text>Здравствуйте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_GREETING_3">
+      <Text>Приветствую.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_GREETING_4">
+      <Text>Добро пожаловать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_GREETING_5">
+      <Text>А, это вы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_GREETING_6">
+      <Text>Да, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_GREETING_7">
+      <Text>Чего вы хотите?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_LETSHEARIT_1">
+      <Text>Я слушаю.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_LETSHEARIT_2">
+      <Text>Ну же, в чем дело?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_LETSHEARIT_3">
+      <Text>Продолжайте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_LETSHEARIT_4">
+      <Text>Я вся внимание.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_LETSHEARIT_5">
+      <Text>Да?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_LETSHEARIT_6">
+      <Text>Что вы сказали?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_LETSHEARIT_7">
+      <Text>И?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_LETSHEARIT_8">
+      <Text>Что дальше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_LOSEWAR_1">
+      <Text>Что ж, этот вопрос решен. Я могу теперь только надеяться, что наши отношения в дальнейшем будут только мирными и дружественными.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_QUOTE_1">
+      <Text>Мой возлюбленный народ! Мы были убеждены теми, кто заботится о нашей безопасности, остеречься выступать перед вооруженной толпой из-за страха предательства; но я заверяю вас, что я не хочу жить, не доверяя моему преданному и любимому народу. Пусть тираны боятся, я же всегда вела себя так, что, видит Бог, доверяла мои власть и безопасность верным сердцам и доброй воле моих подданных. Я сейчас среди вас, как вы видите, в это время, не для отдыха и развлечений, но полная решимости в разгар сражения жить и умереть среди вас; положить за моего Бога и мое королевство, и за мой народ мою честь и мою кровь, обратившись в прах. Я знаю, у меня есть тело, и это тело слабой и беспомощной женщины, но у меня сердце и желудок короля, и я полна презрения к тому, что Парма, или Испания, или другой монарх Европы может осмелиться вторгнуться в пределы моего королевства. И прежде чем какое-либо бесчестье падет на меня, я сама возьму в руки оружие, я сама стану вашим генералом, судьей и тем, кто вознаграждает каждого из вас по вашим заслугам на поле боя. Я знаю, что за вашу расторопность вы уже заслужили награды и кроны; и мы заверяем вас словом монарха, они будут обязательно выплачены вам. В несчастные времена мой лейтенант-генерал будет замещать меня, ибо он самый благородный или более опытный человек, чем никогда не командовавший войсками монарх. Без сомнения, вашим послушанием моему генералу, вашим согласием в лагере и вашей ценностью на поле боя мы вскоре одержим славную победу над врагами моего Бога, моего королевства и моего народа.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_QUOTE_2">
+      <Text>Мой возлюбленный народ... Я сейчас среди вас, как вы видите, в это время, не для отдыха и развлечений, но полная решимости в разгар сражения жить и умереть среди вас; положить за моего Бога, и мое королевство, и мой народ мою честь и мою кровь, обратившись в прах. Я знаю, у меня есть тело, и это тело слабой и беспомощной женщины, но у меня сердце и желудок короля, и я полна презрения к тому, что Парма, или Испания, или другой монарх Европы может осмелиться вторгнуться в пределы моего королевства. И прежде чем какое-либо бесчестье падет на меня, я сама возьму в руки оружие, я сама стану вашим генералом, судьей и тем, кто вознаграждает каждого из вас по вашим заслугам на поле боя... Без сомнения, вашим послушанием моему генералу, вашим согласием в лагере, и вашей ценностью на поле боя мы вскоре одержим славную победу над врагами моего Бога, моего королевства и моего народа.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_NEEDMORE_ANGRY_1">
+      <Text>Англия не столь щедра. Вы должны предложить больше.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_NEEDMORE_ANGRY_2">
+      <Text>Этого недостаточно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_NEEDMORE_ANGRY_3">
+      <Text>Вы должны предложить больше.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_NEEDMORE_ANGRY_4">
+      <Text>Маловато.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_NEEDMORE_HAPPY_1">
+      <Text>Ну полно! Англия не может позволить себе подобную щедрость - даже по отношению к друзьям. Не могли бы вы улучшить свое предложение?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_NEEDMORE_HAPPY_2">
+      <Text>И это все, что вы можете предложить?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_NEEDMORE_HAPPY_3">
+      <Text>Я почти согласна...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_NEEDMORE_HAPPY_4">
+      <Text>Маловато.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_NEEDMORE_NEUTRAL_1">
+      <Text>Ну хватит! Ваша экономность граничит со скупостью. Я уверена, что вы можете сделать более интересное предложение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_NEEDMORE_NEUTRAL_2">
+      <Text>Вы можете предложить нечто более интересное?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_NEEDMORE_NEUTRAL_3">
+      <Text>Этого не хватит.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_NEEDMORE_NEUTRAL_4">
+      <Text>Маловато.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_NO_ANGRY">
+      <Text>Ваше требование оскорбительно для Англии. Мы отказываемся.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_NO_HAPPY">
+      <Text>Мой дорогой друг, я лично готова отдать вам все до последнего пенни, но наши советники не столь щедры. Посему я с сожалением должна отклонить ваше предложение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_NO_NEUTRAL">
+      <Text>Мы просим вас не тратить наше время на такие глупости.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_YES_ANGRY">
+      <Text>Что ж. Похоже, у меня нет выбора. Мы согласны.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_YES_HAPPY">
+      <Text>Вы отлично ведете переговоры, и у вас прекрасная деловая хватка. Мы принимаем ваше предложение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADE_YES_NEUTRAL">
+      <Text>Ваше предложение отвечает нашим интересам. Мы принимаем его.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADEREQUEST_ANGRY">
+      <Text>Вот наше предложение - и оно гораздо лучше, чем вы того заслуживаете.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADEREQUEST_HAPPY">
+      <Text>Мой дорогой друг, не заинтересует ли вас торговое соглашение с Англией?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_TRADEREQUEST_NEUTRAL">
+      <Text>Коммерция лежит в основе всякой державы. Вы же согласны со мной?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_TRIBUTE_NO_ANGRY">
+      <Text>Вы посмели требовать дань с нас? Прочь отсюда, мерзкое создание!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_TRIBUTE_NO_HAPPY">
+      <Text>Это неподобающее обращение между друзьями. Мы поражены вашей дерзостью!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_TRIBUTE_NO_NEUTRAL">
+      <Text>Как вы забавны. Конечно же, нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_TRIBUTE_YES_ANGRY">
+      <Text>Сегодня вы поставили нас в невыгодное положение. Но так будет не всегда. Мы еще припомним вам ваши грехи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_TRIBUTE_YES_HAPPY">
+      <Text>Мы всегда рады помочь нашим друзьям и союзникам в трудную минуту.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_TRIBUTE_YES_NEUTRAL">
+      <Text>Что ж, думаю, у нас нет другого выбора.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_WARBLUFF_1">
+      <Text>Очень жаль.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_WARBLUFF_2">
+      <Text>Какое разочарование.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_WARBLUFF_3">
+      <Text>Неужели? Поверьте, вы даже раскаяться не успеете.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_WARBLUFF_4">
+      <Text>Как же вы глупы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_WARBLUFF_5">
+      <Text>Ваша глупая гордость рано или поздно приведет вас к смерти, если вы не поостережетесь.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_WARBLUFF_6">
+      <Text>Ну как угодно. Кое-кто еще пожалеет об этом.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ELIZABETH_WINWAR_1">
+      <Text>Англия всегда торжествует над своими врагами! В будущем не следует об этом забывать.</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

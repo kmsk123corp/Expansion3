@@ -1,0 +1,1412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_ADVISOR_ATTACKING_CITY_ACTIVATE_BUTTON">
+      <Text>Найти боевой юнит</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ATTACKING_CITY_BODY">
+      <Text>Некоторые города захватить непросто. У них не только мощная защита: они могут нанести ответный удар, повредив или уничтожив осаждающих. Атакуйте города сразу несколькими подразделениями.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ATTACKING_CITY_DISPLAY">
+      <Text>Осада городов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ATTACKING_FORTIFIED_UNITS_ACTIVATE_BUTTON">
+      <Text>Найти боевой юнит</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ATTACKING_FORTIFIED_UNITS_BODY">
+      <Text>Вы находитесь рядом с укрепленным противником. Он получает особый бонус к обороне (на это указывает значок щита). Укрепленные войска чрезвычайно трудно победить один на один. Их лучше атаковать несколькими подразделениями сразу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ATTACKING_FORTIFIED_UNITS_DISPLAY">
+      <Text>Укрепленные войска</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_BAD_ATTACK_2_BODY">
+      <Text>Сражение сложилось не в нашу пользу. Возможно, следует больше времени уделять планированию, и победа будет нашей. Перед атакой используйте предпросмотр боя.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_BAD_ATTACK_2_DISPLAY">
+      <Text>Не самый лучший день</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_BAD_ATTACK_BODY">
+      <Text>Возможно, следует пересмотреть наши планы. Так вы нанесете лишь небольшой урон врагу, тогда как наши силы значительно ослабнут.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_BAD_ATTACK_DISPLAY">
+      <Text>Это может плохо кончиться</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_BANKRUPTCY_BODY">
+      <Text>Наша казна истощена, и нам необходимы новые источники [ICON_GOLD] золота! Без [ICON_GOLD] золота наши исследования остановятся, и мы окажемся позади других цивилизаций.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_BANKRUPTCY_DISPLAY">
+      <Text>Банкрот!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_BARBARIAN_CAMP_ACTIVATE_BUTTON">
+      <Text>Найти лагерь варваров</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_BARBARIAN_CAMP_BODY">
+      <Text>Лагеря варваров - рассадники зла, которые нужно уничтожать как можно скорее! Варвары множатся с каждым часом, и чем скорее вы их уничтожите, тем меньше хлопот они доставят.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_BARBARIAN_CAMP_DISPLAY">
+      <Text>Лагерь варваров</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_BUILD_MORE_MILITARY_BODY">
+      <Text>Мир - место опасное, а мы сейчас очень уязвимы. Я советую вам [COLOR_ADVISOR_HIGHLIGHT_TEXT]создать больше войск[/COLOR], которые бы исследовали местность и защищали нас.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_BUILD_MORE_MILITARY_DISPLAY">
+      <Text>Требуется больше войск</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_BUILD_NEW_CITY_BODY">
+      <Text>Наша столица стала оживленным центром! Пора [COLOR_ADVISOR_HIGHLIGHT_TEXT]создать поселенцев[/COLOR] и основать новый город.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_BUILD_NEW_CITY_DISPLAY">
+      <Text>Новый город?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_CITY_ATTACK_BODY">
+      <Text>Город - нелегкая цель, нередко захватить его можно только четырьмя и более подразделениями. Города могут наносить урон осаждающим не только в ближнем бою, но и на расстоянии. Вы действительно желаете продолжить атаку?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_CITY_ATTACK_DISPLAY">
+      <Text>Нападение на город</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_CITY_BOMBARD_ACTIVATE_BUTTON">
+      <Text>Найти город</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_CITY_BOMBARD_BODY">
+      <Text>Города могут обстреливать врагов, подошедших слишком близко, нанося им урон или убивая их. [COLOR_ADVISOR_HIGHLIGHT_TEXT]Прикажите своему городу обстреливать вражеские войска![/COLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_CITY_BOMBARD_DISPLAY">
+      <Text>Обстрел из города</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_CITY_FIRST_CONSTRUCTION_BODY">
+      <Text>Наша столица завершила создание юнита. Города могут создавать юниты, здания и чудеса света, но только что-то одно за раз.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_CITY_FIRST_CONSTRUCTION_DISPLAY">
+      <Text>Завершение строительства</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_CITY_SCREEN_BODY">
+      <Text>Это экран города. Здесь можно менять строящиеся сооружения. Тут же вы можете потратить [ICON_GOLD]золото на приобретение соседних клеток и расширить территорию или раздать жителям указания, какие участки обрабатывать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_CITY_SCREEN_DISPLAY">
+      <Text>Экран города</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_CITY_STATE_FRIEND_ACTIVATE_BUTTON">
+      <Text>Найти дружественный город</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_CITY_STATE_FRIEND_BODY">
+      <Text>Мы оказали достаточно [ICON_INFLUENCE] влияния на город-государство - он стал нашим другом! Щелкните по нему, чтобы посмотреть, какие преимущества это принесет. Помогайте городу или посылайте ему дары[ICON_GOLD], чтобы поддержать отношения.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_CITY_STATE_FRIEND_DISPLAY">
+      <Text>Новые друзья!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_CITY_STATES_INTRO_ACTIVATE_BUTTON">
+      <Text>Найти город-государство</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_CITY_STATES_INTRO_BODY">
+      <Text>Вы открыли город-государство! Это небольшие государственные образования, которые не участвуют в общей гонке. С ними можно поддерживать дипломатические отношения или воевать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_CITY_STATES_INTRO_DISPLAY">
+      <Text>Города-государства</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_CITY_STATES_QUEST_ACTIVATE_BUTTON">
+      <Text>Найти город-государство</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_CITY_STATES_QUEST_BODY">
+      <Text>Город-государство просит вас о помощи! Если вы поможете ему, то ваше влияние на него увеличится. Когда влияние достигнет определенного уровня, город-государство предоставит вам различного рода преимущества.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_CITY_STATES_QUEST_DISPLAY">
+      <Text>Помощь городу-государству</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_CITY_STATES_TRESPASSING_ACTIVATE_BUTTON">
+      <Text>Найти вторжение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_CITY_STATES_TRESPASSING_BODY">
+      <Text>Вы можете вводить войска на территорию города-государства, но его жителям это, конечно, не понравится. Если вы желаете сохранить с ним хорошие отношения, постарайтесь не вторгаться на его территорию.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_CITY_STATES_TRESPASSING_DISPLAY">
+      <Text>Вторжение!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_CITY_UNDER_ATTACK_ACTIVATE_BUTTON">
+      <Text>Найти город</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_CITY_UNDER_ATTACK_BODY">
+      <Text>Города, как и подразделения, способны давать отпор. Город можно взять, только если его сила снизится до нуля. Пока город не пал, уничтожьте осаждающих своими войсками!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_CITY_UNDER_ATTACK_DISPLAY">
+      <Text>Город осажден!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_COMBAT_INTRO_ACTIVATE_BUTTON">
+      <Text>Найти военный юнит</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_COMBAT_INTRO_BODY">
+      <Text>Один из ваших военных отрядов находится поблизости от врага. Чтобы атаковать, прикажите подразделению передвинуться на занятую врагом клетку. Во время сражения войска как в защите, так и в обороне могут получать повреждения или быть уничтожены.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_COMBAT_INTRO_DISPLAY">
+      <Text>Ближний бой</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_COMBAT_NAVAL_UNIT_ACTIVATE_BUTTON">
+      <Text>Найти корабли</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_COMBAT_NAVAL_UNIT_BODY">
+      <Text>Мощный флот - единственное средство для защиты морских границ и исследования океанов. Военные корабли могут наносить большой урон со значительного расстояния!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_COMBAT_NAVAL_UNIT_DISPLAY">
+      <Text>Корабли</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_COUNSEL">
+      <Text>Советники</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_COUNSEL_ECONOMIC_NEXT">
+      <Text>Далее</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_COUNSEL_ECONOMIC_PREV">
+      <Text>Назад</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_COUNSEL_FOREIGN_NEXT">
+      <Text>Далее</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_COUNSEL_FOREIGN_PREV">
+      <Text>Назад</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_COUNSEL_MILITARY_NEXT">
+      <Text>Далее</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_COUNSEL_MILITARY_PREV">
+      <Text>Назад</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_COUNSEL_PAGE_DISPLAY">
+      <Text>{1_Num}/{2_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_COUNSEL_SCIENCE_NEXT">
+      <Text>Далее</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_COUNSEL_SCIENCE_PREV">
+      <Text>Назад</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_COUNSEL_TITLE">
+      <Text>Советники</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_DISCOVERED_NATURAL_WONDER_ACTIVATE_BUTTON">
+      <Text>Найти чудо природы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_DISCOVERED_NATURAL_WONDER_BODY">
+      <Text>Чудеса природы скрыты по всему свету. Обнаружив одно из таких чудес, ваша цивилизация станет более счастливой. Город, прилегающий к чуду, получает значительные преимущества. Исследуйте мир, чтобы найти больше чудес!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_DISCOVERED_NATURAL_WONDER_DISPLAY">
+      <Text>Чудеса природы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_DONT_SHOW_AGAIN">
+      <Text>О нет, опять!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_EMBARKING_UNITS_ACTIVATE_BUTTON">
+      <Text>Найти юнит для погрузки</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_EMBARKING_UNITS_BODY">
+      <Text>Благодаря исследованиям ваши войска смогут грузиться "на борт" и пересекать водные пространства. Для погрузки сухопутного юнита на борт, подведите его к клетке с водой. Бойцы на борту беззащитны, так что сопровождайте их военными кораблями.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_EMBARKING_UNITS_DISPLAY">
+      <Text>Посадка юнитов на борт</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_END_TURN_BODY">
+      <Text>Все ваши юниты уже получили приказы, так что в этот ход делать вам больше нечего. Нажмите кнопку "Следующий ход".</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_END_TURN_DISPLAY">
+      <Text>Нажмите "Следующий ход"</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_EXCESS_LUXURY_RESOURCE_BODY">
+      <Text>У нас появилось два улучшенных редких ресурса одного типа. Ваша цивилизация получает бонус [ICON_HAPPINESS_1] к настроению только за первый ресурс одного типа. Излишками можно торговать с другими цивилизациями, получая взамен редкие ресурсы тех типов, к которым у нас нет доступа.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_EXCESS_LUXURY_RESOURCE_DISPLAY">
+      <Text>Торговать редкими ресурсами</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_FIRST_TURN_BUILD_CITY_ACTIVATE_BUTTON">
+      <Text>Найти поселенцев</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_FIRST_TURN_BUILD_CITY_BODY">
+      <Text>Это хорошее место для строительства нового города. Здесь много пищи и ресурсов. Чтобы основать город, нажмите кнопку [COLOR_ADVISOR_HIGHLIGHT_TEXT]Основать город[/COLOR] на панели действий поселенцев с левой стороны экрана.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_FIRST_TURN_BUILD_CITY_DISPLAY">
+      <Text>Основать город</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_FIRST_TURN_UNIT_MOVE_ACTIVATE_BUTTON">
+      <Text>Найти воинов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_FIRST_TURN_UNIT_MOVE_BODY">
+      <Text>Не отправить ли нам воинов[COLOR_ADVISOR_HIGHLIGHT_TEXT] разведывать новые земли[/COLOR]? Щелкнув правой кнопкой мыши по клетке, можно отправить туда выделенное подразделение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_FIRST_TURN_UNIT_MOVE_DISPLAY">
+      <Text>Исследовать мир</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_GO_TO_GOODY_HUT_ACTIVATE_BUTTON">
+      <Text>Найти руины</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_GO_TO_GOODY_HUT_BODY">
+      <Text>Тайны древних руин могут оказаться полезными для нашей цивилизации! [COLOR_ADVISOR_HIGHLIGHT_TEXT]Отправьте юнита в Древние руины[/COLOR], чтобы исследовать их.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_GO_TO_GOODY_HUT_DISPLAY">
+      <Text>Древние руины!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_GOOD_ATTACK_2_BODY">
+      <Text>Отличный ход! Мы сокрушили врага почти без потерь!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_GOOD_ATTACK_2_DISPLAY">
+      <Text>Хорошая атака!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_GOOD_ATTACK_BODY">
+      <Text>Удачный ход! Эта атака нанесет врагу значительный урон, а ваши войска выйдут из боя практически невредимыми.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_GOOD_ATTACK_DISPLAY">
+      <Text>Хорошая атака!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_GREAT_GENERAL_ACTIVATE_BUTTON">
+      <Text>Найти великого полководца</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_GREAT_GENERAL_BODY">
+      <Text>Ваши победы открыли миру великого полководца! Великие полководцы могут объединять под своим командованием несколько подразделений и дают значительные преимущества всем войскам поблизости!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_GREAT_GENERAL_DISPLAY">
+      <Text>Великий полководец</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_GREAT_PERSON_ACTIVATE_BUTTON">
+      <Text>Найти великого человека</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_GREAT_PERSON_BODY">
+      <Text>Поздравляем, у вас обнаружился великий человек! Эти гениальные личности могут оказать вам множество услуг: начать золотой век, построить уникальное улучшение в клетке на карте, или же использовать с большей пользой свою особую силу!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_GREAT_PERSON_DISPLAY">
+      <Text>Великий человек</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_HAPPINESS_BODY">
+      <Text>Счастливые люди - основа благополучия всей цивилизации. Чем больше в государстве людей, тем выше [ICON_HAPPINESS_4] недовольство. Поднять [ICON_HAPPINESS_1] настроение могут редкие ресурсы и некоторые здания. Старайтесь поддерживать хорошее настроение вашей цивилизации!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_HAPPINESS_DISPLAY">
+      <Text>Настроение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_HAPPINESS_RESOURCE_ACTIVATE_BUTTON">
+      <Text>Найти ресурс</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_HAPPINESS_RESOURCE_BODY">
+      <Text>Ваш народ несчастен. [ICON_HAPPINESS_4]Недовольное население прирастает медленнее довольного. Чтобы вернуть населению радость, [COLOR_ADVISOR_HIGHLIGHT_TEXT]прикажите рабочим строить улучшения на ресурсах[/COLOR]. (В первую очередь обратите внимание на редкие ресурсы.)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_HAPPINESS_RESOURCE_DISPLAY">
+      <Text>Ваш народ несчастлив.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_HOW_TO_ENGAGE_DIPLOMACY_2_BODY">
+      <Text>Щелкните мышью по панели дипломатии, чтобы узнать больше о наших отношениях с соседями. Там мы получим всю необходимую информацию о дипломатических соглашениях и договорах.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_HOW_TO_ENGAGE_DIPLOMACY_2_DISPLAY">
+      <Text>Панель дипломатии</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_HOW_TO_ENGAGE_DIPLOMACY_ACTIVATE_BUTTON">
+      <Text>Найти город</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_HOW_TO_ENGAGE_DIPLOMACY_BODY">
+      <Text>Если вы пожелаете снова связаться с другой державой или городом-государством, щелкните по мини-панели их города.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_HOW_TO_ENGAGE_DIPLOMACY_DISPLAY">
+      <Text>Первый контакт с державами</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_INFORMATION">
+      <Text>Информация советника</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_LATER_TURN_UNIT_MOVE_ACTIVATE_BUTTON">
+      <Text>Найти юнит без дела</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_LATER_TURN_UNIT_MOVE_BODY">
+      <Text>Один из ваших юнитов давно не двигался с места. Может, отправить его [COLOR_ADVISOR_HIGHLIGHT_TEXT]разведывать новые земли[/COLOR]?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_LATER_TURN_UNIT_MOVE_DISPLAY">
+      <Text>Исследовать мир!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_LATER_TURNS_BUILD_CITY_ACTIVATE_BUTTON">
+      <Text>Найти поселенцев</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_LATER_TURNS_BUILD_CITY_BODY">
+      <Text>Поторопитесь, вам нужно основать город! Щелкните по кнопке [COLOR_ADVISOR_HIGHLIGHT_TEXT]Основать город[/COLOR] на панели поселенцев как можно скорее.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_LATER_TURNS_BUILD_CITY_DISPLAY">
+      <Text>Основать город!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_LOST_ALL_MILITARY_BODY">
+      <Text>Наши земли никто не охраняет. Было бы разумно создать несколько военных подразделений: они будут защищать нашу территорию от варваров и помешают другим цивилизациям нанести нам подлый удар в спину.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_LOST_ALL_MILITARY_DISPLAY">
+      <Text>Для обороны нужны войска!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_LOTS_OF_MONEY_BODY">
+      <Text>Наша казна растет, и теперь мы можем что-нибудь потратить. На деньги можно покупать клетки для увеличения территории, очки влияния на другие города-государства, улучшать юниты или подкупать другие цивилизации.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_LOTS_OF_MONEY_DISPLAY">
+      <Text>Потратьте деньги</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_MILITARY_UPKEEP_BODY">
+      <Text>У нас слишком много войск, что замедляет [ICON_PRODUCTION] производство в наших городах. [COLOR_ADVISOR_HIGHLIGHT_TEXT]Не создавайте военные подразделения,[/COLOR] пока ваша инфраструктура не сможет с ними справляться.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_MILITARY_UPKEEP_DISPLAY">
+      <Text>Содержание войск</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_MODAL_CANCEL">
+      <Text>Дайте подумать</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_MODAL_CONFIRM">
+      <Text>Да. Начать атаку</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_MODAL_DONT_SHOW_ME_AGAIN">
+      <Text>Спасибо за совет, но больше не напоминайте мне об этом.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_MODAL_TITLE">
+      <Text>Боевая сводка</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_MOVEMENT_FOREST_ACTIVATE_BUTTON">
+      <Text>Найти лес</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_MOVEMENT_FOREST_BODY">
+      <Text>Леса замедляют передвижение юнитов. Войдя в лес, юниты часто заканчивают на этом свой ход. Лес скрывает расположенные за ним объекты.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_MOVEMENT_FOREST_DISPLAY">
+      <Text>Передвижение: леса</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_MOVEMENT_HILLS_ACTIVATE_BUTTON">
+      <Text>Найти холм</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_MOVEMENT_HILLS_BODY">
+      <Text>Холмы замедляют перемещение юнитов, но с них можно увидеть объекты, скрытые за деревьями и другими холмами. Поднявшись на холм, юниты часто заканчивают на этом свой ход. Холм скрывает расположенные за ним объекты.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_MOVEMENT_HILLS_DISPLAY">
+      <Text>Передвижение: холмы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_MOVEMENT_JUNGLE_ACTIVATE_BUTTON">
+      <Text>Найти джунгли</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_MOVEMENT_JUNGLE_BODY">
+      <Text>Джунгли замедляют передвижение юнитов. Войдя в джунгли, юниты часто заканчивают на этом свой ход. Джунгли скрывают расположенные за ними объекты. В джунглях обычно очень жарко и влажно, но это в расчет не принимается.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_MOVEMENT_JUNGLE_DISPLAY">
+      <Text>Передвижение: джунгли</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_MOVEMENT_MARSH_ACTIVATE_BUTTON">
+      <Text>Найти болото</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_MOVEMENT_MARSH_BODY">
+      <Text>Болота замедляют передвижение. Войдя в болото, юниты часто заканчивают на этом свой ход. Любым войскам очень сложно держать оборону в болоте, так что будьте осторожны!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_MOVEMENT_MARSH_DISPLAY">
+      <Text>Передвижение: болота</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_MOVEMENT_MOUNTAIN_ACTIVATE_BUTTON">
+      <Text>Найти гору</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_MOVEMENT_MOUNTAIN_BODY">
+      <Text>Сухопутный юнит не может передвигаться через горы - их можно только обходить. Горы заметны издалека.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_MOVEMENT_MOUNTAIN_DISPLAY">
+      <Text>Передвижение: горы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_MOVEMENT_RIVER_ACTIVATE_BUTTON">
+      <Text>Найти реку</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_MOVEMENT_RIVER_BODY">
+      <Text>Реки замедляют передвижение юнитов. Пересекая реку, юниты часто заканчивают свой ход. Юнитам очень трудно атаковать врага, находящегося на другом берегу реки, так что тщательно планируйте расположение своих войск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_MOVEMENT_RIVER_DISPLAY">
+      <Text>Передвижение: переход рек</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_NEUTRAL_ATTACK_2_BODY">
+      <Text>Битва окончилась ничем. Мы не получили преимущества над врагом и не нанесли ему значительных повреждений. Вам придется привести еще одного юнита в подкрепление.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_NEUTRAL_ATTACK_2_DISPLAY">
+      <Text>Ничья</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_NEUTRAL_ATTACK_BODY">
+      <Text>Такая атака равно навредит обеим сторонам. Впрочем, бой можно продолжить, если поблизости у вас есть войска, которые смогут нанести удар, прежде чем ответит враг.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_NEUTRAL_ATTACK_DISPLAY">
+      <Text>Ничья</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ONE_UNIT_PER_TILE_BODY">
+      <Text>Одну клетку может занимать только одно военное подразделение. Военный юнит может проходить через клетки, занятые другими войсками, но заканчивать передвижение он должен только на свободной клетке.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ONE_UNIT_PER_TILE_DISPLAY">
+      <Text>Один юнит на клетку</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_RANGED_UNIT_ACTIVATE_BUTTON">
+      <Text>Найти дальнобойные войска</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_RANGED_UNIT_BODY">
+      <Text>Теперь у вас есть дальнобойное подразделение. Такие войска могут атаковать врага с расстояния большего, чем одна клетка, однако они почти беззащитны в ближнем бою. Держите стрелков подальше от линии фронта, и они сослужат вам хорошую службу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_RANGED_UNIT_DISPLAY">
+      <Text>Дальнобойные войска</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_RECOMMEND_COURTHOUSE_ACTIVATE_BUTTON">
+      <Text>Найти оккупированный город</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_RECOMMEND_COURTHOUSE_BODY">
+      <Text>Недавно оккупированный нами город не желает входить в состав нашей державы, в нем очень много [ICON_HAPPINESS_4]недовольных. Если мы построим в этом городе суд, недовольство в городе сократится.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_RECOMMEND_COURTHOUSE_DISPLAY">
+      <Text>Занятому городу нужен суд</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_RESEARCH_COURTHOUSE_ACTIVATE_BUTTON">
+      <Text>Найти оккупированный город</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_RESEARCH_COURTHOUSE_BODY">
+      <Text>Недавно оккупированный нами город не желает входить в состав нашей державы, в нем очень много [ICON_HAPPINESS_4]недовольных. Снизить недовольство в этом городе можно, построив суд, но для этого нам не хватает исследований. Откройте математику, чтобы построить суд и поднять настроение новых жителей нашего государства.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_RESEARCH_COURTHOUSE_DISPLAY">
+      <Text>Занятый город недоволен</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_RIGHT_CLICK_MOVE_BODY">
+      <Text>Отдавать приказы на перемещение можно правой кнопкой мыши. Выделите юнит и щелкните правой кнопкой по клетке, на которую ему следует отправиться. Зажав правую кнопку мыши, вы увидите клетки, до которых этот юнит может дойти за один ход.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_RIGHT_CLICK_MOVE_DISPLAY">
+      <Text>Движение правой кнопкой мыши</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SCREEN_CITY_LIST_BODY">
+      <Text>В списке городов перечислены все города вашей цивилизации. С помощью этого списка можно легко просмотреть, чем занята ваша цивилизация, а также изменить производство во время войны.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SCREEN_CITY_LIST_DISPLAY">
+      <Text>Список городов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SCREEN_CITY_SCREEN_BODY">
+      <Text>blah</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SCREEN_CITY_SCREEN_DISPLAY">
+      <Text>Экран города</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SCREEN_DIPLOMACY_LIST_BODY">
+      <Text>В списке дипломатии отображены все державы и города-государства, с которыми вы встретились, а также указан их счет в игре. Щелкнув по соответствующей кнопке, вы сможете начать с ними переговоры.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SCREEN_DIPLOMACY_LIST_DISPLAY">
+      <Text>Дипломатический список</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SCREEN_DIPLOMACY_OVERVIEW_BODY">
+      <Text>Окно дипломатии - источник всей вашей дипломатической информации. Здесь вы можете просматривать статус отношений между разными цивилизациями, заключенные торговые соглашения и наличие ресурсов для торговли с другими цивилизациями.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SCREEN_DIPLOMACY_OVERVIEW_DISPLAY">
+      <Text>Дипломатический обзор</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SCREEN_ECONOMIC_OVERVIEW_BODY">
+      <Text>Экономический обзор позволяет просмотреть экономический статус всех ваших городов. Здесь вы можете узнать о том, откуда и в каком количестве в вашу казну поступает [ICON_GOLD]золото, и на что вы это [ICON_GOLD]золото тратите.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SCREEN_ECONOMIC_OVERVIEW_DISPLAY">
+      <Text>Экономический обзор</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SCREEN_LEADER_TRADE_DIALOG_BODY">
+      <Text>Экран дипломатической торговли позволяет заключать торговые соглашения с другими державами. Выберите товар из списка на своей стороне, чтобы предложить его к обмену. Как только обе стороны придут к соглашению, начнется торговля этими товарами.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SCREEN_LEADER_TRADE_DIALOG_DISPLAY">
+      <Text>Дипломатическая торговля</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SCREEN_MILITARY_OVERVIEW_BODY">
+      <Text>Здесь можно узнать состояние всех войск вашей державы, а также расходы на их содержание и скоро ли в ваших рядах появится великий полководец.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SCREEN_MILITARY_OVERVIEW_DISPLAY">
+      <Text>Военный обзор</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SCREEN_PRODUCTION_CHOOSER_BODY">
+      <Text>В окне выбора производства можно выбрать, что создавать: юнит, здание или чудо света. Одновременно город может работать только над одним объектом. Как только город заканчивает работу, можно строить что-нибудь новое.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SCREEN_PRODUCTION_CHOOSER_DISPLAY">
+      <Text>Выбор производства</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SCREEN_SOCIAL_POLICY_BODY">
+      <Text>Экран общественных институтов позволяет выбирать принципы, по которым живет ваша держава. Для новых общественных институтов обычно требуются очки [ICON_CULTURE] культуры. Некоторые ветви доступны только в определенные эпохи, некоторые взаимно исключают друг друга. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SCREEN_SOCIAL_POLICY_DISPLAY">
+      <Text>Общественный институт</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SCREEN_TECH_CHOOSER_BODY">
+      <Text>В окне выбора технологии можно выбрать технологию для исследования. Как только технология будет исследована, вам предложат исследовать новую.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SCREEN_TECH_CHOOSER_DISPLAY">
+      <Text>Выбор технологии</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SCREEN_TECH_TREE_BODY">
+      <Text>Дерево технологий показывает, в каком порядке могут изучаться технологии и как они связаны друг с другом. Здесь же указаны условия открытия новых технологий.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SCREEN_TECH_TREE_DISPLAY">
+      <Text>Дерево технологий</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SCREEN_UNIT_LIST_BODY">
+      <Text>В списке юнитов перечислены все юниты, находящиеся под вашим командованием. Выберите юнит, чтобы найти его на карте и отдать ему приказ.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SCREEN_UNIT_LIST_DISPLAY">
+      <Text>Список юнитов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SETTLER_INTRO_ACTIVATE_BUTTON">
+      <Text>Найти поселенцев</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SETTLER_INTRO_BODY">
+      <Text>Ваши поселенцы могут основать новый город. Чтобы город мог расти, ему понадобятся клетки, производящие достаточно [ICON_FOOD] продовольствия. [COLOR_ADVISOR_HIGHLIGHT_TEXT]Отправьте поселенцев к подходящему участку и прикажите основать новый город.[/COLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SETTLER_INTRO_DISPLAY">
+      <Text>Где основать новый город</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SETTLER_PROTECT_ACTIVATE_BUTTON">
+      <Text>Найти поселенцев</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SETTLER_PROTECT_BODY">
+      <Text>Колонист в одиночку ходит за пределами границ. Его могут захватить! [COLOR_ADVISOR_HIGHLIGHT_TEXT]Прикажите вашим войскам сопровождать поселенцев[/COLOR], защищая их от варваров и враждебных цивилизаций.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SETTLER_PROTECT_DISPLAY">
+      <Text>Охраняйте поселенцев</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SIEGE_UNIT_ACTIVATE_BUTTON">
+      <Text>Найти осадные орудия</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SIEGE_UNIT_BODY">
+      <Text>Осадные орудия хорошо обстреливают города издалека, но беззащитны в ближнем бою, так что им нужна охрана!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SIEGE_UNIT_DISPLAY">
+      <Text>Осадные орудия</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_TUTORIAL_1_INTRO_MOVEMENT_AND_EXPLORATION_BODY">
+      <Text>Я ваш научный советник. Во время этого урока я покажу, как передвигать юниты по карте. В путешествии вы встретите древние руины, чудеса природы и целые материки!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_TUTORIAL_1_INTRO_MOVEMENT_AND_EXPLORATION_DISPLAY">
+      <Text>Перемещение и исследование</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_TUTORIAL_2_INTRO_FOUND_CITIES_BODY">
+      <Text>Я ваша советница по экономике. В этом уроке я расскажу, что происходит в городах и как найти подходящее место и заложить новое поселение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_TUTORIAL_2_INTRO_FOUND_CITIES_DISPLAY">
+      <Text>Новые города и поселенцы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_TUTORIAL_3_INTRO_IMPROVING_CITIES_WITH_WORKERS_BODY">
+      <Text>Я ваша советница по экономике. В этом уроке я объясню, как использовать рабочих для улучшения городов. Ваши рабочие проложат торговые маршруты, помогут ускорить рост городов и создание юнитов, возведут улучшения на ресурсах. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_TUTORIAL_3_INTRO_IMPROVING_CITIES_WITH_WORKERS_DISPLAY">
+      <Text>Улучшения в городах</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_TUTORIAL_4_INTRO_COMBAT_AND_CONQUERING_BODY">
+      <Text>Я ваш военный советник, и, как мне кажется, вы догадываетесь, зачем я здесь. В этом уроке я научу вас отражать нападения варваров и разрушать их лагеря, а также захватывать вражеские города.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_TUTORIAL_4_INTRO_COMBAT_AND_CONQUERING_DISPLAY">
+      <Text>Сражение и покорение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_TUTORIAL_5_INTRO_DIPLOMACY_BODY">
+      <Text>Я ваш советник по иностранным делам. Здесь вы изучите основы дипломатических отношений с другими цивилизациями и городами-государствами. Это сложная тема, и сейчас мы обсудим, как укрепить влияние на город-государство и как торговать ресурсами. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_TUTORIAL_5_INTRO_DIPLOMACY_DISPLAY">
+      <Text>Основы дипломатии</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_TUTORIAL_BUILD_CITY_CHEAT_ACTIVATE_BUTTON">
+      <Text>Найти город</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_TUTORIAL_BUILD_CITY_CHEAT_BODY">
+      <Text>Для создания поселенцев нужны 2 [ICON_CITIZEN] единицы населения, и чтобы ускорить процесс, мы добавили в ваш первый город дополнительное население. В дальнейшем при основании города у вас будет только 1 [ICON_CITIZEN] единица населения.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_TUTORIAL_BUILD_CITY_CHEAT_DISPLAY">
+      <Text>Дополнительное население</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_UNIT_HEAL_ACTIVATE_BUTTON">
+      <Text>Найти поврежденный юнит</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_UNIT_HEAL_BODY">
+      <Text>Один из наших юнитов на грани уничтожения. Ослабленные подразделения гораздо хуже действуют в бою, их легко уничтожить, поэтому отводите их в безопасное место и отдавайте им приказ [COLOR_ADVISOR_HIGHLIGHT_TEXT]Укрепиться до излечения[/COLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_UNIT_HEAL_DISPLAY">
+      <Text>Вылечить юнита!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_UPGRADING_UNITS_ACTIVATE_BUTTON">
+      <Text>Найти юнит для модерниз.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_UPGRADING_UNITS_BODY">
+      <Text>Устаревшие юниты можно модернизировать, потратив на это [ICON_GOLD]золото. Чтобы улучшить юнит, переведите его на вашу территорию, после чего появится соответствующая кнопка. [COLOR_ADVISOR_HIGHLIGHT_TEXT]Нажмите кнопку "Модернизировать"[/COLOR], чтобы приступить к модернизации.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_UPGRADING_UNITS_DISPLAY">
+      <Text>Улучшение юнитов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_VERY_UNHAPPY_BODY">
+      <Text>Ваши люди очень [ICON_HAPPINESS_4]недовольны. Наши города значительно сократили [ICON_PRODUCTION]производство, а войска хуже сражаются. Обрадуйте людей, построив соответствующие здания, улучшив ресурсы, или приобретите редкие ресурсы у других цивилизаций.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_VERY_UNHAPPY_DISPLAY">
+      <Text>Ваши люди в ярости!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_WINNING_GAME_BODY">
+      <Text>Существует несколько способов стать величайшей цивилизацией и выиграть игру. В сущности, есть всего четыре варианта победы: военная, технологическая, дипломатическая или культурная.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_WINNING_GAME_DISPLAY">
+      <Text>Как победить в игре!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_WORKER_NAVAL_UNIT_ACTIVATE_BUTTON">
+      <Text>Найти рабочую лодку</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_WORKER_NAVAL_UNIT_BODY">
+      <Text>Рабочие лодки увеличивают улов рыбы и китов на клетках вдали от побережья. После улучшения этих участков, рабочие лодки пропадают.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_WORKER_NAVAL_UNIT_DISPLAY">
+      <Text>Рабочие лодки</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_WORKERS_INTRO_ACTIVATE_BUTTON">
+      <Text>Найти рабочих</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_WORKERS_INTRO_BODY">
+      <Text>Теперь, когда у вас есть рабочие, они могут строить улучшения, чтобы повысить производительность ваших земель. [COLOR_ADVISOR_HIGHLIGHT_TEXT]Переместите рабочего на подсвеченный участок и соорудите улучшение.[/COLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_WORKERS_INTRO_DISPLAY">
+      <Text>Рабочие|рабочих|рабочим|рабочих|рабочими|рабочих</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_WORKERS_NEED_WORK_ACTIVATE_BUTTON">
+      <Text>Найти рабочих</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_WORKERS_NEED_WORK_BODY">
+      <Text>У нас есть рабочие, но мы не улучшили ни одной клетки. [COLOR_ADVISOR_HIGHLIGHT_TEXT]Прикажите построить улучшение[/COLOR] на клетке рядом с вашим городом, и вы получите экономический бонус.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_WORKERS_NEED_WORK_DISPLAY">
+      <Text>Рабочим нужна работа</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_WORKERS_PROTECT_ACTIVATE_BUTTON">
+      <Text>Найти рабочих</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_WORKERS_PROTECT_BODY">
+      <Text>Рабочие беззащитны. Отправлять их за пределы владений следует крайне осторожно. Поскольку у нас всего один город, нам лучше [COLOR_ADVISOR_HIGHLIGHT_TEXT]держать рабочих на своей территории[/COLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_WORKERS_PROTECT_DISPLAY">
+      <Text>Берегите своих рабочих!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_WORKERS_STOP_TRAINING_BODY">
+      <Text>Мне кажется, сейчас нам хватает рабочих. Вы можете построить в городе что-нибудь еще.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_WORKERS_STOP_TRAINING_DISPLAY">
+      <Text>Рабочих достаточно</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_WORKERS_TRAIN_BODY">
+      <Text>Производительность земли вокруг города можно повысить [COLOR_ADVISOR_HIGHLIGHT_TEXT]Создайте рабочих[/COLOR], чтобы улучшить территорию.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_WORKERS_TRAIN_DISPLAY">
+      <Text>Постройте рабочих!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ZONE_OF_CONTROL_ACTIVATE_BUTTON">
+      <Text>Найти юнит</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ZONE_OF_CONTROL_BODY">
+      <Text>Наши люди вошли во вражескую зону контроля. Это значит, что при движении между двумя клетками, каждая из которых находится рядом с вражеским юнитом или городом, наш юнит будет тратить все свои ОП.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ZONE_OF_CONTROL_DISPLAY">
+      <Text>Зона контроля</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AICITYSTRATEGY_CAPITAL_NEED_SETTLER">
+      <Text>Город {@1_CityName} готов к созданию поселенцев и расширению границ нашей империи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AICITYSTRATEGY_CAPITAL_UNDER_THREAT">
+      <Text>Наша столица {@1_CityName} находится под угрозой. Мы должны защитить ее.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AICITYSTRATEGY_ENOUGH_NAVAL_TILE_IMPROVEMENT">
+      <Text>Город {@1_CityName} улучшил все свои морские ресурсы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AICITYSTRATEGY_ENOUGH_TILE_IMPROVERS">
+      <Text>Клетки города {@1_CityName} уже достаточно улучшены. Рабочие могут принести пользу где-нибудь еще!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AICITYSTRATEGY_HAVE_TRAINING_FACILITY">
+      <Text>В городе {@1_CityName} есть здания, увеличивающие военное производство. Самые эффективные войска для вашей армии можно создать в городе {@1_CityName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AICITYSTRATEGY_LANDLOCKED">
+      <Text>Город {@1_CityName} в глубине материка. Можете не беспокоиться об акулах - беспокойтесь лучше о медведях.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AICITYSTRATEGY_NEED_IMPROVEMENT_FOOD">
+      <Text>Для развития города {@1_CityName} необходима [ICON_FOOD] пища. Прикажите рабочим построить поблизости фермы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AICITYSTRATEGY_NEED_IMPROVEMENT_PRODUCTION">
+      <Text>Чтобы ускорить строительство, городу {@1_CityName} нужно развивать производство. Прикажите рабочим построить поблизости рудник.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AICITYSTRATEGY_NEED_NAVAL_GROWTH">
+      <Text>В радиусе города {@1_CityName} есть множество клеток с водой. Следует построить там здания вроде маяка - они улучшат производительность клеток.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AICITYSTRATEGY_NEED_NAVAL_TILE_IMPROVEMENT">
+      <Text>В радиусе города {@1_CityName} есть ресурсы без улучшений. Следует направить туда рабочую лодку и улучшить ресурсы!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AICITYSTRATEGY_NEED_TILE_IMPROVERS">
+      <Text>Чтобы улучшить соседние клетки, городу {@1_CityName} нужны рабочие. Следует создать в городе {@1_CityName} рабочих - пусть они улучшают близлежащие клетки.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AICITYSTRATEGY_SMALL_CITY">
+      <Text>Сейчас ваш город {@1_CityName} слишком мал для строительства таких крупных сооружений как чудеса. Придется увеличить его, прежде чем приниматься за подобные проекты.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AICITYSTRATEGY_UNDER_BLOCKADE">
+      <Text>Город {@1_CityName} находится в блокаде и не может пользоваться соседними водными клетками. Дистанционной атакой постарайтесь отогнать вражеские корабли от города и прорвать блокаду.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AICITYSTRATEGY_WANT_TILE_IMPROVERS">
+      <Text>Город {@1_CityName} мог бы получить массу преимуществ от улучшения соседних клеток. Может, отправить туда рабочих?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BASESTRATEGY_NOTHING_TO_SAY_ECONOMIC">
+      <Text>Прошу меня простить, но я не могу дать вам никаких определенных советов. Возможно, вам следует построить больше городов?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BASESTRATEGY_NOTHING_TO_SAY_FOREIGN">
+      <Text>Учитывайте возможные планы врагов, но не увлекайтесь этим. Иначе я потеряю работу!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BASESTRATEGY_NOTHING_TO_SAY_MILITARY">
+      <Text>Больше юнитов, стройте больше юнитов! Ой, нет. Сейчас у меня нет особых советов. Но я еще что-нибудь придумаю.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BASESTRATEGY_NOTHING_TO_SAY_SCIENCE">
+      <Text>Колодец мудрости на время иссяк.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BEGIN_GAME_BUTTON">
+      <Text>Начать путешествие</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BEGIN_GAME_BUTTON_CONTINUE">
+      <Text>Продолжить путешествие</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_A_CITY_MCFLY_ECONOMIC">
+      <Text>Мне кажется, нашей цивилизации стоит основать хотя бы один город: сейчас у нас нет ни одного.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_A_CITY_MCFLY_FOREIGN">
+      <Text>Для занятий дипломатией нам сперва следует основать город, чтобы другие цивилизации знали, где нас искать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_A_CITY_MCFLY_MILITARY">
+      <Text>Постройте город, чтобы в нем можно было создавать войска!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_A_CITY_MCFLY_SCIENCE">
+      <Text>Давайте создадим город, чтобы в нем можно было хранить мое оборудование. Я не могу постоянно таскать его в руках!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_CONSTRUCTION_ADVISOR_RECOMMENDATION_ECONOMIC">
+      <Text>Это рекомендует создать советник по экономике.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_CONSTRUCTION_ADVISOR_RECOMMENDATION_FOREIGN">
+      <Text>Это рекомендует создать советник по иностранным делам.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_CONSTRUCTION_ADVISOR_RECOMMENDATION_MILITARY">
+      <Text>Это рекомендует создать военный советник.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_CONSTRUCTION_ADVISOR_RECOMMENDATION_SCIENCE">
+      <Text>Это рекомендует создать научный советник.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYIMPROVEMENTSTRATEGY_PLUG_UP_RESOURCES_HAVE_MORE">
+      <Text>Близ города {@2_CityName} {@1: plural 1?{@1: gender masculine?расположен; feminine?расположена; neuter?расположено;}; 2?расположены; other?расположен;} [COLOR_GREEN]{@1_ResourceName}[ENDCOLOR]. У нас уже есть этот ресурс, но мы могли бы использовать излишки для дипломатических сделок.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYIMPROVEMENTSTRATEGY_PLUG_UP_RESOURCES_HAVE_ZERO">
+      <Text>У нас нет {@1_ResourceName[2]}, а {@1: plural 1?{@1: gender masculine?он имеется; feminine?она имеется; neuter?оно имеется;}; 2?они имеются; other?он имеется;} близ города {@2_CityName}. Прикажите рабочим улучшить клетку, чтобы мы могли получить к {@1: plural 1?{@1: gender masculine?нему; feminine?ней; neuter?нему;}; 2?ним; other?нему;} доступ.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_SHORTCUT_BUILDING_LIST">
+      <Text>Здания</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_SHORTCUT_IMPROVEMENT_LIST">
+      <Text>Улучшения</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_SHORTCUT_MINOR_CIV_LIST">
+      <Text>Города-государства</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_SHORTCUT_PROMOTIONS_LIST">
+      <Text>Повышение квалификации</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_SHORTCUT_RESOURCES_LIST">
+      <Text>Ресурсы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_SHORTCUT_SOCIAL_POLICIES">
+      <Text>Институты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_SHORTCUT_SPECIALISTS_AND_GREAT_PEOPLE">
+      <Text>Специалисты и великие люди</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_SHORTCUT_TECHNOLOGY_LIST">
+      <Text>Технологии</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_SHORTCUT_TERRAIN_LIST">
+      <Text>Ландшафт</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_SHORTCUT_UNITS_LIST">
+      <Text>Юниты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_SHORTCUT_WONDER_LIST">
+      <Text>Чудеса</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_ALLY">
+      <Text>Наш союз с{@1: gender masculine? ; feminine? ; neuter? ; other? городом-государством ;}{@1_MinorCivName[5]} скоро распадется, если мы ничего не предпримем. Мы долго добивались этого союза, и было бы жаль потерять союзника по собственной небрежности.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_ALLY_QUEST_CLEAR_BARBARIANS">
+      <Text>Наш союз с{@1: gender masculine? ; feminine? ; neuter? ; other? городом-государством ;}{@1_MinorCivName[5]} скоро распадется, если мы не укрепим свое влияние. Если мы хотим сохранить союз с этим городом, придется уничтожить варваров на его землях и поблизости от его границ.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_ALLY_QUEST_CONNECT_RESOURCE">
+      <Text>Наш союз с{@1: gender masculine? ; feminine? ; neuter? ; other? городом-государством ;}{@1_MinorCivName[5]} скоро распадется, если мы не укрепим свое влияние. Они хотят, чтобы мы соединили {@2_ResourceName[4]} с нашей торговой сетью. В этом случае мы получим достаточно влияния, чтобы сохранить наш союз.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_ALLY_QUEST_CONSTRUCT_WONDER">
+      <Text>Наш союз с{@1: gender masculine? ; feminine? ; neuter? ; other? городом-государством ;}{@1_MinorCivName[5]} скоро распадется, если мы не укрепим свое влияние. Они хотят, чтобы мы построили {@2_BldgName[4]}. В этом случае мы получим достаточно влияния, чтобы сохранить наш союз.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_ALLY_QUEST_FIND_NATURAL_WONDER">
+      <Text>Наш союз с{@1: gender masculine? ; feminine? ; neuter? ; other? городом-государством ;}{@1_MinorCivName[5]} скоро распадется, если мы не укрепим свое влияние. Мы получим достаточно влияния, чтобы сохранить наш союз, если найдем чудо природы. Пора в экспедицию!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_ALLY_QUEST_FIND_PLAYER">
+      <Text>Наш союз с{@1: gender masculine? ; feminine? ; neuter? ; other? городом-государством ;}{@1_MinorCivName[5]} скоро распадется, если мы не укрепим свое влияние. Если мы хотим сохранить союз, то должны отправиться на поиски цивилизации {@2_CivName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_ALLY_QUEST_GREAT_PERSON">
+      <Text>Наш союз с{@1: gender masculine? ; feminine? ; neuter? ; other? городом-государством ;}{@1_MinorCivName[5]} скоро распадется, если наше влияние на него не усилится. Они хотят, чтобы мы создали {@2_UnitName[4]}. В этом случае мы получим достаточно влияния, чтобы сохранить наш союз.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_ALLY_QUEST_KILL_CAMP">
+      <Text>Наш союз с{@1: gender masculine? ; feminine? ; neuter? ; other? городом-государством ;}{@1_MinorCivName[5]} скоро распадется, если мы не укрепим наше влияние. Они хотят, чтобы мы уничтожили близлежащий лагерь варваров. В этом случае мы сможем сохранить наш союз.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_ALLY_QUEST_KILL_CITY_STATE">
+      <Text>Наш союз с{@1: gender masculine? ; feminine? ; neuter? ; other? городом-государством ;}{@1_MinorCivName[5]} скоро распадется, если мы не укрепим наше влияние. Они хотят, чтобы мы сделали за них грязную работу и разгромили{@2: gender masculine? ; feminine? ; neuter? ; other? город-государство ;}{@2_MinorCivName[4]}. В этом случае мы, вероятно, испортим отношения с другими державами, но сохраним наш союз.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_ALLY_QUEST_ROUTE">
+      <Text>Наш союз с{@1: gender masculine? ; feminine? ; neuter? ; other? городом-государством ;}{@1_MinorCivName[5]} скоро распадется, если мы не укрепим наше влияние. Они хотят, чтобы мы соединили нашу столицу и их город дорогой. В этом случае мы сможем сохранить наш союз.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_ALLY_WAR_WITH_MAJOR">
+      <Text>Наш союз с{@1: gender masculine? ; feminine? ; neuter? ; other? городом-государством ;}{@1_MinorCivName[5]} скоро распадется, если мы не обретем больше влияния. Им нужна помощь в борьбе с государством {@2_CivName}. Если мы объявим ему войну, то сохраним наш союз.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_FRIENDSHIP">
+      <Text>Мы скоро потеряем дружбу{@1: gender masculine? ; feminine? ; neuter? ; other? города-государства ;}{@1_MinorCivName[2]}, если ничего не предпримем. Если вы цените их дружбу, то мы должны укрепить наше влияние на них.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_FRIENDSHIP_QUEST_CLEAR_BARBARIANS">
+      <Text>Мы скоро потеряем дружбу{@1: gender masculine? ; feminine? ; neuter? ; other? города-государства ;}{@1_MinorCivName[2]}, если ничего не предпримем. Если мы хотим сохранить союз с этим городом, придется уничтожить варваров на его землях и поблизости от его границ.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_FRIENDSHIP_QUEST_CONNECT_RESOURCE">
+      <Text>Мы скоро потеряем дружбу{@1: gender masculine? ; feminine? ; neuter? ; other? города-государства ;}{@1_MinorCivName[2]}, если ничего не предпримем. Они хотят, чтобы мы соединили {@2_ResourceName[4]} с нашей торговой сетью. В этом случае мы получим достаточно влияния, чтобы сохранить их дружбу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_FRIENDSHIP_QUEST_CONSTRUCT_WONDER">
+      <Text>Мы скоро потеряем дружбу{@1: gender masculine? ; feminine? ; neuter? ; other? города-государства ;}{@1_MinorCivName[2]}, если ничего не предпримем. Они хотят, чтобы мы построили {@2_BldgName[4]}. В этом случае мы получим достаточно влияния, чтобы сохранить их дружбу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_FRIENDSHIP_QUEST_FIND_NATURAL_WONDER">
+      <Text>Мы скоро потеряем дружбу{@1: gender masculine? ; feminine? ; neuter? ; other? города-государства ;}{@1_MinorCivName[2]}, если ничего не предпримем. Мы получим достаточно влияния, чтобы сохранить их дружбу, если найдем чудо природы. Пора в путь!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_FRIENDSHIP_QUEST_FIND_PLAYER">
+      <Text>Мы скоро потеряем дружбу{@1: gender masculine? ; feminine? ; neuter? ; other? города-государства ;}{@1_MinorCivName[2]}, если ничего не предпримем. Если мы хотим сохранить их дружбу, то должны отправиться на поиски цивилизации {@2_CivName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_FRIENDSHIP_QUEST_GREAT_PERSON">
+      <Text>Мы скоро потеряем дружбу{@1: gender masculine? ; feminine? ; neuter? ; other? города-государства ;}{@1_MinorCivName[2]}, если ничего не предпримем. Они хотят, чтобы мы создали {@2_UnitName[4]}. В этом случае мы получим достаточно влияния, чтобы сохранить их дружбу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_FRIENDSHIP_QUEST_KILL_CAMP">
+      <Text>Мы скоро потеряем дружбу{@1: gender masculine? ; feminine? ; neuter? ; other? города-государства ;}{@1_MinorCivName[2]}, если ничего не предпримем. Они хотят, чтобы мы уничтожили близлежащий лагерь варваров. В этом случае мы сможем сохранить их дружбу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_FRIENDSHIP_QUEST_KILL_CITY_STATE">
+      <Text>Мы скоро потеряем дружбу{@1: gender masculine? ; feminine? ; neuter? ; other? города-государства ;}{@1_MinorCivName[2]}, если ничего не предпримем. Они хотят, чтобы мы сделали за них грязную работу и разгромили{@1: gender masculine? ; feminine? ; neuter? ; other? город-государство ;}{@2_MinorCivName[4]}. В этом случае мы, вероятно, испортим отношения с другими лидерами, зато сохраним хорошие отношения с нашим партнером.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_FRIENDSHIP_QUEST_ROUTE">
+      <Text>Мы скоро потеряем дружбу{@1: gender masculine? ; feminine? ; neuter? ; other? города-государства ;}{@1_MinorCivName[2]}, если ничего не предпримем. Они хотят, чтобы мы соединили их город дорогой с нашей столицей. В этом случае мы сможем сохранить их дружбу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_FRIENDSHIP_WAR_WITH_MAJOR">
+      <Text>Мы скоро потеряем дружбу{@1: gender masculine? ; feminine? ; neuter? ; other? города-государства ;}{@1_MinorCivName[2]}, если ничего не предпримем. Им нужна помощь в борьбе с цивилизацией {@2_CivName}. Если мы объявим войну этой цивилизации, то сохраним их дружбу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_BEFRIEND_CITY_STATE">
+      <Text>Мы получим влияние на{@1: gender masculine? ; feminine? ; neuter? ; other? город-государство ;}{@1_MinorCivName[4]}, если передадим им немного денег или юнит.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_BEFRIEND_CITY_STATE_QUEST_CLEAR_BARBARIANS">
+      <Text>Мы получим влияние на{@1: gender masculine? ; feminine? ; neuter? ; other? город-государство ;}{@1_MinorCivName[4]}, если уничтожим варваров на его землях и поблизости от его границ.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_BEFRIEND_CITY_STATE_QUEST_CONNECT_RESOURCE">
+      <Text>Мы получим влияние на{@1: gender masculine? ; feminine? ; neuter? ; other? город-государство ;}{@1_MinorCivName[4]}, если соединим {@2_ResourceName[4]} с торговой сетью.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_BEFRIEND_CITY_STATE_QUEST_CONSTRUCT_WONDER">
+      <Text>Мы получим влияние на{@1: gender masculine? ; feminine? ; neuter? ; other? город-государство ;}{@1_MinorCivName[4]}, если построим {@2_BldgName[4]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_BEFRIEND_CITY_STATE_QUEST_FIND_NATURAL_WONDER">
+      <Text>Мы получим влияние на{@1: gender masculine? ; feminine? ; neuter? ; other? город-государство ;}{@1_MinorCivName}, если найдем чудо природы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_BEFRIEND_CITY_STATE_QUEST_FIND_PLAYER">
+      <Text>{@1_MinorCivName} {@1: plural 1?желает; 2?желают; other?желает;} наладить связи с державой {@2_CivName}. Если мы найдем ее, то укрепим наше влияние на этот город.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_BEFRIEND_CITY_STATE_QUEST_GREAT_PERSON">
+      <Text>Мы произведем большое впечатление на{@1: gender masculine? ; feminine? ; neuter? ; other? город-государство ;}{@1_MinorCivName[4]}, создав {@2_UnitName[4]}. Давайте это сделаем!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_BEFRIEND_CITY_STATE_QUEST_KILL_CAMP">
+      <Text>Мы получим влияние на{@1: gender masculine? ; feminine? ; neuter? ; other? город-государство ;}{@1_MinorCivName[4]}, если уничтожим лагерь варваров рядом с ним.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_BEFRIEND_CITY_STATE_QUEST_KILL_CITY_STATE">
+      <Text>{@1_MinorCivName} {@1_MinorCivName: plural 1?желает; 2?желают; other?желает;}, чтобы мы уничтожили{@2: gender masculine? ; feminine? ; neuter? ; other? город-государство ;}{@2_MinorCivName[4]}! Зачем это нужно? Надеюсь, у них есть на то причины.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_BEFRIEND_CITY_STATE_QUEST_ROUTE">
+      <Text>Мы улучшим отношения с{@1: gender masculine? ; feminine? ; neuter? ; other? городом-государством ;}{@1_MinorCivName[5]}, если наши рабочие соединят дорогой нашу столицу и их город.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_BEFRIEND_CITY_STATE_WAR_WITH_MAJOR">
+      <Text>Если мы хотим улучшить отношения с{@1: gender masculine? ; feminine? ; neuter? ; other? городом-государством ;}{@1_MinorCivName[5]}, то должны помочь им в войне с цивилизацией {@2_LongCivName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_EXPANSION_AGGRESSIVE_POSTURE_HIGH">
+      <Text>{@1_LongCivName} {@1: plural 1?владеет; 2?владеют; other?владеет;} слишком многими землями рядом с нашими городами. Придется обсудить с ними этот вопрос.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_EXPANSION_AGGRESSIVE_POSTURE_INCREDIBLE">
+      <Text>Агрессивная держава {@1_CivName} пытается удушить наши города в своих границах! Нам нужно что-то предпринять, иначе войны не избежать!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_EXPANSION_AGGRESSIVE_POSTURE_MEDIUM">
+      <Text>Границы державы {@1_LongCivName} приблизились к нашим землям.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_LIBERATE_CITY_STATE">
+      <Text>{@1: gender masculine? ; feminine? ; neuter? ; other?Город ;}{@1_MinorCivName} {@1: plural 1?{@1: gender masculine?захвачен; feminine?захвачена; neuter?захвачен;}; 2?захвачены; other?захвачен;} державой {@2_LongCivName}. Если мы освободим этот город и восстановим независимость{@1: gender masculine? ; feminine? ; neuter? ; other? свободного города ;}{@3_MinorCivName[2]}, то получим на него огромное влияние.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_MILITARY_AGGRESSIVE_POSTURE_HIGH">
+      <Text>{@1_LongCivName} {@1: plural 1?сосредотачивает; 2?сосредотачивают; other?сосредотачивает;} у наших границ свои войска. Возможно, они готовятся к нападению.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_MILITARY_AGGRESSIVE_POSTURE_INCREDIBLE">
+      <Text>Это не к добру. {@1_LongCivName} {@1: plural 1?собирает; 2?собирают; other?собирает;} огромную армию у наших границ. Мы должны быть готовы к внезапному нападению.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_MILITARY_AGGRESSIVE_POSTURE_MEDIUM">
+      <Text>Хм, любопытно. {@1_LongCivName} {@1: plural 1?сосредотачивает; 2?сосредотачивают; other?сосредотачивает;} у наших границ свои подразделения. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_MILITARY_STRENGTH_COMPARED_TO_US_AVERAGE">
+      <Text>Армия цивилизации {@1_LongCivName} по силам сравнима с нашей.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_MILITARY_STRENGTH_COMPARED_TO_US_IMMENSE">
+      <Text>{@1_LongCivName} {@1: plural 1?обладает; 2?обладают; other?обладает;} армией, которая способна смести нас с лица планеты. Сохраняйте мир с ними любой ценой и как можно быстрее увеличивайте армию, чтобы наше положение стало менее шатким.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_MILITARY_STRENGTH_COMPARED_TO_US_PATHETIC">
+      <Text>Сложно сказать, есть ли вообще у государства {@1_LongCivName} армия. В случае необходимости мы легко расправимся с ними.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_MILITARY_STRENGTH_COMPARED_TO_US_POOR">
+      <Text>Армия цивилизации {@1_LongCivName} слабее, чем наша, но не следует слишком сильно давить на них на переговорах: они начнут относиться к нам с недоверием.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_MILITARY_STRENGTH_COMPARED_TO_US_POWERFUL">
+      <Text>{@1_LongCivName} не из тех, с кем можно шутить. Их армия сильнее нашей, поэтому воевать с ними нужно только в самом крайнем случае.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_MILITARY_STRENGTH_COMPARED_TO_US_STRONG">
+      <Text>{@1_LongCivName} сильнее нас в военном отношении. Мы не должны воевать с этим государством, пока не укрепим нашу армию.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_MILITARY_STRENGTH_COMPARED_TO_US_WEAK">
+      <Text>Кажется, недавно мне встретился единственный юнит цивилизации {@1_LongCivName}. Он выглядел грустным и одиноким. Если это государство вступит в войну с сильной державой вроде нашей, это закончится разгромом.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_MINOR_CIV_DISPUTE_LEVEL_FIERCE">
+      <Text>{@1_LongCivName} дерзко {@1: plural 1?подрывает; 2?подрывают; other?подрывает;} наши отношения с{@1: gender masculine? ; feminine? ; neuter? ; other? городом-государством ;}{@2_MinorCivName[5]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_MINOR_CIV_DISPUTE_LEVEL_STRONG">
+      <Text>{@1_CivName} изо всех сил {@1_CivName: plural 1?стремится; 2?стремятся; other?стремится;} заключить союз с{@1: gender masculine? ; feminine? ; neuter? ; other? городом-государством ;}{@2_MinorCivName[5]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_MINOR_CIV_DISPUTE_LEVEL_WEAK">
+      <Text>{@1_LongCivName} {@1_LongCivName: plural 1?соперничает; 2?соперничают; other?соперничает;} с нами за союз с{@1: gender masculine? ; feminine? ; neuter? ; other? городом-государством ;}{@2_MinorCivName[5]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_WARMONGER_THREAT_CRITICAL">
+      <Text>{@1_LongCivName} - воплощение кровожадности! Они воевали со всеми соседями и обязательно нападут на нас - это лишь вопрос времени!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_WARMONGER_THREAT_MAJOR">
+      <Text>Мне кажется, что цивилизации {@1_LongCivName} доставляет удовольствие задирать более слабые цивилизации и города-государства. Мама всегда говорила: чтобы остановить забияку, разбей ему нос!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_WARMONGER_THREAT_MINOR">
+      <Text>{@1_LongCivName} {@1_LongCivName: plural 1?ведет; 2?ведут; other?ведет;} себя агрессивно. Мы должны присматривать за ними.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_WARMONGER_THREAT_NONE">
+      <Text>{@1_LongCivName} {@1_LongCivName: plural 1?ведет; 2?ведут; other?ведет;} себя миролюбиво. Но я уверен, что они что-то замышляют!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_WARMONGER_THREAT_SEVERE">
+      <Text>{@1_LongCivName} {@1_LongCivName: plural 1?нападает; 2?нападают; other?нападает;} на всех! Спрячьте женщин и детей и укрепите столицу, чтобы они не могли одержать военную победу!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_WARPROJECTION_DEFEAT_PEACE">
+      <Text>Армия державы {@1_LongCivName} намного сильнее нашей. Сейчас было бы неразумно объявлять им войну.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_WARPROJECTION_DEFEAT_WAR">
+      <Text>Наша война с цивилизацией {@1_LongCivName} проходит неудачно. Мы должны подумать о заключении мира.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_WARPROJECTION_DESTRUCTION_PEACE">
+      <Text>Было бы неумно провоцировать цивилизацию {@1_LongCivName}. Они намного сильнее нас, так что лучше оставить их в покое.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_WARPROJECTION_DESTRUCTION_WAR">
+      <Text>Я призываю вас немедленно запросить мира у цивилизации {@1_LongCivName}. Они угрожают самому нашему существованию!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_WARPROJECTION_GOOD_PEACE">
+      <Text>{@1_LongCivName} слабее нас в военном отношении. Если у них есть что-то, что может нас заинтересовать, самое время их об этом попросить.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_WARPROJECTION_GOOD_WAR">
+      <Text>Наша война с цивилизацией {@1_LongCivName} проходит удачно, наши войска намного сильнее. Продолжайте давить, и победа не за горами!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_WARPROJECTION_STALEMATE_WAR">
+      <Text>Мы практически равны цивилизации {@1_LongCivName} по силам. Эта война станет серьезным испытанием. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_WARPROJECTION_VERY_GOOD_PEACE">
+      <Text>Наши войска намного сильнее армии государства {@1_LongCivName}. Я не предлагаю напасть на нее, но это преимущество следует использовать на благо нашей славной державы!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_WARPROJECTION_VERY_GOOD_WAR">
+      <Text>Исходя из соотношения сил, мы можем стереть государство {@1_LongCivName} с лица земли! Действуйте быстро, чтобы они не успели прибегнуть к спасительным дипломатическим уловкам!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ECONOMICAISTRATEGY_CITIES_NEED_NAVAL_GROWTH">
+      <Text>У нас много городов на побережье, поэтому нам следует строить сооружения, которые повысят производительность прибрежных клеток.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ECONOMICAISTRATEGY_CITIES_NEED_NAVAL_TILE_IMPROVEMENT">
+      <Text>Мы не полностью используем водные ресурсы. Постройте рабочие лодки - они дадут новый толчок нашей цивилизации.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ECONOMICAISTRATEGY_EARLY_EXPANSION">
+      <Text>У нас есть куда расширяться. Давайте создадим поселенцев и заложим новый город!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ECONOMICAISTRATEGY_ENOUGH_EXPANSION">
+      <Text>Нам следует сосредоточиться на развитии и улучшении того, что мы уже имеем, а не на строительстве новых городов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ECONOMICAISTRATEGY_ENOUGH_RECON">
+      <Text>Мы исследовали значительную часть карты. Нужно прекратить создание разведчиков и заняться чем-то другим. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_ECONOMICAISTRATEGY_ENOUGH_RECON_SEA">
+      <Text>Мы исследовали значительную часть прибрежных вод. Нужно перестать исследовать моря.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ECONOMICAISTRATEGY_FOUND_CITY">
+      <Text>У нас есть поселенцы. Теперь давайте найдем хорошее место для города!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ECONOMICAISTRATEGY_HALT_GROWTH_BUILDINGS">
+      <Text>Мы уже создаем пирамиды, поэтому нет необходимости строить амбары в других городах.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ECONOMICAISTRATEGY_ISLAND_START">
+      <Text>Наша родина - небольшой континент, здесь некуда расширяться. Нам нужно сосредоточиться на морских технологиях и научиться грузить юнитов на борт.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ECONOMICAISTRATEGY_LOSING_MONEY">
+      <Text>Нам необходимо пополнить нашу казну. Распустите лишних юнитов и создайте постройки и улучшения, которые повысят приток [ICON_GOLD] золота с клеток.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ECONOMICAISTRATEGY_NEED_HAPPINESS">
+      <Text>Наш народ не слишком [ICON_HAPPINESS_1] счастлив! Следует присоединять к торговой сети источники редких ресурсов, строить сооружения, которые [ICON_HAPPINESS_1] поднимут настроение, или чудеса. Кроме того, необходимо принимать общественные институты, снижающие уровень недовольства населения.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ECONOMICAISTRATEGY_NEED_HAPPINESS_CRITICAL">
+      <Text>Наш народ не слишком счастлив! Мы должны присоединять к торговой сети источники редких ресурсов, строить сооружения для [ICON_HAPPINESS_1] поднятия настроения или чудеса. Кроме того, следует принимать общественные институты, которые снизят уровень недовольства нашего населения.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ECONOMICAISTRATEGY_NEED_IMPROVEMENT_FOOD">
+      <Text>У нас наступил [ICON_FOOD]продовольственный кризис! С помощью рабочих постройте улучшения на клетках и сооружения, способные увеличить производство [ICON_FOOD]пищи для ваших городов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ECONOMICAISTRATEGY_NEED_IMPROVEMENT_PRODUCTION">
+      <Text>У нас наступил [ICON_FOOD]кризис производства! С помощью рабочих постройте улучшения на клетках и сооружения, способные увеличить производство [ICON_FOOD]для ваших городов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ECONOMICAISTRATEGY_NEED_RECON">
+      <Text>Нам нужно продолжать исследование окружающего мира, чтобы найти древние руины, города-государства и другие цивилизации!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ECONOMICAISTRATEGY_NEED_RECON_SEA">
+      <Text>Нам нужно продолжить исследование морей, чтобы найти другие континенты для заселения.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ECONOMICAISTRATEGY_ONE_OR_FEWER_COASTAL_CITIES">
+      <Text>Не нужно строить гавани, поскольку мы не можем использовать их, пока нет двух прибрежных городов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ECONOMICAISTRATEGY_ONE_OR_FEWER_COASTAL_CITIES_INVERSE">
+      <Text>У нас есть прибрежные города, которые можно соединить с помощью гаваней. Постройте гавани, чтобы создать водные торговые пути и увеличить приток [ICON_GOLD]золота!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ECONOMICAISTRATEGY_TOO_MANY_UNITS">
+      <Text>Наше [ICON_PRODUCTION] производство снижается из-за чрезмерного числа юнитов. Нам следует распустить ненужные подразделения, чтобы наша держава не тянула лишнее бремя.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FINANCESTRATEGY_BROKE_AND_GOING_DOWN">
+      <Text>Мы обанкротились и совсем не зарабатываем денег! Нужно сделать все возможное, чтобы вывести наши доходы в плюс и обрести надежду когда-нибудь погасить долги! В краткосрочной перспективе нам могли бы помочь средства, полученные дипломатическими путями.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FINANCESTRATEGY_BROKE_AND_GOING_DOWN_BUILDING_MAINTENANCE">
+      <Text>Мы обанкротились и совсем не зарабатываем денег! Нужно сделать все возможное, чтобы погасить долги! Сейчас наша крупнейшая статья расходов ({1_Num} [ICON_GOLD] золота за ход) - содержание построек.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FINANCESTRATEGY_BROKE_AND_GOING_DOWN_DIPLOMACY">
+      <Text>Мы обанкротились и совсем не зарабатываем денег! Нужно сделать все возможное, чтобы погасить долги! Сейчас наша крупнейшая статья расходов ({1_Num} [ICON_GOLD] золота за ход) - дипломатические соглашения. Мы по возможности не должны продлевать их. Кроме того, следует заключить новые договоры, которые начнут приносить [ICON_GOLD] золото, а не отбирать его.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FINANCESTRATEGY_BROKE_AND_GOING_DOWN_IMPROVEMENT_MAINTENANCE">
+      <Text>Мы обанкротились и совсем не зарабатываем денег! Нужно сделать все возможное, чтобы погасить долги! Сейчас наша крупнейшая статья расходов ({1_Num} [ICON_GOLD] золота за ход) - содержание улучшений. Мы должны строить только необходимые улучшения, а все бесполезные необходимо разрушить.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FINANCESTRATEGY_BROKE_AND_GOING_DOWN_UNIT_MAINTENANCE">
+      <Text>Мы обанкротились и совсем не зарабатываем денег! Нужно сделать все возможное, чтобы погасить долги! Сейчас наша крупнейшая статья расходов ({1_Num} [ICON_GOLD] золота за ход) - содержание юнитов. Распустите всех юнитов, без которых можно обойтись!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FINANCESTRATEGY_BROKE_AND_GOING_DOWN_UNIT_SUPPLY">
+      <Text>Мы обанкротились и совсем не зарабатываем денег! Нужно сделать все возможное, чтобы погасить долги! Сейчас наша крупнейшая статья расходов ({1_Num} [ICON_GOLD] золота за ход) - снабжение юнитов или плата за юнитов вне нашей территории. Либо верните этих людей в пределы наших границ, либо распустите их. Необходимо срочно решить финансовую проблему!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FINANCESTRATEGY_BROKE_AND_GOING_UP">
+      <Text>Мы обанкротились, но продолжаем зарабатывать деньги.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FINANCESTRATEGY_BROKE_AND_GOING_UP_BUILDING_MAINTENANCE">
+      <Text>Мы обанкротились, хотя по-прежнему зарабатываем деньги. Сейчас наша крупнейшая статья расходов ({1_Num} [ICON_GOLD] золота за ход) - содержание построек.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FINANCESTRATEGY_BROKE_AND_GOING_UP_DIPLOMACY">
+      <Text>Мы обанкротились, хотя по-прежнему зарабатываем деньги. Сейчас наша крупнейшая статья расходов ({1_Num} [ICON_GOLD] золота за ход) - дипломатические соглашения. Мы по возможности не должны продлевать эти соглашения. Кроме того, нам следует заключить новые, которые будут приносить золото, а не отбирать его.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FINANCESTRATEGY_BROKE_AND_GOING_UP_IMPROVEMENT_MAINTENANCE">
+      <Text>Мы обанкротились, хотя по-прежнему зарабатываем деньги. Сейчас наша крупнейшая статья расходов ({1_Num} [ICON_GOLD]золота за ход) - содержание улучшений. Мы должны прекратить постройку улучшений, а все бесполезные улучшения необходимо убрать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FINANCESTRATEGY_BROKE_AND_GOING_UP_UNIT_MAINTENANCE">
+      <Text>Мы обанкротились, хотя по-прежнему зарабатываем деньги. Сейчас наша крупнейшая статья расходов ({1_Num} [ICON_GOLD]золота за ход) - содержание юнитов. Распустите всех юнитов, без которых можно обойтись, чтобы мы могли вернуть доходы в плюс!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FINANCESTRATEGY_BROKE_AND_GOING_UP_UNIT_SUPPLY">
+      <Text>Мы обанкротились, хотя по-прежнему зарабатываем деньги. Сейчас наша крупнейшая статья расходов ({1_Num} [ICON_GOLD] золота за ход) - снабжение юнитов или плата за юнитов вне нашей территории. Либо верните этих юнитов в пределы наших границ, либо распустите их.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FINANCESTRATEGY_GOING_BROKE">
+      <Text>С нашими текущими расходами мы обанкротимся через пару ходов. Нам нужно срочно заняться экономикой, чтобы избежать позорного банкротства!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FINANCESTRATEGY_GOING_BROKE_BUILDING_MAINTENANCE">
+      <Text>С нашими текущими расходами мы обанкротимся через пару ходов. Сейчас наша крупнейшая статья расходов ({1_Num} [ICON_GOLD] золота за ход) - содержание построек.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FINANCESTRATEGY_GOING_BROKE_DIPLOMACY">
+      <Text>С нашими текущими расходами мы обанкротимся через пару ходов. Сейчас наша крупнейшая статья расходов ({1_Num} [ICON_GOLD] золота за ход) - дипломатические соглашения. Мы по возможности не должны продлевать эти соглашения, или нам следует заключить новые, которые будут приносить золото, а не отбирать его.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FINANCESTRATEGY_GOING_BROKE_IMPROVEMENT_MAINTENANCE">
+      <Text>С нашими текущими расходами мы обанкротимся через пару ходов. Сейчас наша крупнейшая статья расходов ({1_Num} [ICON_GOLD] золота за ход) - содержание улучшений. Следует строить меньше улучшений или убрать самые бесполезные из них.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FINANCESTRATEGY_GOING_BROKE_UNIT_MAINTENANCE">
+      <Text>С нашими текущими расходами мы обанкротимся через пару ходов. Сейчас наша крупнейшая статья расходов ({1_Num} [ICON_GOLD] золота за ход) - содержание юнитов. Избавьтесь от устаревших юнитов и тех, без которых можно обойтись, иначе банкротства не избежать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FINANCESTRATEGY_GOING_BROKE_UNIT_SUPPLY">
+      <Text>С нашими текущими расходами мы обанкротимся через пару ходов. Сейчас наша крупнейшая статья расходов ({1_Num} [ICON_GOLD] золота за ход) - снабжение юнитов (поддержание юнитов, находящихся вне наших земель). Верните всех жителей в пределы наших границ, либо распустите те юниты, без которых можно обойтись. Иначе банкротства не избежать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FINANCESTRATEGY_LOSING_MONEY">
+      <Text>У нас есть деньги, но мы тратим больше, чем зарабатываем. Нам нужно срочно заняться экономикой, чтобы избежать позорного банкротства!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FINANCESTRATEGY_LOSING_MONEY_BUILDING_MAINTENANCE">
+      <Text>У нас есть деньги, но мы тратим больше, чем зарабатываем. Сейчас наша крупнейшая статья расходов ({1_Num} [ICON_GOLD] золота за ход) - содержание построек.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FINANCESTRATEGY_LOSING_MONEY_DIPLOMACY">
+      <Text>У нас есть деньги, но мы тратим больше, чем зарабатываем. Сейчас наша крупнейшая статья расходов ({1_Num} [ICON_GOLD] золота за ход) - дипломатические соглашения. Мы по возможности не должны продлевать эти соглашения, или нам следует заключить новые, которые начнут приносить доход нашей цивилизации!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FINANCESTRATEGY_LOSING_MONEY_IMPROVEMENT_MAINTENANCE">
+      <Text>У нас есть деньги, но мы тратим больше, чем зарабатываем. Сейчас наша крупнейшая статья расходов ({1_Num} [ICON_GOLD] золота за ход) - содержание улучшений. Следовало бы строить меньше улучшений или убрать самые бесполезные из них.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FINANCESTRATEGY_LOSING_MONEY_UNIT_MAINTENANCE">
+      <Text>У нас есть деньги, но мы тратим больше, чем зарабатываем. Сейчас наша крупнейшая статья расходов ({1_Num} [ICON_GOLD] золота за ход) - содержание юнитов. Следовало бы распустить все устаревшие или ненужные отряды, чтобы мы начали зарабатывать деньги, а не терять их.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FINANCESTRATEGY_LOSING_MONEY_UNIT_SUPPLY">
+      <Text>У нас есть деньги, но мы тратим больше, чем зарабатываем. Сейчас наша крупнейшая статья расходов ({1_Num} [ICON_GOLD] золота за ход) - снабжение юнитов. Верните этих юнитов в пределы наших границ, чтобы сократить расходы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FINANCESTRATEGY_MAKING_MONEY">
+      <Text>Мы зарабатываем деньги!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FINANCESTRATEGY_MAKING_MONEY_BUILDING_MAINTENANCE">
+      <Text>Мы зарабатываем деньги! Сейчас наша крупнейшая статья расходов ({1_Num} [ICON_GOLD] золота за ход) - содержание построек.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FINANCESTRATEGY_MAKING_MONEY_DIPLOMACY">
+      <Text>Мы зарабатываем деньги! Сейчас наша крупнейшая статья расходов ({1_Num} [ICON_GOLD] золота за ход) - дипломатические соглашения. По возможности не стоит продлевать эти соглашения. Кроме того, можно заключить новые договоры, которые будут приносить доход!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FINANCESTRATEGY_MAKING_MONEY_IMPROVEMENT_MAINTENANCE">
+      <Text>Мы зарабатываем деньги! Сейчас наша крупнейшая статья расходов ({1_Num} [ICON_GOLD] золота за ход) - содержание улучшений. Улучшайте только те клетки, которые необходимы нашей державе для развития, иначе финансы могут выйти из-под контроля!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FINANCESTRATEGY_MAKING_MONEY_UNIT_MAINTENANCE">
+      <Text>Мы зарабатываем деньги! Сейчас наша крупнейшая статья расходов ({1_Num} [ICON_GOLD] золота за ход) - содержание армии. Распустите все устаревшие и ненужные отряды, если хотите увеличить свои доходы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FINANCESTRATEGY_MAKING_MONEY_UNIT_SUPPLY">
+      <Text>Мы зарабатываем деньги! Сейчас наша крупнейшая статья расходов ({1_Num} [ICON_GOLD] золота за ход) - снабжение юнитов. Верните их в пределы наших границ, чтобы сократить расходы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOAL_TUTORIAL_1_ANCIENT_RUINS">
+      <Text>Найти все древние руины: {1_Num}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOAL_TUTORIAL_1_ANCIENT_RUINS_PROGRESS">
+      <Text>Исследовать все древние руины - их всего {1_Num}. ({2_Num} исследовано, {3_Num} остается)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOAL_TUTORIAL_2_DISCOVER_NATURAL_WONDERS">
+      <Text>Обнаружить {1_Num} {1_Num: plural 1?чудо; 2?чуда; 3?чудес;} природы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOAL_TUTORIAL_2_DISCOVER_NATURAL_WONDERS_COMPLETE">
+      <Text>Найдено {1_Num} {1_Num: plural 1?чудо; 2?чуда; 3?чудес;} природы. Задание выполнено!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOAL_TUTORIAL_2_DISCOVER_NATURAL_WONDERS_PROGRESS">
+      <Text>Обнаружить {1_Num} {1_Num: plural 1?чудо; 2?чуда; 3?чудес;} природы. ({2_Num} найдено, {3_Num} остается)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOAL_TUTORIAL_2_FOUND_CITIES">
+      <Text>Заложить {1_Num} {1_Num: plural 1?город; 2?города; 3?городов;}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOAL_TUTORIAL_2_FOUND_CITIES_COMPLETE">
+      <Text>Удалось заложить {1_Num} {1_Num: plural 1?город; 2?города; 3?городов;}. Задание выполнено!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOAL_TUTORIAL_2_FOUND_CITIES_PROGRESS">
+      <Text>Заложить {1_Num} {1_Num: plural 1?город; 2?города; 3?городов;}. ({2_Num} есть, остается {3_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOAL_TUTORIAL_3_BUILD_FARMS">
+      <Text>Построить {1_Num} {1_Num: plural 1?ферму; 2?фермы; 3?ферм;}, {1_Num: plural 1?приносящую; 2?приносящие; 3?приносящих;} не менее {2_Num} [ICON_FOOD] пищи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOAL_TUTORIAL_3_BUILD_FARMS_COMPLETE">
+      <Text>Строительство {1_Num} {1_Num: plural 1?фермы; 2?ферм; 3?ферм;}, {1_Num: plural 1?которая приносит; 2?которые приносят; 3?которые приносят;} не менее {2_Num} [ICON_FOOD] пищи, завершено. Задание выполнено!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOAL_TUTORIAL_3_BUILD_FARMS_PROGRESS">
+      <Text>Построить {1_Num} {1_Num: plural 1?ферму; 2?фермы; 3?ферм;}, {1_Num: plural 1?приносящую; 2?приносящие; 3?приносящих;} не менее {2_Num} [ICON_FOOD] продовольствия. Удалось построить {3_Num} {3_Num: plural 1?ферму; 2?фермы; 3?ферм;}, {3_Num: plural 1?которая приносит; 2?которые приносят; 3?которые приносят;} {2_Num} [ICON_FOOD] пищи. Остается {4_Num}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOAL_TUTORIAL_3_BUILD_MINES">
+      <Text>Построить {1_Num} {1_Num: plural 1?рудник; 2?рудника; 3?рудников;}, {1_Num: plural 1?приносящий; 2?которые приносят; 3?которые приносят;} не менее {2_Num} [ICON_PRODUCTION] продукции.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOAL_TUTORIAL_3_BUILD_MINES_COMPLETE">
+      <Text>Удалось построить {1_Num} {1_Num: plural 1?рудник; 2?рудника; 3?рудников;}, {1_Num: plural 1?приносящий; 2?которые приносят; 3?которые приносят;} не менее {2_Num} [ICON_PRODUCTION] продукции. Задание выполнено!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOAL_TUTORIAL_3_BUILD_MINES_PROGRESS">
+      <Text>Построить {1_Num} {1_Num: plural 1?рудник; 2?рудника; 3?рудников;}, {1_Num: plural 1?приносящий; 2?которые приносят; 3?которые приносят;} не менее {2_Num} {2_Num} [ICON_PRODUCTION] продукции. Удалось построить {3_Num} {3_Num: plural 1?рудник; 2?рудника; 3?рудников;}, {3_Num: plural 1?который дает; 2?которые дают; 3?которые дают;} {2_Num} [ICON_PRODUCTION] продукции. Остается {4_Num}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOAL_TUTORIAL_3_CONNECT_ROADS">
+      <Text>Соединить со столицей дорогами {1_Num} {1_Num: plural 1?город; 2?города; 3?городов;}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOAL_TUTORIAL_3_CONNECT_ROADS_COMPLETE">
+      <Text>Удалось соединить со столицей дорогами {1_Num} {1_Num: plural 1?город; 2?города; 3?городов;}. Задание выполнено!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOAL_TUTORIAL_3_CONNECT_ROADS_PROGRESS">
+      <Text>Соединить со столицей дорогами {1_Num} {1_Num: plural 1?город; 2?города; 3?городов;}. ({2_Num} {2_Num: plural 1?соединен; 2?соединены; 3?соединены;}, остается {3_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOAL_TUTORIAL_3_IMPROVE_RESOURCES">
+      <Text>Построить улучшения на {1_Num} {1_Num: plural 1?ресурсе; 2?ресурсах; 3?ресурсах;}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOAL_TUTORIAL_3_IMPROVE_RESOURCES_COMPLETE">
+      <Text>Удалось построить улучшения на {1_Num} {1_Num: plural 1?ресурсе; 2?ресурсах; 3?ресурсах;}. Задание выполнено!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOAL_TUTORIAL_3_IMPROVE_RESOURCES_PROGRESS">
+      <Text>Построить улучшения на {1_Num} {1_Num: plural 1?ресурсе; 2?ресурсах; 3?ресурсах;}. ({2_Num} построено, остается {3_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOAL_TUTORIAL_4_CONQUER_CITY">
+      <Text>Завоевать вражеский город.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOAL_TUTORIAL_4_CONQUER_CITY_COMPLETE">
+      <Text>Завоевать вражеский город. Выполнено!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOAL_TUTORIAL_4_DESTROY_BARB_CAMPS">
+      <Text>Уничтожить {1_Num} {1_Num: plural 1?лагерь; 2?лагеря; 3?лагерей;} варваров.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOAL_TUTORIAL_4_DESTROY_BARB_CAMPS_COMPLETE">
+      <Text>Удалось уничтожить {1_Num} {1_Num: plural 1?лагерь; 2?лагеря; 3?лагерей;} варваров. Задание выполнено!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOAL_TUTORIAL_4_DESTROY_BARB_CAMPS_PROGRESS">
+      <Text>Уничтожить {1_Num} {1_Num: plural 1?лагерь; 2?лагеря; 3?лагерей;} варваров. ({2_Num} {2_Num: plural 1?уничтожен; 2?уничтожено; 3?уничтожено;}, остается {3_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOAL_TUTORIAL_5_MOST_FAVORED_CIV">
+      <Text>Стать союзником города-государства, передав ему [ICON_GOLD]золото и выполнив его просьбы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOAL_TUTORIAL_5_MOST_FAVORED_CIV_COMPLETE">
+      <Text>Стать союзником города-государства, передав ему [ICON_GOLD]золото и выполнив его просьбы. Выполнено!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOAL_TUTORIAL_5_TRADE_WITH_MAJOR">
+      <Text>Получить мрамор, купив его у великой державы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOAL_TUTORIAL_5_TRADE_WITH_MAJOR_COMPLETE">
+      <Text>Удалось получить мрамор, купив его у великой державы. Задание выполнено!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MILITARYAISTRATEGY_ALONE">
+      <Text>Мы еще не обнаружили каких-либо врагов, так что сперва нам следует продолжить поиск других цивилизаций и городов-государств.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MILITARYAISTRATEGY_AT_WAR">
+      <Text>Мы находимся в состоянии войны! Следует строить боевые подразделения и здания, чтобы добиться победы!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MILITARYAISTRATEGY_EMPIRE_DEFENSE">
+      <Text>Для защиты нашей цивилизации нам следует построить больше боевых подразделений.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MILITARYAISTRATEGY_EMPIRE_DEFENSE_CRITICAL">
+      <Text>Мы практически беззащитны! Нам следует обучить как можно больше воинов!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MILITARYAISTRATEGY_ENOUGH_MILITARY_UNITS">
+      <Text>Мы тратим большие суммы на содержание нашей армии. Следовало бы умерить рост армий.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MILITARYAISTRATEGY_ERADICATE_BARBARIANS">
+      <Text>Пришла пора уничтожить всех окрестных варваров. Создайте сильную армию и уничтожьте варварские лагеря.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MILITARYAISTRATEGY_LOSING_WARS">
+      <Text>Мы проигрываем войну! Следует немедленно начать мирные переговоры!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MILITARYAISTRATEGY_WINNING_WARS">
+      <Text>Мы выигрываем войну! Продолжайте давить врага, и мы достигнем победы!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCESTRATEGY_TRADE_LUXURIES">
+      <Text>{@1_ResourceName} у нас в изобилии, так что этот ресурс можно продать государству {@2_LongCivName}, которое, вероятно, с радостью его купит.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCESTRATEGY_TRADE_STRATEGIC">
+      <Text>У нас есть излишки [COLOR_GREEN]{@1_ResourceName[2]}[ENDCOLOR], которые мы могли бы продать, а у цивилизации {@2_LongCivName} нет этого ресурса. Продавать им этот ресурс следует с осторожностью: он позволит им создавать подразделения, которые могут быть развернуты против нас.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCIENCESTRATEGY_BANKRUPT">
+      <Text>Наши исследования страдают из-за недостатка [ICON_GOLD] золота. Не вкладывая деньги в науку, мы рискуем отстать от держав-лидеров и отправиться на свалку истории.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCIENCESTRATEGY_INFO">
+      <Text>Наша цивилизация производит {1_Num} [ICON_RESEARCH] науки при {2_Num} [ICON_CITIZEN] {2_Num: plural 1?жителе; 2?жителях; 3?жителях;}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCIENCESTRATEGY_INFO_DOING_POORLY">
+      <Text>Наша цивилизация производит {1_Num} [ICON_RESEARCH] науки при {2_Num} [ICON_CITIZEN] {2_Num: plural 1?жителе; 2?жителях; 3?жителях;}. Следует уделить внимание науке и построить научно-исследовательские учреждения, например библиотеки и университеты.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCIENCESTRATEGY_INFO_DOING_WELL">
+      <Text>Наша цивилизация производит {1_Num} [ICON_RESEARCH] науки при {2_Num} [ICON_CITIZEN] {2_Num: plural 1?жителе; 2?жителях; 3?жителях;}. Вот это да!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCIENCESTRATEGY_RESEARCH_BUILDING_IN_BIG_CITY">
+      <Text>Население города {@1_CityName} выросло, и там теперь не хватает {@2_BldgName[2]}. Строительство {@3_BldgName[2]} ускорит [ICON_RESEARCH] рост науки и приведет к существенному прогрессу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCIENCESTRATEGY_RESEARCH_MILITARY_BUILDING">
+      <Text>Технология [COLOR_GREEN]{@1_TechName}[ENDCOLOR] откроет для нас постройку {@2_BldgName[2]}. Ее создание повысит квалификацию всех юнитов, созданных в этом городе.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCIENCESTRATEGY_RESEARCH_MILITARY_UNITS">
+      <Text>Исследование [COLOR_GREEN]{@1_TechName[2]}[ENDCOLOR] откроет нам {@2_UnitName[4]}. Современная армия необходима как для обороны, так и для наступления.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCIENCESTRATEGY_TECH_THAT_PROVIDES_SCIENCE_BUILDING_1">
+      <Text>Исследование [COLOR_GREEN]{@1_TechName[2]}[ENDCOLOR] откроет для нас {@2_BldgName[4]}. Построив такие сооружения в наших городах, мы выведем нашу науку на новый уровень!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCIENCESTRATEGY_TECH_THAT_PROVIDES_SCIENCE_BUILDING_2">
+      <Text>Исследование [COLOR_GREEN]{@1_TechName[2]}[ENDCOLOR] откроет для нас {@2_BldgName[4]} и {@3_BldgName[4]}. Построив их в наших городах, мы выведем нашу науку на новый уровень!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCIENCESTRATEGY_TECH_THAT_PROVIDES_SCIENCE_BUILDING_3">
+      <Text>Исследование [COLOR_GREEN]{@1_TechName[2]}[ENDCOLOR] откроет нам {@2_BldgName[4]}, {@3_BldgName[4]} и {@4_BldgName[4]}. Это целый научный городок!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TASK_LIST">
+      <Text>*ЦЕЛИ*</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_CHOOSER_ADVISOR_RECOMMENDATION_ECONOMIC">
+      <Text>Ваш советник по экономике рекомендует изучить эту технологию.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_CHOOSER_ADVISOR_RECOMMENDATION_FOREIGN">
+      <Text>Ваш советник по внешней политике рекомендует изучить эту технологию.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_CHOOSER_ADVISOR_RECOMMENDATION_MILITARY">
+      <Text>Ваш военный советник рекомендует изучить эту технологию.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_CHOOSER_ADVISOR_RECOMMENDATION_SCIENCE">
+      <Text>Ваш научный советник рекомендует изучить эту технологию.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECHSTRATEGY_CIV_BONUS">
+      <Text>Для получения уникального бонуса {@2_Adjective: lower} цивилизации необходимо исследовать [COLOR_RED]{@1_TechName[4]}[ENDCOLOR]!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECHSTRATEGY_CIV_BONUS_BUILDING">
+      <Text>Необходимо исследовать [COLOR_RED]{@1_TechName[4]}[ENDCOLOR]. Это откроет нам {@2_BldgName[4]} - уникальное сооружение {3_Adjective: lower} державы!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECHSTRATEGY_CIV_BONUS_IMPROVEMENT">
+      <Text>Мы должны открыть {@1_TechName[4]}, чтобы иметь возможность строить {@2_BldgName[4]}, уникальное улучшение {3_Adjective:textkey} цивилизации!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECHSTRATEGY_CIV_BONUS_UNIT">
+      <Text>Для возможности создания [COLOR_RED]{@2_UnitName[2]}[ENDLOLOR], {@2: plural 1?уникального подразделения; 2?уникальных подразделений; other?уникального подразделения;} {@3_Adjective: lower} нации, необходимо исследовать [COLOR_GREEN]{@1_TechName[4]}[ENDCOLOR]!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECHSTRATEGY_RESOURCE">
+      <Text>Необходимо исследовать [COLOR_RED]{@1_TechName[4]}[ENDCOLOR] для улучшения ресурса [COLOR_GREEN]{@2_ResourceName: lower}[ENDCOLOR] на нашей территории.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL_1_COMPLETE">
+      <Text>Вы прошли раздел обучения "Перемещение и исследование". Отлично!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL_2_COMPLETE">
+      <Text>Вы прошли раздел обучения "Основание городов". Отлично!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL_3_COMPLETE">
+      <Text>Вы прошли раздел обучения "Развитие городов". Отлично!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL_4_COMPLETE">
+      <Text>Вы прошли раздел обучения "Война и завоевания". Отлично!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL_5_COMPLETE">
+      <Text>Вы прошли базовый раздел обучения "Дипломатия". Отлично!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL0">
+      <Text>Обучение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL0_DESC">
+      <Text>Впервые играете в "Civilization"? Не знаете, с чего начать? Опасаетесь, что варвары разрушат вашу цивилизацию еще до того, как она сделает первые шаги? Позвольте советникам объяснить вам основы игры! В ходе обучения вы узнаете обо всех основных аспектах игры.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL0_TITLE_ONLY">
+      <Text>Обучение в игре</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL1">
+      <Text>Урок 1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL1_DESC">
+      <Text>Исследование территории - это путешествие по миру в поисках источников ресурсов или информации. Исследование мира достигло апогея во время эпохи Великих географических открытий, когда вся Европа устремилась на поиски новых земель и путей. Сегодня развитие науки и техники позволяет нам расширить границы исследований и выйти в космос.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL1_TITLE">
+      <Text>Перемещение и исследование</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL1_TITLE_ONLY">
+      <Text>Перемещение и исследование</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL2">
+      <Text>Урок 2</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL2_DESC">
+      <Text>Сердцем любой цивилизации являются города и городское население. Для увеличения влияния, богатства и мощи вашей империи необходимо создавать новые города - это основной принцип игры. Не каждое место подойдет для города. Если город основан в неудачном месте, это может серьезно затормозить его развитие.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL2_TITLE">
+      <Text>Основание городов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL2_TITLE_ONLY">
+      <Text>Основание городов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL3">
+      <Text>Урок 3</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL3_DESC">
+      <Text>Чтобы производство увеличивалось, города должны развиваться и расти. Для этого необходимо улучшать города и их окрестности с помощью рабочих. Чтобы не отставать от других держав и чтобы увеличить доход с клеток, улучшения просто необходимы. Как показывает история, города, развитие которых остановилось, быстро приходят в упадок и становятся легкой добычей для захватчиков.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL3_TITLE">
+      <Text>Развитие городов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL3_TITLE_ONLY">
+      <Text>Развитие городов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL4">
+      <Text>Урок 4</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL4_DESC">
+      <Text>Наступит время, когда кто-нибудь захочет отнять у вас земли любой ценой. Учебники истории полны рассказами о войнах и сражениях. Цивилизации, которые не могут защититься от врагов, нередко исчезают без следа. Даже если вы не собираетесь ни на кого нападать, знание основ ведения войны необходимо, чтобы спасти ваше государство от внешних угроз.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL4_TITLE">
+      <Text>Война и завоевания</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL4_TITLE_ONLY">
+      <Text>Война и завоевания</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL5">
+      <Text>Урок 5</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL5_DESC">
+      <Text>Дипломатия, торговля, союзы и соглашения - все это цивилизованные отношения с соседями. Умело проведенные переговоры порой могут предотвратить долгую и кровопролитную войну. Великие политики, как правило, были мастерами дипломатии: удачное слово может оказаться сильнее, чем тысячи мечей.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL5_TITLE">
+      <Text>Основы дипломатии</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TUTORIAL5_TITLE_ONLY">
+      <Text>Основы дипломатии</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

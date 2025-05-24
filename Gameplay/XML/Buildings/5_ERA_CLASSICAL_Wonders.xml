@@ -1,0 +1,1082 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited kmsk | 01.02.2024 -->
+<GameData>
+
+    <Buildings>
+
+        <!-- ###### -->
+        <!-- Оптика -->
+        <!-- ####### -->
+
+        <!-- Фаросский маяк -->
+        <Row>
+            <Type>BUILDING_GREAT_LIGHTHOUSE</Type>
+            <BuildingClass>BUILDINGCLASS_GREAT_LIGHTHOUSE</BuildingClass>
+            <Cost>400</Cost>
+            <PrereqTech>TECH_OPTICS</PrereqTech>
+            <Help>TXT_KEY_WONDER_GREAT_LIGHTHOUSE_HELP</Help>
+            <Description>TXT_KEY_BUILDING_GREAT_LIGHTHOUSE</Description>
+            <Civilopedia>TXT_KEY_WONDER_GREATLIGHTHOUSE_DESC</Civilopedia>
+            <Quote>TXT_KEY_WONDER_GREATLIGHTHOUSE_QUOTE</Quote>
+            <ArtDefineTag>GREAT LIGHTHOUSE</ArtDefineTag>
+            <MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
+            <FreePromotion>PROMOTION_GREAT_LIGHTHOUSE</FreePromotion>
+            <Water>true</Water>
+            <SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+            <GreatPeopleRateChange>1</GreatPeopleRateChange>
+            <NukeImmune>true</NukeImmune>
+            <HurryCostModifier>-1</HurryCostModifier>
+            <MinAreaSize>10</MinAreaSize>
+            <ConquestProb>100</ConquestProb>
+            <FreeBuildingThisCity>BUILDINGCLASS_LIGHTHOUSE</FreeBuildingThisCity>
+            <DisplayPosition>8</DisplayPosition>
+            <IconAtlas>BW_ATLAS_2</IconAtlas>
+            <PortraitIndex>5</PortraitIndex>
+            <WonderSplashImage>WonderConceptGreatLighthouse.dds</WonderSplashImage>
+            <WonderSplashAudio>AS2D_WONDER_SPEECH_THE_GREAT_LIGHTHOUSE_01</WonderSplashAudio>
+        </Row>
+
+        <!-- ############ -->
+        <!-- Письменность -->
+        <!-- ############ -->
+
+        <!-- Александрийская библиотека -->
+        <Row>
+			<Type>BUILDING_GREAT_LIBRARY</Type>
+			<BuildingClass>BUILDINGCLASS_GREAT_LIBRARY</BuildingClass>
+			<Cost>250</Cost>
+			<PrereqTech>TECH_ALPHABET</PrereqTech>
+			<Help>TXT_KEY_WONDER_GREAT_LIBRARY_HELP</Help>
+			<ThemingBonusHelp>TXT_KEY_GREAT_LIBRARY_THEMING_BONUS_HELP</ThemingBonusHelp>
+			<Description>TXT_KEY_BUILDING_GREAT_LIBRARY</Description>
+			<Civilopedia>TXT_KEY_WONDER_GREATLIBRARY_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_GREATLIBRARY_QUOTE</Quote>
+			<ArtDefineTag>THE GREAT LIBRARY</ArtDefineTag>
+			<MaxStartEra>ERA_CLASSICAL</MaxStartEra>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<FreeTechs>1</FreeTechs>
+			<FreeBuildingThisCity>BUILDINGCLASS_LIBRARY</FreeBuildingThisCity>
+			<DisplayPosition>1</DisplayPosition>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_LITERATURE</GreatWorkSlotType>
+			<GreatWorkCount>2</GreatWorkCount>
+			<IconAtlas>BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<WonderSplashImage>WonderConceptGreatLibrary.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_THE_GREAT_LIBRARY_02</WonderSplashAudio>
+		</Row>
+
+        <!-- ############## -->
+        <!-- Верховая пизда -->
+        <!-- ############## -->
+
+        <!-- Большой цирк -->
+        <Row>
+			<Type>BUILDING_CIRCUS_MAXIMUS</Type>
+			<BuildingClass>BUILDINGCLASS_CIRCUS_MAXIMUS</BuildingClass>
+			<Cost>120</Cost>
+			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+			<Help>TXT_KEY_BUILDING_CIRCUS_MAXIMUS_HELP</Help>
+			<Description>TXT_KEY_BUILDING_CIRCUS_MAXIMUS</Description>
+			<Civilopedia>TXT_KEY_BUILDING_CIRCUS_MAXIMUS_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_CIRCUS_MAXIMUS_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_CIRCUS_MAXIMUS</ArtDefineTag>
+			<UnmoddedHappiness>10</UnmoddedHappiness>
+			<NukeImmune>true</NukeImmune>
+			<NumCityCostMod>30</NumCityCostMod>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>NEW_BLDG_ATLAS_DLC</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+
+        <!-- ########## -->
+        <!-- Математика -->
+        <!-- ########## -->
+
+        <!-- Висячие сады -->
+        <Row>
+			<Type>BUILDING_HANGING_GARDEN</Type>
+			<BuildingClass>BUILDINGCLASS_HANGING_GARDEN</BuildingClass>
+			<Cost>400</Cost>
+			<PrereqTech>TECH_GARDENING</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_TRADITION</PolicyBranchType>
+			<Help>TXT_KEY_WONDER_HANGING_GARDEN_HELP</Help>
+			<Description>TXT_KEY_BUILDING_HANGING_GARDEN</Description>
+			<Civilopedia>TXT_KEY_WONDER_HANGINGGARDENS_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_HANGINGGARDENS_QUOTE</Quote>
+			<ArtDefineTag>THE HANGING GARDENS</ArtDefineTag>
+			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<FreeBuildingThisCity>BUILDINGCLASS_GARDEN</FreeBuildingThisCity>
+			<DisplayPosition>2</DisplayPosition>
+			<IconAtlas>BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+			<WonderSplashImage>WonderConceptHangingGardens.dds</WonderSplashImage>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_THE_HANGING_GARDENS_01</WonderSplashAudio>
+		</Row>
+
+
+        <!-- ############### -->
+        <!-- Инженерное дело -->
+        <!-- ############### -->
+
+        <!-- Галикарнасский мавзалей -->
+        <Row>
+			<Type>BUILDING_MAUSOLEUM_HALICARNASSUS</Type>
+			<BuildingClass>BUILDINGCLASS_MAUSOLEUM_HALICARNASSUS</BuildingClass>
+			<Cost>250</Cost>
+			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<Help>TXT_KEY_WONDER_MAUSOLEUM_HALICARNASSUS_HELP</Help>
+			<Description>TXT_KEY_BUILDING_MAUSOLEUM_HALICARNASSUS</Description>
+			<Civilopedia>TXT_KEY_WONDER_MAUSOLEUM_HALICARNASSUS_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_MAUSOLEUM_HALICARNASSUS_QUOTE</Quote>
+			<ArtDefineTag>MAUSOLEUM HALICARNASSUS</ArtDefineTag>
+			<MaxStartEra>ERA_CLASSICAL</MaxStartEra>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<GreatPersonExpendGold>100</GreatPersonExpendGold>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<DisplayPosition>4</DisplayPosition>
+			<IconAtlas>WONDERS_DLC_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<WonderSplashImage>WonderMosuleumHalicarnassus.dds</WonderSplashImage>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_MAUSOLEUM_OF_HALICARNASSUS</WonderSplashAudio>
+		</Row>
+
+        <!-- Великая стена -->
+        <Row>
+			<Type>BUILDING_GREAT_WALL</Type>
+			<BuildingClass>BUILDINGCLASS_GREAT_WALL</BuildingClass>
+			<Cost>500</Cost>
+			<PrereqTech>TECH_CERAMIC_BRICK</PrereqTech>
+			<Help>TXT_KEY_WONDER_GREAT_WALL_HELP</Help>
+			<Description>TXT_KEY_BUILDING_GREAT_WALL</Description>
+			<Civilopedia>TXT_KEY_WONDER_GREATWALL_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_GREATWALL_QUOTE</Quote>
+			<ArtDefineTag>ART_DEF_BUILDING_GREAT_WALL</ArtDefineTag>
+			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
+			<ObsoleteTech>TECH_DYNAMITE</ObsoleteTech>
+			<BorderObstacle>true</BorderObstacle>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<FreeBuildingThisCity>BUILDINGCLASS_CITYWALL</FreeBuildingThisCity>
+			<DisplayPosition>2</DisplayPosition>
+			<IconAtlas>BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
+			<WonderSplashImage>WonderConceptGreatWall.dds</WonderSplashImage>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_THE_GREAT_WALL</WonderSplashAudio>
+		</Row>
+
+        <!-- ################ -->
+        <!-- Обработка железа -->
+        <!-- ################ -->
+
+        <!-- Героический эпос -->
+        <Row>
+			<Type>BUILDING_HEROIC_EPIC</Type>
+			<BuildingClass>BUILDINGCLASS_HEROIC_EPIC</BuildingClass>
+			<Cost>120</Cost>
+			<PrereqTech>TECH_LAMINAR_ARMOR</PrereqTech>
+			<Help>TXT_KEY_BUILDING_HEROIC_EPIC_HELP</Help>
+			<Description>TXT_KEY_BUILDING_HEROIC_EPIC</Description>
+			<Civilopedia>TXT_KEY_BUILDING_HEROIC_EPIC_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_HEROIC_EPIC_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_HEROIC_EPIC</ArtDefineTag>
+			<TrainedFreePromotion>PROMOTION_MORALE</TrainedFreePromotion>
+			<NukeImmune>true</NukeImmune>
+			<NumCityCostMod>30</NumCityCostMod>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_LITERATURE</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>31</PortraitIndex>
+		</Row>
+
+        <!-- Терракотовая армия -->
+        <Replace>
+			<Type>BUILDING_TERRACOTTA_ARMY</Type>
+			<BuildingClass>BUILDINGCLASS_TERRACOTTA_ARMY</BuildingClass>
+			<Cost>200</Cost>
+			<PrereqTech>TECH_LAMINAR_ARMOR</PrereqTech>
+			<Help>TXT_KEY_WONDER_TERRA_COTTA_ARMY_HELP</Help>
+			<Description>TXT_KEY_BUILDING_TERRACOTTA_ARMY</Description>
+			<Civilopedia>TXT_KEY_WONDER_TERRACOTTA_ARMY_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_TERRACOTTA_ARMY_QUOTE</Quote>
+			<ArtDefineTag>TERRACOTTA ARMY</ArtDefineTag>
+			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
+            <TrainedFreePromotion>PROMOTION_SHOCK_1</TrainedFreePromotion>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<InstantMilitaryIncrease>1</InstantMilitaryIncrease>
+			<DisplayPosition>2</DisplayPosition>
+			<IconAtlas>EXPANSION_BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
+			<WonderSplashImage>WonderConceptTerracottaArmy.dds</WonderSplashImage>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_TERRACOTTA_ARMY</WonderSplashAudio>
+		</Replace>
+
+        <!-- Храм Зевса -->
+        <Row>
+			<Type>BUILDING_STATUE_ZEUS</Type>
+			<BuildingClass>BUILDINGCLASS_STATUE_ZEUS</BuildingClass>
+			<Cost>250</Cost>
+			<PrereqTech>TECH_LAMINAR_ARMOR</PrereqTech>
+            <PolicyBranchType>POLICY_BRANCH_HONOR</PolicyBranchType>
+			<Help>TXT_KEY_WONDER_STATUE_ZEUS_HELP</Help>
+			<Description>TXT_KEY_BUILDING_STATUE_ZEUS</Description>
+			<Civilopedia>TXT_KEY_WONDER_STATUE_ZEUS_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_STATUE_ZEUS_QUOTE</Quote>
+            <UnmoddedHappiness>5</UnmoddedHappiness>
+			<ArtDefineTag>STATUE ZEUS</ArtDefineTag>
+			<MaxStartEra>ERA_CLASSICAL</MaxStartEra>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<FreePromotion>PROMOTION_STATUE_ZEUS</FreePromotion>
+			<DisplayPosition>4</DisplayPosition>
+			<IconAtlas>WONDERS_DLC_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<WonderSplashImage>WonderConceptTempleZues.dds</WonderSplashImage>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_STATUE_OF_ZEUS</WonderSplashAudio>
+		</Row>
+
+        <!-- ######### -->
+        <!-- Философия -->
+        <!-- ######### -->
+
+        <!-- Нац. колледж -->
+        <Row>
+			<Type>BUILDING_NATIONAL_COLLEGE</Type>
+			<BuildingClass>BUILDINGCLASS_NATIONAL_COLLEGE</BuildingClass>
+			<Cost>120</Cost>
+			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_NATIONAL_COLLEGE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_NATIONAL_COLLEGE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_NATIONAL_COLLEGE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_NATIONAL_COLLEGE_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_COLLEGE</ArtDefineTag>
+			<NukeImmune>true</NukeImmune>
+			<NumCityCostMod>30</NumCityCostMod>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>46</PortraitIndex>
+		</Row>
+
+        <!-- Национальная святыня -->
+        <Row>
+			<Type>BUILDING_NATIONAL_SHRINE</Type>
+			<BuildingClass>BUILDINGCLASS_NATIONAL_SHRINE</BuildingClass>
+			<Cost>120</Cost>
+			<PrereqTech>TECH_CLERGY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_NATIONAL_SHRINE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_NATIONAL_SHRINE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_NATIONAL_SHRINE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_NATIONAL_SHRINE_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_SHRINE</ArtDefineTag>
+			<NukeImmune>true</NukeImmune>
+			<NumCityCostMod>30</NumCityCostMod>
+			<ReligiousPressureModifier>50</ReligiousPressureModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>NEW_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>20</PortraitIndex>
+		</Row>
+
+        <!-- Оракул -->
+        <Row>
+			<Type>BUILDING_ORACLE</Type>
+			<BuildingClass>BUILDINGCLASS_ORACLE</BuildingClass>
+			<Cost>400</Cost>
+			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<Help>TXT_KEY_WONDER_ORACLE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_ORACLE</Description>
+			<Civilopedia>TXT_KEY_WONDER_ORACLE_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_ORACLE_QUOTE</Quote>
+			<ArtDefineTag>THE ORACLE</ArtDefineTag>
+			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<FreePolicies>1</FreePolicies>
+			<DisplayPosition>4</DisplayPosition>
+			<IconAtlas>BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
+			<WonderSplashImage>WonderConceptOracle.dds</WonderSplashImage>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_THE_ORACLE_01</WonderSplashAudio>
+		</Row>
+
+        <!-- ############## -->
+        <!-- Драма и поэзия -->
+        <!-- ############## -->
+
+        <!-- Гильдия писателей -->
+        <Row>
+			<Type>BUILDING_WRITERS_GUILD</Type>
+			<BuildingClass>BUILDINGCLASS_WRITERS_GUILD</BuildingClass>
+			<Cost>100</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_DRAMA</PrereqTech>
+			<Description>TXT_KEY_BUILDING_WRITERS_GUILD</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_WRITERS_GUILD_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_WRITERS_GUILD_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_WRITERS_GUILD_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_WRITERS_GUILD</ArtDefineTag>
+			<SpecialistType>SPECIALIST_WRITER</SpecialistType>
+			<SpecialistCount>2</SpecialistCount>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<IconAtlas>EXPANSION2_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
+		</Row>
+
+        <!-- Национальный эпос -->
+        <Row>
+			<Type>BUILDING_NATIONAL_EPIC</Type>
+			<BuildingClass>BUILDINGCLASS_NATIONAL_EPIC</BuildingClass>
+			<Cost>120</Cost>
+			<PrereqTech>TECH_DRAMA</PrereqTech>
+			<Help>TXT_KEY_BUILDING_NATIONAL_EPIC_HELP</Help>
+			<Description>TXT_KEY_BUILDING_NATIONAL_EPIC</Description>
+			<Civilopedia>TXT_KEY_BUILDING_NATIONAL_EPIC_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_NATIONAL_EPIC_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_EPIC</ArtDefineTag>
+			<GreatPeopleRateModifier>25</GreatPeopleRateModifier>
+			<NukeImmune>true</NukeImmune>
+			<NumCityCostMod>30</NumCityCostMod>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_LITERATURE</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>32</PortraitIndex>
+		</Row>
+
+        <!-- Парфенон -->
+        <Row>
+			<Type>BUILDING_PARTHENON</Type>
+			<BuildingClass>BUILDINGCLASS_PARTHENON</BuildingClass>
+			<Cost>400</Cost>
+			<PrereqTech>TECH_DRAMA</PrereqTech>
+			<Description>TXT_KEY_BUILDING_PARTHENON</Description>
+			<Quote>TXT_KEY_BUILDING_PARTHENON_QUOTE</Quote>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_PARTHENON_TEXT</Civilopedia>
+			<Help>TXT_KEY_WONDER_PARTHENON_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_PARTHENON</ArtDefineTag>
+			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<DisplayPosition>2</DisplayPosition>
+			<ConquestProb>100</ConquestProb>
+			<FreeBuildingThisCity>BUILDINGCLASS_SHRINE</FreeBuildingThisCity>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_ART_ARTIFACT</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+			<FreeGreatWork>GREAT_WORK_PARTHENON_FRIEZE</FreeGreatWork>
+			<IconAtlas>EXPANSION2_WONDER_ATLAS</IconAtlas>
+			<PortraitIndex>10</PortraitIndex>
+			<WonderSplashImage>WonderConceptParthenon.dds</WonderSplashImage>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_PARTHENON</WonderSplashAudio>
+		</Row>
+
+        <!-- ###### -->
+        <!-- Деньги -->
+        <!-- ###### -->
+
+        <!-- Колосс -->
+        <Row>
+			<Type>BUILDING_COLOSSUS</Type>
+			<BuildingClass>BUILDINGCLASS_COLOSSUS</BuildingClass>
+			<Cost>400</Cost>
+			<PrereqTech>TECH_CURRENCY</PrereqTech>
+			<Help>TXT_KEY_WONDER_COLOSSUS_HELP</Help>
+			<Description>TXT_KEY_BUILDING_COLOSSUS</Description>
+			<Civilopedia>TXT_KEY_WONDER_COLOSSUS_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_COLOSSUS_QUOTE</Quote>
+			<ArtDefineTag>THE COLOSSUS</ArtDefineTag>
+			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
+			<Water>true</Water>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>10</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<DisplayPosition>8</DisplayPosition>
+			<TradeRouteRecipientBonus>2</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>1</TradeRouteTargetBonus>
+			<NumTradeRouteBonus>1</NumTradeRouteBonus>
+			<IconAtlas>BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+			<WonderSplashImage>WonderConceptColossus.dds</WonderSplashImage>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_THE_COLOSSUS</WonderSplashAudio>
+		</Row>
+
+
+
+
+
+
+        <!-- ################### -->
+        <!-- Национальные чудеса -->
+        <!-- ################### -->
+
+
+
+
+
+
+
+
+
+
+
+        <!-- #################### -->
+        <!-- ### Чудеса Света ### -->
+        <!-- #################### -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Колизей -->
+        <!-- <Row>
+			<Type>BUILDING_BIGARENA</Type>
+			<BuildingClass>BUILDINGCLASS_BIGARENA</BuildingClass>
+			<Cost>400</Cost>
+			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+			<Help>TXT_KEY_WONDER_BIGARENA_HELP</Help>
+			<Description>TXT_KEY_BUILDING_BIGARENA</Description>
+			<Civilopedia>TXT_KEY_WONDER_BIGARENA_DESC</Civilopedia>
+            <UnmoddedHappiness>5</UnmoddedHappiness>
+			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>10</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<DisplayPosition>8</DisplayPosition>
+            <IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>23</PortraitIndex>
+		</Row> -->
+
+    </Buildings>
+
+    <!-- Производит -->
+    <Building_YieldChanges>
+
+        <Row>
+			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+        <Row>
+			<BuildingType>BUILDING_MAUSOLEUM_HALICARNASSUS</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_MAUSOLEUM_HALICARNASSUS</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+
+        <Row>
+			<BuildingType>BUILDING_STATUE_ZEUS</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_STATUE_ZEUS</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+
+
+        <Row>
+			<BuildingType>BUILDING_GREAT_LIGHTHOUSE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CIRCUS_MAXIMUS</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+        <Row>
+			<BuildingType>BUILDING_HANGING_GARDEN</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>6</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_HANGING_GARDEN</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+        <Delete BuildingType="BUILDING_TERRACOTTA_ARMY"/>
+        <Row>
+			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_COLLEGE</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_COLLEGE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_ORACLE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_EPIC</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+
+        <Row>
+			<BuildingType>BUILDING_PARTHENON</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>6</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_PARTHENON</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>6</Yield>
+		</Row>
+
+        <Row>
+			<BuildingType>BUILDING_GREAT_WALL</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_HEROIC_EPIC</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_COLOSSUS</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_COLOSSUS</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+    </Building_YieldChanges>
+
+    <!-- Увеличивает в процентах -->
+    <Building_YieldModifiers>
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_COLLEGE</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>50</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_COLOSSUS</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+    </Building_YieldModifiers>
+
+    <!-- Улучшает другое здание -->
+    <Building_BuildingClassYieldChanges>
+        <Row>
+			<BuildingType>BUILDING_HANGING_GARDEN</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_GARDEN</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_PARTHENON</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+    </Building_BuildingClassYieldChanges>
+
+
+
+    <!-- Улучшает клетки с ресурсами -->
+    <Building_ResourceYieldChanges>
+
+        <Row>
+			<BuildingType>BUILDING_MAUSOLEUM_HALICARNASSUS</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MAUSOLEUM_HALICARNASSUS</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+    </Building_ResourceYieldChanges>
+
+    <!-- Может быть построенно только с этим ресурсом -->
+    <Building_LocalResourceOrs>
+
+    </Building_LocalResourceOrs>
+
+    <!-- Улучшает клетки с растительностью -->
+    <Building_FeatureYieldChanges>
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+    </Building_FeatureYieldChanges>
+
+
+
+
+    <!-- Клетки с океаном -->
+    <Building_SeaPlotYieldChanges>
+
+    </Building_SeaPlotYieldChanges>
+
+    <!-- Морские клетки с ресурсами -->
+    <Building_SeaResourceYieldChanges>
+
+    </Building_SeaResourceYieldChanges>
+
+    <!-- Общие модификаторы -->
+    <Building_GlobalYieldModifiers>
+
+	</Building_GlobalYieldModifiers>
+
+    <!-- Производит от каждого жителя города в процентах -->
+    <Building_YieldChangesPerPop>
+
+    </Building_YieldChangesPerPop>
+
+    <!-- Увеличивает скорость постройки юнитов -->
+    <Building_UnitCombatProductionModifiers>
+
+	</Building_UnitCombatProductionModifiers>
+
+    <!-- Хлявные юниты -->
+    <Building_FreeUnits>
+        <Row>
+			<BuildingType>BUILDING_HANGING_GARDEN</BuildingType>
+			<UnitType>UNIT_SETTLER</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+
+        <Row>
+			<BuildingType>BUILDING_COLOSSUS</BuildingType>
+			<UnitType>UNIT_CARGO_SHIP</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+    </Building_FreeUnits>
+
+    <!-- Опыт юнитам -->
+    <Building_DomainFreeExperiences>
+
+        <Row>
+			<BuildingType>BUILDING_STATUE_ZEUS</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>15</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STATUE_ZEUS</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Experience>15</Experience>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_STATUE_ZEUS</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Experience>15</Experience>
+		</Row>
+
+    </Building_DomainFreeExperiences>
+
+    <!-- Ячейки шедевров -->
+    <Building_ThemingBonuses>
+        <Row>
+			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
+			<Description>TXT_KEY_THEMING_BONUS_GREAT_LIBRARY</Description>
+			<Bonus>2</Bonus>
+			<UniqueEras>true</UniqueEras>
+			<RequiresUniquePlayers>true</RequiresUniquePlayers>
+			<AIPriority>2</AIPriority>
+		</Row>
+    </Building_ThemingBonuses>
+
+    <!-- Для постройки нужно здание -->
+    <Building_ClassesNeededInCity>
+        <Row>
+			<BuildingType>BUILDING_CIRCUS_MAXIMUS</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_COLOSSEUM</BuildingClassType>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_COLLEGE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_EPIC</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_HEROIC_EPIC</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+    </Building_ClassesNeededInCity>
+
+    <!-- Сколько зданий нужно для постройки -->
+    <Building_PrereqBuildingClasses>
+        <Row>
+			<BuildingType>BUILDING_CIRCUS_MAXIMUS</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_COLOSSEUM</BuildingClassType>
+			<NumBuildingNeeded>2</NumBuildingNeeded>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_COLLEGE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+			<NumBuildingNeeded>2</NumBuildingNeeded>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<NumBuildingNeeded>2</NumBuildingNeeded>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_EPIC</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<NumBuildingNeeded>2</NumBuildingNeeded>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_HEROIC_EPIC</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<NumBuildingNeeded>2</NumBuildingNeeded>
+		</Row>
+    </Building_PrereqBuildingClasses>
+
+
+    <!-- Для ботов похоже... -->
+    <Building_Flavors>
+
+        <Row>
+			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>75</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+
+        <Row>
+			<BuildingType>BUILDING_MAUSOLEUM_HALICARNASSUS</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+        <Row>
+            <BuildingType>BUILDING_MAUSOLEUM_HALICARNASSUS</BuildingType>
+            <FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+            <Flavor>10</Flavor>
+        </Row>
+        <Row>
+			<BuildingType>BUILDING_MAUSOLEUM_HALICARNASSUS</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+
+
+
+        <Row>
+			<BuildingType>BUILDING_GREAT_LIGHTHOUSE</BuildingType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIGHTHOUSE</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIGHTHOUSE</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CIRCUS_MAXIMUS</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CIRCUS_MAXIMUS</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+
+        <Row>
+			<BuildingType>BUILDING_HANGING_GARDEN</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HANGING_GARDEN</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HANGING_GARDEN</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+        <Delete BuildingType="BUILDING_TERRACOTTA_ARMY"/>
+        <Row>
+			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>75</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>75</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_COLLEGE</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_COLLEGE</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_ORACLE</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ORACLE</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ORACLE</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_EPIC</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_EPIC</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_PARTHENON</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>75</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PARTHENON</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PARTHENON</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_WRITERS_GUILD</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>90</Flavor>
+		</Row>
+
+        <Row>
+			<BuildingType>BUILDING_GREAT_WALL</BuildingType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_WALL</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_WALL</BuildingType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_WALL</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_HEROIC_EPIC</BuildingType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HEROIC_EPIC</BuildingType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HEROIC_EPIC</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HEROIC_EPIC</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HEROIC_EPIC</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_COLOSSUS</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COLOSSUS</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COLOSSUS</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_STATUE_ZEUS</BuildingType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STATUE_ZEUS</BuildingType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+        <Row>
+            <BuildingType>BUILDING_STATUE_ZEUS</BuildingType>
+            <FlavorType>FLAVOR_WONDER</FlavorType>
+            <Flavor>20</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_STATUE_ZEUS</BuildingType>
+            <FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+            <Flavor>10</Flavor>
+        </Row>
+
+
+    </Building_Flavors>
+
+
+
+
+
+</GameData>

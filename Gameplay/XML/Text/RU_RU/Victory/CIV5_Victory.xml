@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_CIV5_VICTORY_ALTCONQUEST_TEXT">
+      <Text>Мир сотрясался в агонии войны... великие и могущественные цивилизации пали, но ваша сохранилась - и вышла победительницей! Мир еще долго будет помнить ваш славный триумф!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_VICTORY_ALTCONQUEST_TITLE">
+      <Text>Победа завоеванием</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_VICTORY_CONQUEST_TEXT">
+      <Text>Вы одержали победу в ходе завоеваний. Вы одолели всех противников на поле битвы! Вы обращали в бегство целые армии и брали штурмом города! Ваш народ сложит легенды о вашей славной победе!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_VICTORY_CONQUEST_TITLE">
+      <Text>Военная победа</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_VICTORY_CULTURE_TEXT">
+      <Text>Вы одержали победу благодаря неотразимой силе культуры. Пышные монументы и гений творческой мысли возвеличили вашу цивилизацию в глазах всего мира. О вас будут слагать стихи, пока сила красоты способна исцелить измученное сердце.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_VICTORY_CULTURE_TITLE">
+      <Text>Культурная победа</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_VICTORY_DEMO_BULLET_TEXT">
+      <Text>[ICON_BULLET]Сыграйте в полную версию Civilization V - откройте все возможности игры![NEWLINE][NEWLINE][ICON_BULLET]Управляйте одной из 18 цивилизаций от возникновения первого государства до выхода в космос.[NEWLINE][NEWLINE][ICON_BULLET]Загружайте эксклюзивные материалы и модификации и состязайтесь с игроками со всего мира.[NEWLINE][NEWLINE][ICON_BULLET]Узнайте, насколько прочна ваша держава! </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_VICTORY_DEMO_TEXT">
+      <Text>Ваша могущественная цивилизация стремительно развивается, но ваше время истекло. Впрочем, жители вашей державы не отчаиваются, они знают: однажды вы вернетесь и приведете свой народ к победе! </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_VICTORY_DIPLOMATIC_TEXT">
+      <Text>Вы одержали победу над всеми врагами благодаря искусной дипломатии! Ваша мудрость и прозорливость привлекала верных союзников и стравливала между собой врагов! Вас навеки запомнят как правителя, подарившего миру - мир.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_VICTORY_DIPLOMATIC_TITLE">
+      <Text>Дипломатическая победа</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_VICTORY_LOSS_TEXT">
+      <Text>Вы потерпели поражение. Ваша цивилизация не устояла под вражеским натиском. Однако ваш народ не погрузился в отчаянье: он верит, что однажды вы вернетесь и приведете его к победе!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_VICTORY_LOSS_TITLE">
+      <Text>Поражение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_VICTORY_SCIENCE_TEXT">
+      <Text>Вы достигли победы благодаря достижениям науки! Вы постигли и подчинили себе тайны природы и привели свой народ в дивный новый мир! Ваш триумф будут помнить, пока на небе сияют звезды!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_VICTORY_SCIENCE_TITLE">
+      <Text>Научная победа</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EXTENDED_GAME_DEMO">
+      <Text>КУПИТЬ ПОЛНУЮ ВЕРСИЮ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EXTENDED_GAME_YES">
+      <Text>Подождите! Еще... ход...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GO_BEYOND_EARTH">
+      <Text>BEYOND EARTH</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

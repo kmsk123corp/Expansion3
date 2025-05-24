@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Michael Curran (Firaxis Games) -->
+<Script2DFile>
+  <Script2DSounds>
+    <!--
+			Dawn Of Man Speech
+		-->
+    <Script2DSound>
+      <ScriptID>AS2D_DOM_SPEECH_KOREA</ScriptID>
+      <SoundID>SND_DOM_SPEECH_KOREA</SoundID>
+      <SoundType>GAME_SPEECH</SoundType>
+      <iMaxVolume>80</iMaxVolume>
+      <iMinVolume>80</iMinVolume>
+    </Script2DSound>
+  </Script2DSounds>
+</Script2DFile>

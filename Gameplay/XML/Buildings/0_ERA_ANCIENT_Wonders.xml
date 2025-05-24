@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited kmsk | 01.02.2024 -->
+<GameData>
+
+    <Buildings>
+
+        <!-- ######### -->
+        <!-- Календарь -->
+        <!-- ######### -->
+
+        <!-- Большой сфинкс -->
+        <Row>
+			<Type>BUILDING_GREAT_SPHINX</Type>
+			<BuildingClass>BUILDINGCLASS_GREAT_SPHINX</BuildingClass>
+			<Cost>250</Cost>
+			<PrereqTech>TECH_DRY_MASONRY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_GREAT_SPHINX_HELP</Help>
+			<Description>TXT_KEY_BUILDINGS_GREAT_SPHINX</Description>
+			<Civilopedia>TXT_KEY_BUILDINGS_GREAT_SPHINX_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_BUILDING_GREAT_SPHINX</ArtDefineTag>
+			<MaxStartEra>ERA_CLASSICAL</MaxStartEra>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>Building_IconAtlas</IconAtlas>
+			<PortraitIndex>10</PortraitIndex>
+		</Row>
+
+
+        <!-- Храм Артемиды -->
+        <Row>
+			<Type>BUILDING_TEMPLE_ARTEMIS</Type>
+			<BuildingClass>BUILDINGCLASS_TEMPLE_ARTEMIS</BuildingClass>
+			<Cost>400</Cost>
+			<PrereqTech>TECH_ALPHABET</PrereqTech>
+			<Help>TXT_KEY_WONDER_TEMPLE_ARTEMIS_HELP</Help>
+			<Description>TXT_KEY_BUILDING_TEMPLE_ARTEMIS</Description>
+			<Civilopedia>TXT_KEY_WONDER_TEMPLE_ARTEMIS_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_TEMPLE_ARTEMIS_QUOTE</Quote>
+			<ArtDefineTag>TEMPLE ARTEMIS</ArtDefineTag>
+			<MaxStartEra>ERA_CLASSICAL</MaxStartEra>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+            <NearbyTerrainRequired>TERRAIN_GRASS</NearbyTerrainRequired>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<DisplayPosition>4</DisplayPosition>
+			<IconAtlas>WONDERS_DLC_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashImage>WonderTempleArtemis.dds</WonderSplashImage>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_TEMPLE_OF_ARTEMIS</WonderSplashAudio>
+		</Row>
+
+
+        <!-- ############### -->
+        <!-- Обработка камня -->
+        <!-- ############### -->
+
+
+
+        <!-- ############### -->
+        <!-- Каменная кладка -->
+        <!-- ############### -->
+
+        <!-- Петра -->
+        <Replace>
+			<Type>BUILDING_PETRA</Type>
+			<BuildingClass>BUILDINGCLASS_PETRA</BuildingClass>
+			<Cost>250</Cost>
+			<PrereqTech>TECH_ENGINEERING</PrereqTech>
+			<Help>TXT_KEY_WONDER_PETRA_HELP</Help>
+			<Description>TXT_KEY_BUILDING_PETRA</Description>
+			<Civilopedia>TXT_KEY_WONDER_PETRA_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_PETRA_QUOTE</Quote>
+			<ArtDefineTag>PETRA</ArtDefineTag>
+			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<NearbyTerrainRequired>TERRAIN_DESERT</NearbyTerrainRequired>
+			<EnhancedYieldTech>TECH_ARCHAEOLOGY</EnhancedYieldTech>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<NumTradeRouteBonus>1</NumTradeRouteBonus>
+			<DisplayPosition>2</DisplayPosition>
+			<IconAtlas>EXPANSION_BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
+			<WonderSplashImage>WonderConceptPetra.dds</WonderSplashImage>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_PETRA</WonderSplashAudio>
+		</Replace>
+
+        <!-- Пирамиды -->
+        <Row>
+			<Type>BUILDING_PYRAMID</Type>
+			<BuildingClass>BUILDINGCLASS_PYRAMID</BuildingClass>
+			<Cost>250</Cost>
+			<PrereqTech>TECH_DRY_MASONRY</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_LIBERTY</PolicyBranchType>
+			<Help>TXT_KEY_WONDER_CHICHEN_ITZA_HELP</Help>
+			<Description>TXT_KEY_BUILDING_PYRAMID</Description>
+			<Civilopedia>TXT_KEY_WONDER_PYRAMIDS_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_PYRAMIDS_QUOTE</Quote>
+			<ArtDefineTag>THE PYRAMIDS</ArtDefineTag>
+			<MaxStartEra>ERA_CLASSICAL</MaxStartEra>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<WorkerSpeedModifier>25</WorkerSpeedModifier>
+			<DisplayPosition>4</DisplayPosition>
+			<IconAtlas>BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashImage>WonderConceptPyramids.dds</WonderSplashImage>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_THE_PYRAMIDS_01</WonderSplashAudio>
+		</Row>
+
+
+
+
+
+
+
+
+
+
+    </Buildings>
+
+    <!-- Производит -->
+    <Building_YieldChanges>
+
+
+        <Row>
+			<BuildingType>BUILDING_GREAT_SPHINX</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_SPHINX</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_SPHINX</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+
+
+        <Row>
+			<BuildingType>BUILDING_PYRAMID</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>6</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>4</Yield>
+		</Row>
+        <Delete BuildingType="BUILDING_PETRA"/>
+        <Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+
+    </Building_YieldChanges>
+
+
+    <!-- Улучшает клетку с данной почвой -->
+    <Building_TerrainYieldChanges>
+        <Row>
+			<BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Delete BuildingType="BUILDING_PETRA"/>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+    </Building_TerrainYieldChanges>
+
+    <!-- Улучшает клетки с растительностью -->
+    <Building_FeatureYieldChanges>
+        <Delete BuildingType="BUILDING_PETRA"/>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>-1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>-1</Yield>
+		</Row>
+    </Building_FeatureYieldChanges>
+
+    <!-- Улучшает клетки с ресурсами -->
+    <Building_ResourceYieldChanges>
+
+
+
+    </Building_ResourceYieldChanges>
+
+    <!-- Улучшает после Археологии -->
+    <Building_TechEnhancedYieldChanges>
+        <Delete BuildingType="BUILDING_PETRA"/>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>6</Yield>
+		</Row>
+    </Building_TechEnhancedYieldChanges>
+
+    <!-- Может быть построенно только с этим ресурсом -->
+    <Building_LocalResourceOrs>
+
+
+    </Building_LocalResourceOrs>
+
+    <!-- Общие модификаторы -->
+    <Building_GlobalYieldModifiers>
+        <Row>
+			<BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Building_GlobalYieldModifiers>
+
+    <!-- Усиляет другие здания -->
+    <Building_BuildingClassYieldChanges>
+
+    </Building_BuildingClassYieldChanges>
+
+
+    <!-- Производит от каждого жителя города в процентах -->
+    <Building_YieldChangesPerPop>
+
+
+    </Building_YieldChangesPerPop>
+
+    <!-- Увеличивает скорость постройки юнитов -->
+    <Building_UnitCombatProductionModifiers>
+        <Row>
+			<BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<Modifier>15</Modifier>
+		</Row>
+	</Building_UnitCombatProductionModifiers>
+
+    <!-- Хлявные юниты -->
+    <Building_FreeUnits>
+
+        <Row>
+			<BuildingType>BUILDING_PYRAMID</BuildingType>
+			<UnitType>UNIT_SETTLER</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_PYRAMID</BuildingType>
+			<UnitType>UNIT_WORKER</UnitType>
+			<NumUnits>2</NumUnits>
+		</Row>
+        <Delete BuildingType="BUILDING_PETRA"/>
+        <Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<UnitType>UNIT_CARAVAN</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+
+    </Building_FreeUnits>
+
+    <!-- Опыт юнитам -->
+    <Building_DomainFreeExperiences>
+
+
+    </Building_DomainFreeExperiences>
+
+
+
+
+    <!-- Для ботов похоже... -->
+    <Building_Flavors>
+
+        <Row>
+            <BuildingType>BUILDING_GREAT_SPHINX</BuildingType>
+            <FlavorType>FLAVOR_WONDER</FlavorType>
+            <Flavor>25</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_GREAT_SPHINX</BuildingType>
+            <FlavorType>FLAVOR_RELIGION</FlavorType>
+            <Flavor>75</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_GREAT_SPHINX</BuildingType>
+            <FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+            <Flavor>10</Flavor>
+        </Row>
+
+        
+
+        <Row>
+			<BuildingType>BUILDING_PYRAMID</BuildingType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>45</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PYRAMID</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PYRAMID</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PYRAMID</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+        <Row>
+            <BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+            <FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+            <Flavor>10</Flavor>
+        </Row>
+        <Delete BuildingType="BUILDING_PETRA"/>
+        <Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+
+
+
+
+
+
+
+    </Building_Flavors>
+
+
+
+
+
+</GameData>

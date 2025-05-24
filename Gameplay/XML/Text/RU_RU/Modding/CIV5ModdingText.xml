@@ -1,0 +1,716 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_INVALID_MAP_DESC">
+      <Text>Неверный файл карты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INVALID_MAP_TITLE">
+      <Text>[COLOR_RED]{1_MapName}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ADD_COMMENT">
+      <Text>Дополнительные комментарии:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ALREADY_INSTALLED">
+      <Text>Уже установлено</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_AUTOUPDATEMODS">
+      <Text>Автообновление модификаций</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_BACK">
+      <Text>Назад</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_BLOCKS">
+      <Text>Блокирует {1_ModName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_BLOCKS_ALL_OTHER_DLC">
+      <Text>Остальные DLC</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_BROWSER">
+      <Text>Обзор модификаций</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_BROWSER_TITLE">
+      <Text>Модификации</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_BROWSER_TT">
+      <Text>Просмотреть установленные или находящиеся в сети модификации.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CANCELDOWNLOAD">
+      <Text>Отмена</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORIES_ALL">
+      <Text>Все</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORIES_HEADER">
+      <Text>Категории</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_1">
+      <Text>Полное изменение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_10">
+      <Text>Другие</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_11">
+      <Text>Цивилизации</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_12">
+      <Text>Графика</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_13">
+      <Text>Ландшафты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_14">
+      <Text>Юниты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_15">
+      <Text>Города</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_16">
+      <Text>Ресурсы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_17">
+      <Text>Улучшения</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_18">
+      <Text>Лидеры</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_2">
+      <Text>История</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_20">
+      <Text>Ландшафты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_21">
+      <Text>Улучшения</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_22">
+      <Text>Ресурсы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_23">
+      <Text>Юниты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_24">
+      <Text>Юниты Древнейшего мира</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_25">
+      <Text>Юниты Средневековья</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_26">
+      <Text>Юниты Нового времени</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_27">
+      <Text>Юниты Новейшего времени</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_28">
+      <Text>Юниты современности</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_29">
+      <Text>Юниты будущего</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_3">
+      <Text>Будущее</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_30">
+      <Text>Фантастические юниты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_31">
+      <Text>Другие юниты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_32">
+      <Text>Сценарии</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_33">
+      <Text>Сценарии Древнейшего мира</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_34">
+      <Text>Сценарии Средневековья</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_35">
+      <Text>Сценарии Нового времени</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_36">
+      <Text>Сценарии Новейшего времени</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_37">
+      <Text>Сценарии современности</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_38">
+      <Text>Сценарии будущего</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_39">
+      <Text>Фантастические сценарии</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_4">
+      <Text>Фантастика</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_40">
+      <Text>Другие сценарии</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_41">
+      <Text>Карты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_42">
+      <Text>Исторические карты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_43">
+      <Text>Придуманные карты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_44">
+      <Text>Сетевые карты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_45">
+      <Text>Скрипты карты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_46">
+      <Text>Исторические карты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_47">
+      <Text>Придуманные карты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_48">
+      <Text>Сетевые карты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_49">
+      <Text>Исторические</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_5">
+      <Text>Правила игры</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_50">
+      <Text>Фантастические</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_51">
+      <Text>Исторически</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_52">
+      <Text>Фантастические</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_53">
+      <Text>Строительство в городах</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_54">
+      <Text>Здания</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_55">
+      <Text>Чудеса света</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_56">
+      <Text>Проекты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_57">
+      <Text>Другое</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_6">
+      <Text>Лидеры</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_7">
+      <Text>Пользовательский интерфейс</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_8">
+      <Text>Скины</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CATEGORY_9">
+      <Text>Виджеты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CLOSEDOWNLOAD">
+      <Text>Удаление</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_COPYRIGHT">
+      <Text>Copyright (c) 2010</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CUSTOMGAME">
+      <Text>Своя игра</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_CUSTOMGAME_TT">
+      <Text>Создать свою игру, используя модификации.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DATABASE_UNAVAILABLE">
+      <Text>База данных модификаций временно недоступна.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DELETEMOD">
+      <Text>Удаление</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DEPENDENCIES_HEADER">
+      <Text>Зависимости/связи/блоки</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DEPENDSON">
+      <Text>Зависит от {1_ModName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DESCRIPTION">
+      <Text>Описание</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DETAILS_NOTHINGSELECTED">
+      <Text>Ничего не выбрано.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DISABLEMOD">
+      <Text>Отключить</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DOWNLOAD_AGREEMENT">
+      <Text>Вы собираетесь загрузить модификацию или созданный пользователями пакет программ. Помните, что вы используете их на свой страх и риск.[NEWLINE]Компании 2K Games и Firaxis Games не являются создателями этой модификации, которая может содержать вирусы, "черви", "трояны", перехватчики информации и другие вредоносные программы.[NEWLINE]Загружая этот файл, вы допускаете и признаете все возможные риски и освобождаете компании 2K Games, Firaxis Games, их компаньонов и агентов от любой ответственности, связанной с использованием этой модификации.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DOWNLOADER_NOTINITIALIZED">
+      <Text>Загрузка не удается, поскольку на вашем компьютере не запущена фоновая интеллектуальная служба передачи Microsoft BITS.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DOWNLOADING">
+      <Text>Загрузка</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DOWNLOADMOD">
+      <Text>Загрузка</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DOWNLOADS">
+      <Text>Загружаемые</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DOWNLOADSTATUS_0">
+      <Text>В очереди</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DOWNLOADSTATUS_1">
+      <Text>Соединение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DOWNLOADSTATUS_2">
+      <Text>Передача</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DOWNLOADSTATUS_3">
+      <Text>Приостановка</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DOWNLOADSTATUS_4">
+      <Text>Ошибка</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DOWNLOADSTATUS_5">
+      <Text>Предупреждение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DOWNLOADSTATUS_6">
+      <Text>Передано</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DOWNLOADSTATUS_7">
+      <Text>Загружено</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_DOWNLOADSTATUS_8">
+      <Text>Отменено</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ENABLEINSTRUCTIONS">
+      <Text>Чтобы активировать модификацию, поставьте галочку справа от нее.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ENABLEMOD">
+      <Text>Включить</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_ALREADY_RATED">
+      <Text>Вы уже оценили эту модификацию.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_CONNECTION">
+      <Text>Произошла ошибка соединения.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_CONNECTION_TIMEOUT">
+      <Text>Истекло время ожидания соединения.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_GENERIC">
+      <Text>Произошла ошибка.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_HTTP_FILE_NOT_FOUND">
+      <Text>Ошибка HTTP 404 - файл не найден.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_HTTP_FORBIDDEN">
+      <Text>Ошибка HTTP 403 - доступ запрещен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_HTTP_REQUEST_REJECTED">
+      <Text>Ошибка HTTP 4xx - запрос отклонен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_HTTP_SERVER_ERROR">
+      <Text>Ошибка HTTP 5xx - ошибка сервера.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_HTTP_UNAUTHORIZED">
+      <Text>Ошибка HTTP 401 - необходима авторизация.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_INVALIDURL">
+      <Text>НЕВЕРНЫЙ URL</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_REQUEST_CANCELLED">
+      <Text>Запрос отклонен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_SAVE_DLC_NOT_PURCHASED">
+      <Text>[COLOR_RED]Необходимый загружаемый контент не был куплен.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_SAVE_INCOMPATIBLE_MODS">
+      <Text>[COLOR_RED]Включенные сейчас модификации несовместимы с этим сохранением.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_SAVE_MISSING_DLC">
+      <Text>[COLOR_RED]Необходимый загружаемый контент недоступен.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_SAVE_MISSING_MODS">
+      <Text>[COLOR_RED]Установлены не все необходимые модификации. [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ERROR_SERVICE_DISABLED">
+      <Text>Сервис отключен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_EULA_ACCEPT">
+      <Text>ОК</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_EULA_BODY">
+      <Text>Вы входите в базу данных модификаций игры Civilization V. Модификации - это программные пакеты, которые позволят вам изменить игру. [COLOR_WARNING_TEXT]Используйте модификации на свой страх и риск![ENDCOLOR] Мы не проверяем, не наблюдаем, не поддерживаем и не гарантируем корректность работы пользовательских модификаций. Принимайте в отношении них те же меры предосторожности, что и при скачивании файлов из Интернета. Перед продолжением обратитесь к руководству игры или же документации, расположенной на сайте www.take2games.com/EULA .</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_EULA_DECLINE">
+      <Text>Нет</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_EULA_TITLE">
+      <Text>Лицензионное соглашение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_FILESIZE_B">
+      <Text>Б</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_FILESIZE_GB">
+      <Text>ГБ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_FILESIZE_KB">
+      <Text>КБ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_FILESIZE_MB">
+      <Text>МБ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_FILTER_LATEST_VERSION">
+      <Text>Показывать только последние версии</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_FIRSTPAGE">
+      <Text>Первая страница</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_FLAG_DESCRIPTION">
+      <Text>Используйте эту форму, чтобы сообщить о модификации, которая нарушает пользовательское соглашение. Пожалуйста, ознакомьтесь сначала с поясняющей информацией, а затем выберите из ниспадающего списка наиболее подходящую причину. Если вы хотите больше узнать о том, что разрешено, а что запрещено, ознакомьтесь с пользовательским соглашением. Если обнаруженная вами модификация действительно нарушает правила, она будет удалена. Данные, представленные в этой форме, также подчиняются правилам. Их нарушение (рассылка спама, обман, агрессия и т.д.) может привести к полному удалению вашего профиля. Учтите, что мы сохраняем всю информацию, касающуюся заполнения этой формы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_FLAG_MODERATION">
+      <Text>Жалоба</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_FLAG_MODERATION_TOOLTIP">
+      <Text>Сообщите об оскорбительном содержании или же о нарушении пользовательского соглашения.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_FLAG_NOREASON">
+      <Text>Не выбрана причина</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_FLAG_REASON_1">
+      <Text>Нарушение авторских прав и торговых марок</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_FLAG_REASON_2">
+      <Text>Вредоносное ПО (содержит вирус или троян)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_FLAG_REASON_3">
+      <Text>Оскорбительное содержание</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_FLAG_REASON_4">
+      <Text>Разное</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_GAMEVERSION">
+      <Text>Версия игры: между {1_LowVersion} и {2_HighVersion}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_HEADING_DATESTARTED">
+      <Text>Дата начала</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_HEADING_NAME">
+      <Text>Название</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_HEADING_PROGRESS">
+      <Text>Ход</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_HEADING_STATE">
+      <Text>Состояние</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_HOVERFORDETAILS">
+      <Text>{1_DownloadStatus} (Наведите курсор для деталей)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_INSTALL_MODS">
+      <Text>Установка модификаций</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_INSTALL_MODS_TT">
+      <Text>Модификации, доступные для установки.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_INSTALL_PROGRESS">
+      <Text>{1_ProcessedFiles}/{2_TotalFiles}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_INSTALLED">
+      <Text>Установленные</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_INSTALLER_COPYING">
+      <Text>Копирование файлов...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_INSTALLER_ERROR">
+      <Text>Произошла ошибка при установке модификации.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_INSTALLER_EXTRACTING">
+      <Text>Извлечение файлов...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_INSTALLER_FINISHED">
+      <Text>Готово!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_INSTALLER_INSTALLING">
+      <Text>Идет установка модификаций...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_INSTALLER_VALIDATING">
+      <Text>Проверка модификаций...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_INSTALLER_VERIFYING">
+      <Text>Проверка файлов...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELAFFECTSSAVEDGAMES">
+      <Text>Влияет на сохраненные игры?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELAUTHOR">
+      <Text>Авторы:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELCATEGORIES">
+      <Text>Категории:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELDOWNLOADS">
+      <Text>Загрузки:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELNO">
+      <Text>[COLOR_RED]Нет[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELRATING">
+      <Text>Рейтинг:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELSIZE">
+      <Text>Размер:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELSPECIALTHANKS">
+      <Text>Отдельные благодарности:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELSTATUS">
+      <Text>Статус:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELSUPPORTSMULTIPLAYER">
+      <Text>Сетевая игра?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELSUPPORTSSINGLEPLAYER">
+      <Text>Одиночная игра?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELTAGS">
+      <Text>Метки:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELUPDATED">
+      <Text>Последнее обновление:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELUPLOADEDBY">
+      <Text>Загружена:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELVERSION">
+      <Text>Версия:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LABELYES">
+      <Text>[COLOR_GREEN]Да[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LASTPAGE">
+      <Text>Последняя страница</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LIKE_IT">
+      <Text>Оценка</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LIKE_IT_TOOLTIP">
+      <Text>Дать положительную оценку.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_LOADGAME">
+      <Text>Загрузка</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_MAINMENU">
+      <Text>Главное меню</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_MAPS">
+      <Text>Настройка игры</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_MAPS_TT">
+      <Text>Начинает игру на своей карте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_MENU_BACK">
+      <Text>Назад</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_MOD_BAD_GAMEVERSION">
+      <Text>[COLOR_RED]Эта версия игры не совместима с данной модификацией.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_MOD_BLOCKED_BY_OTHER_MOD">
+      <Text>[COLOR_RED]Работа модификации заблокирована другим модом.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_MOD_EXCLUSIVE">
+      <Text>Это эксклюзивная модификация.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_MOD_HAS_EXCLUSIVITY_CONFLICTS">
+      <Text>[COLOR_RED]Модификация заблокирована из-за правовых ограничений.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_MOD_MISSING_DEPENDENCIES">
+      <Text>[COLOR_RED]Соблюдены не все требования для запуска этой модификации.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_MOD_PARTIALLY_EXCLUSIVE">
+      <Text>Это частично эксклюзивная модификация.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_MOD_VERSION_ALREADY_ENABLED">
+      <Text>[COLOR_RED]Уже доступна другая версия этой модификации.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_MODSTATUS">
+      <Text>Альфа|Бета|Предрелиз|Демо</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_MULTIPLAYER">
+      <Text>Сетевая игра</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_MULTIPLAYER_TT">
+      <Text>Запускает модификацию сетевой игры.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_NEXT">
+      <Text>Далее</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_NEXTPAGE">
+      <Text>Следующая страница</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_NOACTIVEDOWNLOADS">
+      <Text>Ничего не загружается.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_NOASSOCIATIONS">
+      <Text>Пусто</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_NOMODSINSTALLED">
+      <Text>Модификации не установлены</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ONLINE">
+      <Text>В сети</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_OPTIONS">
+      <Text>Настройки...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_PAUSEDOWNLOAD">
+      <Text>Пауза</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_PREVPAGE">
+      <Text>Предыдущая страница</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_PRIVACYPOLICY">
+      <Text>Политика конфиденциальности</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_PROGRESSNA">
+      <Text>--</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_RATING">
+      <Text>{1_Rating}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_REFERENCES">
+      <Text>Ссылается на {1_ModName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_REPORT">
+      <Text>Сообщение о нарушении</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_REPORT_REASON">
+      <Text>Пожалуйста, укажите причину сообщения:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_REPORT_SUBMITED">
+      <Text>Большое спасибо за ваше сообщение. Представитель компании 2К займется им в ближайшее время.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_REPORT_TITLE">
+      <Text>Форма сообщения о нарушениях</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_RESULTS_EMPTY">
+      <Text>Модификации не найдены.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_RESUMEDOWNLOAD">
+      <Text>Продолжение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SAVEDGAMES_TT">
+      <Text>Запускает ранее сохраненную игру.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SCENARIO_TITLE">
+      <Text>Настройка сценариев модов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SCENARIOS">
+      <Text>Сценарии</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SCENARIOS_TT">
+      <Text>Запускает сценарий.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SCREENSHOT">
+      <Text>Обзор скриншотов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SEARCH_TOOLTIP">
+      <Text>Поиск модификации</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SETUP_TITLE">
+      <Text>Настройка модификации</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SHOW_SCREENSHOT">
+      <Text>Открывает просмотрщик скриншотов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SHOWDLCMODS">
+      <Text>Показывать модификации DLC</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SINGLE_PLAYER">
+      <Text>Одиночная игра</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SINGLE_PLAYER_TT">
+      <Text>Запускает модификацию одиночной игры.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SORT_DOWNLOADS">
+      <Text>Число загрузок</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SORT_ENABLED">
+      <Text>Использование</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SORT_NEWEST">
+      <Text>Новые</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SORT_RATING">
+      <Text>Рейтинг</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SORT_RECENTLY_INSTALLED">
+      <Text>Недавно установленные</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SORT_TITLE">
+      <Text>Название</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SUBMIT">
+      <Text>Передача...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_TITLE">
+      <Text>Модификация №1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_UNSUBSCRIBE_CONFIRM">
+      <Text>Вы уверены, что хотите отказаться от данной модификации? В этом случае она будет удалена с вашего компьютера.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_UNSUBSCRIBE_MOD">
+      <Text>Отказаться</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_UPDATE_ALL_MODS">
+      <Text>Обновить все модификации</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_UPDATE_ALL_MODS_TT">
+      <Text>Обновляет все установленные модификации до последней версии, доступной в сети.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_UPDATE_MOD">
+      <Text>Обновить модификацию</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_UPDATE_MOD_LATEST_TT">
+      <Text>Обновляет модификацию до последней доступной версии.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_UPDATE_MOD_TT">
+      <Text>Обновляет модификацию до версии {1_Version}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_UPDATEMOD">
+      <Text>Обновление</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_WORKSHOP">
+      <Text>Модификации</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_WORKSHOP_TT">
+      <Text>Позволяет открыть окно Steam и просмотреть доступные модификации.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_YOU_LIKE_IT">
+      <Text>Мне по нраву</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_YOU_LIKE_IT_TOOLTIP">
+      <Text>Вы и еще {1} чел. считаете это хорошим модом.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODS_IN_USE">
+      <Text>Используемые моды:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_CUSTOM_GAMES">
+      <Text>БЕЗ МОДИФИКАЦИЙ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SELECT_CUSTOM_GAME">
+      <Text>Выберите измененную игру</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SELECT_SCENARIO">
+      <Text>Выберите сценарий</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

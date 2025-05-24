@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited kmsk | 13.03.2024 -->
+<GameData>
+
+    <Buildings>
+
+        <!-- Патронный завод -->
+		<Row>
+			<Type>BUILDING_CARTRIDGEFACTORY</Type>
+			<BuildingClass>BUILDINGCLASS_CARTRIDGEFACTORY</BuildingClass>
+			<Cost>500</Cost>
+			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
+            <GoldMaintenance>4</GoldMaintenance>
+			<Description>TXT_KEY_BUILDING_CARTRIDGEFACTORY</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_CARTRIDGEFACTORY_TEXT</Civilopedia>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>Building_IconAtlas</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+		</Row>
+
+        <!-- Снарядный завод -->
+		<Row>
+			<Type>BUILDING_SHELLFACTORY</Type>
+			<BuildingClass>BUILDINGCLASS_SHELLFACTORY</BuildingClass>
+			<Cost>500</Cost>
+			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
+            <GoldMaintenance>4</GoldMaintenance>
+			<Description>TXT_KEY_BUILDING_SHELLFACTORY</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_SHELLFACTORY_TEXT</Civilopedia>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>Building_IconAtlas</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+		</Row>
+
+    </Buildings>
+
+    <!-- Производит -->
+    <Building_YieldChanges>
+
+    </Building_YieldChanges>
+
+    <!-- Увеличивает в процентах -->
+    <Building_YieldModifiers>
+
+    </Building_YieldModifiers>
+
+    <!-- Улучшает другое здание -->
+    <Building_BuildingClassYieldChanges>
+
+    </Building_BuildingClassYieldChanges>
+
+    <!-- Улучшает клетку с данной почвой -->
+    <Building_TerrainYieldChanges>
+
+    </Building_TerrainYieldChanges>
+
+    <!-- Улучшает клетки с ресурсами -->
+    <Building_ResourceYieldChanges>
+
+    </Building_ResourceYieldChanges>
+
+    <!-- Может быть построенно только с этим ресурсом -->
+    <Building_LocalResourceOrs>
+
+    </Building_LocalResourceOrs>
+
+    <!-- Улучшает клетки с растительностью -->
+    <Building_FeatureYieldChanges>
+
+    </Building_FeatureYieldChanges>
+
+    <!-- Улучшает после Археологии -->
+    <Building_TechEnhancedYieldChanges>
+
+    </Building_TechEnhancedYieldChanges>
+
+
+    <!-- Клетки с океаном -->
+    <Building_SeaPlotYieldChanges>
+
+    </Building_SeaPlotYieldChanges>
+
+    <!-- Морские клетки с ресурсами -->
+    <Building_SeaResourceYieldChanges>
+
+    </Building_SeaResourceYieldChanges>
+
+    <!-- Общие модификаторы -->
+    <Building_GlobalYieldModifiers>
+
+	</Building_GlobalYieldModifiers>
+
+    <!-- Производит от каждого жителя города в процентах -->
+    <Building_YieldChangesPerPop>
+
+    </Building_YieldChangesPerPop>
+
+    <!-- Увеличивает скорость постройки юнитов -->
+    <Building_UnitCombatProductionModifiers>
+
+	</Building_UnitCombatProductionModifiers>
+
+    <Building_DomainProductionModifiers>
+
+    </Building_DomainProductionModifiers>
+
+    <!-- Хлявные юниты -->
+    <Building_FreeUnits>
+
+    </Building_FreeUnits>
+
+    <!-- Опыт юнитам -->
+    <Building_DomainFreeExperiences>
+
+    </Building_DomainFreeExperiences>
+
+    <!-- Пока не понял? ячейки для шедевров? -->
+    <Building_ThemingBonuses>
+
+    </Building_ThemingBonuses>
+
+    <!-- Для постройки нужно здание -->
+    <Building_ClassesNeededInCity>
+
+    </Building_ClassesNeededInCity>
+
+    <!-- Сколько зданий нужно для постройки -->
+    <Building_PrereqBuildingClasses>
+
+    </Building_PrereqBuildingClasses>
+
+
+    <!-- Для ботов похоже... -->
+    <Building_Flavors>
+
+        <Row>
+			<BuildingType>BUILDING_CARTRIDGEFACTORY</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_SHELLFACTORY</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+
+    </Building_Flavors>
+
+
+
+
+
+</GameData>

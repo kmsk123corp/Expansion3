@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited kmsk | 01.02.2024 -->
+<GameData>
+
+    <!-- Стоимость постройки -->
+    <Building_ResourceCostRequirements>
+
+        <!-- Великий храм -->
+        <Row>
+			<BuildingType>BUILDING_GRAND_TEMPLE</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>150</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GRAND_TEMPLE</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>150</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GRAND_TEMPLE</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>150</Cost>
+		</Row>
+
+        <!-- Собор святой софии -->
+        <Row>
+			<BuildingType>BUILDING_HAGIA_SOPHIA</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_HAGIA_SOPHIA</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HAGIA_SOPHIA</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HAGIA_SOPHIA</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+
+        <!-- Бородобур -->
+		<Row>
+			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+
+        <!-- Великая мечеть дженне -->
+		<Row>
+			<BuildingType>BUILDING_MOSQUE_OF_DJENNE</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_MOSQUE_OF_DJENNE</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+
+        <!-- Чичен ица -->
+        <Row>
+            <BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+            <ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+            <Cost>1000</Cost>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+            <ResourceType>RESOURCE_STONE</ResourceType>
+            <Cost>1000</Cost>
+        </Row>
+
+        <!-- Гильдия художников -->
+		<Row>
+			<BuildingType>BUILDING_ARTISTS_GUILD</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARTISTS_GUILD</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+        <!-- Ост-Индская компания -->
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_TREASURY</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_TREASURY</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_TREASURY</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+
+        <!-- Цех -->
+        <Row>
+			<BuildingType>BUILDING_IRONWORKS</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IRONWORKS</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IRONWORKS</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+
+        <!-- Мачу-Пикчу -->
+        <Row>
+			<BuildingType>BUILDING_MACHU_PICHU</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MACHU_PICHU</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+
+        <!-- Оксфордский университет -->
+        <Row>
+			<BuildingType>BUILDING_OXFORD_UNIVERSITY</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_OXFORD_UNIVERSITY</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_OXFORD_UNIVERSITY</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+
+        <!-- Ангор Ват -->
+        <Row>
+			<BuildingType>BUILDING_ANGKOR_WAT</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ANGKOR_WAT</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>600</Cost>
+		</Row>
+
+        <!-- Алегамбра -->
+		<Row>
+			<BuildingType>BUILDING_ALHAMBRA</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>600</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ALHAMBRA</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>600</Cost>
+		</Row>
+
+        <!-- Национальный парк -->
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_PARK</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_PARK</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_PARK</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+        <!-- Норт дам -->
+        <Row>
+			<BuildingType>BUILDING_NOTRE_DAME</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_NOTRE_DAME</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>400</Cost>
+		</Row>
+
+    </Building_ResourceCostRequirements>
+
+
+
+    <!-- Производит ресурсов -->
+    <Building_ResourceQuantity>
+
+
+    </Building_ResourceQuantity>
+
+
+
+    <!-- Потребляет за ход -->
+	<Building_ResourceQuantityRequirements>
+
+        <!-- Великий храм -->
+		<Row>
+			<BuildingType>BUILDING_GRAND_TEMPLE</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+
+    </Building_ResourceQuantityRequirements>
+
+</GameData>

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited kmsk | 13.03.2024 -->
+<GameData>
+
+    <Buildings>
+
+        <!-- Цементный завод -->
+        <!-- <Row>
+			<Type>BUILDING_CEMENTPLANT</Type>
+			<BuildingClass>BUILDINGCLASS_CEMENTPLANT</BuildingClass>
+			<Cost>200</Cost>
+			<GoldMaintenance>3</GoldMaintenance>
+			<PrereqTech>TECH_CEMENT</PrereqTech>
+			<Description>TXT_KEY_BUILDING_CEMENTPLANT</Description>
+			<Civilopedia>TXT_KEY_BUILDING_CEMENTPLANT_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_CEMENTPLANT_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_CEMENTPLANT_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<BuildingProductionModifier>15</BuildingProductionModifier>
+			<HurryCostModifier>25</HurryCostModifier>
+            <IconAtlas>Building_IconAtlas</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+		</Row> -->
+
+        <!-- Кирпичный завод -->
+        <!-- <Row>
+			<Type>BUILDING_BRICKFACTORY</Type>
+			<BuildingClass>BUILDINGCLASS_BRICKFACTORY</BuildingClass>
+			<Cost>200</Cost>
+			<GoldMaintenance>3</GoldMaintenance>
+			<PrereqTech>TECH_CEMENT</PrereqTech>
+			<Description>TXT_KEY_BUILDING_BRICKFACTORY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_BRICKFACTORY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BRICKFACTORY_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_BRICKFACTORY_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
+            <SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<BuildingProductionModifier>15</BuildingProductionModifier>
+			<HurryCostModifier>25</HurryCostModifier>
+            <IconAtlas>Building_IconAtlas</IconAtlas>
+			<PortraitIndex>25</PortraitIndex>
+		</Row> -->
+
+        <!-- Пороховой завод -->
+		<Row>
+			<Type>BUILDING_GUNPOWDERFACTORY</Type>
+			<BuildingClass>BUILDINGCLASS_GUNPOWDERFACTORY</BuildingClass>
+			<Cost>400</Cost>
+			<PrereqTech>TECH_DYNAMITE</PrereqTech>
+            <GoldMaintenance>3</GoldMaintenance>
+			<Description>TXT_KEY_BUILDING_GUNPOWDERFACTORY</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_GUNPOWDERFACTORY_TEXT</Civilopedia>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>Building_IconAtlas</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+
+        <!-- Нитроцеллюлозная фабрика -->
+        <Row>
+			<Type>BUILDING_NITROCELLULOSEFACTORY</Type>
+			<BuildingClass>BUILDINGCLASS_NITROCELLULOSEFACTORY</BuildingClass>
+			<Cost>400</Cost>
+			<PrereqTech>TECH_DYNAMITE</PrereqTech>
+            <GoldMaintenance>2</GoldMaintenance>
+			<Description>TXT_KEY_BUILDING_NITROCELLULOSEFACTORY</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_NITROCELLULOSEFACTORY_TEXT</Civilopedia>
+            <Help>TXT_KEY_BUILDING_NITROCELLULOSEFACTORY_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>Building_IconAtlas</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+		</Row>
+
+        <!-- Доменная печь -->
+        <Row>
+			<Type>BUILDING_BLASTFURNACE</Type>
+			<BuildingClass>BUILDINGCLASS_BLASTFURNACE</BuildingClass>
+			<Cost>600</Cost>
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+            <GoldMaintenance>10</GoldMaintenance>
+			<Description>TXT_KEY_BUILDING_BLASTFURNACE</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_BLASTFURNACE_TEXT</Civilopedia>
+            <Help>TXT_KEY_BUILDING_BLASTFURNACE_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+            <PortraitIndex>30</PortraitIndex>
+			<IconAtlas>Building_IconAtlas</IconAtlas>
+		</Row>
+
+        <!-- Угольная шахта -->
+        <Row>
+			<Type>BUILDING_COALMINE</Type>
+			<BuildingClass>BUILDINGCLASS_COALMINE</BuildingClass>
+			<Cost>400</Cost>
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+            <GoldMaintenance>2</GoldMaintenance>
+			<Description>TXT_KEY_BUILDING_COALMINE</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_COALMINE_TEXT</Civilopedia>
+            <Help>TXT_KEY_BUILDING_COALMINE_HELP</Help>
+            <NearbyMountainRequired>true</NearbyMountainRequired>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+            <PortraitIndex>31</PortraitIndex>
+			<IconAtlas>Building_IconAtlas</IconAtlas>
+		</Row>
+
+
+    </Buildings>
+
+    <!-- Производит -->
+    <Building_YieldChanges>
+
+        <Row>
+			<BuildingType>BUILDING_BLASTFURNACE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_COALMINE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+
+        <Row>
+			<BuildingType>BUILDING_CEMENTPLANT</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BRICKFACTORY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+    </Building_YieldChanges>
+
+    <!-- Увеличивает в процентах -->
+    <Building_YieldModifiers>
+
+    </Building_YieldModifiers>
+
+    <!-- Улучшает другое здание -->
+    <Building_BuildingClassYieldChanges>
+
+    </Building_BuildingClassYieldChanges>
+
+    <!-- Улучшает клетку с данной почвой -->
+    <Building_TerrainYieldChanges>
+
+    </Building_TerrainYieldChanges>
+
+    <!-- Улучшает клетки с ресурсами -->
+    <Building_ResourceYieldChanges>
+
+        <Row>
+			<BuildingType>BUILDING_BLASTFURNACE</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+
+        <Row>
+			<BuildingType>BUILDING_COALMINE</BuildingType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+    </Building_ResourceYieldChanges>
+
+    <!-- Может быть построенно только с этим ресурсом -->
+    <Building_LocalResourceOrs>
+
+    </Building_LocalResourceOrs>
+
+    <!-- Улучшает клетки с растительностью -->
+    <Building_FeatureYieldChanges>
+
+    </Building_FeatureYieldChanges>
+
+    <!-- Улучшает после Археологии -->
+    <Building_TechEnhancedYieldChanges>
+
+    </Building_TechEnhancedYieldChanges>
+
+
+    <!-- Клетки с океаном -->
+    <Building_SeaPlotYieldChanges>
+
+    </Building_SeaPlotYieldChanges>
+
+    <!-- Морские клетки с ресурсами -->
+    <Building_SeaResourceYieldChanges>
+
+    </Building_SeaResourceYieldChanges>
+
+    <!-- Общие модификаторы -->
+    <Building_GlobalYieldModifiers>
+
+	</Building_GlobalYieldModifiers>
+
+    <!-- Производит от каждого жителя города в процентах -->
+    <Building_YieldChangesPerPop>
+
+    </Building_YieldChangesPerPop>
+
+    <!-- Увеличивает скорость постройки юнитов -->
+    <Building_UnitCombatProductionModifiers>
+
+	</Building_UnitCombatProductionModifiers>
+
+    <Building_DomainProductionModifiers>
+
+    </Building_DomainProductionModifiers>
+
+    <!-- Хлявные юниты -->
+    <Building_FreeUnits>
+
+    </Building_FreeUnits>
+
+    <!-- Опыт юнитам -->
+    <Building_DomainFreeExperiences>
+
+    </Building_DomainFreeExperiences>
+
+    <!-- Пока не понял? ячейки для шедевров? -->
+    <Building_ThemingBonuses>
+
+    </Building_ThemingBonuses>
+
+    <!-- Для постройки нужно здание -->
+    <Building_ClassesNeededInCity>
+
+    </Building_ClassesNeededInCity>
+
+    <!-- Сколько зданий нужно для постройки -->
+    <Building_PrereqBuildingClasses>
+
+    </Building_PrereqBuildingClasses>
+
+
+    <!-- Для ботов похоже... -->
+    <Building_Flavors>
+
+        <Row>
+			<BuildingType>BUILDING_CEMENTPLANT</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BRICKFACTORY</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BRICKFACTORY</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BRICKFACTORY</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_GUNPOWDERFACTORY</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_NITROCELLULOSEFACTORY</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+
+    </Building_Flavors>
+
+
+
+
+
+</GameData>

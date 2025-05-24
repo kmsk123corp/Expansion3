@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_LEADER_HARUN_AGREE_SHORT_1">
+      <Text>Отлично.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_AGREE_SHORT_2">
+      <Text>Хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_AGREE_SHORT_3">
+      <Text>Конечно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_AGREE_SHORT_4">
+      <Text>Принято.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_AGREE_SHORT_5">
+      <Text>О, очень хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_AGREE_SHORT_6">
+      <Text>Вынужден принять.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_AGREE_SHORT_7">
+      <Text>Прекрасно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_ATTACKED_1">
+      <Text>Да как вы посмели? Я раздавлю вас!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_ATTACKED_2">
+      <Text>Злодей! Я повешу вашу уродливую голову на стене моего дворца, на поживу птицам.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_ATTACKED_3">
+      <Text>Глупец! Вы пожалеете об этом, клянусь вам!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_DECLAREWAR_1">
+      <Text>Вы в последний раз злоупотребили нашим великодушием. Готовьтесь к войне!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_DECLAREWAR_2">
+      <Text>Ваше дальнейшее существование будет оскорблять всевышнего. Готовьтесь к войне, неверные варвары!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_DECLAREWAR_3">
+      <Text>Мир будет лучше, если вас в нем не будет. Так что готовьтесь к войне!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_DEFEATED_1">
+      <Text>Мне конец. Делайте со мной, что хотите. Но о моем великом падении еще сложат поэмы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_DEFEATED_2">
+      <Text>Вы лишили мир величайшего светоча красоты и просвещенности. Вы довольны?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_DEFEATED_3">
+      <Text>Вы победили, и я вас поздравляю. Мой дворец теперь ваш. Надеюсь, вы позаботитесь о моих павлинах.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_DEMANDTRIBUTE_ANGRY">
+      <Text>Само ваше существование оскорбляет меня. Впрочем, я согласен вас пощадить - если вы заплатите.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_DEMANDTRIBUTE_HAPPY">
+      <Text>Мой друг, не поможете ли вы нам в трудную минуту?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_DEMANDTRIBUTE_NEUTRAL">
+      <Text>Если вы хотите сохранить независимость, я очень вам советую уступить нам кое-что.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_DISAGREE_SHORT_1">
+      <Text>Нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_DISAGREE_SHORT_2">
+      <Text>Определенно нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_DISAGREE_SHORT_3">
+      <Text>Мы вынуждены отказать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_DISAGREE_SHORT_4">
+      <Text>Конечно же, нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_DISAGREE_SHORT_5">
+      <Text>Это неприемлемо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_DISAGREE_SHORT_6">
+      <Text>Вы, должно быть, шутите!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_DISAGREE_SHORT_7">
+      <Text>Прощу прощения, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_FIRSTGREETING_1">
+      <Text>Добро пожаловать! Меня зовут Гарун аль-Рашид, я халиф арабов. Проходите, и мы вместе сможем восхищаться роскошным убранством моего дворца!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_FIRSTGREETING_2">
+      <Text>Ах! Новая звезда появилась на моем небосклоне. Я Гарун аль-Рашид, халиф арабов! Мне стоит написать поэму о нашей исторической встрече!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_FIRSTGREETING_3">
+      <Text>Добро пожаловать, чужестранец! Я Гарун аль-Рашид, правитель арабов. Проходите, расскажите мне о своих краях.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_GOODBYE_1">
+      <Text>Хорошего вам дня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_GOODBYE_2">
+      <Text>Прощайте!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_GOODBYE_3">
+      <Text>До свидания.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_GOODBYE_4">
+      <Text>До следующей встречи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_GOODBYE_5">
+      <Text>Мне надо покормить павлинов. Уходите.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_GOODBYE_6">
+      <Text>На этом все.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_GOODBYE_7">
+      <Text>Дело сделано.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_GREETING_1">
+      <Text>Добро пожаловать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_GREETING_2">
+      <Text>Здравствуйте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_GREETING_3">
+      <Text>Приветствую.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_GREETING_4">
+      <Text>Да благословят вас небеса!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_GREETING_5">
+      <Text>А, это вы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_GREETING_6">
+      <Text>Да, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_GREETING_7">
+      <Text>Чего вы хотите?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_LETSHEARIT_1">
+      <Text>Я вас слушаю.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_LETSHEARIT_2">
+      <Text>Продолжайте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_LETSHEARIT_3">
+      <Text>Я весь внимание.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_LETSHEARIT_4">
+      <Text>Да?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_LETSHEARIT_5">
+      <Text>Что вы сказали?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_LETSHEARIT_6">
+      <Text>И?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_LETSHEARIT_7">
+      <Text>Что дальше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_LOSEWAR_1">
+      <Text>Я благодарю вас за ваши щедрые условия. Клянусь, я не проявлю к вам неблагодарности.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_TRADE_NEEDMORE_ANGRY_1">
+      <Text>Так вы просвещенный правитель или же жадный ребенок, плачем пытающийся выманить подарок? Сделайте лучшее предложение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_TRADE_NEEDMORE_ANGRY_2">
+      <Text>Этого недостаточно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_TRADE_NEEDMORE_ANGRY_3">
+      <Text>Вы должны предложить больше.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_TRADE_NEEDMORE_HAPPY_1">
+      <Text>Я не могу принять это предложение, мой друг. Не могли бы вы улучшить его?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_TRADE_NEEDMORE_HAPPY_2">
+      <Text>И это все, что вы можете предложить?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_TRADE_NEEDMORE_HAPPY_3">
+      <Text>Я почти согласен...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_TRADE_NEEDMORE_NEUTRAL_1">
+      <Text>Знаете, мы лучшие торговцы на земле, и вы не сможете перехитрить нас. Я жду от вас более интересного предложения.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_TRADE_NEEDMORE_NEUTRAL_2">
+      <Text>Можете предложить нечто более интересное?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_TRADE_NEEDMORE_NEUTRAL_3">
+      <Text>На это не купишь даже чистокровного жеребца.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_TRADE_NEEDMORE_NEUTRAL_4">
+      <Text>Почти что...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_TRADE_NO_ANGRY">
+      <Text>Должно быть, в детстве вы серьезно ударились головой. Ваше предложение возмутительно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_TRADE_NO_HAPPY">
+      <Text>Просите у меня что угодно, друг мой, что угодно. Только не это!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_TRADE_NO_NEUTRAL">
+      <Text>Прощу прощения, вы выпили?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_TRADE_YES_ANGRY">
+      <Text>А вы мудрее, чем кажетесь. Я согласен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_TRADE_YES_HAPPY">
+      <Text>Я поражен вашей мудростью и деловой хваткой. Предложение принято.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_TRADE_YES_NEUTRAL">
+      <Text>Честная торговля делает мир более красивым. Я согласен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_TRADEREQUEST_ANGRY">
+      <Text>Могу ли я предложить вам торговое соглашение? Советники пояснят вам детали, если мой вопрос слишком сложен для вас.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_TRADEREQUEST_HAPPY">
+      <Text>Давайте же торговать, мой друг! И обоим нашим народам будет от этого только лучше.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_TRADEREQUEST_NEUTRAL">
+      <Text>Ну же, давайте заключим сделку!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_TRIBUTE_NO_ANGRY">
+      <Text>Вы уродливая личность, ваше присутствие оскорбляет меня. Уходите сейчас же.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_TRIBUTE_NO_HAPPY">
+      <Text>Мне это как ножом по сердцу, мой друг, но я вынужден отказать вам.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_TRIBUTE_NO_NEUTRAL">
+      <Text>Никогда! Мы любим мир, но защищать свои ценности и свою честь мы будем до последней капли крови.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_TRIBUTE_YES_ANGRY">
+      <Text>Хорошо. Великая держава может позволить себе быть снисходительной к низшим.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_TRIBUTE_YES_HAPPY">
+      <Text>Ну, конечно! Мы можем позволить себе быть щедрыми - мы настолько богаты!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_TRIBUTE_YES_NEUTRAL">
+      <Text>Ну хорошо. Мне хочется верить, что вы запомните нашу щедрость.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_WARBLUFF_1">
+      <Text>Вы понимаете, что вы дразните спящего льва?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_WARBLUFF_2">
+      <Text>Хорошо. Но в следующий раз я не буду столь любезен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_WARBLUFF_3">
+      <Text>Очень жаль.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_WARBLUFF_4">
+      <Text>Какое разочарование.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_WARBLUFF_5">
+      <Text>Неужели? Поверьте, вас ждет очень быстрая и мучительная смерть.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_WARBLUFF_6">
+      <Text>Как же вы глупы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HARUN_WINWAR_1">
+      <Text>Снова в мире торжествуют разум и красота. Надеюсь, вы запомните этот урок.</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

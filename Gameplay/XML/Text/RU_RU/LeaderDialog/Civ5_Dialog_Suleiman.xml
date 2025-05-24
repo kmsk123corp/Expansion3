@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_AGREE_SHORT_1">
+      <Text>Отлично.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_AGREE_SHORT_2">
+      <Text>Хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_AGREE_SHORT_3">
+      <Text>Конечно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_AGREE_SHORT_4">
+      <Text>Согласен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_AGREE_SHORT_5">
+      <Text>О, очень хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_AGREE_SHORT_6">
+      <Text>Мне придется с этим смириться.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_AGREE_SHORT_7">
+      <Text>Прекрасно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_ATTACKED_1">
+      <Text>Поразительно. Я не думал, что в вас столько мужества. Что ж, давайте повоюем.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_ATTACKED_2">
+      <Text>Это же идиотизм! Ваша жадность приведет вас к погибели!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_ATTACKED_3">
+      <Text>Вы - народ глупцов! Вы сами обрекаете себя на смерть и страдания!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_DECLAREWAR_1">
+      <Text>Вы угрожаете благополучию моего народа. Я должен уничтожить вас.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_DECLAREWAR_2">
+      <Text>Вы совершенно бесполезны и бессмысленны. Готовьтесь к войне.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_DECLAREWAR_3">
+      <Text>Клянусь бородой пророка, ваша гибель близка! Готовьтесь к войне!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_DEFEATED_1">
+      <Text>Какой ужас, я побежден! Во имя бороды пророка, как такое могло произойти!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_DEFEATED_2">
+      <Text>Мои армии уничтожены. Все потеряно. Как это случилось?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_DEFEATED_3">
+      <Text>Это реальность или ночной кошмар? Как вы могли победить меня?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_DEMANDTRIBUTE_ANGRY">
+      <Text>Вы можете временно отсрочить свое уничтожение, если отдадите нам кое-что.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_DEMANDTRIBUTE_HAPPY">
+      <Text>Мой друг, вы же не пожалеете такую малость для близкого союзника, правда?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_DEMANDTRIBUTE_NEUTRAL">
+      <Text>В ваших же интересах отдать нам то, что мы требуем. Сезон весенних кампаний не за горами, и мои полководцы ждут не дождутся приказа выступать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_DISAGREE_SHORT_1">
+      <Text>Нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_DISAGREE_SHORT_2">
+      <Text>Определенно нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_DISAGREE_SHORT_3">
+      <Text>Мы вынуждены отказать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_DISAGREE_SHORT_4">
+      <Text>Конечно же, нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_DISAGREE_SHORT_5">
+      <Text>Это неприемлемо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_DISAGREE_SHORT_6">
+      <Text>Вы, должно быть, шутите!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_DISAGREE_SHORT_7">
+      <Text>Прощу прощения, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_FIRSTGREETING_1">
+      <Text>Клянусь бородой пророка, я рад познакомиться с вами. Я Сулейман, султан могущественных османов!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_FIRSTGREETING_2">
+      <Text>Османская империя приветствует вас, незнакомец! Я Сулейман Великолепный.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_FIRSTGREETING_3">
+      <Text>Приветствую вас, чужестранец! Я Сулейман, правитель Османской империи. Предлагаю устроить великий праздник в честь нашей встречи!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_GOODBYE_1">
+      <Text>Хорошего вам дня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_GOODBYE_2">
+      <Text>Прощайте!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_GOODBYE_3">
+      <Text>До свидания.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_GOODBYE_4">
+      <Text>До следующей встречи!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_GOODBYE_5">
+      <Text>Уходите сейчас же.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_GOODBYE_6">
+      <Text>На этом все.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_GOODBYE_7">
+      <Text>Дело сделано.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_GREETING_1">
+      <Text>Добро пожаловать!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_GREETING_2">
+      <Text>Здравствуйте!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_GREETING_3">
+      <Text>Приветствую.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_GREETING_4">
+      <Text>Хорошего вам дня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_GREETING_5">
+      <Text>А, это вы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_GREETING_6">
+      <Text>Да, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_GREETING_7">
+      <Text>Чего вы хотите?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_LETSHEARIT_1">
+      <Text>Я вас внимательно слушаю...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_LETSHEARIT_2">
+      <Text>Продолжайте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_LETSHEARIT_3">
+      <Text>Я весь внимание.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_LETSHEARIT_4">
+      <Text>Да?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_LETSHEARIT_5">
+      <Text>Что вы сказали?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_LETSHEARIT_6">
+      <Text>И?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_LETSHEARIT_7">
+      <Text>Что дальше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_LOSEWAR_1">
+      <Text>Я поздравляю вас с победой и надеюсь, что мир навсегда пришел в наши земли.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_TRADE_NEEDMORE_ANGRY_1">
+      <Text>Ваше предложение неприемлемо. Не могли бы вы предложить больше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_TRADE_NEEDMORE_ANGRY_2">
+      <Text>Этого недостаточно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_TRADE_NEEDMORE_ANGRY_3">
+      <Text>Вы должны предложить больше.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_TRADE_NEEDMORE_HAPPY_1">
+      <Text>Да ладно! Вы что, хотите разорить меня? Уверен, вы можете предложить больше.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_TRADE_NEEDMORE_HAPPY_2">
+      <Text>И это все, что вы можете предложить?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_TRADE_NEEDMORE_HAPPY_3">
+      <Text>Еще немного, и я соглашусь.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_TRADE_NEEDMORE_NEUTRAL_1">
+      <Text>Да вы скупы, как рыночная торговка рыбой. Уверен, вы можете предложить мне больше!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_TRADE_NEEDMORE_NEUTRAL_2">
+      <Text>Можете предложить чуть побольше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_TRADE_NEEDMORE_NEUTRAL_3">
+      <Text>Этого не хватит.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_TRADE_NEEDMORE_NEUTRAL_4">
+      <Text>Маловато.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_TRADE_NO_ANGRY">
+      <Text>У меня нет времени на ваши глупости. Ну вас в Босфор!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_TRADE_NO_HAPPY">
+      <Text>Мой друг, думаю, вы слишком много времени провели на солнце без своей чалмы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_TRADE_NO_NEUTRAL">
+      <Text>Просто нелепо! Вы что, пьяны?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_TRADE_YES_ANGRY">
+      <Text>Времени от времени в вас все-таки можно усмотреть намек на здравый смысл. Может быть, из вас еще выйдет толк.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_TRADE_YES_HAPPY">
+      <Text>Во имя Аллаха, это мысль! Согласен!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_TRADE_YES_NEUTRAL">
+      <Text>Отлично! Мы согласны!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_TRADEREQUEST_ANGRY">
+      <Text>Полагаю, даже вы сможете увидеть, что это предложение в ваших же интересах.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_TRADEREQUEST_HAPPY">
+      <Text>Мой друг, будет ли вам угодно принять вот это предложение?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_TRADEREQUEST_NEUTRAL">
+      <Text>Эй, давайте обсудим условия сделки. Вот такие вам подходят?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_TRIBUTE_NO_ANGRY">
+      <Text>Обезьянье отродье! Вы что, серьезно собираетесь заставить меня отдать часть моей казны? Да вы с ума сошли!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_TRIBUTE_NO_HAPPY">
+      <Text>По-вашему, именно так друзья и должны относиться друг к другу? Клянусь моей бородой, нет!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_TRIBUTE_NO_NEUTRAL">
+      <Text>Почему бы вам в придачу не потребовать у меня моего первенца? Нет!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_TRIBUTE_YES_ANGRY">
+      <Text>Сегодня вы одержали верх. Но клянусь моей бородой, вечно так продолжаться не будет!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_TRIBUTE_YES_HAPPY">
+      <Text>Конечно! Моя щедрость известна всему миру, не так ли?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_TRIBUTE_YES_NEUTRAL">
+      <Text>Думаю, дешевле заплатить вам, чем уничтожать вас.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_WARBLUFF_1">
+      <Text>Вы играете в опасные игры.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_WARBLUFF_2">
+      <Text>Хорошо. Но в следующий раз я не буду столь любезен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_WARBLUFF_3">
+      <Text>Очень жаль.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_WARBLUFF_4">
+      <Text>Какое разочарование.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_WARBLUFF_5">
+      <Text>Даже так? Вы очень скоро об этом пожалеете.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_WARBLUFF_6">
+      <Text>Как же вы глупы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SULEIMAN_WINWAR_1">
+      <Text>Прошу, не вставайте больше у меня на пути. В следующий раз я не буду столь снисходителен!</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_AGREE_SHORT_1">
+      <Text>Отлично.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_AGREE_SHORT_2">
+      <Text>Хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_AGREE_SHORT_3">
+      <Text>Конечно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_AGREE_SHORT_4">
+      <Text>Принято.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_AGREE_SHORT_5">
+      <Text>О, очень хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_AGREE_SHORT_6">
+      <Text>Мне придется на это пойти.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_AGREE_SHORT_7">
+      <Text>Прекрасно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_ATTACKED_1">
+      <Text>Вы ошиблись, приняв нашу любовь к миру за слабость. И теперь за это ответите!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_ATTACKED_2">
+      <Text>Подлая шваль! Вы еще пожалеете об этом!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_ATTACKED_3">
+      <Text>Вы еще раскаетесь в этом, кровожадная тварь!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_DECLAREWAR_1">
+      <Text>Вы показали себя упрямым противником свободы и независимости. Готовьтесь к войне!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_DECLAREWAR_2">
+      <Text>Американский народ сказал свое слово. Ваша немотивированная агрессия не оставляет нам иного выхода. Готовьтесь к войне!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_DECLAREWAR_3">
+      <Text>Ваше безответственное поведение обрекло ваш народ на мучительную гибель. Готовьтесь к войне!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_DEFEATED_1">
+      <Text>Все потеряно, кроме чести. Надеюсь, вы будете милосердны к проигравшим.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_DEFEATED_2">
+      <Text>Сегодня ваш день. Надеюсь, вы будете милостивы в своем триумфе.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_DEFEATED_3">
+      <Text>Вы победили - пока что. Но Соединенные Штаты еще вернутся!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_DEFEATED_4">
+      <Text>Поздравляю вас с победой.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_DEMANDTRIBUTE_ANGRY">
+      <Text>Лучше бы вам отдать то, что мы хотим.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_DEMANDTRIBUTE_HAPPY">
+      <Text>Не могли бы вы поделиться этой малостью со своим другом и союзником в тяжелое для него время?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_DEMANDTRIBUTE_NEUTRAL">
+      <Text>Мы требуем от вас следующее.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_DISAGREE_SHORT_1">
+      <Text>Нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_DISAGREE_SHORT_2">
+      <Text>Определенно нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_DISAGREE_SHORT_3">
+      <Text>Мы вынуждены отказать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_DISAGREE_SHORT_4">
+      <Text>Конечно же, нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_DISAGREE_SHORT_5">
+      <Text>На это невозможно согласиться.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_DISAGREE_SHORT_6">
+      <Text>Вы, должно быть, шутите!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_DISAGREE_SHORT_7">
+      <Text>Прощу прощения, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_FIRSTGREETING_1">
+      <Text>Народ Соединенных Штатов Америки приветствует вас. Надеюсь, вы друг свободы?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_FIRSTGREETING_2">
+      <Text>От имени граждан Соединенных Штатов Америки я приветствую вас!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_FIRSTGREETING_3">
+      <Text>Для меня большая честь познакомиться с вами. Я искренне надеюсь, что два наших народа смогут жить бок о бок в мире и процветании.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_GOODBYE_1">
+      <Text>Хорошего вам дня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_GOODBYE_2">
+      <Text>Прощайте!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_GOODBYE_3">
+      <Text>До свидания.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_GOODBYE_4">
+      <Text>До следующей встречи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_GOODBYE_5">
+      <Text>Уходите сейчас же.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_GOODBYE_6">
+      <Text>На этом все.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_GOODBYE_7">
+      <Text>Дело сделано.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_GREETING_1">
+      <Text>Добро пожаловать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_GREETING_2">
+      <Text>Мое почтение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_GREETING_3">
+      <Text>Приветствую.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_GREETING_4">
+      <Text>Хорошего вам дня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_GREETING_5">
+      <Text>А, это вы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_GREETING_6">
+      <Text>Да, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_GREETING_7">
+      <Text>Чего вы хотите?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_LETSHEARIT_1">
+      <Text>Я слушаю.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_LETSHEARIT_2">
+      <Text>Так, продолжайте...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_LETSHEARIT_3">
+      <Text>Продолжайте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_LETSHEARIT_4">
+      <Text>Я весь внимание.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_LETSHEARIT_5">
+      <Text>Да?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_LETSHEARIT_6">
+      <Text>Что вы сказали?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_LETSHEARIT_7">
+      <Text>И?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_LETSHEARIT_8">
+      <Text>Что дальше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_LOSEWAR_1">
+      <Text>Я рад миру между нашими великими нациями. Буду надеяться, что впредь между нами не возникнет никаких недоразумений.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_QUOTE_1">
+      <Text>Дисциплина - душа армии. Она превращает немногочисленное войско в могучую силу, приносит успех слабым и уважение всем.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_QUOTE_2">
+      <Text>Правительство - не причина, это не красноречие, а сила. Оно как огонь - опасный слуга и чудовищный хозяин.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_QUOTE_3">
+      <Text>Нужно всегда считаться с настроениями народа. Это особенно верно для той войны, которую мы ведем, где моральный дух и готовность к самопожертвованию должны в значительной степени заменить принуждение. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_TRADE_NEEDMORE_ANGRY_1">
+      <Text>Эти условия неприемлемы. Вы должны предложить нам нечто большее.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_TRADE_NEEDMORE_ANGRY_2">
+      <Text>Этого недостаточно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_TRADE_NEEDMORE_ANGRY_3">
+      <Text>Я жду от вас большего.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_TRADE_NEEDMORE_ANGRY_4">
+      <Text>Мне нужно немногим больше...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_TRADE_NEEDMORE_HAPPY_1">
+      <Text>Боюсь, я не могу принять это предложение в таком виде. Не могли бы что-нибудь добавить?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_TRADE_NEEDMORE_HAPPY_2">
+      <Text>И это все, что вы можете предложить?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_TRADE_NEEDMORE_HAPPY_3">
+      <Text>Мы почти что согласны...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_TRADE_NEEDMORE_HAPPY_4">
+      <Text>Еще бы немного...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_TRADE_NEEDMORE_NEUTRAL_1">
+      <Text>Не думаю, что этого торговое соглашение в его нынешнем формате отвечает интересам Соединенных Штатов. Не могли бы вы сделать более серьезное предложение?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_TRADE_NEEDMORE_NEUTRAL_2">
+      <Text>Можете предложить чуть побольше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_TRADE_NEEDMORE_NEUTRAL_3">
+      <Text>Этого не хватит.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_TRADE_NEEDMORE_NEUTRAL_4">
+      <Text>Маловато.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_TRADE_NO_ANGRY">
+      <Text>Конечно же, нет. Мы не так глупы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_TRADE_NO_HAPPY">
+      <Text>С величайшим уважением и дружбой, но я вынужден отклонить ваше предложение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_TRADE_NO_NEUTRAL">
+      <Text>Я должен отказаться от вашего предложения. Оно не в наших интересах.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_TRADE_YES_ANGRY">
+      <Text>Согласен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_TRADE_YES_HAPPY">
+      <Text>Мы согласны. Благодарю вас.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_TRADE_YES_NEUTRAL">
+      <Text>Ваше предложение отвечает интересам Соединенных Штатов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_TRADEREQUEST_ANGRY">
+      <Text>Мы предлагаем вам эту сделку. Каким будет ваш ответ?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_TRADEREQUEST_HAPPY">
+      <Text>Приветствую. Не могут ли Соединенные Штаты заинтересовать вас вот этой сделкой?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_TRADEREQUEST_NEUTRAL">
+      <Text>А не заинтересует ли вас следующее предложение?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_TRIBUTE_NO_ANGRY">
+      <Text>Вы сошли с ума? Мы свободный и достойный народ. Мы не опустимся на колени перед бандитами и подлецами!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_TRIBUTE_NO_HAPPY">
+      <Text>Я не могу так бесцеремонно распоряжаться государственной казной, даже если об этом просят друзья. Я не тиран, и я отвечаю перед народом Соединенных Штатов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_TRIBUTE_NO_NEUTRAL">
+      <Text>Ваше требование оскорбляет самые основы нашего государства, и мы отвергаем его, даже не обсуждая. Вы явно недооцениваете нас.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_TRIBUTE_YES_ANGRY">
+      <Text>Кажется, у меня нет другого выбора. Придется принять ваши требования - на время.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_TRIBUTE_YES_HAPPY">
+      <Text>С удовольствием. Вам нужно было только попросить.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_TRIBUTE_YES_NEUTRAL">
+      <Text>Хорошо. Видимо, у меня нет другого выбора, кроме как принять ваши требования. Но я предостерегаю вас - не пытайтесь слишком сильно давить на нас.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_WARBLUFF_1">
+      <Text>Вы ведете очень опасную игру.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_WARBLUFF_2">
+      <Text>Хорошо. Но в следующий раз я не буду столь щедр.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_WARBLUFF_3">
+      <Text>Очень жаль.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_WARBLUFF_4">
+      <Text>Какое разочарование.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_WARBLUFF_5">
+      <Text>Неужели? Поверьте, вы играете со смертью.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_WARBLUFF_6">
+      <Text>Как же вы глупы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WASHINGTON_WINWAR_1">
+      <Text>Надеюсь, вы поняли, что с Соединенными Штатами нельзя вести себя легкомысленно!</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

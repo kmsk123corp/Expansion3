@@ -1,0 +1,14 @@
+<!-- edited with XMLSpy v2010 rel. 2 (http://www.altova.com) by Ian Smith (Firaxis) -->
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Geoff Knorr (Firaxis Games) -->
+<AudioDefinesFile>
+  <SoundDatas>
+    <!--Unit SFX-->
+    <SoundData>
+      <SoundID>SND_UNIT_SPARKS</SoundID>
+      <Filename>Sparks</Filename>
+      <bDontCache />
+      <bOnlyLoadOneVariationEachTime />
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+  </SoundDatas>
+</AudioDefinesFile>

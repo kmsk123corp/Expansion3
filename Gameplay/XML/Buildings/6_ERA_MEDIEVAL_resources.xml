@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited kmsk | 01.02.2024 -->
+<GameData>
+
+    <!-- Стоимость постройки -->
+    <Building_ResourceCostRequirements>
+
+        <!-- Сад -->
+		<Row>
+			<BuildingType>BUILDING_GARDEN</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_GARDEN</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_GARDEN</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
+        <!-- Канди -->
+        <Row>
+			<BuildingType>BUILDING_CANDI</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+
+        <!-- Водяная пилорама -->
+        <Row>
+			<BuildingType>BUILDING_SAWMILL</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_SAWMILL</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
+        <!-- Кузница -->
+		<Row>
+			<BuildingType>BUILDING_FORGE</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FORGE</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FORGE</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
+        <!-- Штукофен -->
+        <Row>
+			<BuildingType>BUILDING_STUKOFEN</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_STUKOFEN</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_STUKOFEN</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_STUKOFEN</BuildingType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+        <!-- Гавань -->
+		<Row>
+			<BuildingType>BUILDING_HARBOR</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+        <!-- Университет -->
+        <Row>
+			<BuildingType>BUILDING_UNIVERSITY</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UNIVERSITY</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UNIVERSITY</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UNIVERSITY</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_UNIVERSITY</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+        <!-- Ват (Сиам) -->
+        <Row>
+			<BuildingType>BUILDING_WAT</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WAT</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WAT</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_WAT</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+        <!-- Медресе (Аравия) -->
+        <Row>
+			<BuildingType>BUILDING_ARABIA_MADRASAH</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARABIA_MADRASAH</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARABIA_MADRASAH</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_ARABIA_MADRASAH</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+        <!-- Совон (Корея) -->
+        <Row>
+			<BuildingType>BUILDING_KOREA_SEOWON</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KOREA_SEOWON</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KOREA_SEOWON</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_KOREA_SEOWON</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+        <!-- Замок -->
+		<Row>
+			<BuildingType>BUILDING_CASTLE</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>300</Cost>
+		</Row>
+
+        <!-- Красный форд -->
+        <Row>
+			<BuildingType>BUILDING_MUGHAL_FORT</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+
+        <!-- Мануфактура -->
+        <Row>
+			<BuildingType>BUILDING_TEXTILE_WORKSHOP</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+        <Row>
+            <BuildingType>BUILDING_TEXTILE_WORKSHOP</BuildingType>
+            <ResourceType>RESOURCE_LUMBER</ResourceType>
+            <Cost>200</Cost>
+        </Row>
+        <Row>
+			<BuildingType>BUILDING_TEXTILE_WORKSHOP</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEXTILE_WORKSHOP</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+
+        <!-- Кирпичный цех -->
+        <Row>
+			<BuildingType>BUILDING_BRICKSHOP</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BRICKSHOP</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BRICKSHOP</BuildingType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+        <!-- Ювелирная -->
+        <Row>
+			<BuildingType>BUILDING_JEWELRY</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JEWELRY</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_JEWELRY</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
+        <!-- Оружейная -->
+		<Row>
+			<BuildingType>BUILDING_ARMORY</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARMORY</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+        <!-- Блауофен -->
+        <Row>
+			<BuildingType>BUILDING_BLAUOFEN</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>150</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BLAUOFEN</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>150</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BLAUOFEN</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>150</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BLAUOFEN</BuildingType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>150</Cost>
+		</Row>
+
+
+    </Building_ResourceCostRequirements>
+
+
+
+    <!-- Производит ресурсов -->
+    <Building_ResourceQuantity>
+
+        <!-- Водяная пилорама -->
+        <Row>
+			<BuildingType>BUILDING_SAWMILL</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Quantity>20</Quantity>
+		</Row>
+
+        <!-- Штукофен -->
+        <Row>
+			<BuildingType>BUILDING_STUKOFEN</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Quantity>20</Quantity>
+		</Row>
+
+        <!-- Кирпичный цех -->
+        <Row>
+			<BuildingType>BUILDING_BRICKSHOP</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Quantity>25</Quantity>
+		</Row>
+
+        <!-- Блауофен -->
+        <Row>
+			<BuildingType>BUILDING_BLAUOFEN</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Quantity>30</Quantity>
+		</Row>
+
+    </Building_ResourceQuantity>
+
+
+
+    <!-- Потребляет за ход -->
+	<Building_ResourceQuantityRequirements>
+
+        <!-- Водяная пилорама -->
+        <Row>
+			<BuildingType>BUILDING_SAWMILL</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+
+        <!-- Кузница -->
+		<Row>
+			<BuildingType>BUILDING_FORGE</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_FORGE</BuildingType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+        <!-- Штукофен -->
+		<Row>
+			<BuildingType>BUILDING_STUKOFEN</BuildingType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+
+        <!-- Мануфактура -->
+        <Row>
+			<BuildingType>BUILDING_TEXTILE_WORKSHOP</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_TEXTILE_WORKSHOP</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+
+        <!-- Кирпичный цех -->
+        <Row>
+			<BuildingType>BUILDING_BRICKSHOP</BuildingType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+
+        <!-- Ювелирная мастерская -->
+        <Row>
+			<BuildingType>BUILDING_JEWELRY</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+        <!-- Блауофен -->
+        <Row>
+			<BuildingType>BUILDING_BLAUOFEN</BuildingType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+
+    </Building_ResourceQuantityRequirements>
+
+</GameData>

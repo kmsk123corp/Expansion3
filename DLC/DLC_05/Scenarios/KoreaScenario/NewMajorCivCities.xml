@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Michael Curran (Firaxis Games) -->
+<!-- Created by ModBuddy on 11/12/2010 8:38:32 AM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+  <!-- TODO: Insert table data example here.-->
+  <!-- Add new entries -->
+  <Civilization_CityNames>
+    <Delete CivilizationType="CIVILIZATION_MONGOL"/>
+    <Row>
+      <CivilizationType>CIVILIZATION_MONGOL</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FE_ALA</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_MONGOL</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_YENDEN</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_MONGOL</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_XINGJING</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_MONGOL</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_MUKDEN</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_MONGOL</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_FUSHUN</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_MONGOL</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_QINGHE</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_MONGOL</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_SARHU</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_MONGOL</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_GIRIN_ULA</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_MONGOL</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_NANLING</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_MONGOL</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_TIELING</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_MONGOL</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_NINGDOTA</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_MONGOL</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_SIPING</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_MONGOL</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_LIAOYUAN</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_MONGOL</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_CHANGCHUN</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_MONGOL</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_HARBIN</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_KOREA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_UIJU</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_JINAN</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_SHANHAIGUAN</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_NINGYUAN</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_LIANYUNGANG</CityName>
+    </Row>
+    <Row>
+      <CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+      <CityName>TXT_KEY_CITY_NAME_LIAOYANG</CityName>
+    </Row>
+  </Civilization_CityNames>
+  <Defines>
+    <Replace Name="LOADING_SCREEN_MUSIC_OVERRIDE">
+      <Value>AS2D_SCENARIO_MUSIC_YELLOW_SEA_MUSIC</Value>
+    </Replace>
+    <Replace Name="LOADING_SCREEN_DAWN_OF_MAN_SPEECH_OVERRIDE">
+      <Value>AS2D_SCENARIO_SPEECH_YELLOW_SEA</Value>
+    </Replace>
+  </Defines>
+</GameData>

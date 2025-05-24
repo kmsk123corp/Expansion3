@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited kmsk | 01.02.2024 -->
+<GameData>
+
+    <!-- Стоимость постройки -->
+    <Building_ResourceCostRequirements>
+
+        <!-- Маяк -->
+		<Row>
+			<BuildingType>BUILDING_LIGHTHOUSE</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LIGHTHOUSE</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>25</Cost>
+		</Row>
+
+        <!-- Конюшня -->
+        <Row>
+			<BuildingType>BUILDING_STABLE</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<Cost>40</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_STABLE</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>40</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STABLE</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>40</Cost>
+		</Row>
+
+        <!-- Панская конюшня -->
+        <Row>
+			<BuildingType>BUILDING_DUCAL_STABLE</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DUCAL_STABLE</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>80</Cost>
+		</Row>
+
+        <!-- Ранчо -->
+        <Row>
+			<BuildingType>BUILDING_AMERICA_RANCH</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_AMERICA_RANCH</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICA_RANCH</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
+        <!-- Караван-сарай -->
+        <Row>
+			<BuildingType>BUILDING_CARAVANSARY</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CARAVANSARY</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>40</Cost>
+		</Row>
+
+        <!-- Арена -->
+        <Row>
+			<BuildingType>BUILDING_COLOSSEUM</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>25</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_COLOSSEUM</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COLOSSEUM</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
+        <!-- Коррида (Испания) -->
+        <Row>
+			<BuildingType>BUILDING_SPAIN_BULLRING</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SPAIN_BULLRING</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
+        <!-- Корд для игры в мяч (Майя) -->
+		<Row>
+			<BuildingType>BUILDING_MAYA_BALLCOURT</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_MAYA_BALLCOURT</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>60</Cost>
+		</Row>
+
+        <!-- Суд -->
+        <!-- <Row>
+			<BuildingType>BUILDING_COURTHOUSE</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>50</Cost>
+		</Row> -->
+
+        <!-- Лесопильня -->
+		<Row>
+			<BuildingType>BUILDING_MILLLUMBER</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MILLLUMBER</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
+        <!-- Водянная мельница -->
+		<Row>
+			<BuildingType>BUILDING_WATERMILL</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>40</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WATERMILL</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+
+        <!-- Печь для обжига кирпича -->
+        <Row>
+			<BuildingType>BUILDING_BRICKKILN</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>25</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BRICKKILN</BuildingType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+
+        <!-- Плавучие сады (Ацтеки) -->
+        <Row>
+			<BuildingType>BUILDING_FLOATING_GARDENS</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>60</Cost>
+		</Row>
+
+        <!-- Акведук -->
+        <Row>
+			<BuildingType>BUILDING_AQUEDUCT</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AQUEDUCT</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>25</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_AQUEDUCT</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
+
+        <!-- Каналы (Венеция) -->
+        <Row>
+			<BuildingType>BUILDING_VENICE_CANALS</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
+        <!-- Сыродутная печь -->
+        <Row>
+			<BuildingType>BUILDING_BLOOMERYE</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BLOOMERYE</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BLOOMERYE</BuildingType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+
+        <!-- Храм -->
+        <Row>
+			<BuildingType>BUILDING_TEMPLE</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>25</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+
+        <!-- Глинянная мечеть -->
+        <Row>
+            <BuildingType>BUILDING_MUD_PYRAMID_MOSQUE</BuildingType>
+            <ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+            <Cost>50</Cost>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MUD_PYRAMID_MOSQUE</BuildingType>
+            <ResourceType>RESOURCE_STONE</ResourceType>
+            <Cost>50</Cost>
+        </Row>
+
+        <!-- Гробница -->
+        <Row>
+			<BuildingType>BUILDING_BURIAL_TOMB</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>60</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BURIAL_TOMB</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BURIAL_TOMB</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+
+        <!-- Зиккурат -->
+        <Row>
+			<BuildingType>BUILDING_BABYLON_ZIGGURAT</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>40</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BABYLON_ZIGGURAT</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>80</Cost>
+		</Row>
+
+        <!-- Базилика -->
+        <Row>
+			<BuildingType>BUILDING_BYZANTINE_BASILICA</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>60</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BYZANTINE_BASILICA</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+
+        <!-- Зиллидж-мечеть -->
+        <Row>
+			<BuildingType>BUILDING_MOROCCO_ZELLIGE_TEMPLE</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>60</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MOROCCO_ZELLIGE_TEMPLE</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+
+        <!-- Монолитная церковь -->
+        <Row>
+			<BuildingType>BUILDING_ETHIOPIA_MONOLITHIC_CHURCH</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_ETHIOPIA_MONOLITHIC_CHURCH</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+
+        <!-- Амфитеатр -->
+        <Row>
+			<BuildingType>BUILDING_AMPHITHEATER</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_AMPHITHEATER</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_AMPHITHEATER</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>25</Cost>
+		</Row>
+
+        <!-- Рынок -->
+		<Row>
+			<BuildingType>BUILDING_MARKET</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>75</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MARKET</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
+        <!-- Базар -->
+		<Row>
+			<BuildingType>BUILDING_BAZAAR</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BAZAAR</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
+        <!-- Ангора -->
+		<Row>
+			<BuildingType>BUILDING_GREECE_AGORA</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREECE_AGORA</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
+        <!-- Форум -->
+		<Row>
+			<BuildingType>BUILDING_ROME_FORUM</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>40</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ROME_FORUM</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>40</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_ROME_FORUM</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>40</Cost>
+		</Row>
+
+        <!-- Купеческий двор -->
+		<Row>
+			<BuildingType>BUILDING_MERCHANTS_GUILD</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MERCHANTS_GUILD</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+
+        <!-- Монетный двор -->
+		<Row>
+			<BuildingType>BUILDING_MINT</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_MINT</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_MINT</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
+        <!-- Ветренная мельница -->
+		<Row>
+			<BuildingType>BUILDING_WINDMILL</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>80</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WINDMILL</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>40</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_WINDMILL</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
+
+
+        <!-- Углежогная печь -->
+        <Row>
+			<BuildingType>BUILDING_CARBONBURNER</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CARBONBURNER</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CARBONBURNER</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>25</Cost>
+		</Row>
+
+    </Building_ResourceCostRequirements>
+
+
+
+    <!-- Производит ресурсов -->
+    <Building_ResourceQuantity>
+
+        <!-- Конюшня -->
+        <Row>
+			<BuildingType>BUILDING_STABLE</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<Quantity>2</Quantity>
+		</Row>
+
+        <!-- Панская конюшня -->
+        <Row>
+			<BuildingType>BUILDING_DUCAL_STABLE</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<Quantity>3</Quantity>
+		</Row>
+
+        <!-- Ранчо -->
+        <Row>
+			<BuildingType>BUILDING_AMERICA_RANCH</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Quantity>6</Quantity>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_AMERICA_RANCH</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<Quantity>4</Quantity>
+		</Row>
+
+        <!-- Лесопильня -->
+		<Row>
+			<BuildingType>BUILDING_MILLLUMBER</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Quantity>10</Quantity>
+		</Row>
+
+        <!-- Водянная мельница -->
+        <Row>
+			<BuildingType>BUILDING_WATERMILL</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Quantity>6</Quantity>
+		</Row>
+
+        <!-- Плавучие сады -->
+        <Row>
+			<BuildingType>BUILDING_FLOATING_GARDENS</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Quantity>8</Quantity>
+		</Row>
+
+        <!-- Сыродутная печь -->
+        <Row>
+			<BuildingType>BUILDING_BLOOMERYE</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Quantity>5</Quantity>
+		</Row>
+
+        <!-- Печь для обжига кирпича -->
+        <Row>
+			<BuildingType>BUILDING_BRICKKILN</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Quantity>5</Quantity>
+		</Row>
+
+        <!-- Ветренная мельница -->
+		<Row>
+			<BuildingType>BUILDING_WINDMILL</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Quantity>10</Quantity>
+		</Row>
+
+
+
+        <!-- Углежогная печь -->
+        <Row>
+			<BuildingType>BUILDING_CARBONBURNER</BuildingType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Quantity>10</Quantity>
+		</Row>
+
+
+    </Building_ResourceQuantity>
+
+
+
+    <!-- Потребляет за ход -->
+	<Building_ResourceQuantityRequirements>
+
+        <!-- Конюшня -->
+        <Row>
+			<BuildingType>BUILDING_STABLE</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+        <!-- Панская конюшня -->
+        <Row>
+			<BuildingType>BUILDING_DUCAL_STABLE</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+
+        <!-- Арена -->
+        <Row>
+			<BuildingType>BUILDING_COLOSSEUM</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+        <!-- Лесопильня -->
+		<Row>
+			<BuildingType>BUILDING_MILLLUMBER</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_MILLLUMBER</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_MILLLUMBER</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+        <!-- Печь для обжига кирпича -->
+        <Row>
+			<BuildingType>BUILDING_BRICKKILN</BuildingType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+        <!-- Сыродутная печь -->
+        <Row>
+			<BuildingType>BUILDING_BLOOMERYE</BuildingType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+
+        <!-- Храм -->
+        <Row>
+			<BuildingType>BUILDING_TEMPLE</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+        <!-- Рынок -->
+		<Row>
+			<BuildingType>BUILDING_MARKET</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>4</Cost>
+		</Row>
+
+        <!-- Купеческий двор -->
+        <Row>
+			<BuildingType>BUILDING_MERCHANTS_GUILD</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+        <!-- Монетный двор -->
+        <Row>
+			<BuildingType>BUILDING_MINT</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_MINT</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+
+
+        <!-- Углежогная печь -->
+        <Row>
+			<BuildingType>BUILDING_CARBONBURNER</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+
+    </Building_ResourceQuantityRequirements>
+
+</GameData>

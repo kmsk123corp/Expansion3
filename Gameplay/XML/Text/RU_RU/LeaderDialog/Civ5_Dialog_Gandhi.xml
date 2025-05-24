@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_AGREE_SHORT_1">
+      <Text>Отлично.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_AGREE_SHORT_2">
+      <Text>Хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_AGREE_SHORT_3">
+      <Text>Конечно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_AGREE_SHORT_4">
+      <Text>Мы согласны.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_AGREE_SHORT_5">
+      <Text>О, очень хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_AGREE_SHORT_6">
+      <Text>Я вынужден согласиться.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_AGREE_SHORT_7">
+      <Text>Прекрасно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_ATTACKED_1">
+      <Text>Да будет так. Весь индийский народ не будет сопротивляться вашему нападению - только те, кто может держать в руках оружие.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_ATTACKED_2">
+      <Text>К сожалению, не все в моей стране готовы отказаться от насилия, поэтому позвольте мне заранее извиниться, если все ваши войска будут уничтожены.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_DECLAREWAR_1">
+      <Text>Как мне только что сообщили, наши несметные войска вступили на вашу землю. Лично я рекомендовал бы вам воспользоваться стратегией пассивного сопротивления - это единственный способ победить нас.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_DECLAREWAR_2">
+      <Text>Я посылаю воинов Индии в путешествие доброй воли по вашим основным городам. Надеюсь, мои люди будут встречены с распростертыми объятиями.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_DECLAREWAR_3">
+      <Text>Кажется, наши войска столь сильно восхищены вашей цивилизацией, что многие решили поселиться на ваших землях навсегда.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_DEFEATED_1">
+      <Text>Вы можете победить нашу армию, но вам никогда не покорить индийский дух.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_DEFEATED_2">
+      <Text>Вы покорили невинный и беззащитный народ. Поздравляю вас.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_DEFEATED_3">
+      <Text>Вы завоевали нас. Если вы желаете облегчить свою ужасную кармическую ношу и не оказаться в следующей жизни навозным жуком, я прошу вас проявить милосердие.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_DEMANDTRIBUTE_ANGRY">
+      <Text>Индия сердечно благодарит вас за пожертвование на благо мира и спокойствия.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_DEMANDTRIBUTE_HAPPY">
+      <Text>Мой друг, не могли бы вы поделиться с нами некоторыми благами мира.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_DEMANDTRIBUTE_NEUTRAL">
+      <Text>Индия бедна, а вы богаты. Возможно, ваша кармическая ноша может быть облегчена, ежели вы отдадите нам кое-что.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_DISAGREE_SHORT_1">
+      <Text>Нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_DISAGREE_SHORT_2">
+      <Text>Определенно нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_DISAGREE_SHORT_3">
+      <Text>Мы вынуждены отказать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_DISAGREE_SHORT_4">
+      <Text>Конечно же, нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_DISAGREE_SHORT_5">
+      <Text>Это неприемлемо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_DISAGREE_SHORT_6">
+      <Text>Вы, должно быть, шутите!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_DISAGREE_SHORT_7">
+      <Text>Прощу прощения, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_FIRSTGREETING_1">
+      <Text>От имени мирного индийского народа, я приветствую вас.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_FIRSTGREETING_2">
+      <Text>Добро пожаловать! Я надеюсь, наши народы смогут разделить щедрость Вселенной в миролюбивой гармонии!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_FIRSTGREETING_3">
+      <Text>От имени индийского народа я протягиваю вам руку дружбы!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_GOODBYE_1">
+      <Text>Хорошего вам дня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_GOODBYE_2">
+      <Text>Прощайте!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_GOODBYE_3">
+      <Text>До свидания.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_GOODBYE_4">
+      <Text>До следующей встречи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_GOODBYE_5">
+      <Text>Уходите сейчас же.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_GOODBYE_6">
+      <Text>На этом все.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_GOODBYE_7">
+      <Text>Дело сделано.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_GREETING_1">
+      <Text>Добро пожаловать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_GREETING_2">
+      <Text>Мое почтение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_GREETING_3">
+      <Text>Да будет с вами мир.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_GREETING_4">
+      <Text>Хорошего вам дня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_GREETING_5">
+      <Text>А, это вы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_GREETING_6">
+      <Text>Да, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_GREETING_7">
+      <Text>Чего вы хотите?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_LETSHEARIT_1">
+      <Text>Итак, я вас слушаю.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_LETSHEARIT_2">
+      <Text>Продолжайте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_LETSHEARIT_3">
+      <Text>Я весь внимание.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_LETSHEARIT_4">
+      <Text>Да?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_LETSHEARIT_5">
+      <Text>Что вы сказали?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_LETSHEARIT_6">
+      <Text>И?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_LETSHEARIT_7">
+      <Text>Что дальше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_LOSEWAR_1">
+      <Text>Я рад, что мы снова живем в мире, сколько бы он нам ни стоил.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_QUOTE_1">
+      <Text>Я против насилия. Потому что когда кажется, что зло делает добро, это добро ненадолго. А зло остается навечно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_QUOTE_2">
+      <Text>Я считаю себя солдатом, но солдатом мира.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_QUOTE_3">
+      <Text>В идеальном государстве, не прибегающем к насилию, должна быть анархия: чем лучше управление в государстве, тем его меньше.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_TRADE_NEEDMORE_ANGRY_1">
+      <Text>Я пацифист, но не дурак. Вам следует предложить нечто большее.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_TRADE_NEEDMORE_ANGRY_2">
+      <Text>Этого недостаточно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_TRADE_NEEDMORE_ANGRY_3">
+      <Text>Я жду от вас большего.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_TRADE_NEEDMORE_HAPPY_1">
+      <Text>Мне больно это говорить, но я никаким образом не могу согласиться с вашими условиями. Может быть, вы сделаете более серьезное предложение?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_TRADE_NEEDMORE_HAPPY_2">
+      <Text>И это все, что вы можете предложить?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_TRADE_NEEDMORE_HAPPY_3">
+      <Text>Вы почти достигли своей цели...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_TRADE_NEEDMORE_NEUTRAL_1">
+      <Text>Это нечестно по отношению к индийскому народу. Прошу вас изменить ваше предложение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_TRADE_NEEDMORE_NEUTRAL_2">
+      <Text>Боюсь, вам придется предложить нечто большее.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_TRADE_NEEDMORE_NEUTRAL_3">
+      <Text>Этого не хватит.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_TRADE_NEEDMORE_NEUTRAL_4">
+      <Text>Маловато.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_TRADE_NO_ANGRY">
+      <Text>Согласиться с такими условиями было бы крайне глупо. Нет, спасибо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_TRADE_NO_HAPPY">
+      <Text>Сожалею, но сейчас я не могу принять ваши условия.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_TRADE_NO_NEUTRAL">
+      <Text>Такое соглашение не отвечает интересам индийского народа.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_TRADE_YES_ANGRY">
+      <Text>А вы мудрее, чем кажетесь. Я согласен с вашими условиями.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_TRADE_YES_HAPPY">
+      <Text>Согласен. Уверен, что обе стороны извлекут из этого договора равную выгоду.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_TRADE_YES_NEUTRAL">
+      <Text>Это справедливо. Очень хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_TRADEREQUEST_ANGRY">
+      <Text>Безусловно, ваша несчастная цивилизация сможет извлечь выгоду от торговли с более удачливыми народами вроде нашего.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_TRADEREQUEST_HAPPY">
+      <Text>Мой друг, заинтересованы ли вы вот в такой сделке? </Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_TRADEREQUEST_NEUTRAL">
+      <Text>Честная торговля выгодна всем, не так ли?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_TRIBUTE_NO_ANGRY">
+      <Text>Мои полководцы говорят, что не могут дать вам искомого. Тем не менее они предлагают вам "прийти и взять самим". Я не вполне понимаю, что они имеют в виду.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_TRIBUTE_NO_HAPPY">
+      <Text>Мне кажется, это звучит несколько странно. Мы ваши друзья, но не рабы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_TRIBUTE_NO_NEUTRAL">
+      <Text>Хотя я твердо верю в отказ от насилия, индийский народ еще не столь просвещен. Все от души смеются над вашими требованиями.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_TRIBUTE_YES_ANGRY">
+      <Text>Неприкрытая жадность - не лучшая черта правителя. И все же ради сохранения мира мы примем ваши требования.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_TRIBUTE_YES_HAPPY">
+      <Text>Конечно! Я не могут отказать вам ни в чем.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_TRIBUTE_YES_NEUTRAL">
+      <Text>Все что угодно, лишь бы сохранить мир. Мы согласны.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_WARBLUFF_1">
+      <Text>Очень жаль.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_WARBLUFF_2">
+      <Text>Какое разочарование.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_WARBLUFF_3">
+      <Text>Как же вы глупы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_WARBLUFF_4">
+      <Text>Любопытно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_WINWAR_1">
+      <Text>Я же говорил вам, что насилие бесполезно! Пусть это послужит вам уроком. Вы непременно одержали бы победу, оказывая лишь пассивное сопротивление.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_GANDHI_WINWAR_2">
+      <Text>Непротивление насилию вновь приносит победу! Может быть, теперь вы поймете истинную силу пассивного сопротивления.</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

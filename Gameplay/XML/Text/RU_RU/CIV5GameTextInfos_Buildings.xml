@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_BUILDING_ACADEMY">
+      <Text>Академия|академии|академии|академию|академией|академии</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_ANGKOR_WAT">
+      <Text>Ангкор-Ват|Ангкор-Вата|Ангкор-Вату|Ангкор-Ват|Ангкор-Ватом|Ангкор-Вате</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_AQUEDUCT">
+      <Text>Акведук|акведука|акведуку|акведук|акведуком|акведуке</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_ARMORY">
+      <Text>Оружейная|оружейной|оружейной|оружейную|оружейной|оружейной</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_ARSENAL">
+      <Text>Арсенал|арсенала|арсеналу|арсенал|арсеналом|арсенале</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_BANK">
+      <Text>Банк|банка|банку|банк|банком|банке</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_BARRACKS">
+      <Text>Казармы|казарм|казармам|казармы|казармами|казармах</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_BIG_BEN">
+      <Text>Биг-Бен|Биг-Бена|Биг-Бену|Биг-Бен|Биг-Беном|Биг-Бене</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_BRANDENBURG_GATE">
+      <Text>Бранденбург. ворота|Бранденбург. ворот|Бранденбург. воротам|Бранденбург. ворота|Бранденбург. воротами|Бранденбург. воротах</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_BROADCAST_TOWER">
+      <Text>Радиовышка|радиовышки|радиовышке|радиовышку|радиовышкой|радиовышке</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_CASTLE">
+      <Text>Замок|замка|замку|замок|замком|замке</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_CHICHEN_ITZA">
+      <Text>Чичен-Ица|Чичен-Ицы|Чичен-Ице|Чичен-Ицу|Чичен-Ицой|Чичен-Ице</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_CIRCUS">
+      <Text>Цирк|цирка|цирку|цирк|цирком|цирке</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+
+    <Row Tag="TXT_KEY_BUILDING_COLOSSEUM">
+      <Text>Арена|арены|арене|арену|ареной|арене</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_COLOSSUS">
+      <Text>Колосс|Колосса|Колоссу|Колосс|Колоссом|Колоссе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_COURTHOUSE">
+      <Text>Суд|суда|суду|суд|судом|суде</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_CRISTO_REDENTOR">
+      <Text>Христос-Искупитель|Христа-Искупителя|Христу-Искупителю|Христа-Искупителя|Христом-Искупителем|Христе-Искупителе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_EIFFEL_TOWER">
+      <Text>Эйфелева башня|Эйфелевой башни|Эйфелевой башне|Эйфелеву башню|Эйфелевой башней|Эйфелевой башне</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_FACTORY">
+      <Text>Фабрика|фабрики|фабрике|фабрику|фабрикой|фабрике</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_FORBIDDEN_PALACE">
+      <Text>Запретный город|Запретного города|Запретному городу|Запретный город|Запретным городом|Запретном городе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_FORGE">
+      <Text>Кузница|кузницы|кузнице|кузницу|кузницей|кузнице</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+
+
+    <Row Tag="TXT_KEY_BUILDING_GREAT_LIBRARY">
+      <Text>Великая библиотека|Великой библиотеки|Великой библиотеке|Великую библиотеку|Великой библиотекой|Великой библиотеке</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+
+    <Row Tag="TXT_KEY_BUILDING_GREAT_WALL">
+      <Text>Великая стена|Великой стены|Великой стене|Великую стену|Великой стеной|Великой стене</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_GROCER">
+      <Text>Бакалея|бакалеи|бакалее|бакалею|бакалеей|бакалее</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_HAGIA_SOPHIA">
+      <Text>Собор Святой Софии|собора Святой Софии|собору Святой Софии|собор Святой Софии|собором Святой Софии|соборе Святой Софии</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+
+
+    <Row Tag="TXT_KEY_BUILDING_HERMITAGE">
+      <Text>Эрмитаж|Эрмитажа|Эрмитажу|Эрмитаж|Эрмитажем|Эрмитаже</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_HEROIC_EPIC">
+      <Text>Героический эпос|героического эпоса|героическому эпосу|героический эпос|героическим эпосом|героическом эпосе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_HIMEJI_CASTLE">
+      <Text>Замок Химэдзи|замка Химэдзи|замку Химэдзи|замок Химэдзи|замком Химэдзи|замке Химэдзи</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_HOSPITAL">
+      <Text>Больница|больницы|больнице|больницу|больницей|больнице</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_HYDRO_PLANT">
+      <Text>ГЭС|ГЭС|ГЭС|ГЭС|ГЭС|ГЭС</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    
+    <Row Tag="TXT_KEY_BUILDING_KREMLIN">
+      <Text>Кремль|Кремля|Кремлю|Кремль|Кремлем|Кремле</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_KREPOST_DESC">
+      <Text>Острог|острога|острогу|острог|острогом|остроге</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_LABORATORY">
+      <Text>Лаборатория|лаборатории|лаборатории|лабораторию|лабораторией|лаборатории</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_LIBRARY">
+      <Text>Библиотека|библиотеки|библиотеке|библиотеку|библиотекой|библиотеке</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+
+    <Row Tag="TXT_KEY_BUILDING_LOUVRE">
+      <Text>Лувр|Лувра|Лувру|Лувр|Лувром|Лувре</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+
+    <Row Tag="TXT_KEY_BUILDING_MARKET">
+      <Text>Рынок|рынка|рынку|рынок|рынком|рынке</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MEDICAL_LAB">
+      <Text>Мед. лаборатория|мед. лаборатории|мед. лаборатории|мед. лабораторию|мед. лабораторией|мед. лаборатории</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MILITARY_ACADEMY">
+      <Text>Военная академия|военной академии|военной академии|военную академию|военной академией|военной академии</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MILITARY_BASE">
+      <Text>Военная база|военной базы|военной базе|военную базу|военной базой|военной базе</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+
+    <Row Tag="TXT_KEY_BUILDING_MUGHAL_FORT_DESC">
+      <Text>Красный форт|красного форта|красному форту|красный форт|красным фортом|красном форте</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MUSEUM">
+      <Text>Музей|музея|музею|музей|музеем|музее</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_NATIONAL_COLLEGE">
+      <Text>Нац. колледж|нац. колледжа|нац. колледжу|нац. колледж|нац. колледжем|нац. колледже</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+
+    <Row Tag="TXT_KEY_BUILDING_NATIONAL_TREASURY">
+      <Text>Государственная казна|государственной казны|государственной казне|государственную казну|государственной казной|государственной казне</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_NOTRE_DAME">
+      <Text>Нотр-Дам|Нотр-Дама|Нотр-Даму|Нотр-Дам|Нотр-Дамом|Нотр-Даме</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_NUCLEAR_PLANT">
+      <Text>АЭС|АЭС|АЭС|АЭС|АЭС|АЭС</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_OBSERVATORY">
+      <Text>Обсерватория|обсерватории|обсерватории|обсерваторию|обсерваторией|обсерватории</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_OPERA_HOUSE">
+      <Text>Опера|оперы|опере|оперу|оперой|опере</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_ORACLE">
+      <Text>Оракул|оракула|оракулу|оракула|оракулом|оракуле</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+
+    <Row Tag="TXT_KEY_BUILDING_PALACE">
+      <Text>Дворец|дворца|дворцу|дворец|дворцом|дворце</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_PARK">
+      <Text>Парк|парка|парку|парк|парком|парке</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_PENTAGON">
+      <Text>Пентагон|Пентагона|Пентагону|Пентагон|Пентагоном|Пентагоне</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_PORCELAIN_TOWER">
+      <Text>Фарфоровая пагода|Фарфоровой пагоды|Фарфоровой пагоде|Фарфоровую пагоду|Фарфоровой пагодой|Фарфоровой пагоде</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_PUBLIC_SCHOOL">
+      <Text>Школа|школы|школе|школу|школой|школе</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+
+    <Row Tag="TXT_KEY_BUILDING_SEAPORT">
+      <Text>Морской порт|морского порта|морскому порту|морской порт|морским портом|морском порте</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_SISTINE_CHAPEL">
+      <Text>Сикстинская капелла|Сикстинской капеллы|Сикстинской капелле|Сикстинскую капеллу|Сикстинской капеллой|Сикстинской капелле</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_SOLAR_PLANT">
+      <Text>Солнечная ЭС|солнечной ЭС|солнечной ЭС|солнечную ЭС|солнечной ЭС|солнечной ЭС</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_SPACESHIP_FACTORY">
+      <Text>Завод косм. кораблей|завода косм. кораблей|заводу косм. кораблей|завод косм. кораблей|заводом косм. кораблей|заводе косм. кораблей</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_STABLE">
+      <Text>Конюшня|конюшни|конюшне|конюшню|конюшней|конюшне</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_STATUE_OF_LIBERTY">
+      <Text>Статуя Свободы|статуи Свободы|статуе Свободы|статую Свободы|статуей Свободы|статуе Свободы</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_STOCK_EXCHANGE">
+      <Text>Биржа|биржи|бирже|биржу|биржей|бирже</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+
+
+    <Row Tag="TXT_KEY_BUILDING_TAJ_MAHAL">
+      <Text>Тадж-Махал|Тадж-Махала|Тадж-Махалу|Тадж-Махал|Тадж-Махалом|Тадж-Махале</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_TEMPLE">
+      <Text>Храм|храма|храму|храм|храмом|храме</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_THEATRE">
+      <Text>Театр|театра|театру|театр|театром|театре</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_UNITED_NATIONS">
+      <Text>ООН|ООН|ООН|ООН|ООН|ООН</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_UNIVERSITY">
+      <Text>Университет|университета|университету|университет|университетом|университете</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+
+
+
+
+    <Row Tag="TXT_KEY_PROJECT_UTOPIA_PROJECT">
+      <Text>Проект "Утопия"|проекта "Утопия"|проекту "Утопия"|проект "Утопия"|проектом "Утопия"|проекте "Утопия"</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+  </Language_RU_RU>
+</GameData>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_MAP_ASIA_HELP">
+      <Text>Большой мир, в котором доминируют Гималаи и джунгли юго-восточной Азии.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_ASIA_TITLE">
+      <Text>Азия</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

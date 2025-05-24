@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_AGREE_SHORT_1">
+      <Text>Отлично.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_AGREE_SHORT_2">
+      <Text>Хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_AGREE_SHORT_3">
+      <Text>Конечно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_AGREE_SHORT_4">
+      <Text>Принято.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_AGREE_SHORT_5">
+      <Text>О, очень хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_AGREE_SHORT_6">
+      <Text>Вынужден принять.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_AGREE_SHORT_7">
+      <Text>Прекрасно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_ATTACKED_1">
+      <Text>Ничего хорошего от вас я и не ожидал. Не беспокойтесь, вы не застали нас врасплох.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_ATTACKED_2">
+      <Text>Да как вы посмели! Я смою это оскорбление вашей кровью!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_ATTACKED_3">
+      <Text>Это нас уже не интересует - мы все равно вас уничтожим.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_DECLAREWAR_1">
+      <Text>Вы больше не будете оскорблять нас. Готовьтесь к войне!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_DECLAREWAR_2">
+      <Text>Ваше возмутительное и оскорбительное поведение не оставляет нам выбора. Готовьтесь к войне!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_DECLAREWAR_3">
+      <Text>Подлое отродье! Я уничтожу ваше высокомерие вместе с вами!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_DEFEATED_1">
+      <Text>Все потеряно, кроме чести. Теперь у меня есть только один путь. Я прощаюсь с вами.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_DEFEATED_2">
+      <Text>Вы все-таки победили меня. Теперь мне придется уйти. Прощайте!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_DEFEATED_3">
+      <Text>Поздравляю вас с победой. Теперь мне остается одно. Прощайте!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_DEMANDTRIBUTE_ANGRY">
+      <Text>Вот мои условия. Либо примите их, либо умрите.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_DEMANDTRIBUTE_HAPPY">
+      <Text>Мой друг, не поможете ли вы нам в нашу трудную минуту?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_DEMANDTRIBUTE_NEUTRAL">
+      <Text>Если хотите выжить, то лучше вам согласиться с нашими условиями.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_DISAGREE_SHORT_1">
+      <Text>Нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_DISAGREE_SHORT_2">
+      <Text>Определенно нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_DISAGREE_SHORT_3">
+      <Text>Мы вынуждены отказать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_DISAGREE_SHORT_4">
+      <Text>Конечно же, нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_DISAGREE_SHORT_5">
+      <Text>Это неприемлемо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_DISAGREE_SHORT_6">
+      <Text>Вы, должно быть, шутите!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_DISAGREE_SHORT_7">
+      <Text>Прощу прощения, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_FIRSTGREETING_1">
+      <Text>Сиам приветствует вас, чужестранец, Меня зовут Рамкамхенг. Ваш визит - большая честь для нас.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_FIRSTGREETING_2">
+      <Text>Знакомство с вами - большая честь. Я Рамкамхенг, правитель Сиама.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_FIRSTGREETING_3">
+      <Text>Приветствую вас. Я Рамкамхенг, король Сиама. Ваше посещение нашей скромной страны - большая честь для нас.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_GOODBYE_1">
+      <Text>Хорошего вам дня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_GOODBYE_2">
+      <Text>Прощайте!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_GOODBYE_3">
+      <Text>До свидания.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_GOODBYE_4">
+      <Text>До следующей встречи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_GOODBYE_5">
+      <Text>Уходите сейчас же.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_GOODBYE_6">
+      <Text>На этом все.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_GOODBYE_7">
+      <Text>Дело сделано.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_GREETING_1">
+      <Text>Добро пожаловать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_GREETING_2">
+      <Text>Здравствуйте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_GREETING_3">
+      <Text>Приветствую.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_GREETING_4">
+      <Text>Хорошего вам дня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_GREETING_5">
+      <Text>А, это вы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_GREETING_6">
+      <Text>Да, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_GREETING_7">
+      <Text>Чего вы хотите?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_LETSHEARIT_1">
+      <Text>Так...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_LETSHEARIT_2">
+      <Text>Продолжайте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_LETSHEARIT_3">
+      <Text>Я весь внимание.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_LETSHEARIT_4">
+      <Text>Да?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_LETSHEARIT_5">
+      <Text>Что вы сказали?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_LETSHEARIT_6">
+      <Text>И?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_LETSHEARIT_7">
+      <Text>Что дальше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_LOSEWAR_1">
+      <Text>Сегодня вы одержали победу. Но я еще отомщу!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADE_NEEDMORE_ANGRY_1">
+      <Text>Ваше предложение несправедливо и непорядочно. Я ожидал другого от вас. Улучшите его или уходите.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADE_NEEDMORE_ANGRY_2">
+      <Text>Этого недостаточно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADE_NEEDMORE_ANGRY_3">
+      <Text>Вы должны предложить больше.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADE_NEEDMORE_HAPPY_1">
+      <Text>Уверен, вы не собирались оскорблять меня, однако ваше предложение несправедливо. Могу ли я рассчитывать на его улучшение?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADE_NEEDMORE_HAPPY_2">
+      <Text>И это все, что вы можете предложить?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADE_NEEDMORE_HAPPY_3">
+      <Text>Уже почти готово, но...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADE_NEEDMORE_NEUTRAL_1">
+      <Text>Вы предлагаете ничтожно мало. Не позорьтесь, предложите больше.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADE_NEEDMORE_NEUTRAL_2">
+      <Text>Можете повысить цену?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADE_NEEDMORE_NEUTRAL_3">
+      <Text>Этого не хватит.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADE_NEEDMORE_NEUTRAL_4">
+      <Text>Надо бы немного добавить...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADE_NO_ANGRY">
+      <Text>Нельзя торговать с человеком, не имеющим чести. Уходите.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADE_NO_HAPPY">
+      <Text>Уверен, вы не хотели проявить ко мне неуважение, но я не могу согласиться на ваши условия.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADE_NO_NEUTRAL">
+      <Text>Я нахожу ваше предложение оскорбительным для сиамского народа. Я отказываюсь его принять.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADE_YES_ANGRY">
+      <Text>Прекрасно. Ваши условия нас полностью устраивают.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADE_YES_HAPPY">
+      <Text>Принять ваше предложение - честь для нас, мой друг.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADE_YES_NEUTRAL">
+      <Text>Честная сделка приносит почет и уважение обеим сторонам. Я согласен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADEREQUEST_ANGRY">
+      <Text>Вот мои условия. Прошу вас принять их.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADEREQUEST_HAPPY">
+      <Text>Вы окажете мне великую честь, если согласитесь на мое предложение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRADEREQUEST_NEUTRAL">
+      <Text>Приветствую. Я верю, что эта сделка принесет выгоду обеим сторонам. Что скажете?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRIBUTE_NO_ANGRY">
+      <Text>Прочь, ничтожная тварь! Ваше присутствие - позор для моего двора!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRIBUTE_NO_HAPPY">
+      <Text>С большой неохотой я вынужден отказать вам в вашей просьбе.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRIBUTE_NO_NEUTRAL">
+      <Text>Да я скорее умру, чем смирюсь с таким унижением!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRIBUTE_YES_ANGRY">
+      <Text>Высокомерный пес! Я отомщу за такое бесчестие!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRIBUTE_YES_HAPPY">
+      <Text>Как ваш гость и ваш друг, я не могу отказать вам ни в чем.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_TRIBUTE_YES_NEUTRAL">
+      <Text>Очень хорошо. Кажется, у меня нет выбора. Но когда-нибудь я отомщу за это оскорбление.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_WARBLUFF_1">
+      <Text>Вы ведете очень опасную игру.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_WARBLUFF_2">
+      <Text>Хорошо. Но в следующий раз я не буду столь любезен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_WARBLUFF_3">
+      <Text>Очень жаль.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_WARBLUFF_4">
+      <Text>Какое разочарование.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_WARBLUFF_5">
+      <Text>Неужели? Это весьма недальновидное решение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_WARBLUFF_6">
+      <Text>Как же вы глупы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_WINWAR_1">
+      <Text>Вы были полностью разбиты. Как вы можете жить с таким позором?</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

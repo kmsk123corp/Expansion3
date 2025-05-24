@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited koba | 01.02.2024 -->
+<GameData>
+
+    <Buildings>
+
+        <!-- ########## -->
+        <!-- Рубка леса -->
+        <!-- ########## -->
+
+        <!-- Деревянный частокол -->
+        <Row>
+            <Type>BUILDING_CITYWALL</Type>
+            <BuildingClass>BUILDINGCLASS_CITYWALL</BuildingClass>
+            <Cost>90</Cost>
+            <PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
+            <Help>TXT_KEY_BUILDING_WALLS_STRATEGY</Help>
+            <Description>TXT_KEY_BUILDING_WALLS</Description>
+            <Civilopedia>TXT_KEY_CIV5_BUILDINGS_WALLS_TEXT</Civilopedia>
+            <Strategy>TXT_KEY_BUILDING_WALLS_STRATEGY</Strategy>
+            <MinAreaSize>-1</MinAreaSize>
+            <AllowsRangeStrike>true</AllowsRangeStrike>
+            <ExtraCityHitPoints>100</ExtraCityHitPoints>
+            <CityWall>true</CityWall>
+            <HurryCostModifier>25</HurryCostModifier>
+            <IconAtlas>BW_ATLAS_1</IconAtlas>
+            <PortraitIndex>32</PortraitIndex>
+        </Row>
+
+        <!-- ############### -->
+        <!-- Рыбаловные сети -->
+        <!-- ############### -->
+
+        <!-- Рыбацкая хижина -->
+		<Row>
+			<Type>BUILDING_FISH_HOUSE</Type>
+			<BuildingClass>BUILDINGCLASS_FISH_HOUSE</BuildingClass>
+			<Cost>60</Cost>
+			<PrereqTech>TECH_FISHING</PrereqTech>
+			<Help>TXT_KEY_BUILDING_FISH_HOUSE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_FISH_HOUSE</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_FISH_HOUSE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_FISH_HOUSE_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_FISH_HOUSE</ArtDefineTag>
+			<ConquestProb>66</ConquestProb>
+			<FreshWater>true</FreshWater>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<PortraitIndex>42</PortraitIndex>
+			<IconAtlas>Building_IconAtlas</IconAtlas>
+		</Row>
+
+        <!-- Рыбный загон (Полинезия) -->
+        <Row>
+			<Type>BUILDING_POLYNESIA_FISH_POND</Type>
+			<BuildingClass>BUILDINGCLASS_FISH_HOUSE</BuildingClass>
+			<Cost>60</Cost>
+			<PrereqTech>TECH_FISHING</PrereqTech>
+			<Description>TXT_KEY_BUILDING_POLYNESIA_FISH_POND</Description>
+			<Civilopedia>TXT_KEY_BUILDING_POLYNESIA_FISH_POND_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_POLYNESIA_FISH_POND_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_POLYNESIA_FISH_POND_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_WATERMILL</ArtDefineTag>
+			<Water>true</Water>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>NEW_UNIQUE_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>11</PortraitIndex>
+		</Row>
+
+        <!-- ############## -->
+        <!-- Гончарное дело -->
+        <!-- ############## -->
+
+        <!-- Погреб -->
+        <Row>
+            <Type>BUILDING_CELLAR</Type>
+            <BuildingClass>BUILDINGCLASS_CELLAR</BuildingClass>
+            <FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
+            <Cost>60</Cost>
+            <PrereqTech>TECH_POTTERY</PrereqTech>
+            <!-- <Help>TXT_KEY_BUILDING_CELLAR_HELP</Help> -->
+            <Description>TXT_KEY_BUILDING_CELLAR</Description>
+            <Civilopedia>TXT_KEY_CIV5_BUILDINGS_CELLAR_TEXT</Civilopedia>
+            <!-- <Strategy>TXT_KEY_BUILDING_CELLAR_STRATEGY</Strategy> -->
+            <MinAreaSize>-1</MinAreaSize>
+            <ConquestProb>66</ConquestProb>
+            <HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>Building_IconAtlas</IconAtlas>
+            <PortraitIndex>47</PortraitIndex>
+        </Row>
+
+        <!-- Гончарная мастерская -->
+        <Row>
+            <Type>BUILDING_POTTERY_WORKSHOP</Type>
+            <BuildingClass>BUILDINGCLASS_POTTERY_WORKSHOP</BuildingClass>
+            <FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
+            <Cost>90</Cost>
+            <Happiness>1</Happiness>
+            <PrereqTech>TECH_POTTERY</PrereqTech>
+            <Description>TXT_KEY_BUILDING_POTTERY_WORKSHOP</Description>
+            <MinAreaSize>-1</MinAreaSize>
+            <ConquestProb>66</ConquestProb>
+            <HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>Building_IconAtlas</IconAtlas>
+            <PortraitIndex>46</PortraitIndex>
+        </Row>
+
+
+
+        <!-- ########## -->
+        <!-- Углежжение -->
+        <!-- ########## -->
+
+        <!-- Углежогная яма -->
+		<Row>
+			<Type>BUILDING_CHARCOAL_BURNER</Type>
+			<BuildingClass>BUILDINGCLASS_CHARCOAL_BURNER</BuildingClass>
+			<Cost>30</Cost>
+			<PrereqTech>TECH_CHARRING</PrereqTech>
+			<Help>TXT_KEY_BUILDING_CHARCOAL_BURNER_HELP</Help>
+			<Description>TXT_KEY_BUILDING_CHARCOAL_BURNER</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_CHARCOAL_BURNER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_CHARCOAL_BURNER_STRATEGY</Strategy>
+			<ConquestProb>66</ConquestProb>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>Building_IconAtlas</IconAtlas>
+			<PortraitIndex>16</PortraitIndex>
+		</Row>
+
+        <!-- ############## -->
+        <!-- Животноводство -->
+        <!-- ############## -->
+
+        <!-- Кожевая мастерская -->
+		<Row>
+			<Type>BUILDING_TANNER_HOUSE</Type>
+			<BuildingClass>BUILDINGCLASS_TANNER_HOUSE</BuildingClass>
+			<Cost>60</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<Happiness>1</Happiness>
+			<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_TANNER_HOUSE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_TANNER_HOUSE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_TANNER_HOUSE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_TANNER_HOUSE_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_TANNER_HOUSE</ArtDefineTag>
+			<ConquestProb>66</ConquestProb>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<PortraitIndex>25</PortraitIndex>
+			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
+		</Row>
+
+    </Buildings>
+
+    <!-- Производит -->
+    <Building_YieldChanges>
+
+        <Row>
+            <BuildingType>BUILDING_CELLAR</BuildingType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_CELLAR</BuildingType>
+            <YieldType>YIELD_PRODUCTION</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_POTTERY_WORKSHOP</BuildingType>
+            <YieldType>YIELD_GOLD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_FISH_HOUSE</BuildingType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>3</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
+            <YieldType>YIELD_PRODUCTION</YieldType>
+            <Yield>1</Yield>
+        </Row>
+
+    </Building_YieldChanges>
+
+    <!-- Проценты к производству -->
+    <Building_YieldModifiers>
+
+
+    </Building_YieldModifiers>
+
+
+    <!-- С клеток озера -->
+    <Building_LakePlotYieldChanges>
+        <Row>
+            <BuildingType>BUILDING_FISH_HOUSE</BuildingType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>2</Yield>
+        </Row>
+    </Building_LakePlotYieldChanges>
+
+    <!-- Улучшает клетки с ресурсами -->
+    <Building_ResourceYieldChanges>
+        <Row>
+            <BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
+            <ResourceType>RESOURCE_FISH</ResourceType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
+            <ResourceType>RESOURCE_WHALE</ResourceType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+
+        <Row>
+            <BuildingType>BUILDING_TANNER_HOUSE</BuildingType>
+            <ResourceType>RESOURCE_DEER</ResourceType>
+            <YieldType>YIELD_GOLD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_TANNER_HOUSE</BuildingType>
+            <ResourceType>RESOURCE_SHEEP</ResourceType>
+            <YieldType>YIELD_GOLD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_TANNER_HOUSE</BuildingType>
+            <ResourceType>RESOURCE_COW</ResourceType>
+            <YieldType>YIELD_GOLD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_TANNER_HOUSE</BuildingType>
+            <ResourceType>RESOURCE_BISON</ResourceType>
+            <YieldType>YIELD_GOLD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_TANNER_HOUSE</BuildingType>
+            <ResourceType>RESOURCE_FUR</ResourceType>
+            <YieldType>YIELD_GOLD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_TANNER_HOUSE</BuildingType>
+            <ResourceType>RESOURCE_HORSE</ResourceType>
+            <YieldType>YIELD_GOLD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+    </Building_ResourceYieldChanges>
+
+    <!-- Может быть построенно только с этим ресурсом -->
+    <Building_LocalResourceOrs>
+        <Row>
+            <BuildingType>BUILDING_TANNER_HOUSE</BuildingType>
+            <ResourceType>RESOURCE_DEER</ResourceType>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_TANNER_HOUSE</BuildingType>
+            <ResourceType>RESOURCE_SHEEP</ResourceType>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_TANNER_HOUSE</BuildingType>
+            <ResourceType>RESOURCE_COW</ResourceType>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_TANNER_HOUSE</BuildingType>
+            <ResourceType>RESOURCE_BISON</ResourceType>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_TANNER_HOUSE</BuildingType>
+            <ResourceType>RESOURCE_FUR</ResourceType>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_TANNER_HOUSE</BuildingType>
+            <ResourceType>RESOURCE_HORSE</ResourceType>
+        </Row>
+    </Building_LocalResourceOrs>
+
+
+    <!-- Клетки с океаном -->
+    <Building_SeaPlotYieldChanges>
+
+    </Building_SeaPlotYieldChanges>
+
+
+    <!-- Производит от каждого жителя города в процентах -->
+    <Building_YieldChangesPerPop>
+
+    </Building_YieldChangesPerPop>
+
+
+    <!-- Опыт юнитам -->
+    <Building_DomainFreeExperiences>
+        <Row>
+            <BuildingType>BUILDING_MONGOL_GER</BuildingType>
+            <DomainType>DOMAIN_LAND</DomainType>
+            <Experience>15</Experience>
+        </Row>
+    </Building_DomainFreeExperiences>
+
+
+
+    <!-- С клеток леса -->
+    <Building_FeatureYieldChanges>
+
+    </Building_FeatureYieldChanges>
+
+
+    <!-- Для постройки нужно здание -->
+    <Building_ClassesNeededInCity>
+
+    </Building_ClassesNeededInCity>
+
+    <!-- Для ботов похоже... -->
+    <Building_Flavors>
+        <Row>
+            <BuildingType>BUILDING_CITYWALL</BuildingType>
+            <FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+            <Flavor>10</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_CITYWALL</BuildingType>
+            <FlavorType>FLAVOR_OFFENSE</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+
+        <Row>
+            <BuildingType>BUILDING_FISH_HOUSE</BuildingType>
+            <FlavorType>FLAVOR_GROWTH</FlavorType>
+            <Flavor>10</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
+            <FlavorType>FLAVOR_GROWTH</FlavorType>
+            <Flavor>30</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
+            <FlavorType>FLAVOR_SCIENCE</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
+            <FlavorType>FLAVOR_PRODUCTION</FlavorType>
+            <Flavor>20</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_CELLAR</BuildingType>
+            <FlavorType>FLAVOR_GROWTH</FlavorType>
+            <Flavor>10</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_CELLAR</BuildingType>
+            <FlavorType>FLAVOR_PRODUCTION</FlavorType>
+            <Flavor>10</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_POTTERY_WORKSHOP</BuildingType>
+            <FlavorType>FLAVOR_GOLD</FlavorType>
+            <Flavor>10</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_CHARCOAL_BURNER</BuildingType>
+            <FlavorType>FLAVOR_PRODUCTION</FlavorType>
+            <Flavor>20</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_TANNER_HOUSE</BuildingType>
+            <FlavorType>FLAVOR_GOLD</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+    </Building_Flavors>
+
+</GameData>

@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+
+    <Row Tag="TXT_KEY_BUILDING_ENGLAND_PLAYHOUSE">
+      <Text>Плейхаус|плейхауса|плейхаусу|плейхаус|плейхаусом|плейхаусе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+
+
+
+
+
+
+
+
+
+
+    <Row Tag="TXT_KEY_BUILDING_PORTUGAL_CASA_DA_INDIA">
+      <Text>Каса да Индия|Каса да Индия|Каса да Индия|Каса да Индия|Каса да Индия|Каса да Индия</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_CARTHAGE_COTHON">
+      <Text>Кофон|кофона|кофону|кофон|кофоном|кофоне</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+
+
+
+
+    <Row Tag="TXT_KEY_BUILDING_SWEDEN_HOGSKOLA">
+      <Text>Хогскола|хогсколы|хогсколе|хогсколу|хогсколой|хогсколе</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_FRANCE_SALON">
+      <Text>Салон|салона|салону|салон|салоном|салоне</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+
+
+    <Row Tag="TXT_KEY_BUILDING_RESTAURANT">
+      <Text>Ресторан|ресторана|ресторану|ресторан|рестораном|ресторане</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+
+
+    <Row Tag="TXT_KEY_BUILDING_COMMUNICATION_STATION">
+      <Text>Станция связи|станции связи|станции связи|станцию связи|станцией связи|станции связи</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_TRANSPORT">
+      <Text>Транспортный комплекс|транспортного комплекса|транспортному комплексу|транспортный комплекс|транспортным комплексом|транспортном комплексе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    
+    <Row Tag="TXT_KEY_BUILDING_CORPORATION">
+      <Text>Торговая корпорация|торговой корпорации|торговой корпорации|торговую корпорацию|торговой корпорацией|торговой корпорации</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_CASINO">
+      <Text>Игровые залы|игровых залов|игровым залам|игровые залы|игровыми залами|игровых залах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_TRANSPORT">
+      <Text>Транспортный комплекс|транспортного комплекса|транспортному комплексу|транспортный комплекс|транспортным комплексом|транспортном комплексе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_ALHAMBRA">
+      <Text>Альгамбра|Альгамбры|Альгамбре|Альгамбру|Альгамброй|Альгамбре</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_AMPHITHEATER">
+      <Text>Амфитеатр|амфитеатра|амфитеатру|амфитеатр|амфитеатром|амфитеатре</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_BOMB_SHELTER">
+      <Text>Бомбоубежище|бомбоубежища|бомбоубежищу|бомбоубежище|бомбоубежищем|бомбоубежище</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_CATHEDRAL">
+      <Text>Собор|собора|собору|собор|собором|соборе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_CN_TOWER">
+      <Text>Останкино|Останкина|Останкину|Останкино|Останкиным|Останкине</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_CONSTABLE">
+      <Text>Жандармерия|жандармерии|жандармерии|жандармерию|жандармерией|жандармерии</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+
+    <Row Tag="TXT_KEY_BUILDING_GREAT_FIREWALL">
+      <Text>Золотой щит|Золотого щита|Золотому щиту|Золотой щит|Золотым щитом|Золотом щите</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_HUBBLE">
+      <Text>Телескоп "Хаббл"|телескопа "Хаббл"|телескопу "Хаббл"|телескоп "Хаббл"|телескопом "Хаббл"|телескопе "Хаббл"</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_INTELLIGENCE_AGENCY">
+      <Text>ЦРУ|ЦРУ|ЦРУ|ЦРУ|ЦРУ|ЦРУ</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_LEANING_TOWER">
+      <Text>Пизанская башня|Пизанской башни|Пизанской башне|Пизанскую башню|Пизанской башней|Пизанской башне</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MOSQUE">
+      <Text>Мечеть|мечети|мечети|мечеть|мечетью|мечети</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+
+    <Row Tag="TXT_KEY_BUILDING_NEUSCHWANSTEIN">
+      <Text>Нойшванштайн|Нойшванштайна|Нойшванштайну|Нойшванштайн|Нойшванштайном|Нойшванштайне</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_PAGODA">
+      <Text>Пагода|пагоды|пагоде|пагоду|пагодой|пагоде</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_PETRA">
+      <Text>Петра|Петры|Петре|Петру|Петрой|Петре</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_POLICE_STATION">
+      <Text>Полицейский участок|полицейского участка|полицейскому участку|полицейский участок|полицейским участком|полицейском участке</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_RECYCLING_CENTER">
+      <Text>Мусорный завод|мусорного завода|мусорному заводу|мусорный завод|мусорным заводом|мусорном заводе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_SHRINE">
+      <Text>Святилище|святилища|святилищу|святилище|святилищем|святилище</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+
+    <Row Tag="TXT_KEY_BUILDING_STELE">
+      <Text>Стела|стелы|стеле|стелу|стелой|стеле</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+
+
+
+
+  </Language_RU_RU>
+</GameData>

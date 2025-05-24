@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<Mod id="24081928-4703-4845-8b9c-c1468a8cacf2" version="1">
+	<Properties>
+		<Name>Samurai Invasion of Korea</Name>
+		<Stability>Alpha</Stability>
+		<Teaser>Will the first invasion of foreign soil by Samurais succeed?</Teaser>
+		<Description>Imjin War scenario for DLC 05</Description>
+		<Authors>Ed Beach</Authors>
+		<HideSetupGame>1</HideSetupGame>
+		<AffectsSavedGames>1</AffectsSavedGames>
+		<MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+		<SupportsSinglePlayer>1</SupportsSinglePlayer>
+		<SupportsMultiplayer>0</SupportsMultiplayer>
+		<SupportsLeaderboards>1</SupportsLeaderboards>
+		<SupportsMac>1</SupportsMac>
+		<ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+		<ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+		<ReloadUnitSystem>0</ReloadUnitSystem>
+		<FiraxisScenario>1</FiraxisScenario>
+		<Custom_Background_TXT_KEY_KOREA_SCENARIO_TITLE>Scenario_Samurai_Invasion_Small.dds</Custom_Background_TXT_KEY_KOREA_SCENARIO_TITLE>
+		<Custom_Foreground_TXT_KEY_KOREA_SCENARIO_TITLE>Scenario_Samurai_Invasion_Symbols.dds</Custom_Foreground_TXT_KEY_KOREA_SCENARIO_TITLE>
+	</Properties>
+	<Dependencies>
+		<Dlc id="8871E748-29A4-4910-8C57-8C99E32D0167" minversion="0" maxversion="9999"/>
+		<Dlc id="293C1EE3-1176-44f6-AC1F-59663826DE74" minversion="0" maxversion="9999"/>
+		<Dlc id="112C22B2-5308-42b6-B734-171CCAB3037B" minversion="0" maxversion="9999"/>
+	</Dependencies>
+	<References/>
+	<Blocks>
+		<Dlc id="*" minversion="0" maxversion="9999"/>
+	</Blocks>
+	<Files>
+		<File md5="6C2DF57682A7721E8B2FD4FEE1FADA6E" import="0">ChangeTurnIncrement.xml</File>
+		<File md5="C6B7F94F77D5AFAFC8F3CFEA665B88A8" import="0">KoreaScenario.Civ5Map</File>
+		<File md5="83627CB8879E75F9D40EC21CF0485642" import="0">KoreaScenarioLoadScreen.lua</File>
+		<File md5="5736D870457CE00253863A60BB1692D6" import="0">KoreaScenarioLoadScreen.xml</File>
+		<File md5="549B202D54EE45FEB79BB27187133F3D" import="0">NewCityStates.xml</File>
+		<File md5="8BBAD2D9446730DE5EA2C8BFAE270B01" import="0">NewCivilizations.xml</File>
+		<File md5="421757273DCA4244017AA60558FCD6A3" import="0">NewMajorCivCities.xml</File>
+		<File md5="1B832B645B44938B9B5E4438329ADB65" import="0">ScenarioText.sql</File>
+		<File md5="4B8160BEED0A54EE153E979C3E38F4D9" import="0">TechTreeUpdate.xml</File>
+		<File md5="5401BEB8E2D2EB3269933E924BEBEBD0" import="0">TurnsRemaining.lua</File>
+		<File md5="87AD6CDEBA271420E53D173855086208" import="0">TurnsRemaining.xml</File>
+	</Files>
+	<Actions>
+		<OnModActivated>
+			<UpdateDatabase>ChangeTurnIncrement.xml</UpdateDatabase>
+			<UpdateDatabase>NewCityStates.xml</UpdateDatabase>
+			<UpdateDatabase>ScenarioText.sql</UpdateDatabase>
+			<UpdateDatabase>NewCivilizations.xml</UpdateDatabase>
+			<UpdateDatabase>NewMajorCivCities.xml</UpdateDatabase>
+			<UpdateDatabase>TechTreeUpdate.xml</UpdateDatabase>
+		</OnModActivated>
+	</Actions>
+	<EntryPoints>
+		<EntryPoint type="InGameUIAddin" file="TurnsRemaining.xml">
+			<Name>Turns Remaining</Name>
+			<Description>Turns remaining counter</Description>
+		</EntryPoint>
+		<EntryPoint type="Custom" file="KoreaScenarioLoadScreen.xml">
+			<Name>TXT_KEY_KOREA_SCENARIO_TITLE</Name>
+			<Description>TXT_KEY_KOREA_SCENARIO_DESC</Description>
+		</EntryPoint>
+	</EntryPoints>
+</Mod>

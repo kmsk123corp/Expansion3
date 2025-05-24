@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited kmsk | 13.03.2024 -->
+<GameData>
+
+    <!-- Стоимость постройки -->
+    <Building_ResourceCostRequirements>
+
+        <!-- Патронный завод -->
+        <Row>
+			<BuildingType>BUILDING_CARTRIDGEFACTORY</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>400</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CARTRIDGEFACTORY</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CARTRIDGEFACTORY</BuildingType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CARTRIDGEFACTORY</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CARTRIDGEFACTORY</BuildingType>
+			<ResourceType>RESOURCE_SALTPETER</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+        <!-- Снарядный завод -->
+        <Row>
+			<BuildingType>BUILDING_SHELLFACTORY</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>600</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_SHELLFACTORY</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_SHELLFACTORY</BuildingType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_SHELLFACTORY</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_SHELLFACTORY</BuildingType>
+			<ResourceType>RESOURCE_SALTPETER</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+    </Building_ResourceCostRequirements>
+
+
+
+    <!-- Производит ресурсов -->
+    <Building_ResourceQuantity>
+
+        <!-- Патронный завод -->
+        <Row>
+			<BuildingType>BUILDING_CARTRIDGEFACTORY</BuildingType>
+			<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+			<Quantity>5</Quantity>
+		</Row>
+
+        <!-- Снарядный завод -->
+        <Row>
+			<BuildingType>BUILDING_SHELLFACTORY</BuildingType>
+			<ResourceType>RESOURCE_SHELL</ResourceType>
+			<Quantity>5</Quantity>
+		</Row>
+
+    </Building_ResourceQuantity>
+
+
+
+    <!-- Потребляет за ход -->
+	<Building_ResourceQuantityRequirements>
+
+        <!-- Патронный завод -->
+        <Row>
+			<BuildingType>BUILDING_CARTRIDGEFACTORY</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CARTRIDGEFACTORY</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CARTRIDGEFACTORY</BuildingType>
+			<ResourceType>RESOURCE_SALTPETER</ResourceType>
+			<Cost>6</Cost>
+		</Row>
+
+        <!-- Снарядный завод -->
+        <Row>
+			<BuildingType>BUILDING_SHELLFACTORY</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_SHELLFACTORY</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_SHELLFACTORY</BuildingType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_SHELLFACTORY</BuildingType>
+			<ResourceType>RESOURCE_SALTPETER</ResourceType>
+			<Cost>14</Cost>
+		</Row>
+
+    </Building_ResourceQuantityRequirements>
+
+</GameData>

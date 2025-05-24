@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited kmsk | 13.03.2024 -->
+<GameData>
+
+    <!-- Стоимость постройки -->
+    <Building_ResourceCostRequirements>
+
+        <!-- Цементный завод -->
+        <Row>
+			<BuildingType>BUILDING_CEMENTPLANT</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CEMENTPLANT</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CEMENTPLANT</BuildingType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
+        <!-- Кирпичный завод -->
+        <Row>
+			<BuildingType>BUILDING_BRICKFACTORY</BuildingType>
+			<ResourceType>RESOURCE_CEMENT</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BRICKFACTORY</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BRICKFACTORY</BuildingType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
+        <!-- Пороховой завод -->
+        <Row>
+			<BuildingType>BUILDING_GUNPOWDERFACTORY</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>150</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_GUNPOWDERFACTORY</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_GUNPOWDERFACTORY</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
+        <!-- Нитроцеллюлозная фабрика -->
+        <Row>
+			<BuildingType>BUILDING_NITROCELLULOSEFACTORY</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_NITROCELLULOSEFACTORY</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
+        <!-- Доменная печь -->
+        <Row>
+			<BuildingType>BUILDING_BLASTFURNACE</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1000</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BLASTFURNACE</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BLASTFURNACE</BuildingType>
+			<ResourceType>RESOURCE_CEMENT</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BLASTFURNACE</BuildingType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BLASTFURNACE</BuildingType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BLASTFURNACE</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
+
+
+        <!-- Угольная шахта -->
+        <Row>
+			<BuildingType>BUILDING_COALMINE</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_COALMINE</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_COALMINE</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+
+    </Building_ResourceCostRequirements>
+
+
+
+    <!-- Производит ресурсов -->
+    <Building_ResourceQuantity>
+
+        <!-- Цементный завод -->
+        <Row>
+			<BuildingType>BUILDING_CEMENTPLANT</BuildingType>
+			<ResourceType>RESOURCE_CEMENT</ResourceType>
+			<Quantity>10</Quantity>
+		</Row>
+
+        <!-- Кирпичный завод -->
+		<Row>
+			<BuildingType>BUILDING_BRICKFACTORY</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Quantity>20</Quantity>
+		</Row>
+
+        <!-- Пороховой завод -->
+        <Row>
+			<BuildingType>BUILDING_GUNPOWDERFACTORY</BuildingType>
+			<ResourceType>RESOURCE_SALTPETER</ResourceType>
+			<Quantity>10</Quantity>
+		</Row>
+
+        <!-- Пороховой завод -->
+        <Row>
+			<BuildingType>BUILDING_NITROCELLULOSEFACTORY</BuildingType>
+			<ResourceType>RESOURCE_SALTPETER</ResourceType>
+			<Quantity>20</Quantity>
+		</Row>
+
+        <!-- Доменная печь -->
+        <Row>
+			<BuildingType>BUILDING_BLASTFURNACE</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Quantity>25</Quantity>
+		</Row>
+
+        <!-- Угольная шахта -->
+        <Row>
+			<BuildingType>BUILDING_COALMINE</BuildingType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+			<Quantity>6</Quantity>
+		</Row>
+
+    </Building_ResourceQuantity>
+
+
+
+    <!-- Потребляет за ход -->
+	<Building_ResourceQuantityRequirements>
+
+        <!-- Цементный завод -->
+        <Row>
+			<BuildingType>BUILDING_CEMENTPLANT</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CEMENTPLANT</BuildingType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+        <!-- Кирпичный завод -->
+		<Row>
+			<BuildingType>BUILDING_BRICKFACTORY</BuildingType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+        <!-- Пороховой завод -->
+        <Row>
+			<BuildingType>BUILDING_GUNPOWDERFACTORY</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+
+        <!-- Доменная печь -->
+        <Row>
+			<BuildingType>BUILDING_BLASTFURNACE</BuildingType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+        <!-- Угольная шахта -->
+        <Row>
+			<BuildingType>BUILDING_COALMINE</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+
+    </Building_ResourceQuantityRequirements>
+
+</GameData>

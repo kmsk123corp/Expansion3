@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Michael Curran (Firaxis Games) -->
+<!-- MASTER Audio2dScripts.xml -->
+<Script2DFile>
+  <Script2DSounds>
+    <!--Music-->
+    <Script2DSound>
+      <ScriptID>AS2D_SCENARIO_MUSIC_YELLOW_SEA_MUSIC</ScriptID>
+      <SoundID>SND_SCENARIO_MUSIC_YELLOW_SEA_MUSIC</SoundID>
+      <SoundType>GAME_MUSIC</SoundType>
+      <iMaxVolume>75</iMaxVolume>
+      <iMinVolume>75</iMinVolume>
+      <bIsMusic>True</bIsMusic>
+    </Script2DSound>
+    <!--Speech-->
+    <Script2DSound>
+      <ScriptID>AS2D_SCENARIO_SPEECH_YELLOW_SEA</ScriptID>
+      <SoundID>SND_SCENARIO_SPEECH_YELLOW_SEA</SoundID>
+      <SoundType>GAME_SPEECH</SoundType>
+      <iMaxVolume>100</iMaxVolume>
+      <iMinVolume>100</iMinVolume>
+      <bIsMusic>False</bIsMusic>
+    </Script2DSound>
+  </Script2DSounds>
+</Script2DFile>

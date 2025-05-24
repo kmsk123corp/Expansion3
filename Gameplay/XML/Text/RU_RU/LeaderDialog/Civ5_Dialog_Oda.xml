@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_LEADER_ODA_AGREE_SHORT_1">
+      <Text>Отлично.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_AGREE_SHORT_2">
+      <Text>Хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_AGREE_SHORT_3">
+      <Text>Конечно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_AGREE_SHORT_4">
+      <Text>Принято.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_AGREE_SHORT_5">
+      <Text>О, очень хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_AGREE_SHORT_6">
+      <Text>Ничего не поделаешь...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_AGREE_SHORT_7">
+      <Text>Прекрасно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_ATTACKED_1">
+      <Text>Жалкий глупец! Теперь мы уничтожим вас!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_ATTACKED_2">
+      <Text>Вы никчемный варвар! Вы заплатите за все!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_ATTACKED_3">
+      <Text>Вы - страна идиотов! Теперь вам конец!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_DECLAREWAR_1">
+      <Text>С неохотой, граничащей с самоотвращением, я вынужден объявить, что собираюсь стереть вашу замечательную державу с лица земли.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_DECLAREWAR_2">
+      <Text>С глубокой скорбью я пришел к выводу, что наш мир не способен вместить две великие державы. Это означает, что вы должны умереть.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_DECLAREWAR_3">
+      <Text>Ради выживания моей державы мне придется немедленно завоевать большую часть ваших земель. А лучше - все ваши земли. Мне очень жаль.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_DEFEATED_1">
+      <Text>Вы оказались гораздо умнее, чем я предполагал. Поздравляю вас.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_DEFEATED_2">
+      <Text>Вы продемонстрировали исключительное мастерство и храбрость. Можно сказать, вы действовали по-японски!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_DEFEATED_3">
+      <Text>Вы достойный противник. Вы победили меня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_DEFEATED_4">
+      <Text>Я проиграл. Должен вас поздравить.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_DEMANDTRIBUTE_ANGRY">
+      <Text>Я не могу представить лучшего способа скрепить нашу вечную дружбу, чем передать вам этот презренный металл.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_DEMANDTRIBUTE_HAPPY">
+      <Text>Может ли скромный и дружелюбный японский народ попросить о маленькой услуге своего великого друга и союзника?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_DEMANDTRIBUTE_NEUTRAL">
+      <Text>Вы окажете нам великую честь, разделив с нами скудную часть своей безграничной щедрости.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_DISAGREE_SHORT_1">
+      <Text>Сожалею, но нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_DISAGREE_SHORT_2">
+      <Text>Я вынужден смиренно отказать вам.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_DISAGREE_SHORT_3">
+      <Text>Глубоко сожалею, но я должен отказаться.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_DISAGREE_SHORT_4">
+      <Text>Возможно, в другой раз.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_DISAGREE_SHORT_5">
+      <Text>Прощу прощения, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_FIRSTGREETING_1">
+      <Text>Мы очень рады удостоиться чести встретиться с таким великим правителем и военачальником.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_FIRSTGREETING_2">
+      <Text>Сей скромный воин приветствует могучего воителя и искренне надеется на честный и равный союз.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_FIRSTGREETING_3">
+      <Text>Воистину, сами небеса благословили нас, указав вам путь. Чем я могу служить вам?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_GOODBYE_1">
+      <Text>Хорошего вам дня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_GOODBYE_2">
+      <Text>Прощайте!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_GOODBYE_3">
+      <Text>До свидания.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_GOODBYE_4">
+      <Text>До следующей встречи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_GOODBYE_5">
+      <Text>Уйдите немедленно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_GOODBYE_6">
+      <Text>На этом все.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_GOODBYE_7">
+      <Text>Дело сделано.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_GREETING_1">
+      <Text>Добро пожаловать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_GREETING_2">
+      <Text>Здравствуйте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_GREETING_3">
+      <Text>Приветствую.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_GREETING_4">
+      <Text>Хорошего вам дня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_GREETING_5">
+      <Text>А, это вы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_GREETING_6">
+      <Text>Да, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_GREETING_7">
+      <Text>Чем я могу помочь вам?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_LETSHEARIT_1">
+      <Text>Я слушаю.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_LETSHEARIT_2">
+      <Text>Итак...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_LETSHEARIT_3">
+      <Text>Продолжайте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_LETSHEARIT_4">
+      <Text>Я весь внимание.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_LETSHEARIT_5">
+      <Text>Да?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_LETSHEARIT_6">
+      <Text>Что вы сказали?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_LETSHEARIT_7">
+      <Text>Что дальше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_LETSHEARIT_8">
+      <Text>И?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_LOSEWAR_1">
+      <Text>Вы действительно самый могущественный и доблестный враг, с которым мы сталкивались. Для меня было честью сражаться с вами!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_QUOTE_1">
+      <Text>40 000 человек Имагавы идут на нас? Я не верю в это. У него всего 25 000 солдат. Да, это все равно больше, чем у нас. Так ты, Садо, предлагаешь мне сдаться? И что же будет, если мы сдадимся? Ты будешь счастлив, лишившись жизни таким образом? А что, если мы постараемся продержаться, как предлагает Кацуи? Что если закрыться здесь в замке и ждать, пока Имагава потеряет аппетит, снимет осаду и вернется домой? Так мы отсрочим свою смерть на пять или десять дней, и все, что мы не сможем защитить, будет потеряно. Мы с вами находимся на дне ямы, и наша судьба занимательна. Впрочем, разумеется, довольно ничтожна. Но вот что я думаю: это шанс, который бывает лишь раз в жизни. И я не собираюсь его упускать. Вы действительно хотите провести всю свою жизнь, молясь о долголетии? Мы рождены, чтобы умереть! Кто со мной, приходите завтра утром на поле боя. Кто не желает - стойте здесь и смотрите, как я побеждаю!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_TRADE_NEEDMORE_ANGRY_1">
+      <Text>С большой досадой и стыдом мы вынуждены отклонить ваше чрезвычайно щедрое предложение. Мы смиренно просим вас улучшить его для ваших недостойных друзей.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_TRADE_NEEDMORE_ANGRY_2">
+      <Text>Этого недостаточно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_TRADE_NEEDMORE_ANGRY_3">
+      <Text>Вы должны предложить больше.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_TRADE_NEEDMORE_ANGRY_4">
+      <Text>Этого едва ли достаточно...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_TRADE_NEEDMORE_HAPPY_1">
+      <Text>С глубоким сожалением мы вынуждены отклонить ваше милостивое предложение. Не могли бы вы немного улучшить его?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_TRADE_NEEDMORE_HAPPY_2">
+      <Text>И это все, что вы можете предложить?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_TRADE_NEEDMORE_HAPPY_3">
+      <Text>Мы почти готовы согласиться.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_TRADE_NEEDMORE_HAPPY_4">
+      <Text>Еще немного...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_TRADE_NEEDMORE_NEUTRAL_1">
+      <Text>С глубоким сожалением вынуждены отклонить ваше предложение в его нынешнем виде. Просим вас немного улучшить его.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_TRADE_NEEDMORE_NEUTRAL_2">
+      <Text>Можете предложить чуть побольше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_TRADE_NEEDMORE_NEUTRAL_3">
+      <Text>Этого не хватит.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_TRADE_NEEDMORE_NEUTRAL_4">
+      <Text>Этого недостаточно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_TRADE_NO_ANGRY">
+      <Text>Увы, наш великий друг и союзник, но мы не можем в данный момент принять ваше исключительно справедливое и щедрое предложение. Прошу вас, не обрушивайте ваш разрушительный гнев на наши недостойные плечи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_TRADE_NO_HAPPY">
+      <Text>К сожалению, мы не можем сейчас принять ваше щедрейшее предложение. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_TRADE_NO_NEUTRAL">
+      <Text>Мы с большой печалью вынуждены отклонить ваше предложение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_TRADE_YES_ANGRY">
+      <Text>Мы в восхищении падаем ниц перед вашей добротой и справедливостью.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_TRADE_YES_HAPPY">
+      <Text>Для нас большая честь и радость согласиться с вашим предложением.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_TRADE_YES_NEUTRAL">
+      <Text>Мы с гордостью и радостью принимаем ваше справедливое предложение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_TRADEREQUEST_ANGRY">
+      <Text>Мы нижайше просим вас отнестись благосклонно к нашему торговому предложению.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_TRADEREQUEST_HAPPY">
+      <Text>Мой друг, не согласитесь ли вы на следующее предложение?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_TRADEREQUEST_NEUTRAL">
+      <Text>Окажете ли вы нам честь, согласившись со следующим предложением?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_TRIBUTE_NO_ANGRY">
+      <Text>Мне очень больно, но я не могу выполнить вашу просьбу - безусловно, разумную и справедливую.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_TRIBUTE_NO_HAPPY">
+      <Text>С величайшей неохотой мы вынуждены ответить вам отказом.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_TRIBUTE_NO_NEUTRAL">
+      <Text>В данный момент мы вынуждены с большим сожалением отклонить ваше требование.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_TRIBUTE_YES_ANGRY">
+      <Text>Наша величайшая мечта - исполнять малейшие ваши просьбы. Вы принесли в наши никчемные жизни смысл!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_TRIBUTE_YES_HAPPY">
+      <Text>С большим удовольствием!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_TRIBUTE_YES_NEUTRAL">
+      <Text>Для нас великая честь удовлетворить вашу благородную и разумную просьбу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_WARBLUFF_1">
+      <Text>Покорно благодарю вас за проявленное к нам внимание.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_WARBLUFF_2">
+      <Text>Ну что же... Вероятно, это для нас не настолько необходимо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_WARBLUFF_3">
+      <Text>Вы правы - мы не достойны такой щедрости.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_WARBLUFF_4">
+      <Text>В любом случае - большое спасибо!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_WARBLUFF_5">
+      <Text>Хорошо. Думаю, у вас есть на то свои причины.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ODA_WINWAR_1">
+      <Text>Вот так японская армия и будет всегда побеждать!</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

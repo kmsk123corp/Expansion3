@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_AGREE_SHORT_1">
+      <Text>Славно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_AGREE_SHORT_2">
+      <Text>Хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_AGREE_SHORT_3">
+      <Text>Конечно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_AGREE_SHORT_4">
+      <Text>Да будет так.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_AGREE_SHORT_5">
+      <Text>О, очень хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_AGREE_SHORT_6">
+      <Text>Полагаю, выбора у меня нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_AGREE_SHORT_7">
+      <Text>Прекрасно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_ATTACKED_1">
+      <Text>За это вы будете гореть в огне. Клянусь.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_ATTACKED_2">
+      <Text>Глупец. Вы обрекли свой народ на смерть и разрушение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_ATTACKED_3">
+      <Text>Вы заплатите за свою трусость!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_DECLAREWAR_1">
+      <Text>Злодей! Ваши ноги оскверняют землю, ваш голос - небо. Вы должны быть уничтожены!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_DECLAREWAR_2">
+      <Text>Я проклинаю вас и ваш варварский народ. Мы изведем вас с лица земли очищающим огнем справедливости.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_DECLAREWAR_3">
+      <Text>Вы невежественные дикари. Вас всех следует уничтожить.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_DEFEATED_1">
+      <Text>Варвары наступают, и вот еще одна великая держава уничтожена. Нас накрывает тьма... гасите свечи...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_DEFEATED_2">
+      <Text>Нас поглотило пламя ненависти и безумия. Наслаждайтесь своей победой в этом мире - вы заплатите за нее в следующем!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_DEMANDTRIBUTE_ANGRY">
+      <Text>Если вы не отдадите нам того, что мы требуем, то мы обрушим на ваши города огонь справедливости и уничтожим вас.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_DEMANDTRIBUTE_HAPPY">
+      <Text>Сонгай не отказался бы от вашей помощи в борьбе против еретиков и подонков, засоряющих наш мир.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_DEMANDTRIBUTE_NEUTRAL">
+      <Text>Отдайте нам то, что мы хотим, или испытаете на себе наш гнев.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_DISAGREE_SHORT_1">
+      <Text>Нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_DISAGREE_SHORT_2">
+      <Text>Разумеется, нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_DISAGREE_SHORT_3">
+      <Text>Мы против.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_DISAGREE_SHORT_4">
+      <Text>Конечно, нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_DISAGREE_SHORT_5">
+      <Text>На это мы не пойдем.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_DISAGREE_SHORT_6">
+      <Text>Да вы шутите!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_DISAGREE_SHORT_7">
+      <Text>Прощу прощения, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_FIRSTGREETING_1">
+      <Text>Приветствую. Я Аския - правитель Сонгая. Мы люди честные и добрые - но тех, кто встанет у нас на пути, ждет только смерть. Так что лучше вам не повторять чужих ошибок.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_FIRSTGREETING_2">
+      <Text>Будьте благословенны. Я Аския - правитель Сонгая. Мы рады миру с каждым, но мы славные воины. А потому, если хотите выжить, не вынуждайте нас к войне.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_FIRSTGREETING_3">
+      <Text>Приветствую. Я Аския - правитель Сонгая. Мы просвещенный народ, и мы готовы жить в мире и согласии, преумножая знания. Но мы сумеем защитить себя в случае необходимости.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_FIRSTGREETING_4">
+      <Text>Приветствую. Я Аския - правитель Сонгая. Мы желаем мира со всеми. Если вы хотите принести раздор в наши края, лучше вам уйти.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_GOODBYE_1">
+      <Text>Хорошего вам дня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_GOODBYE_2">
+      <Text>Прощайте!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_GOODBYE_3">
+      <Text>До свидания.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_GOODBYE_4">
+      <Text>До следующей встречи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_GOODBYE_5">
+      <Text>Уходите сейчас же.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_GOODBYE_6">
+      <Text>На этом все.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_GOODBYE_7">
+      <Text>Дело сделано.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_GREETING_1">
+      <Text>Добро пожаловать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_GREETING_2">
+      <Text>Здравствуйте!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_GREETING_3">
+      <Text>Приветствую.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_GREETING_4">
+      <Text>Хорошего вам дня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_GREETING_5">
+      <Text>А, это вы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_GREETING_6">
+      <Text>Да, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_GREETING_7">
+      <Text>Чего вы хотите?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_LETSHEARIT_1">
+      <Text>Я слушаю.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_LETSHEARIT_2">
+      <Text>Продолжайте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_LETSHEARIT_3">
+      <Text>Я весь внимание.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_LETSHEARIT_4">
+      <Text>Да?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_LETSHEARIT_5">
+      <Text>Что вы сказали?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_LETSHEARIT_6">
+      <Text>И?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_LETSHEARIT_7">
+      <Text>Что дальше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_LOSEWAR_1">
+      <Text>Мы благодарны вам за завершение этой бессмысленной войны.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_TRADE_NEEDMORE_ANGRY_1">
+      <Text>Не злите меня. В гневе я страшен. Улучшите свое предложение или уходите.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_TRADE_NEEDMORE_ANGRY_2">
+      <Text>Этого недостаточно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_TRADE_NEEDMORE_ANGRY_3">
+      <Text>Вы должны предложить больше.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_TRADE_NEEDMORE_HAPPY_1">
+      <Text>На это невозможно согласиться. Вы не хотите улучшить свое предложение?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_TRADE_NEEDMORE_HAPPY_2">
+      <Text>И это все, что вы можете предложить?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_TRADE_NEEDMORE_HAPPY_3">
+      <Text>Уже почти готово, но...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_TRADE_NEEDMORE_NEUTRAL_1">
+      <Text>Те, кто пытаются нас обмануть, очень рискуют. Советую вам улучшить предложение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_TRADE_NEEDMORE_NEUTRAL_2">
+      <Text>Можете предложить чуть побольше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_TRADE_NEEDMORE_NEUTRAL_3">
+      <Text>Этого не хватит.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_TRADE_NEEDMORE_NEUTRAL_4">
+      <Text>Маловато.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_TRADE_NO_ANGRY">
+      <Text>Вы держите нас за дураков? Да я убью вас за такое высокомерие. Уходите, пока можете.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_TRADE_NO_HAPPY">
+      <Text>Я не могу согласиться с вашими условиями. Они несправедливы для народа Сонгай.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_TRADE_NO_NEUTRAL">
+      <Text>Ваше предложение неприемлемо. По-моему, вы пытаетесь нас оскорбить.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_TRADE_YES_ANGRY">
+      <Text>Ваше умение торговаться компенсирует другие ваши недостатки.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_TRADE_YES_HAPPY">
+      <Text>Это справедливые условия. Мы согласны.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_TRADE_YES_NEUTRAL">
+      <Text>Ваши условия удовлетворяют нас.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_TRADEREQUEST_ANGRY">
+      <Text>Пожалуйста, улучшите предложение, чтобы я мог лучше снарядить мои войска и быстрее уничтожить ваш подлый народ!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_TRADEREQUEST_HAPPY">
+      <Text>Могу ли я заинтересовать вас этим предложением?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_TRADEREQUEST_NEUTRAL">
+      <Text>Это честная сделка. Я рекомендую вам принять эти условия.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_TRIBUTE_NO_ANGRY">
+      <Text>Дерзкий пес! Радуйтесь, что я не сотру вас в пыль за такую наглость!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_TRIBUTE_NO_HAPPY">
+      <Text>Не стоит так упорно настаивать на своих условиях. Всякая дружба имеет свои пределы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_TRIBUTE_NO_NEUTRAL">
+      <Text>Вы смеете угрожать мне, вы?! Вы и весь ваш народ - неверные безумцы!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_TRIBUTE_YES_ANGRY">
+      <Text>Что ж, хорошо. Вы получите то, что так безжалостно требуете. Но однажды вы заплатите за это, я обещаю!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_TRIBUTE_YES_HAPPY">
+      <Text>Мы рады вознаградить наших самых преданных друзей и союзников!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_TRIBUTE_YES_NEUTRAL">
+      <Text>Кажется, у меня нет иного выбора, кроме как согласиться с вашими требованиями. Но рано или поздно вас ждет расплата!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_WARBLUFF_1">
+      <Text>За это оскорбление вы заплатите тысячекратно!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_WARBLUFF_2">
+      <Text>Вы играете с огнем...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_WARBLUFF_3">
+      <Text>Хорошо. Но в следующий раз я не буду столь любезен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_WARBLUFF_4">
+      <Text>Очень жаль.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_WARBLUFF_5">
+      <Text>Какое разочарование.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_WARBLUFF_6">
+      <Text>Неужели? Поверьте, вы не успеете пожалеть о своей близорукости.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_WARBLUFF_7">
+      <Text>Как же вы глупы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ASKIA_WINWAR_1">
+      <Text>Вы все еще существуете только благодаря нашему милосердию. А потому не пытайтесь испытать его еще раз!</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

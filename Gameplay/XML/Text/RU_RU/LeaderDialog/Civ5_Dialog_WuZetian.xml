@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_AGREE_SHORT_1">
+      <Text>Отлично.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_AGREE_SHORT_2">
+      <Text>Хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_AGREE_SHORT_3">
+      <Text>Конечно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_AGREE_SHORT_4">
+      <Text>Принято.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_AGREE_SHORT_5">
+      <Text>О, очень хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_AGREE_SHORT_6">
+      <Text>Приходится смириться.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_AGREE_SHORT_7">
+      <Text>Прекрасно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_ATTACKED_1">
+      <Text>Вы - народ глупцов! Мы распотрошим вас, как толстых, неповоротливых карпов!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_ATTACKED_2">
+      <Text>Вы - темные варвары! Мы уничтожим вас!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_ATTACKED_3">
+      <Text>Будьте вы прокляты! Вы будете раскаиваться в своем поступке до конца жизни - и поверьте, он скоро наступит.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_DECLAREWAR_1">
+      <Text>Вы больше не нужны нам. Умрите.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_DECLAREWAR_2">
+      <Text>Ваш народ бесполезен. Умрите.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_DECLAREWAR_3">
+      <Text>Вы больше не будете оскорблять нас. Умрите!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_DEFEATED_1">
+      <Text>Вы уничтожили меня. Поздравляю. Если бы обстоятельства повернулись по-другому, я с радостью проделала бы то же самое с вами.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_DEFEATED_2">
+      <Text>В этом мире мой путь завершен. Возможно, мне удастся отомстить в следующей жизни.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_DEFEATED_3">
+      <Text>Вы показали себя коварным, но достойным противником. Поздравляю вас с победой.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_DEMANDTRIBUTE_ANGRY">
+      <Text>Если вы хотите и дальше влачить свое жалкое существование, то придется нам кое-что отдать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_DEMANDTRIBUTE_HAPPY">
+      <Text>Мой друг, Китай нуждается в вашей помощи. Уверена, мы можем рассчитывать на вашу поддержку.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_DEMANDTRIBUTE_NEUTRAL">
+      <Text>Я призываю вас отдать нам некоторые вещи. Ибо прочие варианты развития событий могут оказаться слишком дорогостоящим для обеих сторон.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_DISAGREE_SHORT_1">
+      <Text>Нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_DISAGREE_SHORT_2">
+      <Text>Определенно нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_DISAGREE_SHORT_3">
+      <Text>Мы вынуждены отказать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_DISAGREE_SHORT_4">
+      <Text>Конечно же, нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_DISAGREE_SHORT_5">
+      <Text>Это неприемлемо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_DISAGREE_SHORT_6">
+      <Text>Вы, должно быть, шутите!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_DISAGREE_SHORT_7">
+      <Text>Прощу прощения, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_FIRSTGREETING_1">
+      <Text>Добро пожаловать. Я У Цзэтянь, китайская императрица. Мы не ищем ссор с другими народами, но для защиты наших интересов не преминем воспользоваться силой.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_FIRSTGREETING_2">
+      <Text>Приветствую. Я императрица У Цзэтянь. Китай стремится к миру, чтобы продолжить свое развитие. Оставьте нас в покое, и мы сделаем то же для вас.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_FIRSTGREETING_3">
+      <Text>Приветствую. Я У Цзэтянь, императрица Китая. Наш народ стремится к мирному сосуществованию и честной торговле, но на любую агрессию мы ответим силой. Надеюсь, вы понимаете это.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_GOODBYE_1">
+      <Text>Хорошего вам дня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_GOODBYE_2">
+      <Text>Прощайте!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_GOODBYE_3">
+      <Text>До свидания.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_GOODBYE_4">
+      <Text>До следующей встречи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_GOODBYE_5">
+      <Text>Уходите сейчас же.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_GOODBYE_6">
+      <Text>На этом все.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_GOODBYE_7">
+      <Text>Дело сделано.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_GREETING_1">
+      <Text>Добро пожаловать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_GREETING_2">
+      <Text>Здравствуйте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_GREETING_3">
+      <Text>Приветствую.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_GREETING_4">
+      <Text>Хорошего вам дня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_GREETING_5">
+      <Text>А, это вы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_GREETING_6">
+      <Text>Да, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_GREETING_7">
+      <Text>Чего вы хотите?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_LETSHEARIT_1">
+      <Text>Понимаю...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_LETSHEARIT_2">
+      <Text>Продолжайте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_LETSHEARIT_3">
+      <Text>Я вас внимательно слушаю...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_LETSHEARIT_4">
+      <Text>Да?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_LETSHEARIT_5">
+      <Text>Что вы сказали?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_LETSHEARIT_6">
+      <Text>И?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_LETSHEARIT_7">
+      <Text>Что дальше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_LOSEWAR_1">
+      <Text>Китай рад миру со всеми своими соседями. Надеюсь, в будущем нам не придется вновь заниматься этим неприятным делом.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_TRADE_NEEDMORE_ANGRY_1">
+      <Text>Вы принимаете нас за невежественных крестьян? Это предложение совершенно неприемлемо. Нам нужно гораздо больше.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_TRADE_NEEDMORE_ANGRY_2">
+      <Text>Этого недостаточно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_TRADE_NEEDMORE_ANGRY_3">
+      <Text>Вы должны предложить больше.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_TRADE_NEEDMORE_HAPPY_1">
+      <Text>Я глубоко сожалею, но мы не можем принять это предложение в таком виде. Предложите нечто более ценное.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_TRADE_NEEDMORE_HAPPY_2">
+      <Text>И это все, что вы можете предложить?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_TRADE_NEEDMORE_HAPPY_3">
+      <Text>Вы почти убедили меня...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_TRADE_NEEDMORE_NEUTRAL_1">
+      <Text>Мы не можем пойти на эту сделку. Пожалуйста, измените условия.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_TRADE_NEEDMORE_NEUTRAL_2">
+      <Text>Можете предложить чуть побольше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_TRADE_NEEDMORE_NEUTRAL_3">
+      <Text>Этого не хватит.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_TRADE_NEEDMORE_NEUTRAL_4">
+      <Text>Маловато.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_TRADE_NO_ANGRY">
+      <Text>Ваша заносчивость может сравниться только с вашим невежеством. Мы, разумеется, отклоняем ваше ничтожное предложение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_TRADE_NO_HAPPY">
+      <Text>Боюсь, мы не можем принять в данный момент ваше предложение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_TRADE_NO_NEUTRAL">
+      <Text>Мы не можем согласиться с этим.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_TRADE_YES_ANGRY">
+      <Text>Мы согласны.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_TRADE_YES_HAPPY">
+      <Text>Конечно. Ваше благоразумие делает вам честь.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_TRADE_YES_NEUTRAL">
+      <Text>Это честное предложение. Мы согласны.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_TRADEREQUEST_ANGRY">
+      <Text>Вот наше предложение. Вы можете принять его или уйти.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_TRADEREQUEST_HAPPY">
+      <Text>Мой дорогой друг, согласитесь ли вы на наше предложение?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_TRADEREQUEST_NEUTRAL">
+      <Text>Мы уверены, что эта честная сделка принесет выгоду обеим сторонам. А вы что скажете?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_TRIBUTE_NO_ANGRY">
+      <Text>Что за вздор! Вы что, надеялись получить дань с китайцев?! Уходите прочь, или я прикажу разделать вас как свинью!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_TRIBUTE_NO_HAPPY">
+      <Text>Я сожалею, но мы не можем выполнить в данный момент вашу просьбу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_TRIBUTE_NO_NEUTRAL">
+      <Text>Хотела бы я знать: это временное помешательство или же глубоко укоренившаяся тупость заставляет вас выдвигать такие требования.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_TRIBUTE_YES_ANGRY">
+      <Text>Хорошо же. Но знайте: мы будем мстить. Советую вам теперь спать очень чутко.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_TRIBUTE_YES_HAPPY">
+      <Text>Конечно. Китай рад помочь своим друзьям.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_TRIBUTE_YES_NEUTRAL">
+      <Text>Придется согласиться. Вероятно, это нам обойдется дешевле, чем ведение войны.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_WARBLUFF_1">
+      <Text>Вы ведете очень опасную игру.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_WARBLUFF_2">
+      <Text>Хорошо. Но в следующий раз не ждите от меня такой щедрости.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_WARBLUFF_3">
+      <Text>Очень жаль.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_WARBLUFF_4">
+      <Text>Какая досада.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_WARBLUFF_5">
+      <Text>Неужели? Поверьте, вы и заметить не успеете, как умрете.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_WARBLUFF_6">
+      <Text>Как же вы глупы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_WUZETIAN_WINWAR_1">
+      <Text>Считайте, что вам повезло - мы не станем стирать вашу державу с лица земли. Но даже не думайте вновь испытывать наше терпение!</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

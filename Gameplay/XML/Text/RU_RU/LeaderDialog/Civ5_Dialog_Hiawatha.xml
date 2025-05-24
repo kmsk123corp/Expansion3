@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_AGREE_SHORT_1">
+      <Text>Отлично.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_AGREE_SHORT_2">
+      <Text>Хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_AGREE_SHORT_3">
+      <Text>Конечно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_AGREE_SHORT_4">
+      <Text>Принято.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_AGREE_SHORT_5">
+      <Text>О, очень хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_AGREE_SHORT_6">
+      <Text>Деваться некуда.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_AGREE_SHORT_7">
+      <Text>Прекрасно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_ATTACKED_1">
+      <Text>Будьте вы прокляты до сотого колена! Вы заплатите за это!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_ATTACKED_2">
+      <Text>Вы злой человек! Мои воины изрубят вас на куски!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_ATTACKED_3">
+      <Text>Да будет так. Многие из ваших воинов умрут из-за вашей глупости.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_DECLAREWAR_1">
+      <Text>Горы вторят боевому крику моих воинов: готовьтесь к войне!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_DECLAREWAR_2">
+      <Text>Лучше умереть как лев, чем жить как собака. Готовьтесь к войне!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_DECLAREWAR_3">
+      <Text>Вы язва на теле матери-земли. Готовьтесь к войне!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_DEFEATED_1">
+      <Text>Мой народ уничтожен. Надеюсь, вы утолили жажду крови.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_DEFEATED_2">
+      <Text>Вы уничтожили нас, пусть будет так. Но наши души не знают поражения! Мы еще вернемся!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_DEFEATED_3">
+      <Text>С нами покончено. Наши воины пали, наши земли захвачены. Возможно, в другом мире нас ждет мир и процветание - то, чего мы не нашли здесь.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_DEMANDTRIBUTE_ANGRY">
+      <Text>Мы требуем от вас дани. Мои храбрые воины заставят вас дать взвешенный ответ.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_DEMANDTRIBUTE_HAPPY">
+      <Text>Мой друг, поддержите нас в трудную минуту!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_DEMANDTRIBUTE_NEUTRAL">
+      <Text>Мы требуем дани. Не пытайтесь отказать нам.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_DISAGREE_SHORT_1">
+      <Text>Нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_DISAGREE_SHORT_2">
+      <Text>Определенно нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_DISAGREE_SHORT_3">
+      <Text>Мы вынуждены отказать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_DISAGREE_SHORT_4">
+      <Text>Конечно же, нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_DISAGREE_SHORT_5">
+      <Text>Это неприемлемо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_DISAGREE_SHORT_6">
+      <Text>Вы, должно быть, шутите!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_DISAGREE_SHORT_7">
+      <Text>Прощу прощения, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_FIRSTGREETING_1">
+      <Text>Приветствую, незнакомец. Я Гайавата, говорю от имени всех ирокезов. Мы стремимся к миру со всеми, но не уклоняемся от войны.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_FIRSTGREETING_2">
+      <Text>Я Гайавата, вождь ирокезов. Я приветствую вас и надеюсь, что два наших великих народа станут друзьями.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_FIRSTGREETING_3">
+      <Text>Да пребудет с вами мир. Я Гайавата, вождь могучих ирокезов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_GOODBYE_1">
+      <Text>Хорошего вам дня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_GOODBYE_2">
+      <Text>Прощайте!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_GOODBYE_3">
+      <Text>До свидания.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_GOODBYE_4">
+      <Text>До следующей встречи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_GOODBYE_5">
+      <Text>Убирайтесь.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_GOODBYE_6">
+      <Text>На этом все.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_GOODBYE_7">
+      <Text>Дело сделано.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_GREETING_1">
+      <Text>Добро пожаловать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_GREETING_2">
+      <Text>Здравствуйте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_GREETING_3">
+      <Text>Приветствую.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_GREETING_4">
+      <Text>Хорошего вам дня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_GREETING_5">
+      <Text>А, это вы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_GREETING_6">
+      <Text>Да, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_GREETING_7">
+      <Text>Чего вы хотите?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_LETSHEARIT_1">
+      <Text>Говорите же!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_LETSHEARIT_2">
+      <Text>Продолжайте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_LETSHEARIT_3">
+      <Text>Я вас слушаю.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_LETSHEARIT_4">
+      <Text>Да?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_LETSHEARIT_5">
+      <Text>Что вы сказали?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_LETSHEARIT_6">
+      <Text>И?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_LETSHEARIT_7">
+      <Text>Что дальше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_LOSEWAR_1">
+      <Text>Я благодарю вас за ваше милосердие. Прошу вас, давайте теперь будем друзьями.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_TRADE_NEEDMORE_ANGRY_1">
+      <Text>Пытаетесь нас обмануть? Зря. Измените ваше предложение или уходите.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_TRADE_NEEDMORE_ANGRY_2">
+      <Text>Этого недостаточно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_TRADE_NEEDMORE_ANGRY_3">
+      <Text>Вы должны предложить больше.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_TRADE_NEEDMORE_HAPPY_1">
+      <Text>Ха! С вашей хваткой можно украсть шкуру со спящего медведя! Да ладно, друг мой, уверен, вы можете предложить нам больше!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_TRADE_NEEDMORE_HAPPY_2">
+      <Text>И это все, что вы предлагаете?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_TRADE_NEEDMORE_HAPPY_3">
+      <Text>Вы почти убедили меня...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_TRADE_NEEDMORE_NEUTRAL_1">
+      <Text>Блестящие бусы и стеклянные побрякушки больше не интересуют нас. Так что вам стоит предложить больше.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_TRADE_NEEDMORE_NEUTRAL_2">
+      <Text>Можете предложить что-то более ценное?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_TRADE_NEEDMORE_NEUTRAL_3">
+      <Text>Этого не хватит.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_TRADE_NEEDMORE_NEUTRAL_4">
+      <Text>Еще немного усердия...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_TRADE_NO_ANGRY">
+      <Text>Как я вижу, вы принимаете нас за идиотов. Уходите.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_TRADE_NO_HAPPY">
+      <Text>Ваши медоточивые речи не скрывают того, что вы хотите нас ограбить.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_TRADE_NO_NEUTRAL">
+      <Text>Вы действительно хотите обречь нас на голодную смерть? Уверен, что это не так.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_TRADE_YES_ANGRY">
+      <Text>Мы согласны.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_TRADE_YES_HAPPY">
+      <Text>Для нас большая честь торговать с вами.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_TRADE_YES_NEUTRAL">
+      <Text>Это честная сделка. Мы согласны.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_TRADEREQUEST_ANGRY">
+      <Text>Вопреки здравому смыслу я готов предложить вам эту сделку.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_TRADEREQUEST_HAPPY">
+      <Text>Устроит ли вас такая сделка, мой друг?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_TRADEREQUEST_NEUTRAL">
+      <Text>Могу ли я предложить вам соглашение?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_TRIBUTE_NO_ANGRY">
+      <Text>Глупец! Да мы скорее погибнем, чем уступим вашим вымогательствам!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_TRIBUTE_NO_HAPPY">
+      <Text>Мы не можем позволить себе быть настолько щедрыми, мой друг.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_TRIBUTE_NO_NEUTRAL">
+      <Text>Делит ли медведь свой ужин со змеей? Разумеется, нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_TRIBUTE_YES_ANGRY">
+      <Text>Что ж, хорошо. Но я клянусь вам, мы еще отомстим.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_TRIBUTE_YES_HAPPY">
+      <Text>Мы с радостью разделим богатства с нашими друзьями.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_TRIBUTE_YES_NEUTRAL">
+      <Text>Мы согласны с вашими условиями. Но однажды вы еще пожалеете о своей жадности.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_WARBLUFF_1">
+      <Text>Глупо, как же глупо...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_WARBLUFF_2">
+      <Text>Вы ведете очень опасную игру.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_WARBLUFF_3">
+      <Text>Хорошо. Но в следующий раз я не буду столь любезен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_WARBLUFF_4">
+      <Text>Очень жаль.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_WARBLUFF_5">
+      <Text>Какое разочарование.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_HIAWATHA_WINWAR_1">
+      <Text>Некоторых псов надо сперва хорошенько избить, чтобы научить их повиновению. Не заставляйте меня повторять вам этот урок!</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

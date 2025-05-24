@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_AGREE_SHORT_1">
+      <Text>Отлично.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_AGREE_SHORT_2">
+      <Text>Хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_AGREE_SHORT_3">
+      <Text>Конечно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_AGREE_SHORT_4">
+      <Text>Согласен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_AGREE_SHORT_5">
+      <Text>О, очень хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_AGREE_SHORT_6">
+      <Text>Полагаю, деваться мне некуда.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_AGREE_SHORT_7">
+      <Text>Прекрасно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_ATTACKED_1">
+      <Text>Прекрасно. Мы скоро встретимся на поле боя!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_ATTACKED_2">
+      <Text>Я аплодирую вашей храбрости - но не вашему благоразумию. Надеюсь, вы будете более серьезным противником, чем кажетесь на первый взгляд.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_ATTACKED_3">
+      <Text>Неужели? Что ж, мне тоже надоела мирная жизнь. Давайте повоюем.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_ATTACKED_4">
+      <Text>Вы глупые варвары! Да я вас в землю закопаю!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_DECLAREWAR_1">
+      <Text>Ваша полезность теперь равна нулю. Приготовьтесь к смерти.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_DECLAREWAR_2">
+      <Text>Вы стоите на моем пути. Значит, должны быть уничтожены.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_DECLAREWAR_3">
+      <Text>Боги решили, что я должен завоевать мир. Поэтому вы должны умереть.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_DEFEATED_1">
+      <Text>Я покорен? Как такое могло произойти? Я, ведь я же наследник богов!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_DEFEATED_2">
+      <Text>Вы уничтожили меня, тем самым завоевав место в пантеоне богов. Мои поздравления.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_DEFEATED_3">
+      <Text>Вы уничтожили меня? Как такое могло произойти? Да что же вы за человек такой?!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_DEFEATED_4">
+      <Text>Я разгромлен. Поздравляю вас с победой. Прошу вас проявить милость к моим бывшим подданным.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_DEMANDTRIBUTE_ANGRY">
+      <Text>Если вы хотите сохранить свою жизнь, то вам лучше принять наши требования.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_DEMANDTRIBUTE_HAPPY">
+      <Text>Друг мой, Греция нуждается в вашей помощи. Я прошу вас не разочаровывать нас!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_DEMANDTRIBUTE_NEUTRAL">
+      <Text>Вам не мешало бы немедленно удовлетворить наши требования.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_DISAGREE_SHORT_1">
+      <Text>Я вынужден отказать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_DISAGREE_SHORT_2">
+      <Text>Нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_DISAGREE_SHORT_3">
+      <Text>Определенно нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_DISAGREE_SHORT_4">
+      <Text>Мы вынуждены отказать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_DISAGREE_SHORT_5">
+      <Text>Конечно же, нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_DISAGREE_SHORT_6">
+      <Text>Это невозможно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_DISAGREE_SHORT_7">
+      <Text>Вы, должно быть, шутите!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_DISAGREE_SHORT_8">
+      <Text>Прощу прощения, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_FIRSTGREETING_1">
+      <Text>Я Александр, наследник Геракла и Зевса, приветствую вас. Надеюсь, вы будете верным союзником или достойным противником!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_FIRSTGREETING_2">
+      <Text>Приветствую! Я Александр, сын царей и внук богов! Можете ли вы сказать то же самое про себя?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_FIRSTGREETING_3">
+      <Text>Приветствую вас, чужестранец! Я Александр, правитель этих земель. Я всегда ищу сильных друзей или врагов, достойных моего меча. Кто вы, интересно?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_GOODBYE_1">
+      <Text>Прощайте!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_GOODBYE_2">
+      <Text>До свидания.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_GOODBYE_3">
+      <Text>До следующей встречи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_GOODBYE_4">
+      <Text>Уходите сейчас же.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_GOODBYE_5">
+      <Text>На этом все.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_GREETING_1">
+      <Text>Добро пожаловать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_GREETING_2">
+      <Text>Здравствуйте!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_GREETING_3">
+      <Text>Приветствую.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_GREETING_4">
+      <Text>А, это вы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_GREETING_5">
+      <Text>Да, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_GREETING_6">
+      <Text>Чего вы хотите?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_LETSHEARIT_1">
+      <Text>Я слушаю.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_LETSHEARIT_2">
+      <Text>Я вас внимательно слушаю.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_LETSHEARIT_3">
+      <Text>Продолжайте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_LETSHEARIT_4">
+      <Text>Я весь внимание.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_LETSHEARIT_5">
+      <Text>Да?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_LETSHEARIT_6">
+      <Text>Что вы сказали?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_LETSHEARIT_7">
+      <Text>И?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_LETSHEARIT_8">
+      <Text>Что дальше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_LOSEWAR_1">
+      <Text>Я поздравляю вас с победой - временной победой. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_LOSEWAR_2">
+      <Text>Я должен поздравить вас с выдающейся победой. Даже великим грекам вы смогли преподнести урок доблести!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_QUOTE_1">
+      <Text>Не следует ли горевать о том, что во вселенной бессчетное множество миров, а мы еще и одного не завоевали? </Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_QUOTE_2">
+      <Text>Не может быть двух солнц на небе и двух владык на земле!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_TRADE_NEEDMORE_ANGRY_1">
+      <Text>Вы держите меня за простака? Я учился логике у самого Аристотеля. Сделайте предложение получше!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_TRADE_NEEDMORE_ANGRY_2">
+      <Text>Этого недостаточно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_TRADE_NEEDMORE_ANGRY_3">
+      <Text>Вы должны предложить больше.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_TRADE_NEEDMORE_ANGRY_4">
+      <Text>Маловато.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_TRADE_NEEDMORE_HAPPY_1">
+      <Text>Может, я и молод, мой друг, но вовсе не глуп и не доверчив. Не хотите ли улучшить свое предложение?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_TRADE_NEEDMORE_HAPPY_2">
+      <Text>И это все, что вы можете предложить?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_TRADE_NEEDMORE_HAPPY_3">
+      <Text>Уже почти готово, но...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_TRADE_NEEDMORE_HAPPY_4">
+      <Text>Маловато.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_TRADE_NEEDMORE_NEUTRAL_1">
+      <Text>Ваше предложение граничит с оскорблением. Предлагаю вам улучшить его или же отозвать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_TRADE_NEEDMORE_NEUTRAL_2">
+      <Text>Можете предложить что-то еще?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_TRADE_NEEDMORE_NEUTRAL_3">
+      <Text>Этого не хватит.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_TRADE_NEEDMORE_NEUTRAL_4">
+      <Text>Маловато.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_TRADE_NO_ANGRY">
+      <Text>Ваше предложение возмутительно. Оно оскорбляет меня и всю Элладу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_TRADE_NO_HAPPY">
+      <Text>Спасибо, но нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_TRADE_NO_NEUTRAL">
+      <Text>Меня это не интересует.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_TRADE_YES_ANGRY">
+      <Text>Согласен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_TRADE_YES_HAPPY">
+      <Text>Отлично, я согласен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_TRADE_YES_NEUTRAL">
+      <Text>Отлично.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_TRADEREQUEST_ANGRY">
+      <Text>Вот мое предложение. Хотите рискнуть - откажитесь.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_TRADEREQUEST_HAPPY">
+      <Text>Мой друг, а вот это предложение вы примете?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_TRADEREQUEST_NEUTRAL">
+      <Text>Уверен, это принесет выгоду нам обоим.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_TRIBUTE_NO_ANGRY">
+      <Text>Вы забыли, что разговариваете с царем и наследником богов?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_TRIBUTE_NO_HAPPY">
+      <Text>Как бы я ни был к вам расположен, я вынужден отказать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_TRIBUTE_NO_NEUTRAL">
+      <Text>Ха-ха-ха! Да вы шутите!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_TRIBUTE_YES_ANGRY">
+      <Text>Что ж. Кажется, у меня нет выбора. Но когда-нибудь вы мне за это еще заплатите.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_TRIBUTE_YES_HAPPY">
+      <Text>Конечно! Берите все, что пожелаете. Я сегодня щедр как никогда!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_TRIBUTE_YES_NEUTRAL">
+      <Text>Хорошо. Радуйтесь, пока можете.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_WARBLUFF_1">
+      <Text>Не вопрос. Мы придем и возьмем это сами, когда захотим.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_WARBLUFF_2">
+      <Text>Очень жаль.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_WARBLUFF_3">
+      <Text>Какое разочарование.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_WARBLUFF_4">
+      <Text>В самом деле? Я восхищен вашим нелепым мужеством.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_WARBLUFF_5">
+      <Text>Как же вы глупы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_WARBLUFF_6">
+      <Text>Вы пожалеете об этом, я обещаю вам!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_WINWAR_1">
+      <Text>Это было увлекательно. Надо попробовать как-нибудь еще раз.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ALEXANDER_WINWAR_2">
+      <Text>Вы воевали хорошо... для варвара. Нашу войну непременно воспоют поэты и опишут историки.</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

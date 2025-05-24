@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_AGREE_SHORT_1">
+      <Text>Очень хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_AGREE_SHORT_2">
+      <Text>Хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_AGREE_SHORT_3">
+      <Text>Разумеется.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_AGREE_SHORT_4">
+      <Text>Договорились.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_AGREE_SHORT_5">
+      <Text>О, очень хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_AGREE_SHORT_6">
+      <Text>Пожалуй, я соглашусь.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_AGREE_SHORT_7">
+      <Text>Прекрасно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_ATTACKED_1">
+      <Text>Ты принял мою страсть за слабость. Ты пожалеешь об этом.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_ATTACKED_2">
+      <Text>Вы недооцениваете нас. Российская империя проглотит вас заживо!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_ATTACKED_3">
+      <Text>Это же безумие! Вы за это ответите.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_ATTACKED_4">
+      <Text>Тупая деревенщина! Мы закопаем вас!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_DECLAREWAR_1">
+      <Text>Мне наскучили ваши выкрутасы. Готовьтесь к войне!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_DECLAREWAR_2">
+      <Text>Ты очень плохо себя вел - ты это знаешь. Настал час расплаты.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_DECLAREWAR_3">
+      <Text>Ваша жалкая нация стоит на моем пути! А потому вы должны умереть!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_DEFEATED_1">
+      <Text>Отличная была игра. Поздравляю.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_DEFEATED_2">
+      <Text>Вы оказались более хитрым соперником, чем я думала. Поздравляю вас.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_DEFEATED_3">
+      <Text>Мы были побеждены, так что я становлюсь твоей пленницей. Мне кажется, это не самый худший удел.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_DEMANDTRIBUTE_ANGRY">
+      <Text>Ежели жить хотите, отдайте нам все, что мы потребуем.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_DEMANDTRIBUTE_HAPPY">
+      <Text>Милый друг, не могли бы вы оказать нам кое-какую услугу?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_DEMANDTRIBUTE_NEUTRAL">
+      <Text>Не угодно ли вам преподнести мне небольшой подарок, дабы гарантировать дальнейшие мирные отношения между нашими великими нациями?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_DISAGREE_SHORT_1">
+      <Text>Нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_DISAGREE_SHORT_2">
+      <Text>Конечно, нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_DISAGREE_SHORT_3">
+      <Text>Мы отказываемся.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_DISAGREE_SHORT_4">
+      <Text>Ха, разумеется, нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_DISAGREE_SHORT_5">
+      <Text>Это неприемлемо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_DISAGREE_SHORT_6">
+      <Text>Ты шутишь!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_DISAGREE_SHORT_7">
+      <Text>Прощу прощения?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_FIRSTGREETING_1">
+      <Text>Приятно встретить на мировой арене другого серьезного игрока. Наши подданные порой слишком раболепны, не так ли?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_FIRSTGREETING_2">
+      <Text>Приветствую вас! Мне всегда любопытны встречи с правителями малых народов!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_FIRSTGREETING_3">
+      <Text>Приветствую тебя, незнакомец. Если твой ум и такт сравнимы с твоей привлекательностью, мы замечательно поладим.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_GOODBYE_1">
+      <Text>Хорошего вам дня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_GOODBYE_2">
+      <Text>Прощайте!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_GOODBYE_3">
+      <Text>До свидания.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_GOODBYE_4">
+      <Text>До следующей встречи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_GOODBYE_5">
+      <Text>Пойдите прочь.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_GOODBYE_6">
+      <Text>О, вы все еще здесь?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_GOODBYE_7">
+      <Text>На этом все.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_GOODBYE_8">
+      <Text>Дело сделано.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_GREETING_1">
+      <Text>Добро пожаловать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_GREETING_2">
+      <Text>Здравствуй.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_GREETING_3">
+      <Text>Приветствую.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_GREETING_4">
+      <Text>Доброго вам дня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_GREETING_5">
+      <Text>А, это вы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_GREETING_6">
+      <Text>Да, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_GREETING_7">
+      <Text>Что тебе нужно?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_LETSHEARIT_1">
+      <Text>Говори!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_LETSHEARIT_2">
+      <Text>Продолжай.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_LETSHEARIT_3">
+      <Text>Я вас слушаю.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_LETSHEARIT_4">
+      <Text>Да?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_LETSHEARIT_5">
+      <Text>Что вы сказали?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_LETSHEARIT_6">
+      <Text>И?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_LETSHEARIT_7">
+      <Text>Дальше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_LOSEWAR_1">
+      <Text>Поздравляю вас с успехом. Я совершенно сломлена вашим мастерством.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_LOSEWAR_2">
+      <Text>Теперь пора насладиться плодами мира.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_LOSEWAR_3">
+      <Text>Благодарю вас за вашу снисходительность. Клянусь, я не проявлю неблагодарности.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_QUOTE_1">
+      <Text>Государь есть самодержавный; ибо никакая другая, как только соединенная в его особе власть, не может действовать сходно со пространством столь великого государства.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_QUOTE_2">
+      <Text>Или умру, или буду царствовать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_QUOTE_3">
+      <Text>Россия есть держава европейская, русский народ есть народ европейский; то, что придало ему черты неевропейского народа, было временно и случайно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_TRADE_NEEDMORE_ANGRY_1">
+      <Text>Я нахожу вашу вопиющую жадность довольно забавной, однако вынуждена отказать. Прошу вас изменить предложение или уйти.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_TRADE_NEEDMORE_ANGRY_2">
+      <Text>Этого недостаточно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_TRADE_NEEDMORE_ANGRY_3">
+      <Text>Вы должны предложить больше.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_TRADE_NEEDMORE_HAPPY_1">
+      <Text>Я буду вам весьма признательна, если вы добавите что-то к своему предложению.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_TRADE_NEEDMORE_HAPPY_2">
+      <Text>И это все, что вы можете предложить?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_TRADE_NEEDMORE_HAPPY_3">
+      <Text>Почитай, почти договорились...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_TRADE_NEEDMORE_NEUTRAL_1">
+      <Text>Мнится мне, вы нас до нищеты довести хотите? Будет вам. Сделайте достойное предложение!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_TRADE_NEEDMORE_NEUTRAL_2">
+      <Text>Можете предложить побольше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_TRADE_NEEDMORE_NEUTRAL_3">
+      <Text>Этого не хватит.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_TRADE_NEEDMORE_NEUTRAL_4">
+      <Text>Маловато.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_TRADE_NO_ANGRY">
+      <Text>Знаете, мой муж уже умер, так что Россией уже давно не правит идиот. Мы отказываемся.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_TRADE_NO_HAPPY">
+      <Text>Хотите извлечь выгоду из наших тесных отношений? Будьте паинькой, иначе никакой выгоды вам не видать - одни беды.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_TRADE_NO_NEUTRAL">
+      <Text>Словами не передать все мое безразличие к вашему предложению.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_TRADE_YES_ANGRY">
+      <Text>Быть по сему. Я согласна на все, лишь бы завершить эти утомительные переговоры. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_TRADE_YES_HAPPY">
+      <Text>Прекрасно. Мы согласны!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_TRADE_YES_NEUTRAL">
+      <Text>Россия согласна с вашими условиями.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_TRADEREQUEST_ANGRY">
+      <Text>Мы делаем вам предложение. Ежели у вас есть деловая хватка, вы его примете.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_TRADEREQUEST_HAPPY">
+      <Text>Как тебе понравится, если я предложу такой обмен?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_TRADEREQUEST_NEUTRAL">
+      <Text>Не желаете ли немного поторговаться?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_TRIBUTE_NO_ANGRY">
+      <Text>Вы воплощение невежества и хвастовства! Да как вы смеете? Вас следовало бы изрезать на куски и скормить свиньям.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_TRIBUTE_NO_HAPPY">
+      <Text>Ах вы, негодная душонка. Повезло вам, что я вас так люблю.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_TRIBUTE_NO_NEUTRAL">
+      <Text>Не в вашей власти от нас чего-то требовать. Мы отказываемся.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_TRIBUTE_YES_ANGRY">
+      <Text>Могу вас уверить, вы еще пожалеете об этом.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_TRIBUTE_YES_HAPPY">
+      <Text>Ну конечно! Я не могу отказать вам ни в чем. Вообще ни в чем!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_TRIBUTE_YES_NEUTRAL">
+      <Text>Похоже, у меня нет другого выбора, кроме как согласиться. До поры...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_WARBLUFF_1">
+      <Text>Как неприятно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_WARBLUFF_2">
+      <Text>Вот досада!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_WARBLUFF_3">
+      <Text>Неужели? Поверьте, вы даже пожалеть не успеете о своей близорукости.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_WARBLUFF_4">
+      <Text>Как же вы глупы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_WARBLUFF_5">
+      <Text>Ну как угодно. Кое-кто еще пожалеет об этом.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_CATHERINE_WINWAR_1">
+      <Text>Вот и все. Вы вели себя очень плохо, и сами это знаете. Надеюсь, вы запомните на всю жизнь, что так поступать не следует.</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

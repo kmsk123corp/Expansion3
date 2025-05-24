@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_AGREE_SHORT_1">
+      <Text>Отлично.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_AGREE_SHORT_2">
+      <Text>Хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_AGREE_SHORT_3">
+      <Text>Конечно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_AGREE_SHORT_4">
+      <Text>Пускай так и будет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_AGREE_SHORT_5">
+      <Text>О, очень хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_AGREE_SHORT_6">
+      <Text>Придется согласиться.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_AGREE_SHORT_7">
+      <Text>Прекрасно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_ATTACKED_1">
+      <Text>Какая глупая трата жизней и ценностей. Вы еще пожалеете об этом.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_ATTACKED_2">
+      <Text>Вы серьезно просчитались. Ваша судьба решена, а смерть неизбежна.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_ATTACKED_3">
+      <Text>Смело, но глупо. Хотел бы я, чтобы ваш ум соответствовал вашей доблести.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_DECLAREWAR_1">
+      <Text>Во имя богов, вы должны заплатить за оскорбление величия Рима. Готовьтесь к смерти!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_DECLAREWAR_2">
+      <Text>В моей казне пусто, а солдаты неспокойны. Поэтому вы должны умереть.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_DECLAREWAR_3">
+      <Text>Во имя моего отца, божественного Юлия. Клянусь, ваши дни сочтены. Готовьтесь к войне.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_DEFEATED_1">
+      <Text>Я поздравляю вас с победой.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_DEFEATED_2">
+      <Text>Вы победили нас. А мы проиграли.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_DEFEATED_3">
+      <Text>Боги оставили величественный Рим. Мы потерпели поражение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_DEMANDTRIBUTE_ANGRY">
+      <Text>Если хотите жить, немедленно отдайте нам то, что мы требуем.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_DEMANDTRIBUTE_HAPPY">
+      <Text>Будьте так добры, отдайте нам то, что мы хотим.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_DEMANDTRIBUTE_NEUTRAL">
+      <Text>Отдайте нам то, что мы хотим, или же будете наказаны.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_DISAGREE_SHORT_1">
+      <Text>Нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_DISAGREE_SHORT_2">
+      <Text>Определенно нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_DISAGREE_SHORT_3">
+      <Text>Мы вынуждены отказать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_DISAGREE_SHORT_4">
+      <Text>Конечно же, нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_DISAGREE_SHORT_5">
+      <Text>Это неприемлемо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_DISAGREE_SHORT_6">
+      <Text>Вы, должно быть, шутите!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_DISAGREE_SHORT_7">
+      <Text>Прощу прощения, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_FIRSTGREETING_1">
+      <Text>Приветствую. Я Август, император и великий понтифик Рима. Если вы друг Рима, то добро пожаловать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_FIRSTGREETING_2">
+      <Text>Добро пожаловать. Рим верен своим друзьям и безжалостен к врагам. Кем станете для нас вы?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_FIRSTGREETING_3">
+      <Text>Добро пожаловать. Ваше присутствие - честь для Рима.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_GOODBYE_1">
+      <Text>Хорошего вам дня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_GOODBYE_2">
+      <Text>Прощайте!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_GOODBYE_3">
+      <Text>До свидания.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_GOODBYE_4">
+      <Text>До следующей встречи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_GOODBYE_5">
+      <Text>Пойдите прочь.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_GOODBYE_6">
+      <Text>Дело сделано.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_GREETING_1">
+      <Text>Добро пожаловать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_GREETING_2">
+      <Text>Аве, гость!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_GREETING_3">
+      <Text>Приветствую.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_GREETING_4">
+      <Text>Хорошего вам дня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_GREETING_5">
+      <Text>А, это вы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_GREETING_6">
+      <Text>Да, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_GREETING_7">
+      <Text>Чего вы хотите?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_LETSHEARIT_1">
+      <Text>Итак, в чем дело?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_LETSHEARIT_2">
+      <Text>Продолжайте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_LETSHEARIT_3">
+      <Text>Я весь внимание.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_LETSHEARIT_4">
+      <Text>Да?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_LETSHEARIT_5">
+      <Text>Что вы сказали?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_LETSHEARIT_6">
+      <Text>И?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_LETSHEARIT_7">
+      <Text>Что дальше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_LOSEWAR_1">
+      <Text>Ваши солдаты отлично воевали. Поздравляю с победой.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_QUOTE_1">
+      <Text>Я принял Рим кирпичным, а оставил его мраморным.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_QUOTE_2">
+      <Text>Торопись медленно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_QUOTE_3">
+      <Text>Дайте мне разумного командира, а не опрометчивого.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_TRADE_NEEDMORE_ANGRY_1">
+      <Text>Этого явно не достаточно. Не желаете улучшить свое предложение?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_TRADE_NEEDMORE_ANGRY_2">
+      <Text>Этого недостаточно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_TRADE_NEEDMORE_ANGRY_3">
+      <Text>Вы должны предложить больше.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_TRADE_NEEDMORE_HAPPY_1">
+      <Text>Вы так же бережливы, как и моя жена Ливия. Вы что, не можете предложить больше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_TRADE_NEEDMORE_HAPPY_2">
+      <Text>И это все, что вы можете предложить?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_TRADE_NEEDMORE_HAPPY_3">
+      <Text>Уже почти готово, но...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_TRADE_NEEDMORE_NEUTRAL_1">
+      <Text>Этого мало. Неужели вы не можете предложить больше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_TRADE_NEEDMORE_NEUTRAL_2">
+      <Text>Можете предложить чуть побольше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_TRADE_NEEDMORE_NEUTRAL_3">
+      <Text>Этого не хватит.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_TRADE_NEEDMORE_NEUTRAL_4">
+      <Text>Маловато.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_TRADE_NO_ANGRY">
+      <Text>Клянусь бессмертными, ваше предложение оскорбительно для Рима.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_TRADE_NO_HAPPY">
+      <Text>К сожалению, знамения не благоприятствуют нашей сделке.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_TRADE_NO_NEUTRAL">
+      <Text>Думаю, нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_TRADE_YES_ANGRY">
+      <Text>Принято.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_TRADE_YES_HAPPY">
+      <Text>Отлично. По рукам.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_TRADE_YES_NEUTRAL">
+      <Text>Принято.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_TRADEREQUEST_ANGRY">
+      <Text>Подумайте над этим.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_TRADEREQUEST_HAPPY">
+      <Text>Предлагаю вам подумать над этим моим предложением.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_TRADEREQUEST_NEUTRAL">
+      <Text>Вот наше предложение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_TRIBUTE_NO_ANGRY">
+      <Text>Скорее, я увижу, как вы умрете.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_TRIBUTE_NO_HAPPY">
+      <Text>Я не могут так бесцеремонно распоряжаться римской казной.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_TRIBUTE_NO_NEUTRAL">
+      <Text>Вы ищете смерти, я полагаю?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_TRIBUTE_YES_ANGRY">
+      <Text>Я согласен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_TRIBUTE_YES_HAPPY">
+      <Text>Конечно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_TRIBUTE_YES_NEUTRAL">
+      <Text>Отлично.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_WARBLUFF_1">
+      <Text>Ха. А у вас есть, оказывается, сила воли и характер.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_WARBLUFF_2">
+      <Text>Считаете, у меня кишка тонка? Посмотрим.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_WARBLUFF_3">
+      <Text>Очень жаль.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_WARBLUFF_4">
+      <Text>Какое разочарование.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_WARBLUFF_5">
+      <Text>Неужели? Поверьте, вы даже пожалеть не успеете о собственной близорукости.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_WARBLUFF_6">
+      <Text>Как же вы глупы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_WARBLUFF_7">
+      <Text>Ну как угодно. Кое-кто еще пожалеет об этом.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_AUGUSTUS_WINWAR_1">
+      <Text>Великий Марс снова улыбнулся нам. Так будет со всяким врагом Рима!</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

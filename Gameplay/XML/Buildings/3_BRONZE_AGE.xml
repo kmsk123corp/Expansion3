@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited koba | 01.02.2024 -->
+<GameData>
+
+    <Buildings>
+
+
+    </Buildings>
+
+
+    <!-- Производит -->
+    <Building_YieldChanges>
+
+    </Building_YieldChanges>
+
+
+    <!-- Проценты к производству -->
+    <Building_YieldModifiers>
+
+    </Building_YieldModifiers>
+
+
+    <!-- С клеток озера -->
+    <Building_LakePlotYieldChanges>
+
+	</Building_LakePlotYieldChanges>
+
+
+    <!-- Улучшает клетки с ресурсами -->
+    <Building_ResourceYieldChanges>
+
+    </Building_ResourceYieldChanges>
+
+
+    <!-- Может быть построенно только с этим ресурсом -->
+    <Building_LocalResourceOrs>
+
+    </Building_LocalResourceOrs>
+
+
+    <!-- Клетки с океаном -->
+    <Building_SeaPlotYieldChanges>
+
+    </Building_SeaPlotYieldChanges>
+
+
+    <!-- Производит от каждого жителя города в процентах -->
+    <Building_YieldChangesPerPop>
+
+    </Building_YieldChangesPerPop>
+
+
+    <!-- Опыт юнитам -->
+    <Building_DomainFreeExperiences>
+
+    </Building_DomainFreeExperiences>
+
+
+    <!-- С клеток леса -->
+    <Building_FeatureYieldChanges>
+
+    </Building_FeatureYieldChanges>
+
+
+    <!-- Для постройки нужно здание -->
+    <Building_ClassesNeededInCity>
+
+    </Building_ClassesNeededInCity>
+
+
+    <!-- Для ботов похоже... -->
+    <Building_Flavors>
+
+    </Building_Flavors>
+
+
+
+
+
+</GameData>

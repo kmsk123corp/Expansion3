@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_MAP_MESO_HELP">
+      <Text>Большой мир, охватывающий на западе долину реки Нил, а на востоке расширяющийся до Тигра и Евфрата.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_MESO_TITLE">
+      <Text>Месопотамия</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

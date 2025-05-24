@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<!-- Table data -->
+	<Buildings>
+
+	</Buildings>
+	<Building_Flavors>
+
+	</Building_Flavors>
+	<Building_GlobalYieldModifiers>
+
+	</Building_GlobalYieldModifiers>
+	<Building_ResourceYieldChanges>
+
+	</Building_ResourceYieldChanges>
+	<Building_UnitCombatProductionModifiers>
+
+	</Building_UnitCombatProductionModifiers>
+	<Building_YieldChanges>
+
+	</Building_YieldChanges>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>WONDERS_DLC_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>WonderAtlas256_DLC_WonderPack.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WONDERS_DLC_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>WonderAtlas128_DLC_WonderPack.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WONDERS_DLC_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>WonderAtlas80_DLC_WonderPack.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WONDERS_DLC_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>WonderAtlas64_DLC_WonderPack.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WONDERS_DLC_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>WonderAtlas45_DLC_WonderPack.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

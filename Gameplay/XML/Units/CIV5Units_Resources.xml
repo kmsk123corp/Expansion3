@@ -1,0 +1,2917 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+
+<GameData>
+<!-- ############################### -->
+<!--   Стоимость в ресурсов юнитов   -->
+<!-- ############################### -->
+<Unit_ResourceCostRequirements>
+
+
+	<!-- Гражданские -->
+	<!-- Поселенец -->
+	<Row>
+		<UnitType>UNIT_SETTLER</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>100</Cost>
+	</Row>
+
+	<Row>
+		<UnitType>UNIT_WORKER</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>25</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_WORKER</UnitType>
+		<ResourceType>RESOURCE_STONE</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_WORKER</UnitType>
+		<ResourceType>RESOURCE_WOOD</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+
+
+	<Row>
+		<UnitType>UNIT_WORKBOAT</UnitType>
+		<ResourceType>RESOURCE_WOOD</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+
+
+
+	<!-- Караван -->
+	<!-- <Row>
+		<UnitType>UNIT_CARAVAN</UnitType>
+		<ResourceType>RESOURCE_HORSE</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_CARAVAN</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>1</Cost>
+	</Row> -->
+	<!-- Грузовой корабль -->
+	<!-- <Row>
+		<UnitType>UNIT_CARGO_SHIP</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>30</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_CARGO_SHIP</UnitType>
+		<ResourceType>RESOURCE_WOOD</ResourceType>
+		<Cost>30</Cost>
+	</Row> -->
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Разведчики -->
+	<!-- <Row>
+		<UnitType>UNIT_SCOUT</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>4</Cost>
+	</Row> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Рыцари -->
+	<Row>
+		<UnitType>UNIT_KNIGHT</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>100</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_KNIGHT</UnitType>
+		<ResourceType>RESOURCE_HORSE</ResourceType>
+		<Cost>50</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_KNIGHT</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>50</Cost>
+	</Row>
+	<!-- Арбалетчики -->
+	<Row>
+		<UnitType>UNIT_CROSSBOWMAN</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>15</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_CROSSBOWMAN</UnitType>
+		<ResourceType>RESOURCE_WOOD</ResourceType>
+		<Cost>3</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_CROSSBOWMAN</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<!-- Конные арбалетчики -->
+	<Row>
+		<UnitType>UNIT_HORSE_CROSSBOWMAN</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>25</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_HORSE_CROSSBOWMAN</UnitType>
+		<ResourceType>RESOURCE_HORSE</ResourceType>
+		<Cost>40</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_HORSE_CROSSBOWMAN</UnitType>
+		<ResourceType>RESOURCE_WOOD</ResourceType>
+		<Cost>3</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_HORSE_CROSSBOWMAN</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+
+	<!-- Длинный мечь -->
+	<Row>
+		<UnitType>UNIT_LONGSWORDSMAN</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_LONGSWORDSMAN</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>40</Cost>
+	</Row>
+
+	<!-- Аркебузеры -->
+	<Row>
+		<UnitType>UNIT_MUSKETMAN</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MUSKETMAN</UnitType>
+		<ResourceType>RESOURCE_WOOD</ResourceType>
+		<Cost>5</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MUSKETMAN</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>30</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MUSKETMAN</UnitType>
+		<ResourceType>RESOURCE_SALTPETER</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+
+	<!-- Стрельцы -->
+	<Row>
+		<UnitType>UNIT_RUSSIA_STRELTSY</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_RUSSIA_STRELTSY</UnitType>
+		<ResourceType>RESOURCE_WOOD</ResourceType>
+		<Cost>5</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_RUSSIA_STRELTSY</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>30</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_RUSSIA_STRELTSY</UnitType>
+		<ResourceType>RESOURCE_SALTPETER</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+
+	<!-- Уланы -->
+	<Row>
+		<UnitType>UNIT_LANCER</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>30</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_LANCER</UnitType>
+		<ResourceType>RESOURCE_HORSE</ResourceType>
+		<Cost>60</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_LANCER</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>30</Cost>
+	</Row>
+
+	<!-- Кирасиры -->
+	<Row>
+		<UnitType>UNIT_CUIRASSIER</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>30</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_CUIRASSIER</UnitType>
+		<ResourceType>RESOURCE_HORSE</ResourceType>
+		<Cost>60</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_CUIRASSIER</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_CUIRASSIER</UnitType>
+		<ResourceType>RESOURCE_SALTPETER</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+
+	<!-- Пушки -->
+	<Row>
+		<UnitType>UNIT_CANNON</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_CANNON</UnitType>
+		<ResourceType>RESOURCE_HORSE</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_CANNON</UnitType>
+		<ResourceType>RESOURCE_WOOD</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_CANNON</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>60</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_CANNON</UnitType>
+		<ResourceType>RESOURCE_SALTPETER</ResourceType>
+		<Cost>25</Cost>
+	</Row>
+
+	<!-- Гатлинг -->
+	<Row>
+		<UnitType>UNIT_GATLINGGUN</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_GATLINGGUN</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>30</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_GATLINGGUN</UnitType>
+		<ResourceType>RESOURCE_SALTPETER</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+
+
+
+
+	<!-- Кавалеристы -->
+	<Row>
+		<UnitType>UNIT_CAVALRY</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>50</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_CAVALRY</UnitType>
+		<ResourceType>RESOURCE_HORSE</ResourceType>
+		<Cost>80</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_CAVALRY</UnitType>
+		<ResourceType>RESOURCE_WOOD</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_CAVALRY</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_CAVALRY</UnitType>
+		<ResourceType>RESOURCE_SALTPETER</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+
+	<!-- Козаки -->
+	<Row>
+		<UnitType>UNIT_RUSSIAN_COSSACK</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>50</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_RUSSIAN_COSSACK</UnitType>
+		<ResourceType>RESOURCE_HORSE</ResourceType>
+		<Cost>80</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_RUSSIAN_COSSACK</UnitType>
+		<ResourceType>RESOURCE_WOOD</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_RUSSIAN_COSSACK</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_RUSSIAN_COSSACK</UnitType>
+		<ResourceType>RESOURCE_SALTPETER</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+
+	<!-- Артиления -->
+	<Row>
+		<UnitType>UNIT_ARTILLERY</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>25</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARTILLERY</UnitType>
+		<ResourceType>RESOURCE_HORSE</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARTILLERY</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>100</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARTILLERY</UnitType>
+		<ResourceType>RESOURCE_SALTPETER</ResourceType>
+		<Cost>50</Cost>
+	</Row>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Гренадеры -->
+	<Row>
+		<UnitType>UNIT_GRENADIER</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>30</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_GRENADIER</UnitType>
+		<ResourceType>RESOURCE_WOOD</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_GRENADIER</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>15</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_GRENADIER</UnitType>
+		<ResourceType>RESOURCE_SALTPETER</ResourceType>
+		<Cost>15</Cost>
+	</Row>
+
+	<!-- Стрелки (Линейная пехота) -->
+	<Row>
+		<UnitType>UNIT_RIFLEMAN</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>40</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_RIFLEMAN</UnitType>
+		<ResourceType>RESOURCE_WOOD</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_RIFLEMAN</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_RIFLEMAN</UnitType>
+		<ResourceType>RESOURCE_SALTPETER</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+
+	<!-- Штурмовая пехота -->
+	<Row>
+		<UnitType>UNIT_GREAT_WAR_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>50</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_GREAT_WAR_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_WOOD</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_GREAT_WAR_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_GREAT_WAR_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+
+	<!-- Пехота -->
+	<Row>
+		<UnitType>UNIT_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>50</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_WOOD</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+
+	<!-- Морская пехота -->
+	<Row>
+		<UnitType>UNIT_MARINE</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>50</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MARINE</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>30</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MARINE</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>30</Cost>
+	</Row>
+
+	<!-- Диверсанты -->
+	<Row>
+		<UnitType>UNIT_SABOTEUR</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>25</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SABOTEUR</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SABOTEUR</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+
+	<!-- Парашутисты -->
+	<Row>
+		<UnitType>UNIT_PARATROOPER</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>50</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_PARATROOPER</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_PARATROOPER</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_PARATROOPER</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_PARATROOPER</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+
+	<!-- Мотопехота -->
+	<Row>
+		<UnitType>UNIT_MECHANIZED_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>50</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MECHANIZED_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>100</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MECHANIZED_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_COPPER</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MECHANIZED_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MECHANIZED_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MECHANIZED_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MECHANIZED_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+
+	<!-- Спецназ -->
+	<Row>
+		<UnitType>UNIT_POWERED_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_POWERED_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_POWERED_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+
+
+
+
+
+
+	<!-- Триплан -->
+	<Row>
+		<UnitType>UNIT_TRIPLANE</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_TRIPLANE</UnitType>
+		<ResourceType>RESOURCE_WOOD</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_TRIPLANE</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_TRIPLANE</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+
+	<!-- Двухмоторный бомбер  -->
+	<Row>
+		<UnitType>UNIT_WWI_BOMBER</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>40</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_WWI_BOMBER</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>40</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_WWI_BOMBER</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_WWI_BOMBER</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_WWI_BOMBER</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>40</Cost>
+	</Row>
+
+	<!-- Дирижабль -->
+	<Row>
+		<UnitType>UNIT_STEAM_AIRSHIP</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>50</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_STEAM_AIRSHIP</UnitType>
+		<ResourceType>RESOURCE_SALTPETER</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_STEAM_AIRSHIP</UnitType>
+		<ResourceType>RESOURCE_COAL</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+
+	<!-- Броневеки -->
+	<Row>
+		<UnitType>UNIT_STEAM_LAND_IRONCLAD</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>100</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_STEAM_LAND_IRONCLAD</UnitType>
+		<ResourceType>RESOURCE_COAL</ResourceType>
+		<Cost>25</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_STEAM_LAND_IRONCLAD</UnitType>
+		<ResourceType>RESOURCE_SALTPETER</ResourceType>
+		<Cost>50</Cost>
+	</Row>
+
+
+
+	<!-- Зенитные пушки -->
+	<Row>
+		<UnitType>UNIT_ANTI_AIRCRAFT_GUN</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ANTI_AIRCRAFT_GUN</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>50</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ANTI_AIRCRAFT_GUN</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+
+	<!-- Пулеметная рота -->
+	<Row>
+		<UnitType>UNIT_MACHINE_GUN</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MACHINE_GUN</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MACHINE_GUN</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+
+	<!-- Танкетки -->
+	<Row>
+		<UnitType>UNIT_WWI_TANK</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>150</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_WWI_TANK</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>50</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_WWI_TANK</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>50</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_WWI_TANK</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+
+
+	<!-- Миноносец -->
+	<Row>
+		<UnitType>UNIT_EARLY_DESTROYER</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>400</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_EARLY_DESTROYER</UnitType>
+		<ResourceType>RESOURCE_COAL</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+
+
+
+
+	<!-- Бомбандировщик -->
+	<Row>
+		<UnitType>UNIT_BOMBER</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>60</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_BOMBER</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>30</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_BOMBER</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>30</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_BOMBER</UnitType>
+		<ResourceType>RESOURCE_COPPER</ResourceType>
+		<Cost>5</Cost>
+	</Row>
+
+
+
+
+	<!-- Истребитель -->
+	<Row>
+		<UnitType>UNIT_FIGHTER</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_FIGHTER</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_FIGHTER</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_FIGHTER</UnitType>
+		<ResourceType>RESOURCE_COPPER</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+
+
+
+
+	<!-- Бронетранспортеры -->
+	<Row>
+		<UnitType>UNIT_ARMORED_CAR</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>100</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARMORED_CAR</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<!-- Танки т-34 -->
+	<Row>
+		<UnitType>UNIT_TANK</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>200</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_TANK</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<!-- Противотанковые пушки -->
+	<Row>
+		<UnitType>UNIT_ANTI_TANK_GUN</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>60</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ANTI_TANK_GUN</UnitType>
+		<ResourceType>RESOURCE_HORSE</ResourceType>
+		<Cost>100</Cost>
+	</Row>
+	<!-- Базука -->
+	<Row>
+		<UnitType>UNIT_BAZOOKA</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<!-- Мобильный ЗРК -->
+	<Row>
+		<UnitType>UNIT_MOBILE_SAM</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MOBILE_SAM</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>4</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MOBILE_SAM</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<!-- РСЗО -->
+	<Row>
+		<UnitType>UNIT_ROCKET_ARTILLERY</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>40</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ROCKET_ARTILLERY</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ROCKET_ARTILLERY</UnitType>
+		<ResourceType>RESOURCE_COPPER</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ROCKET_ARTILLERY</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<!-- Эсминец -->
+	<Row>
+		<UnitType>UNIT_DESTROYER</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>300</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_DESTROYER</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>100</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_DESTROYER</UnitType>
+		<ResourceType>RESOURCE_COPPER</ResourceType>
+		<Cost>30</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_DESTROYER</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>60</Cost>
+	</Row>
+	<!-- Верталет -->
+	<Row>
+		<UnitType>UNIT_HELICOPTER_GUNSHIP</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>40</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_HELICOPTER_GUNSHIP</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>30</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_HELICOPTER_GUNSHIP</UnitType>
+		<ResourceType>RESOURCE_COPPER</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_HELICOPTER_GUNSHIP</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>40</Cost>
+	</Row>
+
+
+	<!-- Мобильный СРК -->
+	<Row>
+		<UnitType>UNIT_LSAM</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>4</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_LSAM</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>4</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_LSAM</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+
+	<!-- САУ -->
+	<Row>
+		<UnitType>UNIT_HEAVY_ISOTOPE_PROJECTOR</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>200</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_HEAVY_ISOTOPE_PROJECTOR</UnitType>
+		<ResourceType>RESOURCE_COPPER</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_HEAVY_ISOTOPE_PROJECTOR</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_HEAVY_ISOTOPE_PROJECTOR</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>50</Cost>
+	</Row>
+
+
+	<!-- Ядерная бомба -->
+	<Row>
+		<UnitType>UNIT_ATOMIC_BOMB</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ATOMIC_BOMB</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>30</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ATOMIC_BOMB</UnitType>
+		<ResourceType>RESOURCE_URANIUM</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<!-- Ядерная ракета -->
+	<Row>
+		<UnitType>UNIT_NUCLEAR_MISSILE</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_NUCLEAR_MISSILE</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>30</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_NUCLEAR_MISSILE</UnitType>
+		<ResourceType>RESOURCE_COPPER</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_NUCLEAR_MISSILE</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>50</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_NUCLEAR_MISSILE</UnitType>
+		<ResourceType>RESOURCE_URANIUM</ResourceType>
+		<Cost>50</Cost>
+	</Row>
+	<!-- Ракеты тамогавки -->
+	<Row>
+		<UnitType>UNIT_GUIDED_MISSILE</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_GUIDED_MISSILE</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_GUIDED_MISSILE</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+
+
+	<!--  -->
+	<!-- Космическая ракета: Система анабиоза -->
+	<Row>
+		<UnitType>UNIT_SS_STASIS_CHAMBER</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>500</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SS_STASIS_CHAMBER</UnitType>
+		<ResourceType>RESOURCE_COPPER</ResourceType>
+		<Cost>200</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SS_STASIS_CHAMBER</UnitType>
+		<ResourceType>RESOURCE_URANIUM</ResourceType>
+		<Cost>100</Cost>
+	</Row>
+	<!-- Космическая ракета: Двигатель -->
+	<Row>
+		<UnitType>UNIT_SS_ENGINE</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>300</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SS_ENGINE</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>500</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SS_ENGINE</UnitType>
+		<ResourceType>RESOURCE_COPPER</ResourceType>
+		<Cost>100</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SS_ENGINE</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>500</Cost>
+	</Row>
+
+
+	<!-- Космическая ракета: Мостик -->
+	<Row>
+		<UnitType>UNIT_SS_COCKPIT</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>300</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SS_COCKPIT</UnitType>
+		<ResourceType>RESOURCE_COPPER</ResourceType>
+		<Cost>100</Cost>
+	</Row>
+	<!-- Космическая ракета: Ракето-носитель -->
+	<Row>
+		<UnitType>UNIT_SS_BOOSTER</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>50</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SS_BOOSTER</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>50</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SS_BOOSTER</UnitType>
+		<ResourceType>RESOURCE_COPPER</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SS_BOOSTER</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>100</Cost>
+	</Row>
+
+
+
+	<!-- Реактивный истребитель -->
+	<Row>
+		<UnitType>UNIT_JET_FIGHTER</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>30</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_JET_FIGHTER</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>50</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_JET_FIGHTER</UnitType>
+		<ResourceType>RESOURCE_COPPER</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_JET_FIGHTER</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>30</Cost>
+	</Row>
+
+	<!-- Современные танки -->
+	<Row>
+		<UnitType>UNIT_MODERN_ARMOR</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>250</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MODERN_ARMOR</UnitType>
+		<ResourceType>RESOURCE_COPPER</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MODERN_ARMOR</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>30</Cost>
+	</Row>
+	<!-- Реактивный бомбанщировщик -->
+	<Row>
+		<UnitType>UNIT_JET_BOMBER</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>100</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_JET_BOMBER</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>60</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_JET_BOMBER</UnitType>
+		<ResourceType>RESOURCE_COPPER</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_JET_BOMBER</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>40</Cost>
+	</Row>
+
+	<!-- Мобильное ПТО -->
+	<Row>
+		<UnitType>UNIT_STURMTIGER</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>300</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_STURMTIGER</UnitType>
+		<ResourceType>RESOURCE_COPPER</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_STURMTIGER</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>30</Cost>
+	</Row>
+	<!-- Экзоброня -->
+	<Row>
+		<UnitType>UNIT_DREAD</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>60</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_DREAD</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_DREAD</UnitType>
+		<ResourceType>RESOURCE_URANIUM</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<!-- Боевые роботы -->
+	<Row>
+		<UnitType>UNIT_ROBOT_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>40</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ROBOT_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ROBOT_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_URANIUM</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<!-- ОБЧР -->
+	<Row>
+		<UnitType>UNIT_MECH</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>400</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MECH</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>200</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MECH</UnitType>
+		<ResourceType>RESOURCE_COPPER</ResourceType>
+		<Cost>50</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MECH</UnitType>
+		<ResourceType>RESOURCE_URANIUM</ResourceType>
+		<Cost>50</Cost>
+	</Row>
+	<!-- Сверхтяжолый танк -->
+	<Row>
+		<UnitType>UNIT_GAUSS_TANK</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>500</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_GAUSS_TANK</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>50</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_GAUSS_TANK</UnitType>
+		<ResourceType>RESOURCE_COPPER</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_GAUSS_TANK</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>50</Cost>
+	</Row>
+
+	<!-- Экранолет -->
+	<Row>
+		<UnitType>UNIT_HOVERPLANE</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>50</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_HOVERPLANE</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>50</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_HOVERPLANE</UnitType>
+		<ResourceType>RESOURCE_COPPER</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_HOVERPLANE</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>50</Cost>
+	</Row>
+
+	<!-- XCOM -->
+	<Row>
+		<UnitType>UNIT_XCOM_SQUAD</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_XCOM_SQUAD</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_XCOM_SQUAD</UnitType>
+		<ResourceType>RESOURCE_COPPER</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_XCOM_SQUAD</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>60</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_XCOM_SQUAD</UnitType>
+		<ResourceType>RESOURCE_URANIUM</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<!-- Бомбандировщик Стелс -->
+	<Row>
+		<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>50</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>100</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+		<ResourceType>RESOURCE_COPPER</ResourceType>
+		<Cost>50</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>100</Cost>
+	</Row>
+
+	<!-- Истребитель Стелс -->
+	<Row>
+		<UnitType>UNIT_STEALTH_FIGHTER</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_STEALTH_FIGHTER</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>80</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_STEALTH_FIGHTER</UnitType>
+		<ResourceType>RESOURCE_COPPER</ResourceType>
+		<Cost>20</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_STEALTH_FIGHTER</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>60</Cost>
+	</Row>
+
+
+</Unit_ResourceCostRequirements>
+
+
+<!-- ############################### -->
+<!-- Потребление ресурсов каждый ход -->
+<!-- ############################### -->
+<Unit_ResourceQuantityRequirements>
+
+
+	<!-- Поселенец -->
+	<Row>
+		<UnitType>UNIT_SETTLER</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>5</Cost>
+	</Row>
+
+	<!-- Караван -->
+	<!-- <Row>
+		<UnitType>UNIT_CARAVAN</UnitType>
+		<ResourceType>RESOURCE_HORSE</ResourceType>
+		<Cost>1</Cost>
+	</Row> -->
+	<Row>
+		<UnitType>UNIT_CARAVAN</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>5</Cost>
+	</Row>
+	<!-- Грузовой корабль -->
+	<Row>
+		<UnitType>UNIT_CARGO_SHIP</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<!-- <Row>
+		<UnitType>UNIT_CARGO_SHIP</UnitType>
+		<ResourceType>RESOURCE_WOOD</ResourceType>
+		<Cost>3</Cost>
+	</Row> -->
+
+
+	<!-- Рабочий -->
+	<Row>
+		<UnitType>UNIT_WORKER</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+
+	<!-- ############################# -->
+	<!-- ##### Войска ближн. боя ##### -->
+	<!-- ############################# -->
+
+
+
+
+
+	<!-- Длинный мечь -->
+	<Row>
+		<UnitType>UNIT_LONGSWORDSMAN</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>4</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_LONGSWORDSMAN</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+
+	<!-- Аркебузеры -->
+	<Row>
+		<UnitType>UNIT_MUSKETMAN</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>5</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MUSKETMAN</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MUSKETMAN</UnitType>
+		<ResourceType>RESOURCE_SALTPETER</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+
+	<!-- Стрельцы -->
+	<Row>
+		<UnitType>UNIT_RUSSIA_STRELTSY</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>5</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_RUSSIA_STRELTSY</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_RUSSIA_STRELTSY</UnitType>
+		<ResourceType>RESOURCE_SALTPETER</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+
+
+
+	<!-- Гренадеры -->
+	<Row>
+		<UnitType>UNIT_GRENADIER</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>6</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_GRENADIER</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_GRENADIER</UnitType>
+		<ResourceType>RESOURCE_SALTPETER</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+
+	<!-- Стрелки (Линейная пехота) -->
+	<Row>
+		<UnitType>UNIT_RIFLEMAN</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>8</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_RIFLEMAN</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_RIFLEMAN</UnitType>
+		<ResourceType>RESOURCE_SALTPETER</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+
+	<!-- Штурмовая пехота -->
+	<Row>
+		<UnitType>UNIT_GREAT_WAR_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_GREAT_WAR_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+
+	<!-- Пехотинцы -->
+	<Row>
+		<UnitType>UNIT_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+
+	<!-- Морская пехота -->
+	<Row>
+		<UnitType>UNIT_MARINE</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MARINE</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MARINE</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+
+	<!-- Диверсанты -->
+	<Row>
+		<UnitType>UNIT_SABOTEUR</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SABOTEUR</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+
+	<!-- Парашутисты -->
+	<Row>
+		<UnitType>UNIT_PARATROOPER</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_PARATROOPER</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_PARATROOPER</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+
+	<!-- Мотопехота -->
+	<Row>
+		<UnitType>UNIT_MECHANIZED_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MECHANIZED_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MECHANIZED_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MECHANIZED_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+
+	<!-- Спецназ -->
+	<Row>
+		<UnitType>UNIT_POWERED_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>5</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_POWERED_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_POWERED_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+
+
+	<!-- ################################## -->
+	<!-- ##### Вспомогательная Пехота ##### -->
+	<!-- ################################## -->
+
+
+
+
+
+
+
+
+	<!-- Противотанковые пушки -->
+	<Row>
+		<UnitType>UNIT_ANTI_TANK_GUN</UnitType>
+		<ResourceType>RESOURCE_HORSE</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ANTI_TANK_GUN</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ANTI_TANK_GUN</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+
+	<!-- Мобильное ПТО -->
+	<Row>
+		<UnitType>UNIT_STURMTIGER</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_STURMTIGER</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>3</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_STURMTIGER</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+
+	<!-- Сверхтяжолый танк -->
+	<Row>
+		<UnitType>UNIT_GAUSS_TANK</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>3</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_GAUSS_TANK</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>4</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_GAUSS_TANK</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>4</Cost>
+	</Row>
+
+	<!-- ######################## -->
+	<!-- ##### Застрельщики ##### -->
+	<!-- ######################## -->
+
+
+
+
+
+	<!-- Арбалетчики -->
+	<Row>
+		<UnitType>UNIT_CROSSBOWMAN</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+
+	<!-- Гатлинг -->
+	<Row>
+		<UnitType>UNIT_GATLINGGUN</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_GATLINGGUN</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_GATLINGGUN</UnitType>
+		<ResourceType>RESOURCE_SALTPETER</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+
+
+	<!-- Пулеметная рота -->
+	<Row>
+		<UnitType>UNIT_MACHINE_GUN</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MACHINE_GUN</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+
+	<!-- Базука -->
+	<Row>
+		<UnitType>UNIT_BAZOOKA</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_BAZOOKA</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_BAZOOKA</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+
+	<!-- Экзоброня -->
+	<Row>
+		<UnitType>UNIT_DREAD</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_DREAD</UnitType>
+		<ResourceType>RESOURCE_URANIUM</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_DREAD</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+
+	<!-- ################### -->
+	<!-- ##### Конница ##### -->
+	<!-- ################### -->
+
+
+
+	<!-- Рыцари -->
+	<Row>
+		<UnitType>UNIT_KNIGHT</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>3</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_KNIGHT</UnitType>
+		<ResourceType>RESOURCE_HORSE</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_KNIGHT</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+
+	<!-- Уланы -->
+	<Row>
+		<UnitType>UNIT_LANCER</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>4</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_LANCER</UnitType>
+		<ResourceType>RESOURCE_HORSE</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+
+	<!-- Кавалеристы -->
+	<Row>
+		<UnitType>UNIT_CAVALRY</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>5</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_CAVALRY</UnitType>
+		<ResourceType>RESOURCE_HORSE</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_CAVALRY</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_CAVALRY</UnitType>
+		<ResourceType>RESOURCE_SALTPETER</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+
+	<!-- Козаки -->
+	<Row>
+		<UnitType>UNIT_RUSSIAN_COSSACK</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>5</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_RUSSIAN_COSSACK</UnitType>
+		<ResourceType>RESOURCE_HORSE</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_RUSSIAN_COSSACK</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_RUSSIAN_COSSACK</UnitType>
+		<ResourceType>RESOURCE_SALTPETER</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+
+	<!-- ################################## -->
+	<!-- ##### Мобильные застрельщики ##### -->
+	<!-- ################################## -->
+
+
+
+	<!-- Конные арбалетчики -->
+	<Row>
+		<UnitType>UNIT_HORSE_CROSSBOWMAN</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>3</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_HORSE_CROSSBOWMAN</UnitType>
+		<ResourceType>RESOURCE_HORSE</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+
+	<!-- Кирасиры -->
+	<Row>
+		<UnitType>UNIT_CUIRASSIER</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>4</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_CUIRASSIER</UnitType>
+		<ResourceType>RESOURCE_HORSE</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_CUIRASSIER</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_CUIRASSIER</UnitType>
+		<ResourceType>RESOURCE_SALTPETER</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+
+
+	<!-- Броневеки -->
+	<Row>
+		<UnitType>UNIT_STEAM_LAND_IRONCLAD</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>4</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_STEAM_LAND_IRONCLAD</UnitType>
+		<ResourceType>RESOURCE_COAL</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_STEAM_LAND_IRONCLAD</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_STEAM_LAND_IRONCLAD</UnitType>
+		<ResourceType>RESOURCE_SALTPETER</ResourceType>
+		<Cost>4</Cost>
+	</Row>
+
+	<!-- Бронетранспортеры -->
+	<Row>
+		<UnitType>UNIT_ARMORED_CAR</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARMORED_CAR</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>3</Cost>
+	</Row>
+
+	<!-- САУ -->
+	<Row>
+		<UnitType>UNIT_HEAVY_ISOTOPE_PROJECTOR</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_HEAVY_ISOTOPE_PROJECTOR</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_HEAVY_ISOTOPE_PROJECTOR</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_HEAVY_ISOTOPE_PROJECTOR</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+
+	<!-- ########################## -->
+	<!-- ##### Осадные орудия ##### -->
+	<!-- ########################## -->
+
+
+
+
+
+	<!-- Пушки -->
+	<Row>
+		<UnitType>UNIT_CANNON</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_CANNON</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_CANNON</UnitType>
+		<ResourceType>RESOURCE_SALTPETER</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+
+
+
+
+	<!-- Артиления -->
+	<Row>
+		<UnitType>UNIT_ARTILLERY</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARTILLERY</UnitType>
+		<ResourceType>RESOURCE_HORSE</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARTILLERY</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+
+
+	<!-- РСЗО -->
+	<Row>
+		<UnitType>UNIT_ROCKET_ARTILLERY</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ROCKET_ARTILLERY</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ROCKET_ARTILLERY</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ROCKET_ARTILLERY</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ROCKET_ARTILLERY</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+
+	<!-- ############################## -->
+	<!-- ##### Корабли ближн. боя ##### -->
+	<!-- ############################## -->
+
+
+
+	<!-- Каравелла -->
+	<Row>
+		<UnitType>UNIT_CARAVEL</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+
+	<!-- Броненосец -->
+	<Row>
+		<UnitType>UNIT_IRONCLAD</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>3</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_IRONCLAD</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>3</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_IRONCLAD</UnitType>
+		<ResourceType>RESOURCE_COAL</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_IRONCLAD</UnitType>
+		<ResourceType>RESOURCE_SALTPETER</ResourceType>
+		<Cost>3</Cost>
+	</Row>
+
+	<!-- Миноносец -->
+	<Row>
+		<UnitType>UNIT_EARLY_DESTROYER</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>4</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_EARLY_DESTROYER</UnitType>
+		<ResourceType>RESOURCE_COAL</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_EARLY_DESTROYER</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_EARLY_DESTROYER</UnitType>
+		<ResourceType>RESOURCE_SALTPETER</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+
+	<!-- Эсминец -->
+	<Row>
+		<UnitType>UNIT_DESTROYER</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>4</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_DESTROYER</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_DESTROYER</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_DESTROYER</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>3</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_DESTROYER</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>4</Cost>
+	</Row>
+
+	<!-- ################## -->
+
+	<!-- Капер -->
+	<Row>
+		<UnitType>UNIT_PRIVATEER</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_PRIVATEER</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_PRIVATEER</UnitType>
+		<ResourceType>RESOURCE_SALTPETER</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+
+	<!-- Рейдер -->
+	<Row>
+		<UnitType>UNIT_RAIDER</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>3</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_RAIDER</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>3</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_RAIDER</UnitType>
+		<ResourceType>RESOURCE_COAL</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_RAIDER</UnitType>
+		<ResourceType>RESOURCE_SALTPETER</ResourceType>
+		<Cost>3</Cost>
+	</Row>
+
+
+	<!-- ############################## -->
+	<!-- ##### Корабли дальн. боя ##### -->
+	<!-- ############################## -->
+
+
+
+	<!-- фрегат -->
+	<Row>
+		<UnitType>UNIT_FRIGATE</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>6</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_FRIGATE</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>3</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_FRIGATE</UnitType>
+		<ResourceType>RESOURCE_SALTPETER</ResourceType>
+		<Cost>3</Cost>
+	</Row>
+
+
+	<!-- Канонерка -->
+	<Row>
+		<UnitType>UNIT_GUNBOAT</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>8</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_GUNBOAT</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_GUNBOAT</UnitType>
+		<ResourceType>RESOURCE_COAL</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+
+
+	<!-- Линкор -->
+	<Row>
+		<UnitType>UNIT_BATTLESHIP</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_BATTLESHIP</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_BATTLESHIP</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_BATTLESHIP</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>3</Cost>
+	</Row>
+
+
+	<!-- Ракетный крейсер -->
+	<Row>
+		<UnitType>UNIT_MISSILE_CRUISER</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MISSILE_CRUISER</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MISSILE_CRUISER</UnitType>
+		<ResourceType>RESOURCE_URANIUM</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MISSILE_CRUISER</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>10</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MISSILE_CRUISER</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>4</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MISSILE_CRUISER</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>4</Cost>
+	</Row>
+
+	<!-- ########################### -->
+	<!-- ##### Подводные лодки ##### -->
+	<!-- ########################### -->
+
+	<!-- Подводная лодка -->
+	<Row>
+		<UnitType>UNIT_SUBMARINE</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>5</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SUBMARINE</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SUBMARINE</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SUBMARINE</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+
+	<!-- Атомная судмарина -->
+	<Row>
+		<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
+		<ResourceType>RESOURCE_URANIUM</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>6</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>4</Cost>
+	</Row>
+
+	<!-- ####################### -->
+	<!-- ##### Истребители ##### -->
+	<!-- ####################### -->
+
+	<!-- Триплан -->
+	<Row>
+		<UnitType>UNIT_TRIPLANE</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_TRIPLANE</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+
+	<!-- Истребитель -->
+	<Row>
+		<UnitType>UNIT_FIGHTER</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_FIGHTER</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_FIGHTER</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_FIGHTER</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+
+	<!-- Реактивный истребитель -->
+	<Row>
+		<UnitType>UNIT_JET_FIGHTER</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_JET_FIGHTER</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>3</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_JET_FIGHTER</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_JET_FIGHTER</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_JET_FIGHTER</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+
+
+	<!-- Истребитель Стелс -->
+	<Row>
+		<UnitType>UNIT_STEALTH_FIGHTER</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_STEALTH_FIGHTER</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_STEALTH_FIGHTER</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>3</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_STEALTH_FIGHTER</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_STEALTH_FIGHTER</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_STEALTH_FIGHTER</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>3</Cost>
+	</Row>
+
+	<!-- ########################### -->
+	<!-- ##### Бомбардировщики ##### -->
+	<!-- ########################### -->
+
+	<!-- Двухмоторный бомбер  -->
+	<Row>
+		<UnitType>UNIT_WWI_BOMBER</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_WWI_BOMBER</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+
+
+	<!-- Бомбандировщик -->
+	<Row>
+		<UnitType>UNIT_BOMBER</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_BOMBER</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>3</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_BOMBER</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_BOMBER</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_BOMBER</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+
+	<!-- Реактивный бомбанщировщик -->
+	<Row>
+		<UnitType>UNIT_JET_BOMBER</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>3</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_JET_BOMBER</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_JET_BOMBER</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>4</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_JET_BOMBER</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_JET_BOMBER</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_JET_BOMBER</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>3</Cost>
+	</Row>
+
+	<!-- Бомбандировщик Стелс -->
+	<Row>
+		<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+		<ResourceType>RESOURCE_COPPER</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>5</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>4</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>5</Cost>
+	</Row>
+
+	<!-- ##################### -->
+	<!-- ##### Верталеты ##### -->
+	<!-- ##################### -->
+
+	<!-- Дирижабль -->
+	<Row>
+		<UnitType>UNIT_STEAM_AIRSHIP</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_STEAM_AIRSHIP</UnitType>
+		<ResourceType>RESOURCE_SALTPETER</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_STEAM_AIRSHIP</UnitType>
+		<ResourceType>RESOURCE_COAL</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+
+	<!-- Верталет -->
+	<Row>
+		<UnitType>UNIT_HELICOPTER_GUNSHIP</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_HELICOPTER_GUNSHIP</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_HELICOPTER_GUNSHIP</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_HELICOPTER_GUNSHIP</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_HELICOPTER_GUNSHIP</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_HELICOPTER_GUNSHIP</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+
+	<!-- Экранолет -->
+	<Row>
+		<UnitType>UNIT_HOVERPLANE</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_HOVERPLANE</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_HOVERPLANE</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>3</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_HOVERPLANE</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_HOVERPLANE</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>3</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_HOVERPLANE</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>3</Cost>
+	</Row>
+
+	<!-- ########################### -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Авианосец -->
+	<Row>
+		<UnitType>UNIT_CARRIER</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>5</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_CARRIER</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+
+
+
+
+
+
+	<!-- Танкетки -->
+	<Row>
+		<UnitType>UNIT_WWI_TANK</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_WWI_TANK</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_WWI_TANK</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_WWI_TANK</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+
+
+
+
+
+
+
+
+	<!-- Танки т-34 -->
+	<Row>
+		<UnitType>UNIT_TANK</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_TANK</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_TANK</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_TANK</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_TANK</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+
+
+
+	<!-- Зенитные пушки -->
+	<Row>
+		<UnitType>UNIT_ANTI_AIRCRAFT_GUN</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ANTI_AIRCRAFT_GUN</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+
+	<!-- Мобильный ЗРК -->
+	<Row>
+		<UnitType>UNIT_MOBILE_SAM</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MOBILE_SAM</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MOBILE_SAM</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MOBILE_SAM</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+
+
+
+
+
+
+
+
+
+	<!-- Мобильный СРК -->
+	<Row>
+		<UnitType>UNIT_LSAM</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_LSAM</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+
+
+
+
+
+
+	<!-- Атомный авианосец -->
+	<Row>
+		<UnitType>UNIT_NUCLEAR_CARRIER</UnitType>
+		<ResourceType>RESOURCE_URANIUM</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_NUCLEAR_CARRIER</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>8</Cost>
+	</Row>
+
+
+
+
+
+	<!-- Современные танки -->
+	<Row>
+		<UnitType>UNIT_MODERN_ARMOR</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MODERN_ARMOR</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>3</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MODERN_ARMOR</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MODERN_ARMOR</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MODERN_ARMOR</UnitType>
+		<ResourceType>RESOURCE_SHELL</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+
+
+
+
+
+
+
+
+	<!-- Боевые роботы -->
+	<Row>
+		<UnitType>UNIT_ROBOT_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_URANIUM</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ROBOT_INFANTRY</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>4</Cost>
+	</Row>
+
+
+	<!-- ОБЧР -->
+	<Row>
+		<UnitType>UNIT_MECH</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MECH</UnitType>
+		<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		<Cost>2</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MECH</UnitType>
+		<ResourceType>RESOURCE_URANIUM</ResourceType>
+		<Cost>1</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_MECH</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>3</Cost>
+	</Row>
+
+
+
+
+
+	<!-- XCOM -->
+	<Row>
+		<UnitType>UNIT_XCOM_SQUAD</UnitType>
+		<ResourceType>RESOURCE_CARTRIDGES</ResourceType>
+		<Cost>5</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_XCOM_SQUAD</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+		<Cost>3</Cost>
+	</Row>
+	<Row>
+		<UnitType>UNIT_XCOM_SQUAD</UnitType>
+		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+		<Cost>12</Cost>
+	</Row>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<Row>
+		<UnitType>UNIT_GERMANY_TEUTONIC_KNIGHT</UnitType>
+		<ResourceType>RESOURCE_HORSE</ResourceType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ARABIAN_CAMELARCHER</UnitType>
+		<ResourceType>RESOURCE_HORSE</ResourceType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_SONGHAI_MUSLIMCAVALRY</UnitType>
+		<ResourceType>RESOURCE_HORSE</ResourceType>
+	</Row>
+
+	<Row>
+		<UnitType>UNIT_JAPANESE_SAMURAI</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+	</Row>
+
+	<Row>
+		<UnitType>UNIT_OTTOMAN_SIPAHI</UnitType>
+		<ResourceType>RESOURCE_HORSE</ResourceType>
+	</Row>
+
+
+	<Row>
+		<UnitType>UNIT_GERMAN_PANZER</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+	</Row>
+
+	<Row>
+		<UnitType>UNIT_POLAND_PZL23</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+	</Row>
+
+	<Row>
+		<UnitType>UNIT_AMERICAN_B17</UnitType>
+		<ResourceType>RESOURCE_OIL</ResourceType>
+	</Row>
+
+
+
+
+
+
+
+
+	<Row>
+		<UnitType>UNIT_NETHERLANDS_INDIAMAN</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+	</Row>
+	<Row>
+		<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
+		<ResourceType>RESOURCE_IRON</ResourceType>
+	</Row>
+
+
+
+
+
+
+
+
+</Unit_ResourceQuantityRequirements>
+</GameData>

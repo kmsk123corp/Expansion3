@@ -1,0 +1,15 @@
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Michael Curran (Firaxis Games) -->
+<AudioDefinesFile>
+  <SoundDatas>
+    <!--
+Dawn Of Man Speech
+		-->
+    <SoundData>
+      <SoundID>SND_DOM_SPEECH_KOREA</SoundID>
+      <Filename>Korea</Filename>
+      <bDontCache/>
+      <bOnlyLoadOneVariationEachTime/>
+      <LoadType>DYNAMIC_RES</LoadType>
+    </SoundData>
+  </SoundDatas>
+</AudioDefinesFile>

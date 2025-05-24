@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited koba | 01.02.2024 -->
+<GameData>
+
+    <Buildings>
+
+        <!-- ############## -->
+        <!-- Гончарное дело -->
+        <!-- ############## -->
+
+
+
+
+        <!-- Переписчик -->
+        <Row>
+			<Type>BUILDING_COPYIST</Type>
+			<BuildingClass>BUILDINGCLASS_COPYIST</BuildingClass>
+			<Cost>80</Cost>
+            <GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
+			<Help>TXT_KEY_BUILDING_COPYIST_HELP</Help>
+			<Description>TXT_KEY_BUILDING_COPYIST</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_COPYIST_TEXT</Civilopedia>
+            <Strategy>TXT_KEY_BUILDING_COPYIST_STRATEGY</Strategy>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>Building_IconAtlas</IconAtlas>
+			<PortraitIndex>35</PortraitIndex>
+		</Row>
+
+
+        <!-- Колодец -->
+		<Row>
+			<Type>BUILDING_PIT</Type>
+			<BuildingClass>BUILDINGCLASS_PIT</BuildingClass>
+			<Cost>60</Cost>
+			<PrereqTech>TECH_IRRIGATION</PrereqTech>
+			<Help>TXT_KEY_BUILDING_PIT_HELP</Help>
+			<Description>TXT_KEY_BUILDING_PIT</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_PIT_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_BUILDING_PIT</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+            <Flat>true</Flat>
+			<IconAtlas>Building_IconAtlas</IconAtlas>
+			<PortraitIndex>50</PortraitIndex>
+		</Row>
+
+
+
+
+
+
+
+        <!-- Летописец -->
+        <Row>
+            <Type>BUILDING_CHRONICLER</Type>
+            <BuildingClass>BUILDINGCLASS_CHRONICLER</BuildingClass>
+            <Cost>60</Cost>
+            <PrereqTech>TECH_WRITING</PrereqTech>
+            <Description>TXT_KEY_BUILDING_CHRONICLER</Description>
+            <Civilopedia>TXT_KEY_CIV5_BUILDINGS_CHRONICLER_TEXT</Civilopedia>
+            <Strategy>TXT_KEY_BUILDING_CHRONICLER_HELP</Strategy>
+            <ArtDefineTag>ART_DEF_BUILDING_CUNEIFORMLIBRARY</ArtDefineTag>
+            <ConquestProb>66</ConquestProb>
+            <MinAreaSize>-1</MinAreaSize>
+            <HurryCostModifier>25</HurryCostModifier>
+            <IconAtlas>Building_IconAtlas</IconAtlas>
+            <PortraitIndex>8</PortraitIndex>
+        </Row>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- ########### -->
+        <!-- Добыча руды -->
+        <!-- ########### -->
+
+
+
+
+
+
+
+        <!-- ######### -->
+        <!-- Календарь -->
+        <!-- ######### -->
+
+        <!-- Святилище -->
+        <Replace>
+			<Type>BUILDING_SHRINE</Type>
+			<BuildingClass>BUILDINGCLASS_SHRINE</BuildingClass>
+			<FreeStartEra>ERA_MEDIEVAL</FreeStartEra>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<Cost>40</Cost>
+			<PrereqTech>TECH_PAGANISM</PrereqTech>
+			<Description>TXT_KEY_BUILDING_SHRINE</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_SHRINE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_SHRINE_STRATEGY</Strategy>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<ConquestProb>66</ConquestProb>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>EXPANSION_BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>9</PortraitIndex>
+		</Replace>
+
+        <!-- Собрание друидов -->
+        <Row>
+			<Type>BUILDING_CELTS_DRUIDS</Type>
+			<BuildingClass>BUILDINGCLASS_SHRINE</BuildingClass>
+			<FreeStartEra>ERA_MEDIEVAL</FreeStartEra>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<Cost>40</Cost>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
+			<Description>TXT_KEY_BUILDING_CELTS_DRUIDS</Description>
+			<Help>TXT_KEY_BUILDING_CELTS_DRUIDS_HELP</Help>
+			<Civilopedia>TXT_KEY_BUILDING_CELTS_DRUIDS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_CELTS_DRUIDS_STRATEGY</Strategy>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<ConquestProb>66</ConquestProb>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>NEW_UNIQUE_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>14</PortraitIndex>
+		</Row>
+
+        <!-- Пирамида -->
+        <Replace>
+			<Type>BUILDING_MAYA_PYRAMID</Type>
+			<BuildingClass>BUILDINGCLASS_SHRINE</BuildingClass>
+			<FreeStartEra>ERA_MEDIEVAL</FreeStartEra>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<Cost>40</Cost>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
+			<Description>TXT_KEY_BUILDING_MAYA_PYRAMID</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_MAYA_PYRAMID_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_MAYA_PYRAMID_STRATEGY</Strategy>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>EXPANSION_BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>7</PortraitIndex>
+		</Replace>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- ############### -->
+        <!-- Каменная кладка -->
+        <!-- ############### -->
+
+        <!-- Городские стены -->
+        <Row>
+			<Type>BUILDING_WALLS</Type>
+			<BuildingClass>BUILDINGCLASS_WALLS</BuildingClass>
+			<Cost>100</Cost>
+            <GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+            <Help>TXT_KEY_BUILDING_CITYWALL_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_CITYWALL</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_WALLS_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_BUILDING_WALLS</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<AllowsRangeStrike>true</AllowsRangeStrike>
+            <Defense>500</Defense>
+			<ExtraCityHitPoints>100</ExtraCityHitPoints>
+			<CityWall>true</CityWall>
+			<HurryCostModifier>25</HurryCostModifier>
+            <NeverCapture>true</NeverCapture>
+            <PortraitIndex>20</PortraitIndex>
+            <IconAtlas>Building_IconAtlas</IconAtlas>
+		</Row>
+
+        <!-- Ворота иштар -->
+        <Replace>
+			<Type>BUILDING_WALLS_OF_BABYLON</Type>
+			<BuildingClass>BUILDINGCLASS_WALLS</BuildingClass>
+			<Cost>100</Cost>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Help>TXT_KEY_CIV5_BABYLON_WALLS_INFO</Help>
+			<Description>TXT_KEY_BUILDING_WALLS_OF_BABYLON_DESC</Description>
+			<Civilopedia>TXT_KEY_CIV5_BABYLON_WALLS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_CIV5_BABYLON_WALLS_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_WALLS_OF_BABYLON</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<AllowsRangeStrike>true</AllowsRangeStrike>
+			<Defense>1000</Defense>
+            <ExtraCityHitPoints>200</ExtraCityHitPoints>
+			<CityWall>true</CityWall>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>NEB_BW_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Replace>
+
+        <!-- Каменный карьер -->
+        <Row>
+			<Type>BUILDING_STONEQUARRY</Type>
+			<BuildingClass>BUILDINGCLASS_STONEQUARRY</BuildingClass>
+			<Cost>150</Cost>
+			<PrereqTech>TECH_DRY_MASONRY</PrereqTech>
+            <GoldMaintenance>2</GoldMaintenance>
+			<Description>TXT_KEY_BUILDING_STONEQUARRY</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_STONEQUARRY_TEXT</Civilopedia>
+			<Help>TXT_KEY_BUILDING_STONEQUARRY_HELP</Help>
+            <Hill>true</Hill>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>Building_IconAtlas</IconAtlas>
+			<PortraitIndex>24</PortraitIndex>
+		</Row>
+
+        <!-- Мраморная мастерская -->
+        <Row>
+			<Type>BUILDING_MARBLE_WORKS</Type>
+			<BuildingClass>BUILDINGCLASS_MARBLE_WORKS</BuildingClass>
+			<Cost>150</Cost>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_MARBLE_WORKS_HELP</Help>
+			<Description>TXT_KEY_BUILDING_MARBLE_WORKS</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_MARBLE_WORKS_TEXT</Civilopedia>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<!-- <ProhibitedCityTerrain>TERRAIN_PLAINS</ProhibitedCityTerrain> -->
+			<Happiness>1</Happiness>
+			<HurryCostModifier>0</HurryCostModifier>
+            <IconAtlas>Building_IconAtlas</IconAtlas>
+			<PortraitIndex>26</PortraitIndex>
+		</Row>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </Buildings>
+
+    <!-- Производит -->
+    <Building_YieldChanges>
+
+
+
+
+        <Row>
+			<BuildingType>BUILDING_PIT</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+
+
+        <Row>
+			<BuildingType>BUILDING_CHRONICLER</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+
+
+
+
+
+
+
+
+
+
+        <Row>
+			<BuildingType>BUILDING_SHRINE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_STONEQUARRY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+
+
+
+
+
+
+        <Row>
+			<BuildingType>BUILDING_CELTS_DRUIDS</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Replace>
+			<BuildingType>BUILDING_MAYA_PYRAMID</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Replace>
+		<Replace>
+			<BuildingType>BUILDING_MAYA_PYRAMID</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Replace>
+
+
+
+        <Row>
+			<BuildingType>BUILDING_WALLS_OF_BABYLON</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+    </Building_YieldChanges>
+
+    <!-- Проценты к производству -->
+    <Building_YieldModifiers>
+
+        <Row>
+			<BuildingType>BUILDING_COPYIST</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_COPYIST</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+
+    </Building_YieldModifiers>
+
+
+    <!-- С клеток озера -->
+    <Building_LakePlotYieldChanges>
+
+	</Building_LakePlotYieldChanges>
+
+    <!-- Улучшает клетки с ресурсами -->
+    <Building_ResourceYieldChanges>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <Row>
+			<BuildingType>BUILDING_MARBLE_WORKS</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MARBLE_WORKS</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+
+
+
+        <Row>
+			<BuildingType>BUILDING_STONEQUARRY</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STONEQUARRY</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+
+
+
+
+
+
+
+    </Building_ResourceYieldChanges>
+
+    <!-- Может быть построенно только с этим ресурсом -->
+    <Building_LocalResourceOrs>
+
+
+
+
+
+
+
+
+
+
+
+
+    </Building_LocalResourceOrs>
+
+
+    <!-- Клетки с океаном -->
+    <Building_SeaPlotYieldChanges>
+
+    </Building_SeaPlotYieldChanges>
+
+
+    <!-- Производит от каждого жителя города в процентах -->
+    <Building_YieldChangesPerPop>
+
+    </Building_YieldChangesPerPop>
+
+    <!-- Опыт юнитам -->
+    <Building_DomainFreeExperiences>
+
+
+    </Building_DomainFreeExperiences>
+
+
+
+    <!-- С клеток леса -->
+    <Building_FeatureYieldChanges>
+        <Row>
+			<BuildingType>BUILDING_CELTS_DRUIDS</BuildingType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+    </Building_FeatureYieldChanges>
+
+    <!-- Для постройки нужно здание -->
+    <Building_ClassesNeededInCity>
+        <Row>
+			<BuildingType>BUILDING_WALLS</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_CITYWALL</BuildingClassType>
+		</Row>
+
+    </Building_ClassesNeededInCity>
+
+    <!-- Для ботов похоже... -->
+    <Building_Flavors>
+
+
+
+        <Row>
+			<BuildingType>BUILDING_PIT</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+
+
+
+
+        <Row>
+			<BuildingType>BUILDING_CHRONICLER</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+
+
+
+        
+
+
+
+
+
+
+        <Row>
+			<BuildingType>BUILDING_SHRINE</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+
+
+
+
+
+
+
+
+
+
+
+        <Row>
+			<BuildingType>BUILDING_MARBLE_WORKS</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MARBLE_WORKS</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+
+
+
+
+
+
+
+        <Row>
+			<BuildingType>BUILDING_WALLS</BuildingType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+
+
+
+
+        <Row>
+			<BuildingType>BUILDING_CELTS_DRUIDS</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CELTS_DRUIDS</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+
+
+
+
+    </Building_Flavors>
+
+
+
+
+
+</GameData>

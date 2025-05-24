@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_CIV_AMERICA_ADJECTIVE">
+      <Text>Американск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_AMERICA_DESC">
+      <Text>США</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_AMERICA_SHORT_DESC">
+      <Text>Америка</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_ARABIA_ADJECTIVE">
+      <Text>Аравийск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_ARABIA_DESC">
+      <Text>Арабский халифат</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_ARABIA_SHORT_DESC">
+      <Text>Аравия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_AZTEC_ADJECTIVE">
+      <Text>Ацтекск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_AZTEC_DESC">
+      <Text>Ацтекская империя</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_AZTEC_SHORT_DESC">
+      <Text>Ацтеки</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_BARBARIAN_ADJECTIVE">
+      <Text>Варварск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_BARBARIAN_DESC">
+      <Text>Племя варваров</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_BARBARIAN_SHORT_DESC">
+      <Text>Варвары</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_CHINA_ADJECTIVE">
+      <Text>Китайск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_CHINA_DESC">
+      <Text>Китай</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_CHINA_SHORT_DESC">
+      <Text>Китай</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_EGYPT_ADJECTIVE">
+      <Text>Египетск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_EGYPT_DESC">
+      <Text>Египет</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_EGYPT_SHORT_DESC">
+      <Text>Египет</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_ENGLAND_ADJECTIVE">
+      <Text>Английск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_ENGLAND_DESC">
+      <Text>Британская империя</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_ENGLAND_SHORT_DESC">
+      <Text>Англия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_FRANCE_ADJECTIVE">
+      <Text>Французск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_FRANCE_DESC">
+      <Text>Франция</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_FRANCE_SHORT_DESC">
+      <Text>Франция</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_GERMANY_ADJECTIVE">
+      <Text>Немецк.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_GERMANY_DESC">
+      <Text>Германия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_GERMANY_SHORT_DESC">
+      <Text>Германия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_GREECE_ADJECTIVE">
+      <Text>Греческ.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_GREECE_DESC">
+      <Text>Греция</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_GREECE_SHORT_DESC">
+      <Text>Греция</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_INDIA_ADJECTIVE">
+      <Text>Индийск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_INDIA_DESC">
+      <Text>Индия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_INDIA_SHORT_DESC">
+      <Text>Индия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_IROQUOIS_ADJECTIVE">
+      <Text>Ирокезск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_IROQUOIS_DESC">
+      <Text>Империя ирокезов</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_IROQUOIS_SHORT_DESC">
+      <Text>Ирокезы</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_JAPAN_ADJECTIVE">
+      <Text>Японск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_JAPAN_DESC">
+      <Text>Япония</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_JAPAN_SHORT_DESC">
+      <Text>Япония</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_MINOR_ADJECTIVE">
+      <Text>Городск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_MINOR_DESC">
+      <Text>Город-государство</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_MINOR_SHORT_DESC">
+      <Text>Город-государство</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_OTTOMAN_ADJECTIVE">
+      <Text>Османск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_OTTOMAN_DESC">
+      <Text>Османская империя</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_OTTOMAN_SHORT_DESC">
+      <Text>Турция</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_PERSIA_ADJECTIVE">
+      <Text>Персидск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_PERSIA_DESC">
+      <Text>Персия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_PERSIA_SHORT_DESC">
+      <Text>Персия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_ROME_ADJECTIVE">
+      <Text>Римск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_ROME_DESC">
+      <Text>Римская империя</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_ROME_SHORT_DESC">
+      <Text>Рим</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_RUSSIA_ADJECTIVE">
+      <Text>Русск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_RUSSIA_DESC">
+      <Text>Российская империя</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_RUSSIA_SHORT_DESC">
+      <Text>Россия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_SIAM_ADJECTIVE">
+      <Text>Сиамск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_SIAM_DESC">
+      <Text>Сиамская империя</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_SIAM_SHORT_DESC">
+      <Text>Сиам</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_SONGHAI_ADJECTIVE">
+      <Text>Сонгайск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_SONGHAI_DESC">
+      <Text>Сонгайская империя</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIV_SONGHAI_SHORT_DESC">
+      <Text>Сонгай</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILIZATION_SECTION_1">
+      <Text>Державы|держав|державам|державы|державами|державах</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILIZATION_SECTION_2">
+      <Text>Лидеры|лидеров|лидерам|лидеров|лидерами|лидерах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+  </Language_RU_RU>
+</GameData>

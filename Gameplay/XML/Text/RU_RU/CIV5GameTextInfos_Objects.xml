@@ -1,0 +1,937 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_BUILDING_BAZAAR_DESC">
+      <Text>Базар|базара|базару|базар|базаром|базаре</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_BURIAL_TOMB_DESC">
+      <Text>Гробница|гробницы|гробнице|гробницу|гробницей|гробнице</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+
+    <Row Tag="TXT_KEY_BUILDING_LONGHOUSE_DESC">
+      <Text>Длинный дом|длинного дома|длинному дому|длинный дом|длинным домом|длинном доме</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MONASTERY_DESC">
+      <Text>Монастырь|монастыря|монастырю|монастырь|монастырем|монастыре</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MONUMENT_DESC">
+      <Text>Монумент|монумента|монументу|монумент|монументом|монументе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MUD_PYRAMID_MOSQUE_DESC">
+      <Text>Глиняная мечеть|глиняной мечети|глиняной мечети|глиняную мечеть|глиняной мечетью|глиняной мечети</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+
+    <Row Tag="TXT_KEY_BUILDING_SATRAPS_COURT_DESC">
+      <Text>Двор сатрапа|двора сатрапа|двору сатрапа|двор сатрапа|двором сатрапа|дворе сатрапа</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_STADIUM_DESC">
+      <Text>Стадион|стадиона|стадиону|стадион|стадионом|стадионе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_TEMPLE_DESC">
+      <Text>Храм|храма|храму|храм|храмом|храме</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_WAT_DESC">
+      <Text>Ват|вата|вату|ват|ватом|вате</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_CULTURED_ADJECTIVE">
+      <Text>Культурный</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_MARITIME_ADJECTIVE">
+      <Text>Приморский</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_MILITARISTIC_ADJECTIVE">
+      <Text>Воинственный</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_PERSONALITY_FRIENDLY">
+      <Text>Дружелюбный</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_PERSONALITY_HOSTILE">
+      <Text>Враждебный</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_PERSONALITY_IRRATIONAL">
+      <Text>Непредсказуемый</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_PERSONALITY_NEUTRAL">
+      <Text>Нейтральный</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_CITIZENS_TEXT">
+      <Text>{1_NumCitizens: plural 1?Житель; 2?Жителя; 3?Жителей;}</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_CULTURE_TEXT">
+      <Text>Культура</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_GOLD_TEXT">
+      <Text>Золото</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_GREAT_PEOPLE_TEXT">
+      <Text>Великие люди</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_PROD_TEXT">
+      <Text>Продукция</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_REGULARBUILDING_TEXT">
+      <Text>Здания</Text>
+      <Gender>neuter</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_RESEARCH_TEXT">
+      <Text>Наука</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_SPECIAL_TEXT">
+      <Text>Здания для специалистов</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_WONDERS_TEXT">
+      <Text>Чудеса</Text>
+      <Gender>neuter</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILIAN_UNIT">
+      <Text>Мирные жители|мирных жителей|мирным жителям|мирных жителей|мирными жителями|мирных жителях</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_DOMAIN_AIR">
+      <Text>Воздушные юниты|воздушных юнитов|воздушным юнитам|воздушные юниты|воздушными юнитами|воздушных юнитах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_DOMAIN_IMMOBILE">
+      <Text>Неподвижные юниты|неподвижных юнитов|неподвижным юнитам|неподвижные юниты|неподвижными юнитами|неподвижных юнитах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_DOMAIN_LAND">
+      <Text>Сухопутные юниты|сухопутных юнитов|сухопутным юнитам|сухопутные юниты|сухопутными юнитами|сухопутных юнитах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_DOMAIN_SEA">
+      <Text>Морские юниты|морских юнитов|морским юнитам|морские юниты|морскими юнитами|морских юнитах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+
+
+    
+
+
+
+
+    <Row Tag="TXT_KEY_ERA_0">
+      <Text>Древнейший мир|Древнейшего мира|Древнейшему миру|Древнейший мир|Древнейшим миром|Древнейшем мире</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_1">
+      <Text>Античность|Античности|Античности|Античность|Античностью|Античности</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_2">
+      <Text>Средневековье|Средневековья|Средневековью|Средневековье|Средневековьем|Средневековье</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_3">
+      <Text>Новое время|Нового времени|Новому времени|Новое время|Новым временем|Новом времени</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_4">
+      <Text>Новейшее время|Новейшего времени|Новейшему времени|Новейшее время|Новейшим временем|Новейшем времени</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_5">
+      <Text>Современность|современности|современности|современность|современностью|современности</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_6">
+      <Text>Будущее|Будущего|Будущему|Будущее|Будущим|Будущем</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_FEATURE_ATOLL">
+      <Text>Атолл</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_FEATURE_CRATER">
+      <Text>Кратер Барринджера|кратера Барринджера|кратеру Барринджера|кратер Барринджера|кратером Барринджера|кратере Барринджера</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_FEATURE_FALLOUT">
+      <Text>Радиоактивное загрязнение|радиоактивного загрязнения|радиоактивному загрязнению|радиоактивное загрязнение|радиоактивным загрязнением|радиоактивном загрязнении</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_FEATURE_FLOOD_PLAINS">
+      <Text>Пойма|поймы|пойме|пойму|поймой|пойме</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_FEATURE_FOREST">
+      <Text>Лес|леса|лесу|лес|лесом|лесе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_FEATURE_GEYSER">
+      <Text>Старый служака|Старого служаки|Старому служаке|Старого служаку|Старым служакой|Старом служаке</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_FEATURE_GIBRALTAR">
+      <Text>Гибралтарская скала|Гибралтарской скалы|Гибралтарской скале|Гибралтарскую скалу|Гибралтарской скалой|Гибралтарской скале</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_FEATURE_ICE">
+      <Text>Ледник|ледника|леднику|ледник|ледником|леднике</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_FEATURE_JUNGLE">
+      <Text>Джунгли|джунглей|джунглям|джунгли|джунглями|джунглях</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_FEATURE_LAKE_TITICACA">
+      <Text>озеро Титикака|озера Титикака|озеру Титикака|озеро Титикака|озером Титикака|озере Титикака</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_FEATURE_MARSH">
+      <Text>Болото|болота|болоту|болото|болотом|болоте</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_FEATURE_MESA">
+      <Text>Большое плато|Большого плато|Большому плато|Большое плато|Большим плато|Большом плато</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_FEATURE_MT_EVEREST">
+      <Text>гора Эверест|горы Эверест|горе Эверест|гору Эверест|горой Эверест|горе Эверест</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_FEATURE_MT_FUJI">
+      <Text>гора Фудзи|горы Фудзи|горе Фудзи|гору Фудзи|горой Фудзи|горе Фудзи</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_FEATURE_NATURAL_WONDER">
+      <Text>Чудо природы|чуда природы|чуду природы|чудо природы|чудом природы|чуде природы</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_FEATURE_OASIS">
+      <Text>Оазис|оазиса|оазису|оазис|оазисом|оазисе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_FEATURE_REEF">
+      <Text>Большой Барьерный риф|Большого Барьерного рифа|Большому Барьерному рифу|Большой Барьерный риф|Большим Барьерным рифом|Большом Барьерном рифе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_FEATURE_VOLCANO">
+      <Text>Кракатау|Кракатау|Кракатау|Кракатау|Кракатау|Кракатау</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GAMESPEED_EPIC">
+      <Text>Эпическая</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GAMESPEED_MARATHON">
+      <Text>Марафонская</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GAMESPEED_QUICK">
+      <Text>Высокая</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GAMESPEED_STANDARD">
+      <Text>Средняя</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GOLD">
+      <Text>Золото</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_HANDICAP_CHIEFTAIN">
+      <Text>Вождь</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_HANDICAP_DEITY">
+      <Text>Божество</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_HANDICAP_EMPEROR">
+      <Text>Император</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_HANDICAP_IMMORTAL">
+      <Text>Бессмертный</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_HANDICAP_KING">
+      <Text>Король</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_HANDICAP_PRINCE">
+      <Text>Князь</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_HANDICAP_SETTLER">
+      <Text>Поселенец</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_HANDICAP_WARLORD">
+      <Text>Полководец</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IMPROVEMENT_ACADEMY">
+      <Text>Академия|академии|академии|академию|академией|академии</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IMPROVEMENT_CAMP">
+      <Text>Лагерь|лагеря|лагерю|лагерь|лагерем|лагере</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IMPROVEMENT_CITADEL">
+      <Text>Крепость|крепости|крепости|крепость|крепостью|крепости</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IMPROVEMENT_CITY_RUINS">
+      <Text>Руины города|руин города|руинам города|руины города|руинами города|руинах города</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IMPROVEMENT_CUSTOMS_HOUSE">
+      <Text>Таможня|таможни|таможне|таможню|таможней|таможне</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IMPROVEMENT_ENCAMPMENT">
+      <Text>Лагерь варваров|лагеря варваров|лагерю варваров|лагерь варваров|лагерем варваров|лагере варваров</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IMPROVEMENT_FARM">
+      <Text>Ферма|фермы|ферме|ферму|фермой|ферме</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IMPROVEMENT_FISHING_BOATS">
+      <Text>Рыбацкая лодка|рыбацкой лодки|рыбацкой лодке|рыбацкую лодку|рыбацкой лодкой|рыбацкой лодке</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IMPROVEMENT_FORT">
+      <Text>Форт|форта|форту|форт|фортом|форте</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IMPROVEMENT_GOODY_HUT">
+      <Text>Древние руины|древних руин|древним руинам|древние руины|древними руинами|древних руинах</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IMPROVEMENT_LANDMARK">
+      <Text>Памятник|памятника|памятнику|памятник|памятником|памятнике</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IMPROVEMENT_LUMBERMILL">
+      <Text>Лесопилка|лесопилки|лесопилке|лесопилку|лесопилкой|лесопилке</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IMPROVEMENT_MANUFACTORY">
+      <Text>Заводской комплекс|заводского комплекса|заводскому комплексу|заводской комплекс|заводским комплексом|заводском комплексе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IMPROVEMENT_MINE">
+      <Text>Рудник|рудника|руднику|рудник|рудником|руднике</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IMPROVEMENT_OFFSHORE_PLATFORM">
+      <Text>Нефтяная платформа|нефтяной платформы|нефтяной платформе|нефтяную платформу|нефтяной платформой|нефтяной платформе</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IMPROVEMENT_PASTURE">
+      <Text>Выгон|выгона|выгону|выгон|выгоном|выгоне</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IMPROVEMENT_PLANTATION">
+      <Text>Плантация|плантации|плантации|плантацию|плантацией|плантации</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IMPROVEMENT_QUARRY">
+      <Text>Каменоломня|каменоломни|каменоломне|каменоломню|каменоломней|каменоломне</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IMPROVEMENT_TRADING_POST">
+      <Text>Торговый пост|торгового поста|торговому посту|торговый пост|торговым постом|торговом посте</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_IMPROVEMENT_WELL">
+      <Text>Буровая вышка|буровой вышки|буровой вышке|буровую вышку|буровой вышкой|буровой вышке</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_INVISIBLE_SUBMARINE">
+      <Text>Подводные лодки</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_MILITARY_UNIT">
+      <Text>Военный юнит</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROCESS_RESEARCH">
+      <Text>Исследования|исследований|исследованиям|исследования|исследованиями|исследованиях</Text>
+      <Gender>neuter</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROCESS_WEALTH">
+      <Text>Капитал|капитала|капиталу|капитал|капиталом|капитале</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROJECT_APOLLO_PROGRAM">
+      <Text>Программа "Союз"|программы "Союз"|программе "Союз"|программу "Союз"|программой "Союз"|программе "Союз"</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROJECT_MANHATTAN_PROJECT">
+      <Text>Проект "Манхэттен"|проекта "Манхэттен"|проекту "Манхэттен"|проект "Манхэттен"|проектом "Манхэттен"|проекте "Манхэттен"</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_COMBAT1">
+      <Text>Бой I</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_COMBAT2">
+      <Text>Бой II</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_COMBAT3">
+      <Text>Бой III</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_ALUMINUM">
+      <Text>Алюминий|алюминия|алюминию|алюминий|алюминием|алюминии</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_BANANAS">
+      <Text>Бананы|бананов|бананам|бананы|бананами|бананах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_CATTLE">
+      <Text>Скот|скота|скоту|скот|скотом|скоте</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_COAL">
+      <Text>Уголь|угля|углю|уголь|углем|угле</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_COTTON">
+      <Text>Хлопок|хлопка|хлопку|хлопок|хлопком|хлопке</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_DEER">
+      <Text>Олени|оленей|оленям|оленей|оленями|оленях</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_DYES">
+      <Text>Красители|красителей|красителям|красители|красителями|красителях</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_FISH">
+      <Text>Рыба|рыбы|рыбе|рыбу|рыбой|рыбе</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_FURS">
+      <Text>Меха|мехов|мехам|меха|мехами|мехах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_GEMS">
+      <Text>Алмазы|алмазов|алмазам|алмазы|алмазами|алмазах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_GOLD">
+      <Text>Золото|золота|золоту|золото|золотом|золоте</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_HORSES">
+      <Text>Лошади|лошадей|лошадям|лошадей|лошадьми|лошадях</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_INCENSE">
+      <Text>Благовония|благовоний|благовониям|благовония|благовониями|благовониях</Text>
+      <Gender>neuter</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_IRON">
+      <Text>Железо|железа|железу|железо|железом|железе</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_IVORY">
+      <Text>Слоновая кость|слоновой кости|слоновой кости|слоновую кость|слоновой костью|слоновой кости</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_MARBLE">
+      <Text>Мрамор|мрамора|мрамору|мрамор|мрамором|мраморе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_OIL">
+      <Text>Нефть|нефти|нефти|нефть|нефтью|нефти</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_PEARLS">
+      <Text>Жемчуг|жемчуга|жемчугу|жемчуг|жемчугом|жемчуге</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_SHEEP">
+      <Text>Овцы|овец|овцам|овец|овцами|овцах</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_SILK">
+      <Text>Шелк|шелка|шелку|шелк|шелком|шелке</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_SILVER">
+      <Text>Серебро|серебра|серебру|серебро|серебром|серебре</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_SPICES">
+      <Text>Пряности|пряностей|пряностям|пряности|пряностями|пряностях</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_STONE">
+      <Text>Камень|камня|камню|камень|камнем|камне</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_SUGAR">
+      <Text>Сахар|сахара|сахару|сахар|сахаром|сахаре</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_URANIUM">
+      <Text>Уран|урана|урану|уран|ураном|уране</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_WHALES">
+      <Text>Киты|китов|китам|китов|китами|китах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_WHEAT">
+      <Text>Пшеница|пшеницы|пшенице|пшеницу|пшеницей|пшенице</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_WINE">
+      <Text>Вино|вина|вину|вино|вином|вине</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ROUTE_RAILROAD">
+      <Text>Железная дорога|железной дороги|железной дороге|железную дорогу|железной дорогой|железной дороге</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ROUTE_ROAD">
+      <Text>Дорога|дороги|дороге|дорогу|дорогой|дороге</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALIST_ARTIST">
+      <Text>Художник|художника|художнику|художника|художником|художнике</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALIST_ARTIST_SLOTS">
+      <Text>Ячейки художников:</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALIST_ARTIST_TITLE">
+      <Text>Очки вел.художников:</Text>
+      <Gender>neuter</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALIST_CITIZEN">
+      <Text>Безработный горожанин|безработного горожанина|безработному горожанину|безработного горожанина|безработным горожанином|безработном горожанине</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALIST_ENGINEER">
+      <Text>Инженер|инженера|инженеру|инженера|инженером|инженере</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALIST_ENGINEER_SLOTS">
+      <Text>Ячейки инженеров:</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALIST_ENGINEER_TITLE">
+      <Text>Очки вел.инженеров:</Text>
+      <Gender>neuter</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALIST_GREAT_ARTIST">
+      <Text>Великий художник|великого художника|великому художнику|великого художника|великим художником|великом художнике</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALIST_GREAT_ENGINEER">
+      <Text>Великий инженер|великого инженера|великому инженеру|великого инженера|великим инженером|великом инженере</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALIST_GREAT_MERCHANT">
+      <Text>Великий торговец|великого торговца|великому торговцу|великого торговца|великим торговцем|великом торговце</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALIST_GREAT_PRIEST">
+      <Text>Великий пророк|великого пророка|великому пророку|великого пророка|великим пророком|великом пророке</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALIST_GREAT_SCIENTIST">
+      <Text>Великий ученый|великого ученого|великому ученому|великого ученого|великим ученым|великом ученом</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALIST_MERCHANT">
+      <Text>Торговец|торговца|торговцу|торговца|торговцем|торговце</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALIST_MERCHANT_SLOTS">
+      <Text>Ячейки торговцев:</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALIST_MERCHANT_TITLE">
+      <Text>Очки вел.торговцев:</Text>
+      <Gender>neuter</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALIST_SCIENTIST">
+      <Text>Ученый|ученого|ученому|ученого|ученым|ученом</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALIST_SCIENTIST_SLOTS">
+      <Text>Ячейки ученых:</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALIST_SCIENTIST_TITLE">
+      <Text>Очки вел.ученых:</Text>
+      <Gender>neuter</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SS_BOOSTER">
+      <Text>Ракета-носитель КК|ракеты-носителя КК|ракете-носителю КК|ракету-носитель КК|ракетой-носителем КК|ракете-носителе КК</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SS_CASING">
+      <Text>Корпус КК|корпуса КК|корпусу КК|корпус КК|корпусом КК|корпусе КК</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SS_COCKPIT">
+      <Text>Мостик КК|мостика КК|мостику КК|мостик КК|мостиком КК|мостике КК</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SS_DOCKING_BAY">
+      <Text>Шлюз. модуль КК|шлюз. модуля КК|шлюз. модулю КК|шлюз. модуль КК|шлюз. модулем КК|шлюз. модуле КК</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SS_ENGINE">
+      <Text>Двигатель КК|двигателя КК|двигателю КК|двигатель КК|двигателем КК|двигателе КК</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SS_LIFE_SUPPORT">
+      <Text>Сист. жизнеоб. КК|сист. жизнеоб. КК|сист. жизнеоб. КК|сист. жизнеоб. КК|сист. жизнеоб. КК|сист. жизнеоб. КК</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SS_STASIS_CHAMBER">
+      <Text>Система анабиоза КК|системы анабиоза КК|системе анабиоза КК|систему анабиоза КК|системой анабиоза КК|системе анабиоза КК</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SS_THRUSTERS">
+      <Text>Ускорители КК|ускорителей КК|ускорителям КК|ускорители КК|ускорителями КК|ускорителях КК</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SYDNEY_OPERA_HOUSE">
+      <Text>Сиднейская опера|Сиднейской оперы|Сиднейской опере|Сиднейскую оперу|Сиднейской оперой|Сиднейской опере</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_TERRAIN_DESERT">
+      <Text>Пустыня|пустыни|пустыне|пустыню|пустыней|пустыне</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_TERRAIN_GRASS">
+      <Text>Луга|лугов|лугам|луга|лугами|лугах</Text>
+      <Gender>neuter</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_TERRAIN_HILL">
+      <Text>Холмы|холмов|холмам|холмы|холмами|холмах</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_TERRAIN_MOUNTAIN">
+      <Text>Горы|гор|горам|горы|горами|горах</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_TERRAIN_OCEAN">
+      <Text>Океан|океана|океану|океан|океаном|океане</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_TERRAIN_PLAINS">
+      <Text>Равнина|равнины|равнине|равнину|равниной|равнине</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_TERRAIN_SNOW">
+      <Text>Снег|снега|снегу|снег|снегом|снеге</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_TERRAIN_TUNDRA">
+      <Text>Тундра|тундры|тундре|тундру|тундрой|тундре</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_TRADE_CULTURE">
+      <Text>Советник по культуре</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_TRADE_RESEARCH">
+      <Text>Исследования</Text>
+      <Gender>neuter</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_TURNTIMER_FAST">
+      <Text>Быстрый</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_TURNTIMER_MEDIUM">
+      <Text>Средн.</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_TURNTIMER_SLOW">
+      <Text>Медленный</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_VICTORY_CULTURAL">
+      <Text>Культурная|культурную</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_VICTORY_DIPLOMATIC">
+      <Text>Дипломатическая|дипломатическую</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_VICTORY_DOMINATION">
+      <Text>Территориальная|территориальную</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_VICTORY_SPACE_RACE">
+      <Text>Научная|научную</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_VICTORY_TIME">
+      <Text>Общая|общую</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_WORLD_DEBUG">
+      <Text>Отладка</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_WORLD_DUEL">
+      <Text>Дуэльная</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_WORLD_HUGE">
+      <Text>Огромная</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_WORLD_LARGE">
+      <Text>Большая</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_WORLD_SMALL">
+      <Text>Маленькая</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_WORLD_STANDARD">
+      <Text>Стандартная</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_WORLD_TINY">
+      <Text>Крошечная</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_YIELD_FOOD">
+      <Text>Пища|пищи|пище|пищу|пищей|пище</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_YIELD_GOLD">
+      <Text>Золото|золота|золоту|золото|золотом|золоте</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_YIELD_PRODUCTION">
+      <Text>Производство|производства|производству|производство|производством|производстве</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_YIELD_SCIENCE">
+      <Text>Наука|науки|науке|науку|наукой|науке</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+  </Language_RU_RU>
+</GameData>

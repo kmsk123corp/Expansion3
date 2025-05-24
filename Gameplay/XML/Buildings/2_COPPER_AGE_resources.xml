@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited koba | 01.02.2024 -->
+<GameData>
+
+    <!-- Стоимость постройки -->
+    <Building_ResourceCostRequirements>
+
+        <!-- Плавильная печь -->
+		<Row>
+			<BuildingType>BUILDING_MELTINGFURNACE</BuildingType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_MELTINGFURNACE</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+
+        <!-- юкола -->
+        <Row>
+            <BuildingType>BUILDING_YUKOLA</BuildingType>
+            <ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+            <Cost>20</Cost>
+        </Row>
+        <Row>
+			<BuildingType>BUILDING_YUKOLA</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+
+        <!-- Монумент -->
+		<Row>
+			<BuildingType>BUILDING_MONUMENT</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+
+        <!-- амбар -->
+		<Row>
+			<BuildingType>BUILDING_GRANARY</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>40</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_GRANARY</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+
+        <!-- Юрта (Гунны) -->
+		<Row>
+			<BuildingType>BUILDING_HUNS_YURT</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_HUNS_YURT</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>25</Cost>
+		</Row>
+
+        <!-- Гэр (Монголы) -->
+        <Row>
+            <BuildingType>BUILDING_MONGOL_GER</BuildingType>
+            <ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+            <Cost>50</Cost>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MONGOL_GER</BuildingType>
+            <ResourceType>RESOURCE_STONE</ResourceType>
+            <Cost>20</Cost>
+        </Row>
+
+        <!-- Икугвене (Зулусы) -->
+		<Row>
+			<BuildingType>BUILDING_ZULU_IQHUGWANE</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_ZULU_IQHUGWANE</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+
+        <!-- Мастерская -->
+        <Row>
+			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+
+        <!-- Каменная мастерская -->
+        <Row>
+			<BuildingType>BUILDING_STONE_WORKS</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_STONE_WORKS</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+
+        <!-- Цирк -->
+        <Row>
+			<BuildingType>BUILDING_CIRCUS</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CIRCUS</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+
+        <!-- Причалы -->
+		<Row>
+			<BuildingType>BUILDING_PIERS</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+
+        <!-- Клинописная библиотека -->
+        <Row>
+			<BuildingType>BUILDING_CUNEIFORMLIBRARY</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CUNEIFORMLIBRARY</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CUNEIFORMLIBRARY</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CUNEIFORMLIBRARY</BuildingType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+
+        <!-- Казарма -->
+        <Row>
+			<BuildingType>BUILDING_BARRACKS</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BARRACKS</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BARRACKS</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+
+        <!-- Крепость Острог -->
+        <Row>
+			<BuildingType>BUILDING_BARRACKS</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KREPOST</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>40</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BARRACKS</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+
+        <!-- Иканда -->
+		<Row>
+			<BuildingType>BUILDING_IKANDA</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IKANDA</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+
+        <!-- Мельница -->
+        <Row>
+			<BuildingType>BUILDING_MILL</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_MILL</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+
+        <!-- Длинный дом -->
+		<Row>
+			<BuildingType>BUILDING_LONGHOUSE</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LONGHOUSE</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
+        <!-- Кромлех -->
+        <Row>
+			<BuildingType>BUILDING_DOLMEN</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_DOLMEN</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>25</Cost>
+		</Row>
+
+        <!-- Стоунхендж -->
+        <Row>
+			<BuildingType>BUILDING_STONEHENGE</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_STONEHENGE</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+
+
+    </Building_ResourceCostRequirements>
+
+
+
+    <!-- Производит ресурсов -->
+    <Building_ResourceQuantity>
+
+        <!-- Плавильная печь -->
+		<Row>
+			<BuildingType>BUILDING_MELTINGFURNACE</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Quantity>2</Quantity>
+		</Row>
+
+        <!-- Юрта (Гунны) -->
+        <Row>
+            <BuildingType>BUILDING_HUNS_YURT</BuildingType>
+            <ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+            <Quantity>3</Quantity>
+        </Row>
+
+        <!-- Гэр (Монголы) -->
+        <Row>
+            <BuildingType>BUILDING_MONGOL_GER</BuildingType>
+            <ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+            <Quantity>3</Quantity>
+        </Row>
+
+        <!-- Икугвене (Зулусы) -->
+        <Row>
+            <BuildingType>BUILDING_ZULU_IQHUGWANE</BuildingType>
+            <ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+            <Quantity>4</Quantity>
+        </Row>
+
+        <!-- Мастреская -->
+		<Row>
+			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Quantity>2</Quantity>
+		</Row>
+
+        <!-- Каменная мастерская -->
+        <Row>
+			<BuildingType>BUILDING_STONE_WORKS</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Quantity>4</Quantity>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_STONE_WORKS</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Quantity>1</Quantity>
+		</Row>
+
+        <!-- Мельница -->
+        <Row>
+			<BuildingType>BUILDING_MILL</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Quantity>4</Quantity>
+		</Row>
+
+        <!-- Длинный дом -->
+		<Row>
+			<BuildingType>BUILDING_LONGHOUSE</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Quantity>5</Quantity>
+		</Row>
+
+    </Building_ResourceQuantity>
+
+
+
+    <!-- Потребляет за ход -->
+	<Building_ResourceQuantityRequirements>
+
+        <!-- Плавильная печь -->
+        <Row>
+			<BuildingType>BUILDING_MELTINGFURNACE</BuildingType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+        <Row>
+			<BuildingType>BUILDING_GRANARY</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+        <!-- юкола -->
+        <!-- <Row>
+            <BuildingType>BUILDING_YUKOLA</BuildingType>
+            <ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+            <Cost>1</Cost>
+        </Row> -->
+
+        <!-- Мастреская -->
+		<Row>
+			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+        <!-- Каменная мастерская -->
+        <Row>
+			<BuildingType>BUILDING_STONE_WORKS</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+
+        <!-- Цирк -->
+        <Row>
+			<BuildingType>BUILDING_CIRCUS</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+
+
+    </Building_ResourceQuantityRequirements>
+
+</GameData>

@@ -1,0 +1,1917 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_GREAT_PERSON_AKBAR">
+      <Text>Акбар</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_ARMINIUS">
+      <Text>Арминий</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_AUITZOTL">
+      <Text>Ауисотль</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_AYABHATA">
+      <Text>Арьябхата</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_BELISARIUS">
+      <Text>Велизарий</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_CAO_CAO">
+      <Text>Цао Цао</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_CHANDRAGUPTA_MAURYA">
+      <Text>Чандрагупта Маурья</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_CHARLES_MARTEL">
+      <Text>Карл Мартелл</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_CROMWELL">
+      <Text>Оливер Кромвель</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_EL_CID">
+      <Text>Сид</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_ERICO_DANDOLO">
+      <Text>Энрико Дандоло</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_EUGENE_OF_SAVOY">
+      <Text>Евгений Савойский</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_FERDINAND_DA_LESSEPS">
+      <Text>Фердинанд де Лессепс</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_FRANCISCO_PIZARRO">
+      <Text>Франциско Писарро</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_FRIEDRICH_GAUSS">
+      <Text>Фридрих Гаусс</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_GAIUS_MARIUS">
+      <Text>Гай Марий</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_GERONIMO">
+      <Text>Джеронимо</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_GOTTFREID_LEIBNIZ">
+      <Text>Готфрид Лейбниц</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_GUERDIAN">
+      <Text>Гудериан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_GUSTAVUS_ADOLPHUS">
+      <Text>Густав II Адольф</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_HAMILCAR_BARCA">
+      <Text>Гамилькар Барка</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_HERNAN_CORTES">
+      <Text>Эрнан Кортес</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_IVAN_THE_TERRIBLE">
+      <Text>Иван Грозный</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_JEANNE_DARC">
+      <Text>Жанна д'Арк</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_KHALED_IBN_AL_WALID">
+      <Text>Халид ибн Валид</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_KHUSRO">
+      <Text>Амир Хосров Дехлеви</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_LEONIDAS">
+      <Text>Леонид</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_LORD_NELSON">
+      <Text>Лорд Нельсон</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_LYSANDER">
+      <Text>Лисандр</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_MICHEL_DE_RUYTER">
+      <Text>Михаил де Рюйтер</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_MONTGOMERY">
+      <Text>Монтгомери</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_PATTON">
+      <Text>Паттон</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_RICHARD_WHITTINGTON">
+      <Text>Ричард Уиттингтон</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_ROBERT_LEE">
+      <Text>Роберт Эдвард Ли</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_ROMMEL">
+      <Text>Роммель</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_SARGON">
+      <Text>Саргон</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_SCIPIO_AFRICANUS">
+      <Text>Сципион Африканский</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_SUBUTAI">
+      <Text>Субэдэй</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_SUN_TZU">
+      <Text>Сунь-цзы</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_TIMUR">
+      <Text>Тамерлан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_TODAR_MAL">
+      <Text>Раджа Тодар Мал</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_VAN_DIEMEN">
+      <Text>Антони ван Димен</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_VERCINGETORIX">
+      <Text>Верцингеториг</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_WILLIAM_MORTON">
+      <Text>Уильям Мортон</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_WILLIAM_THE_CONQUEROR">
+      <Text>Вильгельм Завоеватель</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_YAMAMOTO">
+      <Text>Ямамото</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_ZHUGE_LIANG">
+      <Text>Чжугэ Лян</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_ZHUKOV">
+      <Text>Жуков</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ACCURACY_1">
+      <Text>Точность I</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ACCURACY_1_HELP">
+      <Text>+20% [ICON_RANGE_STRENGTH] к мощи дальнего боя против юнитов на [COLOR_POSITIVE_TEXT]ОТКРЫТОЙ[ENDCOLOR] местности. (НЕ в холмах, в лесу или в джунглях).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ACCURACY_2">
+      <Text>Точность II</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ACCURACY_2_HELP">
+      <Text>+20% [ICON_RANGE_STRENGTH] к мощи дальнего боя против юнитов на [COLOR_POSITIVE_TEXT]ОТКРЫТОЙ[ENDCOLOR] местности. (НЕ в холмах, в лесу или в джунглях).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ACCURACY_3">
+      <Text>Точность III</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ACCURACY_3_HELP">
+      <Text>+25% [ICON_RANGE_STRENGTH] к мощи дальнего боя против юнитов на [COLOR_POSITIVE_TEXT]ОТКРЫТОЙ[ENDCOLOR] местности. (НЕ в холмах, в лесу или в джунглях).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_RANGE">
+      <Text>Дальность</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_RANGE_HELP">
+      <Text>+2 к радиусу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_RECON">
+      <Text>Воздушная разведка</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_RECON_HELP">
+      <Text>Юнит всегда видит 6 клеток в каждом направлении.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_REPAIR">
+      <Text>Починка авиации</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_SIEGE_1">
+      <Text>Осада I</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_SIEGE_1_HELP">
+      <Text>+25% [ICON_STRENGTH] к боевой мощи против [COLOR_POSITIVE_TEXT]городов[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_SIEGE_2">
+      <Text>Осада II</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_SIEGE_2_HELP">
+      <Text>+25% [ICON_STRENGTH] к боевой мощи против [COLOR_POSITIVE_TEXT]городов[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_SIEGE_3">
+      <Text>Осада III</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_SIEGE_3_HELP">
+      <Text>+25% [ICON_STRENGTH] к боевой мощи против [COLOR_POSITIVE_TEXT]городов[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_SWEEP">
+      <Text>Зачистка неба</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_SWEEP_HELP">
+      <Text>Может очистить небо от перехватчиков.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ALLWATER_EMBARKATION">
+      <Text>Океаническое плавание</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ALLWATER_EMBARKATION_HELP">
+      <Text>Позволяет грузиться на борт и перемещаться по [COLOR_POSITIVE_TEXT]водным клеткам[ENDCOLOR]. Такие юниты могут перемещаться по океану. Их дальность обзора увеличена на +1.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AMBUSH_1">
+      <Text>Засада I</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AMBUSH_1_HELP">
+      <Text>+25% [ICON_STRENGTH] к боевой мощи против [COLOR_POSITIVE_TEXT]бронированных[ENDCOLOR] юнитов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AMBUSH_2">
+      <Text>Засада II</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AMBUSH_2_HELP">
+      <Text>+25% [ICON_STRENGTH] к боевой мощи против [COLOR_POSITIVE_TEXT]бронированных[ENDCOLOR] юнитов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AMPHIBIOUS">
+      <Text>Морской десант</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AMPHIBIOUS_HELP">
+      <Text>Позволяет избежать штрафов при атаке с моря или через реку.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ANTI_AIR">
+      <Text>Бонус против авиации (100)</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ANTI_FIGHTER">
+      <Text>Бонус против истребителей</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ANTI_HELICOPTER">
+      <Text>Бонус против вертолетов</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ANTI_MOUNTED_I">
+      <Text>Бонус против кавалерии (50)</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ANTI_MOUNTED_I_HELP">
+      <Text>50% бонус против кавалерии.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ANTI_MOUNTED_II">
+      <Text>Бонус против кавалерии (100)</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ANTI_MOUNTED_II_HELP">
+      <Text>100% бонус против кавалерии.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ANTI_SUBMARINE_I">
+      <Text>Бонус против подлодок (50)</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ANTI_SUBMARINE_II">
+      <Text>Бонус против подлодок (100)</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ANTI_TANK">
+      <Text>Бонус против танков</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ATTACK_BONUS">
+      <Text>Бонус при атаке (25)</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BARRAGE_1">
+      <Text>Заградительный огонь I</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BARRAGE_1_HELP">
+      <Text>+25% [ICON_RANGE_STRENGTH] к мощи дальнего боя против юнитов на [COLOR_POSITIVE_TEXT]ПЕРЕСЕЧЕННОЙ[ENDCOLOR] местности. (В холмах, в лесу или в джунглях).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BARRAGE_2">
+      <Text>Заградительный огонь II</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BARRAGE_2_HELP">
+      <Text>+25% [ICON_RANGE_STRENGTH] к мощи дальнего боя против юнитов на [COLOR_POSITIVE_TEXT]ПЕРЕСЕЧЕННОЙ[ENDCOLOR] местности. (В холмах, в лесу или в джунглях).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BARRAGE_3">
+      <Text>Заградительный огонь III</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BARRAGE_3_HELP">
+      <Text>+25% [ICON_RANGE_STRENGTH] к мощи дальнего боя против юнитов на [COLOR_POSITIVE_TEXT]ПЕРЕСЕЧЕННОЙ[ENDCOLOR] местности. (В холмах, в лесу или в джунглях).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BLITZ">
+      <Text>Блиц-атака</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BLITZ_HELP">
+      <Text>Юнит способен [COLOR_POSITIVE_TEXT]атаковать несколько раз[ENDCOLOR] за ход.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_1">
+      <Text>Бомбардировка I</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_1_HELP">
+      <Text>+20% [ICON_STRENGTH] к боевой мощи против [COLOR_POSITIVE_TEXT]сухопутных юнитов[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_2">
+      <Text>Бомбардировка II</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_2_HELP">
+      <Text>+20% [ICON_STRENGTH] к боевой мощи против [COLOR_POSITIVE_TEXT]сухопутных юнитов[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_3">
+      <Text>Бомбардировка III</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_3_HELP">
+      <Text>+20% [ICON_STRENGTH] к боевой мощи против [COLOR_POSITIVE_TEXT]сухопутных юнитов[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_CAN_MOVE_AFTER_ATTACKING">
+      <Text>Может перемещаться после атаки</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_CAN_MOVE_IMPASSABLE">
+      <Text>Может перемещаться по леднику</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARGO_I">
+      <Text>Может перевозить 1 объект</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARGO_II">
+      <Text>Может перевозить 2 объекта</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARGO_III">
+      <Text>Может перевозить 3 объекта</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_CARGO_IV">
+      <Text>Может перевозить 4 объекта</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_CHARGE">
+      <Text>Мощная атака</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_CHARGE_HELP">
+      <Text>+25% [ICON_STRENGTH] к боевой мощи против [COLOR_POSITIVE_TEXT]поврежденных юнитов[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_CITY_ASSUALT">
+      <Text>Бонус против городов (50)</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_CITY_ASSUALT_HELP">
+      <Text>50% бонус в бою против городов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_CITY_PENALTY">
+      <Text>Штраф при атаке городов (33)</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_CITY_PENALTY_HELP">
+      <Text>33% штраф при атаке городов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_CITY_SIEGE">
+      <Text>Бонус против городов (20)</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_CITY_SIEGE_HELP">
+      <Text>20% бонус в бою против городов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_COVER_1">
+      <Text>Прикрытие I</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_COVER_1_HELP">
+      <Text>+25% [COLOR_POSITIVE_TEXT]к защите[ENDCOLOR] против всех [COLOR_POSITIVE_TEXT]дистанционных атак[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_COVER_2">
+      <Text>Прикрытие II</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_COVER_2_HELP">
+      <Text>+25% [COLOR_POSITIVE_TEXT]к защите[ENDCOLOR] против всех [COLOR_POSITIVE_TEXT]дистанционных атак[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DEFENSE_PENALTY">
+      <Text>Штраф в обороне</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DEFENSIVE_EMBARKATION">
+      <Text>Оборона при погрузке на борт</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DEFENSIVE_EMBARKATION_HELP">
+      <Text>Позволяет грузиться на борт и перемещаться по [COLOR_POSITIVE_TEXT]водным клеткам[ENDCOLOR]. Погруженные на борт юниты могут защищаться от атак врага.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DISCIPLINE">
+      <Text>Дисциплина</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DISCIPLINE_HELP">
+      <Text>+10% [ICON_STRENGTH] к боевой мощи, когда рядом дружественный юнит.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DOGFIGHTING_1">
+      <Text>Воздушный бой I</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DOGFIGHTING_1_HELP">
+      <Text>+25% [ICON_STRENGTH] к боевой мощи при [COLOR_POSITIVE_TEXT]зачистке неба[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DOGFIGHTING_2">
+      <Text>Воздушный бой II</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DOGFIGHTING_2_HELP">
+      <Text>+25% [ICON_STRENGTH] к боевой мощи при [COLOR_POSITIVE_TEXT]зачистке неба[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DOGFIGHTING_3">
+      <Text>Воздушный бой III</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DOGFIGHTING_3_HELP">
+      <Text>+25% [ICON_STRENGTH] к боевой мощи при [COLOR_POSITIVE_TEXT]зачистке неба[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DRILL_1">
+      <Text>Муштра I</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DRILL_1_HELP">
+      <Text>+20% [ICON_STRENGTH] к боевой мощи при сражении на [COLOR_POSITIVE_TEXT]пересеченной[ENDCOLOR] местности (холмы, леса, джунгли).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DRILL_2">
+      <Text>Муштра II</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DRILL_2_HELP">
+      <Text>+20% [ICON_STRENGTH] к боевой мощи при сражении на [COLOR_POSITIVE_TEXT]ПЕРЕСЕЧЕННОЙ[ENDCOLOR] местности. (В холмах, в лесу или в джунглях).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DRILL_3">
+      <Text>Муштра III</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DRILL_3_HELP">
+      <Text>+25% [ICON_STRENGTH] к боевой мощи при сражении на [COLOR_POSITIVE_TEXT]ПЕРЕСЕЧЕННОЙ[ENDCOLOR] местности. (В холмах, в лесу или в джунглях).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_EMBARKATION">
+      <Text>Погрузка на борт</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_EMBARKATION_HELP">
+      <Text>Позволяет грузиться на борт и перемещаться по [COLOR_POSITIVE_TEXT]водным клеткам[ENDCOLOR]. Погруженные на борт юниты уничтожаются, если на клетку заходит враг.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_EVASION">
+      <Text>Уклонение</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_EVASION_HELP">
+      <Text>Сокращает урон от перехвата на 50%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_EVASION_I">
+      <Text>Уклонение (50)</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_EVASION_II">
+      <Text>Уклонение (100)</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FASTER_HEAL">
+      <Text>Исцеляет ОЗ в два раза быстрее</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FLAT_MOVEMENT_COST">
+      <Text>Перемещение по любым клеткам стоит 1 ОП</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FOLIAGE_IMPASSABLE">
+      <Text>Не может войти в лес или джунгли</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FOREIGN_LANDS">
+      <Text>Бонус в чужих краях</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FOREIGN_LANDS_HELP">
+      <Text>Бонус в бою за пределами дружественных территорий(20).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FORMATION_1">
+      <Text>Построение I</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FORMATION_1_HELP">
+      <Text>+25% к боевой мощи против [COLOR_POSITIVE_TEXT]кавалерии[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FORMATION_2">
+      <Text>Построение II</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FORMATION_2_HELP">
+      <Text>+25% к боевой мощи против [COLOR_POSITIVE_TEXT]кавалерии[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FREE_PILLAGE_MOVES">
+      <Text>Не тратит ОП на разграбление</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_GREAT_GENERAL">
+      <Text>Лидерство</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_GREAT_GENERAL_HELP">
+      <Text>Повышает боевую эффективность соседних юнитов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_GREAT_LIGHTHOUSE">
+      <Text>Фаросский маяк</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_GREAT_LIGHTHOUSE_HELP">
+      <Text>+1 [ICON_MOVES] к перемещению, +1 к обзору.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_HEAL_IF_DESTROY_ENEMY">
+      <Text>Исцеление при уничтожении</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_HEAL_IF_DESTROY_ENEMY_HELP">
+      <Text>Исцеляет весь урон при уничтожении не-варварского юнита.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_HEAL_INSTANTLY">
+      <Text>Немедленное исцеление</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_HEAL_INSTANTLY_HELP">
+      <Text>Полностью [COLOR_POSITIVE_TEXT]исцеляет[ENDCOLOR] юнит. Это произойдет [COLOR_POSITIVE_TEXT]вместо[ENDCOLOR] повышения квалификации.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_HIMEJI_CASTLE">
+      <Text>Замок Химэдзи</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_HIMEJI_CASTLE_HELP">
+      <Text>+15% [ICON_STRENGTH] к боевой мощи на дружественной территории.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_HOVERING_UNIT">
+      <Text>Вертикальный полет</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_HOVERING_UNIT_HELP">
+      <Text>Юнит может перемещаться над горами.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_IGNORE_TERRAIN_COST">
+      <Text>Нет штрафов ОП за местность</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_INDIRECT_FIRE">
+      <Text>Огонь с закрытых позиций</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_INDIRECT_FIRE_HELP">
+      <Text>Можно осуществлять дальнобойные атаки по невидимой цели, если ее видят другие союзные юниты.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_1">
+      <Text>Перехват I</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_1_HELP">
+      <Text>+25% [ICON_STRENGTH] к боевой мощи при перехвате авиации противника.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_2">
+      <Text>Перехват II</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_2_HELP">
+      <Text>+25% [ICON_STRENGTH] к боевой мощи при перехвате авиации противника.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_3">
+      <Text>Перехват III</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_3_HELP">
+      <Text>+25% [ICON_STRENGTH] к боевой мощи при [COLOR_POSITIVE_TEXT]перехвате[ENDCOLOR] авиации противника.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_I">
+      <Text>Перехват (20)</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_II">
+      <Text>Перехват (40)</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_III">
+      <Text>Перехват (50)</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_IV">
+      <Text>Перехват (100)</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_INVISIBLE_SUBMARINE">
+      <Text>Невидимость подлодок</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_JAGUAR">
+      <Text>Бонус в джунглях (50)</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_LOGISTICS">
+      <Text>Логистика</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_LOGISTICS_HELP">
+      <Text>1 дополнительная атака за ход.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MARCH">
+      <Text>Марш</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MARCH_HELP">
+      <Text>Юнит будет [COLOR_POSITIVE_TEXT]исцеляться каждый ход[ENDCOLOR], даже в действии.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MEDIC">
+      <Text>Медик</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MEDIC_HELP">
+      <Text>Все юниты, находящиеся на соседних клетках, за ход [COLOR_POSITIVE_TEXT]восстанавливают на 1 ОЗ больше[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MOBILITY">
+      <Text>Маневренность</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MOBILITY_1">
+      <Text>Маневренность II</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MOBILITY_2">
+      <Text>Маневренность III</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MOBILITY_HELP">
+      <Text>+1 к перемещению.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MOHAWK">
+      <Text>Бонус в лесу и джунглях (25)</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MORALE">
+      <Text>Мораль</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MORALE_HELP">
+      <Text>+15% [ICON_STRENGTH] к боевой мощи</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MOUNTED_PENALTY">
+      <Text>Штраф в бою против кавалерии</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MUST_SET_UP">
+      <Text>Нужна подготовка перед стрельбой</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_NATIONALISM">
+      <Text>Национализм</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_NATIONALISM_HELP">
+      <Text>+25% к атаке на дружественной территории.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_NAVAL_PENALTY">
+      <Text>Штраф в бою против флота</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_NAVAL_TRADITION">
+      <Text>Флотские традиции</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_NAVAL_TRADITION_HELP">
+      <Text>+1 [ICON_MOVES] к перемещению, +1 к обзору.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_NO_CAPTURE">
+      <Text>Не может захватывать города</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_NO_DEFENSIVE_BONUSES">
+      <Text>Не получает бонусов от местности в обороне</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_OCEAN_IMPASSABLE">
+      <Text>Не может выйти в океан</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_OCEAN_IMPASSABLE_ASTRO">
+      <Text>Нужда в астрономии</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_OCEAN_IMPASSABLE_ASTRO_HELP">
+      <Text>Не может выйти в океан до изучения астрономии.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_OCEAN_MOVEMENT">
+      <Text>Передвижение кораблей</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_OCEAN_MOVEMENT_HELP">
+      <Text>Дает 2 дополнительных ОП для морских юнитов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_OLIGARCHY">
+      <Text>Олигархия</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_OLIGARCHY_HELP">
+      <Text>+33% [ICON_STRENGTH] к боевой мощи на дружественной территории.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ONLY_DEFENSIVE">
+      <Text>Не может атаковать в ближнем бою</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_OPEN_TERRAIN">
+      <Text>Бонус на открытой местности</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_PARADROP">
+      <Text>Может десантироваться с воздуха</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY">
+      <Text>Юнит исцеляет 2 ОЗ, уничтожая врага</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_RANGE">
+      <Text>Радиус</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_RANGE_HELP">
+      <Text>+1 к радиусу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_RANGED_SUPPORT_FIRE">
+      <Text>Огневая поддержка</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_RANGED_SUPPORT_FIRE_HELP">
+      <Text>Обеспечивает огневую поддержку дружественным юнитам, если укреплен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_REPAIR">
+      <Text>Починка</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_REPAIR_HELP">
+      <Text>Починка авиации</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_RIVAL_TERRITORY">
+      <Text>Может входить на территорию врага</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ROUGH_TERRAIN_ENDS">
+      <Text>Штраф за пересеч. местность</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ROUGH_TERRAIN_ENDS_HELP">
+      <Text>Вход на пересеченную местность расходует все ОП.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SCOUTING_1">
+      <Text>Разведка I</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SCOUTING_1_HELP">
+      <Text>+1 к радиусу обзора.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SCOUTING_2">
+      <Text>Разведка II</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SCOUTING_2_HELP">
+      <Text>+1 к перемещению.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SCOUTING_3">
+      <Text>Разведка III</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SCOUTING_3_HELP">
+      <Text>+1 к радиусу обзора.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SECOND_ATTACK">
+      <Text>Может атаковать дважды за ход</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SEE_INVISIBLE_SUBMARINE">
+      <Text>Может обнаруживать подводные лодки</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SENTRY">
+      <Text>Часовой</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SENTRY_HELP">
+      <Text>+1 к радиусу обзора.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SHOCK_1">
+      <Text>Шок I</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SHOCK_1_HELP">
+      <Text>+20% [ICON_STRENGTH] к боевой мощи при сражении на [COLOR_POSITIVE_TEXT]ОТКРЫТОЙ[ENDCOLOR] местности. (НЕ в холмах, в лесу или в джунглях).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SHOCK_2">
+      <Text>Шок II</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SHOCK_2_HELP">
+      <Text>+20% [ICON_STRENGTH] к боевой мощи при сражении на [COLOR_POSITIVE_TEXT]ОТКРЫТОЙ[ENDCOLOR] местности. (НЕ в холмах, в лесу или в джунглях).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SHOCK_3">
+      <Text>Шок III</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SHOCK_3_HELP">
+      <Text>+25% [ICON_STRENGTH] к боевой мощи при сражении на [COLOR_POSITIVE_TEXT]ОТКРЫТОЙ[ENDCOLOR] местности. (НЕ в холмах, в лесу или в джунглях).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SIEGE">
+      <Text>Осада</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SIEGE_HELP">
+      <Text>+25% [ICON_STRENGTH] к боевой мощи против [COLOR_POSITIVE_TEXT]городов[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SIGHT_PENALTY">
+      <Text>Ограниченная видимость</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SIGHT_PENALTY_HELP">
+      <Text>-1 к радиусу обзора.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SORTIE">
+      <Text>Вылет</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SORTIE_HELP">
+      <Text>1 дополнительный [COLOR_POSITIVE_TEXT]перехват[ENDCOLOR] за ход.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SPAWN_GENERALS_I">
+      <Text>Великие полководцы I</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SPAWN_GENERALS_I_HELP">
+      <Text>Бой может способствовать появлению великого полководца.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SPAWN_GENERALS_II">
+      <Text>Великие полководцы II</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SPAWN_GENERALS_II_HELP">
+      <Text>Бой с высокой вероятностью может способствовать появлению великого полководца.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_STRONGER_VS_DAMAGED">
+      <Text>Бонус против поврежд. врага</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_STRONGER_VS_DAMAGED_HELP">
+      <Text>Бонус в бою против поврежденного противника (33).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SUPPLY">
+      <Text>Снабжение</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SUPPLY_HELP">
+      <Text>Юнит может исцеляться [COLOR_POSITIVE_TEXT]на недружественной территории[ENDCOLOR]. Восстанавливает по 2 ОЗ за ход.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SURVIVALISM_1">
+      <Text>Выживание I</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SURVIVALISM_1_HELP">
+      <Text>Юнит исцеляется на недружественной территории по 1 ОЗ за ход.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SURVIVALISM_2">
+      <Text>Выживание II</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SURVIVALISM_2_HELP">
+      <Text>+50% к обороне.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SURVIVALISM_3">
+      <Text>Выживание III</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SURVIVALISM_3_HELP">
+      <Text>+50% к обороне. Юнит [COLOR_POSITIVE_TEXT]исцеляется каждый ход[ENDCOLOR] даже при выполнении действий.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_TARGETING_1">
+      <Text>Наведение I</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_TARGETING_1_HELP">
+      <Text>+20% [ICON_STRENGTH] к боевой мощи против [COLOR_POSITIVE_TEXT]кораблей[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_TARGETING_2">
+      <Text>Наведение II</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_TARGETING_2_HELP">
+      <Text>+20% [ICON_STRENGTH] к боевой мощи против [COLOR_POSITIVE_TEXT]кораблей[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_TARGETING_3">
+      <Text>Наведение III</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_TARGETING_3_HELP">
+      <Text>+20% [ICON_STRENGTH] к боевой мощи против [COLOR_POSITIVE_TEXT]кораблей[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_VOLLEY">
+      <Text>Залп</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_VOLLEY_HELP">
+      <Text>+25% [ICON_STRENGTH] к боевой мощи против [COLOR_POSITIVE_TEXT]укрепленных войск[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_WEAK_RANGED">
+      <Text>Слабый дальний бой</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_WEAK_RANGED_HELP">
+      <Text>-50% к боевой мощи в дальнем бою.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_WOODSMAN">
+      <Text>Следопыт</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_WOODSMAN_HELP">
+      <Text>Скорость перемещения через [COLOR_POSITIVE_TEXT]лес и джунгли[ENDCOLOR] удваивается.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_XTRA_MOVES_I">
+      <Text>Дополнительное передвижение</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_XTRA_MOVES_I_HELP">
+      <Text>+1 к передвижению.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_XTRA_SIGHT_I">
+      <Text>Дополнительный обзор (1)</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_XTRA_SIGHT_I_HELP">
+      <Text>+1 к радиусу обзора.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_XTRA_SIGHT_II">
+      <Text>Дополнительный обзор (2)</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_XTRA_SIGHT_II_HELP">
+      <Text>+2 к радиусу обзора.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_XTRA_SIGHT_III">
+      <Text>Дополнительный обзор (3)</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_XTRA_SIGHT_III_HELP">
+      <Text>+3 к радиусу обзора.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_XTRA_SIGHT_IV">
+      <Text>Дополнительный обзор (4)</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_XTRA_SIGHT_IV_HELP">
+      <Text>+4 к радиусу обзора.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SMALL_PROMOTION_CITY_PENALTY">
+      <Text>Штраф при атаке городов (25)</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SMALL_PROMOTION_CITY_PENALTY_HELP">
+      <Text>25% штраф при атаке городов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALUNIT_FIGHTER">
+      <Text>Истребители</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALUNIT_MISSILE">
+      <Text>Ракеты</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALUNIT_PEOPLE">
+      <Text>Разведчики, исследователи, миссионеры, шпионы, великие люди</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_AMERICAN_B17">
+      <Text>Бомбардировщик B-17|бомбардировщика B-17|бомбардировщику B-17|бомбардировщик B-17|бомбардировщиком B-17|бомбардировщике B-17</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_AMERICAN_MINUTEMAN">
+      <Text>Минитмены|минитменов|минитменам|минитменов|минитменами|минитменах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_ANTI_AIRCRAFT_GUN">
+      <Text>Зенитные пушки|зенитных пушек|зенитным пушкам|зенитные пушки|зенитными пушками|зенитных пушках</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_ARABIAN_CAMELARCHER">
+      <Text>Лучники на верблюдах|лучников на верблюдах|лучникам на верблюдах|лучников на верблюдах|лучниками на верблюдах|лучниках на верблюдах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_ARCHER">
+      <Text>Лучники|лучников|лучникам|лучников|лучниками|лучниках</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_ARTILLERY">
+      <Text>Артиллерийская батарея|артиллерийской батареи|артиллерийской батарее|артиллерийскую батарею|артиллерийской батареей|артиллерийской батарее</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_AT_GUN">
+      <Text>Противотанковые пушки|противотанковых пушек|противотанковым пушкам|противотанковые пушки|противотанковыми пушками|противотанковых пушках</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_ATOMIC_BOMB">
+      <Text>Атомная бомба|атомной бомбы|атомной бомбе|атомную бомбу|атомной бомбой|атомной бомбе</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_AZTEC_JAGUAR">
+      <Text>Воины-ягуары|воинов-ягуаров|воинам-ягуарам|воинов-ягуаров|воинами-ягуарами|воинах-ягуарах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_BATTLESHIP">
+      <Text>Линкор|линкора|линкору|линкор|линкором|линкоре</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_BOMBER">
+      <Text>Бомбардировщик|бомбардировщика|бомбардировщику|бомбардировщик|бомбардировщиком|бомбардировщике</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_BRUTE">
+      <Text>Дикари|дикарей|дикарям|дикарей|дикарями|дикарях</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_CANNON">
+      <Text>Пушки|пушек|пушкам|пушки|пушками|пушках</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_CARAVEL">
+      <Text>Каравелла|каравеллы|каравелле|каравеллу|каравеллой|каравелле</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_CARRIER">
+      <Text>Авианосец|авианосца|авианосцу|авианосец|авианосцем|авианосце</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_CATAPULT">
+      <Text>Катапульты|катапульт|катапультам|катапульты|катапультами|катапультах</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_CAVALRY">
+      <Text>Кавалеристы|кавалеристов|кавалеристам|кавалеристов|кавалеристами|кавалеристах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_CHARIOT_ARCHER">
+      <Text>Лучники на колесницах|лучников на колесницах|лучникам на колесницах|лучников на колесницах|лучниками на колесницах|лучниках на колесницах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_CHINESE_CHUKONU">
+      <Text>Чжугэ ну|чжугэ ну|чжугэ ну|чжугэ ну|чжугэ ну|чжугэ ну</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_CROSSBOWMAN">
+      <Text>Арбалетчики|арбалетчиков|арбалетчикам|арбалетчиков|арбалетчиками|арбалетчиках</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_DESTROYER">
+      <Text>Эсминец|эсминца|эсминцу|эсминец|эсминцем|эсминце</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_EGYPT_WARCHARIOT">
+      <Text>Боевые колесницы|боевых колесниц|боевым колесницам|боевые колесницы|боевыми колесницами|боевых колесницах</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_ENGLISH_LONGBOWMAN">
+      <Text>Йомены|йоменов|йоменам|йоменов|йоменами|йоменах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_ENGLISH_SHIPOFTHELINE">
+      <Text>Линейный корабль|линейного корабля|линейному кораблю|линейный корабль|линейным кораблем|линейном корабле</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_FIGHTER">
+      <Text>Истребитель|истребителя|истребителю|истребитель|истребителем|истребителе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_FRENCH_FOREIGNLEGION">
+      <Text>Иностранный легион|иностранного легиона|иностранному легиону|иностранный легион|иностранным легионом|иностранном легионе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_FRENCH_MUSKETEER">
+      <Text>Мушкетеры|мушкетеров|мушкетерам|мушкетеров|мушкетерами|мушкетерах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_FRIGATE">
+      <Text>Фрегат|фрегата|фрегату|фрегат|фрегатом|фрегате</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GALLEY">
+      <Text>Галера|галеры|галере|галеру|галерой|галере</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GERMAN_LANDSKNECHT">
+      <Text>Ландскнехты|ландскнехтов|ландскнехтам|ландскнехтов|ландскнехтами|ландскнехтах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GERMAN_PANZER">
+      <Text>Танки "Панцер"|танков "Панцер"|танкам "Панцер"|танки "Панцер"|танками "Панцер"|танках "Панцер"</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GREAT_ARTIST">
+      <Text>Великий художник|великого художника|великому художнику|великого художника|великим художником|великом художнике</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GREAT_ENGINEER">
+      <Text>Великий инженер|великого инженера|великому инженеру|великого инженера|великим инженером|великом инженере</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GREAT_GENERAL">
+      <Text>Великий полководец|великого полководца|великому полководцу|великого полководца|великим полководцем|великом полководце</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GREAT_MERCHANT">
+      <Text>Великий торговец|великого торговца|великому торговцу|великого торговца|великим торговцем|великом торговце</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GREAT_SCIENTIST">
+      <Text>Великий ученый|великого ученого|великому ученому|великого ученого|великим ученым|великом ученом</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GREEK_COMPANIONCAVALRY">
+      <Text>Гетайры|гетайров|гетайрам|гетайров|гетайрами|гетайрах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GREEK_HOPLITE">
+      <Text>Гоплиты|гоплитов|гоплитам|гоплитов|гоплитами|гоплитах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GUIDED_MISSILE">
+      <Text>Управляемая ракета|управляемой ракеты|управляемой ракете|управляемую ракету|управляемой ракетой|управляемой ракете</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELICOPTER_GUNSHIP">
+      <Text>Штурмовой вертолет|штурмового вертолета|штурмовому вертолету|штурмовой вертолет|штурмовым вертолетом|штурмовом вертолете</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_ANTI_AIRCRAFT_GUN">
+      <Text>Будет перехватывать вражескую авиацию, которая попытается бомбить соседние юниты.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_ANTI_TANK_GUN">
+      <Text>Сравнительно дешевые подразделения, специализированные на противодействии танкам.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_ARCHER">
+      <Text>Основное дальнобойное подразделение Древнейшего мира, способное поражать врага издали.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_ARTILLERY">
+      <Text>Мощный осадный юнит Новейшего времени. Перед ведением огня требуется развертывание.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_ATOMIC_BOMB">
+      <Text>Обрушивает на ваших врагов ядерный взрыв. Наносит огромный ущерб городам и юнитам, оказавшимся в радиусе поражения. Может располагаться на борту авианосцев. [NEWLINE][NEWLINE]Требует завершения проекта "Манхэттен" и одну единицу урана.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_B17">
+      <Text>Воздушный юнит, несущий смерть и разрушения городам, людям и технике. Его могут создавать только американцы. У этого юнита высокий шанс уклониться от перехватчиков; кроме того, он наносит более тяжелый урон городам, чем обычные бомбардировщики, которых он замещает.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_BALLISTA">
+      <Text>Осадный юнит, обладающий мощнейшей дальнобойной атакой. Для его подготовки к бою требуется время. Строить его могут только римляне. Мощь [ICON_RANGE_STRENGTH] дальнего боя у этого юнита выше, чем у катапульт, которые он замещает.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_BARBARIAN_WARRIOR">
+      <Text>Основной боевой юнит варваров на начало игры.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_BATTLESHIP">
+      <Text>Самый мощный корабль в прямом бою.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_BOMBER">
+      <Text>Воздушный юнит, обрушивающий смерть и разрушение на вражеские города и юниты.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_CAMEL_ARCHER">
+      <Text>Быстрый средневековый юнит дальнего боя, уязвим для копейщиков. Его могут создавать только арабы. Это дальнобойный юнит - в отличие от рыцарей, которых он замещает.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_CANNON">
+      <Text>Мощное осадное орудие Нового времени. Требуется подготовка перед ведением огня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_CARAVEL">
+      <Text>Исследовательский юнит эпохи Нового времени с большим радиусом обзора.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_CARRIER">
+      <Text>Способен перевозить до 3 самолетов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_CATAPULT">
+      <Text>Первый осадный юнит в игре. На расстоянии наносит огромный урон юнитам и городам. Перед началом огня требуется время на подготовку.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_CAVALRY">
+      <Text>Кавалерия Нового времени, способная выходить на бой против современных пехотных подразделений. Уязвима для других всадников.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_CHARIOR_ARCHER">
+      <Text>Быстрый дальнобойный юнит, очень эффективен на ровной земле, но существенно замедляется на пересеченной местности.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_CHUKONU">
+      <Text>Средневековый пехотный юнит дальнего боя. Его могут создавать только китайцы. Эти подразделения могут стрелять дважды за ход - в отличие от арбалетчиков, которых они замещают.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_COMPANION_CAVALRY">
+      <Text>Быстрые и мощные конные подразделения начала игры. Уязвимы для копейщиков. Их могут создавать только греки. Эти подразделения быстрее и [ICON_STRENGTH] мощнее в бою, чем всадники, которых они замещают. Кроме того, они позволяют быстрее получать великих полководцев.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_COSSACK">
+      <Text>Конные подразделения Нового времени, способные лицом к лицу противостоять пехотным частям. Уязвимы для других кавалерийских подразделений.[NEWLINE][NEWLINE]Их могут создавать только русские. Эти подразделения получают боевой бонус при сражении с ослабевшими вражескими юнитами.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_CROSSBOWMAN">
+      <Text>Средневековый пехотный юнит дальнего боя.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_DESTROYER">
+      <Text>Быстрый корабль поздних этапов игры, крайне эффективный для разведки. Кроме того, используется для обнаружения и уничтожения вражеских подводных лодок.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_EGYPTIAN_WAR_CHARIOT">
+      <Text>Быстрый дальнобойный юнит, очень эффективен на ровной земле, но существенно замедляется на пересеченной местности. Его могут строить только египтяне. Для создания этого юнита не нужны [ICON_RES_HORSE] лошади (в отличие от лучников на колесницах, которых он и замещает).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_FIGHTER">
+      <Text>Самолет, позволяющий добиться превосходства в небе и перехватить приближающуюся авиацию противника.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_FOREIGN_LEGION">
+      <Text>Основное пехотное подразделение Новейшего времени. Его могут создавать только французы. Это подразделение получает боевой бонус вне дружественных территорий - в отличие от пехотных частей, которые оно заменяет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_FRIGATE">
+      <Text>Мощное судно Нового времени, позволяющее побороться за господство на море.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_GUIDED_MISSILE">
+      <Text>Дешевый одноразовый юнит, который наносит серьезный урон вражеским подразделениям или городам.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_HELICOPTER_GUNSHIP">
+      <Text>Подразделения, специализирующиеся на борьбе с современными танками и бронированной техникой. Способны летать над горами и береговой линией.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_HOPLITE">
+      <Text>Подразделение Древнейшего мира, специализирующееся на уничтожении кавалерии. Его могут создавать только греки. У этого подразделения более высокая [ICON_STRENGTH] боевая мощь, чем у копейщиков, которых оно замещает.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_HORSEMAN">
+      <Text>Быстрый и мощный кавалерийский юнит начала игры. Уязвим для копейщиков.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_IMMORTAL">
+      <Text>Подразделение Древнейшего мира, специализирующееся на уничтожении кавалерии. Его могут создавать только персы. У этого подразделения более высокая [ICON_STRENGTH] боевая мощь, чем у копейщиков, которых оно замещает. Кроме того, оно быстрее восстанавливает здоровье.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_INDIAN_WAR_ELEPHANT">
+      <Text>Быстрый дальнобойный юнит, очень эффективный на равнинах. Его могут создавать только индусы. У этого юнита более высокая [ICON_STRENGTH] боевая мощь и мощь дальнего боя, чем у колесничных лучников, которых он замещает.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_INFANTRY">
+      <Text>Основная пехота Новейшего времени.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_IRONCLAD">
+      <Text>Эти корабли мощнее фрегатов, но их скорость ниже. Кроме того, они не могут выходить в открытый океан.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_JAGUAR">
+      <Text>Сравнительно слабое подразделение начала игры. Его могут создавать только ацтеки. Эти подразделения сражаются в джунглях более эффективно, чем воины, которых они замещают. Кроме того, они восстанавливают ОЗ, убивая противников.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_JANISSARY">
+      <Text>Одно из первых подразделений с огнестрельным оружием в игре. Его могут строить только турки. Это подразделение сильнее в нападении, чем аркебузиры, которых оно замещает. Кроме того, бойцы восстанавливают ОЗ, убивая противников.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_JET_FIGHTER">
+      <Text>Самолет, позволяющий добиться превосходства в небе и перехватить приближающуюся авиацию противника.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_KNIGHT">
+      <Text>Мощная кавалерия эпохи Средневековья, уязвимая для копейщиков.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_LANCER">
+      <Text>Кавалерийское подразделение, специально созданное для атаки. Находясь в обороне, получает штраф к боевым характеристикам. Отлично подходит для преследования вражеской кавалерии.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_LANDSKNECHT">
+      <Text>Подразделение, специально созданное для борьбы с рыцарями и другими всадниками. Его могут создавать только немцы. Это подразделение гораздо дешевле, чем пикинеры, которых оно замещает.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_LONGBOWMAN">
+      <Text>Средневековое пехотное подразделение дальнего боя. Его могут создавать только англичане. Эти лучники получают +1 к радиусу действия по сравнению с арбалетчиками, которых они замещают.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_LONGSWORDSMAN">
+      <Text>Мощная средневековая пехота.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_MECH">
+      <Text>Не получает никаких дополнительных бонусов за тип местности, однако во всех остальных отношениях сильнее любого другого подразделения в игре.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_MECHANIZED_INFANTRY">
+      <Text>Быстрое основное подразделение поздних этапов игры. Для его создания не требуется никаких специальных ресурсов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_MINUTEMAN">
+      <Text>Одно из первых подразделений с огнестрельным оружием в игре. Его могут создавать только американцы. Может передвигаться по пересеченной местности так же, как по равнине, в отличие от аркебузиров, которых замещает.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_MISSILE_CRUISER">
+      <Text>Судно, предназначенное для защиты от авиации противника. Может нести до 3 ракет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_MOBILE_SAM">
+      <Text>Подразделение, созданное для перехвата вражеской авиации, которая собирается бомбить соседние части.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_MODERN_ARMOR">
+      <Text>Быстрое и мощное подразделение поздних этапов игры. Уязвимо в бою с городами и в обороне, однако невероятно эффективно на открытой местности.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_MOHAWK_WARRIOR">
+      <Text>Сильное передовое подразделение Античности. Его могут создавать только ирокезы. Это подразделение получает значительный бонус, сражаясь в лесах или джунглях, в отличие от мечников, которых замещает.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_MUSKETEER">
+      <Text>Одно из первых подразделений с огнестрельным оружием в игре. Его могут создавать только французы. Это подразделение обладает большей [ICON_STRENGTH] боевой мощью, чем аркебузиры, которых оно замещает.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_MUSKETMAN">
+      <Text>Первое подразделение с огнестрельным оружием в игре. Сравнительно мощное и дешевое.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_MUSLIM_CAVALRY">
+      <Text>Мощная кавалерия эпохи Средневековья, уязвимая для копейщиков. Ее может создавать только держава Сонгай.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_NUCLEAR_MISSILE">
+      <Text>Обрушивает на ваших врагов ядерный взрыв. Наносит большой ущерб городам и юнитам, оказавшимся в радиусе поражения. [NEWLINE][NEWLINE]Требует завершения проекта "Манхэттен" и две единицы урана.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_NUCLEAR_SUBMARINE">
+      <Text>Невидима для всех подразделений, кроме других подводных лодок и эсминцев, пока не начинает атаку или не подходит к врагу вплотную. Может нести до 2 ракет, способна бороться с вражескими подводными лодками.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_PANZER">
+      <Text>Быстрое и мощное подразделение Новейшего времени. Уязвимо в бою с городами и в обороне, однако невероятно эффективно на открытой местности.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_PARATROOPER">
+      <Text>Мощный юнит пехоты, может быть десантирован с парашютом на расстоянии 5 клеток от дружественного города. Сразу после высадки могут грабить и двигаться, но вступать в бой способны только на следующий ход.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_PIKEMAN">
+      <Text>Подразделение, специально созданное для борьбы с рыцарями и другими всадниками.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_RIFLEMAN">
+      <Text>Мощное сухопутное подразделение средних этапов игры для сражений на передовой.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_ROCKET_ARTILLERY">
+      <Text>Быстрое осадное подразделение поздних этапов игры. В отличие от прочих осадных юнитов, не нуждается в развертывании для ведения огня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_ROMAN_LEGION">
+      <Text>Сильное передовое подразделение Античности. Его могут создавать только римляне. У этих бойцов более высокая [ICON_STRENGTH] боевая мощь, чем у мечников, которых они замещают.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_SAMURAI">
+      <Text>Мощное средневековое подразделение. Его могут создавать только японцы. Эти воины сражаются более эффективно, чем мечники с длинными мечами, которых они замещают. Кроме того, самураи позволяют быстрее получить великого полководца.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_SCOUT">
+      <Text>Эти отряды прекрасно подходят для исследования мира. Их не тормозит пересеченная местность, однако они уязвимы для атак.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_SETTLER">
+      <Text>Может основать новые города для вашей державы.[NEWLINE][NEWLINE][ICON_FOOD]Во время создания поселенца город перестает расти.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_SHIPOFTHELINE">
+      <Text>Мощное судно Нового времени, позволяющее побороться за господство на море. Его могут строить только англичане.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_SIAMESE_WARELEPHANT">
+      <Text>Мощная кавалерия эпохи Средневековья, уязвима для копейщиков. Ее могут строить только тайцы. Это подразделение получает бонус в сражении с любыми конными подразделениями. Кроме того, оно более [ICON_STRENGTH] мощное в бою, чем рыцари, которых оно замещает.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_SIPAHI">
+      <Text>Кавалерийское подразделение, специально созданное для атаки. Находясь в обороне, получает штраф к боевым характеристикам. Отлично подходит для преследования вражеской кавалерии. Эти подразделения могут создавать только в Оттоманской империи. Их скорость и дальность обзора выше, чем у улан, которых они замещают.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_SPEARMAN">
+      <Text>Подразделение Древнейшего мира, специально созданное для борьбы с всадниками.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_SS_BOOSTER">
+      <Text>Одна из частей космического корабля, которую необходимо построить и отослать в столицу, чтобы добиться [COLOR_POSITIVE_TEXT]научной победы[ENDCOLOR]. В отличие от остальных частей, для завершения строительства космического корабля необходимы три ракеты-носителя.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_SS_PART">
+      <Text>Одна из частей космического корабля, которую необходимо построить и отослать в столицу, чтобы добиться [COLOR_POSITIVE_TEXT]научной победы[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_STEALTH_BOMBER">
+      <Text>Самолет дальнего радиуса действия, обрушивающий смертоносный ливень на вражеские юниты и города.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_SUBMARINE">
+      <Text>Невидима для всех юнитов, кроме других подводных лодок и эсминцев, пока не начинает атаку или не подходит к врагу вплотную. Может нанести большой урон другим кораблям, если незамеченным подойдет к ним на боевое расстояние.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_SWORDSMAN">
+      <Text>Мощное подразделение Античности, предназначенное для боя на передовой.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_TANK">
+      <Text>Быстрое и мощное подразделение Новейшего времени. Получает штраф в бою с городами и при обороне, однако чрезвычайно эффективно в бою на открытой местности.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_TREBUCHET">
+      <Text>Мощный осадный юнит эпохи Средневековья. Прекрасно подходит для ослабления защиты вражеских городов. Перед ведением огня требуется подготовка.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_TRIREME">
+      <Text>Судно Древнейшего мира, позволяющее побороться за господство на море.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_WARRIOR">
+      <Text>Сравнительно слабые войска начала игры.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_WORKBOAT">
+      <Text>Могут строить рыбацкие лодки на таких водных ресурсах, как [ICON_RES_FISH] рыба. При постройке рабочая лодка исчезает. Они совершенно беззащитны и будут уничтожены при любом контакте с врагом.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_WORKER">
+      <Text>Повышает [ICON_FOOD] объем еды, [ICON_PRODUCTION] производительность и [ICON_GOLD] поступление золота, создавая улучшения на клетках вокруг города.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_ZERO">
+      <Text>Самолет, позволяющий добиться превосходства в небе и перехватить приближающуюся авиацию противника. Его могут строить только японцы. Такие самолеты получают преимущество в бою с другими истребителями - в отличие от самих истребителей, которых они замещают.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HORSEMAN">
+      <Text>Всадники|всадников|всадникам|всадников|всадниками|всадниках</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_INDIAN_WARELEPHANT">
+      <Text>Боевые слоны|боевых слонов|боевым слонам|боевых слонов|боевыми слонами|боевых слонах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_INFANTRY">
+      <Text>Пехотинцы|пехотинцев|пехотинцам|пехотинцев|пехотинцами|пехотинцах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_IRONCLAD">
+      <Text>Броненосец|броненосца|броненосцу|броненосец|броненосцем|броненосце</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_IROQUOIAN_MOHAWKWARRIOR">
+      <Text>Воины-могавки|воинов-могавков|воинам-могавкам|воинов-могавков|воинами-могавками|воинах-могавках</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_JAPANESE_SAMURAI">
+      <Text>Самураи|самураев|самураям|самураев|самураями|самураях</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_JAPANESE_ZERO">
+      <Text>"Зеро"|"Зеро"|"Зеро"|"Зеро"|"Зеро"|"Зеро"</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_JET_FIGHTER">
+      <Text>Реактивный истребитель|реактивного истребителя|реактивному истребителю|реактивный истребитель|реактивным истребителем|реактивном истребителе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_KNIGHT">
+      <Text>Рыцари|рыцарей|рыцарям|рыцарей|рыцарями|рыцарях</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_LANCER">
+      <Text>Уланы|улан|уланам|улан|уланами|уланах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_LONGSWORDSMAN">
+      <Text>Мечники (длинный меч)|мечников (длинный меч)|мечникам (длинный меч)|мечников (длинный меч)|мечниками (длинный меч)|мечниках (длинный меч)</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_MECH">
+      <Text>ОБЧР|ОБЧР|ОБЧР|ОБЧР|ОБЧР|ОБЧР</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_MECHANIZED_INFANTRY">
+      <Text>Мотопехота|мотопехоты|мотопехоте|мотопехоту|мотопехотой|мотопехоте</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_MISSILE_CRUISER">
+      <Text>Ракетный крейсер|ракетного крейсера|ракетному крейсеру|ракетный крейсер|ракетным крейсером|ракетном крейсере</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_MOBILE_SAM">
+      <Text>Мобильный ЗРК|мобильного ЗРК|мобильному ЗРК|мобильный ЗРК|мобильным ЗРК|мобильном ЗРК</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_MODERN_ARMOR">
+      <Text>Современные танки|современных танков|современным танкам|современные танки|современными танками|современных танках</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_MUSKETMAN">
+      <Text>Аркебузиры|аркебузиров|аркебузирам|аркебузиров|аркебузирами|аркебузирах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_NUCLEAR_MISSILE">
+      <Text>Ядерная ракета|ядерной ракеты|ядерной ракете|ядерную ракету|ядерной ракетой|ядерной ракете</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_NUCLEAR_SUBMARINE">
+      <Text>Атомная подводная лодка|атомной подводной лодки|атомной подводной лодке|атомную подводную лодку|атомной подводной лодкой|атомной подводной лодке</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_OTTOMAN_JANISSARY">
+      <Text>Янычары|янычар|янычарам|янычар|янычарами|янычарах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_OTTOMAN_SIPAHI">
+      <Text>Сипахи|сипахов|сипахам|сипахов|сипахами|сипахах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_PARATROOPER">
+      <Text>Парашютисты|парашютистов|парашютистам|парашютистов|парашютистами|парашютистах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_PERSIAN_IMMORTAL">
+      <Text>Бессмертные|бессмертных|бессмертным|бессмертных|бессмертными|бессмертных</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_PIKEMAN">
+      <Text>Пикинеры|пикинеров|пикинерам|пикинеров|пикинерами|пикинерах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_RIFLEMAN">
+      <Text>Стрелки|стрелков|стрелкам|стрелков|стрелками|стрелках</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_ROCKET_ARTILLERY">
+      <Text>РСЗО|РСЗО|РСЗО|РСЗО|РСЗО|РСЗО</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_ROMAN_BALLISTA">
+      <Text>Баллисты|баллист|баллистам|баллисты|баллистами|баллистах</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_ROMAN_LEGION">
+      <Text>Легион|легиона|легиону|легион|легионом|легионе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_RUSSIAN_COSSACK">
+      <Text>Казаки|казаков|казакам|казаков|казаками|казаках</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SCOUT">
+      <Text>Разведчики|разведчиков|разведчикам|разведчиков|разведчиками|разведчиках</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SETTLER">
+      <Text>Поселенцы|поселенцев|поселенцам|поселенцев|поселенцами|поселенцах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SIAMESE_WARELEPHANT">
+      <Text>Слоны Наресуана|слонов Наресуана|слонам Наресуана|слонов Наресуана|слонами Наресуана|слонах Наресуана</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SONGHAI_MUSLIMCAVALRY">
+      <Text>Всадники мандекалу|всадников мандекалу|всадникам мандекалу|всадников мандекалу|всадниками мандекалу|всадниках мандекалу</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SPEARMAN">
+      <Text>Копейщики|копейщиков|копейщикам|копейщиков|копейщиками|копейщиках</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_STEALTH_BOMBER">
+      <Text>Бомбардировщик "Стелс"|бомбардировщика "Стелс"|бомбардировщику "Стелс"|бомбардировщик "Стелс"|бомбардировщиком "Стелс"|бомбардировщике "Стелс"</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SUBMARINE">
+      <Text>Подводная лодка|подводной лодки|подводной лодке|подводную лодку|подводной лодкой|подводной лодке</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SWORDSMAN">
+      <Text>Мечники|мечников|мечникам|мечников|мечниками|мечниках</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_TANK">
+      <Text>Танки|танков|танкам|танки|танками|танках</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_TREBUCHET">
+      <Text>Требушеты|требушетов|требушетам|требушеты|требушетами|требушетах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_TRIREME">
+      <Text>Трирема|триремы|триреме|трирему|триремой|триреме</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_WARRIOR">
+      <Text>Воины|воинов|воинам|воинов|воинами|воинах</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_WORK_BOAT">
+      <Text>Рабочая лодка|рабочей лодки|рабочей лодке|рабочую лодку|рабочей лодкой|рабочей лодке</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_WORKER">
+      <Text>Рабочие|рабочих|рабочим|рабочих|рабочими|рабочих</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNITCOMBAT_ARMOR">
+      <Text>Бронетанк. войска|бронетанк. войск|бронетанк. войскам|бронетанк. войска|бронетанк. войсками|бронетанк. войсках</Text>
+      <Gender>neuter</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNITCOMBAT_BOMBER">
+      <Text>Бомбардировщики|бомбардировщиков|бомбардировщикам|бомбардировщики|бомбардировщиками|бомбардировщиках</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNITCOMBAT_FIGHTER">
+      <Text>Истребители|истребителей|истребителям|истребители|истребителями|истребителях</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNITCOMBAT_MOUNTED">
+      <Text>Конница|конницы|коннице|конницу|конницей|коннице</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNITCOMBAT_NAVAL">
+      <Text>Корабли|кораблей|кораблям|корабли|кораблями|кораблях</Text>
+      <Gender>masculine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_UNITCOMBAT_SIEGE">
+      <Text>Осадные орудия|осадных орудий|осадным орудиям|осадные орудия|осадными орудиями|осадных орудиях</Text>
+      <Gender>neuter</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+  </Language_RU_RU>
+</GameData>

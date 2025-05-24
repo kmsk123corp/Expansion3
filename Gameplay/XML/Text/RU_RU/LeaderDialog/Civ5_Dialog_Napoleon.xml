@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_AGREE_SHORT_1">
+      <Text>Отлично.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_AGREE_SHORT_2">
+      <Text>Хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_AGREE_SHORT_3">
+      <Text>Конечно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_AGREE_SHORT_4">
+      <Text>Принято.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_AGREE_SHORT_5">
+      <Text>О, очень хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_AGREE_SHORT_6">
+      <Text>Мне некуда деваться.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_AGREE_SHORT_7">
+      <Text>Прекрасно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_ATTACKED_1">
+      <Text>Теперь я вас уничтожу!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_ATTACKED_2">
+      <Text>Вы в ловушке. И теперь вы заплатите.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_ATTACKED_3">
+      <Text>Вы сделали ошибку. Самую последнюю ошибку в жизни.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_DECLAREWAR_1">
+      <Text>Вы стоите на моем пути. Готовьтесь к войне!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_DECLAREWAR_2">
+      <Text>Ваше существование оскорбляет меня. Готовьтесь к войне!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_DECLAREWAR_3">
+      <Text>Вы больше не будете оскорблять Францию. Готовьтесь к войне!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_DEFEATED_1">
+      <Text>Вы победили меня. Поздравляю.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_DEFEATED_2">
+      <Text>Поздравляю вас с победой.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_DEFEATED_3">
+      <Text>Я погиб. У меня не осталось ничего, кроме чести. Делайте со мной, что хотите.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_DEMANDTRIBUTE_ANGRY">
+      <Text>Дайте мне то, что я хочу, или я вас уничтожу. Клянусь!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_DEMANDTRIBUTE_HAPPY">
+      <Text>Мой друг, Франции кое-что от вас нужно. Уверен, что вы не разочаруете нас.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_DEMANDTRIBUTE_NEUTRAL">
+      <Text>Франция требует следующего. Вся ваша дальнейшая жизнь будет зависеть от вашего ответа.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_DISAGREE_SHORT_1">
+      <Text>Нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_DISAGREE_SHORT_2">
+      <Text>Определенно нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_DISAGREE_SHORT_3">
+      <Text>Мы вынуждены отказать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_DISAGREE_SHORT_4">
+      <Text>Конечно же, нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_DISAGREE_SHORT_5">
+      <Text>На это пойти невозможно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_DISAGREE_SHORT_6">
+      <Text>Вы, должно быть, шутите!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_DISAGREE_SHORT_7">
+      <Text>Прощу прощения, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_FIRSTGREETING_1">
+      <Text>Добро пожаловать! Я Наполеон, император французов, величайший военный гений в истории мира.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_FIRSTGREETING_2">
+      <Text>Добро пожаловать, гость. Я Наполеон, император французов. Я верен своим друзьям, а моих врагов ждет только смерть или позор. Так вы мне друг?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_FIRSTGREETING_3">
+      <Text>Наконец-то мы встретились. Я Наполеон, император французов. Входите. Предлагаю обсудить, как мы разделим мир между двумя нашими великими державами.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_FIRSTGREETING_4">
+      <Text>Приветствую. Я Наполеон, император французов. У меня нет времени на праздные разговоры, так что - что вы здесь делаете?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_GOODBYE_1">
+      <Text>Хорошего вам дня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_GOODBYE_2">
+      <Text>Прощайте!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_GOODBYE_3">
+      <Text>До свидания.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_GOODBYE_4">
+      <Text>До следующей встречи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_GOODBYE_5">
+      <Text>Уходите сейчас же.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_GOODBYE_6">
+      <Text>На этом все.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_GOODBYE_7">
+      <Text>Дело сделано.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_GREETING_1">
+      <Text>Добро пожаловать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_GREETING_2">
+      <Text>Добрый день.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_GREETING_3">
+      <Text>Приветствую.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_GREETING_4">
+      <Text>Хорошего вам дня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_GREETING_5">
+      <Text>А, это вы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_GREETING_6">
+      <Text>Да, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_GREETING_7">
+      <Text>Чего вы хотите?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_LETSHEARIT_1">
+      <Text>Итак, чего вы хотели?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_LETSHEARIT_2">
+      <Text>Продолжайте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_LETSHEARIT_3">
+      <Text>Я весь внимание.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_LETSHEARIT_4">
+      <Text>Да?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_LETSHEARIT_5">
+      <Text>Что вы сказали?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_LETSHEARIT_6">
+      <Text>И?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_LETSHEARIT_7">
+      <Text>Что дальше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_LOSEWAR_1">
+      <Text>Похоже, я серьезно недооценил вас. В будущем я не допущу такой ошибки.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_QUOTE_1">
+      <Text>Франция более нуждается во мне, нежели я в ней.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_QUOTE_2">
+      <Text>Человек охотнее сражается за свои интересы, чем за свои права.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_QUOTE_3">
+      <Text>Никогда не мешайте своему противнику, когда он совершает ошибку.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_QUOTE_4">
+      <Text>Историческая правда обычно не более чем правдоподобная выдумка.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_TRADE_NEEDMORE_ANGRY_1">
+      <Text>Вы что, не понимаете, сколь важно сохранить хорошие торговые отношения с Францией, самой богатой и могущественной страной в мире? Вы должны предложить больше.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_TRADE_NEEDMORE_ANGRY_2">
+      <Text>Этого недостаточно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_TRADE_NEEDMORE_HAPPY_1">
+      <Text>Душа моя, как император, я вынужден забыть о собственных чувствах и действовать в интересах Франции. А потому я прошу вас улучшить свое предложение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_TRADE_NEEDMORE_HAPPY_2">
+      <Text>И это все, что вы можете предложить?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_TRADE_NEEDMORE_HAPPY_3">
+      <Text>Я практически согласен...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_TRADE_NEEDMORE_NEUTRAL_1">
+      <Text>Хотите обмануть меня, императора? Предложите условия получше!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_TRADE_NEEDMORE_NEUTRAL_2">
+      <Text>Можете предложить чуть побольше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_TRADE_NEEDMORE_NEUTRAL_3">
+      <Text>Этого не хватит.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_TRADE_NEEDMORE_NEUTRAL_4">
+      <Text>Маловато.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_TRADE_NO_ANGRY">
+      <Text>Мое время дорого. Не тратьте его попусту.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_TRADE_NO_HAPPY">
+      <Text>Здесь, должно быть, какая-то ошибка. Я уверен, вы не хотели оскорбить великий французский народ таким нелепым предложением.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_TRADE_NO_NEUTRAL">
+      <Text>Ваше предложение оскорбительно для императора, то есть для меня. Я отклоняю его.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_TRADE_YES_ANGRY">
+      <Text>Я согласен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_TRADE_YES_HAPPY">
+      <Text>Благодарю вас за службу на благо Франции!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_TRADE_YES_NEUTRAL">
+      <Text>Вы весьма полезны. Я вас запомню.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_TRADEREQUEST_ANGRY">
+      <Text>Вот наше предложение. Принимайте его или уходите.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_TRADEREQUEST_HAPPY">
+      <Text>Мой дорогой друг. Я уверен, вам понравится мое торговое предложение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_TRADEREQUEST_NEUTRAL">
+      <Text>Франция предлагает вам исключительную сделку. Убедительно прошу вас принять ее.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_TRIBUTE_NO_ANGRY">
+      <Text>Вы с ума сошли? Как вы смеете вымогать у меня дань?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_TRIBUTE_NO_HAPPY">
+      <Text>Ваши условия просто оскорбительны для Франции. Я прошу вас не пользоваться так сильно нашей дружбой.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_TRIBUTE_NO_NEUTRAL">
+      <Text>Вы требуете дань с меня? Не будьте так глупы!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_TRIBUTE_YES_ANGRY">
+      <Text>Я вынужден принять ваши требования. Тем не менее вы заплатите мне за это оскорбление. Я лично прослежу за этим.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_TRIBUTE_YES_HAPPY">
+      <Text>Конечно, император славится своей щедростью!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_TRIBUTE_YES_NEUTRAL">
+      <Text>Хорошо. Но я никогда не прощу вам этого оскорбления. Франция будет отомщена!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_WARBLUFF_1">
+      <Text>Вы здорово рискуете.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_WARBLUFF_2">
+      <Text>Хорошо. Но в следующий раз я не буду столь любезен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_WARBLUFF_3">
+      <Text>Очень жаль.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_WARBLUFF_4">
+      <Text>Какое разочарование.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_WARBLUFF_5">
+      <Text>Неужели? Поверьте, вы не успеете пожалеть о своей близорукости.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_WARBLUFF_6">
+      <Text>Как же вы глупы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_NAPOLEON_WINWAR_1">
+      <Text>Надеюсь, вы усвоили этот урок - я непобедим!</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

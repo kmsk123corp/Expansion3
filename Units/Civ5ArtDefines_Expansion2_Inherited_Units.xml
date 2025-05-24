@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UnitArtInfos>
+ <!-- UNIT_GREAT_ADMIRAL ************************************************ -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_GREAT_ADMIRAL</Type>
+    <Formation>DefaultCavalry</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_GREAT_ADMIRAL</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_GREAT_ADMIRAL_LATE ************************************************ -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_GREAT_ADMIRAL_LATE</Type>
+    <Formation>DefaultCavalry</Formation>
+    <DamageStates>1</DamageStates>
+		<PortraitIndex>15</PortraitIndex>
+		<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
+		<UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_GREAT_ADMIRAL_LATE</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_U_ETHIOPIA_MEHAL_SEFARI ***************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_U_ETHIOPIA_MEHAL_SEFARI</Type>
+    <Formation>HonorableGunpowder</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_U_ETHIOPIA_MEHAL_SEFARI</MemberType>
+      <MemberCount>14</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+   <!-- UNIT_COMPOSITE_BOWMAN ***************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_COMPOSITE_BOWMAN</Type>
+    <Formation>Archer</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_COMPOSITE_BOWMAN</MemberType>
+      <MemberCount>12</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_MACHINEGUN ***************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_MACHINEGUN</Type>
+    <Formation>ThreeBigGuns</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_MACHINEGUN</MemberType>
+      <MemberCount>3</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_STURMTIGER***************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_STURMTIGER</Type>
+    <Formation>Vehicle</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_STURMTIGER</MemberType>
+      <MemberCount>2</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_LEMAN_VANQ ***************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_LEMAN_VANQ</Type>
+    <Formation>Vehicle</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_LEMAN_VANQ</MemberType>
+      <MemberCount>3</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_BANEBLADE ***************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_BANEBLADE</Type>
+    <Formation>Warrior</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_BANEBLADE</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_GALLEASS ************************************************ -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_GALLEASS</Type>
+    <DamageStates>3</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_GALLEASS</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_GATLINGGUN ***************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_GATLINGGUN</Type>
+    <Formation>ThreeBigGuns</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_GATLINGGUN</MemberType>
+      <MemberCount>3</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+   <!-- UNIT_GREAT_PROPHET ********************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_GREAT_PROPHET</Type>
+    <Formation>EarlyGreatArtist</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_GREAT_PROPHET</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+	<UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_GREAT_PROPHET_FEMALE</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+	<UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_GREAT_PROPHET_MALE</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_MISSIONARY ********************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_MISSIONARY</Type>
+    <Formation>EarlyGreatArtist</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_MISSIONARY</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+	<UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_MISSIONARY_01</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+	<UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_MISSIONARY_02</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_GREAT_PROPHET ********************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_INQUISITOR</Type>
+    <Formation>EarlyGreatArtist</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_INQUISITOR</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+	<UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_INQUISITOR_01</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+	<UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_INQUISITOR_02</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_XP_PRIVATEER ************************************************ -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_XP_PRIVATEER</Type>
+    <DamageStates>3</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_XP_PRIVATEER</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_MARINE ***************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_MARINE</Type>
+    <Formation>UnFormed</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_MARINE</MemberType>
+      <MemberCount>14</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_IG_SOLDIER ***************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_IG_SOLDIER</Type>
+    <Formation>UnFormed</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_IG_SOLDIER</MemberType>
+      <MemberCount>12</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_WW1_BOMBER ******************************************************* -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_WW1_BOMBER</Type>
+    <Formation>BomberWing</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_WW1_BOMBER</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_WW1_FIGHTER ****************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_WW1_FIGHTER</Type>
+    <Formation>FighterWing</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_WW1_FIGHTER</MemberType>
+      <MemberCount>3</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_JET_BOMBER ******************************************************* -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_JET_BOMBER</Type>
+    <Formation>BomberWing</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_JET_BOMBER</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_WW1_INFANTRY ***************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_WW1_INFANTRY</Type>
+    <Formation>UnFormed</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_WW1_INFANTRY</MemberType>
+      <MemberCount>14</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_WW1_TANK ********************************************************* -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_WW1_TANK</Type>
+    <Formation>TwoBigGuns</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_WW1_TANK</MemberType>
+      <MemberCount>2</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_WW2_INFANTRY ***************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_WW2_INFANTRY</Type>
+    <Formation>UnFormed</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_WW2_INFANTRY</MemberType>
+      <MemberCount>14</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+
+  <!-- Civil War Scenario -->
+  <!-- UNIT_CONFEDERATE_ARTILLERY_NAPOLEON ******************************************************* -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_CONFEDERATE_ARTILLERY_NAPOLEON</Type>
+    <Formation>TwoBigGuns</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_CONFEDERATE_ARTILLERY_NAPOLEON</MemberType>
+      <MemberCount>2</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_CONFEDERATE_ARTILLERY_PARROTT ******************************************************* -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_CONFEDERATE_ARTILLERY_PARROTT</Type>
+    <Formation>TwoBigGuns</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_CONFEDERATE_ARTILLERY_PARROTT</MemberType>
+      <MemberCount>2</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_CONFEDERATE_IRONCLAD ************************************************ -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_CONFEDERATE_IRONCLAD</Type>
+    <DamageStates>3</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_CONFEDERATE_IRONCLAD</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_CONFEDERATE_CAVALRY_CARBINE ****************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_CONFEDERATE_CAVALRY_CARBINE</Type>
+    <Formation>DefaultCavalry</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_CONFEDERATE_CAVALRY_CARBINE</MemberType>
+      <MemberCount>5</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_CONFEDERATE_CAVALRY_PISTOL ****************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_CONFEDERATE_CAVALRY_PISTOL</Type>
+    <Formation>DefaultCavalry</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_CONFEDERATE_CAVALRY_PISTOL</MemberType>
+      <MemberCount>5</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_CONFEDERATE_DIVISION ***************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_CONFEDERATE_DIVISION</Type>
+    <Formation>HonorableGunpowder</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_CONFEDERATE_RIFLEMAN</MemberType>
+      <MemberCount>2</MemberCount>
+    </UnitMemberArt>
+	<UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_CONFEDERATE_RIFLEMAN_V1</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+	<UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_CONFEDERATE_RIFLEMAN_V2</MemberType>
+      <MemberCount>2</MemberCount>
+    </UnitMemberArt>
+	<UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_CONFEDERATE_RIFLEMAN</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+	<UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_CONFEDERATE_RIFLEMAN_V1</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_CONFEDERATE_CORPS ***************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_CONFEDERATE_CORPS</Type>
+    <Formation>HonorableGunpowder</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_CONFEDERATE_RIFLEMAN</MemberType>
+      <MemberCount>2</MemberCount>
+    </UnitMemberArt>
+	<UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_CONFEDERATE_RIFLEMAN_V1</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+	<UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_CONFEDERATE_RIFLEMAN_V2</MemberType>
+      <MemberCount>2</MemberCount>
+    </UnitMemberArt>
+	<UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_CONFEDERATE_RIFLEMAN</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+	<UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_CONFEDERATE_RIFLEMAN_V1</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+	<UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_CONFEDERATE_RIFLEMAN</MemberType>
+      <MemberCount>2</MemberCount>
+    </UnitMemberArt>
+	<UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_CONFEDERATE_RIFLEMAN_V2</MemberType>
+      <MemberCount>4</MemberCount>
+    </UnitMemberArt>
+	<UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_CONFEDERATE_RIFLEMAN_V1</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_UNION_ARTILLERY_NAPOLEON ******************************************************* -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_UNION_ARTILLERY_NAPOLEON</Type>
+    <Formation>TwoBigGuns</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_UNION_ARTILLERY_NAPOLEON</MemberType>
+      <MemberCount>3</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_UNION_ARTILLERY_PARROTT ******************************************************* -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_UNION_ARTILLERY_PARROTT</Type>
+    <Formation>TwoBigGuns</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_UNION_ARTILLERY_PARROTT</MemberType>
+      <MemberCount>3</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_UNION_IRONCLAD ************************************************ -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_UNION_IRONCLAD</Type>
+    <DamageStates>3</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_UNION_IRONCLAD</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_UNION_CAVALRY_CARBINE ****************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_UNION_CAVALRY_CARBINE</Type>
+    <Formation>DefaultCavalry</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_UNION_CAVALRY_CARBINE</MemberType>
+      <MemberCount>5</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_UNION_CAVALRY_PISTOL ****************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_UNION_CAVALRY_PISTOL</Type>
+    <Formation>DefaultCavalry</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_UNION_CAVALRY_PISTOL</MemberType>
+      <MemberCount>5</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_UNION_DIVISION ***************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_UNION_DIVISION</Type>
+    <Formation>HonorableGunpowder</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_UNION_RIFLEMAN</MemberType>
+      <MemberCount>7</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_UNION_CORPS ***************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_UNION_CORPS</Type>
+    <Formation>HonorableGunpowder</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_UNION_RIFLEMAN</MemberType>
+      <MemberCount>14</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_CUIRASSIER ****************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_CUIRASSIER</Type>
+    <Formation>DefaultCavalry</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_CUIRASSIER</MemberType>
+      <MemberCount>5</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_ARMORED_CAR ****************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_ARMORED_CAR</Type>
+    <Formation>Vehicle</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_ARMORED_CAR</MemberType>
+      <MemberCount>3</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_EARLY_DESTROYER **************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_EARLY_DESTROYER</Type>
+    <DamageStates>3</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_EARLY_DESTROYER</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_NUCLEAR_CARRIER ****************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_NUCLEAR_CARRIER</Type>
+    <DamageStates>3</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_NUCLEAR_CARRIER</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_STEALTH_FIGHTER ************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_STEALTH_FIGHTER</Type>
+    <Formation>FighterWing</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_STEALTH_FIGHTER</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_HOVERPLANE ******************************************* -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_HOVERPLANE</Type>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_HOVERPLANE</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_LSAM ******************************************* -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_LSAM</Type>
+    <Formation>Warrior</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_LSAM</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_DREAD ******************************************* -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_DREAD</Type>
+    <Formation>Warrior</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_DREAD</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_ADVENTURER ***************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_ADVENTURER</Type>
+    <Formation>Scout</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_ADVENTURER_1</MemberType>
+      <MemberCount>2</MemberCount>
+    </UnitMemberArt>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_ADVENTURER_2</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_ADVENTURER_3</MemberType>
+      <MemberCount>2</MemberCount>
+    </UnitMemberArt>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_ADVENTURER_4</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_SABOTEUR ***************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_SABOTEUR</Type>
+    <Formation>Scout</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_SABOTEUR</MemberType>
+      <MemberCount>6</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_ROBOT_INFANTRY ***************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_ROBOT_INFANTRY</Type>
+    <Formation>Scout</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_ROBOT_INFANTRY</MemberType>
+      <MemberCount>6</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+
+
+  <!-- UNIT_GRENADIER ***************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_GRENADIER</Type>
+    <Formation>Pikeman</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_GRENADIER</MemberType>
+      <MemberCount>12</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+
+  <!-- <UnitArtInfo>
+    <Type>ART_DEF_UNIT_SLINGER</Type>
+    <Formation>Pikeman</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_U_INCAN_SLINGER</MemberType>
+      <MemberCount>12</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo> -->
+
+
+
+  <!-- UNIT_HORSE_CROSSBOWMAN ***************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_HORSE_CROSSBOWMAN</Type>
+    <Formation>DefaultCavalry</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_HORSE_CROSSBOWMAN</MemberType>
+      <MemberCount>5</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_AUSTRIA_LANDWEHR ***************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_AUSTRIA_LANDWEHR
+</Type>
+    <Formation>HonorableGunpowder</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_AUSTRIA_LANDWEHR</MemberType>
+      <MemberCount>14</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+ <!-- UNIT_ASSYRIA_ROYAL_GUARD ***************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_ASSYRIA_ROYAL_GUARD</Type>
+    <Formation>Phalanx</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_ASSYRIA_ROYAL_GUARD</MemberType>
+      <MemberCount>12</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_AZTEC_EAGLE **************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_AZTEC_EAGLE</Type>
+    <Formation>Archer</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_AZTEC_EAGLE</MemberType>
+      <MemberCount>10</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_BRAZIL_GAUCHO ***************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_BRAZIL_GAUCHO</Type>
+    <Formation>Pikeman</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_BRAZIL_GAUCHO</MemberType>
+      <MemberCount>12</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_GERMANY_TEUTONIC_KNIGHT ******************************************************* -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_GERMANY_TEUTONIC_KNIGHT</Type>
+    <Formation>DefaultCavalry</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_GERMANY_TEUTONIC_KNIGHT</MemberType>
+      <MemberCount>5</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_INDONESIA_CETBANG ****************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_INDONESIA_CETBANG</Type>
+    <DamageStates>3</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_INDONESIA_CETBANG</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_IROQUOIS_WHALER ****************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_IROQUOIS_WHALER</Type>
+    <Formation>ThreeBigGuns</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_IROQUOIS_WHALER</MemberType>
+      <MemberCount>3</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+
+  <!-- Войны с топорами **************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT__AXEMAN</Type>
+    <Formation>DefaultMelee</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_AXEMAN</MemberType>
+      <MemberCount>12</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+
+
+  <!-- UNIT_EGYPT_KHOPESH_SWORDSMAN **************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_EGYPT_KHOPESH_SWORDSMAN</Type>
+    <Formation>DefaultMelee</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_EGYPT_KHOPESH_SWORDSMAN</MemberType>
+      <MemberCount>12</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_RUSSIA_STRELTSY **************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_RUSSIA_STRELTSY</Type>
+    <Formation>HonorableGunpowder</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_RUSSIA_STRELTSY</MemberType>
+      <MemberCount>14</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_INDIA_SEPOY **************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_INDIA_SEPOY</Type>
+    <Formation>HonorableGunpowder</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_INDIA_SEPOY</MemberType>
+      <MemberCount>14</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_JAPAN_WARMONK ****************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_JAPAN_WARMONK</Type>
+    <Formation>Pikeman</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_JAPAN_WARMONK</MemberType>
+      <MemberCount>12</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_SONGHAI_SOFA ************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_SONGHAI_SOFA</Type>
+    <Formation>Archer</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_SONGHAI_SOFA</MemberType>
+      <MemberCount>12</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_INCA_CHASQUI ******************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_INCA_CHASQUI</Type>
+    <Formation>Scout</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_INCA_CHASQUI</MemberType>
+      <MemberCount>6</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_CHINA_WARJUNK ****************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_CHINA_WARJUNK</Type>
+    <DamageStates>3</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_CHINA_WARJUNK</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_NETHERLANDS_INDIAMAN ****************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_NETHERLANDS_INDIAMAN</Type>
+    <DamageStates>3</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_NETHERLANDS_INDIAMAN</MemberType>
+      <MemberCount>1</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_POLAND_PZL23 ****************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_POLAND_PZL23</Type>
+    <Formation>FighterWing</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_POLAND_PZL23</MemberType>
+      <MemberCount>3</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_SIAM_ELEPHANT ****************************************************** -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_SIAM_ELEPHANT</Type>
+    <Formation>ChariotElephant</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_SIAM_ELEPHANT</MemberType>
+      <MemberCount>2</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+  <!-- UNIT_OTTOMAN_CANNON ******************************************************* -->
+  <UnitArtInfo>
+    <Type>ART_DEF_UNIT_OTTOMAN_CANON</Type>
+    <Formation>TwoBigGuns</Formation>
+    <DamageStates>1</DamageStates>
+    <UnitMemberArt>
+      <MemberType>ART_DEF_UNIT_MEMBER_OTTOMAN_CANON</MemberType>
+      <MemberCount>2</MemberCount>
+    </UnitMemberArt>
+  </UnitArtInfo>
+</UnitArtInfos>

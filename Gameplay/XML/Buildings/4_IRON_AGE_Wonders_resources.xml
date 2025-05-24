@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited kmsk | 01.02.2024 -->
+<GameData>
+
+
+    <!-- Стоимость постройки -->
+    <Building_ResourceCostRequirements>
+
+    </Building_ResourceCostRequirements>
+
+
+    <!-- Производит ресурсов -->
+    <Building_ResourceQuantity>
+
+    </Building_ResourceQuantity>
+
+
+    <!-- Потребляет за ход -->
+	<Building_ResourceQuantityRequirements>
+
+    </Building_ResourceQuantityRequirements>
+
+</GameData>

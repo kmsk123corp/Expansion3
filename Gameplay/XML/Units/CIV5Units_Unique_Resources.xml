@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<!-- ############################### -->
+<!--   Стоимость в ресурсов юнитов   -->
+<!-- ############################### -->
+<GameData>
+	<Unit_ResourceCostRequirements>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</Unit_ResourceCostRequirements>
+
+	<!-- Содержание -->
+	<Unit_ResourceQuantityRequirements>
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+	</Unit_ResourceQuantityRequirements>
+</GameData>

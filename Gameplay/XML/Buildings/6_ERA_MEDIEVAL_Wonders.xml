@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited kmsk | 01.02.2024 -->
+<GameData>
+
+    <Buildings>
+
+        <!-- ########## -->
+        <!-- Богословие -->
+        <!-- ########## -->
+
+        <!-- Великий храм -->
+        <Replace>
+			<Type>BUILDING_GRAND_TEMPLE</Type>
+			<BuildingClass>BUILDINGCLASS_GRAND_TEMPLE</BuildingClass>
+			<Cost>180</Cost>
+			<PrereqTech>TECH_THEOLOGY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_GRAND_TEMPLE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_GRAND_TEMPLE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_GRAND_TEMPLE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_GRAND_TEMPLE_STRATEGY</Strategy>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<NukeImmune>true</NukeImmune>
+			<NumCityCostMod>30</NumCityCostMod>
+			<HolyCity>true</HolyCity>
+			<ReligiousPressureModifier>100</ReligiousPressureModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>EXPANSION_BW_ATLAS_3</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Replace>
+
+        <!-- Собор Святой Софии -->
+        <Row>
+			<Type>BUILDING_HAGIA_SOPHIA</Type>
+			<BuildingClass>BUILDINGCLASS_HAGIA_SOPHIA</BuildingClass>
+			<Cost>300</Cost>
+			<PrereqTech>TECH_THEOLOGY</PrereqTech>
+			<Help>TXT_KEY_WONDER_HAGIA_SOPHIA_HELP</Help>
+			<Description>TXT_KEY_BUILDING_HAGIA_SOPHIA</Description>
+			<Civilopedia>TXT_KEY_WONDER_HAGIASOPHIA_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_HAGIASOPHIA_QUOTE</Quote>
+			<ArtDefineTag>HAGIA SOPHIA</ArtDefineTag>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<FreeBuildingThisCity>BUILDINGCLASS_TEMPLE</FreeBuildingThisCity>
+			<DisplayPosition>2</DisplayPosition>
+			<IconAtlas>BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
+			<WonderSplashImage>WonderConceptHagiaSophia.dds</WonderSplashImage>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_THE_HAGIA_SOPHIA</WonderSplashAudio>
+		</Row>
+
+        <!-- Бородобур -->
+        <Row>
+			<Type>BUILDING_BOROBUDUR</Type>
+			<BuildingClass>BUILDINGCLASS_BOROBUDUR</BuildingClass>
+			<Cost>300</Cost>
+			<PrereqTech>TECH_THEOLOGY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_BOROBUDUR</Description>
+			<Quote>TXT_KEY_BUILDING_BOROBUDUR_QUOTE</Quote>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_BOROBUDUR_TEXT</Civilopedia>
+			<Help>TXT_KEY_WONDER_BOROBUDUR_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_BOROBUDUR</ArtDefineTag>
+			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
+			<NukeImmune>true</NukeImmune>
+			<DisplayPosition>4</DisplayPosition>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<HolyCity>true</HolyCity>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>EXPANSION2_WONDER_ATLAS</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+			<WonderSplashImage>WonderConceptBorobudur.dds</WonderSplashImage>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_BOROBUDUR</WonderSplashAudio>
+		</Row>
+
+        <!-- Великая мечить Дженне -->
+        <Row>
+			<Type>BUILDING_MOSQUE_OF_DJENNE</Type>
+			<BuildingClass>BUILDINGCLASS_MOSQUE_OF_DJENNE</BuildingClass>
+			<Cost>300</Cost>
+			<PrereqTech>TECH_THEOLOGY</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_PIETY</PolicyBranchType>
+			<Help>TXT_KEY_WONDER_MOSQUE_OF_DJENNE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_MOSQUE_OF_DJENNE</Description>
+			<Civilopedia>TXT_KEY_WONDER_MOSQUE_OF_DJENNE_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_MOSQUE_OF_DJENNE_QUOTE</Quote>
+			<ArtDefineTag>GREAT MOSQUE DEJENNE</ArtDefineTag>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<ExtraMissionarySpreads>1</ExtraMissionarySpreads>
+			<FreeBuildingThisCity>BUILDINGCLASS_MOSQUE</FreeBuildingThisCity>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+            <Happiness>5</Happiness>
+			<DisplayPosition>2</DisplayPosition>
+			<IconAtlas>EXPANSION_BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<WonderSplashImage>WonderConceptDjennie.dds</WonderSplashImage>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_GREAT_MOSQUE_OF_DJENNE</WonderSplashAudio>
+		</Row>
+
+
+        <!-- ######### -->
+        <!-- Госслужба -->
+        <!-- ######### -->
+
+        <!-- Чичен-ица -->
+        <Row>
+			<Type>BUILDING_CHICHEN_ITZA</Type>
+			<BuildingClass>BUILDINGCLASS_CHICHEN_ITZA</BuildingClass>
+			<Cost>300</Cost>
+			<PrereqTech>TECH_CIVIL_SERVICE</PrereqTech>
+			<Help>TXT_KEY_WONDER_TAJ_MAHAL_HELP</Help>
+			<Description>TXT_KEY_BUILDING_CHICHEN_ITZA</Description>
+			<Civilopedia>TXT_KEY_WONDER_CHICHENITZA_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_CHICHENITZA_QUOTE</Quote>
+			<ArtDefineTag>CHICHEN ITZA</ArtDefineTag>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<Happiness>5</Happiness>
+			<GoldenAgeModifier>50</GoldenAgeModifier>
+			<DisplayPosition>4</DisplayPosition>
+			<IconAtlas>BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>12</PortraitIndex>
+			<WonderSplashImage>WonderConceptChichenItza.dds</WonderSplashImage>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_CHICHEN_ITZA</WonderSplashAudio>
+		</Row>
+
+        <!-- ####### -->
+        <!-- Гильдии -->
+        <!-- ####### -->
+
+        <!-- Гильдия художников -->
+        <Row>
+			<Type>BUILDING_ARTISTS_GUILD</Type>
+			<BuildingClass>BUILDINGCLASS_ARTISTS_GUILD</BuildingClass>
+			<Cost>150</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_GUILDS</PrereqTech>
+			<Description>TXT_KEY_BUILDING_ARTISTS_GUILD</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_ARTISTS_GUILD_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_ARTISTS_GUILD_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_ARTISTS_GUILD_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_ARTISTS_GUILD</ArtDefineTag>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<SpecialistCount>2</SpecialistCount>
+			<GreatPeopleRateChange>2</GreatPeopleRateChange>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<IconAtlas>EXPANSION2_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+		</Row>
+
+        <!-- Ост-Индская компания -->
+        <Row>
+			<Type>BUILDING_NATIONAL_TREASURY</Type>
+			<BuildingClass>BUILDINGCLASS_NATIONAL_TREASURY</BuildingClass>
+			<Cost>180</Cost>
+			<PrereqTech>TECH_GUILDS</PrereqTech>
+			<Help>TXT_KEY_BUILDING_NATIONAL_TREASURY_HELP</Help>
+			<Description>TXT_KEY_BUILDING_EAST_INDIA</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_EAST_INDIA_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_EAST_INDIA_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_TREASURY</ArtDefineTag>
+			<NukeImmune>true</NukeImmune>
+			<NumCityCostMod>30</NumCityCostMod>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<TradeRouteRecipientBonus>4</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>2</TradeRouteTargetBonus>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>EXPANSION2_WONDER_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+
+        <!-- Цех -->
+        <Row>
+			<Type>BUILDING_IRONWORKS</Type>
+			<BuildingClass>BUILDINGCLASS_IRONWORKS</BuildingClass>
+			<Cost>180</Cost>
+			<PrereqTech>TECH_GUILDS</PrereqTech>
+			<Help>TXT_KEY_BUILDING_IRONWORKS_HELP</Help>
+			<Description>TXT_KEY_BUILDING_IRONWORKS</Description>
+			<Civilopedia>TXT_KEY_BUILDING_IRONWORKS_PEDIA</Civilopedia>
+			<ArtDefineTag>ART_DEF_BUILDING_IRONWORKS</ArtDefineTag>
+			<NukeImmune>true</NukeImmune>
+			<NumCityCostMod>30</NumCityCostMod>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+            <IconAtlas>Building_IconAtlas</IconAtlas>
+            <PortraitIndex>33</PortraitIndex>
+		</Row>
+
+        <!-- Мачу-Пикчу -->
+        <Row>
+			<Type>BUILDING_MACHU_PICHU</Type>
+			<BuildingClass>BUILDINGCLASS_MACHU_PICHU</BuildingClass>
+			<Cost>300</Cost>
+			<PrereqTech>TECH_GUILDS</PrereqTech>
+			<Help>TXT_KEY_WONDER_MACHU_PICHU_HELP</Help>
+			<Description>TXT_KEY_BUILDING_MACHU_PICHU</Description>
+			<Civilopedia>TXT_KEY_WONDER_MACHUPICCHU_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_MACHUPICCHU_QUOTE</Quote>
+			<ArtDefineTag>MACHU PICCHU</ArtDefineTag>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<NearbyMountainRequired>true</NearbyMountainRequired>
+			<CityConnectionTradeRouteModifier>25</CityConnectionTradeRouteModifier>
+			<DisplayPosition>64</DisplayPosition>
+			<IconAtlas>BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>11</PortraitIndex>
+			<WonderSplashImage>WonderConceptMachuPicchu.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,T</WonderSplashAnchor>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_MACHU_PICCHU</WonderSplashAudio>
+		</Row>
+
+        <!-- ########### -->
+        <!-- Образование -->
+        <!-- ########### -->
+
+        <!-- Оксфордский университет -->
+        <Row>
+			<Type>BUILDING_OXFORD_UNIVERSITY</Type>
+			<BuildingClass>BUILDINGCLASS_OXFORD_UNIVERSITY</BuildingClass>
+			<Cost>180</Cost>
+			<PrereqTech>TECH_EDUCATION</PrereqTech>
+			<Help>TXT_KEY_BUILDING_OXFORD_UNIVERSITY_HELP</Help>
+			<ThemingBonusHelp>TXT_KEY_OXFORD_UNIVERSITY_THEMING_BONUS_HELP</ThemingBonusHelp>
+			<Description>TXT_KEY_BUILDING_OXFORD_UNIVERSITY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_OXFORD_UNIVERSITY_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_OXFORD_UNIVERSITY_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_OXFORD_UNIVERSITY</ArtDefineTag>
+			<NukeImmune>true</NukeImmune>
+			<NumCityCostMod>30</NumCityCostMod>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_LITERATURE</GreatWorkSlotType>
+			<GreatWorkCount>2</GreatWorkCount>
+			<FreeTechs>1</FreeTechs>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>44</PortraitIndex>
+		</Row>
+
+        <!-- Ангкор-ват -->
+        <Row>
+			<Type>BUILDING_ANGKOR_WAT</Type>
+			<BuildingClass>BUILDINGCLASS_ANGKOR_WAT</BuildingClass>
+			<Cost>400</Cost>
+			<PrereqTech>TECH_EDUCATION</PrereqTech>
+			<Help>TXT_KEY_WONDER_ANGKOR_WAT_HELP</Help>
+			<Description>TXT_KEY_BUILDING_ANGKOR_WAT</Description>
+			<Civilopedia>TXT_KEY_WONDER_ANGKORWAT_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_ANGKORWAT_QUOTE</Quote>
+			<ArtDefineTag>ANGKOR WAT</ArtDefineTag>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<GlobalPlotCultureCostModifier>-25</GlobalPlotCultureCostModifier>
+			<GlobalPlotBuyCostModifier>-25</GlobalPlotBuyCostModifier>
+			<DisplayPosition>2</DisplayPosition>
+			<IconAtlas>BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>9</PortraitIndex>
+			<WonderSplashImage>WonderConceptAngkorWat.dds</WonderSplashImage>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_ANGKOR_WAT</WonderSplashAudio>
+		</Row>
+
+        <!-- ######### -->
+        <!-- Рыцарство -->
+        <!-- ######### -->
+
+        <!-- Алегамбра -->
+        <Row>
+			<Type>BUILDING_ALHAMBRA</Type>
+			<BuildingClass>BUILDINGCLASS_ALHAMBRA</BuildingClass>
+			<Cost>400</Cost>
+			<PrereqTech>TECH_CHIVALRY</PrereqTech>
+			<Help>TXT_KEY_WONDER_ALHAMBRA_HELP</Help>
+			<Description>TXT_KEY_BUILDING_ALHAMBRA</Description>
+			<Civilopedia>TXT_KEY_WONDER_ALHAMBRA_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_ALHAMBRA_QUOTE</Quote>
+			<ArtDefineTag>ALHAMBRA</ArtDefineTag>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<FreeBuildingThisCity>BUILDINGCLASS_CASTLE</FreeBuildingThisCity>
+			<TrainedFreePromotion>PROMOTION_DRILL_1</TrainedFreePromotion>
+			<CultureRateModifier>20</CultureRateModifier>
+            <Defense>1000</Defense>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<DisplayPosition>2</DisplayPosition>
+			<IconAtlas>EXPANSION_BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashImage>WonderConceptAlahambra.dds</WonderSplashImage>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_ALHAMBRA</WonderSplashAudio>
+		</Row>
+
+        <!-- ###### -->
+        <!-- Физика -->
+        <!-- ###### -->
+
+        <Row>
+			<Type>BUILDING_NATIONAL_PARK</Type>
+			<BuildingClass>BUILDINGCLASS_NATIONAL_PARK</BuildingClass>
+			<Cost>180</Cost>
+			<PrereqTech>TECH_PHYSICS</PrereqTech>
+			<Help>TXT_KEY_BUILDING_NATIONAL_PARK_HELP</Help>
+			<Description>TXT_KEY_BUILDING_NATIONAL_PARK</Description>
+			<Civilopedia>TXT_KEY_BUILDING_NATIONAL_PARK_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_NATIONAL_PARK_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_PARK</ArtDefineTag>
+			<FoodKept>10</FoodKept>
+			<NukeImmune>true</NukeImmune>
+			<NumCityCostMod>30</NumCityCostMod>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>NEW_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+
+        <!-- Нотр-дам -->
+        <Row>
+			<Type>BUILDING_NOTRE_DAME</Type>
+			<BuildingClass>BUILDINGCLASS_NOTRE_DAME</BuildingClass>
+			<Cost>400</Cost>
+			<PrereqTech>TECH_PHYSICS</PrereqTech>
+			<Description>TXT_KEY_BUILDING_NOTRE_DAME</Description>
+			<Civilopedia>TXT_KEY_WONDER_NOTREDAME_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_NOTREDAME_QUOTE</Quote>
+			<ArtDefineTag>NOTRE DAME</ArtDefineTag>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<UnmoddedHappiness>10</UnmoddedHappiness>
+			<DisplayPosition>1</DisplayPosition>
+			<IconAtlas>BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>10</PortraitIndex>
+			<WonderSplashImage>WonderConceptNotreDame.dds</WonderSplashImage>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_NOTRE_DAME</WonderSplashAudio>
+		</Row>
+
+    </Buildings>
+
+    <!-- Производит -->
+    <Building_YieldChanges>
+
+        <Row>
+			<BuildingType>BUILDING_GRAND_TEMPLE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>10</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_HAGIA_SOPHIA</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>10</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>20</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_MOSQUE_OF_DJENNE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MOSQUE_OF_DJENNE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>15</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_TREASURY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_IRONWORKS</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>10</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_MACHU_PICHU</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_MACHU_PICHU</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_MACHU_PICHU</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>5</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_ANGKOR_WAT</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ANGKOR_WAT</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>10</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_ALHAMBRA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_NOTRE_DAME</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>10</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_OXFORD_UNIVERSITY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_OXFORD_UNIVERSITY</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_PARK</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+    </Building_YieldChanges>
+
+    <!-- Увеличивает в процентах -->
+    <Building_YieldModifiers>
+
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_TREASURY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_IRONWORKS</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>10</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_PARK</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+
+    </Building_YieldModifiers>
+
+    <!-- Улучшает другое здание -->
+    <Building_BuildingClassYieldChanges>
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_TREASURY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_IRONWORKS</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+    </Building_BuildingClassYieldChanges>
+
+    <!-- Улучшает клетку с данной почвой -->
+    <Building_TerrainYieldChanges>
+
+    </Building_TerrainYieldChanges>
+
+    <!-- Улучшает клетки с ресурсами -->
+    <Building_ResourceYieldChanges>
+
+    </Building_ResourceYieldChanges>
+
+    <!-- Может быть построенно только с этим ресурсом -->
+    <Building_LocalResourceOrs>
+
+    </Building_LocalResourceOrs>
+
+    <!-- Улучшает клетки с растительностью -->
+    <Building_FeatureYieldChanges>
+
+    </Building_FeatureYieldChanges>
+
+    <!-- Улучшает после Археологии -->
+    <Building_TechEnhancedYieldChanges>
+
+    </Building_TechEnhancedYieldChanges>
+
+
+    <!-- Клетки с океаном -->
+    <Building_SeaPlotYieldChanges>
+
+    </Building_SeaPlotYieldChanges>
+
+    <!-- Морские клетки с ресурсами -->
+    <Building_SeaResourceYieldChanges>
+
+    </Building_SeaResourceYieldChanges>
+
+    <!-- Общие модификаторы -->
+    <Building_GlobalYieldModifiers>
+
+	</Building_GlobalYieldModifiers>
+
+    <!-- Производит от каждого жителя города в процентах -->
+    <Building_YieldChangesPerPop>
+
+    </Building_YieldChangesPerPop>
+
+    <!-- Увеличивает скорость постройки юнитов -->
+    <Building_UnitCombatProductionModifiers>
+
+	</Building_UnitCombatProductionModifiers>
+
+    <!-- Хлявные юниты -->
+    <Building_FreeUnits>
+
+        <Row>
+			<BuildingType>BUILDING_HAGIA_SOPHIA</BuildingType>
+			<UnitType>UNIT_PROPHET</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
+			<UnitType>UNIT_MISSIONARY</UnitType>
+			<NumUnits>3</NumUnits>
+		</Row>
+
+        <Row>
+			<BuildingType>BUILDING_MOSQUE_OF_DJENNE</BuildingType>
+			<UnitType>UNIT_INQUISITOR</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+
+    </Building_FreeUnits>
+
+    <!-- Опыт юнитам -->
+    <Building_DomainFreeExperiences>
+
+    </Building_DomainFreeExperiences>
+
+    <!-- Ячейки шедевров -->
+    <Building_ThemingBonuses>
+        <Row>
+			<BuildingType>BUILDING_OXFORD_UNIVERSITY</BuildingType>
+			<Description>TXT_KEY_THEMING_BONUS_OXFORD_UNIVERSITY</Description>
+			<Bonus>2</Bonus>
+			<UniqueEras>true</UniqueEras>
+			<RequiresAnyButOwner>true</RequiresAnyButOwner>
+			<AIPriority>1</AIPriority>
+		</Row>
+    </Building_ThemingBonuses>
+
+    <!-- Для постройки нужно здание -->
+    <Building_ClassesNeededInCity>
+
+        <Row>
+			<BuildingType>BUILDING_GRAND_TEMPLE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_TREASURY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_OXFORD_UNIVERSITY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_IRONWORKS</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_PARK</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_AQUEDUCT</BuildingClassType>
+		</Row>
+
+    </Building_ClassesNeededInCity>
+
+    <!-- Сколько зданий нужно для постройки -->
+    <Building_PrereqBuildingClasses>
+
+        <Row>
+			<BuildingType>BUILDING_GRAND_TEMPLE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<NumBuildingNeeded>2</NumBuildingNeeded>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_TREASURY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
+			<NumBuildingNeeded>2</NumBuildingNeeded>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_IRONWORKS</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+			<NumBuildingNeeded>2</NumBuildingNeeded>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_OXFORD_UNIVERSITY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+			<NumBuildingNeeded>4</NumBuildingNeeded>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_PARK</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_AQUEDUCT</BuildingClassType>
+			<NumBuildingNeeded>2</NumBuildingNeeded>
+		</Row>
+
+    </Building_PrereqBuildingClasses>
+
+
+    <!-- Для ботов похоже... -->
+    <Building_Flavors>
+
+
+        <Row>
+			<BuildingType>BUILDING_GRAND_TEMPLE</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GRAND_TEMPLE</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+
+        <Row>
+			<BuildingType>BUILDING_HAGIA_SOPHIA</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HAGIA_SOPHIA</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HAGIA_SOPHIA</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+
+        <Row>
+			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>75</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+
+
+        <Row>
+			<BuildingType>BUILDING_MOSQUE_OF_DJENNE</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MOSQUE_OF_DJENNE</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MOSQUE_OF_DJENNE</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+        <Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_ARTISTS_GUILD</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_TREASURY</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_TREASURY</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_TREASURY</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_DESTINATION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_TREASURY</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_MACHU_PICHU</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MACHU_PICHU</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MACHU_PICHU</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MACHU_PICHU</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_ANGKOR_WAT</BuildingType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ANGKOR_WAT</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ANGKOR_WAT</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ANGKOR_WAT</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_ALHAMBRA</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ALHAMBRA</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ALHAMBRA</BuildingType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+        <Row>
+            <BuildingType>BUILDING_ALHAMBRA</BuildingType>
+            <FlavorType>FLAVOR_RELIGION</FlavorType>
+            <Flavor>15</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_ALHAMBRA</BuildingType>
+            <FlavorType>FLAVOR_WONDER</FlavorType>
+            <Flavor>10</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_ALHAMBRA</BuildingType>
+            <FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+            <Flavor>10</Flavor>
+        </Row>
+        <Row>
+			<BuildingType>BUILDING_NOTRE_DAME</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NOTRE_DAME</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NOTRE_DAME</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NOTRE_DAME</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_OXFORD_UNIVERSITY</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OXFORD_UNIVERSITY</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_IRONWORKS</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IRONWORKS</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_NATIONAL_PARK</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_PARK</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+    </Building_Flavors>
+
+
+
+
+
+</GameData>

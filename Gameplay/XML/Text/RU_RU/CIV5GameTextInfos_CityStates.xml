@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_CITYSTATE_ALMATY">
+      <Text>Алма-Ата|Алма-Аты|Алма-Ате|Алма-Ату|Алма-Атой|Алма-Ате</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_ALMATY_ADJ">
+      <Text>Алма-атинск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_BELGRADE">
+      <Text>Белград|Белграда|Белграду|Белград|Белградом|Белграде</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_BELGRADE_ADJ">
+      <Text>Белградск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_BRUSSELS">
+      <Text>Брюссель|Брюсселя|Брюсселю|Брюссель|Брюсселем|Брюсселе</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_BRUSSELS_ADJ">
+      <Text>Брюссельск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_BUCHAREST">
+      <Text>Бухарест|Бухареста|Бухаресту|Бухарест|Бухарестом|Бухаресте</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_BUCHAREST_ADJ">
+      <Text>Бухарестск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_BUDAPEST">
+      <Text>Будапешт|Будапешта|Будапешту|Будапешт|Будапештом|Будапеште</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_BUDAPEST_ADJ">
+      <Text>Будапештск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_CAPE_TOWN">
+      <Text>Кейптаун|Кейптауна|Кейптауну|Кейптаун|Кейптауном|Кейптауне</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_CAPE_TOWN_ADJ">
+      <Text>Кейптаунск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_COPENHAGEN">
+      <Text>Копенгаген|Копенгагена|Копенгагену|Копенгаген|Копенгагеном|Копенгагене</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_COPENHAGEN_ADJ">
+      <Text>Копенгагенск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_DUBLIN">
+      <Text>Дублин|Дублина|Дублину|Дублин|Дублином|Дублине</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_DUBLIN_ADJ">
+      <Text>Дублинск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_EDINBURGH">
+      <Text>Эдинбург|Эдинбурга|Эдинбургу|Эдинбург|Эдинбургом|Эдинбурге</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_EDINBURGH_ADJ">
+      <Text>Эдинбургск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_FLORENCE">
+      <Text>Флоренция|Флоренции|Флоренции|Флоренцию|Флоренцией|Флоренции</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_FLORENCE_ADJ">
+      <Text>Флорентийск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_GENEVA">
+      <Text>Женева|Женевы|Женеве|Женеву|Женевой|Женеве</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_GENEVA_ADJ">
+      <Text>Женевск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_GENOA">
+      <Text>Генуя|Генуи|Генуе|Геную|Генуей|Генуе</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_GENOA_ADJ">
+      <Text>Генуэзск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_HANOI">
+      <Text>Ханой|Ханоя|Ханою|Ханой|Ханоем|Ханое</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_HANOI_ADJ">
+      <Text>Ханойск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_HELSINKI">
+      <Text>Хельсинки|Хельсинки|Хельсинки|Хельсинки|Хельсинки|Хельсинки</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_HELSINKI_ADJ">
+      <Text>Хельсинкск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_KUALA_LUMPUR">
+      <Text>Куала-Лумпур|Куала-Лумпура|Куала-Лумпуру|Куала-Лумпур|Куала-Лумпуром|Куала-Лумпуре</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_KUALA_LUMPUR_ADJ">
+      <Text>Куала-Лумпурск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_LHASA">
+      <Text>Лхаса|Лхасы|Лхасе|Лхасу|Лхасой|Лхасе</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_LHASA_ADJ">
+      <Text>Лхасск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_MONACO">
+      <Text>Монако|Монако|Монако|Монако|Монако|Монако</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_MONACO_ADJ">
+      <Text>Монакск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_OSLO">
+      <Text>Осло|Осло|Осло|Осло|Осло|Осло</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_OSLO_ADJ">
+      <Text>Ословск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_RAGUSA">
+      <Text>Рагуза|Рагузы|Рагузе|Рагузу|Рагузой|Рагузе</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_RAGUSA_ADJ">
+      <Text>Рагузск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_RIO_DE_JANEIRO">
+      <Text>Рио-де-Жанейро|Рио-де-Жанейро|Рио-де-Жанейро|Рио-де-Жанейро|Рио-де-Жанейро|Рио-де-Жанейро</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_RIO_DE_JANEIRO_ADJ">
+      <Text>Рио-де-Жанейровск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_SEOUL">
+      <Text>Сеул|Сеула|Сеулу|Сеул|Сеулом|Сеуле</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_SEOUL_ADJ">
+      <Text>Сеульск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_SIDON">
+      <Text>Сидон|Сидона|Сидону|Сидон|Сидоном|Сидоне</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_SIDON_ADJ">
+      <Text>Сидонск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_SINGAPORE">
+      <Text>Сингапур|Сингапура|Сингапуру|Сингапур|Сингапуром|Сингапуре</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_SINGAPORE_ADJ">
+      <Text>Сингапурск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_STOCKHOLM">
+      <Text>Стокгольм|Стокгольма|Стокгольму|Стокгольм|Стокгольмом|Стокгольме</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_STOCKHOLM_ADJ">
+      <Text>Стокгольмск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_TYRE">
+      <Text>Тир|Тира|Тиру|Тир|Тиром|Тире</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_TYRE_ADJ">
+      <Text>Тирск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_VENICE">
+      <Text>Венеция|Венеции|Венеции|Венецию|Венецией|Венеции</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_VENICE_ADJ">
+      <Text>Венецианск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_VIENNA">
+      <Text>Вена|Вены|Вене|Вену|Веной|Вене</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_VIENNA_ADJ">
+      <Text>Венск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_WARSAW">
+      <Text>Варшава|Варшавы|Варшаве|Варшаву|Варшавой|Варшаве</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_WARSAW_ADJ">
+      <Text>Варшавск.</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

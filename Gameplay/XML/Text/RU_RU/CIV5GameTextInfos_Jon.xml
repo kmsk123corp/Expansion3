@@ -1,0 +1,3328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+
+
+
+
+    <Row Tag="TXT_KEY_ACTION_AUTOMATE_BUILD_HELP">
+      <Text>Автоматизировать все действия [COLOR_UNIT_TEXT]рабочих[ENDCOLOR]. Они будут продолжать работать, пока вы не отмените задачу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ACTION_AUTOMATE_EXPLORE_DISABLED_HELP">
+      <Text>Нет земель, которые вы сейчас можете разведать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ACTION_AUTOMATE_EXPLORE_HELP">
+      <Text>Получив эту команду, отряд начинает разведывать неизвестные территории. Он будет двигаться, пока на карте не останется неисследованных областей.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ALLIES">
+      <Text>Союзнический</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ALLIES_CSTATE_TT">
+      <Text>Вы находитесь в [COLOR_POSITIVE_TEXT]союзных[ENDCOLOR] отношениях с{@1: gender masculine? ; feminine? ; neuter? ; other? городом-государством ;}{@1_CityStateName[5]}. Каждый ход ваше [ICON_INFLUENCE] влияние на него изменяется на {2_Num}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ANARCHY">
+      <Text>АНАРХИЯ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ANARCHY_FOLLOW">
+      <Text>Возможно, вам следует дать вашим жителям немного успокоиться, прежде чем менять общественные институты еще раз.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ANGRY">
+      <Text>Негативный</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ANGRY_CSTATE_TT">
+      <Text>Своими действиями вы рассердили жителей{@1: gender masculine? ; feminine? ; neuter? ; other? города-государства ;}{@1_CityStateName[2]}. Вероятно, вы пересекли их границы или начали войну.[NEWLINE][NEWLINE]Ваше [ICON_INFLUENCE] влияние на них восстанавливается по {2_Num} за ход. Для ускорения процесса можно подарить им [ICON_GOLD] золото.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BARB_CAMP_CLEARED">
+      <Text>Вы разорили лагерь злобных варваров и нашли в нем {1_NumGold} [ICON_GOLD] золота!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_ACADEMY">
+      <Text>Построить академию</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_CAMP">
+      <Text>Построить [LINK=IMPROVEMENT_CAMP]лагерь[\LINK]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_CITADEL">
+      <Text>Построить крепость</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_CITADEL_HELP">
+      <Text>Любой юнит на этой клетке получает +100% [ICON_STRENGTH] к обороне. Любому вражескому юниту, остановившемуся в конце хода возле крепости, будет нанесено 3 единицы повреждений. После сооружения крепости этот юнит исчезнет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_CONSUMED_HELP">
+      <Text>Юнит исчезнет в процессе работ.[NEWLINE][NEWLINE]Если клетка улучшена великим человеком, ее стратегические ресурсы войдут в вашу торговую сеть.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_CUSTOMS_HOUSE">
+      <Text>Построить таможню</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_FARM">
+      <Text>Построить [LINK=IMPROVEMENT_FARM]ферму[\LINK]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_FISHING_BOATS">
+      <Text>Построить [LINK=IMPROVEMENT_FISHING_BOATS]рыбацк. лодку[\LINK]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_FISHING_BOATS_REC">
+      <Text>Это включит морской ресурс с этой клетки в нашу торговую сеть и улучшит ее производительность, если этим будет заниматься соседний город.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_FOOD_REC">
+      <Text>Это увеличит поступление [ICON_FOOD] пищи с этой клетки, благодаря чему будут быстрее появляться новые [ICON_CITIZEN] жители.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_FORT">
+      <Text>Построить [LINK=IMPROVEMENT_FORT]форт[\LINK]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_FORT_HELP">
+      <Text>+50% [ICON_STRENGTH] к обороне любого юнита, размещенного на этой клетке.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_FORT_REC">
+      <Text>Это улучшит [ICON_STRENGTH] обороноспособность любых войск, расположенных на этой клетке.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_GOLD_REC">
+      <Text>Это увеличит поступление [ICON_GOLD] золота с этой клетки, и мы сможем больше потратить!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_LANDMARK">
+      <Text>Построить памятник</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_LANDMARK_HELP">
+      <Text>Юнит исчезнет в процессе работ.[NEWLINE][NEWLINE]+6 [ICON_CULTURE] к культуре.[NEWLINE][NEWLINE]Если клетка улучшена великим человеком, ее стратегические ресурсы войдут в вашу торговую сеть.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_LUMBERMILL">
+      <Text>Построить [LINK=IMPROVEMENT_LUMBERMILL]лесопилку[\LINK]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_LUMBERMILL_REC">
+      <Text>Это увеличит [ICON_PRODUCTION] производство на этой клетке и сохранит лес.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_MANUFACTORY">
+      <Text>Создать завод. комплекс</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_MINE">
+      <Text>Построить [LINK=IMPROVEMENT_MINE]рудник[\LINK]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_OFFSHORE_PLATFORM">
+      <Text>Создать [LINK=IMPROVEMENT_OFFSHORE_PLATFORM]нефт. платформу[\LINK]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_OFFSHORE_PLATFORM_REC">
+      <Text>[ICON_RES_OIL] Нефть с этой клетки начнет поступать в нашу торговую сеть, и мы сможем построить более современные юниты!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_PASTURE">
+      <Text>Построить [LINK=IMPROVEMENT_PASTURE]выгон[\LINK]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_PLANTATION">
+      <Text>Построить [LINK=IMPROVEMENT_PLANTATION]плантацию[\LINK]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_PROD_REC">
+      <Text>Это увеличит [ICON_PRODUCTION] производство на этой клетке и увеличит скорость строительства в расположенном по соседству городе.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_QUARRY">
+      <Text>Построить [LINK=IMPROVEMENT_QUARRY]каменоломню[\LINK]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_QUARRY_REC">
+      <Text>[ICON_RES_OIL]Мрамор с этой клетки будет доступен для торговли, и настроение всей империи [ICON_HAPPINESS_1] улучшится!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_RAILROAD">
+      <Text>Построить [LINK=CONCEPT_MOVEMENT]жел. дорогу[\LINK]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_RAILROAD_HELP">
+      <Text>[COLOR_NEGATIVE_TEXT]Расходы на содержание[ENDCOLOR]: 2 [ICON_GOLD] золота за ход.[NEWLINE][NEWLINE]Непрерывная сеть железных дорог позволяет юнитам чрезвычайно быстро перемещаться между клетками.[NEWLINE][NEWLINE]Если железными дорогами соединить города со столицей, то это даст 25% бонус [ICON_PRODUCTION] к производству.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_RAILROAD_REC">
+      <Text>Это позволит юнитам гораздо быстрее перемещаться по местности, а сообщение со [ICON_CAPITAL] столицей увеличит их [ICON_PRODUCTION] производительность!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_REMOVE_FEATURE_HELP">
+      <Text>Позволяет соорудить на этой клетке другое улучшение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_REMOVE_FOREST">
+      <Text>Вырубить [LINK=FEATURE_FOREST]лес[\LINK]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_REMOVE_JUNGLE">
+      <Text>Расчистить [LINK=FEATURE_JUNGLE]джунгли[\LINK]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_REMOVE_MARSH">
+      <Text>Осушить [LINK=FEATURE_FOREST]болото[\LINK]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_ROAD">
+      <Text>Построить [LINK=CONCEPT_MOVEMENT]дорогу[\LINK]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_ROAD_HELP">
+      <Text>[COLOR_NEGATIVE_TEXT]Расходы на содержание[ENDCOLOR]: 1 [ICON_GOLD] золота за ход.[NEWLINE][NEWLINE]Непрерывная сеть дорог позволяет юнитам быстрее перемещаться по карте.[NEWLINE][NEWLINE]Если дорогами соединить города со столицей, то это даст дополнительный приток [ICON_GOLD] золота за ход.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_ROAD_REC">
+      <Text>Это позволит юнитам быстрее перемещаться по земле, а сообщение со [ICON_CAPITAL] столицей даст дополнительный приток [ICON_GOLD] золота!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_SCRUB_FALLOUT">
+      <Text>Расчистить [LINK=FEATURE_FALLOUT]радиоактивную зону[\LINK]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_SCRUB_FALLOUT_HELP">
+      <Text>Удалить ядерные отходы с этой клетки.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_TRADING_POST">
+      <Text>Построить [LINK=IMPROVEMENT_TRADING_POST]торг. пост[\LINK]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_WELL">
+      <Text>Построить [LINK=IMPROVEMENT_WELL]буровую вышку[\LINK]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_WELL_REC">
+      <Text>[ICON_RES_OIL] Нефть с этой клетки попадет в нашу торговую сеть, и мы сможем построить более современные юниты!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_AQUEDUCT_HELP">
+      <Text>Сберегает 40% [ICON_FOOD] пищи при появлении нового [ICON_CITIZEN] горожанина.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_ARMORY_HELP">
+      <Text>Дает +15 ОО всем юнитам.[NEWLINE][NEWLINE]В городе должны быть казармы или острог.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_ARSENAL_HELP">
+      <Text>В городе должен быть замок или красный форт.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_BANK_HELP">
+      <Text>В городе должен быть рынок.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_BARRACKS_HELP">
+      <Text>Дают +15 ОО всем юнитам.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_BAZAAR_HELP">
+      <Text>Дает одну дополнительную копию каждого улучшенного редкого ресурса, расположенного рядом с городом. Каждая обрабатываемая городом клетка с [ICON_RES_OIL] нефтью и каждый оазис дают +2 [ICON_GOLD] к золоту.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_BROADCAST_TOWER_HELP">
+      <Text>Увеличивает на 33% прирост [ICON_CULTURE] культуры за ход в городе. [NEWLINE][NEWLINE]В городе должен быть музей.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_BURIAL_TOMB_HELP">
+      <Text>Не требует [ICON_GOLD] золота на содержание.[NEWLINE][NEWLINE]Если город будет захвачен, то количество полученного врагами [ICON_GOLD] золота будет удвоено.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_CASTLE_HELP">
+      <Text>В городе должны быть стены.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_CIRCUS_HELP">
+      <Text>Рядом с городом должен быть источник [ICON_RES_HORSE] лошадей или [ICON_RES_IVORY] слоновой кости.</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_BUILDING_COURTHOUSE_HELP">
+      <Text>Устраняет [ICON_HAPPINESS_4] недовольство в [ICON_OCCUPIED] оккупированном городе.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_FACTORY_HELP">
+      <Text>Требуется одна [ICON_RES_COAL] единица угля.</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_BUILDING_FORGE_HELP">
+      <Text>Дает +15% [ICON_PRODUCTION] к производству при создании сухопутных юнитов.[NEWLINE][NEWLINE]Каждая обрабатываемая городом клетка с [ICON_RES_IRON] железом дает +1 [ICON_PRODUCTION] к производству.[NEWLINE][NEWLINE]Рядом с городом должен быть источник железа с улучшением в виде рудника.</Text>
+    </Row>
+
+
+
+    <Row Tag="TXT_KEY_BUILDING_HERMITAGE_HELP">
+      <Text>Увеличивает на 50% прирост [ICON_CULTURE] культуры за ход в городе. [NEWLINE][NEWLINE]Нужны оперы во всех городах. Чем больше в империи городов, тем дороже строительство.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_HEROIC_EPIC_HELP">
+      <Text>Все новые подразделения, произведенные в этом городе (за исключением воздушных), получают [COLOR_POSITIVE_TEXT]повышение морали[ENDCOLOR], а их [ICON_STRENGTH] боевая мощь увеличивается на 15%.[NEWLINE][NEWLINE]Нужны казармы во всех городах. Чем больше в империи городов, тем дороже строительство.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_HYDRO_PLANT_HELP">
+      <Text>Дает +1 [ICON_PRODUCTION] к производству на каждой клетке рядом с рекой. Требуется одна [ICON_RES_ALUMINUM] единица алюминия.[NEWLINE][NEWLINE]Город должен располагаться рядом с рекой.</Text>
+    </Row>
+    
+    <Row Tag="TXT_KEY_BUILDING_KREPOST_HELP">
+      <Text>Дает +15 ОО всем юнитам. Снижает на 25% затраты [ICON_CULTURE] культуры и [ICON_GOLD] золота при приобретении новых клеток для города.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_LABORATORY_HELP">
+      <Text>В городе должна быть построена школа.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_LIBRARY_HELP">
+      <Text>Дает +1 [ICON_RESEARCH] к науке на каждых двух [ICON_CITIZEN] жителей города.</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_BUILDING_LONGHOUSE_HELP">
+      <Text>Дает +1 [ICON_PRODUCTION] к производству на каждой обрабатываемой клетке с лесом.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MAINTENANCE_TT">
+      <Text>{1_Num} [ICON_GOLD] золота за ход тратится в этом городе на содержание зданий.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MEDICAL_LAB_HELP">
+      <Text>Сберегает 25% [ICON_FOOD] пищи, потраченной на появление нового [ICON_CITIZEN] горожанина (данный эффект складывается с эффектом акведука).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MILITARY_ACADEMY_HELP">
+      <Text>Дает +15 ОО всем юнитам.[NEWLINE][NEWLINE]В городе должна быть оружейная.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MILITARY_BASE_HELP">
+      <Text>В городе должен быть арсенал.</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_BUILDING_MONASTERY_HELP">
+      <Text>Дает +2 [ICON_CULTURE] к культуре за ход от соседних источников [ICON_RES_INCENSE] благовоний и +2 от источников [ICON_RES_WINE] вина.[NEWLINE][NEWLINE]Город должен иметь поблизости хотя бы один такой источник.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MUD_PYRAMID_MOSQUE_HELP">
+      <Text>Не требует [ICON_GOLD] золота на содержание.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MUGHAL_FORT_HELP">
+      <Text>Дает [ICON_GOLD] золото после изобретения авиации.[NEWLINE][NEWLINE]В городе должны быть стены.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_NATIONAL_COLLEGE_HELP">
+      <Text>Нужны библиотеки во всех городах. Чем больше в империи городов, тем дороже строительства.</Text>
+    </Row>
+
+
+    <Row Tag="TXT_KEY_BUILDING_NUCLEAR_PLANT_HELP">
+      <Text>Требуется одна [ICON_RES_URANIUM] единица урана. В городе не должно быть солнечной ЭС.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_OBSERVATORY_HELP">
+      <Text>Город должен находиться рядом с горой.</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_BUILDING_PALACE_HELP">
+      <Text>Свидетельствует о том, что это [ICON_CAPITAL] столица империи.[NEWLINE][NEWLINE]Если [ICON_CAPITAL] столица связана с другими городами [ICON_CONNECTED] дорогой, то в казну поступает дополнительное [ICON_GOLD] золото.[NEWLINE][NEWLINE]Дает +4 [ICON_STRENGTH] к обороне.[NEWLINE][NEWLINE]Дает +3 [ICON_PRODUCTION] к производству, +3 [ICON_RESEARCH] к науке, +3 [ICON_GOLD] к золоту.</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_BUILDING_PUBLIC_SCHOOL_HELP">
+      <Text>Дает +1 [ICON_RESEARCH] к науке на каждого второго [ICON_CITIZEN] жителя города.[NEWLINE][NEWLINE]В городе должен быть университет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_SATRAPS_COURT_HELP">
+      <Text>В городе должен быть рынок.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_SEAPORT_HELP">
+      <Text>Дает +1 [ICON_PRODUCTION] к производству и [ICON_GOLD] к золоту на морских клетках с ресурсами в радиусе города. Дает +15% [ICON_PRODUCTION] к производству при строительстве кораблей. [NEWLINE][NEWLINE]Город должен располагаться на побережье.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_SOLAR_PLANT_HELP">
+      <Text>Город должен быть построен в пустыне или рядом с пустыней. В городе не должно быть АЭС.[NEWLINE][NEWLINE]В городе должна быть фабрика.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_SPACESHIP_FACTORY_HELP">
+      <Text>Дает +50% [ICON_PRODUCTION] к производству при строительстве деталей космического корабля. Требуется одна [ICON_RES_ALUMINUM] единица алюминия.[NEWLINE][NEWLINE]В городе должна быть фабрика.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_STABLE_HELP">
+      <Text>Дает +15% [ICON_PRODUCTION] к производству при создании кавалерийских подразделений.[NEWLINE][NEWLINE]Каждая обрабатываемая городом клетка с [ICON_RES_HORSE] лошадьми, [ICON_RES_SHEEP] овцами или [ICON_RES_COW] скотом дает +1 [ICON_PRODUCTION] к производству.[NEWLINE][NEWLINE]Город должен иметь поблизости хотя бы одно пастбище с этим ресурсом.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_STADIUM_HELP">
+      <Text>В городе должен быть театр.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_STOCK_EXCHANGE_HELP">
+      <Text>В городе должен быть банк.</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_BUILDING_THEATRE_HELP">
+      <Text>Не может увеличить настроение на величину, превышающую число [ICON_CITIZEN] горожан в городе. В городе должна быть арена.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_UNIVERSITY_HELP">
+      <Text>Дает +2 [ICON_RESEARCH] к науке на клетках с джунглями, которые обрабатывает город.[NEWLINE][NEWLINE]В городе должна быть библиотека.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_WAT_HELP">
+      <Text>Дает +2 [ICON_RESEARCH] к науке на клетках с джунглями, которые обрабатывает город.[NEWLINE][NEWLINE]В городе должна быть библиотека.</Text>
+    </Row>
+
+
+    <Row Tag="TXT_KEY_CITY_STATE_ALLY_TT">
+      <Text>Становясь союзником города-государства, вы начинаете получать от него дополнительные бонусы, которые зависят от типа города. Кроме того, ваша цивилизация получает все редкие и стратегические ресурсы, к которым имеет доступ этот город-государство.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_CULTURED_TT">
+      <Text>Дружественный [COLOR_POSITIVE_TEXT]культурный[ENDCOLOR] город-государство предоставляет вам дары [ICON_CULTURE] культуры, благодаря которым вы быстрее получите общественные институты.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_DIPLO_HELLO_PEACE_FRIENDLY">
+      <Text>Приветствую, великий правитель! Что привело вас к нам?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_DIPLO_HELLO_PEACE_HOSTILE">
+      <Text>Вам что-то нужно?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_DIPLO_HELLO_PEACE_IRRATIONAL">
+      <Text>А, это снова вы... превосходно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_DIPLO_HELLO_PEACE_NEUTRAL">
+      <Text>И снова здравствуйте! Что желаете обсудить?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_DIPLO_HELLO_WAR">
+      <Text>Вы пришли, чтобы положить конец этой кровавой распре?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_DIPLO_HELLO_WARMONGER">
+      <Text>Мы не ведем дела с кровожадными тиранами вроде вас. Пойдите прочь!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_DIPLO_PEACE_JUST_MADE">
+      <Text>Мы рады заключению мира.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_GIFT_FIRST">
+      <Text>Вы - первая великая цивилизация, с которой они встретились, и потому они преподносят вам в дар [COLOR_POSITIVE_TEXT]{1_NumGold} [ICON_GOLD] золота[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_GIFT_OTHER">
+      <Text>Вам преподносят дар в размере [COLOR_POSITIVE_TEXT]{1_NumGold} [ICON_GOLD] золота[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_GREETING_CULTURED">
+      <Text>Мы [COLOR_POSITIVE_TEXT]культурный[ENDCOLOR] народ, и мы поможем вам развивать вашу [ICON_CULTURE] [COLOR_POSITIVE_TEXT]культуру[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_GREETING_FRIENDLY">
+      <Text>Приветствуем вас, великий правитель! Мы представляем{@1: gender masculine? ; feminine? ; neuter? ; other? город-государство ;}{@1_CivName[4]}. Мы искренне желаем заключить длительный и прочный мир с вашей могущественной империей. {2_DetailsString} Мы надеемся, что вы окажете нам помощь, если таковая потребуется.[NEWLINE][NEWLINE]{3_GiftString}[NEWLINE][NEWLINE]{4_SpeakAgainString}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_GREETING_HOSTILE">
+      <Text>Стой, чужеземец! Мы жители {@1: plural 1?{@1: gender masculine?могущественного; feminine?могущественной; neuter?могущественного;}; 2?могущественных; other?могущественного города;} {@1_CivName[2]}. Не вздумайте шутить с нами! {2_DetailsString} Если только вы заслужите такой чести. Мы сами производим все необходимое, но надеемся, что вы поможете нам в случае нужды. [NEWLINE][NEWLINE]{3_GiftString}[NEWLINE][NEWLINE]{4_SpeakAgainString}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_GREETING_IRRATIONAL">
+      <Text>Ах... да... Пророчество{@1: gender masculine? ; feminine? ; neuter? ; other? города ;}{@1_CivName[2]} гласило о дне вашего появления. {2_DetailsString} Вместе наши державы совершат великие деяния, ибо такова воля звезд![NEWLINE][NEWLINE]{3_GiftString}[NEWLINE][NEWLINE]{4_SpeakAgainString}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_GREETING_MARITIME">
+      <Text>Мы искусные [COLOR_POSITIVE_TEXT]мореходы[ENDCOLOR], и мы поможем вашей цивилизации [ICON_FOOD] [COLOR_POSITIVE_TEXT]расти[ENDCOLOR] .</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_GREETING_MILITARISTIC">
+      <Text>Мы [COLOR_POSITIVE_TEXT]воинственный[ENDCOLOR] народ, и мы сможем усилить мощь ваших [COLOR_POSITIVE_TEXT]войск[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_GREETING_NEUTRAL">
+      <Text>Приветствуем! Мы жители{@1: gender masculine? ; feminine? ; neuter? ; other? города ;}{@1_CivName}. Обращайтесь с нами по чести, и мы сохраним мир. {2_DetailsString} Мы желаем установить крепкие дружественные отношения с соседями. Мы надеемся, что вы придете к нам на помощь в случае нужды, но и мы не бросим вас в беде. [NEWLINE][NEWLINE]{3_GiftString}[NEWLINE][NEWLINE]{4_SpeakAgainString}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_HAS_MESSAGE">
+      <Text>Из{@1: gender masculine? ; feminine? ; neuter? ; other? города ;}{@1_CivName[2]} пришло послание.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_MARITIME_TT">
+      <Text>Дружественный [COLOR_POSITIVE_TEXT]приморский[ENDCOLOR] город-государство увеличивает приток [ICON_FOOD] пищи в вашей [ICON_CAPITAL] столице, а союзнический - во всех городах.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_MEETING">
+      <Text>Вы встретили жителей{@1: gender masculine? ; feminine? ; neuter? ; other? города-государства ;}{@1_CivName[2]}.[NEWLINE][NEWLINE]{2_GiftString}[NEWLINE][NEWLINE]{3_SpeakAgainString}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_MET">
+      <Text>Вы нашли {@1_CivName[4]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_MILITARISTIC_TT">
+      <Text>Дружественный [COLOR_POSITIVE_TEXT]воинственный[ENDCOLOR] город-государство время от времени будет дарить вам войска. Его жители будут требовать от вас воинственных деяний: уничтожить лагерь варваров, захватить соседний город-государство и так далее.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_NOBODY">
+      <Text>Нет таких</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_PERSONALITY_FRIENDLY_TT">
+      <Text>[COLOR_POSITIVE_TEXT]Дружелюбный[ENDCOLOR] город-государство обычно дает миролюбивые задания, такие как строительство чуда или сооружение дороги.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_PERSONALITY_HOSTILE_TT">
+      <Text>Влияние [ICON_INFLUENCE] на [COLOR_POSITIVE_TEXT]враждебный[ENDCOLOR] город-государство уменьшается быстрее обычного. Его жители довольно часто будут просить захватить своих соседей.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_PERSONALITY_IRRATIONAL_TT">
+      <Text>По сравнению с другими городами [COLOR_POSITIVE_TEXT]непредсказуемый[ENDCOLOR] город-государство чаще выдвигает случайные требования.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_PERSONALITY_NEUTRAL_TT">
+      <Text>[COLOR_POSITIVE_TEXT]Нейтральные[ENDCOLOR] города-государства стараются по возможности заниматься собственными делами.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_PLEDGE_RESPONSE">
+      <Text>Мы ценим вашу верность. Будем надеяться, до этого дело не дойдет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_PLEDGE_RESPONSE_HOSTILE">
+      <Text>Если вам так хочется этого, мешать вам мы не станем. Но мы можем и сами о себе позаботиться.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_BARBARIANS">
+      <Text>К сожалению, на нас продолжают нападать варвары.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONNECT_RESOURCE">
+      <Text>Если вы найдете [COLOR_RED]{@1_ResourceName[4]}[ENDCOLOR] и включите его в вашу торговую сеть, то наши торговцы будут весьма довольны.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONNECT_RESOURCE_FORMAL">
+      <Text>От вас требуется найти [COLOR_RED]{@1_ResourceName[4]}[ENDCOLOR] и включить {@1: plural 1?{@1: gender masculine?его; feminine?ее; neuter?его;}; 2?их; other?его;} в торговую сеть.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONSTRUCT_WONDER">
+      <Text>Если вы сможете построить {@1_WonderName[4]}, то наши ученые будут преклоняться перед вашими достижениями.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONSTRUCT_WONDER_FORMAL">
+      <Text>От вас требуется построить {@1_WonderName[4]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_FIND_NATURAL_WONDER">
+      <Text>Мы желаем открыть побольше чудес природы в этом мире.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_FIND_NATURAL_WONDER_FORMAL">
+      <Text>От вас требуется обнаружить чудо природы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_FIND_PLAYER">
+      <Text>Мы ищем новые торговые пути к{@1: gender masculine? ; feminine? ; neuter? ; other? государству ;}{@1_CivName[3]}. Надеемся, вы нам поможете с этим.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_FIND_PLAYER_FORMAL">
+      <Text>От вас требуется найти земли{@1: gender masculine? ; feminine? ; neuter? ; other? государства ;}{@1_CivName[2]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_GREAT_PERSON">
+      <Text>Мы желаем прикоснуться к мудрости великих. {@1_UnitName} {@1: plural 1?поможет; 2?помогут; other?поможет;} нам в этом. Если вы приведете {@1: plural 1?{@1: gender masculine?его; feminine?ее; neuter?его;}; 2?их; other?его;} в наши земли, мы будем весьма признательны.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_GREAT_PERSON_FORMAL">
+      <Text>Им {@1: plural 1?{@1: gender masculine?нужен; feminine?нужна; neuter?нужно;}; other?нужны;} {@1_UnitName}. Создайте {@1: plural 1?{@1: gender masculine?его; feminine?ее; neuter?его;}; other?их;}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_KILL_CAMP">
+      <Text>Рядом с нами поставили лагерь варвары. Если бы с ними кто-нибудь разобрался...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_KILL_CAMP_FORMAL">
+      <Text>Они просят уничтожить лагерь варваров.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_KILL_CITY_STATE">
+      <Text>Нас беспокоят разногласия с{@1: gender masculine? ; feminine? ; neuter? ; other? городом-государством ;}{@1_CityStateName[5]}. Если бы вы, скажем... разобрались с его жителями, мы были бы весьма признательны.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_KILL_CITY_STATE_FORMAL">
+      <Text>Они хотят, чтобы вы уничтожили{@1: gender masculine? ; feminine? ; neuter? ; other? город-государство ;}{@1_CityStateName[4]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_ONE_MORE_THING">
+      <Text>И еще одно пожелание.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_ROUTE">
+      <Text>Ради развития обеих наших цивилизаций было бы неплохо проложить дорогу между нашими [ICON_CAPITAL] столицами.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_ROUTE_FORMAL">
+      <Text>Они просят соединить наши [ICON_CAPITAL] столицы дорогой.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_WAR_WITH_PLAYERS">
+      <Text>Мы просим вашей помощи в войне с полчищами{@1: gender masculine? ; feminine? ; neuter? ; other? государств(а) ;}{@1_PlayerNames[2]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_WAR_WITH_PLAYERS_FORMAL">
+      <Text>Они хотят, чтобы вы начали войну с{@1: gender masculine? ; feminine? ; neuter? ; other? государством(-ами);}:{@1_PlayerNames[5]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_RELATIONSHIP_ALLIES">
+      <Text>Вы союзники.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_RELATIONSHIP_FRIENDS">
+      <Text>Вы друзья.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_RELATIONSHIP_NEUTRAL">
+      <Text>Этот город-государство нейтрален.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_RELATIONSHIP_WAR">
+      <Text>Вы враждуете.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_RELATIONSHIP_WARMONGER">
+      <Text>Этот город-государство ненавидит вас.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_RESOURCES_TT">
+      <Text>Став [COLOR_POSITIVE_TEXT]союзником[ENDCOLOR] этого города-государства, вы сможете получать ресурсы, расположенные поблизости от него, как только проложите к нему дорогу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_TITLE_TOOL_TIP_ALLIES">
+      <Text>Чтобы стать [COLOR_POSITIVE_TEXT]союзниками[ENDCOLOR], требуется {1_Num} [ICON_INFLUENCE] влияния. После этого{@2: gender masculine? ; feminine? ; neuter? ; other? город-государство ;}{@2_CityStateName} предоставит вам все свои ресурсы. Кроме того, вы получите дополнительные преимущества, которые зависят от специализации города.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_TITLE_TOOL_TIP_CURRENT">
+      <Text>Сейчас у вас {1_Num} [ICON_INFLUENCE] влияния на{@2: gender masculine? ; feminine? ; neuter? ; other? город-государство ;}{@2_CityStateName}. {3_DetailString}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_TITLE_TOOL_TIP_FRIENDS">
+      <Text>Чтобы стать [COLOR_POSITIVE_TEXT]друзьями[ENDCOLOR], требуется {1_Num} [ICON_INFLUENCE] влияния. После этого вы сможете без всяких последствий пересекать границы этого города-государства. Кроме того, вы получите дополнительные преимущества, которые зависят от специализации города.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_TITLE_TOOL_TIP_MAXED">
+      <Text>Если ваше влияние на город-государство продолжит расти, это не даст вам никаких дополнительных преимуществ, зато другим державам будет труднее добиться его благосклонности.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_TITLE_TOOL_TIP_WAR">
+      <Text>Во время войны этот показатель будет заморожен на текущем уровне.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_TITLE_TOOL_TIP_WARMONGER">
+      <Text>Вы воюете с союзником этого города-государства или так часто нападали на другие независимые города, что теперь никто из них не хочет иметь с вами ничего общего!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_TURN_SPAWNING_OFF">
+      <Text>Не получать юниты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_TURN_SPAWNING_ON">
+      <Text>Получать юниты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_BUILDING_SPECIALIST_YIELD">
+      <Text>{1_NumSpecialists} {2_SpecialistDesc * {1_NumSpecialists}}... {3_YieldString} каждый</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CLICK_TO_SELL">
+      <Text>Нажмите для продажи здания</Text>
+    </Row>
+    <Row Tag="TXT_KEY_COMMAND_CANCEL_ALL_HELP">
+      <Text>Отменить все приказы для выделенного юнита.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_COMMAND_CANCEL_HELP">
+      <Text>Отменить последний приказ, полученный юнитом. Это пригодится, если вы случайно перепутали порядок приказов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_COMMAND_DELETE_HELP">
+      <Text>Щелкните по этой кнопке, чтобы удалить этот юнит.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_COMMAND_GIFT_HELP">
+      <Text>Передать выделенные юниты игроку, контролирующему данную область. Чтобы передать юниты другому игроку, сначала переместите их на его территорию.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_COMMAND_HOTKEY_HELP">
+      <Text>Назначить быструю клавишу для этого юнита.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_COMMAND_STOP_AUTOMATION_HELP">
+      <Text>Отменить автоматизацию для выделенного юнита. Теперь он будет ждать ваших приказов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_COMMAND_WAKE_HELP">
+      <Text>"Разбудить" юнит, чтобы он мог выполнять приказы. При этом бонус к укреплению не исчезает.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CSTATE_CULTURE_BONUS">
+      <Text>Вы получаете от них [COLOR_POSITIVE_TEXT]{1_Num} [ICON_CULTURE] культуры[ENDCOLOR] за ход.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CSTATE_FOOD_BONUS">
+      <Text>Вы получаете [COLOR_POSITIVE_TEXT]{1_Num} [ICON_FOOD] пищи[ENDCOLOR] за ход в вашей [ICON_CAPITAL] столице и [COLOR_POSITIVE_TEXT]{2_Num} [ICON_FOOD][ENDCOLOR] во всех других городах.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CSTATE_MILITARY_BONUS">
+      <Text>Вы будете получать от них [COLOR_POSITIVE_TEXT]новое подразделение[ENDCOLOR] примерно раз в {1_Num} {1_Num: plural 1?ход; 2?хода; 3?ходов;}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CSTATE_OPEN_BORDERS_FRIENDS">
+      <Text>Вас связывает дружба или даже более тесные отношения, поэтому вы можете свободно пересекать их границы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CSTATE_OPEN_BORDERS_TRAIT">
+      <Text>У вашего правителя есть особое умение, поэтому вы можете свободно пересекать их границы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CSTATE_RESOURCES_RECEIVED">
+      <Text>От них к вам поступают следующие ресурсы:[COLOR_GREEN]{1_ResourcesStringSeparatedByCommas: lower}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CSTATE_SCIENCE_BONUS">
+      <Text>Вы получаете от них [COLOR_POSITIVE_TEXT]{1_Num} [ICON_RESEARCH] науки[ENDCOLOR] за ход.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CULTURE_PER_TURN_LABEL">
+      <Text>Культура за ход: {1_Num} [ICON_CULTURE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CURRENT_CULTURE_LABEL">
+      <Text>Накоплено: {1_Num} [ICON_CULTURE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ACCEPT">
+      <Text>ОК</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_AFRAID">
+      <Text>Они боятся нашей мощи!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ALREADY_AT_WAR">
+      <Text>Эти игроки уже воюют</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ASSISTANCE_FROM_THEM">
+      <Text>[COLOR_NEGATIVE_TEXT]Они откликнулись на вашу просьбу о помощи.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ASSISTANCE_TO_THEM">
+      <Text>[COLOR_POSITIVE_TEXT]Вы откликнулись на их просьбу о помощи.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_AT_WAR">
+      <Text>[COLOR_NEGATIVE_TEXT]Вы воюете![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_BACKSTABBED">
+      <Text>[COLOR_NEGATIVE_TEXT]Совершили предательство!!! ({@1_CivName} - жертва)[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_BORDER_PROMISE">
+      <Text>[COLOR_NEGATIVE_TEXT]Вы обещали не покупать больше земли около их границ и не сдержали слово![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_BORDER_PROMISE_IGNORED">
+      <Text>[COLOR_NEGATIVE_TEXT]Они просили вас не покупать больше земли около их границ, а вы это проигнорировали![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_CANCEL">
+      <Text>Назад</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_CAPTURED_CAPITAL">
+      <Text>[COLOR_NEGATIVE_TEXT]Вы захватили их древнюю столицу![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_CITIES_LIBERATED">
+      <Text>[COLOR_POSITIVE_TEXT]Вы освободили их граждан![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_CITY_STATE_PROMISE">
+      <Text>[COLOR_NEGATIVE_TEXT]Вы обещали больше не нападать на дружественный им город-государство и не сдержали слово![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_CITY_STATE_PROMISE_IGNORED">
+      <Text>[COLOR_NEGATIVE_TEXT]Они просили вас более не нападать на дружественный им город-государство, а вы это проигнорировали![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_CIVILIANS_RETURNED">
+      <Text>[COLOR_POSITIVE_TEXT]Вы освободили их захваченных граждан![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_COMMON_FOE">
+      <Text>[COLOR_POSITIVE_TEXT]Мы сражались вместе против общего врага.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_COOP_WAR_PROMISE">
+      <Text>[COLOR_NEGATIVE_TEXT]Вы обещали присоединиться к общей войне против другой державы и не сдержали слово![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_CULTURE_BOMB">
+      <Text>[COLOR_NEGATIVE_TEXT]Вы отхватили часть их земель при помощи великого художника! [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_CURRENT_GOLD">
+      <Text>Есть {1_Num} [ICON_GOLD] золота, {1_Num: plural 1?которую; 2?которые; 3?которые;} сторона не включает в предложение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_CURRENT_GPT">
+      <Text>Сторона получает {1_Num} [ICON_GOLD] золота за ход, {1_Num: plural 1?которую; 2?которые; 3?которые;} не включает в предложение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DECLARATION_OF_FRIENDSHIP">
+      <Text>Декларация дружбы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DECLARATION_OF_FRIENDSHIP_ALREADY_EXISTS">
+      <Text>Стороны уже приняли декларацию дружбы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DECLARATION_OF_FRIENDSHIP_AT_WAR">
+      <Text>Сейчас между двумя сторонами идет война. Необходимо сначала заключить мирный договор.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DECLARE_WAR">
+      <Text>Война</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DECLARE_WAR_ON">
+      <Text>Война. Противник:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DECLARES_WAR_TT">
+      <Text>Объявить войну этой стороне!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DEF_PACT">
+      <Text>Оборонительный союз</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DEF_PACT_EXISTS">
+      <Text>[NEWLINE][NEWLINE]Оборонительный союз уже заключен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DEF_PACT_NO_AGREEMENT">
+      <Text>[NEWLINE][NEWLINE]Нельзя заключить соглашение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DEF_PACT_NO_TECH">
+      <Text>[NEWLINE][NEWLINE]Ни у одной из сторон еще нет технологии для такого соглашения (необходимо рыцарство).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DEF_PACT_TT">
+      <Text>Если на этого игрока нападут, второй немедленно и автоматически объявит войну его врагам (длительность: {1_Num} {1_Num: plural 1?ход; 2?хода; 3?ходов;}). Внимание: если один из этих игроков объявит войну, договор будет разорван.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DEFAULT_STATUS">
+      <Text>Еще не было никаких событий, которые привели бы к изменению наших отношений.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DEMAND_BUTTON">
+      <Text>Требования</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DENOUNCED">
+      <Text>[COLOR_NEGATIVE_TEXT]{@1_CivName} - публичное осуждение!!![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DENOUNCED_BY_THEM">
+      <Text>[COLOR_NEGATIVE_TEXT]Они публично осудили нас![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DENOUNCED_BY_US">
+      <Text>[COLOR_NEGATIVE_TEXT]Мы публично осудили их![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_BUTTON">
+      <Text>Обсуждение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_CHANGED_MIND">
+      <Text>Извините, мое мнение изменилось.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_CLAIM_WHAT_WE_WANT">
+      <Text>Мы занимаем любые земли, которые нам нравятся.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_COOP_WAR_NOW">
+      <Text>Ну что ж, начнем. (Объявление войны)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_COOP_WAR_SOON">
+      <Text>Дайте нам 10 ходов на подготовку.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_COOP_WAR_YES">
+      <Text>Да, давайте начнем. (Объявление войны)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_DENOUNCE">
+      <Text>Публично разоблачить предводителя: {1_LeaderName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_DENOUNCE_TT">
+      <Text>Объявить всему миру, что этому предводителю нельзя доверять, и что он представляет угрозу всей цивилизации. Этот лидер придет в ярость, но вы сможете заслужить доверие его врагов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_DO_WHAT_WE_CAN">
+      <Text>Да, мы сделаем все, что в наших силах.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_DONT_CARE">
+      <Text>Мне все равно, что вы думаете.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_HOW_DARE_YOU">
+      <Text>Да как вы смеете?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MAKE_US">
+      <Text>Попробуйте выгнать нас силой.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_DEAL">
+      <Text>Давайте закончим с этим.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_DEC_FRIENDSHIP">
+      <Text>Должны ли мы подписать совместную декларацию дружбы?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_DEC_FRIENDSHIP_TT">
+      <Text>Объявить всему миру, что отныне ваши империи - друзья. Подписать декларацию должны оба игрока.[NEWLINE][NEWLINE]Декларация сдержит некоторых агрессоров и упрочит дружественные отношения с этой империей, но она будет надеяться, что вы придете ей на помощь в случае необходимости. Если же вы откажетесь прийти к ней на помощь, ее предводитель будет вами недоволен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_DECLARE_WAR">
+      <Text>Следует ли нам объявить войну...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_DONT_SETTLE">
+      <Text>Не закладывайте новые города рядом с нами.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_END_WORK_WITH_US">
+      <Text>Наше сотрудничество закончено.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_OKAY">
+      <Text>Очень хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_SORRY">
+      <Text>Нам жаль, что это вызвало разлад между нами.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_WORK_AGAINST">
+      <Text>Вы хотите заключить тайное соглашение против...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_WORK_AGAINST_TT">
+      <Text>Тайное соглашение - секретный пакт, направленный против какого-либо игрока. В результате вторая сторона соглашения станет хуже относиться к этому игроку и даже может вступить с ним в войну.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_WORK_WITH_US">
+      <Text>Вы хотите заключить договор о сотрудничестве?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_WORK_WITH_US_TT">
+      <Text>Договор о сотрудничестве позволит улучшить отношения.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_YOULL_PAY">
+      <Text>Однажды вы заплатите за это.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_NO_DIVIDE">
+      <Text>Ладно. Это не должно привести к разладу между нами.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_NO_GO_IT_ALONE">
+      <Text>Боюсь, мы предпочитаем действовать самостоятельно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_NOT_YOUR_BUSINESS">
+      <Text>Наши дела вас не касаются.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_OFFER_TO_APPEASE">
+      <Text>Что вы хотите, чтобы не доводить до крайностей?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_SETTLE_WHAT_WE_PLEASE">
+      <Text>Мы живем там, где нам нравится.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_SORRY_FOR_CLAIMING">
+      <Text>Впредь мы не станем занимать земли рядом с вами.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_SORRY_FOR_SETTLING">
+      <Text>Впредь мы не станем селиться рядом с вами.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_SORRY_NO_INTEREST">
+      <Text>Извините, но нас не интересует такое соглашение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_SORRY_OTHER_PLANS">
+      <Text>Извините, у нас другие планы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_TIME_TO_DIE">
+      <Text>Вы правы. И вам пора умереть. (Объявить войну)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_WE_MEAN_NO_HARM">
+      <Text>Мы не хотим вам зла. Мы просто хотим пройти.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_WILL_WITHDRAW">
+      <Text>Мы приносим свои извинения и немедленно удаляемся.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_YES_LET_US_PREPARE">
+      <Text>Да, давайте начнем подготовку.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_YES_WORK_TOGETHER">
+      <Text>Да, давайте сотрудничать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_YOU_WILL_PAY">
+      <Text>Вы за это заплатите.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISUCSS_ANOTHER_LEADER">
+      <Text>Давайте поговорим о другом лидере...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISUCSS_ATTACK_LEADER">
+      <Text>Я собираюсь напасть на этого лидера.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISUCSS_DISLIKE_LEADER">
+      <Text>Мне не нравится этот лидер.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISUCSS_LIKE_LEADER">
+      <Text>Мне нравится этот лидер.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISUCSS_OFFER_TO_STOP">
+      <Text>Возможно, мы сможем вам кое-что предложить, чтобы эта ситуация не зашла слишком далеко.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISUCSS_OPINION_OF_LEADER">
+      <Text>Что вы думаете об этом лидере?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISUCSS_STAY_AWAY">
+      <Text>Если у вас достаточно мозгов, постарайтесь держаться от меня подальше.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISUCSS_STRONG_FRIENDSHIP">
+      <Text>Я надеюсь, что нашей дружбе ничто не повредит.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DOF">
+      <Text>[COLOR_POSITIVE_TEXT]Мы публично объявили о нашей дружбе![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_EMBARGO">
+      <Text>Эмбарго</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_EMBARGO_AGAINST">
+      <Text>Эмбарго против</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_END_CONFLICT">
+      <Text>Это разрешит конфликт?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_EXPANSION_PROMISE">
+      <Text>[COLOR_NEGATIVE_TEXT]Вы обещали не приобретать земли вблизи их границ и не сдержали слово![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_EXPANSION_PROMISE_IGNORED">
+      <Text>[COLOR_NEGATIVE_TEXT]Они просили вас не расширять земли вблизи их границ, а вы это проигнорировали![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_FORCE_PEACE">
+      <Text>Мирный договор не позволяет этим игрокам воевать между собой в течение некоторого времени.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_FRIENDLY">
+      <Text>[COLOR_POSITIVE_TEXT]Они хотели бы стать вашими друзьями.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_FRIENDS_WITH">
+      <Text>Друзья: {1_CivName:textkey}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_GOLD">
+      <Text>[ICON_GOLD] золота</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_GOLD_PER_TURN">
+      <Text>[ICON_GOLD] золота за ход</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_GUARDED">
+      <Text>[COLOR_NEGATIVE_TEXT]Они считают, что мы можем стать для них угрозой.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_HERE_OFFER">
+      <Text>Давайте выслушаем ваше предложение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_HOSTILE">
+      <Text>[COLOR_NEGATIVE_TEXT]В данный момент они не хотят иметь с нами никаких дел.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_HUMAN_DECLARED_WAR_ON_FRIENDS">
+      <Text>[COLOR_NEGATIVE_TEXT]Вы объявили войну лидеру, с которым договорились о дружбе![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_HUMAN_DENOUNCED_BY_FRIENDS">
+      <Text>[COLOR_NEGATIVE_TEXT]Ваши друзья решили публично осудить вас![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_HUMAN_DENOUNCED_FRIEND">
+      <Text>[COLOR_NEGATIVE_TEXT]Вы публично осудили лидера, с которым они договорились о дружбе![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_HUMAN_DENOUNCED_FRIENDS">
+      <Text>[COLOR_NEGATIVE_TEXT]Вы публично осудили лидеров, с которыми они договорились о дружбе![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_HUMAN_DOF_WITH_ENEMY">
+      <Text>[COLOR_NEGATIVE_TEXT]Вы стали другом их врагов![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_HUMAN_FRIEND_DECLARED_WAR">
+      <Text>[COLOR_NEGATIVE_TEXT]Вы заявили о дружбе, а потом объявили им войну![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_HUMAN_FRIEND_DENOUNCED">
+      <Text>[COLOR_NEGATIVE_TEXT]Вы заявили о дружбе, а потом публично осудили их![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_IRON_LABEL_PH">
+      <Text>[ICON_RES_IRON] Железа</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_LAND_DISPUTE">
+      <Text>[COLOR_NEGATIVE_TEXT]Они жаждут получить землю, которой вы владеете![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_LEADER_SAYS">
+      <Text>{1_LeaderName} говорит:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_LIBERATED_CAPITAL">
+      <Text>[COLOR_POSITIVE_TEXT]Вы освободили их столицу![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_LIBERATED_CITY">
+      <Text>[COLOR_POSITIVE_TEXT]Вы освободили один из их городов![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_LUX_RESCR_TRADE_NO">
+      <Text>У нас нет редких ресурсов, которые мы можем продать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_LUX_RESCR_TRADE_NO_THEM">
+      <Text>У другого лидера нет редких ресурсов, которые он может продать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_LUX_RESCR_TRADE_YES">
+      <Text>У нас есть редкие ресурсы, которыми мы можем торговать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_LUX_RESCR_TRADE_YES_THEM">
+      <Text>У другого лидера есть редкие ресурсы, которыми он может торговать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_LUXURY_RESOURCES">
+      <Text>Редкие ресурсы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MAKE_DEAL_WORK">
+      <Text>Как сбалансировать это соглашение?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MAKE_PEACE">
+      <Text>Заключить мир</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MAKE_PEACE_WITH">
+      <Text>Заключить мир:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MAY_NOT_ATTACK">
+      <Text>Нельзя нападать на этого игрока до истечения срока действия мирного договора.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MAY_NOT_ATTACK_MOD">
+      <Text>Нельзя нападать на этого игрока из-за специальных правил сценария.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MILITARY_PROMISE">
+      <Text>[COLOR_NEGATIVE_TEXT]Вы обещали убрать войска от их границ и не сдержали слово![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MILITARY_PROMISE_IGNORED">
+      <Text>[COLOR_NEGATIVE_TEXT]Вы отказались убрать войска от их границ, когда они попросили об этом![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MINOR_ALLY_AT_WAR">
+      <Text>Город-государство - союзник игрока, воюющего с лидером, с которым вы разговариваете.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MINOR_CIV_DISPUTE">
+      <Text>[COLOR_NEGATIVE_TEXT]Вы конкурируете друг с другом за расположение одного и того же города-государства![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MINOR_OTHER_GUY_WANTS_WAR">
+      <Text>Этот игрок не желает заключать мир с лидером, с которым вы разговариваете.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MINOR_PERMANENT_WAR">
+      <Text>Город-государство объявил постоянную войну этому игроку.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MINOR_THIS_GUY_WANTS_WAR">
+      <Text>Лидер, с которым вы разговариваете, не желает заключать мир с этим игроком.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MODIFY">
+      <Text>Изменить</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MODIFY_DEAL">
+      <Text>Изменить предложение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MUTUAL_DOF">
+      <Text>[COLOR_POSITIVE_TEXT]Вы заявили о дружбе с одним и тем же лидером![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MUTUAL_ENEMY">
+      <Text>[COLOR_POSITIVE_TEXT]Вы публично осудили одного и того же лидера![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NEED_WRITING_TT">
+      <Text>[NEWLINE][NEWLINE]Ни у одной из сторон еще нет технологии для такого соглашения (необходима письменность).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NEGOTIATE_PEACE">
+      <Text>Мирные переговоры</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NEGOTIATE_PEACE_BLOCKED_TT">
+      <Text>Вы не сможете начать мирные переговоры с этим игроком еще {1_Num} {1_Num: plural 1?ход; 2?хода; 3?ходов;}: вы связаны договором с другим игроком.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NEGOTIATE_PEACE_TT">
+      <Text>Начать мирные переговоры с этим игроком.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_SETTLE_ASKED">
+      <Text>[COLOR_NEGATIVE_TEXT]Вы потребовали, чтобы они не селились рядом с вашими границами![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_WAR_ALLIES">
+      <Text>Эти игроки - союзники.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NOT_AT_WAR">
+      <Text>Эти игроки не воюют между собой.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NUKED">
+      <Text>[COLOR_NEGATIVE_TEXT]Вы сбросили на них ядерную бомбу![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_OPEN_BORDERS">
+      <Text>Открытые границы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_OPEN_BORDERS_HAVE">
+      <Text>[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Мы уже разрешили пересекать наши границы![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_OPEN_BORDERS_THEY_HAVE">
+      <Text>[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Они уже разрешили пересекать их границы![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_OPEN_BORDERS_TT">
+      <Text>Позволяет юнитам другого игрока проходить по чужой территории на протяжении {1_Num} {1_Num: plural 1?хода; 2?ходов; 3?ходов;}. [NEWLINE][NEWLINE]Внимание: юниты разных игроков не могут находиться на одной и той же клетке.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_OTHER_PLAYERS">
+      <Text>Другие игроки</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_OTHER_PLAYERS_NO_PLAYERS">
+      <Text>Мы не встретили никаких других игроков.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_OTHER_PLAYERS_NO_PLAYERS_THEM">
+      <Text>Другой лидер не встретил никаких других игроков.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_OTHER_PLAYERS_OPEN">
+      <Text>Просмотрите возможные соглашения с другими игроками.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_PAID_TRIBUTE">
+      <Text>[COLOR_NEGATIVE_TEXT]Вы заставили их выплачивать дань.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_PAST_WAR_BAD">
+      <Text>[COLOR_NEGATIVE_TEXT]В прошлом между нами шла война.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_PAST_WAR_NEUTRAL">
+      <Text>Когда-то мы воевали с ними, но сейчас они не таят на нас обиду.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_PEACE_TREATY">
+      <Text>Мирный договор (10 ходов)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_PEACE_TREATY_TURNS">
+      <Text>Мирный договор (10 ходов)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_PROPOSE">
+      <Text>Предложить</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_PROTECTED_MINORS_ATTACKED">
+      <Text>[COLOR_NEGATIVE_TEXT]Вы атаковали город-государство, находившийся под их защитой![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_PROTECTED_MINORS_KILLED">
+      <Text>[COLOR_NEGATIVE_TEXT]Вы уничтожили город-государство, находившийся под их защитой![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RECKLESS_EXPANDER">
+      <Text>[COLOR_NEGATIVE_TEXT]Они считают, что мы слишком агрессивно строим новые города![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_REFUSE">
+      <Text>Нет</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_REFUSED_REQUESTS">
+      <Text>[COLOR_NEGATIVE_TEXT]Вы отказали в просьбе этому лидеру, после того как уверили его в своей дружбе![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RESCH_AGREEMENT">
+      <Text>Договор об исследованиях</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RESCH_AGREEMENT_ALL_TECHS_RESEARCHED">
+      <Text>[NEWLINE][NEWLINE]Как минимум один из этих игроков уже открыл все доступные технологии.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RESCH_AGREEMENT_EXISTS">
+      <Text>[NEWLINE][NEWLINE]Договор об исследованиях уже действует!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RESCH_AGREEMENT_NO_AGREEMENT">
+      <Text>[NEWLINE][NEWLINE]По крайней мере, у одной стороны недостаточно средств для такого соглашения.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RESCH_AGREEMENT_NO_TECH">
+      <Text>[NEWLINE][NEWLINE]Ни у одной из сторон еще нет технологии для такого соглашения (необходима философия).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RESCH_AGREEMENT_SCIENCE_OFF">
+      <Text>[NEWLINE][NEWLINE]Система исследований в этом сценарии отключена. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RESCH_AGREEMENT_TT">
+      <Text>Через {2_Num} {2_Num: plural 1?ход; 2?хода; 3?ходов;} обе стороны смогут ускорить свои научные исследования. Для этого каждый должен отдать {1_Num} [ICON_GOLD] золота при заключении соглашения. [NEWLINE][NEWLINE]Стоимость определяется уровнем технологического прогресса более продвинутой стороны переговоров.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RESCH_AGREEMENT_US">
+      <Text>Дог. об исследованиях ({1_Num}[ICON_GOLD])</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RESURRECTED">
+      <Text>[COLOR_POSITIVE_TEXT]Вы восстановили их цивилизацию после того, как она была уничтожена![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_STRAT_RESCR_TRADE_NO">
+      <Text>У нас нет стратегических ресурсов, которыми можно торговать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_STRAT_RESCR_TRADE_NO_THEM">
+      <Text>У другого лидера нет стратегических ресурсов, которыми можно торговать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_STRAT_RESCR_TRADE_YES">
+      <Text>У нас есть стратегические ресурсы, которые можно продать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_STRAT_RESCR_TRADE_YES_THEM">
+      <Text>У другого лидера есть стратегические ресурсы, которые он может продать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_STRATEGIC_RESOURCES">
+      <Text>Стратегические ресурсы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_TRADE_AGREEMENT">
+      <Text>ТОРГОВОЕ СОГЛАШЕНИЕ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_TRADE_AGREEMENT_EXISTS">
+      <Text>[NEWLINE][NEWLINE]Торговое соглашение уже действует!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_TRADE_AGREEMENT_NO_AGREEMENT">
+      <Text>[NEWLINE][NEWLINE]У обоих игроков недостаточно средств для такого соглашения.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_TRADE_AGREEMENT_NO_TECH">
+      <Text>[NEWLINE][NEWLINE]Ни у одной из сторон еще нет технологии для такого соглашения (необходима письменность).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_TRADE_AGREEMENT_TT">
+      <Text>Немного увеличивает приток золота у обеих сторон на 20 ходов. Для каждого игрока это будет стоить 250 [ICON_GOLD].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_TRADE_BUTTON">
+      <Text>Торговля</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_TRADE_DEMAND">
+      <Text>[COLOR_NEGATIVE_TEXT]Вы потребовали от них заключения кабального торгового договора![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_TRADE_PARTNER">
+      <Text>[COLOR_POSITIVE_TEXT]Вы недавно вели с ними торговлю.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_TURNS">
+      <Text>{1_num} {1_num: plural 1?ход; 2?хода; 3?ходов;}. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VICTORY_DISPUTE">
+      <Text>[COLOR_NEGATIVE_TEXT]Они считают, что вы пытаетесь победить в игре тем же способом, что и они сами, и им это не нравится![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_WARMONGER_THREAT">
+      <Text>[COLOR_NEGATIVE_TEXT]Они считают, что вы угрожаете войной всему миру![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_WHAT_GIVE_FOR_THIS">
+      <Text>Что я за это получу?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_WHAT_WANT">
+      <Text>Чего вы хотите?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_WHAT_WANT_FOR_THIS">
+      <Text>Что вы хотите за это?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_WITHDRAW">
+      <Text>Убрать все</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_WONDER_DISPUTE">
+      <Text>[COLOR_NEGATIVE_TEXT]Вы построили чудеса света, которых они так ждали![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_YOU_HAVE_BACKSTABBED">
+      <Text>[COLOR_NEGATIVE_TEXT]Предательство![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_YOU_HAVE_DENOUNCED">
+      <Text>[COLOR_NEGATIVE_TEXT]Осуждение![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_1">
+      <Text>Октавиан Август</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_1_QUOTE">
+      <Text>Я принял Рим кирпичным, а оставил его мраморным.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_10">
+      <Text>Симон Боливар</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_10_QUOTE">
+      <Text>Мудрость приходит с опытом, а опыт появляется от недостатка мудрости.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_11">
+      <Text>Лех Валенса</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_11_QUOTE">
+      <Text>Тот, кто пытается остановить колесо истории, только сломает себе пальцы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_12">
+      <Text>Иван Грозный</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_12_QUOTE">
+      <Text>К тому же меня сильно заботят государственные дела, постоянные войны с врагами и благо моего бедного народа.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_13">
+      <Text>Генрих VIII</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_13_QUOTE">
+      <Text>Боже, если бы это не было в интересах мира и моего королевства, я бы ни за какие блага не сделал того, что должен сделать сегодня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_14">
+      <Text>Герберт Гувер</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_14_QUOTE">
+      <Text>Блаженны молодые, ибо они унаследуют национальный долг.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_15">
+      <Text>Людовик XIV</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_15_QUOTE">
+      <Text>Подслушивающие никогда не услышат о себе ничего хорошего.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_16">
+      <Text>Невилл Чемберлен</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_16_QUOTE">
+      <Text>Кто бы ни объявил себя победителем, в войне не бывает выигравших - только проигравшие.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_17">
+      <Text>Эндрю Джексон</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_17_QUOTE">
+      <Text>Нет никакого удовольствия в отсутствии работы. Удовольствие в том, чтобы иметь горы работы и не делать ее.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_18">
+      <Text>Нерон</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_18_QUOTE">
+      <Text>Какой актер умирает!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_19">
+      <Text>Уоррен Г. Гардинг</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_19_QUOTE">
+      <Text>Где-то должна быть книга, в которой написано, как привести в порядок свои мысли. Но я не знаю, где эта книга, и вряд ли смог бы прочитать ее, если бы нашел.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_2">
+      <Text>Хаммурапи</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_2_QUOTE">
+      <Text>Когда Мардук направил меня, чтобы справедливо править людьми и дать стране счастье, тогда я вложил в уста страны истину и справедливость и улучшил положение людей.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_20">
+      <Text>Этельред Неразумный</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_20_QUOTE">
+      <Text>Да, только пять минут, ладно?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_21">
+      <Text>Дэн Куэйл</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_21_QUOTE">
+      <Text>Если мы не преуспеем, то рискуем потерпеть неудачу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_3">
+      <Text>Авраам Линкольн</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_3_QUOTE">
+      <Text>Всегда помни, что твое собственное суждение важнее, чем любое другое.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_4">
+      <Text>Карл Великий</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_4_QUOTE">
+      <Text>Пусть мои войска станут камнями, и деревьями, и птицами в небесах.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_5">
+      <Text>Уинстон Черчилль</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_5_QUOTE">
+      <Text>Пессимист видит трудности при каждой возможности; оптимист в каждой трудности видит возможность.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_6">
+      <Text>Нельсон Мандела</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_6_QUOTE">
+      <Text>Все кажется невозможным, пока оно не сделано.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_7">
+      <Text>Марк Аврелий</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_7_QUOTE">
+      <Text>Если что-то кажется тебе слишком трудным, не думай, что это за пределами сил человека.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_8">
+      <Text>Жанна д'Арк</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_8_QUOTE">
+      <Text>Я не боюсь... Я была рождена для этого.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_9">
+      <Text>Шарль де Голль</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DQ_LEADER_NAME_9_QUOTE">
+      <Text>Перед лицом кризиса сильный человек полагается на себя самого. Он действует и принимает на себя ответственность за свои действия.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DUDE_1">
+      <Text>Плиний</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DUDE_2">
+      <Text>Ибн Баттута</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DUDE_3">
+      <Text>Гете</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DUDE_4">
+      <Text>Альберти</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DUDE_5">
+      <Text>Птолемей</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DUDE_6">
+      <Text>Боэций</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DUDE_7">
+      <Text>Пифагор</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EMOTIONLESS">
+      <Text>Равнодушие</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FORMAT_NUMBER">
+      <Text>{1_Number: number #.##}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FOUND_NATURAL_WONDER">
+      <Text>Вы нашли {@1_Name[4]}![NEWLINE][NEWLINE][ICON_HAPPINESS_1] [COLOR_POSITIVE_TEXT]Настроение[ENDCOLOR] державы улучшилось!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FREE_POLICIES_LABEL">
+      <Text>Общ. институтов даром: {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FRIENDS">
+      <Text>Дружеский</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FRIENDS_CSTATE_TT">
+      <Text>Вы [COLOR_POSITIVE_TEXT]дружите[ENDCOLOR] с{@1: gender masculine? ; feminine? ; neuter? ; other? городом-государством ;}{@1_CityStateName[5]}. Каждый ход ваше [ICON_INFLUENCE] влияние на них изменяется на {2_Num}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAMESPEED_EPIC_HELP">
+      <Text>Производство, исследования и прочее занимают гораздо больше времени, чем при среднем темпе. Игра будет развиваться медленнее. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAMESPEED_MARATHON_HELP">
+      <Text>Крайне низкий темп игры. Количество ходов для каждой эры сопоставимо с количеством ходов в целой игре в обычном режиме.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAMESPEED_QUICK_HELP">
+      <Text>Игровые процессы требуют меньшего количества ходов. Подходит для тех, кто не любит ждать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAMESPEED_STANDARD_HELP">
+      <Text>Обычный темп игры.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOODY_CULTURE">
+      <Text>Вы находите памятники древних эпох, которые внушают трепет вашим гражданам! Вы получаете {1_Num} [ICON_CULTURE] культуры.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOODY_POPULATION">
+      <Text>В руинах вы находите заблудившихся людей! Они увеличат [ICON_CITIZEN] население одного из ваших городов!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOODY_REVEAL_NEARBY_BARBS">
+      <Text>Свежие следы подсказывают вам, где искать ближайшие лагеря варваров!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOODY_REVEAL_RESOURCE">
+      <Text>Вы находите обрывок карты, где отмечен неизвестный ресурс! (Чтобы использовать его, нужна соответствующая технология!)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOODY_UPGRADE_UNIT">
+      <Text>Ваш юнит получает более мощное оружие - оно нашлось в руинах!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_PERSON_REWARD">
+      <Text>{@1_UnitName} {@1: plural 1?появляется; 2?появляются; other?появляется;} в городе {@2_CityName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HANDICAP_CHIEFTAIN_HELP">
+      <Text>Новичок</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HANDICAP_DEITY_HELP">
+      <Text>Только лучшие игроки в мире смогут играть на таком уровне.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HANDICAP_EMPEROR_HELP">
+      <Text>Очень сложно. Цивилизации под управлением ИИ будут получать преимущество при игре.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HANDICAP_IMMORTAL_HELP">
+      <Text>Крайне сложно. Цивилизации под управлением ИИ будут получать огромные преимущества при игре.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HANDICAP_KING_HELP">
+      <Text>Сложно. Цивилизации под управлением ИИ будут получать некоторые преимущества при игре.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HANDICAP_PRINCE_HELP">
+      <Text>Нормальная сложность.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HANDICAP_SETTLER_HELP">
+      <Text>Элементарно. Подходит для обучения игре.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HANDICAP_WARLORD_HELP">
+      <Text>Легко. Легко и просто.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTERFACEMODE_AIRBOMB_HELP">
+      <Text>Приказывает обстрелять город или улучшения в указанной клетке.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTERFACEMODE_AIRLIFT_HELP">
+      <Text>Приказывает перебраться по воздуху в выбранную клетку.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTERFACEMODE_AIRSTRIKE_HELP">
+      <Text>Приказывает атаковать вражеские части в выбранной клетке.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTERFACEMODE_CITY_PLOT_SELECTION_HELP">
+      <Text>Определяет участки города, где следует работать юниту.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTERFACEMODE_DISEMBARK_HELP">
+      <Text>Приказывает перейти с корабля на сушу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTERFACEMODE_EMBARK_HELP">
+      <Text>Приказывает перейти с суши на море.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTERFACEMODE_GIFT_UNIT_HELP">
+      <Text>Приказывает юниту перейти в собственность города-государства.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTERFACEMODE_MOVE_TO_ALL_HELP">
+      <Text>Приказывает начать передвижение всем юнитам, находящимся в одной клетке с выделенным юнитом.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTERFACEMODE_MOVE_TO_HELP">
+      <Text>Приказывает выбранному юниту перейти в клетку.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTERFACEMODE_MOVE_TO_TYPE_HELP">
+      <Text>Приказывает начать передвижение всем юнитам одного типа с уже выделенным.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTERFACEMODE_NUKE_HELP">
+      <Text>Приказывает провести атомную бомбардировку выбранной клетки.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTERFACEMODE_REBASE_HELP">
+      <Text>Приказывает авиации перебазироваться в другой город.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTERFACEMODE_ROUTE_TO_HELP">
+      <Text>Приказывает проложить дорогу (обычную или железную) к выбранной клетке.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MERCHANT_RESULT">
+      <Text>Вы получаете {1_Num} [ICON_GOLD] золота и {2_Num} [ICON_INFLUENCE] влияния за заключение торговой сделки!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MINOR_SPEAK_AGAIN">
+      <Text>Если вы снова захотите поговорить с державой {@1_CivName}, просто щелкните по одному из ее городов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_AIRLIFT_HELP">
+      <Text>Перебросить юнит в другой город.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_ALERT_HELP">
+      <Text>Подразделение будет приходить в состояние боевой готовности, обнаружив противника. Также оно получит бонус при защите.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_ALERT_NO_FORTIFY_HELP">
+      <Text>Подразделение будет приходить в состояние боевой готовности, обнаружив противника.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_BOMBARD_HELP">
+      <Text>Уничтожение укреплений и снижение защиты города.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_BUILD_CITY_DISABLED_HELP">
+      <Text>Нельзя основать поселение на расстоянии четырех и менее клеток от другого города.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_BUILD_CITY_DISABLED_UNHAPPY">
+      <Text>Нельзя основать город, если население [ICON_HAPPINESS_4] очень несчастно. Постройте улучшения на свободных источниках редких ресурсов или возведите соответствующие постройки, чтобы изменить ситуацию.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_BUILD_CITY_HELP">
+      <Text>Получив этот приказ, [COLOR_UNIT_TEXT]поселенцы[ENDCOLOR] заложат на этом месте город, после чего исчезнут из игры навсегда.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_BUILD_SPACESHIP_DISABLED_HELP">
+      <Text>Деталь должна находиться в вашей столице.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_BUILD_SPACESHIP_HELP">
+      <Text>Сделать деталь частью космического корабля, направляющегося к Альфе Центавра.[NEWLINE][NEWLINE]Сама деталь исчезнет из игры.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_CONDUCT_TRADE_MISSION_DISABLED_HELP">
+      <Text>Юнит должен находиться на территории города-государства, с которым вы не находитесь в состоянии войны.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_CONDUCT_TRADE_MISSION_HELP">
+      <Text>Если юнит находится на территории города-государства, с которым вы не воюете, то великому торговцу можно отдать этот приказ. Он заключит торговую сделку и исчезнет из игры, а ваша держава получит большую сумму [ICON_GOLD] золота и улучшит отношения с городом.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_CONSTRUCT_HELP">
+      <Text>Великий человек строит особое здание и исчезает.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_CREATE_GREAT_WORK_HELP">
+      <Text>Великий художник создаст шедевр в том городе, где он находится в данный момент, и исчезнет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_CULTURE_BOMB_DISABLED_COOLDOWN">
+      <Text>Прошло слишком мало времени с предыдущего культурного захвата. Повторить его можно только через {1_Num} {1_Num: plural 1?ход; 2?хода; 3?ходов;}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_CULTURE_BOMB_DISABLED_HELP">
+      <Text>Юнит должен находиться на вашей или соседней с вашей клетке, он не должен находиться на территории другого игрока.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_CULTURE_BOMB_HELP">
+      <Text>В результате этого действия великий человек исчезнет, зато клетка, на которой он находился, и все соседние с ней станут частью вашей державы, даже если раньше они принадлежали другому игроку. Это будет иметь дипломатические последствия!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_DISCOVER_TECH_DISABLED_HELP">
+      <Text>Чтобы открыть новую технологию, у вас должен быть город.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_DISCOVER_TECH_HELP">
+      <Text>Приказывает великому человеку исследовать технологию (после этого великий человек исчезнет).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_DISEMBARK_HELP">
+      <Text>Выгрузить войска на клетку суши.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_EMBARK_HELP">
+      <Text>Приказать подразделению грузиться на корабль - это позволит пересекать клетки с водой.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_FORTIFY_HELP">
+      <Text>Подразделение будет неактивным, пока игрок не отдаст ему новых приказов. При этом оно получит бонус к защите.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_GARRISON_DISABLED_HELP">
+      <Text>Войска не могут встать гарнизоном, если они уже используются как гарнизон, или если в городе уже есть другой гарнизон.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_GARRISON_HELP">
+      <Text>Подразделение станет в городе гарнизоном, что улучшит его [ICON_STRENGTH] боевую мощь.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_HEAL_DISABLED_HELP">
+      <Text>Это подразделение не может восстанавливать силы вне дружественной территории.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_HEAL_HELP">
+      <Text>Подразделение будет неактивным, пока не поднимет до максимума свою боеспособность. Укрепившись, оно получит бонус к обороне.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_HEAL_HELP_2">
+      <Text>Подразделение будет неактивным в течение {1_Num} {1_Num: plural 1?хода; 2?ходов; 3?ходов;}, пока не восстановит силы полностью. При этом оно получает бонус к защите.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_HURRY_PRODUCTION_HELP">
+      <Text>Приказывает великому человеку увеличить в городе объем производства. При этом великий человек исчезнет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_INTERCEPT_HELP">
+      <Text>Приказать авиации отражать все воздушные атаки противника.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_JOIN_CITY_HELP">
+      <Text>Приказывает великому человеку поселиться в городе и стать сверхспециалистом. При этом великий человек исчезнет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_MOVE_TO_HELP">
+      <Text>Отдает приказ на движение в выбранную клетку.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_MOVE_TO_UNIT_HELP">
+      <Text>Отдает приказ на движение в клетку с выбранным подразделением.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_NUKE_HELP">
+      <Text>Запускает ядерное оружие в выбранную клетку.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_ROUTE_TO_HELP">
+      <Text>Приказывает рабочим создать дорогу (или железную дорогу) в выбранной клетке. Рабочие отправятся в пункт назначения кратчайшим путем. Когда работа будет закончена, рабочих можно будет использовать вновь.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_SET_UP_HELP">
+      <Text>Требуется выполнить это задание перед дистанционной атакой.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_SKIP_HELP">
+      <Text>Подразделение ничего не будет делать в течение этого хода.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_SLEEP_HELP">
+      <Text>Подразделение будет неактивным, пока игрок не отдаст ему новых приказов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_START_GOLDENAGE_DISABLED_HELP">
+      <Text>Юнит должен находиться на вашей территории, прежде чем он сможет начать золотой век.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_START_GOLDENAGE_HELP">
+      <Text>В результате этого действия великий человек исчезнет, а в вашей державе начнется [ICON_GOLDEN_AGE] золотой век (дополнительные [ICON_PRODUCTION] и [ICON_GOLD]), который продлится еще {1_Num} {1_Num: plural 1?ход; 2?хода; 3?ходов;}. Каждый раз, когда великий человек начинает золотой век, продолжительность этого периода сокращается (самый короткий золотой век - всего три хода).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEUTRAL_CSTATE_TT">
+      <Text>{@1_CityStateName} {@1_CityStateName: plural 1?относится; 2?относятся; other?относится;} к вам нейтрально. Если у вас достаточно [ICON_GOLD] золота, вы можете передать часть денег, чтобы повысить свое [ICON_INFLUENCE] влияние на этот город-государство.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEXT_POLICY_COST_LABEL">
+      <Text>След. институт: {1_Num} [ICON_CULTURE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEXT_POLICY_TURN_LABEL">
+      <Text>До след. института [COLOR_GREEN]{1_Num: number #}[ENDCOLOR] {1_Num: plural 1?ход; 2?хода; 3?ходов;}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_BARB_CAMP_CONVERTS">
+      <Text>Варвары в этом лагере присоединились к вашей армии и передали вам [ICON_GOLD]!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_BARB_NAVAL_UNIT_CONVERTS">
+      <Text>Судно варваров присоединилось к вашему флоту, кроме того, вы получили [ICON_GOLD]!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_BEST_IN_GREAT_PEOPLE_ANOTHER">
+      <Text>{@1_CivName} {@1_CivName: plural 1?имеет; 2?имеют; other?имеет;} наибольшее число великих людей, что дает {2_Num} {2_Num: plural 1?очко; 2?очка; 3?очков;} цивилизации. Потребуется не менее {3_Num} {3_Num: plural 1?великого человека; 2?великих людей; 3?великих людей;}, чтобы отобрать этот титул.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_BEST_IN_GREAT_PEOPLE_UNMET">
+      <Text>Неизвестная вам держава обладает наибольшим числом великих людей в мире и получает {1_Num} {1_Num: plural 1?очко; 2?очка; 3?очков;} цивилизации. Потребуется не менее {2_Num} {2_Num: plural 1?великого человека; 2?великих людей; 3?великих людей;}, чтобы отобрать этот титул.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_BEST_IN_GREAT_PEOPLE_YOU">
+      <Text>Ваша держава обладает наибольшим числом великих людей в мире и получает {1_Num} {1_Num: plural 1?очко; 2?очка; 3?очков;} цивилизации. Потребуется не менее {2_Num} {2_Num: plural 1?великого человека; 2?великих людей; 3?великих людей;}, чтобы отобрать у вас этот титул.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_BEST_IN_POLICIES_ANOTHER">
+      <Text>{@1_CivName} {@1_CivName: plural 1?имеет; 2?имеют; other?имеет;} наибольшее число общественных институтов и {@1_CivName: plural 1?получает; 2?получают; other?получает;} {2_Num} {2_Num: plural 1?очко; 2?очка; 3?очков;} цивилизации. Потребуется не менее {3_Num} {3_Num: plural 1?общественного института; 2?общественных институтов; 3?общественных институтов;}, чтобы отобрать этот титул.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_BEST_IN_POLICIES_UNMET">
+      <Text>Держава неизвестного игрока признается государством с наибольшим числом общественных институтов и получает {1_Num} {1_Num: plural 1?очко; 2?очка; 3?очков;} цивилизации. Потребуется не менее {2_Num} {2_Num: plural 1?общественного института; 2?общественных институтов; 3?общественных институтов;}, чтобы отобрать этот титул.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_BEST_IN_POLICIES_YOU">
+      <Text>Ваша держава обладает наибольшим числом общественных институтов в мире и получает {1_Num} {1_Num: plural 1?очко; 2?очка; 3?очков;} цивилизации. Потребуется не менее {2_Num} {2_Num: plural 1?общественного института; 2?общественных институтов; 3?общественных институтов;}, чтобы отобрать у вас этот титул.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_BEST_IN_WONDERS_ANOTHER">
+      <Text>{@1_CivName} {@1_CivName: plural 1?имеет; 2?имеют; other?имеет;} наибольшее число чудес света, что дает {2_Num} {2_Num: plural 1?очко; 2?очка; 3?очков;} цивилизации. Потребуется не менее {3_Num} {3_Num: plural 1?чуда; 2?чудес; 3?чудес;} света, чтобы отобрать этот титул.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_BEST_IN_WONDERS_UNMET">
+      <Text>Неизвестная цивилизация обладает наибольшим числом чудес света в мире и получает {1_Num} {1_Num: plural 1?очко; 2?очка; 3?очков;} цивилизации. Потребуется не менее {2_Num} {2_Num: plural 1?чуда; 2?чудес; 3?чудес;} света, чтобы отобрать этот титул.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_BEST_IN_WONDERS_YOU">
+      <Text>Ваша держава обладает наибольшим числом чудес света в мире и получает {1_Num} {1_Num: plural 1?очко; 2?очка; 3?очков;} цивилизации. Потребуется не менее {2_Num} {2_Num: plural 1?чуда; 2?чудес; 3?чудес;} света, чтобы отобрать у вас этот титул.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CITY_CAN_SHOOT">
+      <Text>Город {@1_CityName} может атаковать приблизившегося врага!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CITY_CULTURE_ACQUIRED_NEW_PLOT">
+      <Text>Город {@1_CityName} набрал достаточно очков культуры, чтобы установить контроль над новой клеткой!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CITY_GROWTH">
+      <Text>Население города {@1_CityName} увеличилось до {2_Population}! Новый горожанин автоматически начнет работать на земле рядом с городом, принося дополнительные очки [ICON_FOOD] пищи, [ICON_PRODUCTION] производства или [ICON_GOLD] золота.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CITY_LOST">
+      <Text>{@2_CivName} {@2_CivName: plural 1?захватывает; 2?захватывают; other?захватывает;} город {@1_CityName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CITY_RESOURCE_DEMAND">
+      <Text>Городу {@1_CityName} {@2: plural 1?требуется; 2?требуются; other?требуется;} [COLOR_RED]{@2_ResourceName}[ENDCOLOR]! При добавлении данного ресурса в вашу торговую сеть, в городе начнется День любви к отчизне, и производство [ICON_FOOD] пищи в нем ускорится!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CITY_RESOURCE_WONDER_MOD">
+      <Text>{@2_ResourceName} теперь {@2: plural 1?доступен; 2?доступны; other?доступен;} в городе {@1_CityName}! Производство при строительстве чудес света в этом городе увеличивается на {3_Num}%!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CITY_RESOURCE_WONDER_MOD_SUMMARY">
+      <Text>В городе {@1_CityName} есть {@2_ResourceName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_UNIT_SPAWN">
+      <Text>{@1_CivName} {@1_CivName: plural 1?передает; 2?передают; other?передает;} вам юнит!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CITY_WLTKD">
+      <Text>Получение [COLOR_GREEN]{@1_Resource[2]}[ENDCOLOR] вызвало в городе {@2_CityName} День любви к отчизне, город получает прибавку к производству [ICON_FOOD] пищи!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_DEAL_EXPIRED_DEFENSIVE_PACT_FROM_US">
+      <Text>Истек срок действия оборонительного союза, который заключили мы и {@1_CivName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_DEAL_EXPIRED_DEFENSIVE_PACT_TO_US">
+      <Text>Истек срок действия оборонительного союза, который {@1_CivName} {@1: plural 1?{@1: gender masculine?заключил; feminine?заключила; neuter?заключило;}; 2?заключили; other?заключил;} с нами.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_DEAL_EXPIRED_GPT_FROM_US">
+      <Text>Истек срок действия договора, по которому {@1_CivName} {@1: plural 1?{@1: gender masculine?получал; feminine?получала; neuter?получало;}; 2?получали; other?получал;} от нас золото.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_DEAL_EXPIRED_GPT_TO_US">
+      <Text>Истек срок действия договора, по которому {@1_CivName} каждый ход {@1: plural 1?{@1: gender masculine?передавал; feminine?передавала; neuter?передавало;}; 2?передавали; other?передавал;} нам золото.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_DEAL_EXPIRED_OPEN_BORDERS_FROM_US">
+      <Text>Истек срок действия договора, по которому {@1_CivName} {@1: plural 1?{@1: gender masculine?мог; feminine?могла; neuter?могло;}; 2?могли; other?мог;} пересекать наши границы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_DEAL_EXPIRED_OPEN_BORDERS_TO_US">
+      <Text>Истек срок действия договора, по которому {@1_CivName} {@1: plural 1?{@1: gender masculine?открывал; feminine?открывала; neuter?открывало;}; 2?открывали; other?открывал;} нам свои границы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_DEAL_EXPIRED_PEACE">
+      <Text>Истек срок действия мирного договора, который заключили мы и {@1_CivName}. Теперь стороны договора могут объявить друг другу войну.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_DEAL_EXPIRED_RESEARCH_AGREEMENT_FROM_US">
+      <Text>Истек срок действия договора о научных исследованиях, который заключили мы и {@1_CivName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_DEAL_EXPIRED_RESEARCH_AGREEMENT_TO_US">
+      <Text>Истек срок действия договора о научных исследованиях, который {@1_CivName} {@1: plural 1?{@1: gender masculine?заключил; feminine?заключила; neuter?заключило;}; 2?заключили; other?заключил;} с нами.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_DEAL_EXPIRED_RESOURCE_FROM_US">
+      <Text>Истек срок действия договора, по которому {@1_CivName} {@1: plural 1?{@1: gender masculine?получал; feminine?получала; neuter?получало;}; 2?получали; other?получал;} от нас [COLOR_RED]{2_Resource[4]}[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_DEAL_EXPIRED_RESOURCE_TO_US">
+      <Text>Истек срок действия договора, по которому {@1_CivName} {@1: plural 1?{@1: gender masculine?предоставлял; feminine?предоставляла; neuter?предоставляло;}; 2?предоставляли; other?предоставлял;} нам [COLOR_GREEN]{2_Resource[4]}[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_DEAL_EXPIRED_TRADE_AGREEMENT_FROM_US">
+      <Text>Истек срок действия торгового договора, который заключили мы и {@1_CivName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_DEAL_EXPIRED_TRADE_AGREEMENT_TO_US">
+      <Text>Истек срок действия торгового договора, который {@1_CivName} {@1: plural 1?{@1: gender masculine?заключил; feminine?заключила; neuter?заключило;}; 2?заключили; other?заключил;} с нами.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_DENOUNCE">
+      <Text>{@1_CivName} публично {@1_CivName: plural 1?{@1_CivName: gender masculine?осудил; feminine?осудила; neuter?осудило;}; 2?осудили; other?осудил;} державу {@2_CivName}. По их мнению, доверять этому государству не следует!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_DENOUNCE_S">
+      <Text>{@1_CivName} публично {@1_CivName: plural 1?{@1_CivName: gender masculine?осудил; feminine?осудила; neuter?осудило;}; 2?осудили; other?осудил;} державу {@2_CivName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_DENOUNCE_YOU">
+      <Text>{1_CivName:textkey} публично {@1_CivName: plural 1?{@1_CivName: gender masculine?осудил; feminine?осудила; neuter?осудило;}; 2?осудили; other?осудил;} вас! Они говорят, что вам не следует доверять!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_DENOUNCED_YOU_S">
+      <Text>{1_CivName:textkey} публично {@1_CivName: plural 1?{@1_CivName: gender masculine?осудил; feminine?осудила; neuter?осудило;}; 2?осудили; other?осудил;} вас!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_DIPLOMACY_DECLARATION">
+      <Text>{@1_CivName} {@1: plural 1?{@1_CivName: gender masculine?сделал; feminine?сделала; neuter?сделало;}; 2?сделали; other?сделал;} официальное заявление.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_DOF">
+      <Text>{@1_CivName} и {@2_CivName} публично заявили о своей дружбе и наличии тесной связи между двумя державами.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_DOF_S">
+      <Text>{@1_CivName} и {@2_CivName} теперь друзья!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_ENOUGH_CULTURE_FOR_POLICY">
+      <Text>У вас достаточно очков культуры, чтобы принять новый общественный институт!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_ENOUGH_CULTURE_FOR_POLICY_DISMISS">
+      <Text>У вас достаточно очков культуры, чтобы принять новый общественный институт![NEWLINE][NEWLINE]Щелкните правой кнопкой мыши, чтобы отложить выбор.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_ENOUGH_GOLD_TO_BUY_PLOT">
+      <Text>Вы набрали достаточное количество золота, чтобы приобрести новую клетку в одном из ваших городов!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_ERA_VICTORY_POINTS">
+      <Text>Вы набрали {1_Num} {1_Num} {1_Num: plural 1?очко; 2?очка; 3?очков;} цивилизации и переходите в новую эпоху!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_FOUND_BARB_CAMP">
+      <Text>Обнаружен лагерь варваров! Пока вы его не уничтожите, он будет плодить орды злобных дикарей!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_FOUND_GOODY_HUT">
+      <Text>Вы обнаружили древние руины! Рассмотрите их поближе: там может быть что-нибудь полезное!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_FOUND_NATURAL_WONDER">
+      <Text>Вы обнаружили {@2_NaturalWonder[4]}! Вам осталось обнаружить еще {1_Num} {1_Num: plural 1?чудо; 2?чуда; 3?чудес;}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_FOUND_RESOURCE">
+      <Text>Вы обнаружили источник [COLOR_GREEN]{@1_ResourceName[2]}[ENDCOLOR]!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_FREE_POLICY">
+      <Text>Вы можете выбрать бесплатный общественный институт!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_FREE_POLICY_SUMMARY">
+      <Text>Бесплатный общественный институт!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_FRIENDSHIP_EXPIRED">
+      <Text>Срок действия вашей декларации о дружбе с державой {1_LeaderName} истек, и ее необходимо заключать заново.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_FRIENDSHIP_EXPIRED_S">
+      <Text>Истек срок действия декларации о дружбе!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_GOLDEN_AGE_BEGUN">
+      <Text>{@1_LongCivName} цивилизация вступает в золотой век.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_GOLDEN_AGE_BEGUN_ACTIVE_PLAYER">
+      <Text>Ваша цивилизация вступает в золотой век!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_GOLDEN_AGE_ENDED">
+      <Text>Золотой век цивилизации {@1_LongCivName} прошел.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_GOLDEN_AGE_ENDED_ACTIVE_PLAYER">
+      <Text>Золотой век вашей цивилизации прошел.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_GREAT_ARTIST_STOLE_PLOT">
+      <Text>{@1_CivName} с помощью великого художника {@1: plural 1?похищает; 2?похищают; other?похищеют;} часть ваших земель!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_GREAT_PERSON">
+      <Text>{@1_CivName} {@1_CivName: plural 1?{@1_CivName: gender masculine?получил; feminine?получила; neuter?получило;}; 2?получили; other?получил;} великого человека.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_GREAT_PERSON_ACTIVE_PLAYER">
+      <Text>В вашей цивилизации появился великий человек!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_GREAT_PERSON_UNMET">
+      <Text>В далеких землях появился великий человек!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MET_MINOR_CIV">
+      <Text>Вы обнаружили{@1: plural 1?{@1: gender masculine? ; feminine? ; neuter? ;}; 2? ; other? город-государство ;}{@1_CivName[4]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_AGGRESSOR">
+      <Text>Ваша агрессия против слабых соседей не осталась незамеченной. Они начали объединяться против вас и готовы биться насмерть. Если вы продолжите нападения на города-государства, к этому союзу присоединятся новые члены.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_ALLIES_LOST">
+      <Text>{@1_CivName} больше не ваш [COLOR_POSITIVE_TEXT]союзник[ENDCOLOR].[NEWLINE]{2_DetailsString}[NEWLINE]Они перестали предоставлять вам свои ресурсы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_ALLIES_LOST_SCIENCE">
+      <Text>также потерян [ICON_RESEARCH] научный бонус.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_ALLIES_PASSED">
+      <Text>Теперь не вы, а [COLOR_NEGATIVE_TEXT]{@1_CivName}[ENDCOLOR] - новый [COLOR_NEGATIVE_TEXT]союзник[ENDCOLOR]{@2: gender masculine? ; feminine? ; neuter? ; other? города ;}{@2_MinorCivName[2]}! {3_DetailsString} Они перестали предоставлять вам свои ресурсы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_BARB_KILLED">
+      <Text>Вы уничтожили варваров! {@1_CivName} вам очень {@1: plural 1?{@1: gender masculine?признателен; feminine?признательна; neuter?признательно;}; 2?признательны; other?признателен;}: ваше [ICON_INFLUENCE] влияние на {@1: plural 1?{@1: gender masculine?него; feminine?нее; neuter?него;}; 2?них; other?него;} увеличилось на 12!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_BARBS_QUEST">
+      <Text>{@1_CivName} {@1: plural 1?просит; 2?просят; other?просит;} вашей помощи в борьбе с варварами! Уничтожая варваров, вы увеличите [ICON_INFLUENCE] влияние на город-государство.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_BARBS_QUEST_LOST_CHANCE">
+      <Text>{@1_CivName} больше не {@1: plural 1?нуждается; 2?нуждаются; other?нуждается;} в вашей помощи в борьбе с варварами.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_BFF_LOST_RESOURCE">
+      <Text>{@1_CivName} {@1_CivName: plural 1?теряет; other?теряют;} доступ к ресурсу [COLOR_POSITIVE_TEXT]{2_ResourceNames}[ENDCOLOR], который вы получали от них! Новых поставок не будет, пока они не вернут доступ к ресурсам.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_BFF_NEW_RESOURCE">
+      <Text>{@1_CivName} {@1: plural 1?предоставляет; 2?предоставляют; other?предоставляет;} вам как союзнику ресурсы, которые они недавно получили, это [COLOR_POSITIVE_TEXT]{2_ResourceNames}[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_FRIENDS_LOST_BASE">
+      <Text>Вы и {@1_CivName} больше не [COLOR_POSITIVE_TEXT]друзья[ENDCOLOR]. {2_DetailsString} Вы не можете заходить на их земли.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_FRIENDSHIP_DECAY">
+      <Text>{@1_PlayerName} принимает общественный институт, из-за которого ваше [ICON_INFLUENCE] влияние на города-государства снижается быстрее!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_GAINED_BEST_RELATIONS_BONUS_NONE">
+      <Text>Вы получите все их [COLOR_POSITIVE_TEXT]редкие и стратегические ресурсы[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_GAINED_BEST_RELATIONS_BONUS_SOME">
+      <Text>К вам поступят [COLOR_POSITIVE_TEXT]{@1_ResourceNames}[ENDCOLOR] и другие их ресурсы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_INTRUSION">
+      <Text>Вы вторглись в границы города {@1_CivName}! Пока ваши юниты здесь находятся, ваше влияние на город снижается!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_LIBERATION">
+      <Text>{@2_MajorCivName} {@2: plural 1?освобождает; 2?освобождают; other?освобождает;}{@1: plural 1?{@1: gender masculine? ; feminine? ; neuter? ;}; 2? ; other? город-государство ;}{@1_MinorCivName[4]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_LIBERATION_YOU">
+      <Text>{@1_CivName} {@1_CivName: plural 1?получает; 2?получают; other?получает;} свободу! Этот народ обязан вам жизнью.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_LOST_ALLIES_MILITARISTIC">
+      <Text>Они будут передавать меньше бойцов в вашу армию.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_LOST_BEST_RELATIONS_BONUS">
+      <Text>Они не будут передавать свои ресурсы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_LOST_CULTURE">
+      <Text>({1_NumCulture} [ICON_CULTURE] культуры за ход).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_LOST_FRIENDS_MILITARISTIC">
+      <Text>Они перестали передавать вам отряды.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_LOST_MARITIME">
+      <Text>({1_NumCapitalFood} [ICON_FOOD] в [ICON_CAPITAL] столице, {2_NumCitiesFood} [ICON_FOOD] в остальных городах).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_BASE">
+      <Text>Теперь вы [COLOR_POSITIVE_TEXT]союзник[ENDCOLOR]{@2: gender masculine? ; feminine? ; neuter? ; other? города ;}{@2_MinorCivName[2]}. {3_DetailsString} {1_ResourceDetailsString}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_BASE_PASSED">
+      <Text>Теперь вы новый [COLOR_POSITIVE_TEXT]союзник[ENDCOLOR]{@3: gender masculine? ; feminine? ; neuter? ; other? город ;}{@3_MinorCivName[2]} (прежний - {@1_CivName}). {4_DetailsString} {2_ResourceDetailsString}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_CULTURE">
+      <Text>Этот [COLOR_POSITIVE_TEXT]культурный[ENDCOLOR] город даст вам +{1_NumCulture} [ICON_CULTURE] за ход.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_MARITIME">
+      <Text>Этот [COLOR_POSITIVE_TEXT]приморский[ENDCOLOR] город даст вам +{1_NumCapitalFood} [ICON_FOOD] в столице, +{2_NumCitiesFood} [ICON_FOOD] в других городах.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_MILITARISTIC">
+      <Text>Этот [COLOR_POSITIVE_TEXT]воинственный[ENDCOLOR] город будет часто дарить военные отряды.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_SCIENCE">
+      <Text>Вы также получите от них [ICON_RESEARCH] научный бонус.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_FRIENDS_BASE">
+      <Text>Теперь вы [COLOR_POSITIVE_TEXT]друг[ENDCOLOR] {@1_CivName[2]}. [NEWLINE]{2_DetailsString} Они также открыли вам границы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_FRIENDS_CULTURE">
+      <Text>Этот [COLOR_POSITIVE_TEXT]культурный[ENDCOLOR] город даст вам +{1_NumCulture} [ICON_CULTURE] за ход.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_FRIENDS_MARITIME">
+      <Text>Этот [COLOR_POSITIVE_TEXT]приморский[ENDCOLOR] город даст вам +{1_NumCapitalFood} [ICON_FOOD] в столице, +{2_NumCitiesFood} [ICON_FOOD] в других городах.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_FRIENDS_MILITARISTIC">
+      <Text>Этот [COLOR_POSITIVE_TEXT]воинственный[ENDCOLOR] город будет иногда дарить военные отряды.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_ROUTE_CONNECTION">
+      <Text>Ваша столица и {@1_CivName} теперь связаны! Ваше [ICON_INFLUENCE] влияние на них возросло.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_WAR_QUEST">
+      <Text>{@1_CivName} {@1: plural 1?подвергается; 2?подвергаются; other?подвергается;} агрессии и {@1: plural 1?падет; 2?падут; other?падет;}, если {@2_CivName} не {@2: plural 1?{@2_CivName: gender masculine?будет остановлен; feminine?будет остановлена; neuter?будет остановлено;}; 2?будут остановлены; other?будет остановлен;}! Эта держава просит помощи у всех. Если вам удастся уничтожить не менее {3_NumUnits} {3_NumUnits: plural 1?юнита; 2?юнитов; 3?юнитов;} их врагов, {@1_CivName} {@1_CivName: plural 1?будет; 2?будут; other?будет;} перед вами в долгу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_WAR_QUEST_COMPLETED">
+      <Text>По просьбе{@1: plural 1?{@1: gender masculine? ; feminine? ; neuter? ;}; 2? ; other? города ;}{@1_CivName[2]} вы ослабили их заклятого врага (это {@2_CivName})! Ваше [ICON_INFLUENCE] влияние на них возросло.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_WAR_QUEST_LOST_CHANCE">
+      <Text>{@1_CivName} больше не {@1_CivName: plural 1?нуждается; 2?нуждаются; other?нуждается;} в вашей помощи: {@2_CivName} их больше не {@2_CivName: plural 1?страшит; 2?страшат; other?страшит;}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_WAR_UNIT_HELP">
+      <Text>{@2_CivName} и {@1_CivName} ведут войну, и последние просят вас о помощи. Хотя они предпочли бы, чтобы вы вступили в войну открыто, вы можете помочь им и тайно, просто передав им войска. (Щелкните по их городу, чтобы передать войска.)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_WARMONGER">
+      <Text>Ваши постоянные нападения на города-государства встревожили окружающие народы. Союз для борьбы с вами все крепнет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_WARMONGER_OTHER">
+      <Text>{@1_NameKey} постоянно нападает на другие города-государства, и несколько независимых городов решили объединиться для борьбы с общим врагом! Они были бы рады любой военной помощи с вашей стороны. (Щелкните по одному из их городов, чтобы передать им войска.)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_WARMONGER_REMINDER">
+      <Text>Часть городов-государств в мире находятся в состоянии войны с цивилизацией {@1_NameKey}. Они были бы рады любой помощи, в особенности - военным подразделениям. (Нажмите на один из их городов, чтобы передать войска.)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_NEW_CONSTRUCTION">
+      <Text>{@1_CivName} {@1: plural 1?может; 2?могут; other?может;} приступить к созданию нового проекта.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_NEW_RESEARCH">
+      <Text>Вы можете выбрать новое исследование.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_OTHER_LOST_CAPITAL">
+      <Text>{@1_PlayerName} {@1_PlayerName: plural 1?теряет; 2?теряют; other?теряет;} свою первоначальную [ICON_CAPITAL] столицу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_OTHER_LOST_CAPITAL_OTHER_WINNING">
+      <Text>{@1_PlayerName} {@1_PlayerName: plural 1?теряет; 2?теряют; other?теряет;} свою первоначальную [ICON_CAPITAL] столицу. {@2_PlayerName} {@2_PlayerName: plural 1?контролирует; 2?контролируют; other?контролирует;} больше всего первоначальных [ICON_CAPITAL] столиц. ({3_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_OTHER_LOST_CAPITAL_TEAM_WINNING">
+      <Text>{@1_PlayerName} {@1_PlayerName: plural 1?теряет; 2?теряют; other?теряет;} свою первоначальную [ICON_CAPITAL] столицу. Группа {2_TeamNum} контролирует больше всего первоначальных [ICON_CAPITAL] столиц. ({3_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_OTHER_LOST_CAPITAL_UNMET_WINNING">
+      <Text>{@1_PlayerName} {@1_PlayerName: plural 1?теряет; 2?теряют; other?теряет;} свою первоначальную [ICON_CAPITAL] столицу. Неизвестный игрок контролирует больше всего первоначальных [ICON_CAPITAL] столиц. ({2_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_OTHER_LOST_CAPITAL_YOU_WINNING">
+      <Text>{@1_PlayerName} {@1_PlayerName: plural 1?теряет; 2?теряют; other?теряет;} свою первоначальную [ICON_CAPITAL] столицу. Вы контролируете больше всего первоначальных [ICON_CAPITAL] столиц. ({2_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_OTHER_REGAINED_CAPITAL">
+      <Text>{@1_PlayerName} {@1_PlayerName: plural 1?возвращает; 2?возвращают; other?возвращает;} себе первоначальную [ICON_CAPITAL] столицу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_OTHER_REGAINED_CAPITAL_OTHER_WINNING">
+      <Text>{@1_PlayerName} {@1_PlayerName: plural 1?возвращает; 2?возвращают; other?возвращает;} себе первоначальную [ICON_CAPITAL] столицу. {@2_PlayerName} {@2_PlayerName: plural 1?контролирует; 2?контролируют; other?контролирует;} больше всего первоначальных [ICON_CAPITAL] столиц. ({3_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_OTHER_REGAINED_CAPITAL_TEAM_WINNING">
+      <Text>{@1_PlayerName} {@1_PlayerName: plural 1?возвращает; 2?возвращают; other?возвращает;} себе первоначальную [ICON_CAPITAL] столицу. Группа {2_TeamNum} контролирует больше всего первоначальных [ICON_CAPITAL] столиц. ({3_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_OTHER_REGAINED_CAPITAL_UNMET_WINNING">
+      <Text>{@1_PlayerName} {@1_PlayerName: plural 1?возвращает; 2?возвращают; other?возвращает;} себе первоначальную [ICON_CAPITAL] столицу. Неизвестный игрок контролирует больше всего первоначальных [ICON_CAPITAL] столиц. ({2_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_OTHER_REGAINED_CAPITAL_YOU_WINNING">
+      <Text>{@1_PlayerName} {@1_PlayerName: plural 1?возвращает; 2?возвращают; other?возвращает;} себе первоначальную [ICON_CAPITAL] столицу. Вы контролируете больше всего первоначальных [ICON_CAPITAL] столиц. ({2_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_OVER_RESOURCE_LIMIT">
+      <Text>На данный момент вам требуется больше [COLOR_RED]{@1_Resource[2]}[ENDCOLOR], чем у вас есть! Все подразделения, которым необходим данный ресурс, будут [COLOR_NEGATIVE_TEXT]сражаться хуже[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_PLAYER_LOST_CAPITAL">
+      <Text>{@1_CivName} {@1: plural 1?теряет; 2?теряют; other?теряет;} свою [ICON_CAPITAL] столицу! {2_NumPlayers} {@2: plural 1?держава; 2?державы; 3?держав;} пока сохраняют власть над своими [ICON_CAPITAL] столицами.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_PLAYER_RECOVERED_CAPITAL">
+      <Text>{@1_CivName} {@1: plural 1?возвращает; 2?возвращают; other?возвращает;} власть над своей [ICON_CAPITAL] столицей!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONNECT_RESOURCE">
+      <Text>По просьбе{@2: plural 1?{@2: gender masculine? ; feminine? ; neuter? ;}; 2? ; other? города ;}{@2_CivName[2]} вы добавили [COLOR_GREEN]{@1_ResourceName[4]}[ENDCOLOR] в свою торговую сеть! Их торговцы довольны, а ваше [ICON_INFLUENCE] влияние на эту державу возросло.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONSTRUCT_WONDER">
+      <Text>Вы успешно выполнили все, о чем вас {@2_CivName: plural 1?{@2_CivName: gender masculine?просил; feminine?просила; other?просило;}; 2?просили;} {@2_CivName}, и создали {@1_WonderName[4]}! Ваше [ICON_INFLUENCE] влияние на них возросло.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_FIND_NATURAL_WONDER">
+      <Text>Благодаря найденному вами чуду природы, {@1_CivName} {@1: plural 1?переживает; 2?переживают; other?переживает;} духовный подъем! Ваше [ICON_INFLUENCE] влияние на их державу возросло.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_FIND_PLAYER">
+      <Text>{@1_TargetName} {@1: plural 1?{@1: gender masculine?найден; feminine?найдена; neuter?найдено;}; 2?найдены; other?найден;}, и {@2_CivName} весьма {@2: plural 1?{@2: gender masculine?рад; feminine?рада; neuter?радо;}; 2?рады; other?рад;} этому факту. Ваше [ICON_INFLUENCE] влияние на их державу возросло.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_GREAT_PERSON">
+      <Text>[COLOR_GREEN]{@1_UnitName}[ENDCOLOR] {@1: plural 1?{@1: gender masculine?был создан; feminine?была создана; neuter?было создано;}; 2?были созданы; other?был создан;} вами по просьбе{@2: plural 1?{@2: gender masculine? ; feminine? ; neuter? ;}; 2? ; other? города ;}{@2_CivName[2]}. Их ученые потрясены, и ваше [ICON_INFLUENCE] влияние на них возросло.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_KILL_CAMP">
+      <Text>Вы успешно уничтожили лагерь варваров, как и {@1: plural 1?{@1: gender masculine?просил; feminine?просила; neuter?просило;}; 2?просили; other?просил;} {@1_CivName}! Ваше влияние возросло.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_KILL_CITY_STATE">
+      <Text>{@2_CivName} {@2: plural 1?ликует; 2?ликуют; other?ликует;}: {@1_TargetName} {@1: plural 1?{@1: gender masculine?уничтожен; feminine?уничтожена; neuter?уничтожено;}; 2?уничтожены; other?уничтожен;}! Ваши друзья благодарят вас за помощь.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_CONNECT_RESOURCE">
+      <Text>{@2_CivName} {@2: plural 1?ищет; 2?ищут; other?ищет;} новых богатств, поддерживая интересы своих торговцев. Их крайне {@1: plural 1?интересует; 2?интересуют; other?интересует ресурс;} [COLOR_GREEN]{@1_ResourceName: lower}[ENDCOLOR]. Вы будете вознаграждены, если сумеете добавить данный ресурс в вашу торговую сеть.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_CONSTRUCT_WONDER">
+      <Text>{@2_CivName} {@2: plural 1?ждет; 2?ждут; other?ждет;} перемен. Ученые этой державы полагают, что {@1_WonderName} - это панацея от всех бед общества и что именно это чудо поможет начать эпоху великого просвещения. За создание этой постройки вас ждет награда.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CONSTRUCT_WONDER">
+      <Text>Некто уже создал {@1_WonderName[4]}. Теперь вы не сможете сделать то, о чем вас {@2_CivName: plural 1?просит; 2?просят; other?просит;} {@2_CivName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_KILL_CITY_STATE">
+      <Text>{@1_TargetName} кем-то уже {@1: plural 1?{@1: gender masculine?уничтожен; feminine?уничтожена; neuter?уничтожено;}; 2?уничтожены; other?уничтожен;}. Теперь вы не сможете сделать то, о чем вас {@2: plural 1?просит; 2?просят; other?просит;} {@2_CivName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_FIND_NATURAL_WONDER">
+      <Text>Богатые граждане{@1: plural 1?{@1: gender masculine? ; feminine? ; neuter? ;}; 2? ; other? державы ;}{@1_CivName[2]} слышали о том, что есть невероятные чудеса природы, еще не открытые человеком. Они хотели бы, чтобы кто-то проверил эти слухи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_FIND_PLAYER">
+      <Text>{@2_CivName} {@2: plural 1?ищет; 2?ищут; other?ищет;} новые торговые возможности. Они слышали о далекой империи {@1_TargetName}. Если вы сумеете обнаружить ее земли, вас ждет щедрая награда.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_GREAT_PERSON">
+      <Text>Ученым{@1: plural 1?{@1: gender masculine? ; feminine? ; neuter? ;}; 2? ; other? города ;}{@2_CivName[2]} {@1: plural 1?требуется; 2?требуются; other?требуется;} [COLOR_RED]{@1_UnitName}[ENDCOLOR]. Если в вашей державе появится хотя бы один из них, они вознаградят вас.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_KILL_CAMP">
+      <Text>{@1_CivName} {@1: plural 1?желает; 2?желают; other?желает;} избавиться от варварского лагеря неподалеку от их границ. Они хотят, чтобы кто-нибудь его уничтожил, и готовы дать за это щедрое вознаграждение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_KILL_CITY_STATE">
+      <Text>{@2_CivName} {@2: plural 1?ведет; 2?ведут; other?ведет;} затяжной конфликт с {@1_TargetName[5]}. {@2_CivName} {@2: plural 1?ищет; 2?ищут; other?ищет;} помощи крупной державы, которая бы уничтожила их врага. За это обещают щедрое вознаграждение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_START_ROUTE">
+      <Text>{@1_CivName} {@1: plural 1?желает; 2?желают; other?желает;}, чтобы вы соединили вашу и их столицы дорогами!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_REMOVED_UNIT">
+      <Text>Город {@1_CityName} пытается разместить {@2_UnitName[4]}, но для него не нашлось подходящей клетки.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RESEARCH_AGREEMENT">
+      <Text>{@1_CivName} и {@2_CivName} заключают договор о научных исследованиях!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_ROUTE_TO_CANCELLED">
+      <Text>Ваши рабочие, получившие приказ строить дорогу до места назначения, заблокированы и не могут продолжать строительство.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SM_MINOR_BARB_KILLED">
+      <Text>Вблизи границ города {@1_CivName} уничтожены варвары!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SOMEONE_LOST_CAPITAL">
+      <Text>Неизвестная цивилизация лишилась своей [ICON_CAPITAL] столицы! {1_NumPlayers} {1_NumPlayers: plural 1?держава; 2?державы; 3?держав;} пока сохраняют власть над своими [ICON_CAPITAL] столицами.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SOMEONE_RECOVERED_CAPITAL">
+      <Text>Неизвестная цивилизация возвращает себе власть над [ICON_CAPITAL] своей столицей!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_BARB_CAMP_CONVERTS">
+      <Text>Лагерь варваров присоединяется к вам!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_BARB_NAVAL_UNIT_CONVERTS">
+      <Text>Судно варваров присоединяется к вам!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_BEST_IN_GREAT_PEOPLE_ANOTHER">
+      <Text>{@1_CivName} {@1: plural 1?обладает; 2?обладают; other?обладает;} наибольшим числом великих людей.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_BEST_IN_GREAT_PEOPLE_UNMET">
+      <Text>Неизвестный игрок обладает наибольшим числом великих людей.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_BEST_IN_GREAT_PEOPLE_YOU">
+      <Text>Наибольшее число великих людей!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_BEST_IN_POLICIES_ANOTHER">
+      <Text>{@1_CivName} {@1: plural 1?обладает; 2?обладают; other?обладает;} наибольшим числом институтов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_BEST_IN_POLICIES_UNMET">
+      <Text>Неизвестный игрок обладает наибольшим числом институтов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_BEST_IN_POLICIES_YOU">
+      <Text>Наибольшее число общественных институтов!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_BEST_IN_WONDERS_ANOTHER">
+      <Text>{@1_CivName} {@1: plural 1?обладает; 2?обладают; other?обладает;} наибольшим числом чудес.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_BEST_IN_WONDERS_UNMET">
+      <Text>Неизвестный игрок обладает наибольшим числом чудес.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_BEST_IN_WONDERS_YOU">
+      <Text>Наибольшее число чудес света!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_CAN_SHOOT">
+      <Text>{@1_CityName} {@1: plural 1?может; 2?могут; other?может;} обстрелять врага!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_CULTURE_ACQUIRED_NEW_PLOT">
+      <Text>Границы города {@1_CityName} расширились!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_GROWTH">
+      <Text>Город {@1_CityName} растет!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_LOST">
+      <Text>Город {@1_CityName} захвачен!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_RESOURCE_DEMAND">
+      <Text>Городу {@1_CityName} {@2: plural 1?{@2: gender masculine?нужен; feminine?нужна; neuter?нужно;}; 2?нужны; other?нужен;} {@2_ResourceName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_STATE_UNIT_SPAWN">
+      <Text>{@1_CivName} {@1: plural 1?передает; 2?передают; other?передеют;} вам юнит!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_WLTKD">
+      <Text>Город {@1_CityName} любит отчизну!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DEAL_EXPIRED_DEFENSIVE_PACT_FROM_US">
+      <Text>Мы и {@1_CivName} больше не связаны оборонительным союзом</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DEAL_EXPIRED_DEFENSIVE_PACT_TO_US">
+      <Text>Мы и {@1_CivName} больше не связаны оборонительным союзом</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DEAL_EXPIRED_GPT_FROM_US">
+      <Text>{@1_CivName} больше не {@1: plural 1?получает; 2?получают; other?получает;} золото</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DEAL_EXPIRED_GPT_TO_US">
+      <Text>{@1_CivName} больше не {@1: plural 1?поставляет; 2?поставляют; other?поставляет;} золото</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DEAL_EXPIRED_OPEN_BORDERS_FROM_US">
+      <Text>{@1_CivName} больше не {@1: plural 1?может; 2?могут; other?может;} пересекать границы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DEAL_EXPIRED_OPEN_BORDERS_TO_US">
+      <Text>{@1_CivName} {@1: plural 1?{@1: gender masculine?закрыл; feminine?закрыла; neuter?закрыло;}; 2?закрыли; other?закрыл;} границы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DEAL_EXPIRED_PEACE">
+      <Text>Истек срок действия мирного договора.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DEAL_EXPIRED_RESEARCH_AGREEMENT_FROM_US">
+      <Text>Договор о научных исследованиях, который заключили мы и {@1_CivName}, выполнен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DEAL_EXPIRED_RESEARCH_AGREEMENT_TO_US">
+      <Text>Договор о научных исследованиях, который заключили мы и {@1_CivName}, выполнен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DEAL_EXPIRED_RESOURCE_FROM_US">
+      <Text>{@1_CivName} больше не {@1: plural 1?получает; 2?получают; other?получает;} [COLOR_RED]{@2_Resource[4]}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DEAL_EXPIRED_RESOURCE_TO_US">
+      <Text>{@1_CivName} больше не {@1: plural 1?поставляет; 2?поставляют; other?поставляет;} [COLOR_RED]{@2_Resource[4]}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DEAL_EXPIRED_TRADE_AGREEMENT_FROM_US">
+      <Text>Мы и {@1_CivName} больше не связаны торговым договором</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DEAL_EXPIRED_TRADE_AGREEMENT_TO_US">
+      <Text>Мы и {@1_CivName} больше не связаны торговым договором</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ENOUGH_CULTURE_FOR_POLICY">
+      <Text>Можно принять общественный институт!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ENOUGH_GOLD_TO_BUY_PLOT">
+      <Text>Можно приобрести землю!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ERA_VICTORY_POINTS">
+      <Text>Новая эпоха!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_FOUND_BARB_CAMP">
+      <Text>Обнаружен лагерь варваров!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_FOUND_GOODY_HUT">
+      <Text>Обнаружены руины!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_FOUND_NATURAL_WONDER">
+      <Text>Обнаружено чудо природы!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_FOUND_RESOURCE">
+      <Text>{@1: plural 1?{@1: gender masculine?Обнаружен; feminine?Обнаружена; neuter?Обнаружено;}; 2?Обнаружены;} [COLOR_GREEN]{@1_ResourceName}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GOLDEN_AGE_BEGUN">
+      <Text>{@1_CivName} {@1: plural 1?переживает; 2?переживают; other?переживает;} золотой век.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GOLDEN_AGE_BEGUN_ACTIVE_PLAYER">
+      <Text>Начинается золотой век!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GOLDEN_AGE_ENDED">
+      <Text>{@1_CivName} {@1: plural 1?выходит; 2?выходят; other?выходит;} из золотого века.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GOLDEN_AGE_ENDED_ACTIVE_PLAYER">
+      <Text>Ваш золотой век проходит.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GREAT_ARTIST_STOLE_PLOT">
+      <Text>{@1_CivName} {@1: plural 1?похищает; 2?похищает; other?похищает;} часть ваших земель!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GREAT_PERSON">
+      <Text>Появляется великий человек!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MET_MINOR_CIV">
+      <Text>Вы встретили новый народ. {@1_CivName} {@1: plural 1?{@1: gender masculine?готов; feminine?готова; neuter?готово;}; 2?готовы; other?готов;} к переговорам</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_AGGRESSOR">
+      <Text>Города-государства обеспокоены!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_ALLIES_STATUS">
+      <Text>Теперь вы и {@1_CivName} - союзники!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_ALLIES_STATUS_LOST">
+      <Text>Вы и {@1_CivName} больше не союзники!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_ALLIES_STATUS_PASSED">
+      <Text>{@1_CivName} и {@2_MinorCivName} теперь союзники!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_BARBS_QUEST">
+      <Text>{@1_CivName} {@1: plural 1?подвергается; 2?подвергаются; other?подвергается;} нападению!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_BARBS_QUEST_LOST_CHANCE">
+      <Text>{@1_CivName} {@1: plural 1?отменяет; 2?отменяют; other?отменяет;} просьбу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_BFF_LOST_RESOURCE">
+      <Text>{@1_CivName} больше не {@1: plural 1?поставляет; 2?поставляют; other?поставляет;} вам [COLOR_RED]{2_ResourceNames[4]}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_BFF_NEW_RESOURCE">
+      <Text>{@1_CivName} {@1_CivName: plural 1?передает; other?передают;} ресурс {2_ResourceNames}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_FRIENDS_STATUS">
+      <Text>Вы и {@1_CivName} - теперь друзья!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_FRIENDS_STATUS_LOST">
+      <Text>Вы и {@1_CivName} - больше не друзья!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_FRIENDSHIP_DECAY">
+      <Text>Изменилось [ICON_INFLUENCE] влияние на город-государство!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_GAINED_BEST_RELATIONS_BONUS">
+      <Text>{@1_CivName} {@1: plural 1?симпатизирует; 2?симпатизируют; other?симпатизирует;} вам!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_INTRUSION">
+      <Text>Вы вторглись в границы{@1: plural 1?{@1: gender masculine? ; feminine? ; neuter? ;}; 2? ; other? державы ;}{@1_CivName[2]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_LIBERATION">
+      <Text>{@1: plural 1?{@1: gender masculine? ; feminine? ; neuter? ;}; 2? ; other?Держава ;}{@1_CivName} {@1: plural 1?{@1: gender masculine?освобожден; feminine?освобождена; neuter?освобождено;}; 2?освобождены; other?освобожден;}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_LOST_BEST_RELATIONS_BONUS">
+      <Text>{@1_CivName} вам больше не {@1: plural 1?симпатизирует; 2?симпатизируют; other?симпатизирует;}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_ROUTE_CONNECTION">
+      <Text>Дорога в земли{@1: plural 1?{@1: gender masculine? ; feminine? ; neuter? ;}; 2? ; other? державы ;}{@1_CivName[2]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_WAR_QUEST">
+      <Text>{@1_CivName} {@1: plural 1?подвергается; 2?подвергаются; other?подвергается;} нападению державы {@2_CivName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_WAR_QUEST_COMPLETED">
+      <Text>{@1_CivName} {@1: plural 1?ликует; 2?ликуют; other?ликует;}: вы защитили их от врага!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_WAR_QUEST_LOST_CHANCE">
+      <Text>{@1_CivName} больше не {@1: plural 1?ведет; 2?ведут; other?ведет;} войну.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_WAR_UNIT_HELP">
+      <Text>{@1_CivName} {@1: plural 1?просит; 2?просят; other?просит;} юниты!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_WARMONGER">
+      <Text>Город-государство становится враждебным!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_WARMONGER_OTHER">
+      <Text>Города-государства объединяются против державы {@1_NameKey}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_WARMONGER_REMINDER">
+      <Text>Города-государства просят помощи!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_NEW_RESEARCH">
+      <Text>Выберите исследование.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_OVER_RESOURCE_LIMIT">
+      <Text>Вам {@1: plural 1?требуется; 2?требуются; other?требуется;} [COLOR_RED]{@1_Resource}[ENDCOLOR]!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_PLAYER_LOST_CAPITAL">
+      <Text>{@1_CivName} {@1: plural 1?теряет; 2?теряют; other?теряет;} свою [ICON_CAPITAL] столицу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_PLAYER_RECOVERED_CAPITAL">
+      <Text>{@1_CivName} {@1: plural 1?возвращает; 2?возвращают; other?возвращает;} свою [ICON_CAPITAL] столицу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_CONNECT_RESOURCE">
+      <Text>{@1_ResourceName} в торговой сети по просьбе{@2: plural 1?{@2: gender masculine? ; feminine? ; neuter? ;}; 2? ; other? города ;}{@2_CivName[2]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_CONSTRUCT_WONDER">
+      <Text>По просьбе{@2: plural 1?{@2: gender masculine? ; feminine? ; neuter? ;}; 2? ; other? города ;}{@2_CivName[2]} {@1_WonderName: plural 1?{@1_WonderName: gender masculine?был создан; feminine?была создана; other?было создано;}; 2?были созданы;} {@1_WonderName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_FIND_NATURAL_WONDER">
+      <Text>Вы нашли чудо природы по просьбе{@1: plural 1?{@1: gender masculine? ; feminine? ; neuter? ;}; 2? ; other? города ;}{@1_CivName[2]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_FIND_PLAYER">
+      <Text>{@1: plural 1?{@1: gender masculine?Обнаружен; feminine?Обнаружена; neuter?Обнаружено;}; 2?Обнаружены; other?Обнаружен;} {@1_TargetName} по просьбе{@2: plural 1?{@2: gender masculine? ; feminine? ; neuter? ;}; 2? ; other? города ;}{@2_CivName[2]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_GREAT_PERSON">
+      <Text>{@1: plural 1?{@1: gender masculine?Ваш; feminine?Ваша; neuter?Ваше;}; 2?Ваши; other?Ваш;} {1_UnitName} был радушно принят в{@2: plural 1?{@2: gender masculine? ; feminine? ; neuter? ;}; 2? ; other? городе ;}{@2_CivName[6]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_KILL_CAMP">
+      <Text>Лагерь очищен по просьбе{@1: plural 1?{@1: gender masculine? ; feminine? ; neuter? ;}; 2? ; other? города ;}{@1_CivName[2]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_KILL_CITY_STATE">
+      <Text>{@1_TargetName} {@1: plural 1?{@1: gender masculine?уничтожен; feminine?уничтожена; neuter?уничтожено;}; 2?уничтожены; other?уничтожен;} по просьбе{@2: plural 1?{@2: gender masculine? ; feminine? ; neuter? ;}; 2? ; other? города ;}{@2_CivName[2]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_CONNECT_RESOURCE">
+      <Text>{@2: plural 1?{@2: gender masculine?; feminine?; neuter?;}; 2?; other?Городу ;}{@2_CivName[3]} {@1: plural 1?требуется; 2?требуются; other?требуется ресурс;} {@1_ResourceName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_CONSTRUCT_WONDER">
+      <Text>{@2: plural 1?{@2: gender masculine?; feminine?; neuter?;}; 2?; other?Город ;}{@2_CivName} {@2: plural 1?мечтает; 2?мечтают; other?мечтает;} о {@1_WonderName[6]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_CONSTRUCT_WONDER">
+      <Text>Создать {@1_WonderName[4]} для{@2: plural 1?{@2: gender masculine? ; feminine? ; neuter? ;}; 2? ; other? города ;}{@2_CivName[2]}, не получится!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_KILL_CITY_STATE">
+      <Text>{@1_TargetName} не {@1: plural 1?{@1: gender masculine?может быть уничтожен; feminine?может быть уничтожена; neuter?может быть уничтожено;}; 2?не могут быть уничтожены; other?может быть уничтожен;}, как того {@2: plural 1?{@2: gender masculine?хотел; feminine?хотела; neuter?хотело;}; 2?хотели; other?хотел город;} {@2_CivName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_FIND_NATURAL_WONDER">
+      <Text>{@1_CivName} {@1: plural 1?ищет; 2?ищут; other?ищет;} новое чудо природы!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_FIND_PLAYER">
+      <Text>{@2_CivName} {@2: plural 1?ведет; 2?ведут; other?ведет;} поиски: им {@1: plural 1?{@1: gender masculine?нужен; feminine?нужна; neuter?нужно;}; 2?нужны; other?нужен;} {@1_TargetName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_GREAT_PERSON">
+      <Text>{@2_CivName[3]} {@1: plural 1?требуется; 2?требуются; other?требуется;} {@1_UnitName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_KILL_CAMP">
+      <Text>{@1_CivName} {@1: plural 1?хочет; 2?хотят; other?хочет;} уничтожить лагерь по соседству.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_KILL_CITY_STATE">
+      <Text>{@2_CivName} {@2_CivName: plural 1?хочет; other?хотят;}, чтобы {@1_TargetName} {@1_TargetName: plural 1?{@1_TargetName: gender masculine?был уничтожен; feminine?была уничтожена; other?было уничтожено;}; 2?были уничтожены;}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_START_ROUTE">
+      <Text>{@1_CivName} {@1: plural 1?просит; 2?просят; other?просит;} построить дорогу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_REMOVED_UNIT">
+      <Text>Нет места для нового юнита!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_RESEARCH_AGREEMENT">
+      <Text>Новый договор о научных исследованиях!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ROUTE_TO_CANCELLED">
+      <Text>Строительство дороги отменено!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_SOMEONE_LOST_CAPITAL">
+      <Text>Неизвестный игрок теряет свою [ICON_CAPITAL] столицу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_SOMEONE_RECOVERED_CAPITAL">
+      <Text>Неизвестный игрок возвращает свою [ICON_CAPITAL] столицу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_TRADE_ROUTE_BROKEN">
+      <Text>Торговый путь [ICON_CONNECTED] прерван!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_TRADE_ROUTE_ESTABLISHED">
+      <Text>Налажен [ICON_CONNECTED] торговый путь!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_UNIT_CAN_GET_PROMOTION">
+      <Text>Повышение квалификации!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_VICTORY_CATEGORY_FIRST_PLACE">
+      <Text>{@1_CivName} - 1 место в эпохе!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_VICTORY_CATEGORY_FIRST_PLACE_YOU">
+      <Text>1 место в эпохе</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_VICTORY_CATEGORY_FOURTH_PLACE">
+      <Text>{@1_CivName} - 4 место в эпохе!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_VICTORY_CATEGORY_FOURTH_PLACE_YOU">
+      <Text>4 место в эпохе</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_VICTORY_CATEGORY_SECOND_PLACE">
+      <Text>{@1_CivName} - 2 место в эпохе!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_VICTORY_CATEGORY_SECOND_PLACE_YOU">
+      <Text>2 место в эпохе</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_VICTORY_CATEGORY_THIRD_PLACE">
+      <Text>{@1_CivName} - 3 место в эпохе!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_VICTORY_CATEGORY_THIRD_PLACE_YOU">
+      <Text>3 место в эпохе</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_VICTORY_RACE_WON_SOMEBODY">
+      <Text>{@1_CivName} #{2_Rank} ({@3_Victory: lower} победа)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_VICTORY_RACE_WON_UNMET">
+      <Text>Неизвестный игрок - #{1_Rank} ({@2_Victory: lower} победа)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_VICTORY_RACE_WON_YOU">
+      <Text>#{1_Rank} ({@2_Victory: lower} победа)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_VICTORY_WINNER">
+      <Text>{@1_CivName} {@1: plural 1?побеждает; 2?побеждают; other?побеждает;}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_WONDER_STARTED">
+      <Text>{@1_CivName} {@1: plural 1?начинает; 2?начинают; other?начинает;} строить {@2_BldgName[4]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_WONDER_STARTED_UNKNOWN">
+      <Text>Неизвестный игрок начинает строительство {@1_BldgName[2]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_YOU_LOST_CAPITAL">
+      <Text>Столица [ICON_CAPITAL] потеряна!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_YOU_RECOVERED_CAPITAL">
+      <Text>Столица [ICON_CAPITAL] возвращена!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_THEIR_DENUNCIATION_EXPIRED">
+      <Text>Тот факт, что вы были осуждены державой {1_LeaderName}, больше не имеет значения для остальных мировых лидеров.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_THEIR_DENUNCIATION_EXPIRED_S">
+      <Text>Истек срок действия публичного осуждения вас!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TRADE_ROUTE_BROKEN">
+      <Text>Нарушен [ICON_CONNECTED] торговый путь между городом {@1_CityName} и вашей столицей {@2_CityName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TRADE_ROUTE_ESTABLISHED">
+      <Text>Налажен [ICON_CONNECTED] торговый путь между городом {@1_CityName} и вашей столицей {@2_CityName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_UNIT_CAN_GET_PROMOTION">
+      <Text>У ваших бойцов достаточно опыта для повышения квалификации!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_UNMET_LOST_CAPITAL">
+      <Text>Некто теряет свою первоначальную [ICON_CAPITAL] столицу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_UNMET_LOST_CAPITAL_OTHER_WINNING">
+      <Text>Неизвестный игрок теряет свою первоначальную [ICON_CAPITAL] столицу. {@1_PlayerName} {@1_PlayerName: plural 1?контролирует; 2?контролируют; other?контролирует;} больше всего первоначальных [ICON_CAPITAL] столиц. ({2_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_UNMET_LOST_CAPITAL_TEAM_WINNING">
+      <Text>Неизвестный игрок теряет свою первоначальную [ICON_CAPITAL] столицу. Группа {1_TeamNum} контролирует большую часть первоначальных [ICON_CAPITAL] столиц. ({2_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_UNMET_LOST_CAPITAL_UNMET_WINNING">
+      <Text>Неизвестный игрок теряет свою первоначальную [ICON_CAPITAL] столицу. Неизвестный игрок контролирует большую часть первоначальных [ICON_CAPITAL] столиц. ({1_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_UNMET_LOST_CAPITAL_YOU_WINNING">
+      <Text>Неизвестный игрок теряет свою первоначальную [ICON_CAPITAL] столицу. Вы контролируете большую часть первоначальных [ICON_CAPITAL] столиц. ({1_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_UNMET_REGAINED_CAPITAL">
+      <Text>Неизвестный игрок возвращает себе свою первоначальную [ICON_CAPITAL] столицу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_UNMET_REGAINED_CAPITAL_OTHER_WINNING">
+      <Text>Неизвестный игрок возвращает себе свою первоначальную [ICON_CAPITAL] столицу. {@1_PlayerName} {@1_PlayerName: plural 1?контролирует; 2?контролируют; other?контролирует;} больше всего первоначальных [ICON_CAPITAL] столиц. ({2_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_UNMET_REGAINED_CAPITAL_TEAM_WINNING">
+      <Text>Неизвестный игрок возвращает себе свою первоначальную [ICON_CAPITAL] столицу. Группа {1_TeamNum} контролирует большую часть первоначальных [ICON_CAPITAL] столиц. ({2_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_UNMET_REGAINED_CAPITAL_UNMET_WINNING">
+      <Text>Неизвестный игрок возвращает себе свою первоначальную [ICON_CAPITAL] столицу. Неизвестный игрок контролирует большую часть первоначальных [ICON_CAPITAL] столиц. ({1_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_UNMET_REGAINED_CAPITAL_YOU_WINNING">
+      <Text>Неизвестный игрок возвращает себе свою первоначальную [ICON_CAPITAL] столицу. Вы контролируете большую часть первоначальных [ICON_CAPITAL] столиц. ({1_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_VICTORY_CATEGORY_FIRST_PLACE">
+      <Text>{@1_CivName} {@1: plural 1?получает; 2?получают; other?получает;} первое место в эпохе {@2_Era}. Это {@3_Victory: lower} победа!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_VICTORY_CATEGORY_FIRST_PLACE_YOU">
+      <Text>Вы завоевали первое место в эпохе {@2_Era}. Это {@3_Victory: lower} победа!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_VICTORY_CATEGORY_FOURTH_PLACE">
+      <Text>{@1_CivName} {@1: plural 1?получает; 2?получают; other?получает;} четвертое место в эпохе {@2_Era} ({@3_Victory: lower} победа)!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_VICTORY_CATEGORY_FOURTH_PLACE_YOU">
+      <Text>Вы завоевали четвертое место в эпохе {@2_Era} ({@3_Victory: lower} победа)!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_VICTORY_CATEGORY_SECOND_PLACE">
+      <Text>{@1_CivName} {@1: plural 1?получает; 2?получают; other?получает;} второе место в эпохе {@2_Era} ({@3_Victory: lower} победа)!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_VICTORY_CATEGORY_SECOND_PLACE_YOU">
+      <Text>Вы завоевали второе место в эпохе {@2_Era} ({@3_Victory: lower} победа)!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_VICTORY_CATEGORY_THIRD_PLACE">
+      <Text>{@1_CivName} {@1: plural 1?получает; 2?получают; other?получает;} третье место в эпохе {@2_Era} ({@3_Victory: lower} победа)!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_VICTORY_CATEGORY_THIRD_PLACE_YOU">
+      <Text>Вы завоевали третье место в эпохе {@2_Era} ({@3_Victory: lower} победа)!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_VICTORY_RACE_WON_SOMEBODY">
+      <Text>{@1_CivName} {@1: plural 1?получает; 2?получают; other?получает;} #{2_Rank} место в состязании за победу ({@3_Victory: lower} победа) и {4_Num} {4_Num: plural 1?очко; 2?очка; 3?очков;} цивилизации!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_VICTORY_RACE_WON_UNMET">
+      <Text>Неизвестный вам игрок получает #{1_Rank} место ({@2_Victory: lower} победа) и зарабатывает {4_Num} {4_Num: plural 1?очко; 2?очка; 3?очков;} цивилизации!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_VICTORY_RACE_WON_YOU">
+      <Text>Вы занимаете #{1_Rank} место в состязании за победу ({@2_Victory: lower} победа) и получаете {3_Num} {3_Num: plural 1?очко; 2?очка; 3?очков;} цивилизации!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_VICTORY_WINNER">
+      <Text>{@1_CivName} {@1_CivName: plural 1?побеждает; 2?побеждают; other?побеждает;} в игре. Это {@2_Victory: lower} победа!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_WONDER_STARTED">
+      <Text>{@1_CivName} {@1: plural 1?начинает; 2?начинают; other?начинает;} постройку {@2_BldgName[2]} в городе {@3_CityName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_WONDER_STARTED_UNKNOWN_LOCATION">
+      <Text>{@1_CivName} {@1: plural 1?начинает; 2?начинают; other?начинает;} постройку {@2_BldgName[2]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_WONDER_STARTED_UNMET">
+      <Text>Неизвестная цивилизация начинает постройку чуда света {1_BldgName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_YOU_DENOUNCE">
+      <Text>Вы публично осудили державу {1_CivName:textkey}! По вашему мнению, им категорически нельзя доверять.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_YOU_DENOUNCE_S">
+      <Text>Вы публично осудили державу {1_CivName:textkey}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_YOU_LOST_CAPITAL">
+      <Text>Вы потеряли свою [ICON_CAPITAL] столицу! У {1_NumPlayers} остальных игроков [ICON_CAPITAL] столица пока что есть.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_YOU_LOST_CAPITAL_OTHER_PLAYER_WINNING">
+      <Text>Вы потеряли вашу первоначальную [ICON_CAPITAL] столицу! {@1_PlayerName} {@1_PlayerName: plural 1?контролирует; 2?контролируют; other?контролирует;} больше всего первоначальных [ICON_CAPITAL] столиц. ({2_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_YOU_LOST_CAPITAL_TEAM_WINNING">
+      <Text>Вы потеряли вашу первоначальную [ICON_CAPITAL] столицу! Группа {1_Num} контролирует большую часть первоначальных [ICON_CAPITAL] столиц. ({2_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_YOU_LOST_CAPITAL_UNMET_WINNING">
+      <Text>Вы потеряли вашу первоначальную [ICON_CAPITAL] столицу! Неизвестный игрок контролирует большую часть первоначальных [ICON_CAPITAL] столиц ({1_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_YOU_LOST_CAPITAL_YOU_WINNING">
+      <Text>Вы потеряли вашу первоначальную [ICON_CAPITAL] столицу! Вы контролируете большую часть первоначальных [ICON_CAPITAL] столиц. ({1_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_YOU_RECOVERED_CAPITAL">
+      <Text>Вы вернули себе [ICON_CAPITAL] столицу!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_YOU_REGAINED_CAPITAL_OTHER_PLAYER_WINNING">
+      <Text>Вы вернули себе вашу [ICON_CAPITAL] столицу! {@1_PlayerName} {@1_PlayerName: plural 1?контролирует; 2?контролируют; other?контролирует;} больше всего первоначальных [ICON_CAPITAL] столиц. ({2_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_YOU_REGAINED_CAPITAL_TEAM_WINNING">
+      <Text>Вы вернули себе вашу [ICON_CAPITAL] столицу! Группа {1_Num} контролирует большую часть первоначальных [ICON_CAPITAL] столиц. ({2_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_YOU_REGAINED_CAPITAL_UNMET_WINNING">
+      <Text>Вы вернули себе вашу [ICON_CAPITAL] столицу! Неизвестный игрок контролирует большую часть первоначальных [ICON_CAPITAL] столиц ({1_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_YOU_REGAINED_CAPITAL_YOU_WINNING">
+      <Text>Вы вернули себе вашу первоначальную [ICON_CAPITAL] столицу! Вы контролируете большую часть первоначальных [ICON_CAPITAL] столиц. ({1_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_CITY_STARVING">
+      <Text>Город {@1_CityName} голодает! Если запасы [ICON_FOOD] пищи закончатся, начнут погибать [ICON_CITIZEN] граждане!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_CITY_STARVING_S">
+      <Text>Город {@1_CityName} голодает!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_CITY_STATE_ALMOST_NOT_ALLIES">
+      <Text>Ваше [ICON_INFLUENCE] влияние на{@1: plural 1?{@1: gender masculine? ; feminine? ; neuter? ;}; 2? ; other? город-государство ;}{@1_CivName[4]} снизилось, и вскоре вы можете лишиться статуса союзника!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_CITY_STATE_ALMOST_NOT_FRIENDS">
+      <Text>Ваше [ICON_INFLUENCE] влияние на{@1: plural 1?{@1: gender masculine? ; feminine? ; neuter? ;}; 2? ; other? город-государство ;}{@1_CivName[4]} снизилось, и вскоре ваша дружба может закончиться!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_CITY_STATE_ALMOST_SM">
+      <Text>Вы теряете влияние на{@1: plural 1?{@1: gender masculine? ; feminine? ; neuter? ;}; 2? ; other? город-государство ;}{@1_CivName[4]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_DENOUNCED">
+      <Text>{1_PlayerName} публично осуждает другого лидера. Целью становится {2_PlayerName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_DENOUNCED_S">
+      <Text>{1_PlayerName} выносит осуждение, жертва: {2_PlayerName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_DENOUNCED_US">
+      <Text>{1_PlayerName} публично {@1: plural 1?осуждает 2?осуждают; other?осуждает;} нас!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_DENOUNCED_US_S">
+      <Text>{1_PlayerName} выносит нам осуждение!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_DOF">
+      <Text>{1_PlayerName} и {2_PlayerName} подписывают декларацию о дружбе.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_DOF_S">
+      <Text>{1_PlayerName} и {2_PlayerName} объявляют о дружбе!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_INCOME_DEFICIT">
+      <Text>Ваша казна пуста, а ваша экономика производит 0 [ICON_GOLD] золота за ход или даже меньше! Если доход вашей державы сократится до {1_Num} [ICON_GOLD] золота за ход, некоторые ваши юниты будут распущены!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_INCOME_DEFICIT_S">
+      <Text>Вы теряете золото!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_MINOR_BEST_RELATIONS_LOST_ALL">
+      <Text>{@1_NewCivName} больше не {@1_NewCivName: plural 1?союзник; 2?союзники;}{@1: gender masculine? ; feminine? ; neuter? ; other? города ;}{@2_MinorName[2]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_MINOR_BONUSES_CHANGED">
+      <Text>Вы вступили в новую эпоху, и бонусы от некоторых городов-государств увеличились!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_MINOR_BONUSES_CHANGED_SM">
+      <Text>Бонусы от городов-государств изменились!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_MINOR_NEW_BEST_RELATIONS_ALL">
+      <Text>{@1_NewCivName} {@1: plural 1?становится; 2?становятся; other?становится;} союзником{@3: plural 1?{@3: gender masculine? ; feminine? ; neuter? ;}; 2? ; other? города ;}{@3_MinorName[2]}. Прежде их союзником {@2: plural 1?{@2 gender masculine?был; feminine?была; neuter?было;} 2?были; other?был город;} {@2_OldCivName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_MINOR_NOW_ALLIES_ALL">
+      <Text>{@1_MajorCivName}: [ICON_INFLUENCE] влияние на{@2: plural 1?{@2: gender masculine? ; feminine? ; neuter? ;}; 2? ; other? город ;}{@2_MinorName[4]} возросло, теперь они союзники!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_MINOR_NOW_BEST_RELATIONS_ALL">
+      <Text>{@1_NewCivName} теперь союзник{@2: plural 1?{@2: gender masculine? ; feminine? ; neuter? ;}; 2? ; other? города ;}{@2_MinorName[2]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_MINOR_NOW_FRIENDS_ALL">
+      <Text>{@1_MajorCivName}: [ICON_INFLUENCE] влияние на{@2: plural 1?{@2: gender masculine? ; feminine? ; neuter? ;}; 2? ; other? город ;}{@2_MinorName[4]} возросло, теперь между ними дружественные отношения!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_MINOR_WERE_ALLIES_NOW_FRIENDS_ALL">
+      <Text>{@1_MajorCivName}: [ICON_INFLUENCE] влияние на{@2: plural 1?{@1: gender masculine? ; feminine? ; neuter? ;}; 2? ; other? город ;}{@2_MinorName[4]} снизилось. Они больше не союзники, но отношения остаются дружественными.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_MINOR_WERE_FRIENDS_ALL">
+      <Text>{@1_MajorCivName}: [ICON_INFLUENCE] влияние на{@2: plural 1?{@1: gender masculine? ; feminine? ; neuter? ;}; 2? ; other? город ;}{@2_MinorName[4]} снизилось, их отношения более не являются дружественными!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_PLAYER_ERA">
+      <Text>{@1_PlayerName} входит в {@2_EraString}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_QUEST_ENDED_KILL_CAMP">
+      <Text>Варварский лагерь, который {@1_MinorName: plural 1?хочет; 2?хотят; other?хочет;} уничтожить{@1: gender masculine? ; feminine? ; neuter? ; other? город ;}{@1_MinorName}, был разрушен кем-то другим!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_QUEST_ENDED_KILL_CAMP_S">
+      <Text>{@1: gender masculine? ; feminine? ; neuter? ; other?Город ;}{@1_MinorName} в вашей помощи более не {@1: plural 1?нуждается; 2?нуждаются; other?нуждается;}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_RA_FREE_TECH">
+      <Text>Договор, который заключили вы и {@1_CivName}, выполнен. Ваша наука испытывает небывалый подъем!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_RA_FREE_TECH_CANCEL">
+      <Text>Ваше соглашение об исследованиях с лидером {@1_CivName} было разорвано.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_RA_FREE_TECH_CANCEL_S">
+      <Text>Соглашение об исследованиях разорвано!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_RA_FREE_TECH_S">
+      <Text>Договор о научных исследованиях выполнен!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_RA_FREE_TECH_WAR_CANCEL">
+      <Text>Ваше соглашение об исследованиях с лидером {@1_CivName} было разорвано, потому что вы ведете войну.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_RA_FREE_TECH_WAR_CANCEL_S">
+      <Text>Соглашение об исследованиях разорвано!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_SMMRY_MINOR_BEST_RELATIONS_ALL">
+      <Text>{@1: gender masculine? ; feminine? ; neuter? ; other?Город ;}{@1_MinorName} {@1: plural 1?получает; 2?получают; other?получает;} нового союзника!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_SMMRY_MINOR_BEST_RELATIONS_LOST_ALL">
+      <Text>{@1_MinorName} и {@2_NewCivName} больше не союзники!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_SMMRY_MINOR_NOW_ALLIES_ALL">
+      <Text>{@1_MinorName} и {@2_NewCivName} становятся союзниками!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_SMMRY_MINOR_NOW_FRIENDS_ALL">
+      <Text>{@1_MinorName} и {@2_NewCivName} налаживают дружественные отношения.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_SMMRY_MINOR_WERE_FRIENDS_ALL">
+      <Text>{@1_MinorName} и {@2_NewCivName} разрывают дружественные отношения!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_UNIT_DISBANDED">
+      <Text>Юнит был распущен, так как у вашей державы дефицит бюджета, а казна пуста!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_UNIT_DISBANDED_S">
+      <Text>Юнит распущен!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEACE_BLOCKED">
+      <Text>Напряженный</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEACE_BLOCKED_CSTATE_TT">
+      <Text>Вы ведете войну с союзником{@1: plural 1?{@1: gender masculine? ; feminine? ; neuter? ;}; 2? ; other? города-государства ;}{@1_CityStateName[2]}, поэтому он сам не станет заключать с вами мир!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PERMANENT_WAR">
+      <Text>Крайне враждебный</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PERMANENT_WAR_CSTATE_TT">
+      <Text>Вы напали на слишком много городов-государств. Теперь {@1_CityStateName} никогда не {@1: plural 1?заключит; 2?заключат; other?заключит;} с вами мир!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICIES_CULTURAL_VICTORY">
+      <Text>Открыв пять ветвей общественных институтов, вы можете осуществить [COLOR_POSITIVE_TEXT]проект "Утопия"[ENDCOLOR] в одном из городов и завоевать [COLOR_POSITIVE_TEXT]культурную победу[ENDCOLOR]!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_AESTHETICS">
+      <Text>Эстетика</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_AESTHETICS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Эстетика[ENDCOLOR][NEWLINE]Минимальный уровень [ICON_INFLUENCE] влияния на города-государства станет равен 20.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ARISTOCRACY">
+      <Text>Аристократия</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ARISTOCRACY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Аристократия[ENDCOLOR][NEWLINE]Увеличивает на 15% [ICON_PRODUCTION] производство при постройке чудес и дает +1 [ICON_HAPPINESS_1] к настроению за каждые 10 [ICON_CITIZEN] жителей в городе.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY">
+      <Text>Автократия</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY_CAP">
+      <Text>АВТОКРАТИЯ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Автократия[ENDCOLOR] подходит для воинственных цивилизаций, грезящих завоеванием мира.[NEWLINE][NEWLINE]Принятие института автократии снижает [ICON_GOLD] затраты на содержание юнитов на 33%, позволяя империи иметь больше войск.[NEWLINE][NEWLINE]После принятия всех общественных институтов автократии все ваши войска на следующие 30 ходов получают 20% бонус в атаке.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Эта ветвь не может быть активна одновременно со свободой или порядком.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_BLOCKED">
+      <Text>[COLOR_WARNING_TEXT]Не активно: приняты ветви общественных институтов, не совместимые с этой.[ENDCOLOR][NEWLINE]Щелкните здесь для переключения.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK">
+      <Text>[COLOR_WARNING_TEXT]Эта ветвь не может быть открыта на данном этапе.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_CULTURE">
+      <Text>[COLOR_WARNING_TEXT]Необходимо не менее {1_Num} [ICON_CULTURE] культуры.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_ERA">
+      <Text>[COLOR_WARNING_TEXT]Институт не может быть принят, пока не наступит {@1_EraString}.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_COMMERCE">
+      <Text>Коммерция</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_COMMERCE_CAP">
+      <Text>КОММЕРЦИЯ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_COMMERCE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Коммерция[ENDCOLOR] дает существенные преимущества морским державам, а также тем, кто стремится увеличить [ICON_GOLD] богатство.[NEWLINE][NEWLINE]Принятие института коммерции повысит приток [ICON_GOLD] золота в [ICON_CAPITAL] столицу на 25%.[NEWLINE][NEWLINE]Принятие всех общественных институтов коммерции дает +1 [ICON_GOLD] к золоту от каждого специалиста.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_FREEDOM">
+      <Text>Свобода</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_FREEDOM_CAP">
+      <Text>СВОБОДА</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_FREEDOM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Свобода[ENDCOLOR] подходит для небольших держав. В частности, свобода улучшает работу [ICON_GREAT_PEOPLE] великих людей и специалистов.[NEWLINE][NEWLINE]После введения этого института великие люди появляются на 25% чаще.[NEWLINE][NEWLINE]После принятия всех общественных институтов свободы производство на клетках, улучшенных великими людьми, увеличивается на 100%, а длительность [ICON_GOLDEN_AGE] золотого века увеличивается на 50%.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Эта ветвь не может быть активна одновременно с автократией или порядком.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_HONOR">
+      <Text>Честь</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_HONOR_CAP">
+      <Text>ЧЕСТЬ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_HONOR_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Честь[ENDCOLOR] повышает эффективность вашей армии.[NEWLINE][NEWLINE]Принятие института чести дает боевой бонус +25% в сражениях с варварами. Кроме того, вы будете получать извещение всякий раз, когда варвары будут ставить новый лагерь на открытой территории. За уничтожение варваров империя получает очки культуры.[NEWLINE][NEWLINE]После принятия всех общественных институтов чести вы будете получать [ICON_GOLD] золото за каждого уничтоженного врага.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_LIBERTY">
+      <Text>Воля</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_LIBERTY_CAP">
+      <Text>ВОЛЯ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_LIBERTY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Воля[ENDCOLOR] лучше всего подходит для цивилизаций, жаждущих быстрой экспансии.[NEWLINE][NEWLINE]Принятие института воли даст +1 [ICON_CULTURE] к культуре каждого города.[NEWLINE][NEWLINE]После принятия всех общественных институтов воли рядом со [ICON_CAPITAL] столицей появляется великий человек по вашему выбору.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_ORDER">
+      <Text>Порядок</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_ORDER_CAP">
+      <Text>ПОРЯДОК</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_ORDER_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Порядок[ENDCOLOR] полезен для огромных по площади империй: мощь державы начинает повышаться с ростом числа городов.[NEWLINE][NEWLINE]Эта ветвь общественных институтов увеличивает на 1 [ICON_HAPPINESS_1] настроение жителей за каждый город в державе. [NEWLINE][NEWLINE]Принятие всех общественных институтов порядка увеличит на 1 [ICON_FOOD] пищу, [ICON_PRODUCTION] производство, [ICON_RESEARCH] науку, [ICON_GOLD] золото и [ICON_CULTURE] культуру во всех городах.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Эта ветвь не может быть активна одновременно со свободой или автократией.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_PATRONAGE">
+      <Text>Меценатство|меценатства|меценатству|меценатство|меценатством|меценатстве</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_PATRONAGE_CAP">
+      <Text>МЕЦЕНАТСТВО</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_PATRONAGE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Меценатство[ENDCOLOR] повышает выгоду от дружественных отношений с городами-государствами.[NEWLINE][NEWLINE][ICON_INFLUENCE] Влияние на города-государства снижается на 25% медленнее.[NEWLINE][NEWLINE]После принятия всех общественных институтов меценатства [ICON_INFLUENCE] влияние других игроков на города-государства будет уменьшаться на 33% быстрее обычного.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_PIETY">
+      <Text>Набожность</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_PIETY_CAP">
+      <Text>НАБОЖНОСТЬ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_PIETY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Набожность[ENDCOLOR] способствует развитию [ICON_CULTURE] культуры в государстве. [NEWLINE][NEWLINE]Принятие этой ветви сокращает на 15% время строительства [ICON_CULTURE] культурных зданий.[NEWLINE][NEWLINE]Принятие всех общественных институтов набожности сокращает на 10% затраты [ICON_CULTURE] культуры на принятие новых институтов.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Эта ветвь не может быть активной одновременно с рационализмом.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM">
+      <Text>Рационализм</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM_CAP">
+      <Text>РАЦИОНАЛИЗМ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Рационализм[ENDCOLOR] способствует [ICON_RESEARCH] научному развитию государства.[NEWLINE][NEWLINE]Приняв рационализм, цивилизация увеличивает на 50% прирост [ICON_RESEARCH] науки от договоров об исследованиях.[NEWLINE][NEWLINE]Принятие всех общественных институтов рационализма дает +1 [ICON_GOLD] к золоту за каждое [ICON_RESEARCH] научное здание.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Эта ветвь не может быть активной одновременно с набожностью.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_TRADITION">
+      <Text>Традиция</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_TRADITION_CAP">
+      <Text>ТРАДИЦИЯ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_TRADITION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Традиция[ENDCOLOR] хорошо подходит небольшим державам.[NEWLINE][NEWLINE]Принятие традиции значительно снижает затраты [ICON_CULTURE] культуры при приобретении новых клеток, а также приносит 3 единицы [ICON_CULTURE] культуры в [ICON_CAPITAL] столице.[NEWLINE][NEWLINE]Принятие всех общественных институтов традиции дает в каждом городе +2 [ICON_FOOD] к пище, а также увеличивает на 15% [ICON_FOOD] прирост населения.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_UNLOCK_SPEND">
+      <Text>[COLOR_POSITIVE_TEXT]Эту ветвь можно открыть! Щелкните, чтобы принять эту ветвь общественных институтов (требуется {1_Num} [ICON_CULTURE] культуры).[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CANNOT_UNLOCK">
+      <Text>[COLOR_WARNING_TEXT]Этот институт не может быть принят сейчас. Сначала требуется ввести необходимые для него институты.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CITIZENSHIP">
+      <Text>Гражданство</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CITIZENSHIP_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Гражданство[ENDCOLOR][NEWLINE]Увеличивает на 25% скорость создания улучшений на клетках, а возле [ICON_CAPITAL] столицы появляется один отряд рабочих.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CIVIL_SOCIETY">
+      <Text>Гражданское общество</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CIVIL_SOCIETY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Гражданское общество[ENDCOLOR][NEWLINE]Специалисты потребляют в два раза меньше [ICON_FOOD] пищи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_COLLECTIVE_RULE">
+      <Text>Совместное управление</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_COLLECTIVE_RULE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Совместное управление[ENDCOLOR][NEWLINE]Увеличивает на 50% скорость создания [COLOR_POSITIVE_TEXT]поселенцев[ENDCOLOR] в [ICON_CAPITAL] столице. Также возле [ICON_CAPITAL] столицы бесплатно появляется один отряд поселенцев.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_COMMUNISM">
+      <Text>Коммунизм</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_COMMUNISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Коммунизм[ENDCOLOR][NEWLINE]Увеличивает на +2 [ICON_PRODUCTION] производство в каждом городе и дает +10% [ICON_PRODUCTION] к производству при строительстве зданий.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CONSTITUTION">
+      <Text>Конституция</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CONSTITUTION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Конституция[ENDCOLOR][NEWLINE]Дает +2 [ICON_CULTURE] к культуре за каждое чудо света.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CULTURAL_DIPLOMACY">
+      <Text>Культурная дипломатия</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CULTURAL_DIPLOMACY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Культурная дипломатия[ENDCOLOR][NEWLINE]Увеличивает на 100% количество предоставляемых городами-государствами ресурсов. Редкие ресурсы повышают [ICON_HAPPINESS_1] настроение на 50% сильнее, чем раньше.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_DEMOCRACY">
+      <Text>Демократия</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_DEMOCRACY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Демократия[ENDCOLOR][NEWLINE]В два раза снижает [ICON_HAPPINESS_4] недовольство специалистов в городах.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_DISCIPLINE">
+      <Text>Дисциплина</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_DISCIPLINE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Дисциплина[ENDCOLOR][NEWLINE]Увеличивает на 10% [ICON_STRENGTH] боевую мощь подразделения, если на соседней клетке находится еще одно подразделение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_EDUCATED_ELITE">
+      <Text>Образованная элита</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_EDUCATED_ELITE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Образованная элита[ENDCOLOR][NEWLINE]Союзные города-государства будут иногда предоставлять вам [ICON_GREAT_PEOPLE] великих людей.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FASCISM">
+      <Text>Фашизм</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FASCISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Фашизм[ENDCOLOR][NEWLINE]Увеличивает на 100% производство стратегических ресурсов в империи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FREE_RELIGION">
+      <Text>Свобода вероисповедания</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FREE_RELIGION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Свобода вероисповедания[ENDCOLOR][NEWLINE]Дает +1 [ICON_CULTURE] к культуре за каждый монумент, храм и монастырь. Также позволяет бесплатно принять один общественный институт.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FREE_SPEECH">
+      <Text>Свобода слова</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FREE_SPEECH_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Свобода слова[ENDCOLOR][NEWLINE]Позволяет бесплатно содержать 8 юнитов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FREE_THOUGHT">
+      <Text>Свободомыслие</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FREE_THOUGHT_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Свободомыслие[ENDCOLOR][NEWLINE]Дает +1 [ICON_RESEARCH] к науке за каждый торговый пост и +17% [ICON_RESEARCH] к науке от университетов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_HUMANISM">
+      <Text>Гуманизм</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_HUMANISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Гуманизм[ENDCOLOR][NEWLINE]Увеличивает [ICON_HAPPINESS_1] настроение на +1 за каждый университет, обсерваторию и школу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_LANDED_ELITE">
+      <Text>Землевладельческая элита</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_LANDED_ELITE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Землевладельческая элита[ENDCOLOR][NEWLINE]Дает в столице +2 [ICON_FOOD], а также увеличивает прирост [ICON_FOOD] пищи в столице на 10%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_LEGALISM">
+      <Text>Легализм</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_LEGALISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Легализм[ENDCOLOR][NEWLINE]В первых четырех городах державы бесплатно появится культурное здание.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MANDATE_OF_HEAVEN">
+      <Text>Небесный мандат</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MANDATE_OF_HEAVEN_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Небесный мандат[ENDCOLOR][NEWLINE]Каждый ход прибавляет 50% хорошего [ICON_HAPPINESS_1] настроения [ICON_CULTURE] к культуре, которую можно потратить на принятие общественных институтов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MERCANTILISM">
+      <Text>Меркантилизм</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MERCANTILISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Меркантилизм[ENDCOLOR][NEWLINE]Сокращает на 25% [ICON_GOLD] стоимость приобретаемых в городе объектов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MERCHANT_NAVY">
+      <Text>Торговый флот</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MERCHANT_NAVY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Торговый флот[ENDCOLOR][NEWLINE]Увеличивает на +3 [ICON_PRODUCTION] производство во всех городах на побережье.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MERITOCRACY">
+      <Text>Меритократия</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MERITOCRACY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Меритократия[ENDCOLOR][NEWLINE]Улучшает на +1 [ICON_HAPPINESS_1] настроение каждого города, [ICON_CONNECTED] связанного со [ICON_CAPITAL] столицей. Сокращает на 5% [ICON_HAPPINESS_4] недовольство от [ICON_CITIZEN] граждан в неоккупированных городах.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MILITARISM">
+      <Text>Милитаризм</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MILITARISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Милитаризм[ENDCOLOR][NEWLINE]Сокращает на 33% затраты [ICON_GOLD] золота на приобретение юнитов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MILITARY_CASTE">
+      <Text>Каста воинов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MILITARY_CASTE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Каста воинов[ENDCOLOR][NEWLINE]Каждый город с гарнизоном увеличивает [ICON_HAPPINESS_1] настроение в империи на 1 и [ICON_CULTURE] культуру на 2.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MILITARY_TRADITION">
+      <Text>Воинские традиции</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MILITARY_TRADITION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Воинские традиции[ENDCOLOR][NEWLINE]Подразделения получают в бою на 50% больше опыта.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MONARCHY">
+      <Text>Монархия</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MONARCHY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Монархия[ENDCOLOR][NEWLINE]Дает +1 [ICON_GOLD] к золоту и -1 [ICON_HAPPINESS_4] к недовольству на каждых двух [ICON_CITIZEN] жителей в [ICON_CAPITAL] столице.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_NATIONALISM">
+      <Text>Национализм</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_NATIONALISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Национализм[ENDCOLOR][NEWLINE]Дает +15% к атаке при сражении на дружественной территории.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_NAVAL_TRADITION">
+      <Text>Флотские традиции</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_NAVAL_TRADITION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Флотские традиции[ENDCOLOR][NEWLINE]Увеличивают на +1 [ICON_MOVES] перемещение морских юнитов и на +1 радиус обзора боевых кораблей.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_OLIGARCHY">
+      <Text>Олигархия</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_OLIGARCHY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Олигархия[ENDCOLOR][NEWLINE]Содержание гарнизонов, размещенных в городах, ничего не стоит, а сами такие города получают +100% [ICON_RANGE_STRENGTH] к дальнобойной боевой мощи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ORGANIZED_RELIGION">
+      <Text>Организованная религия</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ORGANIZED_RELIGION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Организованная религия[ENDCOLOR][NEWLINE]Дает +1 [ICON_HAPPINESS_1] к настроению за каждый монумент, храм и монастырь.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PHILANTHROPY">
+      <Text>Благотворительность</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PHILANTHROPY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Благотворительность[ENDCOLOR][NEWLINE]Передавая [ICON_GOLD] золото городам-государствам, вы будете получать на 25% больше [ICON_INFLUENCE] влияния, чем прежде.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PLANNED_ECONOMY">
+      <Text>Плановая экономика</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PLANNED_ECONOMY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Плановая экономика[ENDCOLOR][NEWLINE]Фабрики увеличивают [ICON_RESEARCH] науку в городе на 25%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_POLICE_STATE">
+      <Text>Полицейское государство</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_POLICE_STATE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Полицейское государство[ENDCOLOR][NEWLINE]Увеличивает на 3 [ICON_HAPPINESS_1] настроение за каждый суд. Строительство суда идет в два раза быстрее.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_POPULISM">
+      <Text>Популизм</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_POPULISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Популизм[ENDCOLOR][NEWLINE]Поврежденные юниты наносят на 25% больше урона.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PROFESSIONAL_ARMY">
+      <Text>Профессиональная армия</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PROFESSIONAL_ARMY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Профессиональная армия[ENDCOLOR][NEWLINE]Снижает затраты [ICON_GOLD] золота на улучшение военных подразделений на 33%. Увеличивает [ICON_HAPPINESS_1] настроение на 1 за каждое оборонительное здание (стены, замок, арсенал, военную базу).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PROTECTIONISM">
+      <Text>Протекционизм</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PROTECTIONISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Протекционизм[ENDCOLOR][NEWLINE]Улучшает на +1 [ICON_HAPPINESS_1] настроение за каждый редкий ресурс.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_REFORMATION">
+      <Text>Реформация</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_REFORMATION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Реформация[ENDCOLOR][NEWLINE]Во всех городах, имеющих чудо света, на 33% увеличивается [ICON_CULTURE] культура. Также империя немедленно вступает в [ICON_GOLDEN_AGE] золотой век.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_REPRESENTATION">
+      <Text>Представительство</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_REPRESENTATION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Представительство[ENDCOLOR][NEWLINE]Увеличение затрат [ICON_CULTURE]культуры на принятие социальных институтов при росте городов замедлится на 33%. Также начинает в державе [ICON_GOLDEN_AGE] золотой век.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_REPUBLIC">
+      <Text>Республика</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_REPUBLIC_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Республика[ENDCOLOR][NEWLINE]Увеличивает на +1 [ICON_PRODUCTION] производство в каждом городе и на +5% [ICON_PRODUCTION] производство при строительстве зданий.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SCHOLASTICISM">
+      <Text>Схоластика</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SCHOLASTICISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Схоластика[ENDCOLOR][NEWLINE]Все [COLOR_POSITIVE_TEXT]союзные[ENDCOLOR] города-государства будут предоставлять [ICON_RESEARCH] научный бонус в размере 25% от их собственных очков науки.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SCIENTIFIC_REVOLUTION">
+      <Text>Научная революция</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SCIENTIFIC_REVOLUTION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Научная революция[ENDCOLOR][NEWLINE]Позволяет бесплатно открыть две технологии.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SECULARISM">
+      <Text>Секуляризм</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SECULARISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Секуляризм[ENDCOLOR][NEWLINE]Увеличивает на +2 [ICON_RESEARCH] науку от каждого специалиста.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SOCIALISM">
+      <Text>Социализм</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SOCIALISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Социализм[ENDCOLOR][NEWLINE]Сокращает на 15% затраты [ICON_GOLD] золота на обслуживание зданий.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SOVEREIGNTY">
+      <Text>Суверенитет</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SOVEREIGNTY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Суверенитет[ENDCOLOR][NEWLINE]Увеличивает на 15% [ICON_RESEARCH] науку, если население державы [ICON_HAPPINESS_1] довольно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_THEOCRACY">
+      <Text>Теократия</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_THEOCRACY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Теократия[ENDCOLOR][NEWLINE]Храмы увеличивают на 10% [ICON_GOLD] приток золота в городах.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_TOTAL_WAR">
+      <Text>Тотальная война</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_TOTAL_WAR_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Тотальная война[ENDCOLOR][NEWLINE]Увеличивает на 15% [ICON_PRODUCTION] производство при создании военных подразделений. Все новые военные подразделения появляются с 15 очками опыта.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_TRADE_UNIONS">
+      <Text>Профсоюзы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_TRADE_UNIONS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Профсоюзы[ENDCOLOR][NEWLINE]Сокращают на 33% затраты [ICON_GOLD] золота на содержание дорог и железных дорог. Гавани и морские порты дают +1 [ICON_GOLD] к золоту.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_UNITED_FRONT">
+      <Text>Объединенный фронт</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_UNITED_FRONT_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Объединенный фронт[ENDCOLOR][NEWLINE]Воинственные города-государства дарят юнитов в два раза чаще, если вы находитесь в войне с общим врагом.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_UNIVERSAL_SUFFRAGE">
+      <Text>Всеобщее избирательное право</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_UNIVERSAL_SUFFRAGE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Всеобщее избирательное право[ENDCOLOR][NEWLINE]Увеличивает на 33% [ICON_STRENGTH] боевую мощь городов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_WARRIOR_CODE">
+      <Text>Кодекс чести</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_WARRIOR_CODE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Кодекс чести[ENDCOLOR][NEWLINE]Дает +15% [ICON_PRODUCTION] к производству при тренировке подразделений ближнего боя. Великий полководец появляется у [ICON_CAPITAL] столицы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_ALLIED_WITH">
+      <Text>Союзник:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_DECLARE_WAR">
+      <Text>Объявить войну</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_GIFT_GOLD_TT">
+      <Text>Вы можете использовать [ICON_GOLD] золото, чтобы увеличить [ICON_INFLUENCE] влияние на этот город-государство.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_GIFT_UNIT">
+      <Text>Передать юнит</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_GIFT_UNIT_TT">
+      <Text>Вы можете передать юнит этому городу-государству с любого места на карте (он доберется до места в 3 хода). Первые подаренные юниты принесут немного [ICON_INFLUENCE] влияния на город-государство. Нельзя дарить небоевые юниты.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_GOLD_STATUS_TT">
+      <Text>Требуется {1_Num} [ICON_INFLUENCE] влияния для дружбы и {2_Num}, чтобы стать союзниками. Сейчас у вас {3_Num} {3_Num: plural 1?очко; 2?очка; 3?очков;} [ICON_INFLUENCE].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_GOLD_TT">
+      <Text>Со временем [ICON_INFLUENCE] влияние, полученное с помощью [ICON_GOLD] золота, снижается. Кроме того, чем больше золота вы передаете за раз, тем больше будет влияния. Больше - не меньше!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_MAKE_PEACE">
+      <Text>Заключить мир</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_PERSONALITY">
+      <Text>Характер:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_TO_PROTECT">
+      <Text>Пообещать защиту</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_TT">
+      <Text>Заключив договор о защите города-государства, вы сообщите прочим державам, что вы готовы защищать этот город в случае нападения. Это может дать ему некоторую защиту: многие не рискнут ввязываться с вами в конфликт.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_PROVIDE_GOLD_GIFT">
+      <Text>Передать [ICON_GOLD] золото</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_RESOURCES">
+      <Text>Ресурсы поблизости:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_STATUS">
+      <Text>Статус:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_STOP_UNIT_SPAWNING">
+      <Text>Прекратить создание юнитов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_STOP_UNITS_TT">
+      <Text>Запрещает или разрешает получение юнитов из этого воинственного города-государства.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_TRAIT">
+      <Text>Тип:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROCESS_RESEARCH_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Исследования[ENDCOLOR] превращают 25% [ICON_PRODUCTION] производства в городе в [ICON_RESEARCH] науку.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROCESS_WEALTH_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Капитал[ENDCOLOR] превращает 25% [ICON_PRODUCTION] производства в городе в [ICON_GOLD] золото.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_NO_PRODUCTION">
+      <Text>Нет производства</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROGRESS_SCREEN_CULTURE">
+      <Text>Знатоки мира</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROGRESS_SCREEN_CULTURE_TT">
+      <Text>Показывает рейтинг игроков по количеству принятых общественных институтов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROGRESS_SCREEN_FOOD">
+      <Text>Толстяки мира</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROGRESS_SCREEN_FOOD_TT">
+      <Text>Показывает рейтинг игроков по среднему [ICON_FOOD] избытку продовольствия во всех городах державы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROGRESS_SCREEN_GOLD">
+      <Text>Богатеи мира</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROGRESS_SCREEN_GOLD_TT">
+      <Text>Показывает рейтинг игроков по количеству [ICON_GOLD] золота в казне.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROGRESS_SCREEN_HAPPINESS">
+      <Text>Весельчаки мира</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROGRESS_SCREEN_HAPPINESS_TT">
+      <Text>Показывает рейтинг игроков по [ICON_HAPPINESS_1] настроению населения.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROGRESS_SCREEN_NUMBERING">
+      <Text>{1_number}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROGRESS_SCREEN_POWER">
+      <Text>Силачи мира</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROGRESS_SCREEN_POWER_TT">
+      <Text>Показывает рейтинг игроков по военной мощи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROGRESS_SCREEN_PRODUCTION">
+      <Text>Трудоголики мира</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROGRESS_SCREEN_PRODUCTION_TT">
+      <Text>Показывает рейтинг игроков по [ICON_PRODUCTION] производству во всех городах.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROGRESS_SCREEN_SCIENCE">
+      <Text>Грамотеи мира</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROGRESS_SCREEN_SCIENCE_TT">
+      <Text>Показывает рейтинг игроков по числу освоенных ими технологий.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROGRESS_SCREEN_TITLE">
+      <Text>{@1_Name} создает свое величайшее творение!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROGRESS_SCREEN_WONDERS">
+      <Text>Чудотворцы мира</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROGRESS_SCREEN_WONDERS_TT">
+      <Text>Показывает рейтинг игроков по числу построенных чудес.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROJECT_APOLLO_PROGRAM_HELP">
+      <Text>Означает начало космической гонки и позволяет вашим городам производить детали космического корабля. Завершив постройку космического корабля, вы можете добиться [COLOR_POSITIVE_TEXT]научной победы[ENDCOLOR]!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROJECT_MANHATTAN_PROJECT_HELP">
+      <Text>Позволяет городам производить атомные бомбы и ядерные ракеты.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROJECT_UTOPIA_PROJECT_HELP">
+      <Text>Завершение проекта "Утопия" принесет [COLOR_POSITIVE_TEXT]культурную победу[ENDCOLOR]!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RECOMMEND_SETTLER_BASE">
+      <Text>Рекомендую вам построить город здесь!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RECOMMEND_SETTLER_FOOD">
+      <Text>На этой территории немало источников [ICON_FOOD] пищи. Построенный здесь город будет развиваться быстро, и число [ICON_CITIZEN] граждан будет расти!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RECOMMEND_SETTLER_GOLD">
+      <Text>Город, расположенный на этой территории, будет производить много [ICON_GOLD] золота, пополняя нашу казну!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RECOMMEND_SETTLER_LUXURIES">
+      <Text>Здесь много редких ресурсов, которые при наличии соответствующих улучшений поднимут [ICON_HAPPINESS_1] настроение в империи!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RECOMMEND_SETTLER_PRODUCTION">
+      <Text>В городе, построенном на этой земле, будет хорошо развито производство [ICON_PRODUCTION] продукции, а новые объекты будут строиться быстрее!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RECOMMEND_SETTLER_STRATEGIC">
+      <Text>На этой территории много стратегических ресурсов, которые при улучшении позволят создавать более мощные войска!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RECOMMEND_WORKER">
+      <Text>Здесь рекомендуется [COLOR_POSITIVE_TEXT]{@1_WorkerActionString}[ENDCOLOR]!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RECOMMEND_WORKER_LUXURY">
+      <Text>Это позволит соединить [COLOR_POSITIVE_TEXT]редкие ресурсы[ENDCOLOR] на этой клетке с нашей торговой сетью, и [ICON_HAPPINESS_1] настроение в империи улучшится!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RECOMMEND_WORKER_STRATEGIC">
+      <Text>Это позволит соединить [COLOR_POSITIVE_TEXT]стратегические ресурсы[ENDCOLOR] на этой клетке с нашей торговой сетью, и вы сможете создавать более совершенные юниты!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_ALUMINUM_HELP">
+      <Text>Нужен для мощных юнитов и построек на последних этапах игры. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_COAL_HELP">
+      <Text>Используется фабриками и броненосцами.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_HORSES_HELP">
+      <Text>Используется кавалерийскими подразделениями.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_IRON_HELP">
+      <Text>Используется мощными юнитами в начале игры.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_OIL_HELP">
+      <Text>Используется мощными юнитами в конце игры.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_TOOLTIP_IMPROVED">
+      <Text>При улучшении:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_TOOLTIP_IMPROVED_WORKED">
+      <Text>При обработке городом:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_URANIUM_HELP">
+      <Text>Нужен для ядерных бомб, АЭС и человекоподобных роботов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RETIRE">
+      <Text>Отойти от дел</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SELL_BUILDING_INFO">
+      <Text>Вы действительно хотите продать это здание? Вы сразу получите {1_Num} [ICON_GOLD] золота. Это также сэкономит {2_Num} [ICON_GOLD] за ход - сумму содержания этой постройки. Можно продавать только одно здание за ход.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SOCIAL_POLICIES_SCREEN_TITLE">
+      <Text>ОБЩЕСТВЕННЫЕ ИНСТИТУТЫ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SOCIAL_POLICY_DIRECTIONS">
+      <Text>Общественные институты позволяют изменять государственные устои вашей державы. Выбирать вам, станете ли вы борцом за свободу или тираном, которого страшится весь мир.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRADE_ROUTE_INCOME_INFO">
+      <Text>{1_Num} [ICON_GOLD] золота базово за каждый торговый путь[NEWLINE]{2_Num} [ICON_GOLD] золота за [ICON_CITIZEN] горожан</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_AMPHIB_WARLORD">
+      <Text>Дается в три раза больше [ICON_GOLD] золота от лагерей варваров и грабежа городов. Юниты на борту могут защищаться.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_AMPHIB_WARLORD_SHORT">
+      <Text>Лидер речных пиратов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_ART_OF_WAR">
+      <Text>Бонус в бою от великих полководцев увеличивается на 15%, а их скорость появления возрастает на 50%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_ART_OF_WAR_SHORT">
+      <Text>Искусство войны</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER">
+      <Text>При строительстве любых зданий, уже построенных в [ICON_CAPITAL] столице, [ICON_PRODUCTION] производство увеличивается на 25%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER_SHORT">
+      <Text>Слава Рима</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_CITY_STATE_BONUSES">
+      <Text>Поступление [ICON_FOOD] пищи и [ICON_CULTURE] культуры от дружественных городов-государств увеличивается на 50%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_CITY_STATE_BONUSES_SHORT">
+      <Text>Отец народов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP">
+      <Text>Влияние на города-государства снижается в 2 раза медленнее, а растет в 2 раза быстрее.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP_SHORT">
+      <Text>Эллинский союз</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS">
+      <Text>При уничтожении лагеря варваров есть 50% шанс получить 25 [ICON_GOLD] золота и побежденный отряд. Содержание сухопутных юнитов стоит на 25% дешевле.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS_SHORT">
+      <Text>Тевтонская ярость</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS">
+      <Text>50% шанс переманить соседний корабль варваров на свою сторону и получить 25 [ICON_GOLD] золота. Содержание кораблей стоит в 3 раза меньше обычного.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS_SHORT">
+      <Text>Варвары-корсары</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_CULTURE_FROM_KILLS">
+      <Text>За каждого убитого вражеского юнита империя получает [ICON_CULTURE] очки культуры.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_CULTURE_FROM_KILLS_SHORT">
+      <Text>Жертвоприношение пленных</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_ENHANCED_CULTURE">
+      <Text>До открытия паровой тяги держава получает от городов по +2 [ICON_CULTURE] к культуре за ход.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_ENHANCED_CULTURE_SHORT">
+      <Text>Старый порядок</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_ENHANCED_GOLDEN_AGES">
+      <Text>Золотой [ICON_GOLDEN_AGE] век длится на 50% дольше. В это время юниты получают +1 [ICON_MOVES] к ОП и +10% [ICON_STRENGTH] к боевой мощи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_ENHANCED_GOLDEN_AGES_SHORT">
+      <Text>Наследие Ахеменидов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED">
+      <Text>Поврежденные юниты не теряют эффективности в бою.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED_SHORT">
+      <Text>Бусидо</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST">
+      <Text>Юниты перемещаются через дружественные леса и джунгли, как по дороге. После открытия колеса эти клетки можно использовать для установления [ICON_CONNECTED] торговых путей.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST_SHORT">
+      <Text>Тропа войны</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_LAND_TRADE_GOLD">
+      <Text>Каждый [ICON_CONNECTED] торговый путь дает +1 [ICON_GOLD] к золоту. [ICON_RES_OIL] Нефтяные ресурсы приносят вдвое больше нефти.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_LAND_TRADE_GOLD_SHORT">
+      <Text>Торговые караваны</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_OCEAN_MOVEMENT">
+      <Text>Все корабли получают +2 [ICON_MOVES] к перемещению.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_OCEAN_MOVEMENT_SHORT">
+      <Text>Над империей не заходит солнце</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_POPULATION_GROWTH">
+      <Text>Удваивается [ICON_HAPPINESS_4] недовольство от числа городов, вдвое сокращается [ICON_HAPPINESS_4] недовольство от числа граждан.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_POPULATION_GROWTH_SHORT">
+      <Text>Рост населения</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_RIVER_EXPANSION">
+      <Text>Все сухопутные войска получают +1 к радиусу обзора. Также снижается на 50% стоимость покупки клеток.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_RIVER_EXPANSION_SHORT">
+      <Text>Явное предначертание</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_STRATEGIC_RICHES">
+      <Text>Стратегические ресурсы дают +1 [ICON_PRODUCTION] к производству. Держава получает лошадей, железо и уран в удвоенном размере.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_STRATEGIC_RICHES_SHORT">
+      <Text>Богатства Сибири</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_WONDER_BUILDER">
+      <Text>При строительстве чудес света [ICON_PRODUCTION] производство увеличивается на 20%. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_WONDER_BUILDER_SHORT">
+      <Text>Строители памятников</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAR">
+      <Text>Агрессивный</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAR_CAPS">
+      <Text>Враждебный</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAR_CSTATE_TT">
+      <Text>Вы и {@1_CityStateName} находитесь в состоянии войны. Если они не являются союзником другого игрока, с которым вы воюете, вы можете заключить мир в любое время. Во время войны ваше [ICON_INFLUENCE] влияние на них всегда равно -60.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAR_DECLARED">
+      <Text>ОБЪЯВЛЕНА ВОЙНА!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_ANGKOR_WAT_HELP">
+      <Text>Снижает на 25% затраты [ICON_CULTURE] культуры и золота при приобретении новых клеток во всех городах.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_BIG_BEN_HELP">
+      <Text>Снижает на 15% стоимость [ICON_GOLD] покупки объектов во всех городах.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_BRANDENBURG_GATE_HELP">
+      <Text>Рядом с городом, где было построено чудо, появляется великий полководец. Также все сформированные в городе подразделения получат +15 ОО.</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_WONDER_COLOSSUS_HELP">
+      <Text>Дает +1 к [ICON_GOLD] золоту с водных клеток, которые обрабатывает город.[NEWLINE]Город должен быть построен на побережье.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_CRISTO_REDENTOR_HELP">
+      <Text>Сокращает на 10% затраты [ICON_CULTURE] культуры на принятие новых институтов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_EIFFEL_TOWER_HELP">
+      <Text>Эйфелева башня не только увеличивает на +5 [ICON_HAPPINESS_1] настроение, но и дает +1 [ICON_HAPPINESS_1] к настроению за каждые 2 принятых общественных института.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_FORBIDDEN_PALACE_HELP">
+      <Text>Снижает на 10% [ICON_HAPPINESS_4] недовольство от населения в неоккупированных городах.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_GREAT_LIBRARY_HELP">
+      <Text>Бесплатно открывает одну технологию. В городе, где было создано это чудо, бесплатно появляется библиотека.</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_WONDER_GREAT_WALL_HELP">
+      <Text>Вражеским юнитам придется тратить дополнительно 1 [ICON_MOVES] ОП на каждой вашей клетке. В городе, где было создано это чудо, бесплатно появляются стены. После открытия динамита Великая стена утрачивает свое значение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_HAGIA_SOPHIA_HELP">
+      <Text>Увеличивает на 25% скорость возникновения [ICON_GREAT_PEOPLE] великих людей во всех городах. Рядом со [ICON_CAPITAL] столицей появляется великий человек по вашему выбору.</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_WONDER_HIMEJI_CASTLE_HELP">
+      <Text>Увеличивает на 15% [ICON_STRENGTH] боевую мощь юнитов на дружественной территории. В городе, где было создано это чудо, бесплатно появляется замок.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_KREMLIN_HELP">
+      <Text>Повышает на 25% эффективность оборонительных сооружений во всех городах.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_LOUVRE_HELP">
+      <Text>Рядом с городом, где было построено чудо, появляются два великих художника.</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_WONDER_ORACLE_HELP">
+      <Text>Позволяет бесплатно принять один общественный институт.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_PENTAGON_HELP">
+      <Text>Сокращает на 33% затраты [ICON_GOLD] золота на модернизацию войск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_PORCELAIN_TOWER_HELP">
+      <Text>Рядом с городом появляется великий ученый. Договоры об исследованиях приносят на 50% больше [ICON_RESEARCH] науки.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_PYRAMIDS_HELP">
+      <Text>Начинает в державе [ICON_GOLDEN_AGE] золотой век.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_SISTINE_CHAPEL_HELP">
+      <Text>Увеличивает на 25% [ICON_CULTURE] культуру во всех городах.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_STATUE_OF_LIBERTY_HELP">
+      <Text>Увеличивает на +1 [ICON_PRODUCTION] производство от специалистов во всех городах.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_SYDNEY_OPERA_HOUSE_HELP">
+      <Text>Позволяет бесплатно принять один общественный институт. Также увеличивает на 50% [ICON_CULTURE] культуру в городе. Город должен быть построен на побережье.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_TAJ_MAHAL_HELP">
+      <Text>Увеличивает на 50% продолжительность [ICON_GOLDEN_AGE] золотого века.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_UNITED_NATIONS_HELP">
+      <Text>Открывает возможность голосования для достижения [COLOR_GREEN]дипломатической победы[ENDCOLOR]. Государство, на территории которого располагается главный офис ООН, получает дополнительный голос.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WORLD_DEBUG_HELP">
+      <Text>Только для тестирования</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WORLD_DUEL_HELP">
+      <Text>2 игрока, 4 города-государства.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WORLD_HUGE_HELP">
+      <Text>12 игроков, 24 города-государства.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WORLD_LARGE_HELP">
+      <Text>10 игроков, 20 городов-государств.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WORLD_SMALL_HELP">
+      <Text>6 игроков, 12 городов-государств.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WORLD_STANDARD_HELP">
+      <Text>8 игроков, 16 городов-государств.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WORLD_TINY_HELP">
+      <Text>4 игрока, 8 городов-государств.</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

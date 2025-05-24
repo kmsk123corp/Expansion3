@@ -1,0 +1,1170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited koba | 01.02.2024 -->
+<GameData>
+
+    <Buildings>
+
+
+        <!-- ############## -->
+        <!-- Обработка меди -->
+        <!-- ############## -->
+
+        <!-- Плавильная печь для меди -->
+        <Row>
+			<Type>BUILDING_MELTINGFURNACE</Type>
+			<BuildingClass>BUILDINGCLASS_MELTINGFURNACE</BuildingClass>
+			<Cost>90</Cost>
+			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
+			<Description>TXT_KEY_BUILDING_MELTINGFURNACE</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_MELTINGFURNACE_TEXT</Civilopedia>
+			<Help>TXT_KEY_BUILDING_MELTINGFURNACE_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_MELTINGFURNACE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>Building_IconAtlas</IconAtlas>
+			<PortraitIndex>12</PortraitIndex>
+		</Row>
+
+        <!-- ################### -->
+        <!-- Морское рыболовство -->
+        <!-- ################### -->
+
+        <!-- юкола -->
+		<Row>
+			<Type>BUILDING_YUKOLA</Type>
+			<BuildingClass>BUILDINGCLASS_YUKOLA</BuildingClass>
+			<Cost>60</Cost>
+			<PrereqTech>TECH_SEA_FISHING</PrereqTech>
+			<Help>TXT_KEY_BUILDING_YUKOLA_HELP</Help>
+			<Description>TXT_KEY_BUILDING_YUKOLA</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_YUKOLA_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_YUKOLA_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_YUKOLA</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+            <Water>true</Water>
+			<IconAtlas>Building_IconAtlas</IconAtlas>
+			<PortraitIndex>27</PortraitIndex>
+		</Row>
+
+        <!-- ################# -->
+        <!-- Протописьменность -->
+        <!-- ################# -->
+
+        <!-- Монумент -->
+        <Row>
+			<Type>BUILDING_MONUMENT</Type>
+			<BuildingClass>BUILDINGCLASS_MONUMENT</BuildingClass>
+			<FreeStartEra>ERA_MEDIEVAL</FreeStartEra>
+			<Cost>60</Cost>
+			<PrereqTech>TECH_PROTO_WRITING</PrereqTech>
+			<GoldMaintenance>1</GoldMaintenance>
+			<Help>TXT_KEY_BUILDING_MONUMENT_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_MONUMENT_DESC</Description>
+			<Civilopedia>TXT_KEY_BUILDING_MONUMENT_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_MONUMENT_STRATEGY</Strategy>
+			<ArtDefineTag>MONUMENT</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>40</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>21</PortraitIndex>
+		</Row>
+
+
+        <!-- ############### -->
+        <!-- Деревообработка -->
+        <!-- ############### -->
+
+        <!-- Амбар -->
+        <Row>
+            <Type>BUILDING_GRANARY</Type>
+            <BuildingClass>BUILDINGCLASS_GRANARY</BuildingClass>
+            <FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
+            <Cost>90</Cost>
+            <GoldMaintenance>1</GoldMaintenance>
+            <PrereqTech>TECH_WOODWORKING</PrereqTech>
+            <Help>TXT_KEY_BUILDING_GRANARY_HELP</Help>
+            <Description>TXT_KEY_BUILDING_GRANARY</Description>
+            <Civilopedia>TXT_KEY_CIV5_BUILDINGS_GRANARY_TEXT</Civilopedia>
+            <Strategy>TXT_KEY_BUILDING_GRANARY_STRATEGY</Strategy>
+            <ArtDefineTag>ART_DEF_BUILDING_GRANARY</ArtDefineTag>
+            <MinAreaSize>-1</MinAreaSize>
+            <ConquestProb>66</ConquestProb>
+            <HurryCostModifier>25</HurryCostModifier>
+            <AllowsFoodTradeRoutes>true</AllowsFoodTradeRoutes>
+            <IconAtlas>Building_IconAtlas</IconAtlas>
+            <PortraitIndex>23</PortraitIndex>
+        </Row>
+
+        <!-- Юрта (Гунны) -->
+        <Row>
+            <Type>BUILDING_HUNS_YURT</Type>
+            <BuildingClass>BUILDINGCLASS_GRANARY</BuildingClass>
+            <FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
+            <Cost>90</Cost>
+            <GoldMaintenance>1</GoldMaintenance>
+            <PrereqTech>TECH_WOODWORKING</PrereqTech>
+            <Help>TXT_KEY_BUILDING_HUNS_YURT_HELP</Help>
+            <Description>TXT_KEY_BUILDING_HUNS_YURT</Description>
+            <Civilopedia>TXT_KEY_BUILDING_HUNS_YURT_TEXT</Civilopedia>
+            <Strategy>TXT_KEY_BUILDING_HUNS_YURT_STRATEGY</Strategy>
+            <ArtDefineTag>ART_DEF_BUILDING_GRANARY</ArtDefineTag>
+            <MinAreaSize>-1</MinAreaSize>
+            <ConquestProb>66</ConquestProb>
+            <HurryCostModifier>25</HurryCostModifier>
+            <AllowsFoodTradeRoutes>true</AllowsFoodTradeRoutes>
+            <IconAtlas>NEW_UNIQUE_BUILDING_ATLAS</IconAtlas>
+            <PortraitIndex>7</PortraitIndex>
+        </Row>
+
+        <!-- Гэр (Монголы) -->
+        <Row>
+            <Type>BUILDING_MONGOL_GER</Type>
+            <BuildingClass>BUILDINGCLASS_GRANARY</BuildingClass>
+            <FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
+            <Cost>90</Cost>
+            <GoldMaintenance>1</GoldMaintenance>
+            <PrereqTech>TECH_WOODWORKING</PrereqTech>
+            <Help>TXT_KEY_BUILDING_MONGOL_GER_HELP</Help>
+            <Description>TXT_KEY_BUILDING_MONGOL_GER</Description>
+            <Civilopedia>TXT_KEY_BUILDING_MONGOL_GER_TEXT</Civilopedia>
+            <Strategy>TXT_KEY_BUILDING_MONGOL_GER_STRATEGY</Strategy>
+            <ArtDefineTag>ART_DEF_BUILDING_GRANARY</ArtDefineTag>
+            <MinAreaSize>-1</MinAreaSize>
+            <ConquestProb>66</ConquestProb>
+            <HurryCostModifier>25</HurryCostModifier>
+            <AllowsFoodTradeRoutes>true</AllowsFoodTradeRoutes>
+            <IconAtlas>NEW_UNIQUE_BUILDING_ATLAS</IconAtlas>
+            <PortraitIndex>8</PortraitIndex>
+        </Row>
+
+        <!-- Икугвене (Зулусы) -->
+        <Row>
+            <Type>BUILDING_ZULU_IQHUGWANE</Type>
+            <BuildingClass>BUILDINGCLASS_GRANARY</BuildingClass>
+            <FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
+            <Cost>90</Cost>
+            <GoldMaintenance>1</GoldMaintenance>
+            <PrereqTech>TECH_WOODWORKING</PrereqTech>
+            <Help>TXT_KEY_BUILDING_ZULU_IQHUGWANE_HELP</Help>
+            <Description>TXT_KEY_BUILDING_ZULU_IQHUGWANE</Description>
+            <Civilopedia>TXT_KEY_BUILDING_ZULU_IQHUGWANE_TEXT</Civilopedia>
+            <Strategy>TXT_KEY_BUILDING_ZULU_IQHUGWANE_STRATEGY</Strategy>
+            <ArtDefineTag>ART_DEF_BUILDING_GRANARY</ArtDefineTag>
+            <Happiness>1</Happiness>
+            <MinAreaSize>-1</MinAreaSize>
+            <ConquestProb>66</ConquestProb>
+            <HurryCostModifier>25</HurryCostModifier>
+            <AllowsFoodTradeRoutes>true</AllowsFoodTradeRoutes>
+            <IconAtlas>NEW_UNIQUE_BUILDING_ATLAS</IconAtlas>
+            <PortraitIndex>9</PortraitIndex>
+        </Row>
+
+        <!-- Мастерская -->
+        <Row>
+			<Type>BUILDING_WORKSHOP</Type>
+			<BuildingClass>BUILDINGCLASS_WORKSHOP</BuildingClass>
+			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
+			<Cost>120</Cost>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_WOODWORKING</PrereqTech>
+			<Help>TXT_KEY_BUILDING_WORKSHOP_HELP</Help>
+			<Description>TXT_KEY_BUILDING_WORKSHOP</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_WORKSHOP_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_WORKSHOP_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>28</PortraitIndex>
+		</Row>
+
+        <!-- ############### -->
+        <!-- Обработка камня -->
+        <!-- ############### -->
+
+        <!-- Каменная мастерская -->
+        <Row>
+			<Type>BUILDING_STONE_WORKS</Type>
+			<BuildingClass>BUILDINGCLASS_STONE_WORKS</BuildingClass>
+			<Cost>90</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_STONE_PROCESSING</PrereqTech>
+			<Help>TXT_KEY_BUILDING_STONE_WORKS_HELP</Help>
+			<Description>TXT_KEY_BUILDING_STONE_WORKS</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_STONE_WORKS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_STONE_WORKS_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>0</HurryCostModifier>
+            <IconAtlas>NEW_BLDG_ATLAS2_DLC</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+		</Row>
+
+        <!-- #################### -->
+        <!-- Одомашнивание лошади -->
+        <!-- #################### -->
+
+        <!-- Цирк -->
+        <Row>
+			<Type>BUILDING_CIRCUS</Type>
+			<BuildingClass>BUILDINGCLASS_CIRCUS</BuildingClass>
+			<Cost>90</Cost>
+			<PrereqTech>TECH_HORSE</PrereqTech>
+			<Description>TXT_KEY_BUILDING_CIRCUS</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_CIRCUS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_CIRCUS_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_CIRCUS_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_CIRCUS</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<Happiness>2</Happiness>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>44</PortraitIndex>
+		</Row>
+
+        <!-- ########### -->
+        <!-- Мореходство -->
+        <!-- ########### -->
+
+        <!-- Причалы -->
+        <Row>
+			<Type>BUILDING_PIERS</Type>
+			<BuildingClass>BUILDINGCLASS_PIERS</BuildingClass>
+			<Cost>90</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_SHIPBUILDING</PrereqTech>
+			<Description>TXT_KEY_BUILDING_PIERS</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_PIERS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_PIERS_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_PIERS_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_PIERS</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<Water>true</Water>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>NEW_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>10</PortraitIndex>
+		</Row>
+
+        <!-- ######### -->
+        <!-- Клинопись -->
+        <!-- ######### -->
+
+        <!-- Клинописная библиотека -->
+        <Row>
+			<Type>BUILDING_CUNEIFORMLIBRARY</Type>
+			<BuildingClass>BUILDINGCLASS_CUNEIFORMLIBRARY</BuildingClass>
+			<Cost>90</Cost>
+			<PrereqTech>TECH_CUNEIFORM</PrereqTech>
+			<Description>TXT_KEY_BUILDING_CUNEIFORMLIBRARY</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_CUNEIFORMLIBRARY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_CUNEIFORMLIBRARY_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_CUNEIFORMLIBRARY</ArtDefineTag>
+			<ConquestProb>66</ConquestProb>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>Building_IconAtlas</IconAtlas>
+			<PortraitIndex>36</PortraitIndex>
+		</Row>
+
+        <!-- ################ -->
+        <!-- Обработка бронзы -->
+        <!-- ################ -->
+
+        <!-- Казарма -->
+        <Row>
+			<Type>BUILDING_BARRACKS</Type>
+			<BuildingClass>BUILDINGCLASS_BARRACKS</BuildingClass>
+			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
+			<Cost>75</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_CASTING_WAX_MODEL</PrereqTech>
+			<Help>TXT_KEY_BUILDING_BARRACKS_HELP</Help>
+			<Description>TXT_KEY_BUILDING_BARRACKS</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_BARRACKS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BARRACKS_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_BARRACKS</ArtDefineTag>
+            <Defense>500</Defense>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>5</PortraitIndex>
+		</Row>
+
+        <!-- Острог -->
+        <Row>
+			<Type>BUILDING_KREPOST</Type>
+			<BuildingClass>BUILDINGCLASS_BARRACKS</BuildingClass>
+			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
+			<Cost>75</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Help>TXT_KEY_BUILDING_KREPOST_HELP</Help>
+			<Description>TXT_KEY_BUILDING_KREPOST_DESC</Description>
+			<Civilopedia>TXT_KEY_BUILDINGS_KREPOST_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDINGS_KREPOST_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_BARRACKS</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<PlotCultureCostModifier>-25</PlotCultureCostModifier>
+			<PlotBuyCostModifier>-25</PlotBuyCostModifier>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>61</PortraitIndex>
+		</Row>
+
+        <!-- Иканда -->
+        <Row>
+			<Type>BUILDING_IKANDA</Type>
+			<BuildingClass>BUILDINGCLASS_BARRACKS</BuildingClass>
+			<TrainedFreePromotion>PROMOTION_BUFFALO_HORNS</TrainedFreePromotion>
+			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
+			<Cost>75</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Help>TXT_KEY_BUILDING_IKANDA_HELP</Help>
+			<Description>TXT_KEY_BUILDING_IKANDA_DESC</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_IKANDA_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_IKANDA_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_BARRACKS</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>EXPANSION2_BUILDING_ATLAS</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>2</PortraitIndex>
+		</Row>
+
+        <!-- ####### -->
+        <!-- Мегалит -->
+        <!-- ####### -->
+
+        <!-- Кромлех -->
+        <Row>
+			<Type>BUILDING_DOLMEN</Type>
+			<BuildingClass>BUILDINGCLASS_DOLMEN</BuildingClass>
+			<Cost>60</Cost>
+			<PrereqTech>TECH_MEGALITH</PrereqTech>
+			<Description>TXT_KEY_BUILDING_DOLMEN</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_DOLMEN_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_DOLMEN_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_DOLMEN</ArtDefineTag>
+			<ConquestProb>66</ConquestProb>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>Building_IconAtlas</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
+		</Row>
+
+        <!-- Стоунхендж -->
+        <Row>
+			<Type>BUILDING_STONEHENGE</Type>
+			<BuildingClass>BUILDINGCLASS_STONEHENGE</BuildingClass>
+			<Cost>240</Cost>
+			<PrereqTech>TECH_MEGALITH</PrereqTech>
+			<Description>TXT_KEY_BUILDING_STONEHENGE</Description>
+			<Civilopedia>TXT_KEY_WONDER_STONEHENGE_DESC</Civilopedia>
+            <Help>TXT_KEY_WONDER_STONEHENGE_HELP</Help>
+			<Quote>TXT_KEY_WONDER_STONEHENGE_QUOTE</Quote>
+			<ArtDefineTag>STONEHENGE</ArtDefineTag>
+			<MaxStartEra>ERA_CLASSICAL</MaxStartEra>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<DisplayPosition>4</DisplayPosition>
+			<WonderSplashImage>WonderConceptStonehedge.dds</WonderSplashImage>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_STONEHENGE_01</WonderSplashAudio>
+            <PortraitIndex>45</PortraitIndex>
+			<IconAtlas>Building_IconAtlas</IconAtlas>
+		</Row>
+
+        <!-- ###### -->
+        <!-- Колесо -->
+        <!-- ###### -->
+
+        <!-- Мельница -->
+        <Row>
+			<Type>BUILDING_MILL</Type>
+			<BuildingClass>BUILDINGCLASS_MILL</BuildingClass>
+			<Cost>90</Cost>
+			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
+			<Help>TXT_KEY_BUILDING_MILL_HELP</Help>
+			<Description>TXT_KEY_BUILDING_MILL</Description>
+			<Civilopedia>TXT_KEY_CIV5_MILL_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_MILL_STRATEGY</Strategy>
+			<ConquestProb>66</ConquestProb>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+            <IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+
+        <!-- Длинный дом -->
+        <Row>
+			<Type>BUILDING_LONGHOUSE</Type>
+			<BuildingClass>BUILDINGCLASS_MILL</BuildingClass>
+			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
+			<Cost>120</Cost>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
+			<Help>TXT_KEY_BUILDING_LONGHOUSE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_LONGHOUSE_DESC</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LONGHOUSE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_LONGHOUSE_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<AllowsProductionTradeRoutes>true</AllowsProductionTradeRoutes>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>57</PortraitIndex>
+		</Row>
+
+    </Buildings>
+
+    <!-- Производит -->
+    <Building_YieldChanges>
+
+        <Row>
+			<BuildingType>BUILDING_MELTINGFURNACE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+        <Row>
+			<BuildingType>BUILDING_YUKOLA</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+        <Row>
+			<BuildingType>BUILDING_MONUMENT</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+        <Row>
+            <BuildingType>BUILDING_GRANARY</BuildingType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>2</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_HUNS_YURT</BuildingType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>2</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MONGOL_GER</BuildingType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>2</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_ZULU_IQHUGWANE</BuildingType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>2</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_ZULU_IQHUGWANE</BuildingType>
+            <YieldType>YIELD_FAITH</YieldType>
+            <Yield>1</Yield>
+        </Row>
+
+        <Row>
+			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+
+        <Row>
+			<BuildingType>BUILDING_STONE_WORKS</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+        <Row>
+            <BuildingType>BUILDING_CUNEIFORMLIBRARY</BuildingType>
+            <YieldType>YIELD_SCIENCE</YieldType>
+            <Yield>3</Yield>
+        </Row>
+
+        <Row>
+			<BuildingType>BUILDING_MILL</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_LONGHOUSE</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+        <Row>
+			<BuildingType>BUILDING_DOLMEN</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_STONEHENGE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_STONEHENGE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+    </Building_YieldChanges>
+
+    <!-- Проценты к производству -->
+    <Building_YieldModifiers>
+
+
+    </Building_YieldModifiers>
+
+
+    <!-- С клеток озера -->
+    <Building_LakePlotYieldChanges>
+
+    </Building_LakePlotYieldChanges>
+
+    <!-- Улучшает клетки с ресурсами -->
+    <Building_ResourceYieldChanges>
+
+        <Row>
+			<BuildingType>BUILDING_MELTINGFURNACE</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+        <Row>
+			<BuildingType>BUILDING_YUKOLA</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_YUKOLA</BuildingType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+        <Row>
+            <BuildingType>BUILDING_GRANARY</BuildingType>
+            <ResourceType>RESOURCE_WHEAT</ResourceType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_GRANARY</BuildingType>
+            <ResourceType>RESOURCE_BANANA</ResourceType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_GRANARY</BuildingType>
+            <ResourceType>RESOURCE_DEER</ResourceType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_GRANARY</BuildingType>
+            <ResourceType>RESOURCE_BISON</ResourceType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_HUNS_YURT</BuildingType>
+            <ResourceType>RESOURCE_DEER</ResourceType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_HUNS_YURT</BuildingType>
+            <ResourceType>RESOURCE_BISON</ResourceType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_HUNS_YURT</BuildingType>
+            <ResourceType>RESOURCE_BANANA</ResourceType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_HUNS_YURT</BuildingType>
+            <ResourceType>RESOURCE_WHEAT</ResourceType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_HUNS_YURT</BuildingType>
+            <ResourceType>RESOURCE_HORSE</ResourceType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>3</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MONGOL_GER</BuildingType>
+            <ResourceType>RESOURCE_DEER</ResourceType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MONGOL_GER</BuildingType>
+            <ResourceType>RESOURCE_BISON</ResourceType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MONGOL_GER</BuildingType>
+            <ResourceType>RESOURCE_BANANA</ResourceType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MONGOL_GER</BuildingType>
+            <ResourceType>RESOURCE_WHEAT</ResourceType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_ZULU_IQHUGWANE</BuildingType>
+            <ResourceType>RESOURCE_DEER</ResourceType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_ZULU_IQHUGWANE</BuildingType>
+            <ResourceType>RESOURCE_BISON</ResourceType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_ZULU_IQHUGWANE</BuildingType>
+            <ResourceType>RESOURCE_BANANA</ResourceType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_ZULU_IQHUGWANE</BuildingType>
+            <ResourceType>RESOURCE_WHEAT</ResourceType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+
+        <Row>
+			<BuildingType>BUILDING_STONE_WORKS</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STONE_WORKS</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+        <Row>
+			<BuildingType>BUILDING_PIERS</BuildingType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PIERS</BuildingType>
+			<ResourceType>RESOURCE_WHALE</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PIERS</BuildingType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+        <Row>
+			<BuildingType>BUILDING_MILL</BuildingType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+        <Row>
+			<BuildingType>BUILDING_STONEHENGE</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STONEHENGE</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+
+    </Building_ResourceYieldChanges>
+
+    <!-- Может быть построенно только с этим ресурсом -->
+    <Building_LocalResourceOrs>
+
+        <!-- <Row>
+			<BuildingType>BUILDING_YUKOLA</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+        </Row>
+        <Row>
+			<BuildingType>BUILDING_YUKOLA</BuildingType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+		</Row> -->
+
+        <!-- <Row>
+			<BuildingType>BUILDING_STONE_WORKS</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STONE_WORKS</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+		</Row> -->
+
+        <Row>
+			<BuildingType>BUILDING_CIRCUS</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CIRCUS</BuildingType>
+			<ResourceType>RESOURCE_IVORY</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CIRCUS</BuildingType>
+			<ResourceType>RESOURCE_FUR</ResourceType>
+		</Row>
+
+    </Building_LocalResourceOrs>
+
+
+    <!-- Клетки с океаном -->
+    <Building_SeaPlotYieldChanges>
+        <Row>
+			<BuildingType>BUILDING_PIERS</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+    </Building_SeaPlotYieldChanges>
+
+
+    <!-- Производит от каждого жителя города в процентах -->
+    <Building_YieldChangesPerPop>
+
+    </Building_YieldChangesPerPop>
+
+
+    <!-- Опыт юнитам -->
+    <Building_DomainFreeExperiences>
+        <Row>
+			<BuildingType>BUILDING_BARRACKS</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>15</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BARRACKS</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Experience>15</Experience>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BARRACKS</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Experience>15</Experience>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_KREPOST</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>15</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KREPOST</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Experience>15</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KREPOST</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Experience>15</Experience>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_IKANDA</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>15</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IKANDA</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Experience>15</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IKANDA</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Experience>15</Experience>
+		</Row>
+    </Building_DomainFreeExperiences>
+
+
+
+    <!-- С клеток леса -->
+    <Building_FeatureYieldChanges>
+        <Row>
+			<BuildingType>BUILDING_LONGHOUSE</BuildingType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+    </Building_FeatureYieldChanges>
+
+
+    <!-- Для постройки нужно здание -->
+    <Building_ClassesNeededInCity>
+
+    </Building_ClassesNeededInCity>
+
+    <!-- Для ботов похоже... -->
+    <Building_Flavors>
+
+        <Row>
+			<BuildingType>BUILDING_MELTINGFURNACE</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+
+        <Row>
+			<BuildingType>BUILDING_YUKOLA</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_YUKOLA</BuildingType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+
+        <Row>
+			<BuildingType>BUILDING_MONUMENT</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+        <Row>
+            <BuildingType>BUILDING_GRANARY</BuildingType>
+            <FlavorType>FLAVOR_GROWTH</FlavorType>
+            <Flavor>18</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_GRANARY</BuildingType>
+            <FlavorType>FLAVOR_SCIENCE</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_GRANARY</BuildingType>
+            <FlavorType>FLAVOR_PRODUCTION</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_GRANARY</BuildingType>
+            <FlavorType>FLAVOR_EXPANSION</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_GRANARY</BuildingType>
+            <FlavorType>FLAVOR_I_LAND_TRADE_ROUTE</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_GRANARY</BuildingType>
+            <FlavorType>FLAVOR_I_SEA_TRADE_ROUTE</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_HUNS_YURT</BuildingType>
+            <FlavorType>FLAVOR_GROWTH</FlavorType>
+            <Flavor>25</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_HUNS_YURT</BuildingType>
+            <FlavorType>FLAVOR_SCIENCE</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_HUNS_YURT</BuildingType>
+            <FlavorType>FLAVOR_PRODUCTION</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_HUNS_YURT</BuildingType>
+            <FlavorType>FLAVOR_EXPANSION</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_HUNS_YURT</BuildingType>
+            <FlavorType>FLAVOR_I_LAND_TRADE_ROUTE</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_HUNS_YURT</BuildingType>
+            <FlavorType>FLAVOR_I_SEA_TRADE_ROUTE</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MONGOL_GER</BuildingType>
+            <FlavorType>FLAVOR_GROWTH</FlavorType>
+            <Flavor>18</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MONGOL_GER</BuildingType>
+            <FlavorType>FLAVOR_SCIENCE</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MONGOL_GER</BuildingType>
+            <FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+            <Flavor>10</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MONGOL_GER</BuildingType>
+            <FlavorType>FLAVOR_PRODUCTION</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MONGOL_GER</BuildingType>
+            <FlavorType>FLAVOR_EXPANSION</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MONGOL_GER</BuildingType>
+            <FlavorType>FLAVOR_I_LAND_TRADE_ROUTE</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MONGOL_GER</BuildingType>
+            <FlavorType>FLAVOR_I_SEA_TRADE_ROUTE</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_ZULU_IQHUGWANE</BuildingType>
+            <FlavorType>FLAVOR_GROWTH</FlavorType>
+            <Flavor>18</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_ZULU_IQHUGWANE</BuildingType>
+            <FlavorType>FLAVOR_SCIENCE</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_ZULU_IQHUGWANE</BuildingType>
+            <FlavorType>FLAVOR_PRODUCTION</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_ZULU_IQHUGWANE</BuildingType>
+            <FlavorType>FLAVOR_EXPANSION</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_ZULU_IQHUGWANE</BuildingType>
+            <FlavorType>FLAVOR_I_LAND_TRADE_ROUTE</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_ZULU_IQHUGWANE</BuildingType>
+            <FlavorType>FLAVOR_I_SEA_TRADE_ROUTE</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_ZULU_IQHUGWANE</BuildingType>
+            <FlavorType>FLAVOR_RELIGION</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_ZULU_IQHUGWANE</BuildingType>
+            <FlavorType>FLAVOR_HAPPINESS</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+
+        <Row>
+			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+
+        <Row>
+			<BuildingType>BUILDING_STONE_WORKS</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STONE_WORKS</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+        <Row>
+			<BuildingType>BUILDING_CIRCUS</BuildingType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CIRCUS</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CIRCUS</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+
+        <Row>
+			<BuildingType>BUILDING_PIERS</BuildingType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PIERS</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CUNEIFORMLIBRARY</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BARRACKS</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_KREPOST</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KREPOST</BuildingType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_IKANDA</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IKANDA</BuildingType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IKANDA</BuildingType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_MILL</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MILL</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_LONGHOUSE</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LONGHOUSE</BuildingType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LONGHOUSE</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LONGHOUSE</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LONGHOUSE</BuildingType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LONGHOUSE</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_DOLMEN</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_STONEHENGE</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STONEHENGE</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>75</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STONEHENGE</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+    </Building_Flavors>
+
+</GameData>

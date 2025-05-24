@@ -1,0 +1,2192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+
+	<Units>
+
+		<!-- ############################### -->
+		<!--   		  Развед юниты  		 -->
+		<!-- ############################### -->
+
+		<!-- Разведчики -->
+		<Row>
+			<Class>UNITCLASS_SCOUT</Class>
+			<Type>UNIT_SCOUT</Type>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			<Combat>5</Combat>
+			<Cost>25</Cost>
+			<FaithCost>50</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_RECON</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_EXPLORE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SCOUT</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_SCOUT_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SCOUT_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_SCOUT</Help>
+			<NoBadGoodies>true</NoBadGoodies>
+			<Pillage>true</Pillage>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_WARRIOR</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>10</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SCOUT</UnitArtInfo>
+			<UnitFlagIconOffset>5</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+		</Row>
+
+		<!-- Часки (Инки) -->
+		<Row>
+			<Class>UNITCLASS_SCOUT</Class>
+			<Type>UNIT_INCA_CHASQUI</Type>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			<Combat>5</Combat>
+			<Cost>25</Cost>
+			<FaithCost>50</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>3</Moves>
+			<CombatClass>UNITCOMBAT_RECON</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_EXPLORE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_INCA_CHASQUI</Description>
+			<Civilopedia>TXT_KEY_UNIT_INCA_CHASQUI_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_INCA_CHASQUI_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_INCA_CHASQUI_HELP</Help>
+			<NoBadGoodies>true</NoBadGoodies>
+			<Pillage>true</Pillage>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_WARRIOR</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>10</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_INCA_CHASQUI</UnitArtInfo>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<UnitFlagIconOffset>21</UnitFlagIconOffset>
+			<IconAtlas>UNIT_UNIQUE_ATLAS_3</IconAtlas>
+			<PortraitIndex>9</PortraitIndex>
+		</Row>
+
+		<!-- Следопыты (Шошоны) -->
+		<Row>
+			<Class>UNITCLASS_SCOUT</Class>
+			<Type>UNIT_SHOSHONE_PATHFINDER</Type>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			<Combat>7</Combat>
+			<Cost>40</Cost>
+			<FaithCost>50</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_RECON</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_EXPLORE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SHOSHONE_PATHFINDER</Description>
+			<Civilopedia>TXT_KEY_CIV5_SHOSHONE_PATHFINDER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SHOSHONE_PATHFINDER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_SHOSHONE_PATHFINDER</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<NoBadGoodies>true</NoBadGoodies>
+			<ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_WARRIOR</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>10</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_U_SHOSHONE_PATHFINDER</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION2_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>14</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION2_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>14</PortraitIndex>
+		</Row>
+
+		<!-- ############################### -->
+		<!--   		Войска ближнего боя  	 -->
+		<!-- ############################### -->
+		<!-- /// Античность /// -->
+
+		<!-- Уровень 1 -->
+
+		<!-- Войны -->
+		<Row>
+			<Class>UNITCLASS_WARRIOR</Class>
+			<Type>UNIT_WARRIOR</Type>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			<Combat>8</Combat>
+			<Cost>40</Cost>
+			<FaithCost>80</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_WARRIOR</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_WARRIOR_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_WARRIOR_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_WARRIOR</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_BRONZE_WORKING</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_AXEMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>10</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>1</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT__WARRIOR</UnitArtInfo>
+			<UnitFlagAtlas>AXEMAN_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+		</Row>
+
+		<!-- Войны-маори -->
+		<!-- UNIT_POLYNESIAN_MAORI_WARRIOR DLC_03 -->
+
+		<!-- Войны-ягуары -->
+		<Row>
+			<Class>UNITCLASS_WARRIOR</Class>
+			<Type>UNIT_AZTEC_JAGUAR</Type>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			<Combat>8</Combat>
+			<Cost>40</Cost>
+			<FaithCost>80</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AZTEC_JAGUAR</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_JAGUAR_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_AZTEC_JAGUAR_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_JAGUAR</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_METAL_CASTING</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_SPEARMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>10</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>1</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_U_AZTEC_JAGUAR</UnitArtInfo>
+			<UnitFlagIconOffset>4</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+		</Row>
+
+		<!-- Дикари (Варвары) -->
+		<Row>
+			<Class>UNITCLASS_WARRIOR</Class>
+			<Type>UNIT_BARBARIAN_WARRIOR</Type>
+			<Combat>9</Combat>
+			<Cost>20</Cost>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_BRUTE</Description>
+			<Civilopedia>TXT_KEY_CIV5_BARBARIANS_TEXT</Civilopedia>
+			<Help>TXT_KEY_UNIT_HELP_BARBARIAN_WARRIOR</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<AdvancedStartCost>10</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>1</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_BARBARIAN_EURO</UnitArtInfo>
+			<UnitFlagIconOffset>3</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>25</PortraitIndex>
+			<MoveRate>HEAVY_BIPED</MoveRate>
+		</Row>
+
+		<!-- Уровень 2 -->
+
+		<!-- Войны с топорами -->
+		<Row>
+			<Class>UNITCLASS_AXEMAN</Class>
+			<Type>UNIT_AXEMAN</Type>
+			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
+			<Combat>10</Combat>
+			<Cost>50</Cost>
+			<FaithCost>100</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AXEMAN</Description>
+			<Civilopedia>TXT_KEY_UNIT_AXEMAN_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_AXEMAN_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_AXEMAN_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_METAL_CASTING</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_SPEARMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>10</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>1</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT__AXEMAN</UnitArtInfo>
+			<UnitFlagIconOffset>3</UnitFlagIconOffset>
+			<IconAtlas>Technologies_IconAtlas</IconAtlas>
+			<PortraitIndex>24</PortraitIndex>
+		</Row>
+
+
+		<!-- Уровень 3 -->
+
+
+
+
+
+
+
+		<!-- Войны-могавки -->
+		<Row>
+			<Class>UNITCLASS_SWORDSMAN</Class>
+			<Type>UNIT_IROQUOIAN_MOHAWKWARRIOR</Type>
+			<PrereqTech>TECH_LAMINAR_ARMOR</PrereqTech>
+			<Combat>13</Combat>
+			<Cost>70</Cost>
+			<FaithCost>150</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<HurryCostModifier>20</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_IROQUOIAN_MOHAWKWARRIOR</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_MOHAWKWARRIOR_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_IROQUOIAN_MOHAWKWARRIOR_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_MOHAWK_WARRIOR</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_GUNPOWDER</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_LONGSWORDSMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>20</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>1</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_U_IROQUOIAN_MOHAWKWARRIOR</UnitArtInfo>
+			<UnitFlagIconOffset>16</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>16</PortraitIndex>
+		</Row>
+
+		<!-- Хопеш -->
+		<Row>
+			<Class>UNITCLASS_SWORDSMAN</Class>
+			<Type>UNIT_EGYPT_KHOPESH_SWORDSMAN</Type>
+			<PrereqTech>TECH_LAMINAR_ARMOR</PrereqTech>
+			<Combat>13</Combat>
+			<Cost>75</Cost>
+			<FaithCost>150</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<HurryCostModifier>20</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_EGYPT_KHOPESH_SWORDSMAN</Description>
+			<Civilopedia>TXT_KEY_UNIT_EGYPT_KHOPESH_SWORDSMAN_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_EGYPT_KHOPESH_SWORDSMAN_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_EGYPT_KHOPESH_SWORDSMAN_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_GUNPOWDER</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_LONGSWORDSMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>20</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>1</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_EGYPT_KHOPESH_SWORDSMAN</UnitArtInfo>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<UnitFlagIconOffset>16</UnitFlagIconOffset>
+			<IconAtlas>UNIT_UNIQUE_ATLAS_3</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
+			<MoveRate>HEAVY_BIPED</MoveRate>
+		</Row>
+
+		<!-- Мечники -->
+		<Row>
+			<Class>UNITCLASS_SWORDSMAN</Class>
+			<Type>UNIT_SWORDSMAN</Type>
+			<PrereqTech>TECH_LAMINAR_ARMOR</PrereqTech>
+			<Combat>14</Combat>
+			<Cost>75</Cost>
+			<FaithCost>150</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<HurryCostModifier>20</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SWORDSMAN</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_SWORDSMAN_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SWORDSMAN_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_SWORDSMAN</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_STEEL</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_LONGSWORDSMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>20</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>1</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_SWORDSMAN</UnitArtInfo>
+			<UnitFlagIconOffset>14</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>14</PortraitIndex>
+			<MoveRate>HEAVY_BIPED</MoveRate>
+		</Row>
+
+		<!-- Мечник с крисом -->
+		<Row>
+			<Class>UNITCLASS_SWORDSMAN</Class>
+			<Type>UNIT_KRIS_SWORDSMAN</Type>
+			<PrereqTech>TECH_LAMINAR_ARMOR</PrereqTech>
+			<Combat>15</Combat>
+			<Cost>75</Cost>
+			<FaithCost>150</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<HurryCostModifier>20</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_INDONESIAN_KRIS_SWORDSMAN</Description>
+			<Civilopedia>TXT_KEY_CIV5_INDONESIAN_KRIS_SWORDSMAN_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_INDONESIAN_KRIS_SWORDSMAN_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_INDONESIAN_KRIS_SWORDSMAN</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_STEEL</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_LONGSWORDSMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>20</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>1</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_U_INDONESIAN_KRIS_SWORDSMAN</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION2_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>11</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION2_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>11</PortraitIndex>
+		</Row>
+
+		<!-- Легион -->
+		<Row>
+			<Class>UNITCLASS_SWORDSMAN</Class>
+			<Type>UNIT_ROMAN_LEGION</Type>
+			<PrereqTech>TECH_LAMINAR_ARMOR</PrereqTech>
+			<Combat>16</Combat>
+			<Cost>75</Cost>
+			<FaithCost>150</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<HurryCostModifier>20</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_ROMAN_LEGION</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_LEGION_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_ROMAN_LEGION_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_ROMAN_LEGION</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_GUNPOWDER</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_LONGSWORDSMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>20</AdvancedStartCost>
+			<WorkRate>100</WorkRate>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>1</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_U_ROMAN_LEGION</UnitArtInfo>
+			<UnitFlagIconOffset>15</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>15</PortraitIndex>
+			<MoveRate>HEAVY_BIPED</MoveRate>
+		</Row>
+
+		<!-- Хускарлы -->
+		<Row>
+			<Class>UNITCLASS_SWORDSMAN</Class>
+			<Type>UNIT_DENMARK_HUSCARL</Type>
+			<PrereqTech>TECH_LAMINAR_ARMOR</PrereqTech>
+			<Combat>16</Combat>
+			<Cost>75</Cost>
+			<FaithCost>150</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<HurryCostModifier>20</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_DENMARK_HUSCARL</Description>
+			<Civilopedia>TXT_KEY_UNIT_DENMARK_HUSCARL_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_DENMARK_HUSCARL_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_DENMARK_HUSCARL_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_GUNPOWDER</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_MUSKETMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>20</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>1</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_U_SAXON_HUSCARL</UnitArtInfo>
+			<UnitFlagAtlas>HARALD_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>2</UnitFlagIconOffset>
+			<IconAtlas>HARALD_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<MoveRate>HEAVY_BIPED</MoveRate>
+		</Row>
+
+		<!-- Уровень 3 -->
+		<!-- Длинный мечь -->
+		<Row>
+			<Class>UNITCLASS_LONGSWORDSMAN</Class>
+			<Type>UNIT_LONGSWORDSMAN</Type>
+			<PrereqTech>TECH_STEEL</PrereqTech>
+			<Combat>21</Combat>
+			<Cost>120</Cost>
+			<FaithCost>240</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_LONGSWORDSMAN</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MEDIEVAL_LONGSWORDSMAN_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_LONGSWORDSMAN_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_LONGSWORDSMAN</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_GUNPOWDER</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_MUSKETMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>25</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>3</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_LONGSWORDSMAN</UnitArtInfo>
+			<UnitFlagIconOffset>35</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>36</PortraitIndex>
+		</Row>
+
+
+
+
+
+
+
+
+
+		<!-- ############################### -->
+		<!--     Близний против кавалерии  	 -->
+		<!-- ############################### -->
+
+		<!-- Копейщики -->
+		<Row>
+			<Class>UNITCLASS_SPEARMAN</Class>
+			<Type>UNIT_SPEARMAN</Type>
+			<PrereqTech>TECH_ARMOUR</PrereqTech>
+			<Combat>11</Combat>
+			<Cost>56</Cost>
+			<FaithCost>112</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SPEARMAN</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_SPEARMAN_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SPEARMAN_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_SPEARMAN</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_CIVIL_SERVICE</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_PIKEMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>15</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>2</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_SPEARMAN</UnitArtInfo>
+			<UnitFlagIconOffset>9</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>9</PortraitIndex>
+		</Row>
+
+		<!-- Царский отряд -->
+		<Row>
+			<Class>UNITCLASS_SPEARMAN</Class>
+			<Type>UNIT_ASSYRIA_ROYAL_GUARD</Type>
+			<PrereqTech>TECH_ARMOUR</PrereqTech>
+			<Combat>11</Combat>
+			<Cost>56</Cost>
+			<FaithCost>112</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_ASSYRIA_ROYAL_GUARD</Description>
+			<Civilopedia>TXT_KEY_UNIT_ASSYRIA_ROYAL_GUARD_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_ASSYRIA_ROYAL_GUARD_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_ASSYRIA_ROYAL_GUARD_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_CIVIL_SERVICE</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_PIKEMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>15</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>2</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_ASSYRIA_ROYAL_GUARD</UnitArtInfo>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<UnitFlagIconOffset>11</UnitFlagIconOffset>
+			<IconAtlas>UNIT_UNIQUE_ATLAS_3</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+		</Row>
+
+		<!-- Войны-орлы -->
+		<Row>
+			<Class>UNITCLASS_SPEARMAN</Class>
+			<Type>UNIT_AZTEC_EAGLE</Type>
+			<PrereqTech>TECH_ARMOUR</PrereqTech>
+			<Combat>11</Combat>
+			<Cost>56</Cost>
+			<FaithCost>112</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AZTEC_EAGLE</Description>
+			<Civilopedia>TXT_KEY_UNIT_AZTEC_EAGLE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_AZTEC_EAGLE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_AZTEC_EAGLE_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_CIVIL_SERVICE</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_PIKEMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>15</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>2</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_AZTEC_EAGLE</UnitArtInfo>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<UnitFlagIconOffset>12</UnitFlagIconOffset>
+			<IconAtlas>UNIT_UNIQUE_ATLAS_3</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+		</Row>
+
+		<!-- Гоплиты -->
+		<Row>
+			<Class>UNITCLASS_SPEARMAN</Class>
+			<Type>UNIT_GREEK_HOPLITE</Type>
+			<PrereqTech>TECH_ARMOUR</PrereqTech>
+			<Combat>13</Combat>
+			<Cost>56</Cost>
+			<FaithCost>112</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_GREEK_HOPLITE</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_HOPLITE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_GREEK_HOPLITE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_HOPLITE</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_CIVIL_SERVICE</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_PIKEMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>15</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>2</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_U_GREEK_HOPLITE</UnitArtInfo>
+			<UnitFlagIconOffset>10</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>10</PortraitIndex>
+		</Row>
+
+		<!-- Бессмертные -->
+		<Row>
+			<Class>UNITCLASS_SPEARMAN</Class>
+			<Type>UNIT_PERSIAN_IMMORTAL</Type>
+			<PrereqTech>TECH_ARMOUR</PrereqTech>
+			<Combat>12</Combat>
+			<Cost>56</Cost>
+			<FaithCost>112</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_PERSIAN_IMMORTAL</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_IMMORTAL_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_PERSIAN_IMMORTAL_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_IMMORTAL</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_CIVIL_SERVICE</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_PIKEMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>15</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>2</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_U_PERSIAN_IMMORTAL</UnitArtInfo>
+			<UnitFlagIconOffset>11</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>11</PortraitIndex>
+		</Row>
+
+		<!-- Войны-пикты -->
+		<Row>
+			<Class>UNITCLASS_SPEARMAN</Class>
+			<Type>UNIT_CELT_PICTISH_WARRIOR</Type>
+			<PrereqTech>TECH_ARMOUR</PrereqTech>
+			<Combat>11</Combat>
+			<Cost>56</Cost>
+			<FaithCost>112</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_CELT_PICTISH_WARRIOR</Description>
+			<Civilopedia>TXT_KEY_CIV5_CELT_PICTISH_WARRIOR_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_CELT_PICTISH_WARRIOR_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_CELT_PICTISH_WARRIOR</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_CIVIL_SERVICE</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_PIKEMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>15</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>2</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_U_CELT_PICTISH_WARRIOR</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>10</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>10</PortraitIndex>
+		</Row>
+
+		<!-- Таран -->
+		<Row>
+			<Class>UNITCLASS_SPEARMAN</Class>
+			<Type>UNIT_HUN_BATTERING_RAM</Type>
+			<PrereqTech>TECH_ARMOUR</PrereqTech>
+			<Combat>10</Combat>
+			<Cost>75</Cost>
+			<FaithCost>150</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_CITY_BOMBARD</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_HUN_BATTERING_RAM</Description>
+			<Civilopedia>TXT_KEY_CIV5_HUN_BATTERING_RAM_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_HUN_BATTERING_RAM_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_HUN_BATTERING_RAM</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_PHYSICS</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_TREBUCHET</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>15</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_U_HUNS_BATTERING_RAM</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>2</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+		</Row>
+
+		<!-- Варварские копейщики -->
+		<Row>
+			<Class>UNITCLASS_SPEARMAN</Class>
+			<Type>UNIT_BARBARIAN_SPEARMAN</Type>
+			<PrereqTech>TECH_ARMOUR</PrereqTech>
+			<Combat>11</Combat>
+			<Cost>56</Cost>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SPEARMAN</Description>
+			<ShowInPedia>false</ShowInPedia>
+			<Help>TXT_KEY_UNIT_HELP_SPEARMAN</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_CIVIL_SERVICE</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_PIKEMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>15</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>2</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_BARBARIAN_SPEARMAN</UnitArtInfo>
+			<UnitFlagIconOffset>9</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>9</PortraitIndex>
+		</Row>
+
+
+		<!-- Пикинеры -->
+		<Row>
+			<Class>UNITCLASS_PIKEMAN</Class>
+			<Type>UNIT_PIKEMAN</Type>
+			<PrereqTech>TECH_CIVIL_SERVICE</PrereqTech>
+			<Combat>16</Combat>
+			<Cost>90</Cost>
+			<FaithCost>180</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_PIKEMAN</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MEDIEVAL_PIKEMAN_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_PIKEMAN_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_PIKEMAN</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_GRENADIER</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>20</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>3</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_PIKEMAN</UnitArtInfo>
+			<UnitFlagIconOffset>32</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>33</PortraitIndex>
+		</Row>
+
+		<!-- Сохэи (Япония) -->
+		<Row>
+			<Class>UNITCLASS_PIKEMAN</Class>
+			<Type>UNIT_JAPAN_WARMONK</Type>
+			<PrereqTech>TECH_CIVIL_SERVICE</PrereqTech>
+			<Combat>16</Combat>
+			<Cost>90</Cost>
+			<FaithCost>180</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_JAPAN_WARMONK</Description>
+			<Civilopedia>TXT_KEY_UNIT_JAPAN_WARMONK_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_JAPAN_WARMONK_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_JAPAN_WARMONK_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_GRENADIER</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>20</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>3</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_JAPAN_WARMONK</UnitArtInfo>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<UnitFlagIconOffset>36</UnitFlagIconOffset>
+			<IconAtlas>UNIT_UNIQUE_ATLAS_3</IconAtlas>
+			<PortraitIndex>19</PortraitIndex>
+		</Row>
+
+		<!-- Импи -->
+		<Row>
+			<Class>UNITCLASS_PIKEMAN</Class>
+			<Type>UNIT_ZULU_IMPI</Type>
+			<PrereqTech>TECH_CIVIL_SERVICE</PrereqTech>
+			<Combat>16</Combat>
+			<Cost>90</Cost>
+			<FaithCost>180</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_ZULU_IMPI</Description>
+			<Civilopedia>TXT_KEY_CIV5_ZULU_IMPI_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_ZULU_IMPI_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_ZULU_IMPI</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_GRENADIER</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>20</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>3</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_U_ZULU_IMPI_WARRIOR</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION2_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>10</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION2_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>10</PortraitIndex>
+		</Row>
+
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SCOUT</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_INCA_CHASQUI</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SHOSHONE_PATHFINDER</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SHOSHONE_PATHFINDER</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WARRIOR</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WARRIOR</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WARRIOR</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AZTEC_JAGUAR</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AZTEC_JAGUAR</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AZTEC_JAGUAR</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SWORDSMAN</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SWORDSMAN</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SPEARMAN</UnitType>
+			<UnitAIType>UNITAI_COUNTER</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SPEARMAN</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SPEARMAN</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ASSYRIA_ROYAL_GUARD</UnitType>
+			<UnitAIType>UNITAI_COUNTER</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ASSYRIA_ROYAL_GUARD</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ASSYRIA_ROYAL_GUARD</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AZTEC_EAGLE</UnitType>
+			<UnitAIType>UNITAI_COUNTER</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AZTEC_EAGLE</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AZTEC_EAGLE</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AZTEC_EAGLE</UnitType>
+			<UnitAIType>UNITAI_GENERAL</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GREEK_HOPLITE</UnitType>
+			<UnitAIType>UNITAI_COUNTER</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GREEK_HOPLITE</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GREEK_HOPLITE</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GREEK_HOPLITE</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PERSIAN_IMMORTAL</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PERSIAN_IMMORTAL</UnitType>
+			<UnitAIType>UNITAI_COUNTER</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PERSIAN_IMMORTAL</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PERSIAN_IMMORTAL</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CELT_PICTISH_WARRIOR</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CELT_PICTISH_WARRIOR</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CELT_PICTISH_WARRIOR</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HUN_BATTERING_RAM</UnitType>
+			<UnitAIType>UNITAI_CITY_BOMBARD</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BARBARIAN_SPEARMAN</UnitType>
+			<UnitAIType>UNITAI_COUNTER</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BARBARIAN_SPEARMAN</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BARBARIAN_SPEARMAN</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PIKEMAN</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PIKEMAN</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PIKEMAN</UnitType>
+			<UnitAIType>UNITAI_COUNTER</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PIKEMAN</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPAN_WARMONK</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPAN_WARMONK</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPAN_WARMONK</UnitType>
+			<UnitAIType>UNITAI_COUNTER</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPAN_WARMONK</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ZULU_IMPI</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ZULU_IMPI</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ZULU_IMPI</UnitType>
+			<UnitAIType>UNITAI_COUNTER</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ZULU_IMPI</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ROMAN_LEGION</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ROMAN_LEGION</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ROMAN_LEGION</UnitType>
+			<UnitAIType>UNITAI_WORKER</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KRIS_SWORDSMAN</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KRIS_SWORDSMAN</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DENMARK_HUSCARL</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DENMARK_HUSCARL</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EGYPT_KHOPESH_SWORDSMAN</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EGYPT_KHOPESH_SWORDSMAN</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+
+	</Unit_AITypes>
+
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_ROMAN_LEGION</UnitType>
+			<BuildType>BUILD_ROAD</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ROMAN_LEGION</UnitType>
+			<BuildType>BUILD_FORT</BuildType>
+		</Row>
+	</Unit_Builds>
+
+	<!-- Во что улучшается? -->
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_SCOUT</UnitType>
+			<UnitClassType>UNITCLASS_ADVENTURER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_INCA_CHASQUI</UnitType>
+			<UnitClassType>UNITCLASS_ADVENTURER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SHOSHONE_PATHFINDER</UnitType>
+			<UnitClassType>UNITCLASS_ADVENTURER</UnitClassType>
+		</Row>
+
+
+
+
+		<Row>
+			<UnitType>UNIT_WARRIOR</UnitType>
+			<UnitClassType>UNITCLASS_AXEMAN</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AZTEC_JAGUAR</UnitType>
+			<UnitClassType>UNITCLASS_SWORDSMAN</UnitClassType>
+		</Row>
+
+
+
+		<Row>
+			<UnitType>UNIT_AXEMAN</UnitType>
+			<UnitClassType>UNITCLASS_SWORDSMAN</UnitClassType>
+		</Row>
+
+
+
+
+		<Row>
+			<UnitType>UNIT_BARBARIAN_WARRIOR</UnitType>
+			<UnitClassType>UNITCLASS_SWORDSMAN</UnitClassType>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_SWORDSMAN</UnitType>
+			<UnitClassType>UNITCLASS_LONGSWORDSMAN</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ROMAN_LEGION</UnitType>
+			<UnitClassType>UNITCLASS_LONGSWORDSMAN</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType>
+			<UnitClassType>UNITCLASS_LONGSWORDSMAN</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KRIS_SWORDSMAN</UnitType>
+			<UnitClassType>UNITCLASS_LONGSWORDSMAN</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EGYPT_KHOPESH_SWORDSMAN</UnitType>
+			<UnitClassType>UNITCLASS_LONGSWORDSMAN</UnitClassType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_DENMARK_HUSCARL</UnitType>
+			<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_SPEARMAN</UnitType>
+			<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ASSYRIA_ROYAL_GUARD</UnitType>
+			<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AZTEC_EAGLE</UnitType>
+			<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GREEK_HOPLITE</UnitType>
+			<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PERSIAN_IMMORTAL</UnitType>
+			<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CELT_PICTISH_WARRIOR</UnitType>
+			<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HUN_BATTERING_RAM</UnitType>
+			<UnitClassType>UNITCLASS_TREBUCHET</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BARBARIAN_SPEARMAN</UnitType>
+			<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_PIKEMAN</UnitType>
+			<UnitClassType>UNITCLASS_GRENADIER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPAN_WARMONK</UnitType>
+			<UnitClassType>UNITCLASS_GRENADIER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ZULU_IMPI</UnitType>
+			<UnitClassType>UNITCLASS_GRENADIER</UnitClassType>
+		</Row>
+
+	</Unit_ClassUpgrades>
+
+	<!-- Для советников -->
+	<Unit_Flavors>
+
+		<Row>
+			<UnitType>UNIT_SCOUT</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_INCA_CHASQUI</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SHOSHONE_PATHFINDER</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>14</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WARRIOR</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WARRIOR</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WARRIOR</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AZTEC_JAGUAR</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AZTEC_JAGUAR</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AZTEC_JAGUAR</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SWORDSMAN</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SWORDSMAN</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SPEARMAN</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SPEARMAN</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ASSYRIA_ROYAL_GUARD</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ASSYRIA_ROYAL_GUARD</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AZTEC_EAGLE</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AZTEC_EAGLE</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GREEK_HOPLITE</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GREEK_HOPLITE</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PERSIAN_IMMORTAL</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PERSIAN_IMMORTAL</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CELT_PICTISH_WARRIOR</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CELT_PICTISH_WARRIOR</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HUN_BATTERING_RAM</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HUN_BATTERING_RAM</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BARBARIAN_SPEARMAN</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BARBARIAN_SPEARMAN</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PIKEMAN</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PIKEMAN</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPAN_WARMONK</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPAN_WARMONK</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ZULU_IMPI</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ZULU_IMPI</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ZULU_IMPI</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ROMAN_LEGION</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ROMAN_LEGION</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ROMAN_LEGION</UnitType>
+			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KRIS_SWORDSMAN</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KRIS_SWORDSMAN</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DENMARK_HUSCARL</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DENMARK_HUSCARL</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EGYPT_KHOPESH_SWORDSMAN</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EGYPT_KHOPESH_SWORDSMAN</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+
+	</Unit_Flavors>
+
+	<!-- Способности юнита -->
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SCOUT</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SHOSHONE_PATHFINDER</UnitType>
+			<PromotionType>PROMOTION_GOODY_HUT_PICKER</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SHOSHONE_PATHFINDER</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_INCA_CHASQUI</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AZTEC_JAGUAR</UnitType>
+			<PromotionType>PROMOTION_JAGUAR</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AZTEC_JAGUAR</UnitType>
+			<PromotionType>PROMOTION_WOODSMAN</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AZTEC_JAGUAR</UnitType>
+			<PromotionType>PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BARBARIAN_WARRIOR</UnitType>
+			<PromotionType>PROMOTION_ANTI_SCOUT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SPEARMAN</UnitType>
+			<PromotionType>PROMOTION_ANTI_MOUNTED_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ASSYRIA_ROYAL_GUARD</UnitType>
+			<PromotionType>PROMOTION_ANTI_MOUNTED_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ASSYRIA_ROYAL_GUARD</UnitType>
+			<PromotionType>PROMOTION_ROYAL_GUARD</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AZTEC_EAGLE</UnitType>
+			<PromotionType>PROMOTION_ANTI_MOUNTED_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AZTEC_EAGLE</UnitType>
+			<PromotionType>PROMOTION_EAGLE_EYES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GREEK_HOPLITE</UnitType>
+			<PromotionType>PROMOTION_ANTI_MOUNTED_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PERSIAN_IMMORTAL</UnitType>
+			<PromotionType>PROMOTION_ANTI_MOUNTED_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PERSIAN_IMMORTAL</UnitType>
+			<PromotionType>PROMOTION_FASTER_HEAL</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CELT_PICTISH_WARRIOR</UnitType>
+			<PromotionType>PROMOTION_FOREIGN_LANDS</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CELT_PICTISH_WARRIOR</UnitType>
+			<PromotionType>PROMOTION_FREE_PILLAGE_MOVES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HUN_BATTERING_RAM</UnitType>
+			<PromotionType>PROMOTION_CITY_ASSAULT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HUN_BATTERING_RAM</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HUN_BATTERING_RAM</UnitType>
+			<PromotionType>PROMOTION_DEFENSE_PENALTY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HUN_BATTERING_RAM</UnitType>
+			<PromotionType>PROMOTION_SIGHT_PENALTY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HUN_BATTERING_RAM</UnitType>
+			<PromotionType>PROMOTION_COVER_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HUN_BATTERING_RAM</UnitType>
+			<PromotionType>PROMOTION_ONLY_ATTACKS_CITIES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BARBARIAN_SPEARMAN</UnitType>
+			<PromotionType>PROMOTION_ANTI_MOUNTED_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PIKEMAN</UnitType>
+			<PromotionType>PROMOTION_ANTI_MOUNTED_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPAN_WARMONK</UnitType>
+			<PromotionType>PROMOTION_ANTI_MOUNTED_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPAN_WARMONK</UnitType>
+			<PromotionType>PROMOTION_MONASTIC</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ZULU_IMPI</UnitType>
+			<PromotionType>PROMOTION_ANTI_MOUNTED_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ZULU_IMPI</UnitType>
+			<PromotionType>PROMOTION_ANTI_GUNPOWDER</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType>
+			<PromotionType>PROMOTION_MOHAWK</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KRIS_SWORDSMAN</UnitType>
+			<PromotionType>PROMOTION_MYSTIC_BLADE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DENMARK_HUSCARL</UnitType>
+			<PromotionType>PROMOTION_COVER_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DENMARK_HUSCARL</UnitType>
+			<PromotionType>PROMOTION_ANTI_MOUNTED_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EGYPT_KHOPESH_SWORDSMAN</UnitType>
+			<PromotionType>PROMOTION_SHOCK_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EGYPT_KHOPESH_SWORDSMAN</UnitType>
+			<PromotionType>PROMOTION_DESERT_WARRIOR</PromotionType>
+		</Row>
+
+	</Unit_FreePromotions>
+
+	<!-- Стоимость в ресурсов юнитов -->
+	<Unit_ResourceCostRequirements>
+
+		<!-- ###################### -->
+		<!-- Разведчики (уровень 1) -->
+		<!-- ###################### -->
+
+		<!-- Разведчики -->
+		<Row>
+			<UnitType>UNIT_SCOUT</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+
+		<!-- Часки -->
+		<Row>
+			<UnitType>UNIT_INCA_CHASQUI</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+
+		<!-- Следопыты -->
+		<Row>
+			<UnitType>UNIT_SHOSHONE_PATHFINDER</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>15</Cost>
+		</Row>
+
+		<!-- ################## -->
+		<!-- Пехота (уровень 1) -->
+		<!-- ################## -->
+
+		<!-- Войны -->
+		<Row>
+			<UnitType>UNIT_WARRIOR</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WARRIOR</UnitType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WARRIOR</UnitType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+
+		<!-- Войны-маори -->
+		<Row>
+			<UnitType>UNIT_POLYNESIAN_MAORI_WARRIOR</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+
+		<!-- Войны-ягуары -->
+		<Row>
+			<UnitType>UNIT_AZTEC_JAGUAR</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>15</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AZTEC_JAGUAR</UnitType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+
+		<!-- ################## -->
+		<!-- Пехота (уровень 2) -->
+		<!-- ################## -->
+
+		<!-- Войны-могавки -->
+		<Row>
+			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>15</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+
+		<!-- Мечники с хопешом -->
+		<Row>
+			<UnitType>UNIT_EGYPT_KHOPESH_SWORDSMAN</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EGYPT_KHOPESH_SWORDSMAN</UnitType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EGYPT_KHOPESH_SWORDSMAN</UnitType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EGYPT_KHOPESH_SWORDSMAN</UnitType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+
+		<!-- Мечники -->
+		<Row>
+			<UnitType>UNIT_SWORDSMAN</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SWORDSMAN</UnitType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SWORDSMAN</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SWORDSMAN</UnitType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+
+		<!-- Мечники с крисом -->
+		<Row>
+			<UnitType>UNIT_KRIS_SWORDSMAN</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KRIS_SWORDSMAN</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>25</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KRIS_SWORDSMAN</UnitType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>25</Cost>
+		</Row>
+
+		<!-- Легион -->
+		<Row>
+			<UnitType>UNIT_ROMAN_LEGION</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>25</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ROMAN_LEGION</UnitType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ROMAN_LEGION</UnitType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ROMAN_LEGION</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>25</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ROMAN_LEGION</UnitType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+
+		<!-- Хускарлы -->
+		<Row>
+			<UnitType>UNIT_DENMARK_HUSCARL</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>25</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DENMARK_HUSCARL</UnitType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DENMARK_HUSCARL</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DENMARK_HUSCARL</UnitType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+
+		<!-- ##################### -->
+		<!-- Копейщики (уровень 1) -->
+		<!-- ##################### -->
+
+		<!-- Копейщик -->
+		<Row>
+			<UnitType>UNIT_SPEARMAN</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>15</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SPEARMAN</UnitType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SPEARMAN</UnitType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SPEARMAN</UnitType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+
+		<!-- Царский отряд -->
+		<Row>
+			<UnitType>UNIT_ASSYRIA_ROYAL_GUARD</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>15</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ASSYRIA_ROYAL_GUARD</UnitType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ASSYRIA_ROYAL_GUARD</UnitType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ASSYRIA_ROYAL_GUARD</UnitType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+
+		<!-- Войны-орлы -->
+		<Row>
+			<UnitType>UNIT_AZTEC_EAGLE</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AZTEC_EAGLE</UnitType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+
+		<!-- Гоплиты -->
+		<Row>
+			<UnitType>UNIT_GREEK_HOPLITE</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>15</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GREEK_HOPLITE</UnitType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GREEK_HOPLITE</UnitType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GREEK_HOPLITE</UnitType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+
+		<!-- Бессмертные -->
+		<Row>
+			<UnitType>UNIT_PERSIAN_IMMORTAL</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PERSIAN_IMMORTAL</UnitType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PERSIAN_IMMORTAL</UnitType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>12</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PERSIAN_IMMORTAL</UnitType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>12</Cost>
+		</Row>
+
+		<!-- Войны-пикты -->
+		<Row>
+			<UnitType>UNIT_CELT_PICTISH_WARRIOR</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>15</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CELT_PICTISH_WARRIOR</UnitType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CELT_PICTISH_WARRIOR</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CELT_PICTISH_WARRIOR</UnitType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+
+		<!-- Таран -->
+		<Row>
+			<UnitType>UNIT_HUN_BATTERING_RAM</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HUN_BATTERING_RAM</UnitType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HUN_BATTERING_RAM</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HUN_BATTERING_RAM</UnitType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+
+		<!-- #################### -->
+		<!-- Пикинеры (уровень 2) -->
+		<!-- #################### -->
+
+		<!-- Пикинеры -->
+		<Row>
+			<UnitType>UNIT_PIKEMAN</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>40</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PIKEMAN</UnitType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PIKEMAN</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PIKEMAN</UnitType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+
+		<!-- Сохэи (Япония) -->
+		<Row>
+			<UnitType>UNIT_JAPAN_WARMONK</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPAN_WARMONK</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPAN_WARMONK</UnitType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+
+		<!-- Импи -->
+		<Row>
+			<UnitType>UNIT_ZULU_IMPI</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>60</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ZULU_IMPI</UnitType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ZULU_IMPI</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ZULU_IMPI</UnitType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+
+	</Unit_ResourceCostRequirements>
+
+	<!-- Содержание -->
+	<Unit_ResourceQuantityRequirements>
+
+		<!-- Войны -->
+		<!-- <Row>
+			<UnitType>UNIT_WARRIOR</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1</Cost>
+		</Row> -->
+
+		<!-- Войны-могавки -->
+		<Row>
+			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+		<!-- Мечники с хопешом -->
+		<Row>
+			<UnitType>UNIT_EGYPT_KHOPESH_SWORDSMAN</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+		<!-- Мечники -->
+		<Row>
+			<UnitType>UNIT_SWORDSMAN</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SWORDSMAN</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+		<!-- Мечники с крисом -->
+		<Row>
+			<UnitType>UNIT_KRIS_SWORDSMAN</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KRIS_SWORDSMAN</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+		<!-- Легион -->
+		<Row>
+			<UnitType>UNIT_ROMAN_LEGION</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ROMAN_LEGION</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+		<!-- Хускарлы -->
+		<Row>
+			<UnitType>UNIT_DENMARK_HUSCARL</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DENMARK_HUSCARL</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+
+
+
+
+		<!-- Копейщик -->
+		<Row>
+			<UnitType>UNIT_SPEARMAN</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<!-- Царский отряд -->
+		<Row>
+			<UnitType>UNIT_ASSYRIA_ROYAL_GUARD</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<!-- Войны-орлы -->
+		<Row>
+			<UnitType>UNIT_AZTEC_EAGLE</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<!-- Гоплиты -->
+		<Row>
+			<UnitType>UNIT_GREEK_HOPLITE</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<!-- Бессмертные -->
+		<Row>
+			<UnitType>UNIT_PERSIAN_IMMORTAL</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<!-- Войны-пикты -->
+		<Row>
+			<UnitType>UNIT_CELT_PICTISH_WARRIOR</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<!-- Таран -->
+		<Row>
+			<UnitType>UNIT_HUN_BATTERING_RAM</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+
+		<!-- Пикинеры -->
+		<Row>
+			<UnitType>UNIT_PIKEMAN</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+
+		<!-- Сохэи (Япония) -->
+		<Row>
+			<UnitType>UNIT_JAPAN_WARMONK</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>4</Cost>
+		</Row>
+
+		<!-- Импи -->
+		<Row>
+			<UnitType>UNIT_ZULU_IMPI</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+
+
+
+
+
+	</Unit_ResourceQuantityRequirements>
+
+	<!-- При уничтожении юнита получает -->
+	<Unit_YieldFromKills>
+		<Row>
+			<UnitType>UNIT_CELT_PICTISH_WARRIOR</UnitType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>50</Yield>
+		</Row>
+	</Unit_YieldFromKills>
+
+
+
+
+</GameData>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+    <!-- Disabling until we get our first loc drop.-->
+    <Languages>
+        <Row>
+            <ID>6</ID>
+            <Type>ru_RU</Type>
+            <Name>Русский (Russian)</Name>
+            <TableName>Language_RU_RU</TableName>
+            <PluralRule>8</PluralRule>
+			<UseExtendedFont>1</UseExtendedFont>
+			<FontName>Verdana</FontName>
+		</Row>
+    </Languages>
+
+    <SpokenLanguages>
+        <Row>
+            <ID>6</ID>
+            <Type>ru_RU</Type>
+            <DisplayName>Русский (Russian)</DisplayName>
+            <Path>Russian</Path>
+        </Row>
+    </SpokenLanguages>
+</GameData>

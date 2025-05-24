@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitGameplay2DScripts>
+		<Row UnitType="UNIT_ARCHAEOLOGIST">
+			<SelectionSound>AS2D_SELECT_SETTLER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_SETTLER</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_ASSYRIAN_SIEGE_TOWER">
+			<SelectionSound>AS2D_SELECT_CATAPULT</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CATAPULT</FirstSelectionSound>
+		</Row>
+    <Row UnitType="UNIT_BARBARIAN_AXMAN">
+      <SelectionSound>AS2D_SELECT_ARCHER</SelectionSound>
+      <FirstSelectionSound>AS2D_BIRTH_ARCHER</FirstSelectionSound>
+    </Row>
+		<Row UnitType="UNIT_BAZOOKA">
+			<SelectionSound>AS2D_SELECT_ARTILLERY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_ARTILLERY</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_DREAD">
+			<SelectionSound>AS2D_SELECT_MECH</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_MECH</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_BERBER_CAVALRY">
+			<SelectionSound>AS2D_SELECT_CAVALRY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CAVALRY</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_BRAZILIAN_PRACINHA">
+			<SelectionSound>AS2D_SELECT_INFANTRY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_INFANTRY</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_CARAVAN">
+			<SelectionSound>AS2D_SELECT_SETTLER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_SETTLER</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_CARGO_SHIP">
+			<SelectionSound>AS2D_SELECT_CARRIER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CARRIER</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_KRIS_SWORDSMAN">
+			<SelectionSound>AS2D_SELECT_SWORDSMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_SWORDSMAN</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_MUSICIAN">
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_POLISH_WINGED_HUSSAR">
+			<SelectionSound>AS2D_SELECT_KNIGHT</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_KNIGHT</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_PORTUGUESE_NAU">
+			<SelectionSound>AS2D_SELECT_FRIGATE</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_FRIGATE</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_SHOSHONE_COMANCHE_RIDERS">
+			<SelectionSound>AS2D_SELECT_CAVALRY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CAVALRY</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_SHOSHONE_PATHFINDER">
+			<SelectionSound>AS2D_SELECT_SCOUT</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_SCOUT</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_EXPLORER">
+			<SelectionSound>AS2D_SELECT_MUSKETMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_MUSKETMAN</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_GUNBOAT">
+			<SelectionSound>AS2D_SELECT_IRONCLAD</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_IRONCLAD</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_RAIDER">
+			<SelectionSound>AS2D_SELECT_IRONCLAD</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_IRONCLAD</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_GRENADIER">
+			<SelectionSound>AS2D_SELECT_MUSKETMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_MUSKETMAN</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_HORSE_CROSSBOWMAN">
+			<SelectionSound>AS2D_SELECT_CAVALRY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CAVALRY</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_ADVENTURER">
+			<SelectionSound>AS2D_SELECT_MUSKETMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_MUSKETMAN</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_SABOTEUR">
+			<SelectionSound>AS2D_SELECT_INFANTRY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_INFANTRY</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_ROBOT_INFANTRY">
+			<SelectionSound>AS2D_SELECT_PARATROOPER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_PARATROOPER</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_VENETIAN_GALLEASS">
+			<SelectionSound>AS2D_SELECT_TRIREME</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_TRIREME</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_VENETIAN_MERCHANT">
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_WRITER">
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_XCOM_SQUAD">
+			<SelectionSound>AS2D_SELECT_PARATROOPER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_PARATROOPER</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_ZULU_IMPI">
+			<SelectionSound>AS2D_SELECT_PIKEMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_PIKEMAN</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_AUSTRIA_LANDWEHR">
+			<SelectionSound>AS2D_SELECT_MUSKETMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_MUSKETMAN</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_ASSYRIA_ROYAL_GUARD">
+			<SelectionSound>AS2D_SELECT_PIKEMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_PIKEMAN</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_AZTEC_EAGLE">
+			<SelectionSound>AS2D_SELECT_PIKEMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_PIKEMAN</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_BRAZIL_GAUCHO">
+			<SelectionSound>AS2D_SELECT_MUSKETMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_MUSKETMAN</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_GERMANY_TEUTONIC_KNIGHT">
+			<SelectionSound>AS2D_SELECT_KNIGHT</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_KNIGHT</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_INDONESIA_CETBANG">
+			<SelectionSound>AS2D_SELECT_TRIREME</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_TRIREME</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_IROQUOIS_WHALER">
+			<SelectionSound>AS2D_SELECT_TRIREME</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_TRIREME</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_DENMARK_HUSCARL">
+			<SelectionSound>AS2D_SELECT_SWORDSMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_SWORDSMAN</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_EGYPT_KHOPESH_SWORDSMAN">
+			<SelectionSound>AS2D_SELECT_SWORDSMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_SWORDSMAN</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_RUSSIA_STRELTSY">
+			<SelectionSound>AS2D_SELECT_MUSKETMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_MUSKETMAN</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_INDIA_SEPOY">
+			<SelectionSound>AS2D_SELECT_MUSKETMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_MUSKETMAN</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_JAPAN_WARMONK">
+			<SelectionSound>AS2D_SELECT_PIKEMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_PIKEMAN</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_SONGHAI_SOFA">
+			<SelectionSound>AS2D_SELECT_PIKEMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_PIKEMAN</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_INCA_CHASQUI">
+			<SelectionSound>AS2D_SELECT_SCOUT</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_SCOUT</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_CHINA_WARJUNK">
+			<SelectionSound>AS2D_SELECT_CARAVEL</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CARAVEL</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_NETHERLANDS_INDIAMAN">
+			<SelectionSound>AS2D_SELECT_FRIGATE</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_FRIGATE</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_PERSIA_CHARIOT">
+			<SelectionSound>AS2D_SELECT_HORSEMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_HORSEMAN</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_POLAND_PZL23">
+			<SelectionSound>AS2D_SELECT_FIGHTER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_FIGHTER</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_SIAM_ELEPHANT">
+			<SelectionSound>AS2D_SELECT_INDIAN_WAR_ELEPHANT</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_INDIAN_WAR_ELEPHANT</FirstSelectionSound>
+		</Row>
+		<Row UnitType="UNIT_OTTOMAN_CANON">
+			<SelectionSound>AS2D_SELECT_CANNON</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CANNON</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+</GameData>

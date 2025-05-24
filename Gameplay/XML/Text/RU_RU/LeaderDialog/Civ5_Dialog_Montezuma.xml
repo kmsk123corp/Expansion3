@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_AGREE_SHORT_1">
+      <Text>Отлично.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_AGREE_SHORT_2">
+      <Text>Хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_AGREE_SHORT_3">
+      <Text>Конечно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_AGREE_SHORT_4">
+      <Text>Да будет так.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_AGREE_SHORT_5">
+      <Text>О, очень хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_AGREE_SHORT_6">
+      <Text>Вынужден принять.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_AGREE_SHORT_7">
+      <Text>Прекрасно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_ATTACKED_1">
+      <Text>Теперь я просто обязан вас уничтожить!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_ATTACKED_2">
+      <Text>Прекрасно! Пусть кровь потечет бушующим потоком!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_ATTACKED_3">
+      <Text>Глупец! Я утоплю мир в крови ваших воинов!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_DECLAREWAR_1">
+      <Text>У меня почти закончились пленники для жертвоприношений. Ваши граждане отлично подойдут для такой цели - так что готовьтесь к войне!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_DECLAREWAR_2">
+      <Text>Меня от вас тошнит! Я избавлю мир от вас - так что готовьтесь к войне!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_DECLAREWAR_3">
+      <Text>Умри, умри, умри!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_DEFEATED_1">
+      <Text>Мои воины показали себя слабыми и ничтожными - я рад, что вы убили их всех.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_DEFEATED_2">
+      <Text>Изверг! Кто вы такой, чтобы уничтожать мое величие?!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_DEFEATED_3">
+      <Text>Несмотря на все мои усилия, вы победили меня. Возможно, теперь я обрету покой.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_DEMANDTRIBUTE_ANGRY">
+      <Text>Я хочу ваше имущество, начиная со следующего!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_DEMANDTRIBUTE_HAPPY">
+      <Text>У вас есть то, что мне нужно. Не разочаровывайте меня, мой друг!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_DEMANDTRIBUTE_NEUTRAL">
+      <Text>Отдайте мне то, что я хочу, или я вас уничтожу!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_DISAGREE_SHORT_1">
+      <Text>Нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_DISAGREE_SHORT_2">
+      <Text>Определенно нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_DISAGREE_SHORT_3">
+      <Text>Мы вынуждены отказать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_DISAGREE_SHORT_4">
+      <Text>Конечно же, нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_DISAGREE_SHORT_5">
+      <Text>Это неприемлемо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_DISAGREE_SHORT_6">
+      <Text>Вы, должно быть, шутите!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_DISAGREE_SHORT_7">
+      <Text>Прощу прощения, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_FIRSTGREETING_1">
+      <Text>Приветствую вас, незнакомец. Склонитесь в изумлении и страхе перед моей мощью и величием!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_FIRSTGREETING_2">
+      <Text>Кто это передо мной? Еще одно пульсирующее сердце для моего жертвенного огня?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_FIRSTGREETING_3">
+      <Text>Я Монтесума, император ацтеков. Кто вы такой?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_FIRSTGREETING_4">
+      <Text>Кто посмел потревожить мой покой?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_GOODBYE_1">
+      <Text>Прощайте!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_GOODBYE_2">
+      <Text>Пойдите прочь.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_GOODBYE_3">
+      <Text>До следующей встречи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_GOODBYE_4">
+      <Text>Уходите немедленно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_GOODBYE_5">
+      <Text>На этом все.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_GOODBYE_6">
+      <Text>Дело сделано.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_GREETING_1">
+      <Text>Добро пожаловать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_GREETING_2">
+      <Text>Здравствуйте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_GREETING_3">
+      <Text>Приветствую.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_GREETING_4">
+      <Text>А, это вы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_GREETING_5">
+      <Text>Да, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_GREETING_6">
+      <Text>Чего вы хотите?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_GREETING_7">
+      <Text>Подождите, пока я наточу свой жертвенный нож.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_LETSHEARIT_1">
+      <Text>Я вас слушаю.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_LETSHEARIT_2">
+      <Text>Продолжайте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_LETSHEARIT_3">
+      <Text>Я весь внимание.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_LETSHEARIT_4">
+      <Text>Да?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_LETSHEARIT_5">
+      <Text>Что вы сказали?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_LETSHEARIT_6">
+      <Text>И?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_LETSHEARIT_7">
+      <Text>Что дальше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_LOSEWAR_1">
+      <Text>Проклятие! Я готов принести в жертву тысячу своих подданных, лишь бы искупить это унижение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_TRADE_NEEDMORE_ANGRY_1">
+      <Text>Ха-ха-ха! Нет. Или предложите больше, или вас ждет смерть.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_TRADE_NEEDMORE_ANGRY_2">
+      <Text>Этого недостаточно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_TRADE_NEEDMORE_ANGRY_3">
+      <Text>Я жду от вас большего.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_TRADE_NEEDMORE_HAPPY_1">
+      <Text>Глупец! Как вы смеете злоупотреблять моей дружбой?! Предложите больше!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_TRADE_NEEDMORE_HAPPY_2">
+      <Text>И это все, что вы можете предложить?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_TRADE_NEEDMORE_HAPPY_3">
+      <Text>Я почти готов согласиться на это...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_TRADE_NEEDMORE_NEUTRAL_1">
+      <Text>Нет, я хочу больше! Слышите меня? Больше!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_TRADE_NEEDMORE_NEUTRAL_2">
+      <Text>Можете предложить чуть побольше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_TRADE_NEEDMORE_NEUTRAL_3">
+      <Text>Этого недостаточно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_TRADE_NEEDMORE_NEUTRAL_4">
+      <Text>Мне нужно хотя бы немного больше.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_TRADE_NO_ANGRY">
+      <Text>Нет. Я лучше вспорю себе живот раскаленными крючьями, чем соглашусь на ваши условия!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_TRADE_NO_HAPPY">
+      <Text>Спасибо, но нет. Зачем такому могущественному человеку, как я, ваши безделушки?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_TRADE_NO_NEUTRAL">
+      <Text>Непостижимая глупость! Я выше этого.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_TRADE_YES_ANGRY">
+      <Text>Хорошо. А теперь уберите свое грязное тело отсюда, пока я не приказал скормить вас игуанам.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_TRADE_YES_HAPPY">
+      <Text>Прекрасно! Я принесу в жертву пятьдесят пленников, чтобы отметить наше соглашение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_TRADE_YES_NEUTRAL">
+      <Text>Да, да. Отлично. Что еще хотите?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_TRADEREQUEST_ANGRY">
+      <Text>Соглашайтесь на мои условия, или ваши люди пострадают.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_TRADEREQUEST_HAPPY">
+      <Text>Вот мои условия. Ваш отказ я восприму как враждебный жест.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_TRADEREQUEST_NEUTRAL">
+      <Text>Подпишите это соглашение, или вас ждут страдания.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_TRIBUTE_NO_ANGRY">
+      <Text>Нет! Нет! Нет! Нет! Нет! Кто-нибудь, дайте мне топор!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_TRIBUTE_NO_HAPPY">
+      <Text>Убирайтесь прочь! У меня нет времени на такие глупости.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_TRIBUTE_NO_NEUTRAL">
+      <Text>Вы дрянь! Плевал я на ваши ничтожные требования!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_TRIBUTE_YES_ANGRY">
+      <Text>Что ж... Это не спасет вас. Рано или поздно я отомщу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_TRIBUTE_YES_HAPPY">
+      <Text>Я рад исполнить даже самую жалкую вашу просьбу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_TRIBUTE_YES_NEUTRAL">
+      <Text>Нет! Нет! Нет! Хотя стойте, я только что передумал. Да.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_WARBLUFF_1">
+      <Text>Вы играете с огнем.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_WARBLUFF_2">
+      <Text>Хорошо. Но в следующий раз я не буду столь любезен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_WARBLUFF_3">
+      <Text>Очень жаль.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_WARBLUFF_4">
+      <Text>Какое разочарование.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_WARBLUFF_5">
+      <Text>Неужели? Поверьте, вы не успеете пожалеть о своей близорукости.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_WARBLUFF_6">
+      <Text>Как же вы глупы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MONTEZUMA_WINWAR_1">
+      <Text>Пусть неразрывным будет этот союз - по крайней мере, пока мне не понадобятся новые пленники для жертвоприношений.</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_AGREE_SHORT_1">
+      <Text>Отлично.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_AGREE_SHORT_2">
+      <Text>Хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_AGREE_SHORT_3">
+      <Text>Конечно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_AGREE_SHORT_4">
+      <Text>Принято.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_AGREE_SHORT_5">
+      <Text>О, очень хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_AGREE_SHORT_6">
+      <Text>Вынужден принять.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_AGREE_SHORT_7">
+      <Text>Прекрасно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_ATTACKED_1">
+      <Text>Что за вздор?! Вы будете сожалеть об этом дне!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_ATTACKED_2">
+      <Text>Гадкая тварь! Готовьтесь столкнуться с моей божественной яростью!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_ATTACKED_3">
+      <Text>Ничтожное создание! Вы обрекли на смерть себя и свою жалкую страну!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_DECLAREWAR_1">
+      <Text>Вы язва на теле земли. Готовьтесь к смерти.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_DECLAREWAR_2">
+      <Text>Ваша варварская держава оскорбляет меня. Готовьтесь к войне.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_DECLAREWAR_3">
+      <Text>Звезды сказали свое слово. Я должен уничтожить вас.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_DEFEATED_1">
+      <Text>Глупец! Нельзя победить бога! Моя божественная сила в любой момент может уничтожить вас! В этом нет сомнений!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_DEFEATED_2">
+      <Text>Вы не выиграли ничего. Убейте меня - и мой дух будет преследовать вас конца ваших дней.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_DEFEATED_3">
+      <Text>Как интересно. Похоже, даже боги могут проигрывать. Поздравляю вас с победой.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_DEMANDTRIBUTE_ANGRY">
+      <Text>Отдайте то, что мы хотим, или испытаете на себе божественную ярость!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_DEMANDTRIBUTE_HAPPY">
+      <Text>Мой друг, Египет милостиво принимает ваш щедрый подарок.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_DEMANDTRIBUTE_NEUTRAL">
+      <Text>Если хотите жить, то вы с радостью отдадите нам некоторые вещи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_DISAGREE_SHORT_1">
+      <Text>Нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_DISAGREE_SHORT_2">
+      <Text>Определенно нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_DISAGREE_SHORT_3">
+      <Text>Мы вынуждены отказать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_DISAGREE_SHORT_4">
+      <Text>Конечно же, нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_DISAGREE_SHORT_5">
+      <Text>Это неприемлемо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_DISAGREE_SHORT_6">
+      <Text>Вы, должно быть, шутите!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_DISAGREE_SHORT_7">
+      <Text>Прощу прощения, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_FIRSTGREETING_1">
+      <Text>Приветствую. Я Рамсес, правитель могущественного Египта. Я - бог. Вы проявляете великое мужество, подходя ко мне так близко.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_FIRSTGREETING_2">
+      <Text>Добро пожаловать. Я Рамсес, фараон Египта. Звезды предсказывали мне, что вы появитесь.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_FIRSTGREETING_3">
+      <Text>Приветствую. Я бог, Рамсес, живое воплощение Египта, прародителя всех цивилизаций.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_GOODBYE_1">
+      <Text>Хорошего вам дня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_GOODBYE_2">
+      <Text>Прощайте!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_GOODBYE_3">
+      <Text>До свидания.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_GOODBYE_4">
+      <Text>До следующей встречи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_GOODBYE_5">
+      <Text>Уходите сейчас же.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_GOODBYE_6">
+      <Text>На этом все.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_GOODBYE_7">
+      <Text>Дело сделано.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_GREETING_1">
+      <Text>Добро пожаловать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_GREETING_2">
+      <Text>Здравствуйте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_GREETING_3">
+      <Text>Приветствую.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_GREETING_4">
+      <Text>Хорошего вам дня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_GREETING_5">
+      <Text>А, это вы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_GREETING_6">
+      <Text>Да, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_GREETING_7">
+      <Text>Чего вы хотите?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_LETSHEARIT_1">
+      <Text>Так...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_LETSHEARIT_2">
+      <Text>Продолжайте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_LETSHEARIT_3">
+      <Text>Я весь внимание.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_LETSHEARIT_4">
+      <Text>Да?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_LETSHEARIT_5">
+      <Text>Что вы сказали?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_LETSHEARIT_6">
+      <Text>И?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_LETSHEARIT_7">
+      <Text>Что дальше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_LOSEWAR_1">
+      <Text>Я мог бы уничтожить вас, и вы это знаете, но сегодня я очень добр и щедр.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_TRADE_NEEDMORE_ANGRY_1">
+      <Text>Это и есть ваше предложение? Многих боги покарали и за меньшие прегрешения. Предложите лучшие условия.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_TRADE_NEEDMORE_ANGRY_2">
+      <Text>Этого недостаточно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_TRADE_NEEDMORE_ANGRY_3">
+      <Text>Вы должны предложить больше.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_TRADE_NEEDMORE_HAPPY_1">
+      <Text>Что? Я ожидал от вас большего. Уверен, вы и сами понимаете, сколь несправедливо ваше предложение. Может, вы готовы дать нечто большее?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_TRADE_NEEDMORE_HAPPY_2">
+      <Text>И это все, что вы можете предложить?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_TRADE_NEEDMORE_HAPPY_3">
+      <Text>Еще немного...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_TRADE_NEEDMORE_NEUTRAL_1">
+      <Text>Даже у богов есть расходы, знаете ли. Вам придется поднять цену.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_TRADE_NEEDMORE_NEUTRAL_2">
+      <Text>Можете предложить чуть побольше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_TRADE_NEEDMORE_NEUTRAL_3">
+      <Text>Этого не хватит.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_TRADE_NEEDMORE_NEUTRAL_4">
+      <Text>Нужно еще немного...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_TRADE_NO_ANGRY">
+      <Text>И зачем я решил торговать с вами? Вы портите все, к чему прикасаетесь.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_TRADE_NO_HAPPY">
+      <Text>Я ценю ваше предложение, мой друг, но я вынужден отказаться. Небеса и так дают нам все необходимое.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_TRADE_NO_NEUTRAL">
+      <Text>Я - бог. Что мне может от вас понадобиться?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_TRADE_YES_ANGRY">
+      <Text>Очень хорошо. Вы подаете надежды.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_TRADE_YES_HAPPY">
+      <Text>Ваше предложение мне нравится. Отлично!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_TRADE_YES_NEUTRAL">
+      <Text>Ваши условия приемлемы. Благословляю вас.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_TRADEREQUEST_ANGRY">
+      <Text>Египет предлагает вам это соглашение. Если хотите, можете отказаться - на свой страх и риск.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_TRADEREQUEST_HAPPY">
+      <Text>Всеведущий Рамсес знает, что это предложение придется вам по вкусу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_TRADEREQUEST_NEUTRAL">
+      <Text>Великодушный Египет предлагает вам следующие условия.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_TRIBUTE_NO_ANGRY">
+      <Text>Уходите, пока я не проклял вас и вашу семью до девятого колена!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_TRIBUTE_NO_HAPPY">
+      <Text>Расположение звезд на небе говорит о том, что сегодня неподходящий день для такого шага. Возможно, завтра...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_TRIBUTE_NO_NEUTRAL">
+      <Text>Щенок бешеной собаки! Как вы смеете оскорблять великий Египет?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_TRIBUTE_YES_ANGRY">
+      <Text>Ну, хорошо. Бог может позволить себе щедрость по отношению к обделенным созданиям.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_TRIBUTE_YES_HAPPY">
+      <Text>Ваши молитвы не останутся без ответа, мой верный друг.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_TRIBUTE_YES_NEUTRAL">
+      <Text>Конечно же, мы будем счастливы вознаградить наших верных подданных.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_WARBLUFF_1">
+      <Text>Вы ведете очень опасную игру.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_WARBLUFF_2">
+      <Text>Хорошо. Но в следующий раз я не буду столь любезен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_WARBLUFF_3">
+      <Text>Очень жаль.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_WARBLUFF_4">
+      <Text>Какое разочарование.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_WARBLUFF_5">
+      <Text>Неужели? Предупреждаю, вы умрете не сразу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_WARBLUFF_6">
+      <Text>Как же вы глупы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_RAMESSES_WINWAR_1">
+      <Text>Не пытайтесь больше вставать у меня на пути. В следующий раз ваши жалкие мольбы о пощаде вам не помогут!</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

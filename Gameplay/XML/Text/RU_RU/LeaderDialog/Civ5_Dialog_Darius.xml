@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_AGREE_SHORT_1">
+      <Text>Великолепно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_AGREE_SHORT_2">
+      <Text>Прекрасно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_AGREE_SHORT_3">
+      <Text>Без сомнения. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_AGREE_SHORT_4">
+      <Text>Да, я согласен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_AGREE_SHORT_5">
+      <Text>О, очень хорошо.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_AGREE_SHORT_6">
+      <Text>Придется согласиться.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_AGREE_SHORT_7">
+      <Text>Прекрасно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_ATTACKED_1">
+      <Text>Вы... Вы... бесполезный выродок бесплодного мула. Да я уничтожу вас!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_ATTACKED_2">
+      <Text>Неблагодарный щенок! Я покажу вам, как следует атаковать!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_ATTACKED_3">
+      <Text>Грязное отродье! Я должен был уничтожить вас еще много лет назад.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_DECLAREWAR_1">
+      <Text>Ваша жадность и бесполезность не оставляют мне иного выбора: готовьтесь к войне!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_DECLAREWAR_2">
+      <Text>Ваш народ, устав от вашей глупости, молит об избавлении. Готовьтесь к войне!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_DECLAREWAR_3">
+      <Text>Ваше существование мешает всякому достойному правителю мира. Вы должны быть уничтожены!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_DEFEATED_1">
+      <Text>Вы хоть понимаете, что натворили? Мир еще долго будет стенать от ваших злодеяний.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_DEFEATED_2">
+      <Text>Будьте вы прокляты! Кровь величайшего царя мира на ваших руках!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_DEFEATED_3">
+      <Text>Вы победили меня? Как такое могло произойти! Это какая-то ошибка!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_DEMANDTRIBUTE_ANGRY">
+      <Text>Обычно я просто отправляю свои войска на вашу землю и беру все, что хочу. Но сегодня я буду милосерден. Советую вам воспользоваться моей слабостью - такие предложения бывают лишь раз в жизни.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_DEMANDTRIBUTE_HAPPY">
+      <Text>Не могли бы вы поделиться этим, друг? Персия будет вам признательна не меньше тысячи лет!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_DEMANDTRIBUTE_NEUTRAL">
+      <Text>Подарок? Мне? Какая забота!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_DISAGREE_SHORT_1">
+      <Text>Нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_DISAGREE_SHORT_2">
+      <Text>Определенно нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_DISAGREE_SHORT_3">
+      <Text>Мы вынуждены отказать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_DISAGREE_SHORT_4">
+      <Text>Конечно же, нет.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_DISAGREE_SHORT_5">
+      <Text>Это невозможно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_DISAGREE_SHORT_6">
+      <Text>Вы, должно быть, шутите!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_DISAGREE_SHORT_7">
+      <Text>Прощу прощения, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_FIRSTGREETING_1">
+      <Text>Я Дарий, правитель могущественной Персии, с радостью приветствую вас. Не стесняйтесь советоваться со мной, когда бремя власти будет ложиться на ваши плечи тяжким ярмом.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_FIRSTGREETING_2">
+      <Text>Я рад приветствовать вас и великодушно протягиваю вам руки в знак дружбы. Я Дарий, правитель Персии, исключительно мудрый и выдающийся правитель.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_FIRSTGREETING_3">
+      <Text>Добро пожаловать, чужеземец! Я Дарий, безупречный правитель великой Персии. Хотя, конечно, вы знаете это.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_GOODBYE_1">
+      <Text>Хорошего вам дня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_GOODBYE_2">
+      <Text>Прощайте!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_GOODBYE_3">
+      <Text>До свидания.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_GOODBYE_4">
+      <Text>До следующей встречи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_GOODBYE_5">
+      <Text>Уходите сейчас же.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_GOODBYE_6">
+      <Text>На этом все.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_GOODBYE_7">
+      <Text>Дело сделано.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_GREETING_1">
+      <Text>Добро пожаловать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_GREETING_2">
+      <Text>Здравствуйте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_GREETING_3">
+      <Text>Приветствую.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_GREETING_4">
+      <Text>Хорошего вам дня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_GREETING_5">
+      <Text>А, это вы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_GREETING_6">
+      <Text>Да, что?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_GREETING_7">
+      <Text>Чего вы хотите?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_LETSHEARIT_1">
+      <Text>Я слушаю.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_LETSHEARIT_2">
+      <Text>Продолжайте.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_LETSHEARIT_3">
+      <Text>Да?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_LETSHEARIT_4">
+      <Text>Что вы сказали?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_LETSHEARIT_5">
+      <Text>И?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_LETSHEARIT_6">
+      <Text>Что дальше?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_LOSEWAR_1">
+      <Text>Мы же можем называть это ничьей, правда?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_TRADE_NEEDMORE_ANGRY_1">
+      <Text>Уверен, вы не хотели обидеть меня, но ваше предложение просто ужасно оскорбительно лично для меня. Прошу улучшить его.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_TRADE_NEEDMORE_ANGRY_2">
+      <Text>Этого недостаточно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_TRADE_NEEDMORE_ANGRY_3">
+      <Text>Вы должны предложить больше.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_TRADE_NEEDMORE_HAPPY_1">
+      <Text>Мой дорогой друг, боюсь, что ваше предложение принесет выгоду только вам. Не могли бы вы улучшить условия?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_TRADE_NEEDMORE_HAPPY_2">
+      <Text>И это все, что вы можете предложить?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_TRADE_NEEDMORE_HAPPY_3">
+      <Text>Вы меня почти убедили...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_TRADE_NEEDMORE_NEUTRAL_1">
+      <Text>Очевидно, что вы не полностью понимаете хитросплетения внешней торговли. Заверяю вас, вы предлагаете недостаточно. Мне нужно больше.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_TRADE_NEEDMORE_NEUTRAL_2">
+      <Text>Я хочу большего.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_TRADE_NEEDMORE_NEUTRAL_3">
+      <Text>Этого не хватит.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_TRADE_NEEDMORE_NEUTRAL_4">
+      <Text>Маловато.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_TRADE_NO_ANGRY">
+      <Text>К сожалению, я должен отклонить ваше предложение. Возможно, мы вернемся к нему позже, через несколько лет - скажем, когда ваш народ научится делать мыло.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_TRADE_NO_HAPPY">
+      <Text>Я очень сожалею, но не могу согласиться с вашими условиями. Вы бы поняли это, если бы могли помыслить заботы величайших правителей мира вроде меня.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_TRADE_NO_NEUTRAL">
+      <Text>Боюсь, я не могу принять ваше предложение. Но не стесняйтесь прийти ко мне вновь, если вам будет что предложить.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_TRADE_YES_ANGRY">
+      <Text>Это вы сами придумали? Невероятно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_TRADE_YES_HAPPY">
+      <Text>Да вы как будто читаете мои мысли! Вы очень умны!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_TRADE_YES_NEUTRAL">
+      <Text>Отличная идея! Я сам собирался ее вам предложить!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_TRADEREQUEST_ANGRY">
+      <Text>Нас учили быть щедрыми к людям, более низким по положению. Поэтому я приму ваше предложение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_TRADEREQUEST_HAPPY">
+      <Text>Ах, однажды моя чрезмерная щедрость погубит меня! Скорее принимайте это предложение, прежде чем я опомнюсь!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_TRADEREQUEST_NEUTRAL">
+      <Text>В моем исключительном великодушии я предлагаю вам заключить эту невероятно выгодную сделку. Вы согласны, конечно же?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_TRIBUTE_NO_ANGRY">
+      <Text>Думаю, вы неправильно оцениваете ситуацию. Я великий Дарий, царь Персии, а вы - никчемная собака, недостойная целовать подол моих одеяний.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_TRIBUTE_NO_HAPPY">
+      <Text>Ха! Превосходная шутка! Вы ведь шутите?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_TRIBUTE_NO_NEUTRAL">
+      <Text>Интересно, сколько же вы выпили?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_TRIBUTE_YES_ANGRY">
+      <Text>Почему бы и нет? Сомневаюсь, что вы знаете, что с этим можно сделать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_TRIBUTE_YES_HAPPY">
+      <Text>Конечно! Все что угодно! Мой дворец? Мои сокровища? Кровь из моих вен? Просите и получите все!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_TRIBUTE_YES_NEUTRAL">
+      <Text>Ну конечно! Персидская любовь к ближнему недаром стала легендарной!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_WARBLUFF_1">
+      <Text>Осторожно. Вы очень рискуете.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_WARBLUFF_2">
+      <Text>Хорошо. Но в следующий раз я не буду столь любезен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_WARBLUFF_3">
+      <Text>Очень жаль.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_WARBLUFF_4">
+      <Text>Какое разочарование.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_WARBLUFF_5">
+      <Text>Неужели? Поверьте, вы даже не успеете раскаяться в своем решении.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_WARBLUFF_6">
+      <Text>Как же вы глупы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DARIUS_WINWAR_1">
+      <Text>Вот так и проводятся успешные военные кампании. Надеюсь, вы внимательно за мной следили?</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

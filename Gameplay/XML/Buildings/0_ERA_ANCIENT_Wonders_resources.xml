@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited kmsk | 01.02.2024 -->
+<GameData>
+
+    <!-- Стоимость постройки -->
+    <Building_ResourceCostRequirements>
+
+        
+
+        <!-- Храм артемиды -->
+        <Row>
+			<BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+
+        <!-- Петра -->
+        <Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>400</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+
+        <!-- Большой сфинкс -->
+        <Row>
+			<BuildingType>BUILDING_GREAT_SPHINX</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_SPHINX</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>125</Cost>
+		</Row>
+
+        <!-- Пирамиды -->
+		<Row>
+			<BuildingType>BUILDING_PYRAMID</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PYRAMID</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+    </Building_ResourceCostRequirements>
+
+    <!-- Производит ресурсов -->
+    <Building_ResourceQuantity>
+
+
+
+    </Building_ResourceQuantity>
+
+    <!-- Потребляет за ход -->
+	<Building_ResourceQuantityRequirements>
+
+
+
+    </Building_ResourceQuantityRequirements>
+
+</GameData>

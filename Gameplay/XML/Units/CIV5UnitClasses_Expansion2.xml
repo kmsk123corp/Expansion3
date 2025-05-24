@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<!-- Table data -->
+	<UnitClasses>
+
+
+		<Row>
+			<Type>UNITCLASS_HUNTERS</Type>
+			<Description>TXT_KEY_UNIT_HUNTERS</Description>
+			<DefaultUnit>UNIT_HUNTERS</DefaultUnit>
+		</Row>
+
+		<Row>
+			<Type>UNITCLASS_AXEMAN</Type>
+			<Description>TXT_KEY_UNIT_AXEMAN</Description>
+			<DefaultUnit>UNIT_AXEMAN</DefaultUnit>
+		</Row>
+
+		<Row>
+			<Type>UNITCLASS_SLINGER</Type>
+			<Description>TXT_KEY_UNIT_SLINGER</Description>
+			<DefaultUnit>UNIT_SLINGER</DefaultUnit>
+		</Row>
+
+		<Row>
+			<Type>UNITCLASS_ADVENTURER</Type>
+			<Description>TXT_KEY_UNIT_ADVENTURER</Description>
+			<DefaultUnit>UNIT_ADVENTURER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_EXPLORER</Type>
+			<Description>TXT_KEY_UNIT_EXPLORERS</Description>
+			<DefaultUnit>UNIT_EXPLORER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_SABOTEUR</Type>
+			<Description>TXT_KEY_UNIT_SABOTEUR</Description>
+			<DefaultUnit>UNIT_SABOTEUR</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_ROBOT_INFANTRY</Type>
+			<Description>TXT_KEY_UNIT_ROBOT_INFANTRY</Description>
+			<DefaultUnit>UNIT_ROBOT_INFANTRY</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_GUNBOAT</Type>
+			<Description>TXT_KEY_UNIT_GUNBOAT</Description>
+			<DefaultUnit>UNIT_GUNBOAT</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_RAIDER</Type>
+			<Description>TXT_KEY_UNIT_RAIDER</Description>
+			<DefaultUnit>UNIT_RAIDER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_CARGO_SHIP</Type>
+			<Description>TXT_KEY_UNIT_CARGO_SHIP</Description>
+			<DefaultUnit>UNIT_CARGO_SHIP</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_CARAVAN</Type>
+			<Description>TXT_KEY_UNIT_CARAVAN</Description>
+			<DefaultUnit>UNIT_CARAVAN</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_WRITER</Type>
+			<Description>TXT_KEY_UNIT_GREAT_WRITER</Description>
+			<DefaultUnit>UNIT_WRITER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_MUSICIAN</Type>
+			<Description>TXT_KEY_UNIT_GREAT_MUSICIAN</Description>
+			<DefaultUnit>UNIT_MUSICIAN</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_ARCHAEOLOGIST</Type>
+			<Description>TXT_KEY_UNIT_ARCHAEOLOGIST</Description>
+			<DefaultUnit>UNIT_ARCHAEOLOGIST</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_BAZOOKA</Type>
+			<Description>TXT_KEY_UNIT_BAZOOKA</Description>
+			<DefaultUnit>UNIT_BAZOOKA</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_DREAD</Type>
+			<Description>TXT_KEY_UNIT_DREAD</Description>
+			<DefaultUnit>UNIT_DREAD</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_XCOM_SQUAD</Type>
+			<Description>TXT_KEY_UNIT_XCOM_SQUAD</Description>
+			<DefaultUnit>UNIT_XCOM_SQUAD</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FOREIGNLEGION</Type>
+			<Description>TXT_KEY_UNIT_FRENCH_FOREIGNLEGION</Description>
+			<DefaultUnit>UNIT_FRENCH_FOREIGNLEGION</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_HORSE_CROSSBOWMAN</Type>
+			<Description>TXT_KEY_UNIT_HORSE_CROSSBOWMAN</Description>
+			<DefaultUnit>UNIT_HORSE_CROSSBOWMAN</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_GRENADIER</Type>
+			<Description>TXT_KEY_UNIT_GRENADIER</Description>
+			<DefaultUnit>UNIT_GRENADIER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_LANDSKNECHT</Type>
+			<Description>TXT_KEY_UNIT_GERMAN_LANDSKNECHT</Description>
+			<DefaultUnit>UNIT_GERMAN_LANDSKNECHT</DefaultUnit>
+		</Row>
+	</UnitClasses>
+</GameData>
