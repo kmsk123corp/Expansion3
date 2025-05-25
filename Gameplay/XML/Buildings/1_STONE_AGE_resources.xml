@@ -24,18 +24,6 @@
 			<Cost>10</Cost>
 		</Row>
 
-        <!-- Рыбный загон (Полинезия) -->
-        <Row>
-			<BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>10</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
-			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>50</Cost>
-		</Row>
-
         <!-- Погреб -->
         <Row>
 			<BuildingType>BUILDING_CELLAR</BuildingType>
@@ -76,17 +64,8 @@
 
     </Building_ResourceCostRequirements>
 
-
-
     <!-- Производит ресурсов -->
     <Building_ResourceQuantity>
-
-        <!-- Рыбный загон -->
-        <Row>
-			<BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Quantity>10</Quantity>
-		</Row>
 
         <!-- Углежогная яма -->
         <Row>

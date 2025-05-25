@@ -29,6 +29,18 @@
 			<Cost>20</Cost>
 		</Row>
 
+        <!-- Рыбный загон (Полинезия) -->
+        <Row>
+			<BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
         <!-- Монумент -->
 		<Row>
 			<BuildingType>BUILDING_MONUMENT</BuildingType>
@@ -255,6 +267,13 @@
 
     <!-- Производит ресурсов -->
     <Building_ResourceQuantity>
+
+        <!-- Рыбный загон (Полинезия) -->
+        <!-- <Row>
+			<BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Quantity>2</Quantity>
+		</Row> -->
 
         <!-- Плавильная печь -->
 		<Row>

@@ -1369,7 +1369,7 @@
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_POLYNESIA</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_WATERMILL</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_YUKOLA</BuildingClassType>
 			<BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
 		</Row>
 	</Civilization_BuildingClassOverrides>

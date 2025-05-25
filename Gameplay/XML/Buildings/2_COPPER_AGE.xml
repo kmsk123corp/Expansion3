@@ -34,7 +34,7 @@
 		<Row>
 			<Type>BUILDING_YUKOLA</Type>
 			<BuildingClass>BUILDINGCLASS_YUKOLA</BuildingClass>
-			<Cost>60</Cost>
+			<Cost>75</Cost>
 			<PrereqTech>TECH_SEA_FISHING</PrereqTech>
 			<Help>TXT_KEY_BUILDING_YUKOLA_HELP</Help>
 			<Description>TXT_KEY_BUILDING_YUKOLA</Description>
@@ -47,6 +47,25 @@
             <Water>true</Water>
 			<IconAtlas>Building_IconAtlas</IconAtlas>
 			<PortraitIndex>27</PortraitIndex>
+		</Row>
+
+        <!-- Рыбный загон (Полинезия) -->
+        <Row>
+			<Type>BUILDING_POLYNESIA_FISH_POND</Type>
+			<BuildingClass>BUILDINGCLASS_YUKOLA</BuildingClass>
+			<Cost>75</Cost>
+			<PrereqTech>TECH_SEA_FISHING</PrereqTech>
+			<Description>TXT_KEY_BUILDING_POLYNESIA_FISH_POND</Description>
+			<Civilopedia>TXT_KEY_BUILDING_POLYNESIA_FISH_POND_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_POLYNESIA_FISH_POND_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_POLYNESIA_FISH_POND_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_WATERMILL</ArtDefineTag>
+			<Water>true</Water>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>NEW_UNIQUE_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>11</PortraitIndex>
 		</Row>
 
         <!-- ################# -->
@@ -72,7 +91,6 @@
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>21</PortraitIndex>
 		</Row>
-
 
         <!-- ############### -->
         <!-- Деревообработка -->
@@ -177,7 +195,8 @@
 			<Strategy>TXT_KEY_BUILDING_WORKSHOP_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-			<SpecialistCount>1</SpecialistCount>
+			<!-- <SpecialistCount>1</SpecialistCount> -->
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
 			<HurryCostModifier>25</HurryCostModifier>
@@ -447,6 +466,11 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+        <Row>
+            <BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>3</Yield>
+        </Row>
 
         <Row>
 			<BuildingType>BUILDING_MONUMENT</BuildingType>
@@ -561,6 +585,18 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+        <Row>
+            <BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
+            <ResourceType>RESOURCE_FISH</ResourceType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
+            <ResourceType>RESOURCE_WHALE</ResourceType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>1</Yield>
+        </Row>
 
         <Row>
             <BuildingType>BUILDING_GRANARY</BuildingType>
@@ -858,6 +894,21 @@
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
+        <Row>
+            <BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
+            <FlavorType>FLAVOR_GROWTH</FlavorType>
+            <Flavor>30</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
+            <FlavorType>FLAVOR_SCIENCE</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
+            <FlavorType>FLAVOR_PRODUCTION</FlavorType>
+            <Flavor>20</Flavor>
+        </Row>
 
         <Row>
 			<BuildingType>BUILDING_MONUMENT</BuildingType>

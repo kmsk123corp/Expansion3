@@ -146,9 +146,6 @@
 			<PortraitIndex>3</PortraitIndex>
 		</Row>
 
-		<!-- Войны-маори -->
-		<!-- UNIT_POLYNESIAN_MAORI_WARRIOR DLC_03 -->
-
 		<!-- Войны-ягуары -->
 		<Row>
 			<Class>UNITCLASS_WARRIOR</Class>
@@ -242,6 +239,38 @@
 			<PortraitIndex>24</PortraitIndex>
 		</Row>
 
+		<!-- Войны-маори (Полинезия) -->
+		<Row>
+			<Class>UNITCLASS_AXEMAN</Class>
+			<Type>UNIT_POLYNESIAN_MAORI_WARRIOR</Type>
+			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
+			<Combat>10</Combat>
+			<Cost>50</Cost>
+			<FaithCost>80</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_POLYNESIAN_MAORI_WARRIOR</Description>
+			<Civilopedia>TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_STRATEGY</Strategy>
+			<Help>TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_METAL_CASTING</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_SPEARMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>10</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>1</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_U_POLYNESIAN_MAORI_WARRIOR</UnitArtInfo>
+			<IconAtlas>KAMEHAMEHA_UNIT_ATLAS</IconAtlas>
+			<UnitFlagAtlas>KAMEHAMEHA_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
 
 		<!-- Уровень 3 -->
 
@@ -860,6 +889,7 @@
 	</Units>
 
 	<Unit_AITypes>
+
 		<Row>
 			<UnitType>UNIT_SCOUT</UnitType>
 			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
@@ -876,6 +906,7 @@
 			<UnitType>UNIT_SHOSHONE_PATHFINDER</UnitType>
 			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
 		</Row>
+
 		<Row>
 			<UnitType>UNIT_WARRIOR</UnitType>
 			<UnitAIType>UNITAI_ATTACK</UnitAIType>
@@ -900,6 +931,33 @@
 			<UnitType>UNIT_AZTEC_JAGUAR</UnitType>
 			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
 		</Row>
+
+		<Row>
+			<UnitType>UNIT_AXEMAN</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AXEMAN</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AXEMAN</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_POLYNESIAN_MAORI_WARRIOR</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_POLYNESIAN_MAORI_WARRIOR</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_POLYNESIAN_MAORI_WARRIOR</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+
+
 		<Row>
 			<UnitType>UNIT_SWORDSMAN</UnitType>
 			<UnitAIType>UNITAI_ATTACK</UnitAIType>
@@ -1116,6 +1174,7 @@
 
 	<!-- Во что улучшается? -->
 	<Unit_ClassUpgrades>
+
 		<Row>
 			<UnitType>UNIT_SCOUT</UnitType>
 			<UnitClassType>UNITCLASS_ADVENTURER</UnitClassType>
@@ -1129,9 +1188,6 @@
 			<UnitClassType>UNITCLASS_ADVENTURER</UnitClassType>
 		</Row>
 
-
-
-
 		<Row>
 			<UnitType>UNIT_WARRIOR</UnitType>
 			<UnitClassType>UNITCLASS_AXEMAN</UnitClassType>
@@ -1141,20 +1197,21 @@
 			<UnitClassType>UNITCLASS_SWORDSMAN</UnitClassType>
 		</Row>
 
-
-
 		<Row>
 			<UnitType>UNIT_AXEMAN</UnitType>
 			<UnitClassType>UNITCLASS_SWORDSMAN</UnitClassType>
 		</Row>
-
-
-
-
+		<Row>
+			<UnitType>UNIT_POLYNESIAN_MAORI_WARRIOR</UnitType>
+			<UnitClassType>UNITCLASS_SWORDSMAN</UnitClassType>
+		</Row>
 		<Row>
 			<UnitType>UNIT_BARBARIAN_WARRIOR</UnitType>
 			<UnitClassType>UNITCLASS_SWORDSMAN</UnitClassType>
 		</Row>
+
+
+
 
 
 		<Row>
@@ -1249,6 +1306,7 @@
 			<FlavorType>FLAVOR_RECON</FlavorType>
 			<Flavor>14</Flavor>
 		</Row>
+
 		<Row>
 			<UnitType>UNIT_WARRIOR</UnitType>
 			<FlavorType>FLAVOR_RECON</FlavorType>
@@ -1279,6 +1337,39 @@
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>4</Flavor>
 		</Row>
+
+		<Row>
+			<UnitType>UNIT_AXEMAN</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AXEMAN</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AXEMAN</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_POLYNESIAN_MAORI_WARRIOR</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_POLYNESIAN_MAORI_WARRIOR</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_POLYNESIAN_MAORI_WARRIOR</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+
+
 		<Row>
 			<UnitType>UNIT_SWORDSMAN</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
@@ -1464,6 +1555,7 @@
 
 	<!-- Способности юнита -->
 	<Unit_FreePromotions>
+
 		<Row>
 			<UnitType>UNIT_SCOUT</UnitType>
 			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
@@ -1480,6 +1572,7 @@
 			<UnitType>UNIT_INCA_CHASQUI</UnitType>
 			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
 		</Row>
+
 		<Row>
 			<UnitType>UNIT_AZTEC_JAGUAR</UnitType>
 			<PromotionType>PROMOTION_JAGUAR</PromotionType>
@@ -1492,10 +1585,22 @@
 			<UnitType>UNIT_AZTEC_JAGUAR</UnitType>
 			<PromotionType>PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY</PromotionType>
 		</Row>
+
+		<Row>
+			<UnitType>UNIT_POLYNESIAN_MAORI_WARRIOR</UnitType>
+			<PromotionType>PROMOTION_HAKA_WAR_DANCE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_POLYNESIAN_MAORI_WARRIOR</UnitType>
+			<PromotionType>PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY</PromotionType>
+		</Row>
 		<Row>
 			<UnitType>UNIT_BARBARIAN_WARRIOR</UnitType>
 			<PromotionType>PROMOTION_ANTI_SCOUT</PromotionType>
 		</Row>
+
+
+
 		<Row>
 			<UnitType>UNIT_SPEARMAN</UnitType>
 			<PromotionType>PROMOTION_ANTI_MOUNTED_I</PromotionType>
@@ -1660,13 +1765,6 @@
 			<Cost>5</Cost>
 		</Row>
 
-		<!-- Войны-маори -->
-		<Row>
-			<UnitType>UNIT_POLYNESIAN_MAORI_WARRIOR</UnitType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>10</Cost>
-		</Row>
-
 		<!-- Войны-ягуары -->
 		<Row>
 			<UnitType>UNIT_AZTEC_JAGUAR</UnitType>
@@ -1681,6 +1779,39 @@
 
 		<!-- ################## -->
 		<!-- Пехота (уровень 2) -->
+		<!-- ################## -->
+
+		<!-- Войны с топорами -->
+		<Row>
+			<UnitType>UNIT_AXEMAN</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>15</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AXEMAN</UnitType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AXEMAN</UnitType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+
+		<!-- Войны-маори -->
+		<Row>
+			<UnitType>UNIT_POLYNESIAN_MAORI_WARRIOR</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_POLYNESIAN_MAORI_WARRIOR</UnitType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+
+		<!-- ################## -->
+		<!-- Пехота (уровень 3) -->
 		<!-- ################## -->
 
 		<!-- Войны-могавки -->
@@ -2045,6 +2176,20 @@
 			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
 			<Cost>2</Cost>
+		</Row>
+
+		<!-- Войны с топорами -->
+		<Row>
+			<UnitType>UNIT_AXEMAN</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+		<!-- Войны-маори -->
+		<Row>
+			<UnitType>UNIT_POLYNESIAN_MAORI_WARRIOR</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1</Cost>
 		</Row>
 
 		<!-- Мечники с хопешом -->

@@ -43,7 +43,7 @@
           <Text>+5 [ICON_PEACE] к вере за чудеса природы</Text>
       </Row>
       <Row Tag="TXT_KEY_BELIEF_STONE_CIRCLES">
-          <Text>+2 [ICON_PEACE] к вере за каменоломни</Text>
+          <Text>+2 [ICON_PEACE] к вере за каменоломни, а также +1 [ICON_PEACE] к вере за кромлех и моаи</Text>
       </Row>
       <Row Tag="TXT_KEY_BELIEF_ANCESTOR_WORSHIP">
           <Text>+1 [ICON_CULTURE] +1 [ICON_PEACE] за святилища</Text>

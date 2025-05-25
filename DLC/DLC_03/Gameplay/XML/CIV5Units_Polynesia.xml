@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<!-- Table data -->
+	<Units>
+
+	</Units>
+	<Unit_AITypes>
+
+	</Unit_AITypes>
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_MOAI</BuildType>
+		</Row>
+	</Unit_Builds>
+	<Unit_ClassUpgrades>
+
+	</Unit_ClassUpgrades>
+	<Unit_Flavors>
+
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+
+	</Unit_FreePromotions>
+	<!-- Texture atlases for this Civ -->
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>KAMEHAMEHA_UNIT_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>UnitPortraits256_Polynesia.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>KAMEHAMEHA_UNIT_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>UnitPortraits128_Polynesia.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>KAMEHAMEHA_UNIT_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>UnitPortraits80_Polynesia.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>KAMEHAMEHA_UNIT_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>UnitPortraits64_Polynesia.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>KAMEHAMEHA_UNIT_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>UnitPortraits45_Polynesia.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>KAMEHAMEHA_UNIT_FLAG_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>UnitFlagAtlasWhite32_DLC_03.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

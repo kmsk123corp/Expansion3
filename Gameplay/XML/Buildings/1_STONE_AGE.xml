@@ -50,25 +50,6 @@
 			<IconAtlas>Building_IconAtlas</IconAtlas>
 		</Row>
 
-        <!-- Рыбный загон (Полинезия) -->
-        <Row>
-			<Type>BUILDING_POLYNESIA_FISH_POND</Type>
-			<BuildingClass>BUILDINGCLASS_FISH_HOUSE</BuildingClass>
-			<Cost>60</Cost>
-			<PrereqTech>TECH_FISHING</PrereqTech>
-			<Description>TXT_KEY_BUILDING_POLYNESIA_FISH_POND</Description>
-			<Civilopedia>TXT_KEY_BUILDING_POLYNESIA_FISH_POND_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_POLYNESIA_FISH_POND_STRATEGY</Strategy>
-			<Help>TXT_KEY_BUILDING_POLYNESIA_FISH_POND_HELP</Help>
-			<ArtDefineTag>ART_DEF_BUILDING_WATERMILL</ArtDefineTag>
-			<Water>true</Water>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>66</ConquestProb>
-			<HurryCostModifier>25</HurryCostModifier>
-			<IconAtlas>NEW_UNIQUE_BUILDING_ATLAS</IconAtlas>
-			<PortraitIndex>11</PortraitIndex>
-		</Row>
-
         <!-- ############## -->
         <!-- Гончарное дело -->
         <!-- ############## -->
@@ -106,8 +87,6 @@
 			<IconAtlas>Building_IconAtlas</IconAtlas>
             <PortraitIndex>46</PortraitIndex>
         </Row>
-
-
 
         <!-- ########## -->
         <!-- Углежжение -->
@@ -179,16 +158,7 @@
             <YieldType>YIELD_FOOD</YieldType>
             <Yield>1</Yield>
         </Row>
-        <Row>
-            <BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
-            <YieldType>YIELD_FOOD</YieldType>
-            <Yield>3</Yield>
-        </Row>
-        <Row>
-            <BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
-            <YieldType>YIELD_PRODUCTION</YieldType>
-            <Yield>1</Yield>
-        </Row>
+
 
     </Building_YieldChanges>
 
@@ -210,18 +180,7 @@
 
     <!-- Улучшает клетки с ресурсами -->
     <Building_ResourceYieldChanges>
-        <Row>
-            <BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
-            <ResourceType>RESOURCE_FISH</ResourceType>
-            <YieldType>YIELD_FOOD</YieldType>
-            <Yield>1</Yield>
-        </Row>
-        <Row>
-            <BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
-            <ResourceType>RESOURCE_WHALE</ResourceType>
-            <YieldType>YIELD_FOOD</YieldType>
-            <Yield>1</Yield>
-        </Row>
+
 
         <Row>
             <BuildingType>BUILDING_TANNER_HOUSE</BuildingType>
@@ -312,7 +271,6 @@
     </Building_DomainFreeExperiences>
 
 
-
     <!-- С клеток леса -->
     <Building_FeatureYieldChanges>
 
@@ -342,21 +300,7 @@
             <FlavorType>FLAVOR_GROWTH</FlavorType>
             <Flavor>10</Flavor>
         </Row>
-        <Row>
-            <BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
-            <FlavorType>FLAVOR_GROWTH</FlavorType>
-            <Flavor>30</Flavor>
-        </Row>
-        <Row>
-            <BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
-            <FlavorType>FLAVOR_SCIENCE</FlavorType>
-            <Flavor>5</Flavor>
-        </Row>
-        <Row>
-            <BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
-            <FlavorType>FLAVOR_PRODUCTION</FlavorType>
-            <Flavor>20</Flavor>
-        </Row>
+
         <Row>
             <BuildingType>BUILDING_CELLAR</BuildingType>
             <FlavorType>FLAVOR_GROWTH</FlavorType>

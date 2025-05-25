@@ -797,6 +797,16 @@
 
 	</Beliefs>
 	<Belief_BuildingClassYieldChanges>
+
+
+
+		<Row>
+			<BeliefType>BELIEF_STONE_CIRCLES</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_DOLMEN</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+
 		<Row>
 			<BeliefType>BELIEF_ANCESTOR_WORSHIP</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
@@ -1014,12 +1024,17 @@
 	</Belief_EraFaithUnitPurchase>
 	<Belief_FeatureYieldChanges>
 
+
+
+
 		<Row>
 			<BeliefType>BELIEF_SACRED_PATH</BeliefType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
+
+
 
 		<!-- Для религиозных чудес после получения религии -->
 		<Row>
@@ -1316,6 +1331,17 @@
 		</Row>
 	</Belief_YieldChangePerXForeignFollowers>
 	<Belief_ImprovementYieldChanges>
+
+
+
+		<Row>
+			<BeliefType>BELIEF_STONE_CIRCLES</BeliefType>
+			<ImprovementType>IMPROVEMENT_MOAI</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+
 		<Row>
 			<BeliefType>BELIEF_GODDESS_HUNT</BeliefType>
 			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
@@ -1349,6 +1375,9 @@
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>2</Yield>
 		</Row>
+
+
+
 		<Row>
 			<BeliefType>BELIEF_ORAL_TRADITION</BeliefType>
 			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
@@ -1373,6 +1402,10 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
+
+
+
+
 	</Belief_ImprovementYieldChanges>
 	<Belief_MaxYieldModifierPerFollower>
 		<Row>
