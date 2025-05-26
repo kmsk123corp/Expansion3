@@ -96,7 +96,7 @@
 		<!-- Строим ферму -->
 		<Row>
 			<Type>BUILD_FARM</Type>
-			<PrereqTech>TECH_STONE_IMPLEMENTS</PrereqTech>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
 			<Time>700</Time>
 			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
 			<Description>TXT_KEY_BUILD_FARM</Description>
@@ -104,21 +104,6 @@
 			<HotKey>KB_I</HotKey>
 			<OrderPriority>97</OrderPriority>
 			<IconIndex>21</IconIndex>
-			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
-		</Row>
-
-		<!-- Вырубаем лес -->
-		<Row>
-			<Type>BUILD_REMOVE_FOREST</Type>
-			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
-			<Description>TXT_KEY_BUILD_REMOVE_FOREST</Description>
-			<Help>TXT_KEY_BUILD_REMOVE_FEATURE_HELP</Help>
-			<Recommendation>TXT_KEY_BUILD_REMOVE_FEATURE_HELP</Recommendation>
-			<EntityEvent>ENTITY_EVENT_CHOP</EntityEvent>
-			<HotKey>KB_C</HotKey>
-			<OrderPriority>50</OrderPriority>
-			<AltDown>1</AltDown>
-			<IconIndex>31</IconIndex>
 			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
 		</Row>
 
@@ -136,21 +121,36 @@
 			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
 		</Row>
 
-		<!-- Стрим лагерь -->
+		<!-- Строим торговый пост -->
 		<Row>
-			<Type>BUILD_CAMP</Type>
-			<PrereqTech>TECH_TRAPPING</PrereqTech>
+			<Type>BUILD_TRADING_POST</Type>
+			<PrereqTech>TECH_GUILDS</PrereqTech>
 			<Time>700</Time>
-			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
-			<Description>TXT_KEY_BUILD_CAMP</Description>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<Description>TXT_KEY_BUILD_TRADING_POST</Description>
 			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
-			<HotKey>KB_H</HotKey>
-			<OrderPriority>98</OrderPriority>
-			<IconIndex>32</IconIndex>
+			<HotKey>KB_T</HotKey>
+			<OrderPriority>95</OrderPriority>
+			<IconIndex>41</IconIndex>
 			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
 		</Row>
 
-		<!-- Строим пастбище (выгон) -->
+		<!-- Строим лесопилку -->
+		<Row>
+			<Type>BUILD_LUMBERMILL</Type>
+			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+			<Time>700</Time>
+			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+			<Description>TXT_KEY_BUILD_LUMBERMILL</Description>
+			<Recommendation>TXT_KEY_BUILD_LUMBERMILL_REC</Recommendation>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<HotKey>KB_L</HotKey>
+			<OrderPriority>98</OrderPriority>
+			<IconIndex>28</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+
+		<!-- Строим пастбище -->
 		<Row>
 			<Type>BUILD_PASTURE</Type>
 			<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
@@ -161,6 +161,20 @@
 			<HotKey>KB_P</HotKey>
 			<OrderPriority>98</OrderPriority>
 			<IconIndex>29</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+
+		<!-- Строим лагерь -->
+		<Row>
+			<Type>BUILD_CAMP</Type>
+			<PrereqTech>TECH_TRAPPING</PrereqTech>
+			<Time>700</Time>
+			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
+			<Description>TXT_KEY_BUILD_CAMP</Description>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<HotKey>KB_H</HotKey>
+			<OrderPriority>98</OrderPriority>
+			<IconIndex>32</IconIndex>
 			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
 		</Row>
 
@@ -178,89 +192,10 @@
 			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
 		</Row>
 
-		<!-- Осушаем болото -->
-		<Row>
-			<Type>BUILD_REMOVE_MARSH</Type>
-			<PrereqTech>TECH_CALENDAR</PrereqTech>
-			<Description>TXT_KEY_BUILD_REMOVE_MARSH</Description>
-			<Help>TXT_KEY_BUILD_REMOVE_FEATURE_HELP</Help>
-			<Recommendation>TXT_KEY_BUILD_REMOVE_FEATURE_HELP</Recommendation>
-			<EntityEvent>ENTITY_EVENT_CHOP</EntityEvent>
-			<HotKey>KB_C</HotKey>
-			<OrderPriority>50</OrderPriority>
-			<AltDown>1</AltDown>
-			<IconIndex>38</IconIndex>
-			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
-		</Row>
-
-		<!-- Строим лесопилку -->
-		<Row>
-			<Type>BUILD_LUMBERMILL</Type>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
-			<Time>700</Time>
-			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
-			<Description>TXT_KEY_BUILD_LUMBERMILL</Description>
-			<Recommendation>TXT_KEY_BUILD_LUMBERMILL_REC</Recommendation>
-			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
-			<HotKey>KB_L</HotKey>
-			<OrderPriority>98</OrderPriority>
-			<IconIndex>28</IconIndex>
-			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
-		</Row>
-
-		<!-- Вырубаем джунгли -->
-		<Row>
-			<Type>BUILD_REMOVE_JUNGLE</Type>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
-			<Description>TXT_KEY_BUILD_REMOVE_JUNGLE</Description>
-			<Help>TXT_KEY_BUILD_REMOVE_FEATURE_HELP</Help>
-			<Recommendation>TXT_KEY_BUILD_REMOVE_FEATURE_HELP</Recommendation>
-			<EntityEvent>ENTITY_EVENT_CHOP</EntityEvent>
-			<HotKey>KB_C</HotKey>
-			<OrderPriority>50</OrderPriority>
-			<AltDown>1</AltDown>
-			<IconIndex>31</IconIndex>
-			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
-		</Row>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		<!-- Строим торговый пост -->
-		<Row>
-			<Type>BUILD_TRADING_POST</Type>
-			<PrereqTech>TECH_GUILDS</PrereqTech>
-			<Time>700</Time>
-			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
-			<Description>TXT_KEY_BUILD_TRADING_POST</Description>
-			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
-			<HotKey>KB_T</HotKey>
-			<OrderPriority>95</OrderPriority>
-			<IconIndex>41</IconIndex>
-			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
-		</Row>
-
-
-
-
-
-
-
-
 		<!-- Строим каменоломню -->
 		<Row>
 			<Type>BUILD_QUARRY</Type>
-			<PrereqTech>TECH_STONE_PROCESSING</PrereqTech>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
 			<Time>800</Time>
 			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
 			<Description>TXT_KEY_BUILD_QUARRY</Description>
@@ -271,7 +206,7 @@
 			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
 		</Row>
 
-		<!-- Строим буровую вышку -->
+		<!-- Строим нефтяную вышку -->
 		<Row>
 			<Type>BUILD_WELL</Type>
 			<PrereqTech>TECH_BIOLOGY</PrereqTech>
@@ -285,7 +220,7 @@
 			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
 		</Row>
 
-		<!-- Ставим нефтяную платформу -->
+		<!-- Строим нефтяную платформу -->
 		<Row>
 			<Type>BUILD_OFFSHORE_PLATFORM</Type>
 			<PrereqTech>TECH_REFRIGERATION</PrereqTech>
@@ -301,10 +236,10 @@
 			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
 		</Row>
 
-		<!-- Ставим рыбацкую лодку -->
+		<!-- Строим рыбацкую лодку -->
 		<Row>
 			<Type>BUILD_FISHING_BOATS</Type>
-			<PrereqTech>TECH_SEA_FISHING</PrereqTech>
+			<PrereqTech>TECH_SAILING</PrereqTech>
 			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
 			<Description>TXT_KEY_BUILD_FISHING_BOATS</Description>
 			<Help>TXT_KEY_BUILD_CONSUMED_HELP</Help>
@@ -335,13 +270,52 @@
 			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
 		</Row>
 
+		<!-- Вырубаем джунгли -->
+		<Row>
+			<Type>BUILD_REMOVE_JUNGLE</Type>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Description>TXT_KEY_BUILD_REMOVE_JUNGLE</Description>
+			<Help>TXT_KEY_BUILD_REMOVE_FEATURE_HELP</Help>
+			<Recommendation>TXT_KEY_BUILD_REMOVE_FEATURE_HELP</Recommendation>
+			<EntityEvent>ENTITY_EVENT_CHOP</EntityEvent>
+			<HotKey>KB_C</HotKey>
+			<OrderPriority>50</OrderPriority>
+			<AltDown>1</AltDown>
+			<IconIndex>31</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
 
+		<!-- Вырубаем лес -->
+		<Row>
+			<Type>BUILD_REMOVE_FOREST</Type>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Description>TXT_KEY_BUILD_REMOVE_FOREST</Description>
+			<Help>TXT_KEY_BUILD_REMOVE_FEATURE_HELP</Help>
+			<Recommendation>TXT_KEY_BUILD_REMOVE_FEATURE_HELP</Recommendation>
+			<EntityEvent>ENTITY_EVENT_CHOP</EntityEvent>
+			<HotKey>KB_C</HotKey>
+			<OrderPriority>50</OrderPriority>
+			<AltDown>1</AltDown>
+			<IconIndex>31</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
 
+		<!-- Осушаем болото -->
+		<Row>
+			<Type>BUILD_REMOVE_MARSH</Type>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Description>TXT_KEY_BUILD_REMOVE_MARSH</Description>
+			<Help>TXT_KEY_BUILD_REMOVE_FEATURE_HELP</Help>
+			<Recommendation>TXT_KEY_BUILD_REMOVE_FEATURE_HELP</Recommendation>
+			<EntityEvent>ENTITY_EVENT_CHOP</EntityEvent>
+			<HotKey>KB_C</HotKey>
+			<OrderPriority>50</OrderPriority>
+			<AltDown>1</AltDown>
+			<IconIndex>38</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
 
-
-
-
-		<!-- Убираем радиацию -->
+		<!-- Отчищаем от радиации -->
 		<Row>
 			<Type>BUILD_SCRUB_FALLOUT</Type>
 			<Description>TXT_KEY_BUILD_SCRUB_FALLOUT</Description>
@@ -386,6 +360,8 @@
 			<IconIndex>42</IconIndex>
 			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
 		</Row>
+
+		<!-- Строим памятник -->
 		<Row>
 			<Type>BUILD_LANDMARK</Type>
 			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
@@ -398,6 +374,8 @@
 			<IconIndex>54</IconIndex>
 			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
 		</Row>
+
+		<!-- Строим академию -->
 		<Row>
 			<Type>BUILD_ACADEMY</Type>
 			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
@@ -410,6 +388,8 @@
 			<IconIndex>23</IconIndex>
 			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
 		</Row>
+
+		<!-- Строим таможню -->
 		<Row>
 			<Type>BUILD_CUSTOMS_HOUSE</Type>
 			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
@@ -422,6 +402,8 @@
 			<IconIndex>57</IconIndex>
 			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
 		</Row>
+
+		<!-- Строим заводской комплекс -->
 		<Row>
 			<Type>BUILD_MANUFACTORY</Type>
 			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
@@ -434,6 +416,8 @@
 			<IconIndex>56</IconIndex>
 			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
 		</Row>
+
+		<!-- Строим крепость -->
 		<Row>
 			<Type>BUILD_CITADEL</Type>
 			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
@@ -448,359 +432,372 @@
 			<IconIndex>51</IconIndex>
 			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
 		</Row>
+
+		<!-- Археологическая раскопка ? -->
+		<Row>
+			<Type>BUILD_ARCHAEOLOGY_DIG</Type>
+			<PrereqTech>TECH_ARCHAEOLOGY</PrereqTech>
+			<Time>600</Time>
+			<ImprovementType>IMPROVEMENT_ARCHAEOLOGICAL_DIG</ImprovementType>
+			<Description>TXT_KEY_BUILD_ARCHAEOLOGY_DIG</Description>
+			<Help>TXT_KEY_BUILD_ARCHAEOLOGY_DIG_HELP</Help>
+			<Recommendation>TXT_KEY_BUILD_ARCHAEOLOGY_DIG_REC</Recommendation>
+			<EntityEvent>ENTITY_EVENT_MINE</EntityEvent>
+			<HotKey>KB_A</HotKey>
+			<OrderPriority>96</OrderPriority>
+			<CtrlDown>1</CtrlDown>
+			<IconIndex>0</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS_ARCHAEOLOGY</IconAtlas>
+		</Row>
+
+		<!-- Вырубка красного дерева -->
+		<Row>
+			<Type>BUILD_BRAZILWOOD_CAMP</Type>
+			<PrereqTech>TECH_MACHINERY</PrereqTech>
+			<Time>700</Time>
+			<ImprovementType>IMPROVEMENT_BRAZILWOOD_CAMP</ImprovementType>
+			<Description>TXT_KEY_BUILD_BRAZILWOOD_CAMP</Description>
+			<Help>TXT_KEY_BUILD_BRAZILWOOD_CAMP_HELP</Help>
+			<Recommendation>TXT_KEY_BUILD_BRAZILWOOD_CAMP_REC</Recommendation>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<HotKey>KB_B</HotKey>
+			<OrderPriority>98</OrderPriority>
+			<IconIndex>1</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS_EXP2</IconAtlas>
+		</Row>
+
+		<!-- Касба -->
+		<Row>
+			<Type>BUILD_KASBAH</Type>
+			<PrereqTech>TECH_CHIVALRY</PrereqTech>
+			<Time>800</Time>
+			<ImprovementType>IMPROVEMENT_KASBAH</ImprovementType>
+			<Description>TXT_KEY_BUILD_KASBAH</Description>
+			<Help>TXT_KEY_BUILD_KASBAH_HELP</Help>
+			<Recommendation>TXT_KEY_BUILD_KASBAH_REC</Recommendation>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<HotKey>KB_K</HotKey>
+			<OrderPriority>98</OrderPriority>
+			<IconIndex>0</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS_EXP2</IconAtlas>
+		</Row>
+
+		<!-- Фактория -->
+		<Row>
+			<Type>BUILD_FEITORIA</Type>
+			<PrereqTech>TECH_NAVIGATION</PrereqTech>
+			<Time>800</Time>
+			<ImprovementType>IMPROVEMENT_FEITORIA</ImprovementType>
+			<Description>TXT_KEY_BUILD_FEITORIA</Description>
+			<Help>TXT_KEY_BUILD_FEITORIA_HELP</Help>
+			<Recommendation>TXT_KEY_BUILD_FEITORIA_REC</Recommendation>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<HotKey>KB_Z</HotKey>
+			<OrderPriority>98</OrderPriority>
+			<IconIndex>2</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS_EXP2</IconAtlas>
+		</Row>
+
+		<!-- Шато -->
+		<Row>
+			<Type>BUILD_CHATEAU</Type>
+			<PrereqTech>TECH_CHIVALRY</PrereqTech>
+			<Time>800</Time>
+			<ImprovementType>IMPROVEMENT_CHATEAU</ImprovementType>
+			<Description>TXT_KEY_BUILD_CHATEAU</Description>
+			<Help>TXT_KEY_BUILD_CHATEAU_HELP</Help>
+			<Recommendation>TXT_KEY_BUILD_CHATEAU_REC</Recommendation>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<HotKey>KB_Z</HotKey>
+			<OrderPriority>98</OrderPriority>
+			<IconIndex>3</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS_EXP2</IconAtlas>
+		</Row>
+
+		<!-- Построить рыбацкую лодку без смерти??? -->
+		<Row>
+			<Type>BUILD_FISHING_BOATS_NO_KILL</Type>
+			<PrereqTech>TECH_SAILING</PrereqTech>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<Description>TXT_KEY_BUILD_FISHING_BOATS</Description>
+			<Water>true</Water>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<HotKey>KB_F</HotKey>
+			<OrderPriority>98</OrderPriority>
+			<HotKeyPriority>1</HotKeyPriority>
+			<IconIndex>35</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+	       	<ShowInPedia>false</ShowInPedia>
+	      	<ShowInTechTree>false</ShowInTechTree>
+		</Row>
+
+		<!-- Святыня -->
+		<Row>
+			<Type>BUILD_HOLY_SITE</Type>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<Description>TXT_KEY_BUILD_HOLY_SITE</Description>
+			<Help>TXT_KEY_BUILD_HOLY_SITE_HELP</Help>
+			<Kill>1</Kill>
+			<EntityEvent>ENTITY_EVENT_MINE</EntityEvent>
+			<HotKey>KB_L</HotKey>
+			<OrderPriority>96</OrderPriority>
+			<IconIndex>1</IconIndex>
+			<IconAtlas>EXPANSION_UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+
+		<!-- Польдер -->
+		<Row>
+			<Type>BUILD_POLDER</Type>
+			<PrereqTech>TECH_GUILDS</PrereqTech>
+			<Time>700</Time>
+			<ImprovementType>IMPROVEMENT_POLDER</ImprovementType>
+			<Description>TXT_KEY_BUILD_POLDER</Description>
+			<Recommendation>TXT_KEY_BUILD_FOOD_REC</Recommendation>
+			<EntityEvent>ENTITY_EVENT_IRRIGATE</EntityEvent>
+			<HotKey>KB_E</HotKey>
+			<OrderPriority>97</OrderPriority>
+			<IconIndex>0</IconIndex>
+			<IconAtlas>EXPANSION_UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+
+		<!-- Строим моаи -->
+		<Row>
+			<Type>BUILD_MOAI</Type>
+			<PrereqTech>TECH_MEGALITH</PrereqTech>
+			<Time>700</Time>
+			<ImprovementType>IMPROVEMENT_MOAI</ImprovementType>
+			<Description>TXT_KEY_BUILD_MOAI</Description>
+			<Help>TXT_KEY_BUILD_MOAI_HELP</Help>
+			<Recommendation>TXT_KEY_BUILD_MOAI_REC</Recommendation>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<HotKey>KB_O</HotKey>
+			<OrderPriority>97</OrderPriority>
+			<IconIndex>0</IconIndex>
+			<IconAtlas>UNIT_ACTION_DLC03_ATLAS</IconAtlas>
+		</Row>
+
+		<!-- Строим ферму-террасу -->
+		<Row>
+			<Type>BUILD_TERRACE_FARM</Type>
+			<PrereqTech>TECH_IRRIGATION</PrereqTech>
+			<Time>700</Time>
+			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
+			<Description>TXT_KEY_BUILD_TERRACE_FARM</Description>
+			<Recommendation>TXT_KEY_BUILD_FOOD_REC</Recommendation>
+			<EntityEvent>ENTITY_EVENT_IRRIGATE</EntityEvent>
+			<HotKey>KB_E</HotKey>
+			<OrderPriority>97</OrderPriority>
+			<IconIndex>0</IconIndex>
+			<IconAtlas>UNIT_ACTION_DLC02_ATLAS</IconAtlas>
+		</Row>
+
+		<!-- Строим типи -->
+		<Row>
+			<Type>BUILD_SHOSHONE_TIPI</Type>
+			<PrereqTech>TECH_TRAPPING</PrereqTech>
+			<Time>600</Time>
+			<ImprovementType>IMPROVEMENT_SHOSHONE_TIPI</ImprovementType>
+			<Description>TXT_KEY_BUILD_SHOSHONE_TIPI</Description>
+			<Help>TXT_KEY_BUILD_SHOSHONE_TIPI_HELP</Help>
+			<Recommendation>TXT_KEY_BUILD_SHOSHONE_TIPI_REC</Recommendation>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<HotKey>KB_K</HotKey>
+			<OrderPriority>98</OrderPriority>
+			<IconIndex>2</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS_DLC_07</IconAtlas>
+		</Row>
+
 	</Builds>
 	<BuildFeatures>
 
-		<!-- Вырубаем лес -->
+		<!-- Строим ферму -->
 		<Row>
-			<BuildType>BUILD_REMOVE_FOREST</BuildType>
-			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
-			<Time>400</Time>
-			<Production>20</Production>
+			<BuildType>BUILD_FARM</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
 			<Remove>true</Remove>
 		</Row>
-
-		<!-- Строим [ферму] в лесу + -->
 		<Row>
 			<BuildType>BUILD_FARM</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
+			<PrereqTech>TECH_MINING</PrereqTech>
 			<Time>400</Time>
 			<Production>20</Production>
 			<Remove>true</Remove>
 		</Row>
+		<Row>
+			<BuildType>BUILD_FARM</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>600</Time>
+			<Remove>true</Remove>
+		</Row>
 
-		<!-- Строим [рудник] в лесу -->
+		<!-- Строим рудник -->
+		<Row>
+			<BuildType>BUILD_MINE</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+			<Remove>true</Remove>
+		</Row>
 		<Row>
 			<BuildType>BUILD_MINE</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
+			<PrereqTech>TECH_MINING</PrereqTech>
 			<Time>400</Time>
 			<Production>20</Production>
 			<Remove>true</Remove>
 		</Row>
-
-		<!-- Строим [выгон] в лесу -->
 		<Row>
-			<BuildType>BUILD_PASTURE</BuildType>
-			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
-			<Time>400</Time>
-			<Production>20</Production>
+			<BuildType>BUILD_MINE</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>600</Time>
 			<Remove>true</Remove>
 		</Row>
 
-		<!-- Строим [плантацию] в лесу -->
+		<!-- Строим торговый пост -->
 		<Row>
-			<BuildType>BUILD_PLANTATION</BuildType>
-			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
-			<Time>400</Time>
-			<Remove>true</Remove>
+			<BuildType>BUILD_TRADING_POST</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
 		</Row>
-
-		<!-- Строим [каменоломню] в лесу -->
-		<Row>
-			<BuildType>BUILD_QUARRY</BuildType>
-			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
-			<Time>400</Time>
-			<Production>20</Production>
-			<Remove>true</Remove>
-		</Row>
-
-		<!-- Строим [торговый пост] в лесу -->
 		<Row>
 			<BuildType>BUILD_TRADING_POST</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
+			<PrereqTech>TECH_MINING</PrereqTech>
 			<Time>400</Time>
 		</Row>
+		<Row>
+			<BuildType>BUILD_TRADING_POST</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>600</Time>
+		</Row>
 
-		<!-- Строим [форт] в лесу -->
+		<!-- Строим пастбище -->
+		<Row>
+			<BuildType>BUILD_PASTURE</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_PASTURE</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Time>400</Time>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_PASTURE</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>600</Time>
+			<Remove>true</Remove>
+		</Row>
+
+		<!-- Строим плантацию -->
+		<Row>
+			<BuildType>BUILD_PLANTATION</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_PLANTATION</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Time>400</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_PLANTATION</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>600</Time>
+			<Remove>true</Remove>
+		</Row>
+
+		<!-- Строим каменоломню -->
+		<Row>
+			<BuildType>BUILD_QUARRY</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_QUARRY</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Time>400</Time>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_QUARRY</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>600</Time>
+			<Remove>true</Remove>
+		</Row>
+
+		<!-- Строим форт -->
+		<Row>
+			<BuildType>BUILD_FORT</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+		</Row>
 		<Row>
 			<BuildType>BUILD_FORT</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
+			<PrereqTech>TECH_MINING</PrereqTech>
 			<Time>400</Time>
 		</Row>
-
-		<!-- Строим [памятник] в лесу -->
 		<Row>
-			<BuildType>BUILD_LANDMARK</BuildType>
-			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
-			<Production>20</Production>
-			<Remove>true</Remove>
+			<BuildType>BUILD_FORT</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>600</Time>
 		</Row>
-
-		<!-- Строим [академию] в лесу -->
-		<Row>
-			<BuildType>BUILD_ACADEMY</BuildType>
-			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
-			<Production>20</Production>
-			<Remove>true</Remove>
-		</Row>
-
-		<!-- Строим [таможню] в лесу -->
-		<Row>
-			<BuildType>BUILD_CUSTOMS_HOUSE</BuildType>
-			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
-			<Production>20</Production>
-			<Remove>true</Remove>
-		</Row>
-
-		<!-- Строим [завод. комплекс] в лесу -->
-		<Row>
-			<BuildType>BUILD_MANUFACTORY</BuildType>
-			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
-			<Production>20</Production>
-			<Remove>true</Remove>
-		</Row>
-
-		<!-- Строим [крепость] в лесу -->
-		<Row>
-			<BuildType>BUILD_CITADEL</BuildType>
-			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
-			<Production>20</Production>
-			<Remove>true</Remove>
-		</Row>
-
-		<!-- Строим [буровую вышку] в лесу -->
-		<Row>
-			<BuildType>BUILD_WELL</BuildType>
-			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
-			<Time>400</Time>
-			<Production>20</Production>
-			<Remove>true</Remove>
-		</Row>
-
-
 
 		<!-- Вырубаем джунгли -->
 		<Row>
 			<BuildType>BUILD_REMOVE_JUNGLE</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 			<Time>700</Time>
 			<Remove>true</Remove>
 		</Row>
 
-		<!-- Строим [ферму] в джунглях + -->
+		<!-- Вырубаем лес -->
 		<Row>
-			<BuildType>BUILD_FARM</BuildType>
-			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
-			<Time>700</Time>
+			<BuildType>BUILD_REMOVE_FOREST</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Time>400</Time>
+			<Production>20</Production>
 			<Remove>true</Remove>
 		</Row>
-
-		<!-- Строим [шахту] в джунглях + -->
-		<Row>
-			<BuildType>BUILD_MINE</BuildType>
-			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
-			<Time>700</Time>
-			<Remove>true</Remove>
-		</Row>
-
-		<!-- Строим [выгон] в джунглях + -->
-		<Row>
-			<BuildType>BUILD_PASTURE</BuildType>
-			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
-			<Time>700</Time>
-			<Remove>true</Remove>
-		</Row>
-
-		<!-- Строим [плантацию] в джунглях + -->
-		<Row>
-			<BuildType>BUILD_PLANTATION</BuildType>
-			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
-			<Time>700</Time>
-			<Remove>true</Remove>
-		</Row>
-
-		<!-- Строим [каменоломню] в джунглях + -->
-		<Row>
-			<BuildType>BUILD_QUARRY</BuildType>
-			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
-			<Time>700</Time>
-			<Remove>true</Remove>
-		</Row>
-
-		<!-- Строим [торговый пост] в джунглях + -->
-		<Row>
-			<BuildType>BUILD_TRADING_POST</BuildType>
-			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
-			<Time>700</Time>
-		</Row>
-
-		<!-- Строим [форт] в джунглях + -->
-		<Row>
-			<BuildType>BUILD_FORT</BuildType>
-			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
-			<Time>700</Time>
-		</Row>
-
-		<!-- Строим [памятник] в джунглях + -->
-		<Row>
-			<BuildType>BUILD_LANDMARK</BuildType>
-			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
-			<Remove>true</Remove>
-		</Row>
-
-		<!-- Строим [академию] в джунглях + -->
-		<Row>
-			<BuildType>BUILD_ACADEMY</BuildType>
-			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
-			<Remove>true</Remove>
-		</Row>
-
-		<!-- Строим [таможню] в джунглях + -->
-		<Row>
-			<BuildType>BUILD_CUSTOMS_HOUSE</BuildType>
-			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
-			<Remove>true</Remove>
-		</Row>
-
-		<!-- Строим [завод. комплекс] в джунглях + -->
-		<Row>
-			<BuildType>BUILD_MANUFACTORY</BuildType>
-			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
-			<Remove>true</Remove>
-		</Row>
-
-		<!-- Строим [крепость] в джунглях + -->
-		<Row>
-			<BuildType>BUILD_CITADEL</BuildType>
-			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
-			<Remove>true</Remove>
-		</Row>
-
-		<!-- Строим [буровую вышку] в джунглях + -->
-		<Row>
-			<BuildType>BUILD_WELL</BuildType>
-			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
-			<Time>700</Time>
-			<Remove>true</Remove>
-		</Row>
-
-
 
 		<!-- Осушаем болото -->
 		<Row>
 			<BuildType>BUILD_REMOVE_MARSH</BuildType>
 			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_CALENDAR</PrereqTech>
-			<Time>600</Time>
-			<Remove>true</Remove>
-		</Row>
-
-		<!-- Строим [ферму] в болотах + -->
-		<Row>
-			<BuildType>BUILD_FARM</BuildType>
-			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_CALENDAR</PrereqTech>
-			<Time>600</Time>
-			<Remove>true</Remove>
-		</Row>
-
-		<Row>
-			<BuildType>BUILD_MINE</BuildType>
-			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_CALENDAR</PrereqTech>
-			<Time>600</Time>
-			<Remove>true</Remove>
-		</Row>
-		<Row>
-			<BuildType>BUILD_TRADING_POST</BuildType>
-			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_CALENDAR</PrereqTech>
-			<Time>600</Time>
-		</Row>
-		<Row>
-			<BuildType>BUILD_PASTURE</BuildType>
-			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_CALENDAR</PrereqTech>
-			<Time>600</Time>
-			<Remove>true</Remove>
-		</Row>
-		<Row>
-			<BuildType>BUILD_PLANTATION</BuildType>
-			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_CALENDAR</PrereqTech>
-			<Time>600</Time>
-			<Remove>true</Remove>
-		</Row>
-		<Row>
-			<BuildType>BUILD_QUARRY</BuildType>
-			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_CALENDAR</PrereqTech>
-			<Time>600</Time>
-			<Remove>true</Remove>
-		</Row>
-		<Row>
-			<BuildType>BUILD_FORT</BuildType>
-			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_CALENDAR</PrereqTech>
-			<Time>600</Time>
-		</Row>
-		<Row>
-			<BuildType>BUILD_LANDMARK</BuildType>
-			<FeatureType>FEATURE_MARSH</FeatureType>
 			<PrereqTech>TECH_MASONRY</PrereqTech>
-			<Remove>true</Remove>
-		</Row>
-		<Row>
-			<BuildType>BUILD_ACADEMY</BuildType>
-			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_CALENDAR</PrereqTech>
-			<Remove>true</Remove>
-		</Row>
-		<Row>
-			<BuildType>BUILD_CUSTOMS_HOUSE</BuildType>
-			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_CALENDAR</PrereqTech>
-			<Remove>true</Remove>
-		</Row>
-		<Row>
-			<BuildType>BUILD_MANUFACTORY</BuildType>
-			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_CALENDAR</PrereqTech>
-			<Remove>true</Remove>
-		</Row>
-		<Row>
-			<BuildType>BUILD_CITADEL</BuildType>
-			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_CALENDAR</PrereqTech>
-			<Remove>true</Remove>
-		</Row>
-		<Row>
-			<BuildType>BUILD_WELL</BuildType>
-			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_CALENDAR</PrereqTech>
 			<Time>600</Time>
 			<Remove>true</Remove>
 		</Row>
 
-
+		<!-- Отчищаем от радиации -->
 		<Row>
 			<BuildType>BUILD_SCRUB_FALLOUT</BuildType>
 			<FeatureType>FEATURE_FALLOUT</FeatureType>
@@ -808,5 +805,344 @@
 			<Remove>true</Remove>
 		</Row>
 
+		<!-- Строим памятник -->
+		<Row>
+			<BuildType>BUILD_LANDMARK</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_LANDMARK</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_LANDMARK</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Remove>true</Remove>
+		</Row>
+
+		<!-- Строим академию -->
+		<Row>
+			<BuildType>BUILD_ACADEMY</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_ACADEMY</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_ACADEMY</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Remove>true</Remove>
+		</Row>
+
+		<!-- Строим таможню -->
+		<Row>
+			<BuildType>BUILD_CUSTOMS_HOUSE</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_CUSTOMS_HOUSE</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_CUSTOMS_HOUSE</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Remove>true</Remove>
+		</Row>
+
+		<!-- Строим заводской комплекс -->
+		<Row>
+			<BuildType>BUILD_MANUFACTORY</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_MANUFACTORY</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_MANUFACTORY</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Remove>true</Remove>
+		</Row>
+
+		<!-- Строим крепость -->
+		<Row>
+			<BuildType>BUILD_CITADEL</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_CITADEL</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_CITADEL</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Remove>true</Remove>
+		</Row>
+
+		<!-- Строем нефтяную вышку -->
+		<Row>
+			<BuildType>BUILD_WELL</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_WELL</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Time>400</Time>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_WELL</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>600</Time>
+			<Remove>true</Remove>
+		</Row>
+
+		<!-- Раскопки -->
+		<Row>
+			<BuildType>BUILD_ARCHAEOLOGY_DIG</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_ARCHAEOLOGY_DIG</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Time>400</Time>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_ARCHAEOLOGY_DIG</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>600</Time>
+			<Remove>true</Remove>
+		</Row>
+
+		<!-- Строим факторию -->
+		<Row>
+			<BuildType>BUILD_FEITORIA</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_FEITORIA</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Time>400</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_FEITORIA</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>600</Time>
+			<Remove>true</Remove>
+		</Row>
+
+		<!-- Строим шато -->
+		<Row>
+			<BuildType>BUILD_CHATEAU</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_CHATEAU</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Time>400</Time>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_CHATEAU</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>600</Time>
+			<Remove>true</Remove>
+		</Row>
+
+		<!-- Строим святыню -->
+		<Row>
+			<BuildType>BUILD_HOLY_SITE</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_HOLY_SITE</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_HOLY_SITE</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Remove>true</Remove>
+		</Row>
+
+		<!-- Строим моаи -->
+		<Row>
+			<BuildType>BUILD_MOAI</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_MOAI</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Time>400</Time>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+
+		<!-- Строим ферму террасу -->
+		<Row>
+			<BuildType>BUILD_TERRACE_FARM</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_TERRACE_FARM</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Time>400</Time>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+
+		<!-- Строим типи -->
+		<Row>
+			<BuildType>BUILD_SHOSHONE_TIPI</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+			<Remove>true</Remove>
+		</Row>
+
 	</BuildFeatures>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>EXPANSION_UNIT_ACTION_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>UnitAction45_Expansion.dds</Filename>
+			<IconsPerRow>3</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>EXPANSION_UNIT_ACTION_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>UnitAction64_Expansion.dds</Filename>
+			<IconsPerRow>3</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>UNIT_ACTION_DLC03_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>UnitAction64_DLC_03.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>UNIT_ACTION_DLC03_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>UnitAction45_DLC_03.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>UNIT_ACTION_DLC03_GOLD_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>UnitActionGold64_DLC_03.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>UNIT_ACTION_DLC03_GOLD_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>UnitActionGold45_DLC_03.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>UNIT_ACTION_DLC02_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>UnitAction64_DLC_02.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>UNIT_ACTION_DLC02_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>UnitAction45_DLC_02.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>UNIT_ACTION_DLC02_GOLD_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>UnitActionGold64_DLC_02.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>UNIT_ACTION_DLC02_GOLD_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>UnitActionGold45_DLC_02.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+	</IconTextureAtlases>
+
 </GameData>

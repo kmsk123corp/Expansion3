@@ -141,6 +141,23 @@
 	<IconAtlas>UNIT_ATLAS_1</IconAtlas>
 	<PortraitIndex>13</PortraitIndex>
 </Row> -->
+
+<!-- <Type>TECH_AGRICULTURE</Type> 		Каменные орудия -->
+<!-- <Type>TECH_STONE_IMPLEMENTS</Type> Земледение -->
+<!-- <Type>TECH_FOREST_CUTTING</Type> 	Вырубка леса -->
+<!-- <Type>TECH_MINING</Type> 			Добыча руды -->
+<!-- <Type>TECH_TRAPPING</Type> 		Охота -->
+<!-- <Type>TECH_FISHING</Type> 			Рыболовные сети -->
+<!-- <Type>TECH_POTTERY</Type> 			Гончарное дело -->
+<!-- <Type>TECH_CHARRING</Type> 		Углежжение -->
+<!-- <Type>TECH_ANIMAL_HUSBANDRY</Type> Животноводство -->
+<!-- <Type>TECH_CALENDAR</Type> 		Календарь -->
+<!-- <Type>TECH_COPPER_WORKING</Type> 	Обработка меди -->
+<!-- <Type>TECH_ARCHERY</Type> 			Стрельба из лука -->
+<!-- <Type>TECH_NOMAD</Type> 			Кочевничество -->
+
+
+
 <!-- ####################################################################### -->
 <!-- 				   		        Неолит  				  			     -->
 <!-- ####################################################################### -->

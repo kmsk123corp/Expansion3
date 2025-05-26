@@ -241,7 +241,10 @@
     <!-- Other GameData updates for Expansion -->
     <GameData>CIV5Colors_Inherited_Expansion2.xml</GameData>
 
+
+    <!-- Действия для улучшений -->
     <GameData>CIV5Builds.xml</GameData>
+    <GameData>CIV5Builds_Expansion.xml</GameData>
     <GameData>CIV5Builds_Expansion2.xml</GameData>
     <GameData>CIV5Builds_Inherited_Expansion2.xml</GameData>
 
