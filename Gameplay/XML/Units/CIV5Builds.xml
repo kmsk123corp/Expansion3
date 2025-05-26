@@ -96,7 +96,7 @@
 		<!-- Строим ферму -->
 		<Row>
 			<Type>BUILD_FARM</Type>
-			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			<PrereqTech>TECH_STONE_IMPLEMENTS</PrereqTech>
 			<Time>700</Time>
 			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
 			<Description>TXT_KEY_BUILD_FARM</Description>
@@ -138,7 +138,7 @@
 		<!-- Строим лесопилку -->
 		<Row>
 			<Type>BUILD_LUMBERMILL</Type>
-			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+			<PrereqTech>TECH_WOODWORKING</PrereqTech>
 			<Time>700</Time>
 			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
 			<Description>TXT_KEY_BUILD_LUMBERMILL</Description>
@@ -195,7 +195,7 @@
 		<!-- Строим каменоломню -->
 		<Row>
 			<Type>BUILD_QUARRY</Type>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_STONE_PROCESSING</PrereqTech>
 			<Time>800</Time>
 			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
 			<Description>TXT_KEY_BUILD_QUARRY</Description>
@@ -239,7 +239,7 @@
 		<!-- Строим рыбацкую лодку -->
 		<Row>
 			<Type>BUILD_FISHING_BOATS</Type>
-			<PrereqTech>TECH_SAILING</PrereqTech>
+			<PrereqTech>TECH_SEA_FISHING</PrereqTech>
 			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
 			<Description>TXT_KEY_BUILD_FISHING_BOATS</Description>
 			<Help>TXT_KEY_BUILD_CONSUMED_HELP</Help>
@@ -273,7 +273,7 @@
 		<!-- Вырубаем джунгли -->
 		<Row>
 			<Type>BUILD_REMOVE_JUNGLE</Type>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
 			<Description>TXT_KEY_BUILD_REMOVE_JUNGLE</Description>
 			<Help>TXT_KEY_BUILD_REMOVE_FEATURE_HELP</Help>
 			<Recommendation>TXT_KEY_BUILD_REMOVE_FEATURE_HELP</Recommendation>
@@ -288,7 +288,7 @@
 		<!-- Вырубаем лес -->
 		<Row>
 			<Type>BUILD_REMOVE_FOREST</Type>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
 			<Description>TXT_KEY_BUILD_REMOVE_FOREST</Description>
 			<Help>TXT_KEY_BUILD_REMOVE_FEATURE_HELP</Help>
 			<Recommendation>TXT_KEY_BUILD_REMOVE_FEATURE_HELP</Recommendation>
@@ -303,7 +303,7 @@
 		<!-- Осушаем болото -->
 		<Row>
 			<Type>BUILD_REMOVE_MARSH</Type>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
 			<Description>TXT_KEY_BUILD_REMOVE_MARSH</Description>
 			<Help>TXT_KEY_BUILD_REMOVE_FEATURE_HELP</Help>
 			<Recommendation>TXT_KEY_BUILD_REMOVE_FEATURE_HELP</Recommendation>
@@ -517,7 +517,7 @@
 		<!-- Построить рыбацкую лодку без смерти??? -->
 		<Row>
 			<Type>BUILD_FISHING_BOATS_NO_KILL</Type>
-			<PrereqTech>TECH_SAILING</PrereqTech>
+			<PrereqTech>TECH_SEA_FISHING</PrereqTech>
 			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
 			<Description>TXT_KEY_BUILD_FISHING_BOATS</Description>
 			<Water>true</Water>
@@ -594,7 +594,7 @@
 		<!-- Строим типи -->
 		<Row>
 			<Type>BUILD_SHOSHONE_TIPI</Type>
-			<PrereqTech>TECH_TRAPPING</PrereqTech>
+			<PrereqTech>TECH_NOMAD</PrereqTech>
 			<Time>600</Time>
 			<ImprovementType>IMPROVEMENT_SHOSHONE_TIPI</ImprovementType>
 			<Description>TXT_KEY_BUILD_SHOSHONE_TIPI</Description>
@@ -614,14 +614,14 @@
 		<Row>
 			<BuildType>BUILD_FARM</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
 			<Time>700</Time>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
 			<BuildType>BUILD_FARM</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
 			<Time>400</Time>
 			<Production>20</Production>
 			<Remove>true</Remove>
@@ -629,7 +629,7 @@
 		<Row>
 			<BuildType>BUILD_FARM</BuildType>
 			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
 			<Time>600</Time>
 			<Remove>true</Remove>
 		</Row>
@@ -638,14 +638,14 @@
 		<Row>
 			<BuildType>BUILD_MINE</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
 			<Time>700</Time>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
 			<BuildType>BUILD_MINE</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
 			<Time>400</Time>
 			<Production>20</Production>
 			<Remove>true</Remove>
@@ -653,7 +653,7 @@
 		<Row>
 			<BuildType>BUILD_MINE</BuildType>
 			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
 			<Time>600</Time>
 			<Remove>true</Remove>
 		</Row>
@@ -662,19 +662,19 @@
 		<Row>
 			<BuildType>BUILD_TRADING_POST</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
 			<Time>700</Time>
 		</Row>
 		<Row>
 			<BuildType>BUILD_TRADING_POST</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
 			<Time>400</Time>
 		</Row>
 		<Row>
 			<BuildType>BUILD_TRADING_POST</BuildType>
 			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
 			<Time>600</Time>
 		</Row>
 
@@ -682,14 +682,14 @@
 		<Row>
 			<BuildType>BUILD_PASTURE</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
 			<Time>700</Time>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
 			<BuildType>BUILD_PASTURE</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
 			<Time>400</Time>
 			<Production>20</Production>
 			<Remove>true</Remove>
@@ -697,7 +697,7 @@
 		<Row>
 			<BuildType>BUILD_PASTURE</BuildType>
 			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
 			<Time>600</Time>
 			<Remove>true</Remove>
 		</Row>
@@ -706,21 +706,21 @@
 		<Row>
 			<BuildType>BUILD_PLANTATION</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
 			<Time>700</Time>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
 			<BuildType>BUILD_PLANTATION</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
 			<Time>400</Time>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
 			<BuildType>BUILD_PLANTATION</BuildType>
 			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
 			<Time>600</Time>
 			<Remove>true</Remove>
 		</Row>
@@ -729,14 +729,14 @@
 		<Row>
 			<BuildType>BUILD_QUARRY</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
 			<Time>700</Time>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
 			<BuildType>BUILD_QUARRY</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
 			<Time>400</Time>
 			<Production>20</Production>
 			<Remove>true</Remove>
@@ -744,7 +744,7 @@
 		<Row>
 			<BuildType>BUILD_QUARRY</BuildType>
 			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
 			<Time>600</Time>
 			<Remove>true</Remove>
 		</Row>
@@ -753,19 +753,19 @@
 		<Row>
 			<BuildType>BUILD_FORT</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
 			<Time>700</Time>
 		</Row>
 		<Row>
 			<BuildType>BUILD_FORT</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
 			<Time>400</Time>
 		</Row>
 		<Row>
 			<BuildType>BUILD_FORT</BuildType>
 			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
 			<Time>600</Time>
 		</Row>
 
@@ -773,7 +773,7 @@
 		<Row>
 			<BuildType>BUILD_REMOVE_JUNGLE</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
 			<Time>700</Time>
 			<Remove>true</Remove>
 		</Row>
@@ -782,7 +782,7 @@
 		<Row>
 			<BuildType>BUILD_REMOVE_FOREST</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
 			<Time>400</Time>
 			<Production>20</Production>
 			<Remove>true</Remove>
@@ -792,7 +792,7 @@
 		<Row>
 			<BuildType>BUILD_REMOVE_MARSH</BuildType>
 			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
 			<Time>600</Time>
 			<Remove>true</Remove>
 		</Row>
@@ -809,20 +809,20 @@
 		<Row>
 			<BuildType>BUILD_LANDMARK</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
 			<BuildType>BUILD_LANDMARK</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
 			<Production>20</Production>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
 			<BuildType>BUILD_LANDMARK</BuildType>
 			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
 			<Remove>true</Remove>
 		</Row>
 
@@ -830,20 +830,20 @@
 		<Row>
 			<BuildType>BUILD_ACADEMY</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
 			<BuildType>BUILD_ACADEMY</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
 			<Production>20</Production>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
 			<BuildType>BUILD_ACADEMY</BuildType>
 			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
 			<Remove>true</Remove>
 		</Row>
 
@@ -851,20 +851,20 @@
 		<Row>
 			<BuildType>BUILD_CUSTOMS_HOUSE</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
 			<BuildType>BUILD_CUSTOMS_HOUSE</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
 			<Production>20</Production>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
 			<BuildType>BUILD_CUSTOMS_HOUSE</BuildType>
 			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
 			<Remove>true</Remove>
 		</Row>
 
@@ -872,20 +872,20 @@
 		<Row>
 			<BuildType>BUILD_MANUFACTORY</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
 			<BuildType>BUILD_MANUFACTORY</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
 			<Production>20</Production>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
 			<BuildType>BUILD_MANUFACTORY</BuildType>
 			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
 			<Remove>true</Remove>
 		</Row>
 
@@ -893,20 +893,20 @@
 		<Row>
 			<BuildType>BUILD_CITADEL</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
 			<BuildType>BUILD_CITADEL</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
 			<Production>20</Production>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
 			<BuildType>BUILD_CITADEL</BuildType>
 			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
 			<Remove>true</Remove>
 		</Row>
 
@@ -914,14 +914,14 @@
 		<Row>
 			<BuildType>BUILD_WELL</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
 			<Time>700</Time>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
 			<BuildType>BUILD_WELL</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
 			<Time>400</Time>
 			<Production>20</Production>
 			<Remove>true</Remove>
@@ -929,7 +929,7 @@
 		<Row>
 			<BuildType>BUILD_WELL</BuildType>
 			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
 			<Time>600</Time>
 			<Remove>true</Remove>
 		</Row>
@@ -938,14 +938,14 @@
 		<Row>
 			<BuildType>BUILD_ARCHAEOLOGY_DIG</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
 			<Time>700</Time>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
 			<BuildType>BUILD_ARCHAEOLOGY_DIG</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
 			<Time>400</Time>
 			<Production>20</Production>
 			<Remove>true</Remove>
@@ -953,7 +953,7 @@
 		<Row>
 			<BuildType>BUILD_ARCHAEOLOGY_DIG</BuildType>
 			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
 			<Time>600</Time>
 			<Remove>true</Remove>
 		</Row>
@@ -962,21 +962,21 @@
 		<Row>
 			<BuildType>BUILD_FEITORIA</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
 			<Time>700</Time>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
 			<BuildType>BUILD_FEITORIA</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
 			<Time>400</Time>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
 			<BuildType>BUILD_FEITORIA</BuildType>
 			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
 			<Time>600</Time>
 			<Remove>true</Remove>
 		</Row>
@@ -985,14 +985,14 @@
 		<Row>
 			<BuildType>BUILD_CHATEAU</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
 			<Time>700</Time>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
 			<BuildType>BUILD_CHATEAU</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
 			<Time>400</Time>
 			<Production>20</Production>
 			<Remove>true</Remove>
@@ -1000,7 +1000,7 @@
 		<Row>
 			<BuildType>BUILD_CHATEAU</BuildType>
 			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
 			<Time>600</Time>
 			<Remove>true</Remove>
 		</Row>
@@ -1009,20 +1009,20 @@
 		<Row>
 			<BuildType>BUILD_HOLY_SITE</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
 			<BuildType>BUILD_HOLY_SITE</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
 			<Production>20</Production>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
 			<BuildType>BUILD_HOLY_SITE</BuildType>
 			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
 			<Remove>true</Remove>
 		</Row>
 
@@ -1030,14 +1030,14 @@
 		<Row>
 			<BuildType>BUILD_MOAI</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
 			<Time>700</Time>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
 			<BuildType>BUILD_MOAI</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
 			<Time>400</Time>
 			<Production>20</Production>
 			<Remove>true</Remove>
@@ -1047,14 +1047,14 @@
 		<Row>
 			<BuildType>BUILD_TERRACE_FARM</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
 			<Time>700</Time>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
 			<BuildType>BUILD_TERRACE_FARM</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
 			<Time>400</Time>
 			<Production>20</Production>
 			<Remove>true</Remove>
@@ -1064,7 +1064,7 @@
 		<Row>
 			<BuildType>BUILD_SHOSHONE_TIPI</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
 			<Time>700</Time>
 			<Remove>true</Remove>
 		</Row>

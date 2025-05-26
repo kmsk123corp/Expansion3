@@ -155,7 +155,16 @@
 <!-- <Type>TECH_COPPER_WORKING</Type> 	Обработка меди -->
 <!-- <Type>TECH_ARCHERY</Type> 			Стрельба из лука -->
 <!-- <Type>TECH_NOMAD</Type> 			Кочевничество -->
-
+<!-- TECH_SEA_FISHING 					Морское рыболовство -->
+<!-- TECH_PROTO_WRITING 				Протописьменность -->
+<!-- TECH_WOODWORKING					Деревообработка -->
+<!-- TECH_STONE_PROCESSING				Обработка камня -->
+<!-- TECH_HORSE							Одомашнивание лошади -->
+<!-- TECH_SHIPBUILDING					Кораблестроение -->
+<!-- TECH_CUNEIFORM						Клинопись -->
+<!-- TECH_BRONZE_WORKING				Обработка бронзы -->
+<!-- TECH_MEGALITH						Мегалит -->
+<!-- TECH_THE_WHEEL						Колесо -->
 
 
 <!-- ####################################################################### -->
