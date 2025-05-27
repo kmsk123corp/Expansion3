@@ -645,10 +645,10 @@
 			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
 		</Row>
-		<!-- <Row>
+		<Row>
 			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-		</Row> -->
+		</Row>
 	</Improvement_ValidFeatures>
 	<Improvement_ResourceTypes>
 		<Row>
