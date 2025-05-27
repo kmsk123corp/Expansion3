@@ -36,7 +36,7 @@
 	<Row>
 		<UnitType>UNIT_WORKBOAT</UnitType>
 		<ResourceType>RESOURCE_WOOD</ResourceType>
-		<Cost>20</Cost>
+		<Cost>25</Cost>
 	</Row>
 
 

@@ -549,11 +549,16 @@
 				<Row>
 					<UnitType>UNIT_TRIREME</UnitType>
 					<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-					<Cost>10</Cost>
+					<Cost>20</Cost>
 				</Row>
 				<Row>
 					<UnitType>UNIT_TRIREME</UnitType>
-					<ResourceType>RESOURCE_WOOD</ResourceType>
+					<ResourceType>RESOURCE_LUMBER</ResourceType>
+					<Cost>20</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_TRIREME</UnitType>
+					<ResourceType>RESOURCE_COPPER</ResourceType>
 					<Cost>20</Cost>
 				</Row>
 				<!-- Пиниси -->
@@ -961,7 +966,7 @@
 		<Row>
 			<UnitType>UNIT_TRIREME</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>1</Cost>
+			<Cost>2</Cost>
 		</Row>
 
 		<!-- Пиниси -->

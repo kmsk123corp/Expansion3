@@ -160,12 +160,11 @@
 <!-- TECH_WOODWORKING					Деревообработка -->
 <!-- TECH_STONE_PROCESSING				Обработка камня -->
 <!-- TECH_HORSE							Одомашнивание лошади -->
-<!-- TECH_SHIPBUILDING					Кораблестроение -->
 <!-- TECH_CUNEIFORM						Клинопись -->
 <!-- TECH_BRONZE_WORKING				Обработка бронзы -->
 <!-- TECH_MEGALITH						Мегалит -->
 <!-- TECH_THE_WHEEL						Колесо -->
-
+<!-- TECH_SHIPBUILDING					Кораблестроение -->
 
 <!-- ####################################################################### -->
 <!-- 				   		        Неолит  				  			     -->
@@ -520,22 +519,6 @@
 		<!--       GridX 5       -->
 		<!-- ################### -->
 
-		<!-- Кораблестроение -->
-		<Row>
-			<Type>TECH_SHIPBUILDING</Type>
-			<Cost>79</Cost>
-			<Description>TXT_KEY_TECH_SHIPBUILDING_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_SHIPBUILDING_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_SHIPBUILDING_HELP</Help>
-			<Era>ERA_ENEOLITHIC</Era>
-			<Trade>true</Trade>
-			<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange>
-			<GoodyTech>true</GoodyTech>
-			<GridX>5</GridX>
-			<GridY>0</GridY>
-			<PortraitIndex>13</PortraitIndex>
-			<IconAtlas>Technologies_IconAtlas</IconAtlas>
-		</Row>
 		<!-- Клинопись -->
 		<Row>
 			<Type>TECH_CUNEIFORM</Type>
@@ -616,6 +599,22 @@
 <!--       GridX 6       -->
 <!-- ################### -->
 
+		<!-- Кораблестроение -->
+		<Row>
+			<Type>TECH_SHIPBUILDING</Type>
+			<Cost>79</Cost>
+			<Description>TXT_KEY_TECH_SHIPBUILDING_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_SHIPBUILDING_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_SHIPBUILDING_HELP</Help>
+			<Era>ERA_BRONZE</Era>
+			<Trade>true</Trade>
+			<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange>
+			<GoodyTech>true</GoodyTech>
+			<GridX>6</GridX>
+			<GridY>0</GridY>
+			<PortraitIndex>13</PortraitIndex>
+			<IconAtlas>Technologies_IconAtlas</IconAtlas>
+		</Row>
 
 		<!-- Язычество -->
 		<Row>
@@ -685,26 +684,6 @@
 <!-- ################### -->
 <!--       GridX 7       -->
 <!-- ################### -->
-
-		<!-- Мореходство -->
-		<Row>
-			<Type>TECH_SAILING</Type>
-			<Cost>130</Cost>
-			<Description>TXT_KEY_TECH_SAILING_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_SAILING_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_SAILING_HELP</Help>
-			<Era>ERA_BRONZE</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<AllowsEmbarking>true</AllowsEmbarking>
-			<GridX>7</GridX>
-			<GridY>0</GridY>
-			<Quote>TXT_KEY_TECH_SAILING_QUOTE</Quote>
-			<PortraitIndex>13</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-			<AudioIntro>AS2D_TECH_SAILING</AudioIntro>
-			<AudioIntroHeader>AS2D_HEADING_TECH_SAILING</AudioIntroHeader>
-		</Row>
 
 		<!-- Финикийское письмо -->
 		<Row>
@@ -776,6 +755,26 @@
 <!-- ################### -->
 <!--       GridX 7       -->
 <!-- ################### -->
+
+		<!-- Мореходство -->
+		<Row>
+			<Type>TECH_SAILING</Type>
+			<Cost>130</Cost>
+			<Description>TXT_KEY_TECH_SAILING_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_SAILING_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_SAILING_HELP</Help>
+			<Era>ERA_BRONZE</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<AllowsEmbarking>true</AllowsEmbarking>
+			<GridX>8</GridX>
+			<GridY>0</GridY>
+			<Quote>TXT_KEY_TECH_SAILING_QUOTE</Quote>
+			<PortraitIndex>13</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<AudioIntro>AS2D_TECH_SAILING</AudioIntro>
+			<AudioIntroHeader>AS2D_HEADING_TECH_SAILING</AudioIntroHeader>
+		</Row>
 
 		<!-- Право и закон -->
 		<Row>
@@ -3614,14 +3613,6 @@
 
 		<!-- Медный век [3] row 5 -->
 		<Row>
-			<TechType>TECH_SHIPBUILDING</TechType>
-			<PrereqTech>TECH_SEA_FISHING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_SHIPBUILDING</TechType>
-			<PrereqTech>TECH_WOODWORKING</PrereqTech>
-		</Row>
-		<Row>
 			<TechType>TECH_CUNEIFORM</TechType>
 			<PrereqTech>TECH_PROTO_WRITING</PrereqTech>
 		</Row>
@@ -3643,6 +3634,14 @@
 		</Row>
 
 		<!-- Бронзовый век [1] row 6 -->
+		<Row>
+			<TechType>TECH_SHIPBUILDING</TechType>
+			<PrereqTech>TECH_SEA_FISHING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_SHIPBUILDING</TechType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+		</Row>
 		<Row>
 			<TechType>TECH_PAGANISM</TechType>
 			<PrereqTech>TECH_CUNEIFORM</PrereqTech>

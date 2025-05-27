@@ -1032,6 +1032,12 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+			<TechType>TECH_BRONZE_WORKING</TechType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
 
 		<Row>
 			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
