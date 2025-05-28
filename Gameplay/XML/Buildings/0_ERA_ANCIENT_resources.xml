@@ -8,17 +8,7 @@
 
 
 
-        <!-- Летописец -->
-        <Row>
-			<BuildingType>BUILDING_CHRONICLER</BuildingType>
-			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>10</Cost>
-		</Row>
-        <Row>
-			<BuildingType>BUILDING_CHRONICLER</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>10</Cost>
-		</Row>
+        
 
 
 
@@ -48,19 +38,7 @@
 
 
 
-        <!-- Святилище -->
-		<Row>
-			<BuildingType>BUILDING_SHRINE</BuildingType>
-			<ResourceType>RESOURCE_LUMBER</ResourceType>
-			<Cost>20</Cost>
-		</Row>
-
-        <!-- Собрание друидов (кельты) -->
-        <Row>
-			<BuildingType>BUILDING_CELTS_DRUIDS</BuildingType>
-			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>20</Cost>
-		</Row>
+        
 
         <!-- Пирамида (Майя) -->
         <Row>
@@ -129,17 +107,7 @@
 			<Cost>150</Cost>
 		</Row>
 
-        <!-- Каменный карьер -->
-        <Row>
-			<BuildingType>BUILDING_STONEQUARRY</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>50</Cost>
-		</Row>
-        <Row>
-			<BuildingType>BUILDING_STONEQUARRY</BuildingType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>50</Cost>
-		</Row>
+        
 
         <!-- Мраморная мастерская -->
         <Row>
@@ -187,17 +155,7 @@
 
 
 
-        <!-- Каменный карьер -->
-        <Row>
-            <BuildingType>BUILDING_STONEQUARRY</BuildingType>
-            <ResourceType>RESOURCE_STONE</ResourceType>
-            <Quantity>10</Quantity>
-        </Row>
-        <Row>
-            <BuildingType>BUILDING_STONEQUARRY</BuildingType>
-            <ResourceType>RESOURCE_MARBLE</ResourceType>
-            <Quantity>1</Quantity>
-        </Row>
+        
 
         <!-- Мраморная мастерская -->
         <Row>
@@ -219,19 +177,7 @@
 
 
 
-        <!-- Святилище -->
-		<Row>
-			<BuildingType>BUILDING_SHRINE</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-
-        <!-- Собрание друидов (кельты) -->
-        <Row>
-			<BuildingType>BUILDING_CELTS_DRUIDS</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>1</Cost>
-		</Row>
+        
 
         <!-- Пирамида (Майя) -->
         <Row>
@@ -242,12 +188,7 @@
 
 
 
-        <!-- Каменный карьер -->
-        <Row>
-			<BuildingType>BUILDING_STONEQUARRY</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>5</Cost>
-		</Row>
+        
 
         <!-- Мраморная мастерская -->
 		<Row>

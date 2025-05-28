@@ -30,23 +30,7 @@
 		</Row>
 
 
-        <!-- Колодец -->
-		<Row>
-			<Type>BUILDING_PIT</Type>
-			<BuildingClass>BUILDINGCLASS_PIT</BuildingClass>
-			<Cost>60</Cost>
-			<PrereqTech>TECH_IRRIGATION</PrereqTech>
-			<Help>TXT_KEY_BUILDING_PIT_HELP</Help>
-			<Description>TXT_KEY_BUILDING_PIT</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_PIT_TEXT</Civilopedia>
-			<ArtDefineTag>ART_DEF_BUILDING_PIT</ArtDefineTag>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>66</ConquestProb>
-			<HurryCostModifier>25</HurryCostModifier>
-            <Flat>true</Flat>
-			<IconAtlas>Building_IconAtlas</IconAtlas>
-			<PortraitIndex>50</PortraitIndex>
-		</Row>
+        
 
 
 
@@ -54,22 +38,7 @@
 
 
 
-        <!-- Летописец -->
-        <Row>
-            <Type>BUILDING_CHRONICLER</Type>
-            <BuildingClass>BUILDINGCLASS_CHRONICLER</BuildingClass>
-            <Cost>60</Cost>
-            <PrereqTech>TECH_WRITING</PrereqTech>
-            <Description>TXT_KEY_BUILDING_CHRONICLER</Description>
-            <Civilopedia>TXT_KEY_CIV5_BUILDINGS_CHRONICLER_TEXT</Civilopedia>
-            <Strategy>TXT_KEY_BUILDING_CHRONICLER_HELP</Strategy>
-            <ArtDefineTag>ART_DEF_BUILDING_CUNEIFORMLIBRARY</ArtDefineTag>
-            <ConquestProb>66</ConquestProb>
-            <MinAreaSize>-1</MinAreaSize>
-            <HurryCostModifier>25</HurryCostModifier>
-            <IconAtlas>Building_IconAtlas</IconAtlas>
-            <PortraitIndex>8</PortraitIndex>
-        </Row>
+        
 
 
 
@@ -102,44 +71,7 @@
         <!-- Календарь -->
         <!-- ######### -->
 
-        <!-- Святилище -->
-        <Replace>
-			<Type>BUILDING_SHRINE</Type>
-			<BuildingClass>BUILDINGCLASS_SHRINE</BuildingClass>
-			<FreeStartEra>ERA_MEDIEVAL</FreeStartEra>
-			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
-			<Cost>40</Cost>
-			<PrereqTech>TECH_PAGANISM</PrereqTech>
-			<Description>TXT_KEY_BUILDING_SHRINE</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_SHRINE_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_SHRINE_STRATEGY</Strategy>
-			<ArtDefineTag>TEMPLE</ArtDefineTag>
-			<ConquestProb>66</ConquestProb>
-			<MinAreaSize>-1</MinAreaSize>
-			<HurryCostModifier>25</HurryCostModifier>
-			<IconAtlas>EXPANSION_BW_ATLAS_1</IconAtlas>
-			<PortraitIndex>9</PortraitIndex>
-		</Replace>
-
-        <!-- Собрание друидов -->
-        <Row>
-			<Type>BUILDING_CELTS_DRUIDS</Type>
-			<BuildingClass>BUILDINGCLASS_SHRINE</BuildingClass>
-			<FreeStartEra>ERA_MEDIEVAL</FreeStartEra>
-			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
-			<Cost>40</Cost>
-			<PrereqTech>TECH_CALENDAR</PrereqTech>
-			<Description>TXT_KEY_BUILDING_CELTS_DRUIDS</Description>
-			<Help>TXT_KEY_BUILDING_CELTS_DRUIDS_HELP</Help>
-			<Civilopedia>TXT_KEY_BUILDING_CELTS_DRUIDS_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_CELTS_DRUIDS_STRATEGY</Strategy>
-			<ArtDefineTag>TEMPLE</ArtDefineTag>
-			<ConquestProb>66</ConquestProb>
-			<MinAreaSize>-1</MinAreaSize>
-			<HurryCostModifier>25</HurryCostModifier>
-			<IconAtlas>NEW_UNIQUE_BUILDING_ATLAS</IconAtlas>
-			<PortraitIndex>14</PortraitIndex>
-		</Row>
+        
 
         <!-- Пирамида -->
         <Replace>
@@ -219,23 +151,7 @@
 			<PortraitIndex>0</PortraitIndex>
 		</Replace>
 
-        <!-- Каменный карьер -->
-        <Row>
-			<Type>BUILDING_STONEQUARRY</Type>
-			<BuildingClass>BUILDINGCLASS_STONEQUARRY</BuildingClass>
-			<Cost>150</Cost>
-			<PrereqTech>TECH_DRY_MASONRY</PrereqTech>
-            <GoldMaintenance>2</GoldMaintenance>
-			<Description>TXT_KEY_BUILDING_STONEQUARRY</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_STONEQUARRY_TEXT</Civilopedia>
-			<Help>TXT_KEY_BUILDING_STONEQUARRY_HELP</Help>
-            <Hill>true</Hill>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>66</ConquestProb>
-			<HurryCostModifier>25</HurryCostModifier>
-			<IconAtlas>Building_IconAtlas</IconAtlas>
-			<PortraitIndex>24</PortraitIndex>
-		</Row>
+        
 
         <!-- Мраморная мастерская -->
         <Row>
@@ -289,19 +205,11 @@
 
 
 
-        <Row>
-			<BuildingType>BUILDING_PIT</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
+        
 
 
 
-        <Row>
-			<BuildingType>BUILDING_CHRONICLER</BuildingType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
-		</Row>
+        
 
 
 
@@ -313,28 +221,15 @@
 
 
 
-        <Row>
-			<BuildingType>BUILDING_SHRINE</BuildingType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>2</Yield>
-		</Row>
-        <Row>
-			<BuildingType>BUILDING_STONEQUARRY</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
-		</Row>
+        
+        
 
 
 
 
 
 
-
-        <Row>
-			<BuildingType>BUILDING_CELTS_DRUIDS</BuildingType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
-		</Row>
+        
         <Replace>
 			<BuildingType>BUILDING_MAYA_PYRAMID</BuildingType>
 			<YieldType>YIELD_FAITH</YieldType>
@@ -414,18 +309,7 @@
 
 
 
-        <Row>
-			<BuildingType>BUILDING_STONEQUARRY</BuildingType>
-			<ResourceType>RESOURCE_MARBLE</ResourceType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_STONEQUARRY</BuildingType>
-			<ResourceType>RESOURCE_STONE</ResourceType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
+        
 
 
 
@@ -474,12 +358,7 @@
 
     <!-- С клеток леса -->
     <Building_FeatureYieldChanges>
-        <Row>
-			<BuildingType>BUILDING_CELTS_DRUIDS</BuildingType>
-			<FeatureType>FEATURE_FOREST</FeatureType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
-		</Row>
+        
 
     </Building_FeatureYieldChanges>
 
@@ -497,21 +376,13 @@
 
 
 
-        <Row>
-			<BuildingType>BUILDING_PIT</BuildingType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
+        
 
 
 
 
 
-        <Row>
-			<BuildingType>BUILDING_CHRONICLER</BuildingType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
+        
 
 
 
@@ -523,11 +394,7 @@
 
 
 
-        <Row>
-			<BuildingType>BUILDING_SHRINE</BuildingType>
-			<FlavorType>FLAVOR_RELIGION</FlavorType>
-			<Flavor>25</Flavor>
-		</Row>
+        
 
 
 
@@ -566,16 +433,7 @@
 
 
 
-        <Row>
-			<BuildingType>BUILDING_CELTS_DRUIDS</BuildingType>
-			<FlavorType>FLAVOR_RELIGION</FlavorType>
-			<Flavor>25</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_CELTS_DRUIDS</BuildingType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
+        
 
 
 

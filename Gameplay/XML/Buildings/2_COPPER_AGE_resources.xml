@@ -4,7 +4,7 @@
 
     <!-- Стоимость постройки -->
     <Building_ResourceCostRequirements>
-
+        
         <!-- Плавильная печь -->
 		<Row>
 			<BuildingType>BUILDING_MELTINGFURNACE</BuildingType>
@@ -42,10 +42,15 @@
 		</Row>
 
         <!-- Монумент -->
+        <Row>
+			<BuildingType>BUILDING_MONUMENT</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>20</Cost>
+		</Row>
 		<Row>
 			<BuildingType>BUILDING_MONUMENT</BuildingType>
 			<ResourceType>RESOURCE_MARBLE</ResourceType>
-			<Cost>10</Cost>
+			<Cost>20</Cost>
 		</Row>
 
         <!-- амбар -->
@@ -100,12 +105,12 @@
         <Row>
 			<BuildingType>BUILDING_WORKSHOP</BuildingType>
 			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>50</Cost>
+			<Cost>40</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_WORKSHOP</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>50</Cost>
+			<Cost>20</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_WORKSHOP</BuildingType>
@@ -129,20 +134,15 @@
         <Row>
 			<BuildingType>BUILDING_CIRCUS</BuildingType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>30</Cost>
+			<Cost>40</Cost>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_CIRCUS</BuildingType>
 			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>10</Cost>
+			<Cost>20</Cost>
 		</Row>
 
-        <!-- Причалы -->
-		<Row>
-			<BuildingType>BUILDING_PIERS</BuildingType>
-			<ResourceType>RESOURCE_LUMBER</ResourceType>
-			<Cost>30</Cost>
-		</Row>
+        
 
         <!-- Клинописная библиотека -->
         <Row>
@@ -166,57 +166,16 @@
 			<Cost>30</Cost>
 		</Row>
 
-        <!-- Казарма -->
-        <Row>
-			<BuildingType>BUILDING_BARRACKS</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>30</Cost>
-		</Row>
-        <Row>
-			<BuildingType>BUILDING_BARRACKS</BuildingType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>30</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_BARRACKS</BuildingType>
-			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>30</Cost>
-		</Row>
-
-        <!-- Крепость Острог -->
-        <Row>
-			<BuildingType>BUILDING_BARRACKS</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>30</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_KREPOST</BuildingType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>40</Cost>
-		</Row>
-        <Row>
-			<BuildingType>BUILDING_BARRACKS</BuildingType>
-			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>10</Cost>
-		</Row>
-
-        <!-- Иканда -->
-		<Row>
-			<BuildingType>BUILDING_IKANDA</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>50</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_IKANDA</BuildingType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>20</Cost>
-		</Row>
-
         <!-- Мельница -->
         <Row>
 			<BuildingType>BUILDING_MILL</BuildingType>
 			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>20</Cost>
+			<Cost>30</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_MILL</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>10</Cost>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_MILL</BuildingType>
@@ -245,7 +204,7 @@
         <Row>
 			<BuildingType>BUILDING_DOLMEN</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>25</Cost>
+			<Cost>30</Cost>
 		</Row>
 
         <!-- Стоунхендж -->

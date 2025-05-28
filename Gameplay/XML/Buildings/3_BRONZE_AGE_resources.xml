@@ -4,19 +4,242 @@
 
     <!-- Стоимость постройки -->
     <Building_ResourceCostRequirements>
+        
+        <!-- Причалы -->
+		<Row>
+			<BuildingType>BUILDING_PIERS</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PIERS</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>40</Cost>
+		</Row>
+        
+        <!-- Святилище -->
+        <Row>
+			<BuildingType>BUILDING_SHRINE</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_SHRINE</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_SHRINE</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHRINE</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>20</Cost>
+		</Row>
 
+        <!-- Собрание друидов (кельты) -->
+        <Row>
+			<BuildingType>BUILDING_CELTS_DRUIDS</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CELTS_DRUIDS</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CELTS_DRUIDS</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CELTS_DRUIDS</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+        
+        <!-- Казарма -->
+        <Row>
+			<BuildingType>BUILDING_BARRACKS</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BARRACKS</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>60</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BARRACKS</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+
+        <!-- Крепость Острог -->
+        <Row>
+			<BuildingType>BUILDING_KREPOST</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>60</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_KREPOST</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_KREPOST</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+
+        <!-- Иканда -->
+		<Row>
+			<BuildingType>BUILDING_IKANDA</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IKANDA</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_IKANDA</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+        
+        <!-- Каменный карьер -->
+        <Row>
+			<BuildingType>BUILDING_STONEQUARRY</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_STONEQUARRY</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+        
+        <!-- Караван-сарай -->
+        <Row>
+			<BuildingType>BUILDING_CARAVANSARY</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<Cost>40</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CARAVANSARY</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>40</Cost>
+		</Row>
+        
+        <!-- Летописец -->
+        <Row>
+			<BuildingType>BUILDING_CHRONICLER</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CHRONICLER</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CHRONICLER</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+        
+        <!-- Колодец -->
+        <Row>
+			<BuildingType>BUILDING_PIT</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_PIT</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+        
+        
+        
+        
     </Building_ResourceCostRequirements>
 
 
     <!-- Производит ресурсов -->
     <Building_ResourceQuantity>
 
+        <!-- Каменный карьер -->
+        <Row>
+            <BuildingType>BUILDING_STONEQUARRY</BuildingType>
+            <ResourceType>RESOURCE_STONE</ResourceType>
+            <Quantity>10</Quantity>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_STONEQUARRY</BuildingType>
+            <ResourceType>RESOURCE_MARBLE</ResourceType>
+            <Quantity>1</Quantity>
+        </Row>
 
     </Building_ResourceQuantity>
 
 
     <!-- Потребляет за ход -->
 	<Building_ResourceQuantityRequirements>
+
+        <!-- Святилище -->
+		<Row>
+			<BuildingType>BUILDING_SHRINE</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+        <!-- Собрание друидов (кельты) -->
+        <Row>
+			<BuildingType>BUILDING_CELTS_DRUIDS</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+        
+        <!-- Казарма -->
+        <Row>
+			<BuildingType>BUILDING_BARRACKS</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>4</Cost>
+		</Row>
+        
+        <!-- Крепость Острог -->
+        <Row>
+			<BuildingType>BUILDING_KREPOST</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>4</Cost>
+		</Row>
+        
+        <!-- Иканда -->
+		<Row>
+			<BuildingType>BUILDING_IKANDA</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>4</Cost>
+		</Row>
+        
+        <!-- Каменный карьер -->
+        <Row>
+			<BuildingType>BUILDING_STONEQUARRY</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+        
+        <!-- Караван-сарай -->
+        <Row>
+			<BuildingType>BUILDING_CARAVANSARY</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>4</Cost>
+		</Row>
 
 
     </Building_ResourceQuantityRequirements>

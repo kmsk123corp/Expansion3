@@ -16,7 +16,7 @@
 			<Class>UNITCLASS_SLINGER</Class>
 			<Type>UNIT_SLINGER</Type>
 			<PrereqTech>TECH_TRAPPING</PrereqTech>
-			<Combat>4</Combat>
+			<Combat>5</Combat>
 			<RangedCombat>7</RangedCombat>
 			<Cost>40</Cost>
 			<FaithCost>80</FaithCost>
@@ -50,7 +50,7 @@
 			<Class>UNITCLASS_SLINGER</Class>
 			<Type>UNIT_INCAN_SLINGER</Type>
 			<PrereqTech>TECH_TRAPPING</PrereqTech>
-			<Combat>5</Combat>
+			<Combat>6</Combat>
 			<RangedCombat>7</RangedCombat>
 			<Cost>40</Cost>
 			<FaithCost>80</FaithCost>
@@ -84,7 +84,7 @@
 			<Class>UNITCLASS_SLINGER</Class>
 			<Type>UNIT_MAYAN_ATLATLIST</Type>
 			<PrereqTech>TECH_TRAPPING</PrereqTech>
-			<Combat>6</Combat>
+			<Combat>7</Combat>
 			<RangedCombat>8</RangedCombat>
 			<Cost>40</Cost>
 			<FaithCost>72</FaithCost>
@@ -122,7 +122,7 @@
 			<Class>UNITCLASS_HUNTERS</Class>
 			<Type>UNIT_HUNTERS</Type>
 			<PrereqTech>TECH_ARCHERY</PrereqTech>
-			<Combat>5</Combat>
+			<Combat>6</Combat>
 			<RangedCombat>9</RangedCombat>
 			<Cost>50</Cost>
 			<FaithCost>100</FaithCost>

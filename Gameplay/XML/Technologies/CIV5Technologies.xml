@@ -602,7 +602,7 @@
 		<!-- Кораблестроение -->
 		<Row>
 			<Type>TECH_SHIPBUILDING</Type>
-			<Cost>79</Cost>
+			<Cost>104</Cost>
 			<Description>TXT_KEY_TECH_SHIPBUILDING_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_SHIPBUILDING_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_SHIPBUILDING_HELP</Help>

@@ -63,17 +63,7 @@
 			<Cost>50</Cost>
 		</Row>
 
-        <!-- Караван-сарай -->
-        <Row>
-			<BuildingType>BUILDING_CARAVANSARY</BuildingType>
-			<ResourceType>RESOURCE_HORSE</ResourceType>
-			<Cost>20</Cost>
-		</Row>
-        <Row>
-			<BuildingType>BUILDING_CARAVANSARY</BuildingType>
-			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>40</Cost>
-		</Row>
+        
 
         <!-- Арена -->
         <Row>
