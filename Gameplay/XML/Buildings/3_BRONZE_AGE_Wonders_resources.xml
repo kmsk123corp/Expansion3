@@ -6,6 +6,22 @@
     <!-- Стоимость постройки -->
     <Building_ResourceCostRequirements>
 
+        <Row>
+			<BuildingType>BUILDING_LAWS_HAMMURABI</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>300</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_LAWS_HAMMURABI</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_LAWS_HAMMURABI</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
     </Building_ResourceCostRequirements>
 
 

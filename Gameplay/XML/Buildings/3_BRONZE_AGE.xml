@@ -143,6 +143,23 @@
         <!-- Сухая кладка -->
         <!-- ############ -->
 
+        <!-- Выгребная яма -->
+        <Row>
+            <Type>BUILDING_CESSPOOL</Type>
+            <BuildingClass>BUILDINGCLASS_CESSPOOL</BuildingClass>
+            <Cost>90</Cost>
+            <PrereqTech>TECH_DRY_MASONRY</PrereqTech>
+            <Description>TXT_KEY_BUILDING_CESSPOOL</Description>
+            <Civilopedia>TXT_KEY_CIV5_BUILDINGS_CESSPOOL_TEXT</Civilopedia>
+            <Help>TXT_KEY_BUILDING_CESSPOOL_HELP</Help>
+            <MinAreaSize>-1</MinAreaSize>
+            <ConquestProb>66</ConquestProb>
+            <Happiness>1</Happiness>
+            <HurryCostModifier>25</HurryCostModifier>
+            <IconAtlas>Building_IconAtlas</IconAtlas>
+			<PortraitIndex>37</PortraitIndex>
+        </Row>
+
         <!-- Каменный карьер -->
         <Row>
 			<Type>BUILDING_STONEQUARRY</Type>
@@ -460,6 +477,11 @@
 			<Flavor>10</Flavor>
 		</Row>
         <Row>
+			<BuildingType>BUILDING_CESSPOOL</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+        <Row>
 			<BuildingType>BUILDING_STONEQUARRY</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>30</Flavor>
@@ -489,6 +511,7 @@
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
+        
     </Building_Flavors>
 
 

@@ -142,29 +142,42 @@
 	<PortraitIndex>13</PortraitIndex>
 </Row> -->
 
-<!-- <Type>TECH_AGRICULTURE</Type> 		Каменные орудия -->
-<!-- <Type>TECH_STONE_IMPLEMENTS</Type> Земледение -->
-<!-- <Type>TECH_FOREST_CUTTING</Type> 	Вырубка леса -->
-<!-- <Type>TECH_MINING</Type> 			Добыча руды -->
-<!-- <Type>TECH_TRAPPING</Type> 		Охота -->
-<!-- <Type>TECH_FISHING</Type> 			Рыболовные сети -->
-<!-- <Type>TECH_POTTERY</Type> 			Гончарное дело -->
-<!-- <Type>TECH_CHARRING</Type> 		Углежжение -->
-<!-- <Type>TECH_ANIMAL_HUSBANDRY</Type> Животноводство -->
-<!-- <Type>TECH_CALENDAR</Type> 		Календарь -->
-<!-- <Type>TECH_COPPER_WORKING</Type> 	Обработка меди -->
-<!-- <Type>TECH_ARCHERY</Type> 			Стрельба из лука -->
-<!-- <Type>TECH_NOMAD</Type> 			Кочевничество -->
-<!-- TECH_SEA_FISHING 					Морское рыболовство -->
-<!-- TECH_PROTO_WRITING 				Протописьменность -->
-<!-- TECH_WOODWORKING					Деревообработка -->
-<!-- TECH_STONE_PROCESSING				Обработка камня -->
-<!-- TECH_HORSE							Одомашнивание лошади -->
-<!-- TECH_CUNEIFORM						Клинопись -->
-<!-- TECH_BRONZE_WORKING				Обработка бронзы -->
-<!-- TECH_MEGALITH						Мегалит -->
-<!-- TECH_THE_WHEEL						Колесо -->
-<!-- TECH_SHIPBUILDING					Кораблестроение -->
+<!-- TECH_AGRICULTURE 		Каменные орудия -->
+<!-- TECH_STONE_IMPLEMENTS 	Земледение -->
+<!-- TECH_FOREST_CUTTING 	Вырубка леса -->
+<!-- TECH_MINING 			Добыча руды -->
+<!-- TECH_TRAPPING 			Охота -->
+<!-- TECH_FISHING 			Рыболовные сети -->
+<!-- TECH_POTTERY 			Гончарное дело -->
+<!-- TECH_CHARRING 			Углежжение -->
+<!-- TECH_ANIMAL_HUSBANDRY 	Животноводство -->
+<!-- TECH_CALENDAR 			Календарь -->
+<!-- TECH_COPPER_WORKING 	Обработка меди -->
+<!-- TECH_ARCHERY 			Стрельба из лука -->
+<!-- TECH_NOMAD 			Кочевничество -->
+<!-- TECH_SEA_FISHING 		Морское рыболовство -->
+<!-- TECH_PROTO_WRITING 	Протописьменность -->
+<!-- TECH_WOODWORKING		Деревообработка -->
+<!-- TECH_STONE_PROCESSING	Обработка камня -->
+<!-- TECH_HORSE				Одомашнивание лошади -->
+<!-- TECH_CUNEIFORM			Клинопись -->
+<!-- TECH_BRONZE_WORKING	Обработка бронзы -->
+<!-- TECH_MEGALITH			Мегалит -->
+<!-- TECH_THE_WHEEL			Колесо -->
+<!-- TECH_SHIPBUILDING		Кораблестроение -->
+<!-- TECH_PAGANISM 			Клинопись -->
+<!-- TECH_CASTING_WAX_MODEL Литье по восковой модели -->
+<!-- TECH_DRY_MASONRY  		Сухая кладка-->
+<!-- TECH_HORSE_HARNESS 	Конская упряжь -->
+<!-- TECH_CODE_LAWS 		Право и закон -->
+<!-- TECH_ARMOUR 			Бронзовые доспехи -->
+<!-- TECH_IRRIGATION 		Ирригация -->
+<!-- TECH_SPOKE_RIM 		Обод и спицы -->
+<!-- TECH_SAILING 			Мореходство -->
+<!-- TECH_WRITING 			Финикийское письмо -->
+<!-- TECH_IRON_WORKING 		Сыродутный процесс -->
+<!-- TECH_MASONRY 			Каменная кладка -->
+<!-- TECH_HORSEBACK_RIDING 	Верховая езда -->
 
 <!-- ####################################################################### -->
 <!-- 				   		        Неолит  				  			     -->
@@ -680,28 +693,25 @@
 			<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange>
 		</Row>
 
-
 <!-- ################### -->
 <!--       GridX 7       -->
 <!-- ################### -->
 
-		<!-- Финикийское письмо -->
+		<!-- Право и закон -->
 		<Row>
-			<Type>TECH_WRITING</Type>
-			<Cost>130</Cost>
-			<Description>TXT_KEY_TECH_FINIC_WRITING</Description>
-			<Civilopedia>TXT_KEY_TECH_WRITING_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_WRITING_HELP</Help>
+			<Type>TECH_CODE_LAWS</Type>
+			<Cost>194</Cost>
+			<Description>TXT_KEY_TECH_CODE_LAWS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_CODE_LAWS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_CODE_LAWS_HELP</Help>
 			<Era>ERA_BRONZE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>7</GridX>
 			<GridY>2</GridY>
-			<Quote>TXT_KEY_TECH_WRITING_QUOTE</Quote>
-			<PortraitIndex>8</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-			<AudioIntro>AS2D_TECH_WRITING</AudioIntro>
-			<AudioIntroHeader>AS2D_HEADING_TECH_WRITING</AudioIntroHeader>
+			<PortraitIndex>37</PortraitIndex>
+			<IconAtlas>Technologies_IconAtlas</IconAtlas>
+			<OpenBordersTradingAllowed>true</OpenBordersTradingAllowed>
 		</Row>
 
 		<!-- Бронзовый доспех -->
@@ -776,21 +786,23 @@
 			<AudioIntroHeader>AS2D_HEADING_TECH_SAILING</AudioIntroHeader>
 		</Row>
 
-		<!-- Право и закон -->
+		<!-- Финикийское письмо -->
 		<Row>
-			<Type>TECH_CODE_LAWS</Type>
-			<Cost>194</Cost>
-			<Description>TXT_KEY_TECH_CODE_LAWS_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_CODE_LAWS_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_CODE_LAWS_HELP</Help>
+			<Type>TECH_WRITING</Type>
+			<Cost>130</Cost>
+			<Description>TXT_KEY_TECH_FINIC_WRITING</Description>
+			<Civilopedia>TXT_KEY_TECH_WRITING_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_WRITING_HELP</Help>
 			<Era>ERA_BRONZE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>8</GridX>
 			<GridY>2</GridY>
-			<PortraitIndex>37</PortraitIndex>
-			<IconAtlas>Technologies_IconAtlas</IconAtlas>
-			<OpenBordersTradingAllowed>true</OpenBordersTradingAllowed>
+			<Quote>TXT_KEY_TECH_WRITING_QUOTE</Quote>
+			<PortraitIndex>8</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<AudioIntro>AS2D_TECH_WRITING</AudioIntro>
+			<AudioIntroHeader>AS2D_HEADING_TECH_WRITING</AudioIntroHeader>
 		</Row>
 
 		<!-- Обработка железа -->
@@ -847,7 +859,7 @@
 			<AudioIntro>AS2D_TECH_HORSEBACK_RIDING</AudioIntro>
 			<AudioIntroHeader>AS2D_HEADING_TECH_HORSEBACK_RIDING</AudioIntroHeader>
 		</Row>
-
+		
 <!-- ####################################################################### -->
 <!-- 				   		     Железный век				  			     -->
 <!-- ####################################################################### -->
@@ -2234,46 +2246,25 @@
 			<AudioIntroHeader>AS2D_HEADING_TECH_FUTURE_TECH</AudioIntroHeader>
 		</Row>
 	</Technologies>
+	
+	<!-- Для ботов и советников -->
 	<Technology_Flavors>
+		
 		<Row>
 			<TechType>TECH_AGRICULTURE</TechType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
+		<!-- 1 -->
 		<Row>
-			<TechType>TECH_POTTERY</TechType>
+			<TechType>TECH_STONE_IMPLEMENTS</TechType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>4</Flavor>
+			<Flavor>5</Flavor>
 		</Row>
 		<Row>
-			<TechType>TECH_POTTERY</TechType>
-			<FlavorType>FLAVOR_RELIGION</FlavorType>
-			<Flavor>1</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_ANIMAL_HUSBANDRY</TechType>
-			<FlavorType>FLAVOR_MOBILE</FlavorType>
-			<Flavor>4</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_ANIMAL_HUSBANDRY</TechType>
-			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>1</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_ANIMAL_HUSBANDRY</TechType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>3</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_ARCHERY</TechType>
-			<FlavorType>FLAVOR_RANGED</FlavorType>
-			<Flavor>4</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_ARCHERY</TechType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>1</Flavor>
+			<TechType>TECH_FOREST_CUTTING</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_MINING</TechType>
@@ -2291,14 +2282,367 @@
 			<Flavor>2</Flavor>
 		</Row>
 		<Row>
+			<TechType>TECH_TRAPPING</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_TRAPPING</TechType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_TRAPPING</TechType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_FISHING</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<!-- 2 -->
+		<Row>
+			<TechType>TECH_POTTERY</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_POTTERY</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_POTTERY</TechType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_CHARRING</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ANIMAL_HUSBANDRY</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ANIMAL_HUSBANDRY</TechType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ANIMAL_HUSBANDRY</TechType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ANIMAL_HUSBANDRY</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<!-- 3 -->
+		<Row>
+			<TechType>TECH_CALENDAR</TechType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_CALENDAR</TechType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_CALENDAR</TechType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_COPPER_WORKING</TechType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_COPPER_WORKING</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ARCHERY</TechType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ARCHERY</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_NOMAD</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
 			<TechType>TECH_NOMAD</TechType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>8</Flavor>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_NOMAD</TechType>
 			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<!-- 4 -->
+		<Row>
+			<TechType>TECH_SEA_FISHING</TechType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_SEA_FISHING</TechType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_SEA_FISHING</TechType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_SEA_FISHING</TechType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_SEA_FISHING</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_SEA_FISHING</TechType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_PROTO_WRITING</TechType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_PROTO_WRITING</TechType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_WOODWORKING</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_WOODWORKING</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_STONE_PROCESSING</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_STONE_PROCESSING</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_STONE_PROCESSING</TechType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_HORSE</TechType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_HORSE</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_HORSE</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_CUNEIFORM</TechType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_BRONZE_WORKING</TechType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_BRONZE_WORKING</TechType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_BRONZE_WORKING</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_MEGALITH</TechType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_THE_WHEEL</TechType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_THE_WHEEL</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_THE_WHEEL</TechType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_THE_WHEEL</TechType>
+			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_THE_WHEEL</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_SHIPBUILDING</TechType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_SHIPBUILDING</TechType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_SHIPBUILDING</TechType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_SHIPBUILDING</TechType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_SHIPBUILDING</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_SHIPBUILDING</TechType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_PAGANISM</TechType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_CASTING_WAX_MODEL</TechType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_CASTING_WAX_MODEL</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_CASTING_WAX_MODEL</TechType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_DRY_MASONRY</TechType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_DRY_MASONRY</TechType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_DRY_MASONRY</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_HORSE_HARNESS</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_CODE_LAWS</TechType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_CODE_LAWS</TechType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ARMOUR</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ARMOUR</TechType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ARMOUR</TechType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_IRRIGATION</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_IRRIGATION</TechType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_SPOKE_RIM</TechType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_SPOKE_RIM</TechType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_SPOKE_RIM</TechType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>4</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_SAILING</TechType>
@@ -2331,36 +2675,6 @@
 			<Flavor>3</Flavor>
 		</Row>
 		<Row>
-			<TechType>TECH_CALENDAR</TechType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>4</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_CALENDAR</TechType>
-			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_CALENDAR</TechType>
-			<FlavorType>FLAVOR_WONDER</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_CALENDAR</TechType>
-			<FlavorType>FLAVOR_RELIGION</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_CALENDAR</TechType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>6</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_CALENDAR</TechType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
 			<TechType>TECH_WRITING</TechType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>6</Flavor>
@@ -2381,44 +2695,19 @@
 			<Flavor>4</Flavor>
 		</Row>
 		<Row>
-			<TechType>TECH_TRAPPING</TechType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>8</Flavor>
+			<TechType>TECH_IRON_WORKING</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>12</Flavor>
 		</Row>
 		<Row>
-			<TechType>TECH_TRAPPING</TechType>
-			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_TRAPPING</TechType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>3</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_THE_WHEEL</TechType>
-			<FlavorType>FLAVOR_MOBILE</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_THE_WHEEL</TechType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_THE_WHEEL</TechType>
-			<FlavorType>FLAVOR_RANGED</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_THE_WHEEL</TechType>
-			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
-			<Flavor>4</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_THE_WHEEL</TechType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<TechType>TECH_IRON_WORKING</TechType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_IRON_WORKING</TechType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>3</Flavor>
 		</Row>
 		<Row>
 			<TechType>TECH_MASONRY</TechType>
@@ -2441,15 +2730,71 @@
 			<Flavor>4</Flavor>
 		</Row>
 		<Row>
-			<TechType>TECH_BRONZE_WORKING</TechType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>8</Flavor>
+			<TechType>TECH_HORSEBACK_RIDING</TechType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
-			<TechType>TECH_BRONZE_WORKING</TechType>
-			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<TechType>TECH_HORSEBACK_RIDING</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
+		<Row>
+			<TechType>TECH_HORSEBACK_RIDING</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		
+		
+		
+		<!-- TECH_AGRICULTURE 		Каменные орудия -->
+		<!-- TECH_STONE_IMPLEMENTS 	Земледение -->
+		<!-- TECH_FOREST_CUTTING 	Вырубка леса -->
+		<!-- TECH_MINING 			Добыча руды -->
+		<!-- TECH_TRAPPING 			Охота -->
+		<!-- TECH_FISHING 			Рыболовные сети -->
+		<!-- TECH_POTTERY 			Гончарное дело -->
+		<!-- TECH_CHARRING 			Углежжение -->
+		<!-- TECH_ANIMAL_HUSBANDRY 	Животноводство -->
+		<!-- TECH_CALENDAR 			Календарь -->
+		<!-- TECH_COPPER_WORKING 	Обработка меди -->
+		<!-- TECH_ARCHERY 			Стрельба из лука -->
+		<!-- TECH_NOMAD 			Кочевничество -->
+		<!-- TECH_SEA_FISHING 		Морское рыболовство -->
+		<!-- TECH_PROTO_WRITING 	Протописьменность -->
+		<!-- TECH_WOODWORKING		Деревообработка -->
+		<!-- TECH_STONE_PROCESSING	Обработка камня -->
+		<!-- TECH_HORSE				Одомашнивание лошади -->
+		<!-- TECH_CUNEIFORM			Клинопись -->
+		<!-- TECH_BRONZE_WORKING	Обработка бронзы -->
+		<!-- TECH_MEGALITH			Мегалит -->
+		<!-- TECH_THE_WHEEL			Колесо -->
+		<!-- TECH_SHIPBUILDING		Кораблестроение -->
+		<!-- TECH_PAGANISM 			Язычество -->
+		<!-- TECH_CASTING_WAX_MODEL Литье по восковой модели -->
+		<!-- TECH_DRY_MASONRY  		Сухая кладка-->
+		<!-- TECH_HORSE_HARNESS 	Конская упряжь -->
+		<!-- TECH_CODE_LAWS 		Право и закон -->
+		<!-- TECH_ARMOUR 			Бронзовые доспехи -->
+		<!-- TECH_IRRIGATION 		Ирригация -->
+		<!-- TECH_SPOKE_RIM 		Обод и спицы -->
+		<!-- TECH_SAILING 			Мореходство -->
+		<!-- TECH_WRITING 			Финикийское письмо -->
+		<!-- TECH_IRON_WORKING 		Сыродутный процесс -->
+		<!-- TECH_MASONRY 			Каменная кладка -->
+		<!-- TECH_HORSEBACK_RIDING 	Верховая езда -->
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		<Row>
 			<TechType>TECH_OPTICS</TechType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
@@ -2475,21 +2820,7 @@
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
-		<Row>
-			<TechType>TECH_HORSEBACK_RIDING</TechType>
-			<FlavorType>FLAVOR_MOBILE</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_HORSEBACK_RIDING</TechType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_HORSEBACK_RIDING</TechType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>3</Flavor>
-		</Row>
+		
 		<Row>
 			<TechType>TECH_CERAMIC_BRICK</TechType>
 			<FlavorType>FLAVOR_RANGED</FlavorType>
@@ -2575,21 +2906,7 @@
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
-		<Row>
-			<TechType>TECH_IRON_WORKING</TechType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>12</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_IRON_WORKING</TechType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>6</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_IRON_WORKING</TechType>
-			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
-			<Flavor>3</Flavor>
-		</Row>
+		
 		<Row>
 			<TechType>TECH_THEOLOGY</TechType>
 			<FlavorType>FLAVOR_RELIGION</FlavorType>
@@ -3673,12 +3990,12 @@
 
 		<!-- Бронзовый век [2] row 7 -->
 		<Row>
-			<TechType>TECH_SAILING</TechType>
-			<PrereqTech>TECH_SHIPBUILDING</PrereqTech>
+			<TechType>TECH_CODE_LAWS</TechType>
+			<PrereqTech>TECH_PAGANISM</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_WRITING</TechType>
-			<PrereqTech>TECH_PAGANISM</PrereqTech>
+			<TechType>TECH_CODE_LAWS</TechType>
+			<PrereqTech>TECH_CASTING_WAX_MODEL</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_ARMOUR</TechType>
@@ -3699,8 +4016,16 @@
 
 		<!-- Бронзовый век [3] row 8 -->
 		<Row>
-			<TechType>TECH_CODE_LAWS</TechType>
-			<PrereqTech>TECH_WRITING</PrereqTech>
+			<TechType>TECH_SAILING</TechType>
+			<PrereqTech>TECH_SHIPBUILDING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_SAILING</TechType>
+			<PrereqTech>TECH_CODE_LAWS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_WRITING</TechType>
+			<PrereqTech>TECH_CODE_LAWS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_IRON_WORKING</TechType>
@@ -3722,11 +4047,11 @@
 		</Row>
 		<Row>
 			<TechType>TECH_CLERGY</TechType>
-			<PrereqTech>TECH_CODE_LAWS</PrereqTech>
+			<PrereqTech>TECH_WRITING</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_MATHEMATICS</TechType>
-			<PrereqTech>TECH_CODE_LAWS</PrereqTech>
+			<PrereqTech>TECH_WRITING</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_TWO_HANDED_SAW</TechType>

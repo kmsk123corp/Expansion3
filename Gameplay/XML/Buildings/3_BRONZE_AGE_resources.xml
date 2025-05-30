@@ -112,6 +112,18 @@
 			<Cost>20</Cost>
 		</Row>
         
+        <!-- Выгребная яма -->
+        <Row>
+			<BuildingType>BUILDING_CESSPOOL</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CESSPOOL</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+        
         <!-- Каменный карьер -->
         <Row>
 			<BuildingType>BUILDING_STONEQUARRY</BuildingType>

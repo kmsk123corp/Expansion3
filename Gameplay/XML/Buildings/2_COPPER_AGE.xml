@@ -271,10 +271,27 @@
 			<PortraitIndex>36</PortraitIndex>
 		</Row>
 
-
+        <!-- ################ -->
+        <!-- Обработка бронзы -->
+        <!-- ################ -->
         
-
-        
+        <!-- Медный рудник -->
+        <Row>
+			<Type>BUILDING_COPPER_MINE</Type>
+			<BuildingClass>BUILDINGCLASS_COPPER_MINE</BuildingClass>
+			<Cost>90</Cost>
+            <GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Description>TXT_KEY_BUILDING_COPPER_MINE</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_COPPER_MINE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_COPPER_MINE_STRATEGY</Strategy>
+            <Help>TXT_KEY_BUILDING_COPPER_MINE_HELP</Help>
+			<ConquestProb>66</ConquestProb>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>Building_IconAtlas</IconAtlas>
+			<PortraitIndex>9</PortraitIndex>
+		</Row>
 
         <!-- ####### -->
         <!-- Мегалит -->
@@ -370,11 +387,10 @@
     <Building_YieldChanges>
 
         <Row>
-			<BuildingType>BUILDING_MELTINGFURNACE</BuildingType>
+			<BuildingType>BUILDING_COPPER_MINE</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
-
         <Row>
 			<BuildingType>BUILDING_YUKOLA</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
@@ -463,6 +479,12 @@
 			<Yield>2</Yield>
 		</Row>
 
+        <Row>
+			<BuildingType>BUILDING_COPPER_MINE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        
     </Building_YieldChanges>
 
     <!-- Проценты к производству -->
@@ -486,7 +508,6 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
-
         <Row>
 			<BuildingType>BUILDING_YUKOLA</BuildingType>
 			<ResourceType>RESOURCE_DEER</ResourceType>
@@ -627,9 +648,12 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
-
-        
-
+        <Row>
+            <BuildingType>BUILDING_COPPER_MINE</BuildingType>
+            <ResourceType>RESOURCE_COPPER</ResourceType>
+            <YieldType>YIELD_PRODUCTION</YieldType>
+            <Yield>1</Yield>
+        </Row>
         <Row>
 			<BuildingType>BUILDING_MILL</BuildingType>
 			<ResourceType>RESOURCE_WHEAT</ResourceType>
@@ -685,6 +709,12 @@
 			<BuildingType>BUILDING_CIRCUS</BuildingType>
 			<ResourceType>RESOURCE_FUR</ResourceType>
 		</Row>
+        <Row>
+			<BuildingType>BUILDING_COPPER_MINE</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+		</Row>
+        
+        
 
     </Building_LocalResourceOrs>
 
@@ -721,7 +751,12 @@
 
     <!-- Для постройки нужно здание -->
     <Building_ClassesNeededInCity>
-
+        
+        <Row>
+			<BuildingType>BUILDING_COPPER_MINE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MELTINGFURNACE</BuildingClassType>
+		</Row>
+        
     </Building_ClassesNeededInCity>
 
     <!-- Для ботов похоже... -->
@@ -1006,6 +1041,16 @@
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
+        <Row>
+			<BuildingType>BUILDING_COPPER_MINE</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+        <Row>
+            <BuildingType>BUILDING_COPPER_MINE</BuildingType>
+            <FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+            <Flavor>20</Flavor>
+        </Row>
         <Row>
 			<BuildingType>BUILDING_DOLMEN</BuildingType>
 			<FlavorType>FLAVOR_RELIGION</FlavorType>

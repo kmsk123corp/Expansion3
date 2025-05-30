@@ -27,6 +27,26 @@
 
 
 		<Row>
+			<Type>BUILDINGCLASS_LAWS_HAMMURABI</Type>
+			<DefaultBuilding>BUILDING_LAWS_HAMMURABI</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_LAWS_HAMMURABI</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_CESSPOOL</Type>
+			<DefaultBuilding>BUILDING_CESSPOOL</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_CESSPOOL</Description>
+		</Row>
+
+
+		<Row>
+			<Type>BUILDINGCLASS_COPPER_MINE</Type>
+			<DefaultBuilding>BUILDING_COPPER_MINE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_COPPER_MINE</Description>
+		</Row>
+
+
+		<Row>
 			<Type>BUILDINGCLASS_POTTERY_WORKSHOP</Type>
 			<DefaultBuilding>BUILDING_POTTERY_WORKSHOP</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_POTTERY_WORKSHOP</Description>

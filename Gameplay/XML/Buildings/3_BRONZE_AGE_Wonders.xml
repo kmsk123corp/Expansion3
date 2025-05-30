@@ -4,12 +4,39 @@
 
     <Buildings>
 
+        <!-- Законы Хаммурапи -->
+        <Row>
+			<Type>BUILDING_LAWS_HAMMURABI</Type>
+			<BuildingClass>BUILDINGCLASS_LAWS_HAMMURABI</BuildingClass>
+			<Cost>250</Cost>
+			<PrereqTech>TECH_CODE_LAWS</PrereqTech>
+			<Description>TXT_KEY_BUILDINGS_LAWS_HAMMURABI</Description>
+			<Civilopedia>TXT_KEY_BUILDINGS_LAWS_HAMMURABI_TEXT</Civilopedia>
+            <Help>TXT_KEY_BUILDING_LAWS_HAMMURABI_HELP</Help>
+			<MaxStartEra>ERA_CLASSICAL</MaxStartEra>
+            <SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+            <FreePolicies>1</FreePolicies>
+			<ConquestProb>100</ConquestProb>
+            <IconAtlas>Building_IconAtlas</IconAtlas>
+			<PortraitIndex>38</PortraitIndex>
+		</Row>
+        
     </Buildings>
 
 
     <!-- Производит -->
     <Building_YieldChanges>
-
+        
+        <Row>
+			<BuildingType>BUILDING_LAWS_HAMMURABI</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+        
     </Building_YieldChanges>
 
 
@@ -81,7 +108,23 @@
 
     <!-- Для ботов похоже... -->
     <Building_Flavors>
-
+        
+        <Row>
+			<BuildingType>BUILDING_LAWS_HAMMURABI</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LAWS_HAMMURABI</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LAWS_HAMMURABI</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+        
     </Building_Flavors>
 
 
