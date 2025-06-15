@@ -700,7 +700,7 @@
 		<!-- Право и закон -->
 		<Row>
 			<Type>TECH_CODE_LAWS</Type>
-			<Cost>194</Cost>
+			<Cost>130</Cost>
 			<Description>TXT_KEY_TECH_CODE_LAWS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_CODE_LAWS_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_CODE_LAWS_HELP</Help>
@@ -763,13 +763,13 @@
 		</Row>
 
 <!-- ################### -->
-<!--       GridX 7       -->
+<!--       GridX 8       -->
 <!-- ################### -->
 
 		<!-- Мореходство -->
 		<Row>
 			<Type>TECH_SAILING</Type>
-			<Cost>130</Cost>
+			<Cost>194</Cost>
 			<Description>TXT_KEY_TECH_SAILING_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_SAILING_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_SAILING_HELP</Help>
@@ -789,7 +789,7 @@
 		<!-- Финикийское письмо -->
 		<Row>
 			<Type>TECH_WRITING</Type>
-			<Cost>130</Cost>
+			<Cost>194</Cost>
 			<Description>TXT_KEY_TECH_FINIC_WRITING</Description>
 			<Civilopedia>TXT_KEY_TECH_WRITING_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_WRITING_HELP</Help>
@@ -805,7 +805,7 @@
 			<AudioIntroHeader>AS2D_HEADING_TECH_WRITING</AudioIntroHeader>
 		</Row>
 
-		<!-- Обработка железа -->
+		<!-- Сыродутный процесс -->
 		<Row>
 			<Type>TECH_IRON_WORKING</Type>
 			<Cost>194</Cost>
@@ -863,9 +863,26 @@
 <!-- ####################################################################### -->
 <!-- 				   		     Железный век				  			     -->
 <!-- ####################################################################### -->
-<!-- ################### -->
-<!--       GridX 8       -->
-<!-- ################### -->
+
+		<!-- ################### -->
+		<!--       GridX 9       -->
+		<!-- ################### -->
+
+		<!-- Навигация по звездам -->
+		<Row>
+			<Type>TECH_NAVIGATING_STARS</Type>
+			<Cost>259</Cost>
+			<Description>Навигация по звездам</Description>
+			<Civilopedia>TXT_KEY_TECH_NAVIGATING_STARS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_NAVIGATING_STARS_HELP</Help>
+			<Era>ERA_ANCIENT</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>9</GridX>
+			<GridY>0</GridY>
+			<IconAtlas>Technologies_IconAtlas</IconAtlas>
+			<PortraitIndex>34</PortraitIndex>
+		</Row>
 
 		<!-- Духовенство -->
 		<Row>
@@ -878,230 +895,266 @@
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>9</GridX>
-			<GridY>1</GridY>
+			<GridY>2</GridY>
 			<PortraitIndex>26</PortraitIndex>
 			<IconAtlas>Technologies_IconAtlas</IconAtlas>
 		</Row>
-
-		<!-- Математика -->
+		
+		<!-- Кузнечное дело -->
 		<Row>
-			<Type>TECH_MATHEMATICS</Type>
+			<Type>TECH_BLACKSMITHING</Type>
 			<Cost>259</Cost>
-			<Description>TXT_KEY_TECH_MATHEMATICS_TITLE</Description>
+			<Description>Кузнечное дело</Description>
 			<Civilopedia>TXT_KEY_TECH_MATHEMATICS_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_MATHEMATICS_HELP</Help>
 			<Era>ERA_ANCIENT</Era>
 			<Trade>true</Trade>
 			<GridX>9</GridX>
-			<GridY>3</GridY>
+			<GridY>4</GridY>
+			<Quote>TXT_KEY_TECH_CERAMIC_BRICK_QUOTE</Quote>
+			<AudioIntro>AS2D_TECH_MATHEMATICS_BRICK</AudioIntro>
+			<AudioIntroHeader>AS2D_HEADING_TECH_MATHEMATICS_BRICK</AudioIntroHeader>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<PortraitIndex>10</PortraitIndex>
+		</Row>
+		
+		<!-- Канализация и дренаж -->
+		<Row>
+			<Type>TECH_SEWAGE_SYSTEM</Type>
+			<Cost>259</Cost>
+			<Description>Канализация и дренаж</Description>
+			<Civilopedia>TXT_KEY_TECH_SEWAGE_SYSTEM_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_SEWAGE_SYSTEM_HELP</Help>
+			<Era>ERA_ANCIENT</Era>
+			<Trade>true</Trade>
+			<GridX>9</GridX>
+			<GridY>5</GridY>
+			<IconAtlas>Technologies_IconAtlas</IconAtlas>
+			<PortraitIndex>43</PortraitIndex>
+		</Row>
+		
+		<!-- ################### -->
+		<!--       GridX 10       -->
+		<!-- ################### -->
+
+		<!-- Математика -->
+		<Row>
+			<Type>TECH_MATHEMATICS</Type>
+			<Cost>324</Cost>
+			<Description>TXT_KEY_TECH_MATHEMATICS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_MATHEMATICS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_MATHEMATICS_HELP</Help>
+			<Era>ERA_ANCIENT</Era>
+			<Trade>true</Trade>
+			<GridX>10</GridX>
+			<GridY>2</GridY>
 			<Quote>TXT_KEY_TECH_CERAMIC_BRICK_QUOTE</Quote>
 			<PortraitIndex>12</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 			<AudioIntro>AS2D_TECH_MATHEMATICS_BRICK</AudioIntro>
 			<AudioIntroHeader>AS2D_HEADING_TECH_MATHEMATICS_BRICK</AudioIntroHeader>
 		</Row>
-
+		
 		<!-- Двуручная пила -->
 		<Row>
 			<Type>TECH_TWO_HANDED_SAW</Type>
-			<Cost>259</Cost>
+			<Cost>324</Cost>
 			<Description>TXT_KEY_TECH_TWO_HANDED_SAW_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_TWO_HANDED_SAW_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_TWO_HANDED_SAW_HELP</Help>
 			<Era>ERA_ANCIENT</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
-			<GridX>9</GridX>
-			<GridY>5</GridY>
+			<GridX>10</GridX>
+			<GridY>4</GridY>
 			<IconAtlas>Technologies_IconAtlas</IconAtlas>
 			<PortraitIndex>25</PortraitIndex>
 		</Row>
+		
+		<!-- Известковый раствор -->
+		<Row>
+			<Type>TECH_LIME_MORTAR</Type>
+			<Cost>324</Cost>
+			<Description>Известковый раствор</Description>
+			<Civilopedia>TXT_KEY_TECH_LIME_MORTAR_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_LIME_MORTAR_HELP</Help>
+			<Era>ERA_ANCIENT</Era>
+			<Trade>true</Trade>
+			<GridX>10</GridX>
+			<GridY>5</GridY>
+			<IconAtlas>Technologies_IconAtlas</IconAtlas>
+			<PortraitIndex>44</PortraitIndex>
+		</Row>
+		
+		<!-- Композитный лук -->
+		<Row>
+			<Type>TECH_COMPOSITE_BOW</Type>
+			<Cost>324</Cost>
+			<Description>TXT_KEY_TECH_COMPOSITE_BOW_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_COMPOSITE_BOW_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_COMPOSITE_BOW_HELP</Help>
+			<Era>ERA_ANCIENT</Era>
+			<Trade>true</Trade>
+			<GridX>10</GridX>
+			<GridY>7</GridY>
+			<PortraitIndex>30</PortraitIndex>
+			<IconAtlas>Technologies_IconAtlas</IconAtlas>
+		</Row>
 
-<!-- ################### -->
-<!--       GridX 9       -->
-<!-- ################### -->
+		<!-- ################### -->
+		<!--       GridX 11      -->
+		<!-- ################### -->
 
-	<!-- Оптика -->
-	<Row>
-		<Type>TECH_OPTICS</Type>
-		<Cost>388</Cost>
-		<Description>TXT_KEY_TECH_OPTICS_TITLE</Description>
-		<Civilopedia>TXT_KEY_TECH_OPTICS_DESC</Civilopedia>
-		<Help>TXT_KEY_TECH_OPTICS_HELP</Help>
-		<Era>ERA_ANCIENT</Era>
-		<Trade>true</Trade>
-		<GridX>10</GridX>
-		<GridY>0</GridY>
-		<Quote>TXT_KEY_TECH_OPTICS_QUOTE</Quote>
-		<PortraitIndex>18</PortraitIndex>
-		<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		<AudioIntro>AS2D_TECH_OPTICS</AudioIntro>
-		<AudioIntroHeader>AS2D_HEADING_TECH_OPTICS</AudioIntroHeader>
-	</Row>
+		<!-- Оптика -->
+		<Row>
+			<Type>TECH_OPTICS</Type>
+			<Cost>388</Cost>
+			<Description>TXT_KEY_TECH_OPTICS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_OPTICS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_OPTICS_HELP</Help>
+			<Era>ERA_ANCIENT</Era>
+			<Trade>true</Trade>
+			<GridX>11</GridX>
+			<GridY>0</GridY>
+			<Quote>TXT_KEY_TECH_OPTICS_QUOTE</Quote>
+			<PortraitIndex>18</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<AudioIntro>AS2D_TECH_OPTICS</AudioIntro>
+			<AudioIntroHeader>AS2D_HEADING_TECH_OPTICS</AudioIntroHeader>
+		</Row>
+		
+		<!-- Папирус -->
+		<Row>
+			<Type>TECH_ALPHABET</Type>
+			<Cost>388</Cost>
+			<Description>TXT_KEY_TECH_ALPHABET_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_ALPHABET_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_ALPHABET_HELP</Help>
+			<Era>ERA_ANCIENT</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>11</GridX>
+			<GridY>2</GridY>
+			<Quote>TXT_KEY_TECH_WRITING_QUOTE</Quote>
+			<PortraitIndex>46</PortraitIndex>
+			<IconAtlas>Technologies_IconAtlas</IconAtlas>
+			<AudioIntro>AS2D_TECH_WRITING</AudioIntro>
+			<AudioIntroHeader>AS2D_HEADING_TECH_WRITING</AudioIntroHeader>
+		</Row>
 
-	<!-- Папирус -->
-	<Row>
-		<Type>TECH_ALPHABET</Type>
-		<Cost>388</Cost>
-		<Description>TXT_KEY_TECH_ALPHABET_TITLE</Description>
-		<Civilopedia>TXT_KEY_TECH_ALPHABET_DESC</Civilopedia>
-		<Help>TXT_KEY_TECH_ALPHABET_HELP</Help>
-		<Era>ERA_ANCIENT</Era>
-		<Trade>true</Trade>
-		<GoodyTech>true</GoodyTech>
-		<GridX>10</GridX>
-		<GridY>2</GridY>
-		<Quote>TXT_KEY_TECH_WRITING_QUOTE</Quote>
-		<PortraitIndex>46</PortraitIndex>
-		<IconAtlas>Technologies_IconAtlas</IconAtlas>
-		<AudioIntro>AS2D_TECH_WRITING</AudioIntro>
-		<AudioIntroHeader>AS2D_HEADING_TECH_WRITING</AudioIntroHeader>
-	</Row>
+		<!-- Монетное дело -->
+		<Row>
+			<Type>TECH_CURRENCY</Type>
+			<Cost>388</Cost>
+			<Description>Монетное дело</Description>
+			<Civilopedia>TXT_KEY_TECH_CURRENCY_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_CURRENCY_HELP</Help>
+			<Era>ERA_ANCIENT</Era>
+			<Trade>true</Trade>
+			<GridX>11</GridX>
+			<GridY>4</GridY>
+			<Quote>TXT_KEY_TECH_CURRENCY_QUOTE</Quote>
+			<PortraitIndex>17</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<AudioIntro>AS2D_TECH_CURRENCY</AudioIntro>
+			<AudioIntroHeader>AS2D_HEADING_TECH_CURRENCY</AudioIntroHeader>
+		</Row>
 
-	<!-- Деньги -->
-	<Row>
-		<Type>TECH_CURRENCY</Type>
-		<Cost>388</Cost>
-		<Description>TXT_KEY_TECH_CURRENCY_TITLE</Description>
-		<Civilopedia>TXT_KEY_TECH_CURRENCY_DESC</Civilopedia>
-		<Help>TXT_KEY_TECH_CURRENCY_HELP</Help>
-		<Era>ERA_ANCIENT</Era>
-		<Trade>true</Trade>
-		<GridX>10</GridX>
-		<GridY>3</GridY>
-		<Quote>TXT_KEY_TECH_CURRENCY_QUOTE</Quote>
-		<PortraitIndex>17</PortraitIndex>
-		<IconAtlas>TECH_ATLAS_1</IconAtlas>
-		<AudioIntro>AS2D_TECH_CURRENCY</AudioIntro>
-		<AudioIntroHeader>AS2D_HEADING_TECH_CURRENCY</AudioIntroHeader>
-	</Row>
-
-	<!-- Сварное оружие -->
-	<Row>
-		<Type>TECH_WELDED_WEAPONS</Type>
-		<Cost>388</Cost>
-		<Description>TXT_KEY_TECH_WELDED_WEAPONS_TITLE</Description>
-		<Civilopedia>TXT_KEY_TECH_WELDED_WEAPONS_DESC</Civilopedia>
-		<Help>TXT_KEY_TECH_WELDED_WEAPONS_HELP</Help>
-		<Era>ERA_ANCIENT</Era>
-		<Trade>true</Trade>
-		<GridX>10</GridX>
-		<GridY>4</GridY>
-		<PortraitIndex>28</PortraitIndex>
-		<IconAtlas>TECH_ATLAS_1</IconAtlas>
-	</Row>
-
-	<!-- Инженерное дело -->
-	<Row>
-		<Type>TECH_ENGINEERING</Type>
-		<Cost>388</Cost>
-		<Description>TXT_KEY_TECH_ENGINEERING_TITLE</Description>
-		<Civilopedia>TXT_KEY_TECH_ENGINEERING_DESC</Civilopedia>
-		<Help>TXT_KEY_TECH_ENGINEERING_HELP</Help>
-		<Era>ERA_ANCIENT</Era>
-		<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange>
-		<Trade>true</Trade>
-		<GridX>10</GridX>
-		<GridY>5</GridY>
-		<BridgeBuilding>true</BridgeBuilding>
-		<Quote>TXT_KEY_TECH_ENGINEERING_QUOTE</Quote>
-		<IconAtlas>Technologies_IconAtlas</IconAtlas>
-		<PortraitIndex>50</PortraitIndex>
-		<AudioIntro>AS2D_TECH_ENGINEERING</AudioIntro>
-		<AudioIntroHeader>AS2D_HEADING_TECH_ENGINEERING</AudioIntroHeader>
-	</Row>
-
-	<!-- Композитный лук -->
-	<Row>
-		<Type>TECH_COMPOSITE_BOW</Type>
-		<Cost>388</Cost>
-		<Description>TXT_KEY_TECH_COMPOSITE_BOW_TITLE</Description>
-		<Civilopedia>TXT_KEY_TECH_COMPOSITE_BOW_DESC</Civilopedia>
-		<Help>TXT_KEY_TECH_COMPOSITE_BOW_HELP</Help>
-		<Era>ERA_ANCIENT</Era>
-		<Trade>true</Trade>
-		<GridX>10</GridX>
-		<GridY>7</GridY>
-		<PortraitIndex>30</PortraitIndex>
-		<IconAtlas>Technologies_IconAtlas</IconAtlas>
-	</Row>
-
-<!-- ################### -->
-<!--       GridX 10       -->
-<!-- ################### -->
-
-	<!-- Ламинарный доспех -->
-	<Row>
-		<Type>TECH_LAMINAR_ARMOR</Type>
-		<Cost>1000</Cost>
-		<Description>TXT_KEY_TECH_LAMINAR_ARMOR_TITLE</Description>
-		<Civilopedia>TXT_KEY_TECH_LAMINAR_ARMOR_DESC</Civilopedia>
-		<Help>TXT_KEY_TECH_LAMINAR_ARMOR_HELP</Help>
-		<Era>ERA_CLASSICAL</Era>
-		<Trade>true</Trade>
-		<GoodyTech>true</GoodyTech>
-		<GridX>11</GridX>
-		<GridY>4</GridY>
-		<IconAtlas>Technologies_IconAtlas</IconAtlas>
-		<PortraitIndex>51</PortraitIndex>
-	</Row>
-	<!-- Садоводство -->
-	<Row>
-		<Type>TECH_GARDENING</Type>
-		<Cost>1000</Cost>
-		<Description>TXT_KEY_TECH_GARDENING_TITLE</Description>
-		<Civilopedia>TXT_KEY_TECH_GARDENING_DESC</Civilopedia>
-		<Help>TXT_KEY_TECH_GARDENING_HELP</Help>
-		<Era>ERA_ANCIENT</Era>
-		<Trade>true</Trade>
-		<GoodyTech>true</GoodyTech>
-		<GridX>11</GridX>
-		<GridY>5</GridY>
-		<PortraitIndex>45</PortraitIndex>
-		<IconAtlas>Technologies_IconAtlas</IconAtlas>
-	</Row>
-
+		<!-- Керамический кирпич -->
+		<Row>
+			<Type>TECH_CERAMIC_BRICK</Type>
+			<Cost>388</Cost>
+			<Description>Керамический кирпич</Description>
+			<Civilopedia>TXT_KEY_TECH_CERAMIC_BRICK_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_CERAMIC_BRICK_HELP</Help>
+			<Era>ERA_ANCIENT</Era>
+			<Trade>true</Trade>
+			<GridX>11</GridX>
+			<GridY>5</GridY>
+			<Quote>TXT_KEY_TECH_CERAMIC_BRICK_QUOTE</Quote>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+		
+		
+		
 <!-- ####################################################################### -->
 <!-- 				   		  Поздняя Античность				  			 -->
 <!-- ####################################################################### -->
-<!-- ################### -->
-<!--       GridX 11      -->
-<!-- ################### -->
 
-		<!-- Философия -->
+		<!-- ################### -->
+		<!--       GridX 12      -->
+		<!-- ################### -->
+		
+		<!-- Литература -->
 		<Row>
-			<Type>TECH_PHILOSOPHY</Type>
-			<Cost>675</Cost>
-			<Description>TXT_KEY_TECH_PHILOSOPHY_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_PHILOSOPHY_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_PHILOSOPHY_HELP</Help>
+			<Type>TECH_LITERATURE</Type>
+			<Cost>1000</Cost>
+			<Description>TXT_KEY_TECH_LITERATURE_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_LITERATURE_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_LITERATURE_HELP</Help>
 			<Era>ERA_CLASSICAL</Era>
 			<Trade>true</Trade>
 			<GridX>12</GridX>
 			<GridY>2</GridY>
-			<Quote>TXT_KEY_TECH_PHILOSOPHY_QUOTE</Quote>
-			<PortraitIndex>16</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-			<AudioIntro>AS2D_TECH_PHILOSOPHY</AudioIntro>
-			<AudioIntroHeader>AS2D_HEADING_TECH_PHILOSOPHY</AudioIntroHeader>
+			<PortraitIndex>39</PortraitIndex>
+			<IconAtlas>Technologies_IconAtlas</IconAtlas>
 		</Row>
-
-		<!-- Гос. служба -->
+		
+		<!-- Инженерное дело -->
 		<Row>
-			<Type>TECH_CIVIL_SERVICE</Type>
-			<Cost>675</Cost>
-			<Description>TXT_KEY_TECH_CIVIL_SERVICE_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_CIVIL_SERVICE_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_CIVIL_SERVICE_HELP</Help>
+			<Type>TECH_ENGINEERING</Type>
+			<Cost>388</Cost>
+			<Description>TXT_KEY_TECH_ENGINEERING_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_ENGINEERING_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_ENGINEERING_HELP</Help>
 			<Era>ERA_CLASSICAL</Era>
+			<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange>
 			<Trade>true</Trade>
 			<GridX>12</GridX>
 			<GridY>4</GridY>
-			<Quote>TXT_KEY_TECH_CIVIL_SERVICE_QUOTE</Quote>
-			<PortraitIndex>22</PortraitIndex>
+			<BridgeBuilding>true</BridgeBuilding>
+			<Quote>TXT_KEY_TECH_ENGINEERING_QUOTE</Quote>
+			<IconAtlas>Technologies_IconAtlas</IconAtlas>
+			<PortraitIndex>50</PortraitIndex>
+			<AudioIntro>AS2D_TECH_ENGINEERING</AudioIntro>
+			<AudioIntroHeader>AS2D_HEADING_TECH_ENGINEERING</AudioIntroHeader>
+		</Row>
+		
+		
+		
+		
+		
+		
+		<!-- Садоводство -->
+		<Row>
+			<Type>TECH_GARDENING</Type>
+			<Cost>1000</Cost>
+			<Description>TXT_KEY_TECH_GARDENING_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_GARDENING_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_GARDENING_HELP</Help>
+			<Era>ERA_CLASSICAL</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>12</GridX>
+			<GridY>5</GridY>
+			<PortraitIndex>45</PortraitIndex>
+			<IconAtlas>Technologies_IconAtlas</IconAtlas>
+		</Row>
+		
+		<!-- Сварное оружие -->
+		<Row>
+			<Type>TECH_WELDED_WEAPONS</Type>
+			<Cost>388</Cost>
+			<Description>TXT_KEY_TECH_WELDED_WEAPONS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_WELDED_WEAPONS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_WELDED_WEAPONS_HELP</Help>
+			<Era>ERA_CLASSICAL</Era>
+			<Trade>true</Trade>
+			<GridX>12</GridX>
+			<GridY>6</GridY>
+			<PortraitIndex>28</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-			<AudioIntro>AS2D_TECH_CIVIL_SERVICE</AudioIntro>
-			<AudioIntroHeader>AS2D_HEADING_TECH_CIVIL_SERVICE</AudioIntroHeader>
 		</Row>
 
 		<!-- Метательные машины -->
@@ -1119,9 +1172,9 @@
 			<PortraitIndex>21</PortraitIndex>
 		</Row>
 
-<!-- ################### -->
-<!--       GridX 12      -->
-<!-- ################### -->
+		<!-- ################### -->
+		<!--       GridX 13      -->
+		<!-- ################### -->
 
 		<!-- Мифология -->
 		<Row>
@@ -1139,71 +1192,49 @@
 			<IconAtlas>Technologies_IconAtlas</IconAtlas>
 		</Row>
 
-		<!-- Литература -->
+		<!-- Философия -->
 		<Row>
-			<Type>TECH_LITERATURE</Type>
-			<Cost>1000</Cost>
-			<Description>TXT_KEY_TECH_LITERATURE_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_LITERATURE_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_LITERATURE_HELP</Help>
+			<Type>TECH_PHILOSOPHY</Type>
+			<Cost>675</Cost>
+			<Description>TXT_KEY_TECH_PHILOSOPHY_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_PHILOSOPHY_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_PHILOSOPHY_HELP</Help>
 			<Era>ERA_CLASSICAL</Era>
 			<Trade>true</Trade>
 			<GridX>13</GridX>
 			<GridY>2</GridY>
-			<PortraitIndex>39</PortraitIndex>
-			<IconAtlas>Technologies_IconAtlas</IconAtlas>
-		</Row>
-
-		<!-- Водяное колесо -->
-		<Row>
-			<Type>TECH_WATER_WHEEL</Type>
-			<Cost>1000</Cost>
-			<Description>TXT_KEY_TECH_WATER_WHEEL_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_WATER_WHEEL_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_WATER_WHEEL_HELP</Help>
-			<Era>ERA_CLASSICAL</Era>
-			<Trade>true</Trade>
-			<GridX>13</GridX>
-			<GridY>4</GridY>
-			<IconAtlas>BW_ATLAS_1</IconAtlas>
-			<PortraitIndex>29</PortraitIndex>
-		</Row>
-
-		<!-- Керамический кирпич -->
-		<Row>
-			<Type>TECH_CERAMIC_BRICK</Type>
-			<Cost>675</Cost>
-			<Description>TXT_KEY_TECH_CERAMIC_BRICK_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_CERAMIC_BRICK_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_CERAMIC_BRICK_HELP</Help>
-			<Era>ERA_CLASSICAL</Era>
-			<Trade>true</Trade>
-			<GridX>13</GridX>
-			<GridY>5</GridY>
-			<Quote>TXT_KEY_TECH_CERAMIC_BRICK_QUOTE</Quote>
-			<PortraitIndex>6</PortraitIndex>
+			<Quote>TXT_KEY_TECH_PHILOSOPHY_QUOTE</Quote>
+			<PortraitIndex>16</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<AudioIntro>AS2D_TECH_PHILOSOPHY</AudioIntro>
+			<AudioIntroHeader>AS2D_HEADING_TECH_PHILOSOPHY</AudioIntroHeader>
 		</Row>
+		
 
-		<!-- Дамаская сталь -->
+		
+		
+		
+		<!-- Ламинарный доспех -->
 		<Row>
-			<Type>TECH_DAMASCUS_STEEL</Type>
+			<Type>TECH_LAMINAR_ARMOR</Type>
 			<Cost>1000</Cost>
-			<Description>TXT_KEY_TECH_DAMASCUS_STEEL_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_DAMASCUS_STEEL_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_DAMASCUS_STEEL_HELP</Help>
+			<Description>TXT_KEY_TECH_LAMINAR_ARMOR_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_LAMINAR_ARMOR_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_LAMINAR_ARMOR_HELP</Help>
 			<Era>ERA_CLASSICAL</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>13</GridX>
 			<GridY>6</GridY>
 			<IconAtlas>Technologies_IconAtlas</IconAtlas>
-			<PortraitIndex>52</PortraitIndex>
+			<PortraitIndex>51</PortraitIndex>
 		</Row>
+		
+		
 
-<!-- ################### -->
-<!--       GridX 14      -->
-<!-- ################### -->
+		<!-- ################### -->
+		<!--       GridX 14      -->
+		<!-- ################### -->
 
 		<!-- Богословие -->
 		<Row>
@@ -1241,7 +1272,22 @@
 			<AudioIntroHeader>AS2D_HEADING_TECH_DRAMA</AudioIntroHeader>
 		</Row>
 
+		<!-- Водяное колесо -->
+		<Row>
+			<Type>TECH_WATER_WHEEL</Type>
+			<Cost>1000</Cost>
+			<Description>TXT_KEY_TECH_WATER_WHEEL_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_WATER_WHEEL_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_WATER_WHEEL_HELP</Help>
+			<Era>ERA_CLASSICAL</Era>
+			<Trade>true</Trade>
+			<GridX>14</GridX>
+			<GridY>4</GridY>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>29</PortraitIndex>
+		</Row>
 
+		<!-- Металлоконструкции -->
 		<Row>
 			<Type>TECH_CONSTRUCTION</Type>
 			<Cost>15000</Cost>
@@ -1258,29 +1304,31 @@
 			<AudioIntro>AS2D_TECH_CONSTRUCTION</AudioIntro>
 			<AudioIntroHeader>AS2D_HEADING_TECH_CONSTRUCTION</AudioIntroHeader>
 		</Row>
+		
+		<!-- Дамаская сталь -->
 		<Row>
-			<Type>TECH_GUILDS</Type>
-			<Cost>15000</Cost>
-			<Description>TXT_KEY_TECH_GUILDS_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_GUILDS_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_GUILDS_HELP</Help>
-			<Era>ERA_MEDIEVAL</Era>
+			<Type>TECH_DAMASCUS_STEEL</Type>
+			<Cost>1000</Cost>
+			<Description>TXT_KEY_TECH_DAMASCUS_STEEL_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_DAMASCUS_STEEL_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_DAMASCUS_STEEL_HELP</Help>
+			<Era>ERA_CLASSICAL</Era>
 			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
 			<GridX>14</GridX>
 			<GridY>6</GridY>
-			<Quote>TXT_KEY_TECH_GUILDS_QUOTE</Quote>
-			<PortraitIndex>2</PortraitIndex>
-			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
-			<AudioIntro>AS2D_TECH_GUILDS</AudioIntro>
-			<AudioIntroHeader>AS2D_HEADING_TECH_GUILDS</AudioIntroHeader>
+			<IconAtlas>Technologies_IconAtlas</IconAtlas>
+			<PortraitIndex>52</PortraitIndex>
 		</Row>
+		
+		<!-- Литье -->
 		<Row>
 			<Type>TECH_METAL_CASTING</Type>
 			<Cost>15000</Cost>
 			<Description>TXT_KEY_TECH_METAL_CASTING_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_METAL_CASTING_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_METAL_CASTING_HELP</Help>
-			<Era>ERA_MEDIEVAL</Era>
+			<Era>ERA_CLASSICAL</Era>
 			<Trade>true</Trade>
 			<GridX>14</GridX>
 			<GridY>8</GridY>
@@ -1291,22 +1339,16 @@
 			<AudioIntroHeader>AS2D_HEADING_TECH_METAL_CASTING</AudioIntroHeader>
 		</Row>
 
+
+
+<!-- ####################################################################### -->
+<!-- 				   		  Средневековье				  			 		 -->
+<!-- ####################################################################### -->
 <!-- ################### -->
 <!--       GridX 15      -->
 <!-- ################### -->
 
-
-
-
-
-
-
-
-
-
-<!-- ################### -->
-<!--       GridX 15      -->
-<!-- ################### -->
+		<!-- Компас -->
 		<Row>
 			<Type>TECH_COMPASS</Type>
 			<Cost>15000</Cost>
@@ -1324,6 +1366,8 @@
 			<AudioIntro>AS2D_TECH_COMPASS</AudioIntro>
 			<AudioIntroHeader>AS2D_HEADING_TECH_COMPASS</AudioIntroHeader>
 		</Row>
+		
+		<!-- Образование -->
 		<Row>
 			<Type>TECH_EDUCATION</Type>
 			<Cost>15000</Cost>
@@ -1341,23 +1385,28 @@
 			<AudioIntro>AS2D_TECH_EDUCATION</AudioIntro>
 			<AudioIntroHeader>AS2D_HEADING_TECH_EDUCATION</AudioIntroHeader>
 		</Row>
+		
+		<!-- Гос. служба -->
 		<Row>
-			<Type>TECH_CHIVALRY</Type>
-			<Cost>15000</Cost>
-			<Description>TXT_KEY_TECH_CHIVALRY_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_CHIVALRY_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_CHIVALRY_HELP</Help>
+			<Type>TECH_CIVIL_SERVICE</Type>
+			<Cost>675</Cost>
+			<Description>TXT_KEY_TECH_CIVIL_SERVICE_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_CIVIL_SERVICE_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_CIVIL_SERVICE_HELP</Help>
 			<Era>ERA_MEDIEVAL</Era>
 			<Trade>true</Trade>
 			<GridX>15</GridX>
-			<GridY>5</GridY>
-			<Quote>TXT_KEY_TECH_CHIVALRY_QUOTE</Quote>
-			<DefensivePactTradingAllowed>true</DefensivePactTradingAllowed>
-			<PortraitIndex>27</PortraitIndex>
+			<GridY>4</GridY>
+			<Quote>TXT_KEY_TECH_CIVIL_SERVICE_QUOTE</Quote>
+			<PortraitIndex>22</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-			<AudioIntro>AS2D_TECH_CHIVALRY</AudioIntro>
-			<AudioIntroHeader>AS2D_HEADING_TECH_CHIVALRY</AudioIntroHeader>
+			<AudioIntro>AS2D_TECH_CIVIL_SERVICE</AudioIntro>
+			<AudioIntroHeader>AS2D_HEADING_TECH_CIVIL_SERVICE</AudioIntroHeader>
 		</Row>
+		
+		
+		
+		<!-- Машиностроение -->
 		<Row>
 			<Type>TECH_MACHINERY</Type>
 			<Cost>15000</Cost>
@@ -1374,6 +1423,50 @@
 			<AudioIntro>AS2D_TECH_MACHINERY</AudioIntro>
 			<AudioIntroHeader>AS2D_HEADING_TECH_MACHINERY</AudioIntroHeader>
 		</Row>
+		
+		
+		<!-- ################### -->
+		<!--       GridX 16      -->
+		<!-- ################### -->
+		
+		<!-- Гильдии -->
+		<Row>
+			<Type>TECH_GUILDS</Type>
+			<Cost>15000</Cost>
+			<Description>TXT_KEY_TECH_GUILDS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_GUILDS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_GUILDS_HELP</Help>
+			<Era>ERA_MEDIEVAL</Era>
+			<Trade>true</Trade>
+			<GridX>16</GridX>
+			<GridY>3</GridY>
+			<Quote>TXT_KEY_TECH_GUILDS_QUOTE</Quote>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<AudioIntro>AS2D_TECH_GUILDS</AudioIntro>
+			<AudioIntroHeader>AS2D_HEADING_TECH_GUILDS</AudioIntroHeader>
+		</Row>
+		
+		<!-- Рыцарство -->
+		<Row>
+			<Type>TECH_CHIVALRY</Type>
+			<Cost>15000</Cost>
+			<Description>TXT_KEY_TECH_CHIVALRY_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_CHIVALRY_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_CHIVALRY_HELP</Help>
+			<Era>ERA_MEDIEVAL</Era>
+			<Trade>true</Trade>
+			<GridX>16</GridX>
+			<GridY>7</GridY>
+			<Quote>TXT_KEY_TECH_CHIVALRY_QUOTE</Quote>
+			<DefensivePactTradingAllowed>true</DefensivePactTradingAllowed>
+			<PortraitIndex>27</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<AudioIntro>AS2D_TECH_CHIVALRY</AudioIntro>
+			<AudioIntroHeader>AS2D_HEADING_TECH_CHIVALRY</AudioIntroHeader>
+		</Row>
+		
+		<!-- Физика -->
 		<Row>
 			<Type>TECH_PHYSICS</Type>
 			<Cost>15000</Cost>
@@ -1382,7 +1475,7 @@
 			<Help>TXT_KEY_TECH_PHYSICS_HELP</Help>
 			<Era>ERA_MEDIEVAL</Era>
 			<Trade>true</Trade>
-			<GridX>15</GridX>
+			<GridX>16</GridX>
 			<GridY>8</GridY>
 			<Quote>TXT_KEY_TECH_PHYSICS_QUOTE</Quote>
 			<PortraitIndex>24</PortraitIndex>
@@ -1390,6 +1483,12 @@
 			<AudioIntro>AS2D_TECH_PHYSICS</AudioIntro>
 			<AudioIntroHeader>AS2D_HEADING_TECH_PHYSICS</AudioIntroHeader>
 		</Row>
+		
+		<!-- ################### -->
+		<!--       GridX 17      -->
+		<!-- ################### -->
+		
+		<!-- Сталеварение -->
 		<Row>
 			<Type>TECH_STEEL</Type>
 			<Cost>15000</Cost>
@@ -1398,7 +1497,7 @@
 			<Help>TXT_KEY_TECH_STEEL_HELP</Help>
 			<Era>ERA_MEDIEVAL</Era>
 			<Trade>true</Trade>
-			<GridX>15</GridX>
+			<GridX>17</GridX>
 			<GridY>9</GridY>
 			<Quote>TXT_KEY_TECH_STEEL_QUOTE</Quote>
 			<PortraitIndex>14</PortraitIndex>
@@ -1406,7 +1505,18 @@
 			<AudioIntro>AS2D_TECH_STEEL</AudioIntro>
 			<AudioIntroHeader>AS2D_HEADING_TECH_STEEL</AudioIntroHeader>
 		</Row>
-		<!-- COLUMN 7 -->
+		
+		
+
+
+<!-- ####################################################################### -->
+<!-- 				   		  Новое время				  			 		 -->
+<!-- ####################################################################### -->
+
+<!-- ################### -->
+<!--       GridX 18      -->
+<!-- ################### -->
+
 		<Row>
 			<Type>TECH_ASTRONOMY</Type>
 			<Cost>780</Cost>
@@ -1416,7 +1526,7 @@
 			<Era>ERA_RENAISSANCE</Era>
 			<EmbarkedAllWaterPassage>true</EmbarkedAllWaterPassage>
 			<Trade>true</Trade>
-			<GridX>16</GridX>
+			<GridX>18</GridX>
 			<GridY>1</GridY>
 			<EmbarkedMoveChange>1</EmbarkedMoveChange>
 			<Quote>TXT_KEY_TECH_ASTRONOMY_QUOTE</Quote>
@@ -1433,7 +1543,7 @@
 			<Help>TXT_KEY_TECH_ACOUSTICS_HELP</Help>
 			<Era>ERA_RENAISSANCE</Era>
 			<Trade>true</Trade>
-			<GridX>16</GridX>
+			<GridX>18</GridX>
 			<GridY>3</GridY>
 			<Quote>TXT_KEY_TECH_ACOUSTICS_QUOTE</Quote>
 			<PortraitIndex>14</PortraitIndex>
@@ -1450,7 +1560,7 @@
 			<Era>ERA_RENAISSANCE</Era>
 			<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange>
 			<Trade>true</Trade>
-			<GridX>16</GridX>
+			<GridX>18</GridX>
 			<GridY>5</GridY>
 			<Quote>TXT_KEY_TECH_BANKING_QUOTE</Quote>
 			<PortraitIndex>31</PortraitIndex>
@@ -1466,7 +1576,7 @@
 			<Help>TXT_KEY_TECH_PRINTING_PRESS_HELP</Help>
 			<Era>ERA_RENAISSANCE</Era>
 			<Trade>true</Trade>
-			<GridX>16</GridX>
+			<GridX>18</GridX>
 			<GridY>7</GridY>
 			<AllowsWorldCongress>true</AllowsWorldCongress>
 			<Quote>TXT_KEY_TECH_PRINTING_PRESS_QUOTE</Quote>
@@ -1483,7 +1593,7 @@
 			<Help>TXT_KEY_TECH_GUNPOWDER_HELP</Help>
 			<Era>ERA_RENAISSANCE</Era>
 			<Trade>true</Trade>
-			<GridX>16</GridX>
+			<GridX>18</GridX>
 			<GridY>9</GridY>
 			<Quote>TXT_KEY_TECH_GUNPOWDER_QUOTE</Quote>
 			<PortraitIndex>32</PortraitIndex>
@@ -1500,7 +1610,7 @@
 			<Help>TXT_KEY_TECH_NAVIGATION_HELP</Help>
 			<Era>ERA_RENAISSANCE</Era>
 			<Trade>true</Trade>
-			<GridX>17</GridX>
+			<GridX>19</GridX>
 			<GridY>1</GridY>
 			<Quote>TXT_KEY_TECH_NAVIGATION_QUOTE</Quote>
 			<PortraitIndex>29</PortraitIndex>
@@ -1516,7 +1626,7 @@
 			<Help>TXT_KEY_TECH_ARCHITECTURE_HELP</Help>
 			<Era>ERA_RENAISSANCE</Era>
 			<Trade>true</Trade>
-			<GridX>17</GridX>
+			<GridX>19</GridX>
 			<GridY>3</GridY>
 			<Quote>TXT_KEY_TECH_ARCHITECTURE_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
@@ -1532,7 +1642,7 @@
 			<Help>TXT_KEY_TECH_ECONOMICS_HELP</Help>
 			<Era>ERA_RENAISSANCE</Era>
 			<Trade>true</Trade>
-			<GridX>17</GridX>
+			<GridX>19</GridX>
 			<GridY>5</GridY>
 			<Quote>TXT_KEY_TECH_ECONOMICS_QUOTE</Quote>
 			<PortraitIndex>35</PortraitIndex>
@@ -1548,7 +1658,7 @@
 			<Help>TXT_KEY_TECH_METALLURGY_HELP</Help>
 			<Era>ERA_RENAISSANCE</Era>
 			<Trade>true</Trade>
-			<GridX>17</GridX>
+			<GridX>19</GridX>
 			<GridY>8</GridY>
 			<Quote>TXT_KEY_TECH_METALLURGY_QUOTE</Quote>
 			<PortraitIndex>33</PortraitIndex>
@@ -1564,7 +1674,7 @@
 			<Help>TXT_KEY_TECH_CHEMISTRY_HELP</Help>
 			<Era>ERA_RENAISSANCE</Era>
 			<Trade>true</Trade>
-			<GridX>17</GridX>
+			<GridX>19</GridX>
 			<GridY>9</GridY>
 			<Quote>TXT_KEY_TECH_CHEMISTRY_QUOTE</Quote>
 			<PortraitIndex>37</PortraitIndex>
@@ -1572,6 +1682,9 @@
 			<AudioIntro>AS2D_TECH_CHEMISTRY</AudioIntro>
 			<AudioIntroHeader>AS2D_HEADING_TECH_CHEMISTRY</AudioIntroHeader>
 		</Row>
+		
+		
+		
 		<!-- COLUMN 9 -->
 		<Row>
 			<Type>TECH_ARCHAEOLOGY</Type>
@@ -1582,7 +1695,7 @@
 			<Era>ERA_INDUSTRIAL</Era>
 			<TriggersArchaeologicalSites>true</TriggersArchaeologicalSites>
 			<Trade>true</Trade>
-			<GridX>18</GridX>
+			<GridX>23</GridX>
 			<GridY>1</GridY>
 			<Quote>TXT_KEY_TECH_ARCHAEOLOGY_QUOTE</Quote>
 			<PortraitIndex>43</PortraitIndex>
@@ -1598,7 +1711,7 @@
 			<Help>TXT_KEY_TECH_SCIENTIFIC_THEORY_HELP</Help>
 			<Era>ERA_INDUSTRIAL</Era>
 			<Trade>true</Trade>
-			<GridX>18</GridX>
+			<GridX>23</GridX>
 			<GridY>3</GridY>
 			<Quote>TXT_KEY_TECH_SCIENTIFIC_THEORY_QUOTE</Quote>
 			<PortraitIndex>39</PortraitIndex>
@@ -1614,7 +1727,7 @@
 			<Help>TXT_KEY_TECH_INDUSTRIALIZATION_HELP</Help>
 			<Era>ERA_INDUSTRIAL</Era>
 			<Trade>true</Trade>
-			<GridX>18</GridX>
+			<GridX>23</GridX>
 			<GridY>5</GridY>
 			<Quote>TXT_KEY_TECH_INDUSTRIALIZATION_QUOTE</Quote>
 			<PortraitIndex>5</PortraitIndex>
@@ -1630,7 +1743,7 @@
 			<Help>TXT_KEY_TECH_RIFLING_HELP</Help>
 			<Era>ERA_INDUSTRIAL</Era>
 			<Trade>true</Trade>
-			<GridX>18</GridX>
+			<GridX>23</GridX>
 			<GridY>6</GridY>
 			<Quote>TXT_KEY_TECH_RIFLING_QUOTE</Quote>
 			<PortraitIndex>40</PortraitIndex>
@@ -1646,7 +1759,7 @@
 			<Help>TXT_KEY_TECH_MILITARY_SCIENCE_HELP</Help>
 			<Era>ERA_INDUSTRIAL</Era>
 			<Trade>true</Trade>
-			<GridX>18</GridX>
+			<GridX>23</GridX>
 			<GridY>8</GridY>
 			<Quote>TXT_KEY_TECH_MILITARY_SCIENCE_QUOTE</Quote>
 			<PortraitIndex>36</PortraitIndex>
@@ -1662,7 +1775,7 @@
 			<Help>TXT_KEY_TECH_FERTILIZER_HELP</Help>
 			<Era>ERA_INDUSTRIAL</Era>
 			<Trade>true</Trade>
-			<GridX>18</GridX>
+			<GridX>23</GridX>
 			<GridY>9</GridY>
 			<Quote>TXT_KEY_TECH_FERTILIZER_QUOTE</Quote>
 			<PortraitIndex>41</PortraitIndex>
@@ -1680,7 +1793,7 @@
 			<Era>ERA_INDUSTRIAL</Era>
 			<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange>
 			<Trade>true</Trade>
-			<GridX>19</GridX>
+			<GridX>24</GridX>
 			<GridY>1</GridY>
 			<Quote>TXT_KEY_TECH_BIOLOGY_QUOTE</Quote>
 			<PortraitIndex>38</PortraitIndex>
@@ -1696,7 +1809,7 @@
 			<Help>TXT_KEY_TECH_ELECTRICITY_HELP</Help>
 			<Era>ERA_INDUSTRIAL</Era>
 			<Trade>true</Trade>
-			<GridX>19</GridX>
+			<GridX>24</GridX>
 			<GridY>2</GridY>
 			<Quote>TXT_KEY_TECH_ELECTRICITY_QUOTE</Quote>
 			<PortraitIndex>46</PortraitIndex>
@@ -1712,7 +1825,7 @@
 			<Help>TXT_KEY_TECH_STEAM_POWER_HELP</Help>
 			<Era>ERA_INDUSTRIAL</Era>
 			<Trade>true</Trade>
-			<GridX>19</GridX>
+			<GridX>24</GridX>
 			<GridY>5</GridY>
 			<EmbarkedMoveChange>1</EmbarkedMoveChange>
 			<Quote>TXT_KEY_TECH_STEAM_POWER_QUOTE</Quote>
@@ -1729,7 +1842,7 @@
 			<Help>TXT_KEY_TECH_DYNAMITE_HELP</Help>
 			<Era>ERA_INDUSTRIAL</Era>
 			<Trade>true</Trade>
-			<GridX>19</GridX>
+			<GridX>24</GridX>
 			<GridY>8</GridY>
 			<Quote>TXT_KEY_TECH_DYNAMITE_QUOTE</Quote>
 			<PortraitIndex>44</PortraitIndex>
@@ -1746,7 +1859,7 @@
 			<Help>TXT_KEY_TECH_REFRIGERATION_HELP</Help>
 			<Era>ERA_MODERN</Era>
 			<Trade>true</Trade>
-			<GridX>20</GridX>
+			<GridX>25</GridX>
 			<GridY>1</GridY>
 			<Quote>TXT_KEY_TECH_REFRIGERATION_QUOTE</Quote>
 			<PortraitIndex>50</PortraitIndex>
@@ -1762,7 +1875,7 @@
 			<Help>TXT_KEY_TECH_RADIO_HELP</Help>
 			<Era>ERA_MODERN</Era>
 			<Trade>true</Trade>
-			<GridX>20</GridX>
+			<GridX>25</GridX>
 			<GridY>2</GridY>
 			<Quote>TXT_KEY_TECH_RADIO_QUOTE</Quote>
 			<PortraitIndex>55</PortraitIndex>
@@ -1778,7 +1891,7 @@
 			<Help>TXT_KEY_TECH_REPLACEABLE_PARTS_HELP</Help>
 			<Era>ERA_MODERN</Era>
 			<Trade>true</Trade>
-			<GridX>20</GridX>
+			<GridX>25</GridX>
 			<GridY>3</GridY>
 			<Quote>TXT_KEY_TECH_REPLACEABLE_PARTS_QUOTE</Quote>
 			<PortraitIndex>49</PortraitIndex>
@@ -1794,7 +1907,7 @@
 			<Help>TXT_KEY_TECH_FLIGHT_HELP</Help>
 			<Era>ERA_MODERN</Era>
 			<Trade>true</Trade>
-			<GridX>20</GridX>
+			<GridX>25</GridX>
 			<GridY>5</GridY>
 			<Quote>TXT_KEY_TECH_FLIGHT_QUOTE</Quote>
 			<PortraitIndex>53</PortraitIndex>
@@ -1811,7 +1924,7 @@
 			<Era>ERA_MODERN</Era>
 			<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange>
 			<Trade>true</Trade>
-			<GridX>20</GridX>
+			<GridX>25</GridX>
 			<GridY>7</GridY>
 			<Quote>TXT_KEY_TECH_RAILROAD_QUOTE</Quote>
 			<PortraitIndex>45</PortraitIndex>
@@ -1827,7 +1940,7 @@
 			<Help>TXT_KEY_TECH_ZEPPELIN_HELP</Help>
 			<Era>ERA_MODERN</Era>
 			<Trade>true</Trade>
-			<GridX>20</GridX>
+			<GridX>25</GridX>
 			<GridY>6</GridY>
 			<Quote>TXT_KEY_STEAMPUNK_SCENARIO_TECH_ERUPTIVES_QUOTE</Quote>
 			<IconAtlas>EXPANSION_SCEN_UNIT_ATLAS</IconAtlas>
@@ -1844,7 +1957,7 @@
 			<Help>TXT_KEY_TECH_PLASTICS_HELP</Help>
 			<Era>ERA_MODERN</Era>
 			<Trade>true</Trade>
-			<GridX>21</GridX>
+			<GridX>26</GridX>
 			<GridY>2</GridY>
 			<Quote>TXT_KEY_TECH_PLASTICS_QUOTE</Quote>
 			<PortraitIndex>58</PortraitIndex>
@@ -1860,7 +1973,7 @@
 			<Help>TXT_KEY_TECH_ELECTRONICS_HELP</Help>
 			<Era>ERA_MODERN</Era>
 			<Trade>true</Trade>
-			<GridX>21</GridX>
+			<GridX>26</GridX>
 			<GridY>4</GridY>
 			<Quote>TXT_KEY_TECH_ELECTRONICS_QUOTE</Quote>
 			<PortraitIndex>60</PortraitIndex>
@@ -1876,7 +1989,7 @@
 			<Help>TXT_KEY_TECH_BALLISTICS_HELP</Help>
 			<Era>ERA_MODERN</Era>
 			<Trade>true</Trade>
-			<GridX>21</GridX>
+			<GridX>26</GridX>
 			<GridY>5</GridY>
 			<Quote>TXT_KEY_TECH_BALLISTICS_QUOTE</Quote>
 			<PortraitIndex>1</PortraitIndex>
@@ -1892,7 +2005,7 @@
 			<Help>TXT_KEY_TECH_COMBUSTION_HELP</Help>
 			<Era>ERA_MODERN</Era>
 			<Trade>true</Trade>
-			<GridX>21</GridX>
+			<GridX>26</GridX>
 			<GridY>7</GridY>
 			<Quote>TXT_KEY_TECH_COMBUSTION_QUOTE</Quote>
 			<PortraitIndex>48</PortraitIndex>
@@ -1910,7 +2023,7 @@
 			<Era>ERA_POSTMODERN</Era>
 			<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange>
 			<Trade>true</Trade>
-			<GridX>22</GridX>
+			<GridX>27</GridX>
 			<GridY>1</GridY>
 			<Quote>TXT_KEY_TECH_PENICILIN_QUOTE</Quote>
 			<PortraitIndex>12</PortraitIndex>
@@ -1926,7 +2039,7 @@
 			<Help>TXT_KEY_TECH_ATOMIC_THEORY_HELP</Help>
 			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
-			<GridX>22</GridX>
+			<GridX>27</GridX>
 			<GridY>3</GridY>
 			<Quote>TXT_KEY_TECH_ATOMIC_THEORY_QUOTE</Quote>
 			<PortraitIndex>52</PortraitIndex>
@@ -1942,7 +2055,7 @@
 			<Help>TXT_KEY_TECH_RADAR_HELP</Help>
 			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
-			<GridX>22</GridX>
+			<GridX>27</GridX>
 			<GridY>5</GridY>
 			<Quote>TXT_KEY_TECH_RADAR_QUOTE</Quote>
 			<PortraitIndex>57</PortraitIndex>
@@ -1958,7 +2071,7 @@
 			<Help>TXT_KEY_TECH_COMBINED_ARMS_HELP</Help>
 			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
-			<GridX>22</GridX>
+			<GridX>27</GridX>
 			<GridY>7</GridY>
 			<Quote>TXT_KEY_TECH_COMBINED_ARMS_QUOTE</Quote>
 			<PortraitIndex>3</PortraitIndex>
@@ -1975,7 +2088,7 @@
 			<Help>TXT_KEY_TECH_ECOLOGY_HELP</Help>
 			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
-			<GridX>23</GridX>
+			<GridX>28</GridX>
 			<GridY>1</GridY>
 			<Quote>TXT_KEY_TECH_ECOLOGY_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
@@ -1991,7 +2104,7 @@
 			<Help>TXT_KEY_TECH_NUCLEAR_FISSION_HELP</Help>
 			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
-			<GridX>23</GridX>
+			<GridX>28</GridX>
 			<GridY>3</GridY>
 			<Quote>TXT_KEY_TECH_NUCLEAR_FISSION_QUOTE</Quote>
 			<PortraitIndex>56</PortraitIndex>
@@ -2007,7 +2120,7 @@
 			<Help>TXT_KEY_TECH_ROCKETRY_HELP</Help>
 			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
-			<GridX>23</GridX>
+			<GridX>28</GridX>
 			<GridY>5</GridY>
 			<Quote>TXT_KEY_TECH_ROCKETRY_QUOTE</Quote>
 			<PortraitIndex>61</PortraitIndex>
@@ -2023,7 +2136,7 @@
 			<Help>TXT_KEY_TECH_COMPUTERS_HELP</Help>
 			<Era>ERA_POSTMODERN</Era>
 			<Trade>true</Trade>
-			<GridX>23</GridX>
+			<GridX>28</GridX>
 			<GridY>7</GridY>
 			<Quote>TXT_KEY_TECH_COMPUTERS_QUOTE</Quote>
 			<PortraitIndex>1</PortraitIndex>
@@ -2040,7 +2153,7 @@
 			<Help>TXT_KEY_TECH_TELECOM_HELP</Help>
 			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>24</GridX>
+			<GridX>29</GridX>
 			<GridY>1</GridY>
 			<Quote>TXT_KEY_TECH_TELECOM_QUOTE</Quote>
 			<PortraitIndex>7</PortraitIndex>
@@ -2056,7 +2169,7 @@
 			<Help>TXT_KEY_TECH_MOBILE_TACTICS_HELP</Help>
 			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>24</GridX>
+			<GridX>29</GridX>
 			<GridY>2</GridY>
 			<Quote>TXT_KEY_TECH_MOBILE_TACTICS_QUOTE</Quote>
 			<PortraitIndex>6</PortraitIndex>
@@ -2072,7 +2185,7 @@
 			<Help>TXT_KEY_TECH_ADVANCED_BALLISTICS_HELP</Help>
 			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>24</GridX>
+			<GridX>29</GridX>
 			<GridY>4</GridY>
 			<Quote>TXT_KEY_TECH_ADVANCED_BALLISTICS_QUOTE</Quote>
 			<PortraitIndex>11</PortraitIndex>
@@ -2088,7 +2201,7 @@
 			<Help>TXT_KEY_TECH_SATELLITES_HELP</Help>
 			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>24</GridX>
+			<GridX>29</GridX>
 			<GridY>5</GridY>
 			<Quote>TXT_KEY_TECH_SATELLITES_QUOTE</Quote>
 			<PortraitIndex>2</PortraitIndex>
@@ -2104,7 +2217,7 @@
 			<Help>TXT_KEY_TECH_ROBOTICS_HELP</Help>
 			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>24</GridX>
+			<GridX>29</GridX>
 			<GridY>6</GridY>
 			<Quote>TXT_KEY_TECH_ROBOTICS_QUOTE</Quote>
 			<PortraitIndex>5</PortraitIndex>
@@ -2120,7 +2233,7 @@
 			<Help>TXT_KEY_TECH_LASERS_HELP</Help>
 			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>24</GridX>
+			<GridX>29</GridX>
 			<GridY>7</GridY>
 			<Quote>TXT_KEY_TECH_LASERS_QUOTE</Quote>
 			<PortraitIndex>62</PortraitIndex>
@@ -2138,7 +2251,7 @@
 			<Era>ERA_FUTURE</Era>
 			<InfluenceSpreadModifier>100</InfluenceSpreadModifier>
 			<Trade>true</Trade>
-			<GridX>25</GridX>
+			<GridX>30</GridX>
 			<GridY>0</GridY>
 			<Quote>TXT_KEY_TECH_INTERNET_QUOTE</Quote>
 			<PortraitIndex>0</PortraitIndex>
@@ -2155,7 +2268,7 @@
 			<Era>ERA_FUTURE</Era>
 			<ExtraVotesPerDiplomat>1</ExtraVotesPerDiplomat>
 			<Trade>true</Trade>
-			<GridX>25</GridX>
+			<GridX>30</GridX>
 			<GridY>1</GridY>
 			<Quote>TXT_KEY_TECH_GLOBALIZATION_QUOTE</Quote>
 			<PortraitIndex>4</PortraitIndex>
@@ -2171,7 +2284,7 @@
 			<Help>TXT_KEY_TECH_PARTICLE_PHYSICS_HELP</Help>
 			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>25</GridX>
+			<GridX>30</GridX>
 			<GridY>2</GridY>
 			<Quote>TXT_KEY_TECH_PARTICLE_PHYSICS_QUOTE</Quote>
 			<PortraitIndex>7</PortraitIndex>
@@ -2187,7 +2300,7 @@
 			<Help>TXT_KEY_TECH_NUCLEAR_FUSION_HELP</Help>
 			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>25</GridX>
+			<GridX>30</GridX>
 			<GridY>5</GridY>
 			<Quote>TXT_KEY_TECH_NUCLEAR_FUSION_QUOTE</Quote>
 			<PortraitIndex>9</PortraitIndex>
@@ -2203,7 +2316,7 @@
 			<Help>TXT_KEY_TECH_NANOTECHNOLOGY_HELP</Help>
 			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>25</GridX>
+			<GridX>30</GridX>
 			<GridY>6</GridY>
 			<Quote>TXT_KEY_TECH_NANOTECHNOLOGY_QUOTE</Quote>
 			<PortraitIndex>8</PortraitIndex>
@@ -2219,7 +2332,7 @@
 			<Help>TXT_KEY_TECH_STEALTH_HELP</Help>
 			<Era>ERA_FUTURE</Era>
 			<Trade>true</Trade>
-			<GridX>25</GridX>
+			<GridX>30</GridX>
 			<GridY>7</GridY>
 			<Quote>TXT_KEY_TECH_STEALTH_QUOTE</Quote>
 			<PortraitIndex>3</PortraitIndex>
@@ -2237,7 +2350,7 @@
 			<Era>ERA_FUTURE</Era>
 			<Repeat>true</Repeat>
 			<Trade>true</Trade>
-			<GridX>26</GridX>
+			<GridX>31</GridX>
 			<GridY>4</GridY>
 			<Quote>TXT_KEY_TECH_FUTURE_TECH_QUOTE</Quote>
 			<PortraitIndex>10</PortraitIndex>
@@ -2785,16 +2898,17 @@
 		<!-- TECH_HORSEBACK_RIDING 	Верховая езда -->
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		<!-- TECH_NAVIGATING_STARS 	Навигация по звездам -->
+		<!-- TECH_CLERGY 			Духовенство -->
+		<!-- TECH_BLACKSMITHING 	Кузнечное дело -->
+		<!-- TECH_MATHEMATICS		Математика -->
+		<!-- TECH_TWO_HANDED_SAW 	Двуручная пила -->
+		<!-- TECH_COMPOSITE_BOW 	Композитный лук -->
+		<!-- TECH_OPTICS 			Оптика -->
+		<!-- TECH_ALPHABET 			Папирус -->
+		<!-- TECH_CURRENCY 			Монетное дело -->
+		<!-- TECH_ENGINEERING 		Инженерное дело -->
+	
 		<Row>
 			<TechType>TECH_OPTICS</TechType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
@@ -2820,6 +2934,42 @@
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
+		<Row>
+			<TechType>TECH_CURRENCY</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_CURRENCY</TechType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ENGINEERING</TechType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ENGINEERING</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ENGINEERING</TechType>
+			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		
+		
+		
+		
+		
+		<Row>
+			<TechType>TECH_DAMASCUS_STEEL</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		
 		
 		<Row>
 			<TechType>TECH_CERAMIC_BRICK</TechType>
@@ -2896,16 +3046,7 @@
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>3</Flavor>
 		</Row>
-		<Row>
-			<TechType>TECH_CURRENCY</TechType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_CURRENCY</TechType>
-			<FlavorType>FLAVOR_WONDER</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
+		
 		
 		<Row>
 			<TechType>TECH_THEOLOGY</TechType>
@@ -2952,21 +3093,7 @@
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
-		<Row>
-			<TechType>TECH_ENGINEERING</TechType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_ENGINEERING</TechType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_ENGINEERING</TechType>
-			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
+		
 		<Row>
 			<TechType>TECH_METAL_CASTING</TechType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -4042,30 +4169,56 @@
 
 		<!-- Железный век [1] row 9 -->
 		<Row>
-			<TechType>TECH_CLERGY</TechType>
-			<PrereqTech>TECH_PAGANISM</PrereqTech>
+			<TechType>TECH_NAVIGATING_STARS</TechType>
+			<PrereqTech>TECH_SAILING</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_CLERGY</TechType>
 			<PrereqTech>TECH_WRITING</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_MATHEMATICS</TechType>
-			<PrereqTech>TECH_WRITING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_TWO_HANDED_SAW</TechType>
+			<TechType>TECH_BLACKSMITHING</TechType>
 			<PrereqTech>TECH_IRON_WORKING</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_TWO_HANDED_SAW</TechType>
+			<TechType>TECH_BLACKSMITHING</TechType>
 			<PrereqTech>TECH_MASONRY</PrereqTech>
 		</Row>
-
+		<Row>
+			<TechType>TECH_SEWAGE_SYSTEM</TechType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+		</Row>
+		
 		<!-- Железный век [2] row 10 -->
 		<Row>
+			<TechType>TECH_MATHEMATICS</TechType>
+			<PrereqTech>TECH_CLERGY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_TWO_HANDED_SAW</TechType>
+			<PrereqTech>TECH_BLACKSMITHING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_LIME_MORTAR</TechType>
+			<PrereqTech>TECH_SEWAGE_SYSTEM</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_COMPOSITE_BOW</TechType>
+			<PrereqTech>TECH_BLACKSMITHING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_COMPOSITE_BOW</TechType>
+			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+		</Row>
+		
+		<!-- Железный век [3] row 11 -->
+		<Row>
 			<TechType>TECH_OPTICS</TechType>
-			<PrereqTech>TECH_SAILING</PrereqTech>
+			<PrereqTech>TECH_NAVIGATING_STARS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_OPTICS</TechType>
+			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_ALPHABET</TechType>
@@ -4077,41 +4230,57 @@
 		</Row>
 		<Row>
 			<TechType>TECH_CURRENCY</TechType>
-			<PrereqTech>TECH_IRON_WORKING</PrereqTech>
+			<PrereqTech>TECH_TWO_HANDED_SAW</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_WELDED_WEAPONS</TechType>
-			<PrereqTech>TECH_IRON_WORKING</PrereqTech>
+			<TechType>TECH_CURRENCY</TechType>
+			<PrereqTech>TECH_LIME_MORTAR</PrereqTech>
 		</Row>
 		<Row>
+			<TechType>TECH_CERAMIC_BRICK</TechType>
+			<PrereqTech>TECH_LIME_MORTAR</PrereqTech>
+		</Row>
+		
+		<!-- Античность [1] row 12 -->
+		
+		<Row>
+			<TechType>TECH_CATAPULT</TechType>
+			<PrereqTech>TECH_COMPOSITE_BOW</PrereqTech>
+		</Row>
+		
+		<!-- <Row>
+			<TechType>TECH_ENGINEERING</TechType>
+			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
+		</Row> -->
+		<!-- <Row>
 			<TechType>TECH_ENGINEERING</TechType>
 			<PrereqTech>TECH_TWO_HANDED_SAW</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_COMPOSITE_BOW</TechType>
-			<PrereqTech>TECH_TWO_HANDED_SAW</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_COMPOSITE_BOW</TechType>
-			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
-		</Row>
+		</Row> -->
+		
+		
+		<!-- <Row>
+			<TechType>TECH_WELDED_WEAPONS</TechType>
+			<PrereqTech>TECH_IRON_WORKING</PrereqTech>
+		</Row> -->
+		
+		
 
-		<!-- Железный век [3] row 11 -->
-		<Row>
+		
+		<!-- <Row>
 			<TechType>TECH_LAMINAR_ARMOR</TechType>
 			<PrereqTech>TECH_WELDED_WEAPONS</PrereqTech>
-		</Row>
-		<Row>
+		</Row> -->
+		<!-- <Row>
 			<TechType>TECH_GARDENING</TechType>
 			<PrereqTech>TECH_ENGINEERING</PrereqTech>
-		</Row>
+		</Row> -->
 
-		<!-- Античность [1] row 12 -->
-		<Row>
+		
+		<!-- <Row>
 			<TechType>TECH_PHILOSOPHY</TechType>
 			<PrereqTech>TECH_ALPHABET</PrereqTech>
-		</Row>
-		<Row>
+		</Row> -->
+		<!-- <Row>
 			<TechType>TECH_CIVIL_SERVICE</TechType>
 			<PrereqTech>TECH_CURRENCY</PrereqTech>
 		</Row>
@@ -4119,47 +4288,44 @@
 			<TechType>TECH_CIVIL_SERVICE</TechType>
 			<PrereqTech>TECH_LAMINAR_ARMOR</PrereqTech>
 		</Row>
-		<Row>
-			<TechType>TECH_CATAPULT</TechType>
-			<PrereqTech>TECH_COMPOSITE_BOW</PrereqTech>
-		</Row>
+		 -->
 
 		<!-- Античность [2] row 13 -->
-		<Row>
+		<!-- <Row>
 			<TechType>TECH_MYTHOLOGY</TechType>
 			<PrereqTech>TECH_CLERGY</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_MYTHOLOGY</TechType>
 			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
-		</Row>
-		<Row>
+		</Row> -->
+		<!-- <Row>
 			<TechType>TECH_LITERATURE</TechType>
 			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
-		</Row>
-		<Row>
+		</Row> -->
+		<!-- <Row>
 			<TechType>TECH_WATER_WHEEL</TechType>
 			<PrereqTech>TECH_CATAPULT</PrereqTech>
-		</Row>
-		<Row>
+		</Row> -->
+		<!-- <Row>
 			<TechType>TECH_CERAMIC_BRICK</TechType>
 			<PrereqTech>TECH_GARDENING</PrereqTech>
-		</Row>
-		<Row>
+		</Row> -->
+		<!-- <Row>
 			<TechType>TECH_DAMASCUS_STEEL</TechType>
 			<PrereqTech>TECH_LAMINAR_ARMOR</PrereqTech>
-		</Row>
+		</Row> -->
 
 		<!-- Античность [3] row 14 -->
-		<Row>
+		<!-- <Row>
 			<TechType>TECH_THEOLOGY</TechType>
 			<PrereqTech>TECH_MYTHOLOGY</PrereqTech>
-		</Row>
-		<Row>
+		</Row> -->
+		<!-- <Row>
 			<TechType>TECH_DRAMA</TechType>
 			<PrereqTech>TECH_LITERATURE</PrereqTech>
-		</Row>
-		<Row>
+		</Row> -->
+		<!-- <Row>
 			<TechType>TECH_CONSTRUCTION</TechType>
 			<PrereqTech>TECH_WATER_WHEEL</PrereqTech>
 		</Row>
@@ -4173,67 +4339,71 @@
 		</Row>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 		<Row>
+			<TechType>TECH_DAMASCUS_STEEL</TechType>
+			<PrereqTech></PrereqTech>
+		</Row> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- <Row>
 			<TechType>TECH_EDUCATION</TechType>
 			<PrereqTech>TECH_THEOLOGY</PrereqTech>
 		</Row>
@@ -4254,7 +4424,7 @@
 		<Row>
 			<TechType>TECH_MACHINERY</TechType>
 			<PrereqTech>TECH_GUILDS</PrereqTech>
-		</Row>
+		</Row> -->
 
 		<Row>
 			<TechType>TECH_PHYSICS</TechType>
