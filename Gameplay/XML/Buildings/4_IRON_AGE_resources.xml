@@ -5,6 +5,32 @@
     <!-- Стоимость постройки -->
     <Building_ResourceCostRequirements>
 
+        <!-- Кузница -->
+        <Row>
+            <BuildingType>BUILDING_FORGE</BuildingType>
+            <ResourceType>RESOURCE_STONE</ResourceType>
+            <Cost>50</Cost>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_FORGE</BuildingType>
+            <ResourceType>RESOURCE_WOOD</ResourceType>
+            <Cost>50</Cost>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_FORGE</BuildingType>
+            <ResourceType>RESOURCE_IRON</ResourceType>
+            <Cost>50</Cost>
+        </Row>
+
+
+        <Row>
+            <BuildingType>BUILDING_CLOACA</BuildingType>
+            <ResourceType>RESOURCE_STONE</ResourceType>
+            <Cost>100</Cost>
+        </Row>
+
+
+
     </Building_ResourceCostRequirements>
 
 
@@ -18,6 +44,17 @@
     <!-- Потребляет за ход -->
 	<Building_ResourceQuantityRequirements>
 
+        <!-- Кузница -->
+        <Row>
+            <BuildingType>BUILDING_FORGE</BuildingType>
+            <ResourceType>RESOURCE_IRON</ResourceType>
+            <Cost>1</Cost>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_FORGE</BuildingType>
+            <ResourceType>RESOURCE_CHARCOAL</ResourceType>
+            <Cost>1</Cost>
+        </Row>
 
     </Building_ResourceQuantityRequirements>
 

@@ -42,22 +42,7 @@
 			<Cost>50</Cost>
 		</Row>
 
-        <!-- Кузница -->
-		<Row>
-			<BuildingType>BUILDING_FORGE</BuildingType>
-			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>50</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_FORGE</BuildingType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>50</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_FORGE</BuildingType>
-			<ResourceType>RESOURCE_IRON</ResourceType>
-			<Cost>50</Cost>
-		</Row>
+
 
         <!-- Штукофен -->
         <Row>
@@ -335,17 +320,7 @@
 			<Cost>20</Cost>
 		</Row>
 
-        <!-- Кузница -->
-		<Row>
-			<BuildingType>BUILDING_FORGE</BuildingType>
-			<ResourceType>RESOURCE_IRON</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-        <Row>
-			<BuildingType>BUILDING_FORGE</BuildingType>
-			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
-			<Cost>1</Cost>
-		</Row>
+
 
         <!-- Штукофен -->
 		<Row>

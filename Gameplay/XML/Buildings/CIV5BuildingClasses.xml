@@ -37,6 +37,11 @@
 			<DefaultBuilding>BUILDING_CESSPOOL</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_CESSPOOL</Description>
 		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_CLOACA</Type>
+			<DefaultBuilding>BUILDING_CLOACA</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_CLOACA</Description>
+		</Row>
 
 
 		<Row>

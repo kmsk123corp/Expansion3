@@ -157,7 +157,7 @@
             <Happiness>1</Happiness>
             <HurryCostModifier>25</HurryCostModifier>
             <IconAtlas>Building_IconAtlas</IconAtlas>
-			<PortraitIndex>37</PortraitIndex>
+			<PortraitIndex>40</PortraitIndex>
         </Row>
 
         <!-- Каменный карьер -->
