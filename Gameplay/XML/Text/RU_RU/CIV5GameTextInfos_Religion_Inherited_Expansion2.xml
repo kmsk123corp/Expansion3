@@ -39,6 +39,11 @@
       <Gender>masculine</Gender>
       <Plurality>1</Plurality>
     </Row>
+    <Row Tag="TXT_KEY_BELIEF_FOREST_PATH_SHORT">
+      <Text>Богиня леса</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
     <Row Tag="TXT_KEY_BELIEF_DEFENDER_FAITH_SHORT">
       <Text>Защитник веры</Text>
       <Gender>masculine</Gender>

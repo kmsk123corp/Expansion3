@@ -361,6 +361,14 @@
 			<Pantheon>true</Pantheon>
 		</Row>
 
+		<!-- Богиня леса -->
+		<Row>
+			<Type>BELIEF_FOREST_PATH</Type>
+			<Description>TXT_KEY_BELIEF_FOREST_PATH</Description>
+			<ShortDescription>TXT_KEY_BELIEF_FOREST_PATH_SHORT</ShortDescription>
+			<Pantheon>true</Pantheon>
+		</Row>
+
 		<!-- Слезы богов -->
 		<Row>
 			<Type>BELIEF_TEARS_OF_GODS</Type>
@@ -1031,6 +1039,13 @@
 			<BeliefType>BELIEF_SACRED_PATH</BeliefType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
 			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<Row>
+			<BeliefType>BELIEF_FOREST_PATH</BeliefType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>1</Yield>
 		</Row>
 

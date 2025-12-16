@@ -81,6 +81,9 @@
       <Row Tag="TXT_KEY_BELIEF_DANCE_AURORA">
           <Text>+1 [ICON_FOOD] +1 [ICON_PEACE] за клетку тундры без леса</Text>
       </Row>
+      <Row Tag="TXT_KEY_BELIEF_FOREST_PATH">
+          <Text>+1 [ICON_PEACE] за клетку леса</Text>
+      </Row>
       <Row Tag="TXT_KEY_BELIEF_ORAL_TRADITION">
           <Text>+1 [ICON_PRODUCTION] +1 [ICON_CULTURE] за плантации</Text>
       </Row>
