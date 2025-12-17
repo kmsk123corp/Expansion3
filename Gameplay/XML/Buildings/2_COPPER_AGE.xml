@@ -98,7 +98,7 @@
 			<BuildingClass>BUILDINGCLASS_MONUMENT</BuildingClass>
 			<FreeStartEra>ERA_MEDIEVAL</FreeStartEra>
 			<Cost>60</Cost>
-			<PrereqTech>TECH_NOMAD</PrereqTech>
+			<PrereqTech>TECH_PROTO_WRITING</PrereqTech>
 			<GoldMaintenance>1</GoldMaintenance>
 			<Description>TXT_KEY_BUILDING_STELE</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_STELE_TEXT</Civilopedia>

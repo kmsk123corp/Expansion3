@@ -80,6 +80,7 @@
             <Happiness>1</Happiness>
             <PrereqTech>TECH_POTTERY</PrereqTech>
             <Description>TXT_KEY_BUILDING_POTTERY_WORKSHOP</Description>
+            <Civilopedia>TXT_KEY_CIV5_BUILDINGS_POTTERY_WORKSHOP_TEXT</Civilopedia>
             <MinAreaSize>-1</MinAreaSize>
             <ConquestProb>66</ConquestProb>
             <HurryCostModifier>25</HurryCostModifier>
@@ -97,10 +98,8 @@
 			<BuildingClass>BUILDINGCLASS_CHARCOAL_BURNER</BuildingClass>
 			<Cost>30</Cost>
 			<PrereqTech>TECH_CHARRING</PrereqTech>
-			<Help>TXT_KEY_BUILDING_CHARCOAL_BURNER_HELP</Help>
 			<Description>TXT_KEY_BUILDING_CHARCOAL_BURNER</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_CHARCOAL_BURNER_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_CHARCOAL_BURNER_STRATEGY</Strategy>
 			<ConquestProb>66</ConquestProb>
 			<MinAreaSize>-1</MinAreaSize>
 			<HurryCostModifier>25</HurryCostModifier>
