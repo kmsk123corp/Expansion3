@@ -6,6 +6,31 @@
     <!-- Стоимость постройки -->
     <Building_ResourceCostRequirements>
 
+		<!-- Большой сфинкс -->
+		<Row>
+			<BuildingType>BUILDING_GREAT_SPHINX</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_SPHINX</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>125</Cost>
+		</Row>
+
+		<!-- Пирамиды -->
+		<Row>
+			<BuildingType>BUILDING_PYRAMID</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PYRAMID</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+		<!-- Законы Хаммурапи -->
         <Row>
 			<BuildingType>BUILDING_LAWS_HAMMURABI</BuildingType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>

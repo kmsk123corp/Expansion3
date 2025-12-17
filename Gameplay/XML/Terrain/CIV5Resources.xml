@@ -698,7 +698,7 @@
 		<!-- Рыба -->
 		<Row>
 			<Type>RESOURCE_FISH</Type>
-			<TechCityTrade>TECH_SAILING</TechCityTrade>
+			<TechCityTrade>TECH_SEA_FISHING</TechCityTrade>
 			<Description>TXT_KEY_RESOURCE_FISH</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_FISH_TEXT</Civilopedia>
 			<ResourceClassType>RESOURCECLASS_BONUS</ResourceClassType>
@@ -722,7 +722,7 @@
 		<Row>
 			<Type>RESOURCE_WHALE</Type>
 			<Happiness>4</Happiness>
-			<TechCityTrade>TECH_SAILING</TechCityTrade>
+			<TechCityTrade>TECH_SEA_FISHING</TechCityTrade>
 			<Description>TXT_KEY_RESOURCE_WHALES</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_WHALES_TEXT</Civilopedia>
 			<ResourceClassType>RESOURCECLASS_LUXURY</ResourceClassType>
@@ -743,7 +743,7 @@
 		<Row>
 			<Type>RESOURCE_PEARLS</Type>
 			<Happiness>4</Happiness>
-			<TechCityTrade>TECH_SAILING</TechCityTrade>
+			<TechCityTrade>TECH_SEA_FISHING</TechCityTrade>
 			<Description>TXT_KEY_RESOURCE_PEARLS</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_PEARLS_TEXT</Civilopedia>
 			<ResourceClassType>RESOURCECLASS_LUXURY</ResourceClassType>

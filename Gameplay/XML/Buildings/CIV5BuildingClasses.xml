@@ -23,13 +23,11 @@
 	<BuildingClasses>
 		<!-- Special Buildings -->
 
-
-
-
 		<Row>
 			<Type>BUILDINGCLASS_LAWS_HAMMURABI</Type>
 			<DefaultBuilding>BUILDING_LAWS_HAMMURABI</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_LAWS_HAMMURABI</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
 		</Row>
 
 		<Row>
@@ -42,8 +40,6 @@
 			<DefaultBuilding>BUILDING_CLOACA</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_CLOACA</Description>
 		</Row>
-
-
 		<Row>
 			<Type>BUILDINGCLASS_COPPER_MINE</Type>
 			<DefaultBuilding>BUILDING_COPPER_MINE</DefaultBuilding>

@@ -622,7 +622,6 @@
 			<Help>TXT_KEY_TECH_SHIPBUILDING_HELP</Help>
 			<Era>ERA_BRONZE</Era>
 			<Trade>true</Trade>
-			<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange>
 			<GoodyTech>true</GoodyTech>
 			<GridX>6</GridX>
 			<GridY>0</GridY>
@@ -776,6 +775,7 @@
 			<Help>TXT_KEY_TECH_SAILING_HELP</Help>
 			<Era>ERA_BRONZE</Era>
 			<Trade>true</Trade>
+			<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange>
 			<GoodyTech>true</GoodyTech>
 			<AllowsEmbarking>true</AllowsEmbarking>
 			<GridX>8</GridX>

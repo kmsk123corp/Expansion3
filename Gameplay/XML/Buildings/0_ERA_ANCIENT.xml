@@ -8,9 +8,6 @@
         <!-- Гончарное дело -->
         <!-- ############## -->
 
-
-
-
         <!-- Переписчик -->
         <Row>
 			<Type>BUILDING_COPYIST</Type>
@@ -29,199 +26,10 @@
 			<PortraitIndex>35</PortraitIndex>
 		</Row>
 
-
-        
-
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!-- ########### -->
-        <!-- Добыча руды -->
-        <!-- ########### -->
-
-
-
-
-
-
-
-        <!-- ######### -->
-        <!-- Календарь -->
-        <!-- ######### -->
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!-- ############### -->
-        <!-- Каменная кладка -->
-        <!-- ############### -->
-
-        <!-- Городские стены -->
-        <Row>
-			<Type>BUILDING_WALLS</Type>
-			<BuildingClass>BUILDINGCLASS_WALLS</BuildingClass>
-			<Cost>100</Cost>
-            <GoldMaintenance>1</GoldMaintenance>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
-            <Help>TXT_KEY_BUILDING_CITYWALL_STRATEGY</Help>
-			<Description>TXT_KEY_BUILDING_CITYWALL</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_WALLS_TEXT</Civilopedia>
-			<ArtDefineTag>ART_DEF_BUILDING_WALLS</ArtDefineTag>
-			<MinAreaSize>-1</MinAreaSize>
-			<AllowsRangeStrike>true</AllowsRangeStrike>
-            <Defense>500</Defense>
-			<ExtraCityHitPoints>100</ExtraCityHitPoints>
-			<CityWall>true</CityWall>
-			<HurryCostModifier>25</HurryCostModifier>
-            <NeverCapture>true</NeverCapture>
-            <PortraitIndex>20</PortraitIndex>
-            <IconAtlas>Building_IconAtlas</IconAtlas>
-		</Row>
-
-        <!-- Ворота иштар -->
-        <Replace>
-			<Type>BUILDING_WALLS_OF_BABYLON</Type>
-			<BuildingClass>BUILDINGCLASS_WALLS</BuildingClass>
-			<Cost>100</Cost>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
-			<Help>TXT_KEY_CIV5_BABYLON_WALLS_INFO</Help>
-			<Description>TXT_KEY_BUILDING_WALLS_OF_BABYLON_DESC</Description>
-			<Civilopedia>TXT_KEY_CIV5_BABYLON_WALLS_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_CIV5_BABYLON_WALLS_STRATEGY</Strategy>
-			<ArtDefineTag>ART_DEF_BUILDING_WALLS_OF_BABYLON</ArtDefineTag>
-			<MinAreaSize>-1</MinAreaSize>
-			<AllowsRangeStrike>true</AllowsRangeStrike>
-			<Defense>1000</Defense>
-            <ExtraCityHitPoints>200</ExtraCityHitPoints>
-			<CityWall>true</CityWall>
-			<HurryCostModifier>25</HurryCostModifier>
-			<IconAtlas>NEB_BW_ATLAS</IconAtlas>
-			<PortraitIndex>0</PortraitIndex>
-		</Replace>
-
-        
-
-        <!-- Мраморная мастерская -->
-        <Row>
-			<Type>BUILDING_MARBLE_WORKS</Type>
-			<BuildingClass>BUILDINGCLASS_MARBLE_WORKS</BuildingClass>
-			<Cost>150</Cost>
-			<GoldMaintenance>2</GoldMaintenance>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
-			<Help>TXT_KEY_BUILDING_MARBLE_WORKS_HELP</Help>
-			<Description>TXT_KEY_BUILDING_MARBLE_WORKS</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_MARBLE_WORKS_TEXT</Civilopedia>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>66</ConquestProb>
-			<!-- <ProhibitedCityTerrain>TERRAIN_PLAINS</ProhibitedCityTerrain> -->
-			<Happiness>1</Happiness>
-			<HurryCostModifier>0</HurryCostModifier>
-            <IconAtlas>Building_IconAtlas</IconAtlas>
-			<PortraitIndex>26</PortraitIndex>
-		</Row>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </Buildings>
 
     <!-- Производит -->
     <Building_YieldChanges>
-
-
-
-
-        
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-        
-        
-
-
-
-
-
-
-        
-
-
-
-
-        <Row>
-			<BuildingType>BUILDING_WALLS_OF_BABYLON</BuildingType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
-		</Row>
 
     </Building_YieldChanges>
 
@@ -250,72 +58,17 @@
     <!-- Улучшает клетки с ресурсами -->
     <Building_ResourceYieldChanges>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <Row>
-			<BuildingType>BUILDING_MARBLE_WORKS</BuildingType>
-			<ResourceType>RESOURCE_MARBLE</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_MARBLE_WORKS</BuildingType>
-			<ResourceType>RESOURCE_STONE</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-
-
-
-
-        
-
-
-
-
-
-
-
-
     </Building_ResourceYieldChanges>
 
     <!-- Может быть построенно только с этим ресурсом -->
     <Building_LocalResourceOrs>
 
-
-
-
-
-
-
-
-
-
-
-
     </Building_LocalResourceOrs>
-
 
     <!-- Клетки с океаном -->
     <Building_SeaPlotYieldChanges>
 
     </Building_SeaPlotYieldChanges>
-
 
     <!-- Производит от каждого жителя города в процентах -->
     <Building_YieldChangesPerPop>
@@ -325,97 +78,21 @@
     <!-- Опыт юнитам -->
     <Building_DomainFreeExperiences>
 
-
     </Building_DomainFreeExperiences>
-
-
 
     <!-- С клеток леса -->
     <Building_FeatureYieldChanges>
-        
 
     </Building_FeatureYieldChanges>
 
     <!-- Для постройки нужно здание -->
     <Building_ClassesNeededInCity>
-        <Row>
-			<BuildingType>BUILDING_WALLS</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_CITYWALL</BuildingClassType>
-		</Row>
 
     </Building_ClassesNeededInCity>
 
     <!-- Для ботов похоже... -->
     <Building_Flavors>
 
-
-
-        
-
-
-
-
-
-        
-
-
-
-
-        
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-        <Row>
-			<BuildingType>BUILDING_MARBLE_WORKS</BuildingType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_MARBLE_WORKS</BuildingType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-
-
-
-
-
-
-
-
-        <Row>
-			<BuildingType>BUILDING_WALLS</BuildingType>
-			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
-
-
-
-
-        
-
-
-
-
     </Building_Flavors>
-
-
-
-
 
 </GameData>

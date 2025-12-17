@@ -17,51 +17,7 @@
 			<Cost>25</Cost>
 		</Row>
 
-        <!-- Конюшня -->
-        <Row>
-			<BuildingType>BUILDING_STABLE</BuildingType>
-			<ResourceType>RESOURCE_HORSE</ResourceType>
-			<Cost>40</Cost>
-		</Row>
-        <Row>
-			<BuildingType>BUILDING_STABLE</BuildingType>
-			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>40</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_STABLE</BuildingType>
-			<ResourceType>RESOURCE_LUMBER</ResourceType>
-			<Cost>40</Cost>
-		</Row>
 
-        <!-- Панская конюшня -->
-        <Row>
-			<BuildingType>BUILDING_DUCAL_STABLE</BuildingType>
-			<ResourceType>RESOURCE_HORSE</ResourceType>
-			<Cost>50</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_DUCAL_STABLE</BuildingType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>80</Cost>
-		</Row>
-
-        <!-- Ранчо -->
-        <Row>
-			<BuildingType>BUILDING_AMERICA_RANCH</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>50</Cost>
-		</Row>
-        <Row>
-			<BuildingType>BUILDING_AMERICA_RANCH</BuildingType>
-			<ResourceType>RESOURCE_HORSE</ResourceType>
-			<Cost>50</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_AMERICA_RANCH</BuildingType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>50</Cost>
-		</Row>
 
         
 
@@ -181,22 +137,7 @@
 			<Cost>50</Cost>
 		</Row>
 
-        <!-- Сыродутная печь -->
-        <Row>
-			<BuildingType>BUILDING_BLOOMERYE</BuildingType>
-			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>20</Cost>
-		</Row>
-        <Row>
-			<BuildingType>BUILDING_BLOOMERYE</BuildingType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>20</Cost>
-		</Row>
-        <Row>
-			<BuildingType>BUILDING_BLOOMERYE</BuildingType>
-			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
-			<Cost>10</Cost>
-		</Row>
+
 
         <!-- Храм -->
         <Row>
@@ -434,31 +375,7 @@
     <!-- Производит ресурсов -->
     <Building_ResourceQuantity>
 
-        <!-- Конюшня -->
-        <Row>
-			<BuildingType>BUILDING_STABLE</BuildingType>
-			<ResourceType>RESOURCE_HORSE</ResourceType>
-			<Quantity>2</Quantity>
-		</Row>
 
-        <!-- Панская конюшня -->
-        <Row>
-			<BuildingType>BUILDING_DUCAL_STABLE</BuildingType>
-			<ResourceType>RESOURCE_HORSE</ResourceType>
-			<Quantity>3</Quantity>
-		</Row>
-
-        <!-- Ранчо -->
-        <Row>
-			<BuildingType>BUILDING_AMERICA_RANCH</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Quantity>6</Quantity>
-		</Row>
-        <Row>
-			<BuildingType>BUILDING_AMERICA_RANCH</BuildingType>
-			<ResourceType>RESOURCE_HORSE</ResourceType>
-			<Quantity>4</Quantity>
-		</Row>
 
         <!-- Лесопильня -->
 		<Row>
@@ -481,12 +398,7 @@
 			<Quantity>8</Quantity>
 		</Row>
 
-        <!-- Сыродутная печь -->
-        <Row>
-			<BuildingType>BUILDING_BLOOMERYE</BuildingType>
-			<ResourceType>RESOURCE_IRON</ResourceType>
-			<Quantity>5</Quantity>
-		</Row>
+
 
         <!-- Печь для обжига кирпича -->
         <Row>
@@ -519,19 +431,7 @@
     <!-- Потребляет за ход -->
 	<Building_ResourceQuantityRequirements>
 
-        <!-- Конюшня -->
-        <Row>
-			<BuildingType>BUILDING_STABLE</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>2</Cost>
-		</Row>
 
-        <!-- Панская конюшня -->
-        <Row>
-			<BuildingType>BUILDING_DUCAL_STABLE</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>3</Cost>
-		</Row>
 
         <!-- Арена -->
         <Row>
@@ -564,12 +464,7 @@
 			<Cost>1</Cost>
 		</Row>
 
-        <!-- Сыродутная печь -->
-        <Row>
-			<BuildingType>BUILDING_BLOOMERYE</BuildingType>
-			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
-			<Cost>5</Cost>
-		</Row>
+
 
         <!-- Храм -->
         <Row>

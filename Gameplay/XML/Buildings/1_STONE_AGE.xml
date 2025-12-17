@@ -21,7 +21,6 @@
             <MinAreaSize>-1</MinAreaSize>
             <AllowsRangeStrike>true</AllowsRangeStrike>
             <ExtraCityHitPoints>100</ExtraCityHitPoints>
-<!--            <CityWall>true</CityWall>-->
             <HurryCostModifier>25</HurryCostModifier>
             <IconAtlas>BW_ATLAS_1</IconAtlas>
             <PortraitIndex>32</PortraitIndex>

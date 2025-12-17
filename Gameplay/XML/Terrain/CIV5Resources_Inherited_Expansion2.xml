@@ -67,7 +67,7 @@
     </InsertOrAbort>
     <InsertOrAbort>
       <Type>RESOURCE_CRAB</Type>
-      <TechCityTrade>TECH_SAILING</TechCityTrade>
+      <TechCityTrade>TECH_SEA_FISHING</TechCityTrade>
       <Happiness>4</Happiness>
       <Description>TXT_KEY_RESOURCE_CRAB</Description>
       <Civilopedia>TXT_KEY_CIV5_RESOURCE_CRAB_TEXT</Civilopedia>

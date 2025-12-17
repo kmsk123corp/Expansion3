@@ -8,26 +8,7 @@
         <!-- Календарь -->
         <!-- ######### -->
 
-        <!-- Большой сфинкс -->
-        <Row>
-			<Type>BUILDING_GREAT_SPHINX</Type>
-			<BuildingClass>BUILDINGCLASS_GREAT_SPHINX</BuildingClass>
-			<Cost>250</Cost>
-			<PrereqTech>TECH_DRY_MASONRY</PrereqTech>
-			<Help>TXT_KEY_BUILDING_GREAT_SPHINX_HELP</Help>
-			<Description>TXT_KEY_BUILDINGS_GREAT_SPHINX</Description>
-			<Civilopedia>TXT_KEY_BUILDINGS_GREAT_SPHINX_TEXT</Civilopedia>
-			<ArtDefineTag>ART_DEF_BUILDING_GREAT_SPHINX</ArtDefineTag>
-			<MaxStartEra>ERA_CLASSICAL</MaxStartEra>
-			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
-			<GreatPeopleRateChange>1</GreatPeopleRateChange>
-			<NukeImmune>true</NukeImmune>
-			<HurryCostModifier>-1</HurryCostModifier>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
-			<IconAtlas>Building_IconAtlas</IconAtlas>
-			<PortraitIndex>10</PortraitIndex>
-		</Row>
+
 
 
         <!-- Храм Артемиды -->
@@ -95,32 +76,7 @@
 			<WonderSplashAudio>AS2D_WONDER_SPEECH_PETRA</WonderSplashAudio>
 		</Replace>
 
-        <!-- Пирамиды -->
-        <Row>
-			<Type>BUILDING_PYRAMID</Type>
-			<BuildingClass>BUILDINGCLASS_PYRAMID</BuildingClass>
-			<Cost>250</Cost>
-			<PrereqTech>TECH_DRY_MASONRY</PrereqTech>
-			<PolicyBranchType>POLICY_BRANCH_LIBERTY</PolicyBranchType>
-			<Help>TXT_KEY_WONDER_CHICHEN_ITZA_HELP</Help>
-			<Description>TXT_KEY_BUILDING_PYRAMID</Description>
-			<Civilopedia>TXT_KEY_WONDER_PYRAMIDS_DESC</Civilopedia>
-			<Quote>TXT_KEY_WONDER_PYRAMIDS_QUOTE</Quote>
-			<ArtDefineTag>THE PYRAMIDS</ArtDefineTag>
-			<MaxStartEra>ERA_CLASSICAL</MaxStartEra>
-			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-			<GreatPeopleRateChange>1</GreatPeopleRateChange>
-			<NukeImmune>true</NukeImmune>
-			<HurryCostModifier>-1</HurryCostModifier>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
-			<WorkerSpeedModifier>25</WorkerSpeedModifier>
-			<DisplayPosition>4</DisplayPosition>
-			<IconAtlas>BW_ATLAS_2</IconAtlas>
-			<PortraitIndex>0</PortraitIndex>
-			<WonderSplashImage>WonderConceptPyramids.dds</WonderSplashImage>
-			<WonderSplashAudio>AS2D_WONDER_SPEECH_THE_PYRAMIDS_01</WonderSplashAudio>
-		</Row>
+
 
 
 
@@ -137,28 +93,10 @@
     <Building_YieldChanges>
 
 
-        <Row>
-			<BuildingType>BUILDING_GREAT_SPHINX</BuildingType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_GREAT_SPHINX</BuildingType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>4</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_GREAT_SPHINX</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
-		</Row>
 
 
-        <Row>
-			<BuildingType>BUILDING_PYRAMID</BuildingType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>6</Yield>
-		</Row>
+
+
         <Row>
 			<BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
@@ -275,16 +213,7 @@
     <!-- Хлявные юниты -->
     <Building_FreeUnits>
 
-        <Row>
-			<BuildingType>BUILDING_PYRAMID</BuildingType>
-			<UnitType>UNIT_SETTLER</UnitType>
-			<NumUnits>1</NumUnits>
-		</Row>
-        <Row>
-			<BuildingType>BUILDING_PYRAMID</BuildingType>
-			<UnitType>UNIT_WORKER</UnitType>
-			<NumUnits>2</NumUnits>
-		</Row>
+
         <Delete BuildingType="BUILDING_PETRA"/>
         <Row>
 			<BuildingType>BUILDING_PETRA</BuildingType>
@@ -306,44 +235,11 @@
     <!-- Для ботов похоже... -->
     <Building_Flavors>
 
-        <Row>
-            <BuildingType>BUILDING_GREAT_SPHINX</BuildingType>
-            <FlavorType>FLAVOR_WONDER</FlavorType>
-            <Flavor>25</Flavor>
-        </Row>
-        <Row>
-            <BuildingType>BUILDING_GREAT_SPHINX</BuildingType>
-            <FlavorType>FLAVOR_RELIGION</FlavorType>
-            <Flavor>75</Flavor>
-        </Row>
-        <Row>
-            <BuildingType>BUILDING_GREAT_SPHINX</BuildingType>
-            <FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
-            <Flavor>10</Flavor>
-        </Row>
+
 
         
 
-        <Row>
-			<BuildingType>BUILDING_PYRAMID</BuildingType>
-			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>45</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_PYRAMID</BuildingType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_PYRAMID</BuildingType>
-			<FlavorType>FLAVOR_WONDER</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_PYRAMID</BuildingType>
-			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
+
         <Row>
 			<BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
