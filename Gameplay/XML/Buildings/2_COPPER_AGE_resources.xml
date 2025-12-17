@@ -53,6 +53,20 @@
 			<Cost>20</Cost>
 		</Row>
 
+		<Row>
+			<BuildingType>BUILDING_STELE</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STELE</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>40</Cost>
+		</Row>
+
+
+
+
         <!-- амбар -->
 		<Row>
 			<BuildingType>BUILDING_GRANARY</BuildingType>

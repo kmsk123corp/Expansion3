@@ -295,23 +295,7 @@
 				<NeverCapture>false</NeverCapture>
 			</Set>
 		</Update>
-		<Replace>
-			<Type>BUILDING_STELE</Type>
-			<BuildingClass>BUILDINGCLASS_MONUMENT</BuildingClass>
-			<FreeStartEra>ERA_MEDIEVAL</FreeStartEra>
-			<Cost>40</Cost>
-			<PrereqTech>TECH_NOMAD</PrereqTech>
-			<GoldMaintenance>1</GoldMaintenance>
-			<Description>TXT_KEY_BUILDING_STELE</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_STELE_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_STELE_STRATEGY</Strategy>
-			<ArtDefineTag>MONUMENT</ArtDefineTag>
-			<MinAreaSize>-1</MinAreaSize>
-			<HurryCostModifier>40</HurryCostModifier>
-			<IconAtlas>EXPANSION_BW_ATLAS_1</IconAtlas>
-			<NeverCapture>true</NeverCapture>
-			<PortraitIndex>10</PortraitIndex>
-		</Replace>
+
 		<Update>
 			<Set ConquestProb="66"/>
 			<Where Type="BUILDING_MAYA_PYRAMID"/>
@@ -370,7 +354,7 @@
 		<Delete BuildingType="BUILDING_INTELLIGENCE_AGENCY"/>
 		<Delete BuildingType="BUILDING_GREAT_FIREWALL"/>
 
-		<Delete BuildingType="BUILDING_STELE"/>
+
 		<Delete BuildingType="BUILDING_CATHEDRAL"/>
 		<Delete BuildingType="BUILDING_MOSQUE"/>
 		<Delete BuildingType="BUILDING_PAGODA"/>
@@ -433,16 +417,7 @@
 			<Flavor>20</Flavor>
 		</Row>
 
-		<Row>
-			<BuildingType>BUILDING_STELE</BuildingType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_STELE</BuildingType>
-			<FlavorType>FLAVOR_RELIGION</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
 			<FlavorType>FLAVOR_RELIGION</FlavorType>
@@ -587,7 +562,7 @@
 		<Delete BuildingType="BUILDING_CATHEDRAL"/>
 		<Delete BuildingType="BUILDING_MOSQUE"/>
 		<Delete BuildingType="BUILDING_PAGODA"/>
-		<Delete BuildingType="BUILDING_STELE"/>
+
 		<Delete BuildingType="BUILDING_CEILIDH_HALL"/>
 
 		<Delete BuildingType="BUILDING_LEANING_TOWER"/>
@@ -628,16 +603,7 @@
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>2</Yield>
 		</Row>
-		<Row>
-			<BuildingType>BUILDING_STELE</BuildingType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_STELE</BuildingType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>2</Yield>
-		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_CEILIDH_HALL</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>

@@ -40,12 +40,7 @@
 
         
 
-        <!-- Пирамида (Майя) -->
-        <Row>
-			<BuildingType>BUILDING_MAYA_PYRAMID</BuildingType>
-			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>30</Cost>
-		</Row>
+
 
 
 
@@ -179,12 +174,7 @@
 
         
 
-        <!-- Пирамида (Майя) -->
-        <Row>
-			<BuildingType>BUILDING_MAYA_PYRAMID</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>2</Cost>
-		</Row>
+
 
 
 

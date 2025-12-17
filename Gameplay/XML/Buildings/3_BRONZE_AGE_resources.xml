@@ -60,6 +60,13 @@
 			<ResourceType>RESOURCE_MARBLE</ResourceType>
 			<Cost>10</Cost>
 		</Row>
+
+		<!-- Пирамида (Майя) -->
+		<Row>
+			<BuildingType>BUILDING_MAYA_PYRAMID</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>30</Cost>
+		</Row>
         
         <!-- Казарма -->
         <Row>
@@ -216,6 +223,13 @@
 			<BuildingType>BUILDING_CELTS_DRUIDS</BuildingType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
 			<Cost>1</Cost>
+		</Row>
+
+		<!-- Пирамида (Майя) -->
+		<Row>
+			<BuildingType>BUILDING_MAYA_PYRAMID</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>3</Cost>
 		</Row>
         
         <!-- Казарма -->

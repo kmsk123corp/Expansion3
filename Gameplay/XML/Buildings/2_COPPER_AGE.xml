@@ -92,6 +92,25 @@
 			<PortraitIndex>21</PortraitIndex>
 		</Row>
 
+		<!-- Стела -->
+		<Replace>
+			<Type>BUILDING_STELE</Type>
+			<BuildingClass>BUILDINGCLASS_MONUMENT</BuildingClass>
+			<FreeStartEra>ERA_MEDIEVAL</FreeStartEra>
+			<Cost>60</Cost>
+			<PrereqTech>TECH_NOMAD</PrereqTech>
+			<GoldMaintenance>1</GoldMaintenance>
+			<Description>TXT_KEY_BUILDING_STELE</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_STELE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_STELE_STRATEGY</Strategy>
+			<ArtDefineTag>MONUMENT</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>40</HurryCostModifier>
+			<IconAtlas>EXPANSION_BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>10</PortraitIndex>
+		</Replace>
+
         <!-- ############### -->
         <!-- Деревообработка -->
         <!-- ############### -->
@@ -386,10 +405,17 @@
     <!-- Производит -->
     <Building_YieldChanges>
 
+		<Delete BuildingType="BUILDING_STELE"/>
+
+		<Row>
+			<BuildingType>BUILDING_MELTINGFURNACE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
         <Row>
 			<BuildingType>BUILDING_COPPER_MINE</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_YUKOLA</BuildingType>
@@ -405,6 +431,16 @@
         <Row>
 			<BuildingType>BUILDING_MONUMENT</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STELE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STELE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>2</Yield>
 		</Row>
 
@@ -762,6 +798,8 @@
     <!-- Для ботов похоже... -->
     <Building_Flavors>
 
+		<Delete BuildingType="BUILDING_STELE"/>
+
         <Row>
 			<BuildingType>BUILDING_MELTINGFURNACE</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -797,6 +835,16 @@
         <Row>
 			<BuildingType>BUILDING_MONUMENT</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STELE</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STELE</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
 
