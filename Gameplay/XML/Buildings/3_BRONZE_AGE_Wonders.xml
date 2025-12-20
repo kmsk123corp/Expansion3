@@ -8,7 +8,7 @@
         <Row>
             <Type>BUILDING_GREAT_SPHINX</Type>
             <BuildingClass>BUILDINGCLASS_GREAT_SPHINX</BuildingClass>
-            <Cost>299</Cost>
+            <Cost>359</Cost>
             <PrereqTech>TECH_DRY_MASONRY</PrereqTech>
             <Help>TXT_KEY_BUILDING_GREAT_SPHINX_HELP</Help>
             <Description>TXT_KEY_BUILDINGS_GREAT_SPHINX</Description>
@@ -29,7 +29,7 @@
         <Row>
             <Type>BUILDING_PYRAMID</Type>
             <BuildingClass>BUILDINGCLASS_PYRAMID</BuildingClass>
-            <Cost>299</Cost>
+            <Cost>359</Cost>
             <PrereqTech>TECH_DRY_MASONRY</PrereqTech>
             <PolicyBranchType>POLICY_BRANCH_LIBERTY</PolicyBranchType>
             <Help>TXT_KEY_WONDER_CHICHEN_ITZA_HELP</Help>
@@ -56,7 +56,7 @@
         <Row>
 			<Type>BUILDING_LAWS_HAMMURABI</Type>
 			<BuildingClass>BUILDINGCLASS_LAWS_HAMMURABI</BuildingClass>
-			<Cost>299</Cost>
+			<Cost>359</Cost>
 			<PrereqTech>TECH_CODE_LAWS</PrereqTech>
 			<Description>TXT_KEY_BUILDINGS_LAWS_HAMMURABI</Description>
 			<Civilopedia>TXT_KEY_BUILDINGS_LAWS_HAMMURABI_TEXT</Civilopedia>

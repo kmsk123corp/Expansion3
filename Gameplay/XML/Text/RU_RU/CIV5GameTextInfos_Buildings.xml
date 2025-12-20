@@ -105,11 +105,7 @@
       <Gender>masculine</Gender>
       <Plurality>1</Plurality>
     </Row>
-    <Row Tag="TXT_KEY_BUILDING_FORGE">
-      <Text>Кузница|кузницы|кузнице|кузницу|кузницей|кузнице</Text>
-      <Gender>feminine</Gender>
-      <Plurality>1</Plurality>
-    </Row>
+
 
 
     <Row Tag="TXT_KEY_BUILDING_GREAT_LIBRARY">
@@ -302,11 +298,7 @@
       <Gender>masculine</Gender>
       <Plurality>1</Plurality>
     </Row>
-    <Row Tag="TXT_KEY_BUILDING_STABLE">
-      <Text>Конюшня|конюшни|конюшне|конюшню|конюшней|конюшне</Text>
-      <Gender>feminine</Gender>
-      <Plurality>1</Plurality>
-    </Row>
+
     <Row Tag="TXT_KEY_BUILDING_STATUE_OF_LIBERTY">
       <Text>Статуя Свободы|статуи Свободы|статуе Свободы|статую Свободы|статуей Свободы|статуе Свободы</Text>
       <Gender>feminine</Gender>

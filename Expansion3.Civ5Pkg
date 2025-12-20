@@ -99,6 +99,7 @@
     <!-- Локализация -->
     <TextData>KMSKMOD_Resources.xml</TextData>
     <TextData>KMSKMOD_Buildings.xml</TextData>
+    <TextData>KMSKMOD_Buildings_Wonders.xml</TextData>
     <TextData>KMSKMOD_Technologies.xml</TextData>
     <TextData>KMSKMOD_Units.xml</TextData>
     <TextData>KMSKMOD_new.xml</TextData>

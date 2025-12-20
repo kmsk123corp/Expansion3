@@ -202,9 +202,7 @@
       <Text>Требуется одна [ICON_RES_COAL] единица угля.</Text>
     </Row>
 
-    <Row Tag="TXT_KEY_BUILDING_FORGE_HELP">
-      <Text>Дает +15% [ICON_PRODUCTION] к производству при создании сухопутных юнитов.[NEWLINE][NEWLINE]Каждая обрабатываемая городом клетка с [ICON_RES_IRON] железом дает +1 [ICON_PRODUCTION] к производству.[NEWLINE][NEWLINE]Рядом с городом должен быть источник железа с улучшением в виде рудника.</Text>
-    </Row>
+
 
 
 
@@ -284,9 +282,7 @@
     <Row Tag="TXT_KEY_BUILDING_SPACESHIP_FACTORY_HELP">
       <Text>Дает +50% [ICON_PRODUCTION] к производству при строительстве деталей космического корабля. Требуется одна [ICON_RES_ALUMINUM] единица алюминия.[NEWLINE][NEWLINE]В городе должна быть фабрика.</Text>
     </Row>
-    <Row Tag="TXT_KEY_BUILDING_STABLE_HELP">
-      <Text>Дает +15% [ICON_PRODUCTION] к производству при создании кавалерийских подразделений.[NEWLINE][NEWLINE]Каждая обрабатываемая городом клетка с [ICON_RES_HORSE] лошадьми, [ICON_RES_SHEEP] овцами или [ICON_RES_COW] скотом дает +1 [ICON_PRODUCTION] к производству.[NEWLINE][NEWLINE]Город должен иметь поблизости хотя бы одно пастбище с этим ресурсом.</Text>
-    </Row>
+
     <Row Tag="TXT_KEY_BUILDING_STADIUM_HELP">
       <Text>В городе должен быть театр.</Text>
     </Row>
