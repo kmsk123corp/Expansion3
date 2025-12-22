@@ -1034,7 +1034,7 @@
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
-			<TechType>TECH_BRONZE_WORKING</TechType>
+			<TechType>TECH_CASTING_WAX_MODEL</TechType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>

@@ -19,6 +19,44 @@ local validUnitBuilds = nil;
 local validBuildingBuilds = nil;
 local validImprovementBuilds = nil;
 
+-- KMSK MOD
+local ImprovementIcons = {};
+ImprovementIcons['IMPROVEMENT_FARM'] = {Type='IMPROVEMENT_FARM', YieldBoostAtlas='TECH_ENH_ICONS_ATLAS', YieldBoostIndex=0};
+ImprovementIcons['IMPROVEMENT_CAMP'] = {Type='IMPROVEMENT_CAMP', YieldBoostAtlas='TECH_ENH_ICONS_ATLAS', YieldBoostIndex=1};
+ImprovementIcons['IMPROVEMENT_PASTURE'] = {Type='IMPROVEMENT_PASTURE', YieldBoostAtlas='TECH_ENH_ICONS_ATLAS', YieldBoostIndex=2};
+ImprovementIcons['IMPROVEMENT_PLANTATION'] = {Type='IMPROVEMENT_PLANTATION', YieldBoostAtlas='TECH_ENH_ICONS_ATLAS', YieldBoostIndex=3};
+ImprovementIcons['IMPROVEMENT_MINE'] = {Type='IMPROVEMENT_MINE', YieldBoostAtlas='TECH_ENH_ICONS_ATLAS', YieldBoostIndex=4};
+ImprovementIcons['IMPROVEMENT_QUARRY'] = {Type='IMPROVEMENT_QUARRY', YieldBoostAtlas='TECH_ENH_ICONS_ATLAS', YieldBoostIndex=5};
+ImprovementIcons['IMPROVEMENT_LUMBERMILL'] = {Type='IMPROVEMENT_LUMBERMILL', YieldBoostAtlas='TECH_ENH_ICONS_ATLAS', YieldBoostIndex=6};
+ImprovementIcons['IMPROVEMENT_TRADING_POST'] = {Type='IMPROVEMENT_TRADING_POST', YieldBoostAtlas='TECH_ENH_ICONS_ATLAS', YieldBoostIndex=7};
+
+ImprovementIcons['IMPROVEMENT_TERRACE_FARM'] = {Type='IMPROVEMENT_TERRACE_FARM', YieldBoostAtlas='TECH_ENH_ICONS_ATLAS', YieldBoostIndex=8};
+
+
+
+
+-- ImprovementIcons['IMPROVEMENT_FISHING_BOATS'] = {Type='IMPROVEMENT_FISHING_BOATS', YieldBoostAtlas='TECH_ENH_ICONS_ATLAS', YieldBoostIndex=7};
+
+-- ImprovementIcons['IMPROVEMENT_CHATEAU'] = {Type='IMPROVEMENT_CHATEAU', YieldBoostAtlas='TECH_ENH_ICONS_ATLAS', YieldBoostIndex=9};
+-- ImprovementIcons['IMPROVEMENT_MOAI'] = {Type='IMPROVEMENT_MOAI', YieldBoostAtlas='TECH_ENH_ICONS_ATLAS', YieldBoostIndex=10};
+
+-- ImprovementIcons['IMPROVEMENT_POLDER'] = {Type='IMPROVEMENT_POLDER', YieldBoostAtlas='TECH_ENH_ICONS_ATLAS', YieldBoostIndex=12};
+-- ImprovementIcons['IMPROVEMENT_BRAZILWOOD_CAMP'] = {Type='IMPROVEMENT_BRAZILWOOD_CAMP', YieldBoostAtlas='TECH_ENH_ICONS_ATLAS', YieldBoostIndex=13};
+-- ImprovementIcons['IMPROVEMENT_ACADEMY'] = {Type='IMPROVEMENT_ACADEMY', YieldBoostAtlas='TECH_ENH_ICONS_ATLAS', YieldBoostIndex=14};
+-- ImprovementIcons['IMPROVEMENT_CUSTOMS_HOUSE'] = {Type='IMPROVEMENT_CUSTOMS_HOUSE', YieldBoostAtlas='TECH_ENH_ICONS_ATLAS', YieldBoostIndex=15};
+-- ImprovementIcons['IMPROVEMENT_MANUFACTORY'] = {Type='IMPROVEMENT_MANUFACTORY', YieldBoostAtlas='TECH_ENH_ICONS_ATLAS', YieldBoostIndex=16};
+-- ImprovementIcons['IMPROVEMENT_HOLY_SITE'] = {Type='IMPROVEMENT_HOLY_SITE', YieldBoostAtlas='TECH_ENH_ICONS_ATLAS', YieldBoostIndex=44};
+
+function GetImprovementIconHookup(sImprovementType)
+	for k,v in pairs(ImprovementIcons) do
+		if (k == sImprovementType) then
+			return v.YieldBoostAtlas, v.YieldBoostIndex;
+		end
+	end
+	return "GENERIC_FUNC_ATLAS", 0;
+end
+-- KMSK MOD
+
 turnsString = Locale.ConvertTextKey("TXT_KEY_TURNS");
 freeString = Locale.ConvertTextKey("TXT_KEY_FREE");
 lockedString = "[ICON_LOCKED]"; --Locale.ConvertTextKey("TXT_KEY_LOCKED");
@@ -213,7 +251,12 @@ function AddSmallButtonsToTechButton( thisTechButtonInstance, tech, maxSmallButt
 		if(thisButton ~= nil) then
 			table.sort(v[2], function(a,b) return Locale.Compare(a,b) == -1 end);
 
-			IconHookup( 0, textureSize, "GENERIC_FUNC_ATLAS", thisButton );
+            -- KMSK MOD
+			--IconHookup( 0, textureSize, "GENERIC_FUNC_ATLAS", thisButton );
+			local sAtlas, iIcon = GetImprovementIconHookup(v[1]);
+			IconHookup( iIcon, textureSize, sAtlas, thisButton );
+			-- KMSK MOD
+
 			thisButton:SetHide( false );
 			thisButton:SetToolTipString(table.concat(v[2], "[NEWLINE]"));
 			buttonNum = buttonNum + 1;
@@ -226,7 +269,13 @@ function AddSmallButtonsToTechButton( thisTechButtonInstance, tech, maxSmallButt
 		local buttonName = "B"..tostring(buttonNum);
 		local thisButton = thisTechButtonInstance[buttonName];
 		if thisButton then
-			IconHookup( 0, textureSize, "GENERIC_FUNC_ATLAS", thisButton );
+
+			-- KMSK MOD
+            --IconHookup( 0, textureSize, "GENERIC_FUNC_ATLAS", thisButton );
+            local sAtlas, iIcon = GetImprovementIconHookup(row.ImprovementType);
+            IconHookup( iIcon, textureSize, sAtlas, thisButton );
+            -- KMSK MOD
+
 			thisButton:SetHide( false );
 			thisButton:SetToolTipString( Locale.ConvertTextKey("TXT_KEY_NO_FRESH_WATER", GameInfo.Improvements[row.ImprovementType].Description , GameInfo.Yields[row.YieldType].Description, row.Yield));
 			buttonNum = buttonNum + 1;
@@ -239,7 +288,13 @@ function AddSmallButtonsToTechButton( thisTechButtonInstance, tech, maxSmallButt
 		local buttonName = "B"..tostring(buttonNum);
 		local thisButton = thisTechButtonInstance[buttonName];
 		if thisButton then
-			IconHookup( 0, textureSize, "GENERIC_FUNC_ATLAS", thisButton );
+
+			-- KMSK MOD
+            --IconHookup( 0, textureSize, "GENERIC_FUNC_ATLAS", thisButton );
+            local sAtlas, iIcon = GetImprovementIconHookup(row.ImprovementType);
+            IconHookup( iIcon, textureSize, sAtlas, thisButton );
+            -- KMSK MOD
+
 			thisButton:SetHide( false );
 			thisButton:SetToolTipString( Locale.ConvertTextKey("TXT_KEY_FRESH_WATER", GameInfo.Improvements[row.ImprovementType].Description , GameInfo.Yields[row.YieldType].Description, row.Yield));
 			buttonNum = buttonNum + 1;
@@ -263,7 +318,12 @@ function AddSmallButtonsToTechButton( thisTechButtonInstance, tech, maxSmallButt
 		local buttonName = "B"..tostring(buttonNum);
 		local thisButton = thisTechButtonInstance[buttonName];
 		if thisButton then
-			IconHookup( 0, textureSize, "GENERIC_FUNC_ATLAS", thisButton );
+
+			-- KMSK MOD
+            --IconHookup( 0, textureSize, "GENERIC_FUNC_ATLAS", thisButton );
+            IconHookup( 18, textureSize, "TECH_ENH_ICONS_ATLAS", thisButton );
+            -- KMSK MOD
+
 			thisButton:SetHide( false );
 			thisButton:SetToolTipString( Locale.ConvertTextKey( "TXT_KEY_ALLOWS_EMBARKING" ) );
 			buttonNum = buttonNum + 1;
@@ -318,7 +378,7 @@ function AddSmallButtonsToTechButton( thisTechButtonInstance, tech, maxSmallButt
 		local buttonName = "B"..tostring(buttonNum);
 		local thisButton = thisTechButtonInstance[buttonName];
 		if thisButton then
-			IconHookup( 0, textureSize, "GENERIC_FUNC_ATLAS", thisButton );
+			IconHookup( 21, textureSize, "TECH_ENH_ICONS_ATLAS", thisButton );
 			thisButton:SetHide( false );
 			thisButton:SetToolTipString( Locale.ConvertTextKey( "TXT_KEY_ALLOWS_EMBASSY" ) );
 			buttonNum = buttonNum + 1;
@@ -329,7 +389,12 @@ function AddSmallButtonsToTechButton( thisTechButtonInstance, tech, maxSmallButt
 		local buttonName = "B"..tostring(buttonNum);
 		local thisButton = thisTechButtonInstance[buttonName];
 		if thisButton then
-			IconHookup( 0, textureSize, "GENERIC_FUNC_ATLAS", thisButton );
+
+			-- KMSK MOD
+            --IconHookup( 0, textureSize, "GENERIC_FUNC_ATLAS", thisButton );
+            IconHookup( 16, textureSize, "TECH_ENH_ICONS_ATLAS", thisButton );
+            -- KMSK MOD
+
 			thisButton:SetHide( false );
 			thisButton:SetToolTipString( Locale.ConvertTextKey( "TXT_KEY_ALLOWS_OPEN_BORDERS" ) );
 			buttonNum = buttonNum + 1;
@@ -395,7 +460,7 @@ function AddSmallButtonsToTechButton( thisTechButtonInstance, tech, maxSmallButt
 		local buttonName = "B"..tostring(buttonNum);
 		local thisButton = thisTechButtonInstance[buttonName];
 		if thisButton then
-			IconHookup( 0, textureSize, "GENERIC_FUNC_ATLAS", thisButton );
+			IconHookup( 17, textureSize, "TECH_ENH_ICONS_ATLAS", thisButton );
 			thisButton:SetHide( false );
 			thisButton:SetToolTipString( Locale.ConvertTextKey( "TXT_KEY_ADDITIONAL_INTERNATIONAL_TRADE_ROUTE" ) );
 			buttonNum = buttonNum + 1;
@@ -475,7 +540,14 @@ function AddSmallButtonsToTechButton( thisTechButtonInstance, tech, maxSmallButt
 			local buttonName = "B"..tostring(buttonNum);
 			local thisButton = thisTechButtonInstance[buttonName];
 			if thisButton then
-				IconHookup( 0, textureSize, "GENERIC_FUNC_ATLAS", thisButton );
+				-- REALISM MOD START
+                IconHookup( 0, textureSize, "GENERIC_FUNC_ATLAS", thisButton );
+--                 if (GameInfo.Domains[row.DomainType].ID == DomainTypes.DOMAIN_LAND) then
+--                     IconHookup( 19, textureSize, "Resources_IconAtlas", thisButton );
+--                 elseif (GameInfo.Domains[row.DomainType].ID == DomainTypes.DOMAIN_SEA) then
+--                 	IconHookup( 20, textureSize, "Resources_IconAtlas", thisButton );
+--                 end
+                -- REALISM MOD END
 				thisButton:SetHide( false );
 				if (GameInfo.Domains[row.DomainType].ID == DomainTypes.DOMAIN_LAND) then
 					thisButton:SetToolTipString( Locale.ConvertTextKey( "TXT_KEY_EXTENDS_LAND_TRADE_ROUTE_RANGE" ) );
@@ -533,7 +605,22 @@ function AddSmallButtonsToTechButton( thisTechButtonInstance, tech, maxSmallButt
 			break;
 		end
 	end
-	
+
+-- 	if tech.ResourcePercentBonus > 0 and tech.ResourceTypeBonus ~= "NO_RESOURCE" then
+--     	local buttonName = "B"..tostring(buttonNum);
+--     	local thisButton = thisTechButtonInstance[buttonName];
+--     	local thisResourceInfo = GameInfo.Resources[tech.ResourceTypeBonus];
+--     	if thisButton and thisResourceInfo then
+--     		AdjustArtOnGrantedResourceButton( thisButton, thisResourceInfo, textureSize );
+--     		thisButton:SetHide( false );
+--     		thisButton:SetToolTipString( Locale.ConvertTextKey( "TXT_KEY_TECH_RESOURCE_BONUS", tech.ResourcePercentBonus, thisResourceInfo.IconString) );
+--     		buttonNum = buttonNum + 1;
+--     	end
+--     end
+
+
+
+
 	return buttonNum;
 	
 end

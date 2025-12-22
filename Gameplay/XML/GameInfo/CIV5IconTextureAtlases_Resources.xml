@@ -4,6 +4,7 @@
 	<!-- Table data -->
 	<IconTextureAtlases>
 
+		<!-- Дополнительные иконки-->
 		<Row>
 			<Atlas>TECH_ENH_ICONS_ATLAS</Atlas>
 			<IconSize>256</IconSize>
@@ -11,8 +12,38 @@
 			<IconsPerRow>8</IconsPerRow>
 			<IconsPerColumn>8</IconsPerColumn>
 		</Row>
+		<Row>
+			<Atlas>TECH_ENH_ICONS_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>Art/icons/Kmskmod_EnhIcons128.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>TECH_ENH_ICONS_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>Art/icons/Kmskmod_EnhIcons80.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>TECH_ENH_ICONS_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>Art/icons/Kmskmod_EnhIcons64.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>TECH_ENH_ICONS_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>Art/icons/Kmskmod_EnhIcons45.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
 
 
+
+		<!-- Ресурсы-->
 		<Row>
 			<Atlas>Resources_IconAtlas</Atlas>
 			<IconSize>256</IconSize>
