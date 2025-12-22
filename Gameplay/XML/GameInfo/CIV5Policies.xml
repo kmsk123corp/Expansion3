@@ -327,6 +327,8 @@
 	</IconTextureAtlases>
 	<!-- Table data -->
 	<Policies>
+
+		<!-- Воля (открытие) -->
 		<Row>
 			<ID>0</ID>
 			<Type>POLICY_LIBERTY</Type>
@@ -338,6 +340,8 @@
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
+
+		<!-- Совместное управление (поселенцы) -->
 		<Row>
 			<Type>POLICY_COLLECTIVE_RULE</Type>
 			<Description>TXT_KEY_POLICY_COLLECTIVE_RULE</Description>
@@ -346,13 +350,15 @@
 			<PolicyBranchType>POLICY_BRANCH_LIBERTY</PolicyBranchType>
 			<CultureCost>10</CultureCost>
 			<IncludesOneShotFreeUnits>true</IncludesOneShotFreeUnits>
-			<GridX>1</GridX>
+			<GridX>2</GridX>
 			<GridY>2</GridY>
 			<CapitalSettlerProductionModifier>50</CapitalSettlerProductionModifier>
 			<PortraitIndex>1</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS_EXP2</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS_EXP2</IconAtlasAchieved>
 		</Row>
+
+		<!-- Гражданство (рабочие) -->
 		<Row>
 			<Type>POLICY_CITIZENSHIP</Type>
 			<Description>TXT_KEY_POLICY_CITIZENSHIP</Description>
@@ -361,13 +367,15 @@
 			<PolicyBranchType>POLICY_BRANCH_LIBERTY</PolicyBranchType>
 			<CultureCost>10</CultureCost>
 			<IncludesOneShotFreeUnits>true</IncludesOneShotFreeUnits>
-			<GridX>4</GridX>
+			<GridX>1</GridX>
 			<GridY>1</GridY>
 			<WorkerSpeedModifier>25</WorkerSpeedModifier>
 			<PortraitIndex>26</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
+
+		<!-- Республика (промка) -->
 		<Row>
 			<Type>POLICY_REPUBLIC</Type>
 			<Description>TXT_KEY_POLICY_REPUBLIC</Description>
@@ -375,13 +383,15 @@
 			<Help>TXT_KEY_POLICY_REPUBLIC_HELP</Help>
 			<PolicyBranchType>POLICY_BRANCH_LIBERTY</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<GridX>1</GridX>
+			<GridX>5</GridX>
 			<GridY>1</GridY>
-			<BuildingProductionModifier>5</BuildingProductionModifier>
+			<BuildingProductionModifier>10</BuildingProductionModifier>
 			<PortraitIndex>27</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
+
+		<!-- Представительство (культура -33%, золотой век) -->
 		<Row>
 			<Type>POLICY_REPRESENTATION</Type>
 			<Description>TXT_KEY_POLICY_REPRESENTATION</Description>
@@ -389,7 +399,7 @@
 			<Help>TXT_KEY_POLICY_REPRESENTATION_HELP</Help>
 			<PolicyBranchType>POLICY_BRANCH_LIBERTY</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<GridX>3</GridX>
+			<GridX>4</GridX>
 			<GridY>2</GridY>
 			<GoldenAgeTurns>10</GoldenAgeTurns>
 			<NumCitiesPolicyCostDiscount>-33</NumCitiesPolicyCostDiscount>
@@ -397,6 +407,8 @@
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
+
+		<!-- Меритократия (недовольство, дороги) -->
 		<Row>
 			<Type>POLICY_MERITOCRACY</Type>
 			<Description>TXT_KEY_POLICY_MERITOCRACY</Description>
@@ -404,14 +416,17 @@
 			<Help>TXT_KEY_POLICY_MERITOCRACY_HELP</Help>
 			<PolicyBranchType>POLICY_BRANCH_LIBERTY</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<GridX>5</GridX>
-			<GridY>2</GridY>
+			<GridX>3</GridX>
+			<GridY>3</GridY>
 			<HappinessPerTradeRoute>100</HappinessPerTradeRoute>
-			<UnhappinessMod>-5</UnhappinessMod>
+			<UnhappinessMod>-10</UnhappinessMod>
 			<PortraitIndex>29</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
+
+
+		<!-- Традиция -->
 		<Row>
 			<Type>POLICY_TRADITION</Type>
 			<Description>TXT_KEY_POLICY_TRADITION</Description>
@@ -422,21 +437,8 @@
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
-		<Row>
-			<Type>POLICY_ARISTOCRACY</Type>
-			<Description>TXT_KEY_POLICY_ARISTOCRACY</Description>
-			<Civilopedia>TXT_KEY_POLICY_ARISTOCRACY_TEXT</Civilopedia>
-			<Help>TXT_KEY_POLICY_ARISTOCRACY_HELP</Help>
-			<PolicyBranchType>POLICY_BRANCH_TRADITION</PolicyBranchType>
-			<CultureCost>10</CultureCost>
-			<GridX>1</GridX>
-			<GridY>1</GridY>
-			<WonderProductionModifier>15</WonderProductionModifier>
-			<HappinessPerXPopulation>10</HappinessPerXPopulation>
-			<PortraitIndex>55</PortraitIndex>
-			<IconAtlas>POLICY_ATLAS</IconAtlas>
-			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
-		</Row>
+
+		<!-- Олигархия -->
 		<Row>
 			<Type>POLICY_OLIGARCHY</Type>
 			<Description>TXT_KEY_POLICY_OLIGARCHY</Description>
@@ -452,6 +454,8 @@
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
+
+		<!-- Легализм -->
 		<Row>
 			<Type>POLICY_LEGALISM</Type>
 			<Description>TXT_KEY_POLICY_LEGALISM</Description>
@@ -467,6 +471,8 @@
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
+
+		<!-- Зем. Элита -->
 		<Row>
 			<Type>POLICY_LANDED_ELITE</Type>
 			<Description>TXT_KEY_POLICY_LANDED_ELITE</Description>
@@ -474,13 +480,32 @@
 			<Help>TXT_KEY_POLICY_LANDED_ELITE_HELP</Help>
 			<PolicyBranchType>POLICY_BRANCH_TRADITION</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<GridX>2</GridX>
+			<GridX>1</GridX>
 			<GridY>3</GridY>
 			<CapitalGrowthMod>10</CapitalGrowthMod>
 			<PortraitIndex>58</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
+
+		<!-- Аристократия -->
+		<Row>
+			<Type>POLICY_ARISTOCRACY</Type>
+			<Description>TXT_KEY_POLICY_ARISTOCRACY</Description>
+			<Civilopedia>TXT_KEY_POLICY_ARISTOCRACY_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_ARISTOCRACY_HELP</Help>
+			<PolicyBranchType>POLICY_BRANCH_TRADITION</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>3</GridX>
+			<GridY>3</GridY>
+			<WonderProductionModifier>15</WonderProductionModifier>
+			<HappinessPerXPopulation>10</HappinessPerXPopulation>
+			<PortraitIndex>55</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+
+		<!-- Монархия -->
 		<Row>
 			<Type>POLICY_MONARCHY</Type>
 			<Description>TXT_KEY_POLICY_MONARCHY</Description>
@@ -488,13 +513,15 @@
 			<Help>TXT_KEY_POLICY_MONARCHY_HELP</Help>
 			<PolicyBranchType>POLICY_BRANCH_TRADITION</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<GridX>4</GridX>
+			<GridX>5</GridX>
 			<GridY>3</GridY>
 			<CapitalUnhappinessMod>-50</CapitalUnhappinessMod>
 			<PortraitIndex>59</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
+
+		<!-- Честь -->
 		<Row>
 			<Type>POLICY_HONOR</Type>
 			<Description>TXT_KEY_POLICY_BRANCH_HONOR</Description>
@@ -3533,24 +3560,36 @@
 		</Row>
 	</Policy_Flavors>
 	<Policy_PrereqPolicies>
+
 		<Row>
 			<PolicyType>POLICY_COLLECTIVE_RULE</PolicyType>
-			<PrereqPolicy>POLICY_REPUBLIC</PrereqPolicy>
+			<PrereqPolicy>POLICY_CITIZENSHIP</PrereqPolicy>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_REPRESENTATION</PolicyType>
-			<PrereqPolicy>POLICY_CITIZENSHIP</PrereqPolicy>
+			<PrereqPolicy>POLICY_REPUBLIC</PrereqPolicy>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_MERITOCRACY</PolicyType>
-			<PrereqPolicy>POLICY_CITIZENSHIP</PrereqPolicy>
+			<PrereqPolicy>POLICY_COLLECTIVE_RULE</PrereqPolicy>
 		</Row>
+		<Row>
+			<PolicyType>POLICY_MERITOCRACY</PolicyType>
+			<PrereqPolicy>POLICY_REPRESENTATION</PrereqPolicy>
+		</Row>
+
+
+
 		<Row>
 			<PolicyType>POLICY_LEGALISM</PolicyType>
 			<PrereqPolicy>POLICY_OLIGARCHY</PrereqPolicy>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_LANDED_ELITE</PolicyType>
+			<PrereqPolicy>POLICY_LEGALISM</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ARISTOCRACY</PolicyType>
 			<PrereqPolicy>POLICY_LEGALISM</PrereqPolicy>
 		</Row>
 		<Row>

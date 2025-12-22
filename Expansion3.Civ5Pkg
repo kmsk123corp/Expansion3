@@ -122,9 +122,10 @@
     <GameData>KMSK_Units_Seige.xml</GameData>
 
 
-
-
-
+    <!-- <TextData>CIV5GameTextInfos_Jon.xml</TextData> -->
+    <!-- <TextData>CIV5GameTextInfos_Jon_Expansion.xml</TextData> -->
+    <TextData>CIV5GameTextInfos_Jon_Expansion2.xml</TextData>
+    <TextData>CIV5GameTextInfos_Jon_Inherited_Expansion2.xml</TextData>
 
     <TextData>CIV5GameTextInfos_InGameScreens_Inherited_Expansion2.xml</TextData>
     <TextData>CIV5GameTextInfos_InGameScreens_Expansion2.xml</TextData>
@@ -159,8 +160,8 @@
     <TextData>CIV5GameTextInfos_Traits_Expansion2.xml</TextData>
     <TextData>CIV5GameTextInfos_Units_Inherited_Expansion2.xml</TextData>
     <TextData>CIV5GameTextInfos_Units_Expansion2.xml</TextData>
-    <TextData>CIV5GameTextInfos_Jon_Inherited_Expansion2.xml</TextData>
-    <TextData>CIV5GameTextInfos_Jon_Expansion2.xml</TextData>
+
+
     <TextData>CIV5GameTextInfos2_Inherited_Expansion2.xml</TextData>
     <TextData>CIV5GameTextInfos2_Expansion2.xml</TextData>
     <TextData>CIV5GameTextInfos_Advisors_Expansion2.xml</TextData>

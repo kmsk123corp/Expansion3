@@ -2750,7 +2750,7 @@
       <Text>Меритократия</Text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_MERITOCRACY_HELP">
-      <Text>[COLOR_POSITIVE_TEXT]Меритократия[ENDCOLOR][NEWLINE]Улучшает на +1 [ICON_HAPPINESS_1] настроение каждого города, [ICON_CONNECTED] связанного со [ICON_CAPITAL] столицей. Сокращает на 5% [ICON_HAPPINESS_4] недовольство от [ICON_CITIZEN] граждан в неоккупированных городах.</Text>
+      <Text>[COLOR_POSITIVE_TEXT]Меритократия[ENDCOLOR][NEWLINE]Улучшает на +1 [ICON_HAPPINESS_1] настроение каждого города, [ICON_CONNECTED] связанного со [ICON_CAPITAL] столицей. Сокращает на 10% [ICON_HAPPINESS_4] недовольство от [ICON_CITIZEN] граждан в неоккупированных городах.</Text>
     </Row>
     <Row Tag="TXT_KEY_POLICY_MILITARISM">
       <Text>Милитаризм</Text>

@@ -501,18 +501,18 @@
 
         <Row>
 			<BuildingType>BUILDING_DOLMEN</BuildingType>
-			<YieldType>YIELD_FAITH</YieldType>
+			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_STONEHENGE</BuildingType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_STONEHENGE</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
+			<Yield>3</Yield>
 		</Row>
 
         <Row>
@@ -700,14 +700,26 @@
         <Row>
 			<BuildingType>BUILDING_STONEHENGE</BuildingType>
 			<ResourceType>RESOURCE_MARBLE</ResourceType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>3</Yield>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STONEHENGE</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_STONEHENGE</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>3</Yield>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STONEHENGE</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
 		</Row>
 
     </Building_ResourceYieldChanges>
@@ -1101,8 +1113,8 @@
         </Row>
         <Row>
 			<BuildingType>BUILDING_DOLMEN</BuildingType>
-			<FlavorType>FLAVOR_RELIGION</FlavorType>
-			<Flavor>40</Flavor>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>50</Flavor>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_STONEHENGE</BuildingType>

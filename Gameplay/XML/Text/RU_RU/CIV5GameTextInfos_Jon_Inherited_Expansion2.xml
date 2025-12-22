@@ -4,6 +4,17 @@
 <!--All Rights Reserved-->
 <GameData>
   <Language_RU_RU>
+
+    <Row Tag="TXT_KEY_POLICY_MERITOCRACY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Меритократия[ENDCOLOR][NEWLINE]Улучшает на +1 [ICON_HAPPINESS_1] настроение каждого города, [ICON_CONNECTED] связанного со [ICON_CAPITAL] столицей. Сокращает на 10% [ICON_HAPPINESS_4] недовольство от [ICON_CITIZEN] граждан в неоккупированных городах.[NEWLINE][NEWLINE][COLOR:116:0:182:255]Открывает постройку Великих Пирамид.[/COLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ARISTOCRACY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Аристократия[ENDCOLOR][NEWLINE]Увеличивает на 15% [ICON_PRODUCTION] производство при постройке чудес и дает +1 [ICON_HAPPINESS_1] к настроению за каждые 10 [ICON_CITIZEN] жителей в городе.[NEWLINE][NEWLINE][COLOR:116:0:182:255]Открывает постройку Висячие Сады.[/COLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_REPUBLIC_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Республика[ENDCOLOR][NEWLINE]Увеличивает на +1 [ICON_PRODUCTION] производство в каждом городе и на +10% [ICON_PRODUCTION] производство при строительстве зданий.</Text>
+    </Row>
+
     <Row Tag="TXT_KEY_AFRAID">
       <Text>Напуганный</Text>
     </Row>

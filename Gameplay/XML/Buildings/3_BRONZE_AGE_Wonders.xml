@@ -31,7 +31,7 @@
             <BuildingClass>BUILDINGCLASS_PYRAMID</BuildingClass>
             <Cost>359</Cost>
             <PrereqTech>TECH_DRY_MASONRY</PrereqTech>
-            <PolicyBranchType>POLICY_BRANCH_LIBERTY</PolicyBranchType>
+            <PolicyBranchType>POLICY_MERITOCRACY</PolicyBranchType>
             <Help>TXT_KEY_WONDER_CHICHEN_ITZA_HELP</Help>
             <Description>TXT_KEY_BUILDING_PYRAMID</Description>
             <Civilopedia>TXT_KEY_WONDER_PYRAMIDS_DESC</Civilopedia>
