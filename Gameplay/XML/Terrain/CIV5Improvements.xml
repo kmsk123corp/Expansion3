@@ -1026,12 +1026,15 @@
 	</Improvement_ResourceType_Yields>
 	<Improvement_TechYieldChanges>
 
+		<!-- Обработка бронзы (ШАХТА) -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
 			<TechType>TECH_BRONZE_WORKING</TechType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
+
+		<!-- Литье по восковой модели (ЛЕСОПИЛКА) -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
 			<TechType>TECH_CASTING_WAX_MODEL</TechType>
@@ -1039,12 +1042,40 @@
 			<Yield>1</Yield>
 		</Row>
 
+		<!-- Кузнечное дело (ШАХТА) -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
-			<TechType>TECH_IRON_WORKING</TechType>
+			<TechType>TECH_BLACKSMITHING</TechType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
+
+		<!-- Двуручная пила (ЛЕСОПИЛКА) -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+			<TechType>TECH_TWO_HANDED_SAW</TechType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<!-- Математика (ВЫГОНЫ, ПАСТБИЩА) -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<TechType>TECH_MATHEMATICS</TechType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<!-- Математика (ЛАГЕРЯ) -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
+			<TechType>TECH_MATHEMATICS</TechType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+
+
 
 		<Row>
 			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
@@ -1131,7 +1162,7 @@
 		</Row> -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
-			<TechType>TECH_IRRIGATION</TechType>
+			<TechType>TECH_MASONRY</TechType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>

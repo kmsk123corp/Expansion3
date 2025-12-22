@@ -8,7 +8,7 @@
         <Row>
             <Type>BUILDING_GREAT_SPHINX</Type>
             <BuildingClass>BUILDINGCLASS_GREAT_SPHINX</BuildingClass>
-            <Cost>359</Cost>
+            <Cost>746</Cost>
             <PrereqTech>TECH_DRY_MASONRY</PrereqTech>
             <Help>TXT_KEY_BUILDING_GREAT_SPHINX_HELP</Help>
             <Description>TXT_KEY_BUILDINGS_GREAT_SPHINX</Description>
@@ -29,7 +29,7 @@
         <Row>
             <Type>BUILDING_PYRAMID</Type>
             <BuildingClass>BUILDINGCLASS_PYRAMID</BuildingClass>
-            <Cost>359</Cost>
+            <Cost>1494</Cost>
             <PrereqTech>TECH_DRY_MASONRY</PrereqTech>
             <PolicyBranchType>POLICY_MERITOCRACY</PolicyBranchType>
             <Help>TXT_KEY_WONDER_CHICHEN_ITZA_HELP</Help>
@@ -38,6 +38,7 @@
             <Quote>TXT_KEY_WONDER_PYRAMIDS_QUOTE</Quote>
             <ArtDefineTag>THE PYRAMIDS</ArtDefineTag>
             <MaxStartEra>ERA_CLASSICAL</MaxStartEra>
+            <UnmoddedHappiness>10</UnmoddedHappiness>
             <SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
             <GreatPeopleRateChange>1</GreatPeopleRateChange>
             <NukeImmune>true</NukeImmune>
@@ -56,7 +57,7 @@
         <Row>
 			<Type>BUILDING_LAWS_HAMMURABI</Type>
 			<BuildingClass>BUILDINGCLASS_LAWS_HAMMURABI</BuildingClass>
-			<Cost>359</Cost>
+			<Cost>598</Cost>
 			<PrereqTech>TECH_CODE_LAWS</PrereqTech>
 			<Description>TXT_KEY_BUILDINGS_LAWS_HAMMURABI</Description>
 			<Civilopedia>TXT_KEY_BUILDINGS_LAWS_HAMMURABI_TEXT</Civilopedia>
@@ -97,12 +98,12 @@
         <Row>
             <BuildingType>BUILDING_PYRAMID</BuildingType>
             <YieldType>YIELD_CULTURE</YieldType>
-            <Yield>6</Yield>
+            <Yield>5</Yield>
         </Row>
         <Row>
 			<BuildingType>BUILDING_LAWS_HAMMURABI</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>3</Yield>
+			<Yield>5</Yield>
 		</Row>
         
     </Building_YieldChanges>

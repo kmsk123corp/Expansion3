@@ -918,21 +918,23 @@
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 			<PortraitIndex>10</PortraitIndex>
 		</Row>
-		
-		<!-- Канализация и дренаж -->
+
+		<!-- Известковый раствор -->
 		<Row>
-			<Type>TECH_SEWAGE_SYSTEM</Type>
-			<Cost>259</Cost>
-			<Description>Канализация и дренаж</Description>
-			<Civilopedia>TXT_KEY_TECH_SEWAGE_SYSTEM_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_SEWAGE_SYSTEM_HELP</Help>
+			<Type>TECH_LIME_MORTAR</Type>
+			<Cost>324</Cost>
+			<Description>Известковый раствор</Description>
+			<Civilopedia>TXT_KEY_TECH_LIME_MORTAR_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_LIME_MORTAR_HELP</Help>
 			<Era>ERA_ANCIENT</Era>
 			<Trade>true</Trade>
 			<GridX>9</GridX>
 			<GridY>5</GridY>
 			<IconAtlas>Technologies_IconAtlas</IconAtlas>
-			<PortraitIndex>43</PortraitIndex>
+			<PortraitIndex>44</PortraitIndex>
 		</Row>
+		
+
 		
 		<!-- ################### -->
 		<!--       GridX 10       -->
@@ -971,20 +973,20 @@
 			<IconAtlas>Technologies_IconAtlas</IconAtlas>
 			<PortraitIndex>25</PortraitIndex>
 		</Row>
-		
-		<!-- Известковый раствор -->
+
+		<!-- Канализация и дренаж -->
 		<Row>
-			<Type>TECH_LIME_MORTAR</Type>
-			<Cost>324</Cost>
-			<Description>Известковый раствор</Description>
-			<Civilopedia>TXT_KEY_TECH_LIME_MORTAR_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_LIME_MORTAR_HELP</Help>
+			<Type>TECH_SEWAGE_SYSTEM</Type>
+			<Cost>259</Cost>
+			<Description>Канализация и дренаж</Description>
+			<Civilopedia>TXT_KEY_TECH_SEWAGE_SYSTEM_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_SEWAGE_SYSTEM_HELP</Help>
 			<Era>ERA_ANCIENT</Era>
 			<Trade>true</Trade>
 			<GridX>10</GridX>
 			<GridY>5</GridY>
 			<IconAtlas>Technologies_IconAtlas</IconAtlas>
-			<PortraitIndex>44</PortraitIndex>
+			<PortraitIndex>43</PortraitIndex>
 		</Row>
 		
 		<!-- Композитный лук -->
@@ -4183,7 +4185,7 @@
 			<PrereqTech>TECH_MASONRY</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_SEWAGE_SYSTEM</TechType>
+			<TechType>TECH_LIME_MORTAR</TechType>
 			<PrereqTech>TECH_MASONRY</PrereqTech>
 		</Row>
 		
@@ -4196,10 +4198,12 @@
 			<TechType>TECH_TWO_HANDED_SAW</TechType>
 			<PrereqTech>TECH_BLACKSMITHING</PrereqTech>
 		</Row>
+
 		<Row>
-			<TechType>TECH_LIME_MORTAR</TechType>
-			<PrereqTech>TECH_SEWAGE_SYSTEM</PrereqTech>
+			<TechType>TECH_SEWAGE_SYSTEM</TechType>
+			<PrereqTech>TECH_LIME_MORTAR</PrereqTech>
 		</Row>
+
 		<Row>
 			<TechType>TECH_COMPOSITE_BOW</TechType>
 			<PrereqTech>TECH_BLACKSMITHING</PrereqTech>
@@ -4232,11 +4236,11 @@
 		</Row>
 		<Row>
 			<TechType>TECH_CURRENCY</TechType>
-			<PrereqTech>TECH_LIME_MORTAR</PrereqTech>
+			<PrereqTech>TECH_SEWAGE_SYSTEM</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_CERAMIC_BRICK</TechType>
-			<PrereqTech>TECH_LIME_MORTAR</PrereqTech>
+			<PrereqTech>TECH_SEWAGE_SYSTEM</PrereqTech>
 		</Row>
 		
 		<!-- Античность [1] row 12 -->

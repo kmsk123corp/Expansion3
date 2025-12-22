@@ -337,7 +337,7 @@
         <Row>
 			<Type>BUILDING_STONEHENGE</Type>
 			<BuildingClass>BUILDINGCLASS_STONEHENGE</BuildingClass>
-			<Cost>240</Cost>
+			<Cost>299</Cost>
 			<PrereqTech>TECH_MEGALITH</PrereqTech>
 			<Description>TXT_KEY_BUILDING_STONEHENGE</Description>
 			<Civilopedia>TXT_KEY_WONDER_STONEHENGE_DESC</Civilopedia>

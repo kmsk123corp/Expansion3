@@ -9,42 +9,72 @@
 		<!-- Большой сфинкс -->
 		<Row>
 			<BuildingType>BUILDING_GREAT_SPHINX</BuildingType>
-			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>250</Cost>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>200</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_GREAT_SPHINX</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>125</Cost>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>400</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_SPHINX</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_SPHINX</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_SPHINX</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<Cost>200</Cost>
 		</Row>
 
 		<!-- Пирамиды -->
 		<Row>
 			<BuildingType>BUILDING_PYRAMID</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>400</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PYRAMID</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>500</Cost>
+			<Cost>800</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PYRAMID</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>200</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PYRAMID</BuildingType>
 			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>100</Cost>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PYRAMID</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<Cost>400</Cost>
 		</Row>
 
 		<!-- Законы Хаммурапи -->
         <Row>
 			<BuildingType>BUILDING_LAWS_HAMMURABI</BuildingType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>300</Cost>
+			<Cost>600</Cost>
 		</Row>
-        <Row>
-			<BuildingType>BUILDING_LAWS_HAMMURABI</BuildingType>
-			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>100</Cost>
-		</Row>
+<!--        <Row>-->
+<!--			<BuildingType>BUILDING_LAWS_HAMMURABI</BuildingType>-->
+<!--			<ResourceType>RESOURCE_STONE</ResourceType>-->
+<!--			<Cost>200</Cost>-->
+<!--		</Row>-->
         <Row>
 			<BuildingType>BUILDING_LAWS_HAMMURABI</BuildingType>
 			<ResourceType>RESOURCE_MARBLE</ResourceType>
-			<Cost>100</Cost>
+			<Cost>200</Cost>
 		</Row>
 
     </Building_ResourceCostRequirements>
@@ -52,6 +82,13 @@
 
     <!-- Производит ресурсов -->
     <Building_ResourceQuantity>
+
+		<!-- Пирамиды -->
+		<Row>
+			<BuildingType>BUILDING_PYRAMID</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Quantity>20</Quantity>
+		</Row>
 
     </Building_ResourceQuantity>
 
