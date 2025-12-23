@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- edited koba | 01.02.2024 -->
+<!-- edited KOBA | 23.12.2025 -->
 <GameData>
+
+    <!-- ####################################################################### -->
+    <!-- 				   		        Неолит  				  			     -->
+    <!-- ####################################################################### -->
+
+    <!-- NAME                   --> <!-- Трудозатраты --> <!--      Название     -->
+
+    <!-- BUILDING_CITYWALL 			          60          Деревянный частокол    -->
+    <!-- BUILDING_FISH_HOUSE 		          40          Рыбацкая хижина        -->
+    <!-- BUILDING_CELLAR 			          40          Погреб                 -->
+    <!-- BUILDING_POTTERY_WORKSHOP 	          60          Гончарная мастерская   -->
+    <!-- BUILDING_CHARCOAL_BURNER 	          20          Углежогная яма         -->
+    <!-- BUILDING_TANNER_HOUSE 		          40          Кожевая мастерская     -->
 
     <Buildings>
 
@@ -134,6 +147,7 @@
 
     </Buildings>
 
+
     <!-- Производит -->
     <Building_YieldChanges>
 
@@ -158,12 +172,11 @@
             <Yield>1</Yield>
         </Row>
 
-
     </Building_YieldChanges>
+
 
     <!-- Проценты к производству -->
     <Building_YieldModifiers>
-
 
     </Building_YieldModifiers>
 
@@ -177,9 +190,9 @@
         </Row>
     </Building_LakePlotYieldChanges>
 
+
     <!-- Улучшает клетки с ресурсами -->
     <Building_ResourceYieldChanges>
-
 
         <Row>
             <BuildingType>BUILDING_TANNER_HOUSE</BuildingType>
@@ -218,6 +231,7 @@
             <Yield>1</Yield>
         </Row>
     </Building_ResourceYieldChanges>
+
 
     <!-- Может быть построенно только с этим ресурсом -->
     <Building_LocalResourceOrs>
@@ -280,6 +294,7 @@
     <Building_ClassesNeededInCity>
 
     </Building_ClassesNeededInCity>
+
 
     <!-- Для ботов похоже... -->
     <Building_Flavors>

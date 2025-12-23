@@ -2,6 +2,19 @@
 <!-- edited koba | 01.02.2024 -->
 <GameData>
 
+	<!-- ####################################################################### -->
+	<!-- 				   		        Неолит  				  			     -->
+	<!-- ####################################################################### -->
+
+	<!-- NAME                   --> <!-- Трудозатраты --> <!--      Название     -->
+
+	<!-- BUILDING_CITYWALL 			          60          Деревянный частокол    -->
+	<!-- BUILDING_FISH_HOUSE 		          40          Рыбацкая хижина        -->
+	<!-- BUILDING_CELLAR 			          40          Погреб                 -->
+	<!-- BUILDING_POTTERY_WORKSHOP 	          60          Гончарная мастерская   -->
+	<!-- BUILDING_CHARCOAL_BURNER 	          20          Углежогная яма         -->
+	<!-- BUILDING_TANNER_HOUSE 		          40          Кожевая мастерская     -->
+
     <!-- Стоимость постройки -->
     <Building_ResourceCostRequirements>
 
@@ -92,7 +105,6 @@
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
 			<Cost>1</Cost>
 		</Row>
-
 
     </Building_ResourceQuantityRequirements>
 
