@@ -152,6 +152,11 @@
     <Building_YieldChanges>
 
         <Row>
+            <BuildingType>BUILDING_FISH_HOUSE</BuildingType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
             <BuildingType>BUILDING_CELLAR</BuildingType>
             <YieldType>YIELD_FOOD</YieldType>
             <Yield>1</Yield>
@@ -164,11 +169,6 @@
         <Row>
             <BuildingType>BUILDING_POTTERY_WORKSHOP</BuildingType>
             <YieldType>YIELD_GOLD</YieldType>
-            <Yield>1</Yield>
-        </Row>
-        <Row>
-            <BuildingType>BUILDING_FISH_HOUSE</BuildingType>
-            <YieldType>YIELD_FOOD</YieldType>
             <Yield>1</Yield>
         </Row>
 
@@ -308,13 +308,11 @@
             <FlavorType>FLAVOR_OFFENSE</FlavorType>
             <Flavor>5</Flavor>
         </Row>
-
         <Row>
             <BuildingType>BUILDING_FISH_HOUSE</BuildingType>
             <FlavorType>FLAVOR_GROWTH</FlavorType>
             <Flavor>10</Flavor>
         </Row>
-
         <Row>
             <BuildingType>BUILDING_CELLAR</BuildingType>
             <FlavorType>FLAVOR_GROWTH</FlavorType>

@@ -2,8 +2,31 @@
 <!-- edited koba | 01.02.2024 -->
 <GameData>
 
-    <Buildings>
+	<!-- ####################################################################### -->
+	<!-- 				   		       Медный век				  			     -->
+	<!-- ####################################################################### -->
 
+	<!-- NAME                   --> <!-- Трудозатраты --> <!--      Название     -->
+
+	<!-- BUILDING_MELTINGFURNACE 			  50             	 Плавильная печь -->
+	<!-- BUILDING_YUKOLA 		          	  60             			   юкола -->
+	<!-- BUILDING_POLYNESIA_FISH_POND 		  60        Рыбный загон (Полинезия) -->
+	<!-- BUILDING_MONUMENT 	          		  60             		    Монумент -->
+	<!-- BUILDING_STELE 	          		  60             	 Стела (Эфиопия) -->
+	<!-- BUILDING_WORKSHOP 		          	  90             		  Мастерская -->
+	<!-- BUILDING_STONE_WORKS 			  	  60             Каменная мастерская -->
+	<!-- BUILDING_CIRCUS 			  		  60             				Цирк -->
+	<!-- BUILDING_CUNEIFORMLIBRARY 			  90          Клинописная библиотека -->
+	<!-- BUILDING_COPPER_MINE 			  	 100             	   Медный рудник -->
+	<!-- BUILDING_DOLMEN 			  		  40             			 Кромлех -->
+	<!-- BUILDING_STONEHENGE 			  	 200               Стоунхендж (ЧУДО) -->
+	<!-- BUILDING_LONGHOUSE 			  	  90           Длинный дом (Ирокезы) -->
+	<!-- BUILDING_GRANARY 			  		  60             			   Амбар -->
+	<!-- BUILDING_HUNS_YURT 			  	  60             		Юрта (Гунны) -->
+	<!-- BUILDING_MONGOL_GER 			  	  60             	   Гэр (Монголы) -->
+	<!-- BUILDING_ZULU_IQHUGWANE 			  60               Икугвене (Зулусы) -->
+
+    <Buildings>
 
         <!-- ############## -->
         <!-- Обработка меди -->
@@ -92,7 +115,7 @@
 			<PortraitIndex>21</PortraitIndex>
 		</Row>
 
-		<!-- Стела -->
+		<!-- Стела (Эфиопия) -->
 		<Replace>
 			<Type>BUILDING_STELE</Type>
 			<BuildingClass>BUILDINGCLASS_MONUMENT</BuildingClass>
@@ -213,7 +236,7 @@
         <Row>
 			<Type>BUILDING_COPPER_MINE</Type>
 			<BuildingClass>BUILDINGCLASS_COPPER_MINE</BuildingClass>
-			<Cost>90</Cost>
+			<Cost>150</Cost>
             <GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_COPPER_MINE</Description>
@@ -277,9 +300,7 @@
         <!-- Колесо -->
         <!-- ###### -->
 
-
-
-        <!-- Длинный дом -->
+        <!-- Длинный дом (Ирокезы) -->
         <Row>
 			<Type>BUILDING_LONGHOUSE</Type>
 			<BuildingClass>BUILDINGCLASS_MILL</BuildingClass>

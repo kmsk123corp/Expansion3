@@ -2,6 +2,36 @@
 <!-- edited koba | 01.02.2024 -->
 <GameData>
 
+	<!-- ####################################################################### -->
+	<!-- 				   		       Медный век				  			     -->
+	<!-- ####################################################################### -->
+
+	<!-- NAME                   --> <!-- Трудозатраты --> <!--      Название     -->
+
+	<!-- BUILDING_PIERS 			  		 100             	 		 Причалы -->
+	<!-- BUILDING_SHRINE 			  		 100             	 	   Святилище -->
+	<!-- BUILDING_CELTS_DRUIDS 			  	 100       Собрание друидов (Кельты) -->
+	<!-- BUILDING_MAYA_PYRAMID 			  	 100       			 Пирамида (Майя) -->
+	<!-- BUILDING_BARRACKS 			  		 100             	 		 Казарма -->
+	<!-- BUILDING_KREPOST 			  		 100             	 Острог (Россия) -->
+	<!-- BUILDING_IKANDA 			  		 100             	 Иканда (Зулусы) -->
+	<!-- BUILDING_CESSPOOL 			  		  80             	   Выгребная яма -->
+	<!-- BUILDING_STONEQUARRY 			  	 150             	 Каменный карьер -->
+	<!-- BUILDING_MILL 			  		  	 100             	 	    Мельница -->
+	<!-- BUILDING_CARAVANSARY 			  	 100             	   Караван-сарай -->
+	<!-- BUILDING_COURTHOUSE 			  	  80             				 Суд -->
+	<!-- BUILDING_PIT 			  		  	  60             	 	     Колодец -->
+	<!-- BUILDING_CHRONICLER 			  	  80             	 	   Летописец -->
+	<!-- BUILDING_BLOOMERYE 			  	 100             	 Сыродутная печь -->
+	<!-- BUILDING_WALLS 			  		 200             	 Городские стены -->
+	<!-- BUILDING_WALLS_OF_BABYLON 			 200          Ворота иштар (Вавилон) -->
+	<!-- BUILDING_MARBLE_WORKS 			  	 100            Мраморная мастерская -->
+	<!-- BUILDING_STABLE 			  		 120             	 	     Конюшня -->
+	<!-- BUILDING_DUCAL_STABLE 			  	 120        Панская конюшня (Польша) -->
+	<!-- BUILDING_AMERICA_RANCH 			 120             	 Ранчо (Америка) -->
+
+	<!-- ####################################################################### -->
+
     <!-- Стоимость постройки -->
     <Building_ResourceCostRequirements>
         
@@ -9,7 +39,7 @@
 		<Row>
 			<BuildingType>BUILDING_PIERS</BuildingType>
 			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>20</Cost>
+			<Cost>60</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PIERS</BuildingType>
@@ -21,7 +51,7 @@
         <Row>
 			<BuildingType>BUILDING_SHRINE</BuildingType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>20</Cost>
+			<Cost>30</Cost>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_SHRINE</BuildingType>
@@ -31,7 +61,7 @@
         <Row>
 			<BuildingType>BUILDING_SHRINE</BuildingType>
 			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>20</Cost>
+			<Cost>30</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SHRINE</BuildingType>
@@ -43,7 +73,7 @@
         <Row>
 			<BuildingType>BUILDING_CELTS_DRUIDS</BuildingType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>30</Cost>
+			<Cost>50</Cost>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_CELTS_DRUIDS</BuildingType>
@@ -60,12 +90,12 @@
 		<Row>
 			<BuildingType>BUILDING_MAYA_PYRAMID</BuildingType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>30</Cost>
+			<Cost>40</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MAYA_PYRAMID</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>50</Cost>
+			<Cost>60</Cost>
 		</Row>
         
         <!-- Казарма -->
@@ -94,12 +124,7 @@
         <Row>
 			<BuildingType>BUILDING_KREPOST</BuildingType>
 			<ResourceType>RESOURCE_LUMBER</ResourceType>
-			<Cost>30</Cost>
-		</Row>
-        <Row>
-			<BuildingType>BUILDING_KREPOST</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<Cost>10</Cost>
+			<Cost>40</Cost>
 		</Row>
 
         <!-- Иканда -->
@@ -123,7 +148,7 @@
         <Row>
 			<BuildingType>BUILDING_CESSPOOL</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>40</Cost>
+			<Cost>60</Cost>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_CESSPOOL</BuildingType>
@@ -135,7 +160,7 @@
         <Row>
 			<BuildingType>BUILDING_STONEQUARRY</BuildingType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>50</Cost>
+			<Cost>100</Cost>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_STONEQUARRY</BuildingType>
@@ -147,16 +172,21 @@
 		<Row>
 			<BuildingType>BUILDING_MILL</BuildingType>
 			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>30</Cost>
+			<Cost>40</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MILL</BuildingType>
 			<ResourceType>RESOURCE_LUMBER</ResourceType>
-			<Cost>10</Cost>
+			<Cost>20</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MILL</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MILL</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
 			<Cost>20</Cost>
 		</Row>
 
@@ -164,12 +194,12 @@
         <Row>
 			<BuildingType>BUILDING_CARAVANSARY</BuildingType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
-			<Cost>40</Cost>
+			<Cost>50</Cost>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_CARAVANSARY</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>40</Cost>
+			<Cost>50</Cost>
 		</Row>
 
 		<!-- Колодец -->
@@ -185,6 +215,11 @@
 		</Row>
 
         <!-- Летописец -->
+		<Row>
+			<BuildingType>BUILDING_CHRONICLER</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>20</Cost>
+		</Row>
         <Row>
 			<BuildingType>BUILDING_CHRONICLER</BuildingType>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
@@ -285,7 +320,7 @@
 		<Row>
 			<BuildingType>BUILDING_DUCAL_STABLE</BuildingType>
 			<ResourceType>RESOURCE_LUMBER</ResourceType>
-			<Cost>60</Cost>
+			<Cost>40</Cost>
 		</Row>
 
 		<!-- Ранчо -->

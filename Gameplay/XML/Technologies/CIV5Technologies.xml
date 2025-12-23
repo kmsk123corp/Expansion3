@@ -152,6 +152,7 @@
 <!-- TECH_POTTERY 			Гончарное дело -->
 <!-- TECH_CHARRING 			Углежжение -->
 <!-- TECH_ANIMAL_HUSBANDRY 	Животноводство -->
+
 <!-- TECH_CALENDAR 			Календарь -->
 <!-- TECH_COPPER_WORKING 	Обработка меди -->
 <!-- TECH_ARCHERY 			Стрельба из лука -->
@@ -165,6 +166,7 @@
 <!-- TECH_BRONZE_WORKING	Обработка бронзы -->
 <!-- TECH_MEGALITH			Мегалит -->
 <!-- TECH_THE_WHEEL			Колесо -->
+
 <!-- TECH_SHIPBUILDING		Кораблестроение -->
 <!-- TECH_PAGANISM 			Клинопись -->
 <!-- TECH_CASTING_WAX_MODEL Литье по восковой модели -->
@@ -2869,6 +2871,7 @@
 		<!-- TECH_POTTERY 			Гончарное дело -->
 		<!-- TECH_CHARRING 			Углежжение -->
 		<!-- TECH_ANIMAL_HUSBANDRY 	Животноводство -->
+
 		<!-- TECH_CALENDAR 			Календарь -->
 		<!-- TECH_COPPER_WORKING 	Обработка меди -->
 		<!-- TECH_ARCHERY 			Стрельба из лука -->
