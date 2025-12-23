@@ -9,11 +9,16 @@
 		<Row>
 			<BuildingType>BUILDING_MELTINGFURNACE</BuildingType>
 			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
-			<Cost>20</Cost>
+			<Cost>30</Cost>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_MELTINGFURNACE</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MELTINGFURNACE</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
 			<Cost>10</Cost>
 		</Row>
 
@@ -21,12 +26,12 @@
         <Row>
             <BuildingType>BUILDING_YUKOLA</BuildingType>
             <ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-            <Cost>20</Cost>
+            <Cost>50</Cost>
         </Row>
         <Row>
 			<BuildingType>BUILDING_YUKOLA</BuildingType>
 			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>20</Cost>
+			<Cost>10</Cost>
 		</Row>
 
         <!-- Рыбный загон (Полинезия) -->
@@ -45,7 +50,7 @@
         <Row>
 			<BuildingType>BUILDING_MONUMENT</BuildingType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>20</Cost>
+			<Cost>40</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MONUMENT</BuildingType>
@@ -53,15 +58,16 @@
 			<Cost>20</Cost>
 		</Row>
 
+		<!-- Стела (Эфиопия) -->
 		<Row>
 			<BuildingType>BUILDING_STELE</BuildingType>
 			<ResourceType>RESOURCE_MARBLE</ResourceType>
-			<Cost>20</Cost>
+			<Cost>10</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_STELE</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>40</Cost>
+			<Cost>50</Cost>
 		</Row>
 
 
@@ -140,7 +146,7 @@
 		</Row>
         <Row>
 			<BuildingType>BUILDING_STONE_WORKS</BuildingType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
 			<Cost>30</Cost>
 		</Row>
 
@@ -152,7 +158,7 @@
 		</Row>
         <Row>
 			<BuildingType>BUILDING_CIRCUS</BuildingType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
 			<Cost>20</Cost>
 		</Row>
 
@@ -162,10 +168,10 @@
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
 			<Cost>30</Cost>
 		</Row>
-        <Row>
+		<Row>
 			<BuildingType>BUILDING_CUNEIFORMLIBRARY</BuildingType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>30</Cost>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>10</Cost>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_CUNEIFORMLIBRARY</BuildingType>
@@ -175,25 +181,15 @@
         <Row>
 			<BuildingType>BUILDING_CUNEIFORMLIBRARY</BuildingType>
 			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
-			<Cost>30</Cost>
-		</Row>
-
-        <!-- Мельница -->
-        <Row>
-			<BuildingType>BUILDING_MILL</BuildingType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>30</Cost>
-		</Row>
-        <Row>
-			<BuildingType>BUILDING_MILL</BuildingType>
-			<ResourceType>RESOURCE_LUMBER</ResourceType>
 			<Cost>10</Cost>
 		</Row>
-        <Row>
-			<BuildingType>BUILDING_MILL</BuildingType>
-			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>20</Cost>
+		<Row>
+			<BuildingType>BUILDING_CUNEIFORMLIBRARY</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>10</Cost>
 		</Row>
+
+
 
         <!-- Длинный дом -->
 		<Row>
@@ -310,12 +306,7 @@
 			<Quantity>1</Quantity>
 		</Row>
 
-        <!-- Мельница -->
-        <Row>
-			<BuildingType>BUILDING_MILL</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Quantity>4</Quantity>
-		</Row>
+
 
         <!-- Длинный дом -->
 		<Row>

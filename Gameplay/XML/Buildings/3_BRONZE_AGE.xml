@@ -200,7 +200,24 @@
         <!-- ############# -->
         <!-- Конная упряжь -->
         <!-- ############# -->
-        
+
+		<!-- Мельница -->
+		<Row>
+			<Type>BUILDING_MILL</Type>
+			<BuildingClass>BUILDINGCLASS_MILL</BuildingClass>
+			<Cost>90</Cost>
+			<PrereqTech>TECH_HORSE_HARNESS</PrereqTech>
+			<Help>TXT_KEY_BUILDING_MILL_HELP</Help>
+			<Description>TXT_KEY_BUILDING_MILL</Description>
+			<Civilopedia>TXT_KEY_CIV5_MILL_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_MILL_STRATEGY</Strategy>
+			<ConquestProb>66</ConquestProb>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+
         <!-- Караван-сарай -->
         <Row>
 			<Type>BUILDING_CARAVANSARY</Type>
@@ -473,6 +490,14 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
+
+
+		<Row>
+			<BuildingType>BUILDING_MILL</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
 <!--        <Row>-->
 <!--			<BuildingType>BUILDING_PIT</BuildingType>-->
 <!--			<YieldType>YIELD_FOOD</YieldType>-->
@@ -535,6 +560,14 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_MILL</BuildingType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
 
 
         <Row>
@@ -944,6 +977,16 @@
 			<BuildingType>BUILDING_PIT</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MILL</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MILL</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>5</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BLOOMERYE</BuildingType>

@@ -4061,6 +4061,10 @@
 			<PrereqTech>TECH_PROTO_WRITING</PrereqTech>
 		</Row>
 		<Row>
+			<TechType>TECH_CUNEIFORM</TechType>
+			<PrereqTech>TECH_WOODWORKING</PrereqTech>
+		</Row>
+		<Row>
 			<TechType>TECH_BRONZE_WORKING</TechType>
 			<PrereqTech>TECH_WOODWORKING</PrereqTech>
 		</Row>

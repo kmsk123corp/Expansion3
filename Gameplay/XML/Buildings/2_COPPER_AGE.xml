@@ -13,7 +13,7 @@
         <Row>
 			<Type>BUILDING_MELTINGFURNACE</Type>
 			<BuildingClass>BUILDINGCLASS_MELTINGFURNACE</BuildingClass>
-			<Cost>90</Cost>
+			<Cost>75</Cost>
 			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_MELTINGFURNACE</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_MELTINGFURNACE_TEXT</Civilopedia>
@@ -34,7 +34,7 @@
 		<Row>
 			<Type>BUILDING_YUKOLA</Type>
 			<BuildingClass>BUILDINGCLASS_YUKOLA</BuildingClass>
-			<Cost>75</Cost>
+			<Cost>90</Cost>
 			<PrereqTech>TECH_SEA_FISHING</PrereqTech>
 			<Help>TXT_KEY_BUILDING_YUKOLA_HELP</Help>
 			<Description>TXT_KEY_BUILDING_YUKOLA</Description>
@@ -53,7 +53,7 @@
         <Row>
 			<Type>BUILDING_POLYNESIA_FISH_POND</Type>
 			<BuildingClass>BUILDINGCLASS_YUKOLA</BuildingClass>
-			<Cost>75</Cost>
+			<Cost>90</Cost>
 			<PrereqTech>TECH_SEA_FISHING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_POLYNESIA_FISH_POND</Description>
 			<Civilopedia>TXT_KEY_BUILDING_POLYNESIA_FISH_POND_TEXT</Civilopedia>
@@ -77,7 +77,7 @@
 			<Type>BUILDING_MONUMENT</Type>
 			<BuildingClass>BUILDINGCLASS_MONUMENT</BuildingClass>
 			<FreeStartEra>ERA_MEDIEVAL</FreeStartEra>
-			<Cost>60</Cost>
+			<Cost>90</Cost>
 			<PrereqTech>TECH_PROTO_WRITING</PrereqTech>
 			<GoldMaintenance>1</GoldMaintenance>
 			<Help>TXT_KEY_BUILDING_MONUMENT_STRATEGY</Help>
@@ -97,7 +97,7 @@
 			<Type>BUILDING_STELE</Type>
 			<BuildingClass>BUILDINGCLASS_MONUMENT</BuildingClass>
 			<FreeStartEra>ERA_MEDIEVAL</FreeStartEra>
-			<Cost>60</Cost>
+			<Cost>90</Cost>
 			<PrereqTech>TECH_PROTO_WRITING</PrereqTech>
 			<GoldMaintenance>1</GoldMaintenance>
 			<Description>TXT_KEY_BUILDING_STELE</Description>
@@ -114,91 +114,6 @@
         <!-- ############### -->
         <!-- Деревообработка -->
         <!-- ############### -->
-
-        <!-- Амбар -->
-        <Row>
-            <Type>BUILDING_GRANARY</Type>
-            <BuildingClass>BUILDINGCLASS_GRANARY</BuildingClass>
-            <FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
-            <Cost>90</Cost>
-            <GoldMaintenance>1</GoldMaintenance>
-            <PrereqTech>TECH_WOODWORKING</PrereqTech>
-            <Help>TXT_KEY_BUILDING_GRANARY_HELP</Help>
-            <Description>TXT_KEY_BUILDING_GRANARY</Description>
-            <Civilopedia>TXT_KEY_CIV5_BUILDINGS_GRANARY_TEXT</Civilopedia>
-            <Strategy>TXT_KEY_BUILDING_GRANARY_STRATEGY</Strategy>
-            <ArtDefineTag>ART_DEF_BUILDING_GRANARY</ArtDefineTag>
-            <MinAreaSize>-1</MinAreaSize>
-            <ConquestProb>66</ConquestProb>
-            <HurryCostModifier>25</HurryCostModifier>
-            <AllowsFoodTradeRoutes>true</AllowsFoodTradeRoutes>
-            <IconAtlas>Building_IconAtlas</IconAtlas>
-            <PortraitIndex>23</PortraitIndex>
-        </Row>
-
-        <!-- Юрта (Гунны) -->
-        <Row>
-            <Type>BUILDING_HUNS_YURT</Type>
-            <BuildingClass>BUILDINGCLASS_GRANARY</BuildingClass>
-            <FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
-            <Cost>90</Cost>
-            <GoldMaintenance>1</GoldMaintenance>
-            <PrereqTech>TECH_WOODWORKING</PrereqTech>
-            <Help>TXT_KEY_BUILDING_HUNS_YURT_HELP</Help>
-            <Description>TXT_KEY_BUILDING_HUNS_YURT</Description>
-            <Civilopedia>TXT_KEY_BUILDING_HUNS_YURT_TEXT</Civilopedia>
-            <Strategy>TXT_KEY_BUILDING_HUNS_YURT_STRATEGY</Strategy>
-            <ArtDefineTag>ART_DEF_BUILDING_GRANARY</ArtDefineTag>
-            <MinAreaSize>-1</MinAreaSize>
-            <ConquestProb>66</ConquestProb>
-            <HurryCostModifier>25</HurryCostModifier>
-            <AllowsFoodTradeRoutes>true</AllowsFoodTradeRoutes>
-            <IconAtlas>NEW_UNIQUE_BUILDING_ATLAS</IconAtlas>
-            <PortraitIndex>7</PortraitIndex>
-        </Row>
-
-        <!-- Гэр (Монголы) -->
-        <Row>
-            <Type>BUILDING_MONGOL_GER</Type>
-            <BuildingClass>BUILDINGCLASS_GRANARY</BuildingClass>
-            <FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
-            <Cost>90</Cost>
-            <GoldMaintenance>1</GoldMaintenance>
-            <PrereqTech>TECH_WOODWORKING</PrereqTech>
-            <Help>TXT_KEY_BUILDING_MONGOL_GER_HELP</Help>
-            <Description>TXT_KEY_BUILDING_MONGOL_GER</Description>
-            <Civilopedia>TXT_KEY_BUILDING_MONGOL_GER_TEXT</Civilopedia>
-            <Strategy>TXT_KEY_BUILDING_MONGOL_GER_STRATEGY</Strategy>
-            <ArtDefineTag>ART_DEF_BUILDING_GRANARY</ArtDefineTag>
-            <MinAreaSize>-1</MinAreaSize>
-            <ConquestProb>66</ConquestProb>
-            <HurryCostModifier>25</HurryCostModifier>
-            <AllowsFoodTradeRoutes>true</AllowsFoodTradeRoutes>
-            <IconAtlas>NEW_UNIQUE_BUILDING_ATLAS</IconAtlas>
-            <PortraitIndex>8</PortraitIndex>
-        </Row>
-
-        <!-- Икугвене (Зулусы) -->
-        <Row>
-            <Type>BUILDING_ZULU_IQHUGWANE</Type>
-            <BuildingClass>BUILDINGCLASS_GRANARY</BuildingClass>
-            <FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
-            <Cost>90</Cost>
-            <GoldMaintenance>1</GoldMaintenance>
-            <PrereqTech>TECH_WOODWORKING</PrereqTech>
-            <Help>TXT_KEY_BUILDING_ZULU_IQHUGWANE_HELP</Help>
-            <Description>TXT_KEY_BUILDING_ZULU_IQHUGWANE</Description>
-            <Civilopedia>TXT_KEY_BUILDING_ZULU_IQHUGWANE_TEXT</Civilopedia>
-            <Strategy>TXT_KEY_BUILDING_ZULU_IQHUGWANE_STRATEGY</Strategy>
-            <ArtDefineTag>ART_DEF_BUILDING_GRANARY</ArtDefineTag>
-            <Happiness>1</Happiness>
-            <MinAreaSize>-1</MinAreaSize>
-            <ConquestProb>66</ConquestProb>
-            <HurryCostModifier>25</HurryCostModifier>
-            <AllowsFoodTradeRoutes>true</AllowsFoodTradeRoutes>
-            <IconAtlas>NEW_UNIQUE_BUILDING_ATLAS</IconAtlas>
-            <PortraitIndex>9</PortraitIndex>
-        </Row>
 
         <!-- Мастерская -->
         <Row>
@@ -277,7 +192,7 @@
         <Row>
 			<Type>BUILDING_CUNEIFORMLIBRARY</Type>
 			<BuildingClass>BUILDINGCLASS_CUNEIFORMLIBRARY</BuildingClass>
-			<Cost>90</Cost>
+			<Cost>120</Cost>
 			<PrereqTech>TECH_CUNEIFORM</PrereqTech>
 			<Description>TXT_KEY_BUILDING_CUNEIFORMLIBRARY</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_CUNEIFORMLIBRARY_TEXT</Civilopedia>
@@ -362,22 +277,7 @@
         <!-- Колесо -->
         <!-- ###### -->
 
-        <!-- Мельница -->
-        <Row>
-			<Type>BUILDING_MILL</Type>
-			<BuildingClass>BUILDINGCLASS_MILL</BuildingClass>
-			<Cost>90</Cost>
-			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
-			<Help>TXT_KEY_BUILDING_MILL_HELP</Help>
-			<Description>TXT_KEY_BUILDING_MILL</Description>
-			<Civilopedia>TXT_KEY_CIV5_MILL_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_MILL_STRATEGY</Strategy>
-			<ConquestProb>66</ConquestProb>
-			<MinAreaSize>-1</MinAreaSize>
-			<HurryCostModifier>25</HurryCostModifier>
-            <IconAtlas>BW_ATLAS_1</IconAtlas>
-			<PortraitIndex>0</PortraitIndex>
-		</Row>
+
 
         <!-- Длинный дом -->
         <Row>
@@ -398,6 +298,91 @@
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>57</PortraitIndex>
+		</Row>
+
+		<!-- Амбар -->
+		<Row>
+			<Type>BUILDING_GRANARY</Type>
+			<BuildingClass>BUILDINGCLASS_GRANARY</BuildingClass>
+			<FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
+			<Cost>90</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
+			<Help>TXT_KEY_BUILDING_GRANARY_HELP</Help>
+			<Description>TXT_KEY_BUILDING_GRANARY</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_GRANARY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_GRANARY_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_GRANARY</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<AllowsFoodTradeRoutes>true</AllowsFoodTradeRoutes>
+			<IconAtlas>Building_IconAtlas</IconAtlas>
+			<PortraitIndex>23</PortraitIndex>
+		</Row>
+
+		<!-- Юрта (Гунны) -->
+		<Row>
+			<Type>BUILDING_HUNS_YURT</Type>
+			<BuildingClass>BUILDINGCLASS_GRANARY</BuildingClass>
+			<FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
+			<Cost>90</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
+			<Help>TXT_KEY_BUILDING_HUNS_YURT_HELP</Help>
+			<Description>TXT_KEY_BUILDING_HUNS_YURT</Description>
+			<Civilopedia>TXT_KEY_BUILDING_HUNS_YURT_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_HUNS_YURT_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_GRANARY</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<AllowsFoodTradeRoutes>true</AllowsFoodTradeRoutes>
+			<IconAtlas>NEW_UNIQUE_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
+		</Row>
+
+		<!-- Гэр (Монголы) -->
+		<Row>
+			<Type>BUILDING_MONGOL_GER</Type>
+			<BuildingClass>BUILDINGCLASS_GRANARY</BuildingClass>
+			<FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
+			<Cost>90</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
+			<Help>TXT_KEY_BUILDING_MONGOL_GER_HELP</Help>
+			<Description>TXT_KEY_BUILDING_MONGOL_GER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_MONGOL_GER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_MONGOL_GER_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_GRANARY</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<AllowsFoodTradeRoutes>true</AllowsFoodTradeRoutes>
+			<IconAtlas>NEW_UNIQUE_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
+		</Row>
+
+		<!-- Икугвене (Зулусы) -->
+		<Row>
+			<Type>BUILDING_ZULU_IQHUGWANE</Type>
+			<BuildingClass>BUILDINGCLASS_GRANARY</BuildingClass>
+			<FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
+			<Cost>90</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
+			<Help>TXT_KEY_BUILDING_ZULU_IQHUGWANE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_ZULU_IQHUGWANE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_ZULU_IQHUGWANE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_ZULU_IQHUGWANE_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_GRANARY</ArtDefineTag>
+			<Happiness>1</Happiness>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<AllowsFoodTradeRoutes>true</AllowsFoodTradeRoutes>
+			<IconAtlas>NEW_UNIQUE_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>9</PortraitIndex>
 		</Row>
 
     </Buildings>
@@ -488,11 +473,7 @@
             <Yield>3</Yield>
         </Row>
 
-        <Row>
-			<BuildingType>BUILDING_MILL</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
+
         <Row>
 			<BuildingType>BUILDING_LONGHOUSE</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
@@ -690,12 +671,7 @@
             <YieldType>YIELD_PRODUCTION</YieldType>
             <Yield>1</Yield>
         </Row>
-        <Row>
-			<BuildingType>BUILDING_MILL</BuildingType>
-			<ResourceType>RESOURCE_WHEAT</ResourceType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
+
 
         <Row>
 			<BuildingType>BUILDING_STONEHENGE</BuildingType>
@@ -1061,16 +1037,7 @@
 			<Flavor>20</Flavor>
 		</Row>
         
-        <Row>
-			<BuildingType>BUILDING_MILL</BuildingType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>25</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_MILL</BuildingType>
-			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
+
         <Row>
 			<BuildingType>BUILDING_LONGHOUSE</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>

@@ -142,7 +142,24 @@
 			<ResourceType>RESOURCE_LUMBER</ResourceType>
 			<Cost>50</Cost>
 		</Row>
-        
+
+		<!-- Мельница -->
+		<Row>
+			<BuildingType>BUILDING_MILL</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>30</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MILL</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MILL</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+
         <!-- Караван-сарай -->
         <Row>
 			<BuildingType>BUILDING_CARAVANSARY</BuildingType>
@@ -305,6 +322,13 @@
             <ResourceType>RESOURCE_MARBLE</ResourceType>
             <Quantity>1</Quantity>
         </Row>
+
+		<!-- Мельница -->
+		<Row>
+			<BuildingType>BUILDING_MILL</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Quantity>4</Quantity>
+		</Row>
 
 		<!-- Сыродутная печь -->
 		<Row>

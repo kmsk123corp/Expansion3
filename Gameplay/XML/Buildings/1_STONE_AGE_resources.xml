@@ -28,12 +28,12 @@
         <Row>
 			<BuildingType>BUILDING_CELLAR</BuildingType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>10</Cost>
+			<Cost>20</Cost>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_CELLAR</BuildingType>
 			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>30</Cost>
+			<Cost>20</Cost>
 		</Row>
 
         <!-- Гончарная мастерская -->
