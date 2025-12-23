@@ -33,12 +33,6 @@
     <GameData>CIV5Buildings_Inherited_Expansion2.xml</GameData>
     <GameData>CIV5Buildings_resources.xml</GameData>
 
-    <!-- Old todo: перенести и удалить -->
-    <GameData>0_ERA_ANCIENT.xml</GameData>
-    <GameData>0_ERA_ANCIENT_resources.xml</GameData>
-    <GameData>0_ERA_ANCIENT_Wonders.xml</GameData>
-    <GameData>0_ERA_ANCIENT_Wonders_resources.xml</GameData>
-
     <!-- Каменный век -->
     <GameData>1_STONE_AGE.xml</GameData>
     <GameData>1_STONE_AGE_resources.xml</GameData>

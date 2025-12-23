@@ -130,6 +130,34 @@
         <!-- Инженерное дело -->
         <!-- ############### -->
 
+		<!-- Петра -->
+		<Replace>
+			<Type>BUILDING_PETRA</Type>
+			<BuildingClass>BUILDINGCLASS_PETRA</BuildingClass>
+			<Cost>250</Cost>
+			<PrereqTech>TECH_ENGINEERING</PrereqTech>
+			<Help>TXT_KEY_WONDER_PETRA_HELP</Help>
+			<Description>TXT_KEY_BUILDING_PETRA</Description>
+			<Civilopedia>TXT_KEY_WONDER_PETRA_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_PETRA_QUOTE</Quote>
+			<ArtDefineTag>PETRA</ArtDefineTag>
+			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<NearbyTerrainRequired>TERRAIN_DESERT</NearbyTerrainRequired>
+			<EnhancedYieldTech>TECH_ARCHAEOLOGY</EnhancedYieldTech>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<NumTradeRouteBonus>1</NumTradeRouteBonus>
+			<DisplayPosition>2</DisplayPosition>
+			<IconAtlas>EXPANSION_BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
+			<WonderSplashImage>WonderConceptPetra.dds</WonderSplashImage>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_PETRA</WonderSplashAudio>
+		</Replace>
+
         <!-- Галикарнасский мавзалей -->
         <Row>
 			<Type>BUILDING_MAUSOLEUM_HALICARNASSUS</Type>
@@ -606,6 +634,12 @@
 			<Yield>6</Yield>
 		</Row>
 
+		<Delete BuildingType="BUILDING_PETRA"/>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
         <Row>
 			<BuildingType>BUILDING_GREAT_WALL</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
@@ -627,6 +661,25 @@
 			<Yield>5</Yield>
 		</Row>
     </Building_YieldChanges>
+
+
+	<!-- Улучшает клетку с данной почвой -->
+	<Building_TerrainYieldChanges>
+		<Delete BuildingType="BUILDING_PETRA"/>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_TerrainYieldChanges>
+
 
     <!-- Увеличивает в процентах -->
     <Building_YieldModifiers>
@@ -678,6 +731,16 @@
 
     </Building_ResourceYieldChanges>
 
+	<!-- Улучшает после Археологии -->
+	<Building_TechEnhancedYieldChanges>
+		<Delete BuildingType="BUILDING_PETRA"/>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>6</Yield>
+		</Row>
+	</Building_TechEnhancedYieldChanges>
+
     <!-- Может быть построенно только с этим ресурсом -->
     <Building_LocalResourceOrs>
 
@@ -696,6 +759,20 @@
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>1</Yield>
+		</Row>
+
+		<Delete BuildingType="BUILDING_PETRA"/>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>-1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>-1</Yield>
 		</Row>
 
     </Building_FeatureYieldChanges>
@@ -730,6 +807,14 @@
 
     <!-- Хлявные юниты -->
     <Building_FreeUnits>
+
+		<Delete BuildingType="BUILDING_PETRA"/>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<UnitType>UNIT_CARAVAN</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+
         <Row>
 			<BuildingType>BUILDING_HANGING_GARDEN</BuildingType>
 			<UnitType>UNIT_SETTLER</UnitType>
@@ -990,7 +1075,37 @@
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>90</Flavor>
 		</Row>
-
+		<Delete BuildingType="BUILDING_PETRA"/>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
         <Row>
 			<BuildingType>BUILDING_GREAT_WALL</BuildingType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>

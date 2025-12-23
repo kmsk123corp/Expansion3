@@ -6,6 +6,23 @@
     <!-- Стоимость постройки -->
     <Building_ResourceCostRequirements>
 
+        <!-- Храм артемиды -->
+        <Row>
+            <BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+            <ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+            <Cost>200</Cost>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+            <ResourceType>RESOURCE_MARBLE</ResourceType>
+            <Cost>200</Cost>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+            <ResourceType>RESOURCE_STONE</ResourceType>
+            <Cost>200</Cost>
+        </Row>
+
     </Building_ResourceCostRequirements>
 
 

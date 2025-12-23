@@ -44,6 +44,23 @@
 			<Cost>50</Cost>
 		</Row>
 
+		<!-- Петра -->
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>400</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+
         <!-- Галикарнасский мавзалей -->
 		<Row>
 			<BuildingType>BUILDING_MAUSOLEUM_HALICARNASSUS</BuildingType>

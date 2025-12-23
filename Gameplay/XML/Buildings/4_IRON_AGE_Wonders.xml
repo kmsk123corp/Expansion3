@@ -4,18 +4,60 @@
 
     <Buildings>
 
+        <!-- Храм Артемиды -->
+        <Row>
+            <Type>BUILDING_TEMPLE_ARTEMIS</Type>
+            <BuildingClass>BUILDINGCLASS_TEMPLE_ARTEMIS</BuildingClass>
+            <Cost>400</Cost>
+            <PrereqTech>TECH_ALPHABET</PrereqTech>
+            <Help>TXT_KEY_WONDER_TEMPLE_ARTEMIS_HELP</Help>
+            <Description>TXT_KEY_BUILDING_TEMPLE_ARTEMIS</Description>
+            <Civilopedia>TXT_KEY_WONDER_TEMPLE_ARTEMIS_DESC</Civilopedia>
+            <Quote>TXT_KEY_WONDER_TEMPLE_ARTEMIS_QUOTE</Quote>
+            <ArtDefineTag>TEMPLE ARTEMIS</ArtDefineTag>
+            <MaxStartEra>ERA_CLASSICAL</MaxStartEra>
+            <SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+            <NearbyTerrainRequired>TERRAIN_GRASS</NearbyTerrainRequired>
+            <NukeImmune>true</NukeImmune>
+            <HurryCostModifier>-1</HurryCostModifier>
+            <MinAreaSize>-1</MinAreaSize>
+            <ConquestProb>100</ConquestProb>
+            <GreatPeopleRateChange>1</GreatPeopleRateChange>
+            <DisplayPosition>4</DisplayPosition>
+            <IconAtlas>WONDERS_DLC_ATLAS</IconAtlas>
+            <PortraitIndex>0</PortraitIndex>
+            <WonderSplashImage>WonderTempleArtemis.dds</WonderSplashImage>
+            <WonderSplashAudio>AS2D_WONDER_SPEECH_TEMPLE_OF_ARTEMIS</WonderSplashAudio>
+        </Row>
+
     </Buildings>
 
 
     <!-- Производит -->
     <Building_YieldChanges>
 
+        <Row>
+            <BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+            <YieldType>YIELD_CULTURE</YieldType>
+            <Yield>2</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+            <YieldType>YIELD_FAITH</YieldType>
+            <Yield>4</Yield>
+        </Row>
+
     </Building_YieldChanges>
 
 
     <!-- Улучшает клетку с данной почвой -->
     <Building_TerrainYieldChanges>
-
+        <Row>
+            <BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+            <TerrainType>TERRAIN_GRASS</TerrainType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>1</Yield>
+        </Row>
     </Building_TerrainYieldChanges>
 
 
@@ -45,7 +87,11 @@
 
     <!-- Общие модификаторы -->
     <Building_GlobalYieldModifiers>
-
+        <Row>
+            <BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>10</Yield>
+        </Row>
 	</Building_GlobalYieldModifiers>
 
 
@@ -63,7 +109,11 @@
 
     <!-- Увеличивает скорость постройки юнитов -->
     <Building_UnitCombatProductionModifiers>
-
+        <Row>
+            <BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+            <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+            <Modifier>15</Modifier>
+        </Row>
 	</Building_UnitCombatProductionModifiers>
 
 
@@ -81,7 +131,26 @@
 
     <!-- Для ботов похоже... -->
     <Building_Flavors>
-
+        <Row>
+            <BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+            <FlavorType>FLAVOR_GROWTH</FlavorType>
+            <Flavor>20</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+            <FlavorType>FLAVOR_RANGED</FlavorType>
+            <Flavor>10</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+            <FlavorType>FLAVOR_WONDER</FlavorType>
+            <Flavor>15</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+            <FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+            <Flavor>10</Flavor>
+        </Row>
     </Building_Flavors>
 
 

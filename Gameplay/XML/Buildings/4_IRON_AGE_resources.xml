@@ -22,7 +22,10 @@
             <Cost>50</Cost>
         </Row>
 
+        <!-- Переписчик -->
 
+
+        <!-- Клоака Максима -->
         <Row>
             <BuildingType>BUILDING_CLOACA</BuildingType>
             <ResourceType>RESOURCE_STONE</ResourceType>
