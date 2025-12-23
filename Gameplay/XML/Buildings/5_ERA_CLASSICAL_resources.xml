@@ -112,17 +112,7 @@
 			<Cost>50</Cost>
 		</Row> -->
 
-        <!-- Лесопильня -->
-		<Row>
-			<BuildingType>BUILDING_MILLLUMBER</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>100</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_MILLLUMBER</BuildingType>
-			<ResourceType>RESOURCE_IRON</ResourceType>
-			<Cost>50</Cost>
-		</Row>
+
 
         <!-- Водянная мельница -->
 		<Row>
@@ -136,17 +126,7 @@
 			<Cost>20</Cost>
 		</Row>
 
-        <!-- Печь для обжига кирпича -->
-        <Row>
-			<BuildingType>BUILDING_BRICKKILN</BuildingType>
-			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>25</Cost>
-		</Row>
-        <Row>
-			<BuildingType>BUILDING_BRICKKILN</BuildingType>
-			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
-			<Cost>20</Cost>
-		</Row>
+
 
         <!-- Плавучие сады (Ацтеки) -->
         <Row>
@@ -420,12 +400,7 @@
 
 
 
-        <!-- Лесопильня -->
-		<Row>
-			<BuildingType>BUILDING_MILLLUMBER</BuildingType>
-			<ResourceType>RESOURCE_LUMBER</ResourceType>
-			<Quantity>10</Quantity>
-		</Row>
+
 
         <!-- Водянная мельница -->
         <Row>
@@ -443,12 +418,7 @@
 
 
 
-        <!-- Печь для обжига кирпича -->
-        <Row>
-			<BuildingType>BUILDING_BRICKKILN</BuildingType>
-			<ResourceType>RESOURCE_BRICKS</ResourceType>
-			<Quantity>5</Quantity>
-		</Row>
+
 
         <!-- Ветренная мельница -->
 		<Row>
@@ -483,29 +453,9 @@
 			<Cost>2</Cost>
 		</Row>
 
-        <!-- Лесопильня -->
-		<Row>
-			<BuildingType>BUILDING_MILLLUMBER</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>10</Cost>
-		</Row>
-        <Row>
-			<BuildingType>BUILDING_MILLLUMBER</BuildingType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>10</Cost>
-		</Row>
-        <Row>
-			<BuildingType>BUILDING_MILLLUMBER</BuildingType>
-			<ResourceType>RESOURCE_IRON</ResourceType>
-			<Cost>1</Cost>
-		</Row>
 
-        <!-- Печь для обжига кирпича -->
-        <Row>
-			<BuildingType>BUILDING_BRICKKILN</BuildingType>
-			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
-			<Cost>1</Cost>
-		</Row>
+
+
 
 
 

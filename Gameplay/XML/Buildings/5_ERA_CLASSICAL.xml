@@ -230,20 +230,7 @@
         <!-- Инженерное дело -->
         <!-- ############### -->
 
-        <!-- Печь для обжига кирпича -->
-        <Row>
-			<Type>BUILDING_BRICKKILN</Type>
-			<BuildingClass>BUILDINGCLASS_BRICKKILN</BuildingClass>
-			<Cost>60</Cost>
-			<PrereqTech>TECH_CERAMIC_BRICK</PrereqTech>
-			<Description>TXT_KEY_BUILDING_BRICKKILN</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_BRICKKILN_TEXT</Civilopedia>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>66</ConquestProb>
-			<HurryCostModifier>25</HurryCostModifier>
-            <IconAtlas>Building_IconAtlas</IconAtlas>
-            <PortraitIndex>32</PortraitIndex>
-		</Row>
+
 
         <!-- Акведук -->
         <Row>
@@ -621,25 +608,9 @@
 			<PortraitIndex>1</PortraitIndex>
 		</Row>
 
-        <!-- Лесопильня -->
-        <Row>
-			<Type>BUILDING_MILLLUMBER</Type>
-			<BuildingClass>BUILDINGCLASS_MILLLUMBER</BuildingClass>
-			<Cost>120</Cost>
-			<GoldMaintenance>2</GoldMaintenance>
-			<PrereqTech>TECH_TWO_HANDED_SAW</PrereqTech>
-			<Description>TXT_KEY_BUILDING_MILLLUMBER</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_MILLLUMBER_TEXT</Civilopedia>
-			<Help>TXT_KEY_BUILDING_MILLLUMBER_HELP</Help>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>66</ConquestProb>
-			<HurryCostModifier>25</HurryCostModifier>
-            <AllowsProductionTradeRoutes>true</AllowsProductionTradeRoutes>
-			<IconAtlas>Building_IconAtlas</IconAtlas>
-            <PortraitIndex>11</PortraitIndex>
-		</Row>
 
-        <!-- Углежогная яма -->
+
+        <!-- Углежогная печь -->
 		<Row>
 			<Type>BUILDING_CARBONBURNER</Type>
 			<BuildingClass>BUILDINGCLASS_CARBONBURNER</BuildingClass>
@@ -663,11 +634,7 @@
     <!-- Производит -->
     <Building_YieldChanges>
 
-        <Row>
-			<BuildingType>BUILDING_MILLLUMBER</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
-		</Row>
+
         <Row>
 			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
@@ -898,12 +865,7 @@
     </Building_ResourceYieldChanges>
 
     <Building_FeatureYieldChanges>
-        <Row>
-			<BuildingType>BUILDING_MILLLUMBER</BuildingType>
-			<FeatureType>FEATURE_FOREST</FeatureType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
+
 
         <Row>
 			<BuildingType>BUILDING_BAZAAR</BuildingType>
@@ -1096,21 +1058,7 @@
 		</Row>
 
 
-        <Row>
-			<BuildingType>BUILDING_MILLLUMBER</BuildingType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>30</Flavor>
-		</Row>
-        <Row>
-			<BuildingType>BUILDING_MILLLUMBER</BuildingType>
-			<FlavorType>FLAVOR_I_LAND_TRADE_ROUTE</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_MILLLUMBER</BuildingType>
-			<FlavorType>FLAVOR_I_SEA_TRADE_ROUTE</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
+
 
         <Row>
 			<BuildingType>BUILDING_WATERMILL</BuildingType>
