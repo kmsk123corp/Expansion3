@@ -1190,6 +1190,22 @@
 			<AudioIntroHeader>AS2D_HEADING_TECH_PHILOSOPHY</AudioIntroHeader>
 		</Row>
 
+		<!-- Стеклодувная трубка -->
+		<Row>
+			<Type>TECH_GLASS_BLOWING</Type>
+			<Cost>675</Cost>
+			<Description>TXT_KEY_TECH_GLASS_BLOWING_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_GLASS_BLOWING_DESC</Civilopedia>
+			<!-- TODO: Добавить здания и другие бонусы в описание после их внедрения -->
+			<Help>TXT_KEY_TECH_GLASS_BLOWING_HELP</Help>
+			<Era>ERA_CLASSICAL</Era>
+			<Trade>true</Trade>
+			<GridX>13</GridX>
+			<GridY>3</GridY>
+			<PortraitIndex>16</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+
 		<!-- Ламинарный доспех -->
 		<Row>
 			<Type>TECH_LAMINAR_ARMOR</Type>
