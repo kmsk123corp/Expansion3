@@ -276,7 +276,25 @@
 			<PortraitIndex>3</PortraitIndex>
 		</Row>
 
+		<!-- ################### -->
+		<!-- Стеклодувная трубка -->
+		<!-- ################### -->
 
+		<!-- Стеклодувная мастерская -->
+		<Row>
+			<Type>BUILDING_GLASS_BLOWER_WORKSHOP</Type>
+			<BuildingClass>BUILDINGCLASS_GLASS_BLOWER_WORKSHOP</BuildingClass>
+			<Cost>75</Cost>
+			<PrereqTech>TECH_GLASS_BLOWING</PrereqTech>
+			<Description>TXT_KEY_BUILDING_GLASS_BLOWER_WORKSHOP</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDING_GLASS_BLOWER_WORKSHOP_TEXT</Civilopedia>
+			<Help>TXT_KEY_BUILDING_GLASS_BLOWER_WORKSHOP_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>Building_IconAtlas</IconAtlas>
+			<PortraitIndex>12</PortraitIndex>
+		</Row>
 
         <!-- ######### -->
         <!-- Философия -->
