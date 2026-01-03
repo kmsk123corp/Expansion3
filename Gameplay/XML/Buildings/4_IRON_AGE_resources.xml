@@ -87,12 +87,12 @@
         <Row>
             <BuildingType>BUILDING_FORGE</BuildingType>
             <ResourceType>RESOURCE_IRON</ResourceType>
-            <Cost>1</Cost>
+            <Cost>2</Cost>
         </Row>
         <Row>
             <BuildingType>BUILDING_FORGE</BuildingType>
             <ResourceType>RESOURCE_CHARCOAL</ResourceType>
-            <Cost>1</Cost>
+            <Cost>2</Cost>
         </Row>
 
         <!-- Печь для обжига кирпича -->

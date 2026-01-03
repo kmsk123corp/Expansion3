@@ -5,6 +5,56 @@
     <!-- Стоимость постройки -->
     <Building_ResourceCostRequirements>
 
+		<!-- Статуа зевса -->
+		<Row>
+			<BuildingType>BUILDING_STATUE_ZEUS</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STATUE_ZEUS</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>200</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STATUE_ZEUS</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>800</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STATUE_ZEUS</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+
+		<!-- Висячие сады -->
+		<Row>
+			<BuildingType>BUILDING_HANGING_GARDEN</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HANGING_GARDEN</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HANGING_GARDEN</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HANGING_GARDEN</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+
+
+
+
+
+
+
         <!-- Фаросский маяк -->
 		<Row>
 			<BuildingType>BUILDING_GREAT_LIGHTHOUSE</BuildingType>
@@ -79,22 +129,7 @@
 		</Row>
 
 
-        <!-- Статуа зевса -->
-        <Row>
-			<BuildingType>BUILDING_STATUE_ZEUS</BuildingType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>200</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_STATUE_ZEUS</BuildingType>
-			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>200</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_STATUE_ZEUS</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<Cost>200</Cost>
-		</Row>
+
 
         <!-- Большой цирк -->
         <Row>
@@ -115,17 +150,7 @@
 
 
 
-        <!-- Висячие сады -->
-		<Row>
-			<BuildingType>BUILDING_HANGING_GARDEN</BuildingType>
-			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>200</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_HANGING_GARDEN</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>600</Cost>
-		</Row>
+
 
         <!-- Терракотовая армия -->
         <Row>

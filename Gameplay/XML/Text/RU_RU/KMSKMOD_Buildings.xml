@@ -232,6 +232,22 @@
             <Text>Дает +15% [ICON_PRODUCTION] к производству при создании сухопутных юнитов. [NEWLINE][NEWLINE]Каждая обрабатываемая городом клетка с [ICON_RES_IRON] железом дает +1 [ICON_PRODUCTION] к производству.[NEWLINE][NEWLINE][COLOR:195:195:195:255]Рядом с городом должен быть источник железа с улучшением в виде рудника.[/COLOR]</Text>
         </Row>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <!-- Клоака -->
         <Row Tag="TXT_KEY_BUILDING_CLOACA">
             <Text>Клоака</Text>
