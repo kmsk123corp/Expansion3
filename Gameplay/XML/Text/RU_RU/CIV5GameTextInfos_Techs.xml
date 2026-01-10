@@ -14,11 +14,7 @@
       <Gender>feminine</Gender>
       <Plurality>1</Plurality>
     </Row>
-    <Row Tag="TXT_KEY_TECH_AGRICULTURE_TITLE">
-      <Text>Земледелие|земледелия|земледелию|земледелие|земледелием|земледелии</Text>
-      <Gender>neuter</Gender>
-      <Plurality>1</Plurality>
-    </Row>
+
     <Row Tag="TXT_KEY_TECH_ALPHABET">
       <Text>Алфавит|алфавита|алфавиту|алфавит|алфавитом|алфавите</Text>
       <Gender>masculine</Gender>
@@ -29,11 +25,7 @@
       <Gender>neuter</Gender>
       <Plurality>1</Plurality>
     </Row>
-    <Row Tag="TXT_KEY_TECH_ANIMAL_HUSBANDRY_TITLE">
-      <Text>Животноводство|животноводства|животноводству|животноводство|животноводством|животноводстве</Text>
-      <Gender>neuter</Gender>
-      <Plurality>1</Plurality>
-    </Row>
+
     <Row Tag="TXT_KEY_TECH_ARCHAEOLOGY_TITLE">
       <Text>Археология|археологии|археологии|археологию|археологией|археологии</Text>
       <Gender>feminine</Gender>
@@ -349,16 +341,8 @@
       <Gender>feminine</Gender>
       <Plurality>1</Plurality>
     </Row>
-    <Row Tag="TXT_KEY_TECH_MINING">
-      <Text>Добыча руды|добычи руды|добыче руды|добычу руды|добычей руды|добыче руды</Text>
-      <Gender>feminine</Gender>
-      <Plurality>1</Plurality>
-    </Row>
-    <Row Tag="TXT_KEY_TECH_MINING_TITLE">
-      <Text>Добыча руды|добычи руды|добыче руды|добычу руды|добычей руды|добыче руды</Text>
-      <Gender>feminine</Gender>
-      <Plurality>1</Plurality>
-    </Row>
+
+
     <Row Tag="TXT_KEY_TECH_NANOTECHNOLOGY_TITLE">
       <Text>Нанотехнология|нанотехнологии|нанотехнологии|нанотехнологию|нанотехнологией|нанотехнологии</Text>
       <Gender>feminine</Gender>
@@ -424,11 +408,7 @@
       <Gender>neuter</Gender>
       <Plurality>1</Plurality>
     </Row>
-    <Row Tag="TXT_KEY_TECH_POTTERY_TITLE">
-      <Text>Гончарное дело|гончарного дела|гончарному делу|гончарное дело|гончарным делом|гончарном деле</Text>
-      <Gender>neuter</Gender>
-      <Plurality>1</Plurality>
-    </Row>
+
     <Row Tag="TXT_KEY_TECH_PRINTING_PRESS_TITLE">
       <Text>Печатный пресс|печатного пресса|печатному прессу|печатный пресс|печатным прессом|печатном прессе</Text>
       <Gender>masculine</Gender>
@@ -559,11 +539,7 @@
       <Gender>feminine</Gender>
       <Plurality>1</Plurality>
     </Row>
-    <Row Tag="TXT_KEY_TECH_TRAPPING_TITLE">
-      <Text>Охота|охоты|охоте|охоту|охотой|охоте</Text>
-      <Gender>feminine</Gender>
-      <Plurality>1</Plurality>
-    </Row>
+
     <Row Tag="TXT_KEY_TECH_WRITING">
       <Text>Письменность|письменности|письменности|письменность|письменностью|письменности</Text>
       <Gender>feminine</Gender>

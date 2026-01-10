@@ -1076,17 +1076,17 @@
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
 			<Quantity>5</Quantity>
 		</Row>
-		<!-- <Row>
+		<Row>
 			<BuildingType>BUILDING_PALACE</BuildingType>
 			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Quantity>3</Quantity>
+			<Quantity>5</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PALACE</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Quantity>3</Quantity>
+			<Quantity>1</Quantity>
 		</Row>
-		<Row>
+		<!-- <Row>
 			<BuildingType>BUILDING_PALACE</BuildingType>
 			<ResourceType>RESOURCE_MARBLE</ResourceType>
 			<Quantity>1</Quantity>

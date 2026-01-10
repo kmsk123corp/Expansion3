@@ -80,6 +80,13 @@
     <!-- Производит ресурсов -->
     <Building_ResourceQuantity>
 
+		<!-- Рыбацкая хижина -->
+		<Row>
+			<BuildingType>BUILDING_FISH_HOUSE</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Quantity>1</Quantity>
+		</Row>
+
 		<!-- Погреб -->
 		<Row>
 			<BuildingType>BUILDING_CELLAR</BuildingType>

@@ -1761,9 +1761,7 @@
     <Row Tag="TXT_KEY_TECH_PLASTICS_HELP">
       <Text>Позволяет строить [COLOR_POSITIVE_TEXT]лабораторию[ENDCOLOR], ускоряющую [ICON_RESEARCH] научные исследования в городе. Также позволяет создавать [COLOR_POSITIVE_TEXT]пехотинцев[ENDCOLOR], основное наземное подразделение поздних этапов игры.</Text>
     </Row>
-    <Row Tag="TXT_KEY_TECH_POTTERY_HELP">
-      <Text>Позволяет строить [COLOR_POSITIVE_TEXT]амбары[ENDCOLOR] в городах, что повышает производство [ICON_FOOD] пищи и ускоряет рост городов. Кроме того, дает возможность строить [COLOR_POSITIVE_TEXT]святилище[ENDCOLOR], первое здание в игре, дающее очки [ICON_PEACE] веры.</Text>
-    </Row>
+
     <Row Tag="TXT_KEY_TECH_RADAR_HELP">
       <Text>Позволяет строить [COLOR_POSITIVE_TEXT]бомбардировщики[ENDCOLOR] - самолеты, способные наносить смертоносные авиаудары, и [COLOR_POSITIVE_TEXT]истребители[ENDCOLOR], специально предназначенные для защиты неба от вражеской авиации. Также позволяет создавать [COLOR_POSITIVE_TEXT]парашютистов[ENDCOLOR] - пехоту, которую можно забрасывать за линию обороны противника по воздуху.</Text>
     </Row>

@@ -225,6 +225,7 @@
 			<AudioIntro>AS2D_TECH_AGRICULTURE</AudioIntro>
 			<AudioIntroHeader>AS2D_HEADING_TECH_AGRICULTURE</AudioIntroHeader>
 		</Row>
+
 		<!-- Вырубка леса -->
 		<Row>
 			<Type>TECH_FOREST_CUTTING</Type>
@@ -237,9 +238,11 @@
 			<GoodyTech>true</GoodyTech>
 			<GridX>1</GridX>
 			<GridY>4</GridY>
+			<Quote>TXT_KEY_TECH_FOREST_CUTTING_QUOTE</Quote>
 			<PortraitIndex>16</PortraitIndex>
 			<IconAtlas>Technologies_IconAtlas</IconAtlas>
 		</Row>
+
 		<!-- Добыча руды -->
 		<Row>
 			<Type>TECH_MINING</Type>
@@ -258,6 +261,8 @@
 			<AudioIntro>AS2D_TECH_MINING</AudioIntro>
 			<AudioIntroHeader>AS2D_HEADING_TECH_MINING</AudioIntroHeader>
 		</Row>
+
+
 		<!-- Охота -->
 		<Row>
 			<Type>TECH_TRAPPING</Type>
@@ -292,8 +297,7 @@
 			<GoodyTech>true</GoodyTech>
 			<GridX>2</GridX>
 			<GridY>0</GridY>
-			<AudioIntro>AS2D_TECH_POTTERY</AudioIntro>
-			<AudioIntroHeader>AS2D_HEADING_TECH_POTTERY</AudioIntroHeader>
+			<Quote>TXT_KEY_TECH_FISHING_QUOTE</Quote>
 			<IconAtlas>Technologies_IconAtlas</IconAtlas>
 			<PortraitIndex>28</PortraitIndex>
 		</Row>
@@ -327,6 +331,7 @@
 			<GoodyTech>true</GoodyTech>
 			<GridX>2</GridX>
 			<GridY>4</GridY>
+			<Quote>TXT_KEY_TECH_CHARRING_QUOTE</Quote>
 			<IconAtlas>Technologies_IconAtlas</IconAtlas>
 			<PortraitIndex>3</PortraitIndex>
 		</Row>
@@ -4029,7 +4034,15 @@
 			<PrereqTech>TECH_STONE_IMPLEMENTS</PrereqTech>
 		</Row>
 		<Row>
+			<TechType>TECH_POTTERY</TechType>
+			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
+		</Row>
+		<Row>
 			<TechType>TECH_CHARRING</TechType>
+			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ANIMAL_HUSBANDRY</TechType>
 			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
 		</Row>
 		<Row>

@@ -138,7 +138,6 @@
         <!-- Деревообработка -->
         <!-- ############### -->
 
-
 		<!-- Плотник -->
 		<Row>
 			<Type>BUILDING_CARPENTER</Type>
@@ -148,8 +147,7 @@
 			<PrereqTech>TECH_WOODWORKING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_CARPENTER</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_CARPENTER_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_CARPENTER_STRATEGY</Strategy>
-			<Help>TXT_KEY_BUILDING_CARPENTER_HELP</Help>
+<!--			<Help>TXT_KEY_BUILDING_CARPENTER_HELP</Help>-->
 			<ConquestProb>66</ConquestProb>
 			<MinAreaSize>-1</MinAreaSize>
 			<HurryCostModifier>25</HurryCostModifier>
