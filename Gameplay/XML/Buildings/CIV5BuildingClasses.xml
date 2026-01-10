@@ -30,6 +30,15 @@
 			<MaxGlobalInstances>1</MaxGlobalInstances>
 		</Row>
 
+		<!-- Библиотека Ашшурбанипала -->
+		<Row>
+			<Type>BUILDINGCLASS_ASHURBANIPAL_LIBRARY</Type>
+			<DefaultBuilding>BUILDING_ASHURBANIPAL_LIBRARY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_ASHURBANIPAL_LIBRARY</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+
+
 
 <!-- Античность-->
 		<Row>
@@ -40,6 +49,12 @@
 
 
 
+
+		<Row>
+			<Type>BUILDINGCLASS_CHURCH</Type>
+			<DefaultBuilding>BUILDING_CHURCH</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_CHURCH</Description>
+		</Row>
 
 
 		<Row>

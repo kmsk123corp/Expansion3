@@ -78,8 +78,8 @@
 			<ConquestProb>66</ConquestProb>
 			<MinAreaSize>-1</MinAreaSize>
 			<HurryCostModifier>25</HurryCostModifier>
-			<IconAtlas>EXPANSION_BW_ATLAS_1</IconAtlas>
-			<PortraitIndex>9</PortraitIndex>
+			<IconAtlas>Building_IconAtlas</IconAtlas>
+			<PortraitIndex>19</PortraitIndex>
 		</Replace>
 
         <!-- Собрание друидов (Кельты) -->
@@ -493,7 +493,7 @@
         <Row>
 			<BuildingType>BUILDING_SHRINE</BuildingType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_CELTS_DRUIDS</BuildingType>

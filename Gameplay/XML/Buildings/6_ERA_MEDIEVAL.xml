@@ -221,6 +221,26 @@
         <!-- Рыцарство -->
         <!-- ######### -->
 
+
+		<!-- Церковь -->
+		<Replace>
+			<Type>BUILDING_CHURCH</Type>
+			<BuildingClass>BUILDINGCLASS_CHURCH</BuildingClass>
+			<FreeStartEra>ERA_MEDIEVAL</FreeStartEra>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<Cost>150</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_CHIVALRY</PrereqTech>
+			<Description>Церковь</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_CHURCH_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_CHURCH_STRATEGY</Strategy>
+			<ConquestProb>66</ConquestProb>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>EXPANSION_BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>9</PortraitIndex>
+		</Replace>
+
         <!-- Замок -->
         <Row>
 			<Type>BUILDING_CASTLE</Type>

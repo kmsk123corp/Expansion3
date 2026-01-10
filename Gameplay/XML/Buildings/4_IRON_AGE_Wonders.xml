@@ -30,6 +30,30 @@
             <WonderSplashAudio>AS2D_WONDER_SPEECH_TEMPLE_OF_ARTEMIS</WonderSplashAudio>
         </Row>
 
+        <!-- ####### -->
+        <!-- Папирус -->
+        <!-- ####### -->
+
+        <!-- Библиотека Ашшурбанипала -->
+        <Row>
+            <Type>BUILDING_ASHURBANIPAL_LIBRARY</Type>
+            <BuildingClass>BUILDINGCLASS_ASHURBANIPAL_LIBRARY</BuildingClass>
+            <Cost>747</Cost>
+            <PrereqTech>TECH_ALPHABET</PrereqTech>
+            <Description>TXT_KEY_BUILDINGS_ASHURBANIPAL_LIBRARY</Description>
+            <Civilopedia>TXT_KEY_BUILDINGS_ASHURBANIPAL_LIBRARY_TEXT</Civilopedia>
+            <Help>TXT_KEY_BUILDING_ASHURBANIPAL_LIBRARY_HELP</Help>
+            <MaxStartEra>ERA_CLASSICAL</MaxStartEra>
+            <SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+            <GreatPeopleRateChange>1</GreatPeopleRateChange>
+            <NukeImmune>true</NukeImmune>
+            <HurryCostModifier>-1</HurryCostModifier>
+            <MinAreaSize>-1</MinAreaSize>
+            <ConquestProb>100</ConquestProb>
+            <IconAtlas>Building_IconAtlas</IconAtlas>
+            <PortraitIndex>37</PortraitIndex>
+        </Row>
+
     </Buildings>
 
 
