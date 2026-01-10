@@ -13,8 +13,13 @@
         </Row>
         <Row>
             <BuildingType>BUILDING_FORGE</BuildingType>
-            <ResourceType>RESOURCE_WOOD</ResourceType>
-            <Cost>50</Cost>
+            <ResourceType>RESOURCE_LUMBER</ResourceType>
+            <Cost>30</Cost>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_FORGE</BuildingType>
+            <ResourceType>RESOURCE_CHARCOAL</ResourceType>
+            <Cost>30</Cost>
         </Row>
         <Row>
             <BuildingType>BUILDING_FORGE</BuildingType>
@@ -22,7 +27,30 @@
             <Cost>50</Cost>
         </Row>
 
+        <!-- Мастерская -->
+        <Row>
+            <BuildingType>BUILDING_WORKSHOP</BuildingType>
+            <ResourceType>RESOURCE_WOOD</ResourceType>
+            <Cost>40</Cost>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_WORKSHOP</BuildingType>
+            <ResourceType>RESOURCE_STONE</ResourceType>
+            <Cost>20</Cost>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_WORKSHOP</BuildingType>
+            <ResourceType>RESOURCE_COPPER</ResourceType>
+            <Cost>20</Cost>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_WORKSHOP</BuildingType>
+            <ResourceType>RESOURCE_IRON</ResourceType>
+            <Cost>20</Cost>
+        </Row>
+
         <!-- Переписчик -->
+        <!-- TODO: нет стоимости -->
 
         <!-- Печь для обжига кирпича -->
         <Row>
@@ -93,6 +121,23 @@
             <BuildingType>BUILDING_FORGE</BuildingType>
             <ResourceType>RESOURCE_CHARCOAL</ResourceType>
             <Cost>2</Cost>
+        </Row>
+
+        <!-- Мастерская -->
+        <Row>
+            <BuildingType>BUILDING_WORKSHOP</BuildingType>
+            <ResourceType>RESOURCE_WOOD</ResourceType>
+            <Cost>40</Cost>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_WORKSHOP</BuildingType>
+            <ResourceType>RESOURCE_STONE</ResourceType>
+            <Cost>20</Cost>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_WORKSHOP</BuildingType>
+            <ResourceType>RESOURCE_COPPER</ResourceType>
+            <Cost>20</Cost>
         </Row>
 
         <!-- Печь для обжига кирпича -->

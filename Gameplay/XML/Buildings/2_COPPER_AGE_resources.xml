@@ -13,7 +13,7 @@
 	<!-- BUILDING_POLYNESIA_FISH_POND 		  60        Рыбный загон (Полинезия) -->
 	<!-- BUILDING_MONUMENT 	          		  60             		    Монумент -->
 	<!-- BUILDING_STELE 	          		  60             	 Стела (Эфиопия) -->
-	<!-- BUILDING_WORKSHOP 		          	  90             		  Мастерская -->
+	<!-- BUILDING_CARPENTER 		          90             		     Плотник -->
 	<!-- BUILDING_STONE_WORKS 			  	  60             Каменная мастерская -->
 	<!-- BUILDING_CIRCUS 			  		  60             				Цирк -->
 	<!-- BUILDING_CUNEIFORMLIBRARY 			  90          Клинописная библиотека -->
@@ -97,16 +97,21 @@
 
 
 
-        <!-- амбар -->
+        <!-- амбар (100)-->
 		<Row>
 			<BuildingType>BUILDING_GRANARY</BuildingType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>40</Cost>
+			<Cost>100</Cost>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_GRANARY</BuildingType>
 			<ResourceType>RESOURCE_LUMBER</ResourceType>
-			<Cost>20</Cost>
+			<Cost>40</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GRANARY</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>10</Cost>
 		</Row>
 
         <!-- Юрта (Гунны) -->
@@ -145,19 +150,19 @@
 			<Cost>20</Cost>
 		</Row>
 
-        <!-- Мастерская -->
-        <Row>
-			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+		<!-- Плотник -->
+		<Row>
+			<BuildingType>BUILDING_CARPENTER</BuildingType>
 			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>40</Cost>
+			<Cost>20</Cost>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+			<BuildingType>BUILDING_CARPENTER</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
 			<Cost>20</Cost>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+			<BuildingType>BUILDING_CARPENTER</BuildingType>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
 			<Cost>20</Cost>
 		</Row>
@@ -290,6 +295,12 @@
 			<Quantity>2</Quantity>
 		</Row>
 
+		<Row>
+			<BuildingType>BUILDING_GRANARY</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Quantity>4</Quantity>
+		</Row>
+
         <!-- Юрта (Гунны) -->
         <Row>
             <BuildingType>BUILDING_HUNS_YURT</BuildingType>
@@ -311,11 +322,11 @@
             <Quantity>4</Quantity>
         </Row>
 
-        <!-- Мастреская -->
+        <!-- Плотник -->
 		<Row>
-			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+			<BuildingType>BUILDING_CARPENTER</BuildingType>
 			<ResourceType>RESOURCE_LUMBER</ResourceType>
-			<Quantity>2</Quantity>
+			<Quantity>3</Quantity>
 		</Row>
 
         <!-- Каменная мастерская -->
@@ -360,12 +371,6 @@
 			<Cost>2</Cost>
 		</Row>
 
-        <Row>
-			<BuildingType>BUILDING_GRANARY</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>2</Cost>
-		</Row>
-
         <!-- юкола -->
         <!-- <Row>
             <BuildingType>BUILDING_YUKOLA</BuildingType>
@@ -373,9 +378,9 @@
             <Cost>1</Cost>
         </Row> -->
 
-        <!-- Мастреская -->
+        <!-- Плотник -->
 		<Row>
-			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+			<BuildingType>BUILDING_CARPENTER</BuildingType>
 			<ResourceType>RESOURCE_WOOD</ResourceType>
 			<Cost>2</Cost>
 		</Row>

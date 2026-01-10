@@ -138,7 +138,7 @@
 		<!-- Строим лесопилку -->
 		<Row>
 			<Type>BUILD_LUMBERMILL</Type>
-			<PrereqTech>TECH_WOODWORKING</PrereqTech>
+			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
 			<Time>700</Time>
 			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
 			<Description>TXT_KEY_BUILD_LUMBERMILL</Description>

@@ -80,6 +80,13 @@
     <!-- Производит ресурсов -->
     <Building_ResourceQuantity>
 
+		<!-- Погреб -->
+		<Row>
+			<BuildingType>BUILDING_CELLAR</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Quantity>1</Quantity>
+		</Row>
+
         <!-- Углежогная яма -->
         <Row>
 			<BuildingType>BUILDING_CHARCOAL_BURNER</BuildingType>
@@ -97,13 +104,6 @@
 			<BuildingType>BUILDING_CHARCOAL_BURNER</BuildingType>
 			<ResourceType>RESOURCE_WOOD</ResourceType>
 			<Cost>4</Cost>
-		</Row>
-
-        <!-- Погреб -->
-        <Row>
-			<BuildingType>BUILDING_CELLAR</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>1</Cost>
 		</Row>
 
     </Building_ResourceQuantityRequirements>

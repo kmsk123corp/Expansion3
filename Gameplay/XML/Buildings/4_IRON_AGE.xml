@@ -55,6 +55,52 @@
             <PortraitIndex>2</PortraitIndex>
         </Row>
 
+        <!-- Мастерская -->
+        <Row>
+            <Type>BUILDING_WORKSHOP</Type>
+            <BuildingClass>BUILDINGCLASS_WORKSHOP</BuildingClass>
+            <FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
+            <Cost>240</Cost>
+            <GoldMaintenance>2</GoldMaintenance>
+            <PrereqTech>TECH_BLACKSMITHING</PrereqTech>
+            <Help>TXT_KEY_BUILDING_WORKSHOP_HELP</Help>
+            <Description>TXT_KEY_BUILDING_WORKSHOP</Description>
+            <Civilopedia>TXT_KEY_CIV5_BUILDINGS_WORKSHOP_TEXT</Civilopedia>
+            <Strategy>TXT_KEY_BUILDING_WORKSHOP_STRATEGY</Strategy>
+            <ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
+            <SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+            <!-- <SpecialistCount>1</SpecialistCount> -->
+            <GreatPeopleRateChange>1</GreatPeopleRateChange>
+            <MinAreaSize>-1</MinAreaSize>
+            <ConquestProb>66</ConquestProb>
+            <HurryCostModifier>25</HurryCostModifier>
+            <IconAtlas>BW_ATLAS_1</IconAtlas>
+            <PortraitIndex>28</PortraitIndex>
+        </Row>
+
+        <!-- ################### -->
+        <!-- Известковый раствор -->
+        <!-- ################### -->
+
+        <!-- Мраморный карьер -->
+        <Row>
+            <Type>BUILDING_MARBLEQUARRY</Type>
+            <BuildingClass>BUILDINGCLASS_MARBLEQUARRY</BuildingClass>
+            <Cost>240</Cost>
+            <GoldMaintenance>2</GoldMaintenance>
+            <PrereqTech>TECH_LIME_MORTAR</PrereqTech>
+            <Description>Мраморный карьер</Description>
+            <Civilopedia>TXT_KEY_CIV5_BUILDINGS_MARBLEQUARRY_TEXT</Civilopedia>
+            <Strategy>TXT_KEY_BUILDING_MARBLEQUARRY_STRATEGY</Strategy>
+            <Help>TXT_KEY_BUILDING_MARBLEQUARRY_HELP</Help>
+            <ArtDefineTag>ART_DEF_BUILDING_MARBLEQUARRY</ArtDefineTag>
+            <MinAreaSize>-1</MinAreaSize>
+            <ConquestProb>66</ConquestProb>
+            <HurryCostModifier>25</HurryCostModifier>
+            <IconAtlas>Building_IconAtlas</IconAtlas>
+            <PortraitIndex>0</PortraitIndex>
+        </Row>
+
         <!-- ########## -->
         <!-- Математика -->
         <!-- ########## -->
@@ -155,6 +201,11 @@
             <BuildingType>BUILDING_FORGE</BuildingType>
             <YieldType>YIELD_PRODUCTION</YieldType>
             <Yield>2</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_WORKSHOP</BuildingType>
+            <YieldType>YIELD_PRODUCTION</YieldType>
+            <Yield>3</Yield>
         </Row>
 
 
@@ -263,6 +314,36 @@
             <BuildingType>BUILDING_FORGE</BuildingType>
             <FlavorType>FLAVOR_PRODUCTION</FlavorType>
             <Flavor>30</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_WORKSHOP</BuildingType>
+            <FlavorType>FLAVOR_GROWTH</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_WORKSHOP</BuildingType>
+            <FlavorType>FLAVOR_EXPANSION</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_WORKSHOP</BuildingType>
+            <FlavorType>FLAVOR_PRODUCTION</FlavorType>
+            <Flavor>30</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_WORKSHOP</BuildingType>
+            <FlavorType>FLAVOR_WONDER</FlavorType>
+            <Flavor>10</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_WORKSHOP</BuildingType>
+            <FlavorType>FLAVOR_SPACESHIP</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_WORKSHOP</BuildingType>
+            <FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+            <Flavor>2</Flavor>
         </Row>
         <Row>
             <BuildingType>BUILDING_BRICKKILN</BuildingType>

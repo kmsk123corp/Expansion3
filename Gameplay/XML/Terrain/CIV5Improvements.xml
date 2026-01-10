@@ -1074,7 +1074,13 @@
 			<Yield>1</Yield>
 		</Row>
 
-
+		<!-- Математика (Плантации) -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<TechType>TECH_MATHEMATICS</TechType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
 
 
 		<Row>

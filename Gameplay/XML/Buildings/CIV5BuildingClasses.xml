@@ -42,8 +42,16 @@
 
 
 
-
-
+		<Row>
+			<Type>BUILDINGCLASS_CARPENTER</Type>
+			<DefaultBuilding>BUILDING_CARPENTER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_CARPENTER</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_MARBLEQUARRY</Type>
+			<DefaultBuilding>BUILDING_MARBLEQUARRY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_MARBLEQUARRY</Description>
+		</Row>
 
 
 
