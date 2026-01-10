@@ -139,7 +139,7 @@
 	        <IconString>[ICON_RES_WOOD]</IconString>
 	        <PortraitIndex>0</PortraitIndex>
 	        <IconAtlas>Resources_IconAtlas</IconAtlas>
-			<StartingResourceQuantity>50</StartingResourceQuantity>
+			<StartingResourceQuantity>105</StartingResourceQuantity>
 	    </Row>
 
 		<!-- Пиломатериалы -->
@@ -289,7 +289,7 @@
 			<IconString>[ICON_RES_STONE]</IconString>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>EXTENDED_RESOURCE_ATLAS</IconAtlas>
-			<StartingResourceQuantity>50</StartingResourceQuantity>
+			<StartingResourceQuantity>65</StartingResourceQuantity>
 		</Row>
 
 		<!-- Мрамор -->
@@ -319,6 +319,7 @@
 			<IconString>[ICON_RES_MARBLE]</IconString>
 			<PortraitIndex>14</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
+			<StartingResourceQuantity>20</StartingResourceQuantity>
 		</Row>
 
 
