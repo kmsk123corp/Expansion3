@@ -5,11 +5,21 @@
 	<UnitClasses>
 
 
+
+
+
+
 		<Row>
 			<Type>UNITCLASS_HUNTERS</Type>
 			<Description>TXT_KEY_UNIT_HUNTERS</Description>
 			<DefaultUnit>UNIT_HUNTERS</DefaultUnit>
 		</Row>
+		<Row>
+			<Type>UNITCLASS_ARCHER_BRONZE</Type>
+			<Description>TXT_KEY_UNIT_ARCHER_BRONZE</Description>
+			<DefaultUnit>UNIT_ARCHER_BRONZE</DefaultUnit>
+		</Row>
+
 
 		<Row>
 			<Type>UNITCLASS_AXEMAN</Type>

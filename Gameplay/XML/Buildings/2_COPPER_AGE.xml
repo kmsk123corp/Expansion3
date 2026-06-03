@@ -225,7 +225,7 @@
         <!-- ################ -->
         <!-- Обработка бронзы -->
         <!-- ################ -->
-        
+
         <!-- Медный рудник -->
         <Row>
 			<Type>BUILDING_COPPER_MINE</Type>
@@ -322,7 +322,7 @@
 			<FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
 			<Cost>150</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
-			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
+			<PrereqTech>TECH_CASTING_WAX_MODEL</PrereqTech>
 			<Help>TXT_KEY_BUILDING_GRANARY_HELP</Help>
 			<Description>TXT_KEY_BUILDING_GRANARY</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_GRANARY_TEXT</Civilopedia>
@@ -517,7 +517,7 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
-        
+
     </Building_YieldChanges>
 
     <!-- Проценты к производству -->
@@ -753,15 +753,15 @@
 			<BuildingType>BUILDING_COPPER_MINE</BuildingType>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
 		</Row>
-        
-        
+
+
 
     </Building_LocalResourceOrs>
 
 
     <!-- Клетки с океаном -->
     <Building_SeaPlotYieldChanges>
-        
+
     </Building_SeaPlotYieldChanges>
 
 
@@ -773,7 +773,7 @@
 
     <!-- Опыт юнитам -->
     <Building_DomainFreeExperiences>
-        
+
     </Building_DomainFreeExperiences>
 
 
@@ -800,7 +800,7 @@
 			<BuildingType>BUILDING_COPPER_MINE</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_MELTINGFURNACE</BuildingClassType>
 		</Row>
-        
+
     </Building_ClassesNeededInCity>
 
     <!-- Для ботов похоже... -->
@@ -1043,13 +1043,13 @@
 			<Flavor>50</Flavor>
 		</Row>
 
-        
+
         <Row>
 			<BuildingType>BUILDING_CUNEIFORMLIBRARY</BuildingType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
-        
+
 
         <Row>
 			<BuildingType>BUILDING_LONGHOUSE</BuildingType>

@@ -34,7 +34,7 @@
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
 			<ObsoleteTech>TECH_CONSTRUCTION</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_ARCHER</GoodyHutUpgradeUnitClass>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_ARCHER_BRONZE</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>15</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -68,7 +68,7 @@
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
 			<ObsoleteTech>TECH_CONSTRUCTION</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_ARCHER</GoodyHutUpgradeUnitClass>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_ARCHER_BRONZE</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>15</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -88,8 +88,8 @@
 			<Class>UNITCLASS_HUNTERS</Class>
 			<Type>UNIT_HUNTERS</Type>
 			<PrereqTech>TECH_ARCHERY</PrereqTech>
-			<Combat>6</Combat>
-			<RangedCombat>9</RangedCombat>
+			<Combat>5</Combat>
+			<RangedCombat>8</RangedCombat>
 			<Cost>50</Cost>
 			<FaithCost>100</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
@@ -106,7 +106,7 @@
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
 			<ObsoleteTech>TECH_CONSTRUCTION</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_ARCHER</GoodyHutUpgradeUnitClass>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_ARCHER_BRONZE</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>15</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -122,13 +122,85 @@
 		<!-- ### Бронзовый век ### -->
 		<!-- ##################### -->
 
-		<!-- Лучники -->
+		<!-- Лучники (бронза) -->
+		<Row>
+			<Class>UNITCLASS_ARCHER_BRONZE</Class>
+			<Type>UNIT_ARCHER_BRONZE</Type>
+			<PrereqTech>TECH_CASTING_WAX_MODEL</PrereqTech>
+			<Combat>6</Combat>
+			<RangedCombat>10</RangedCombat>
+			<Cost>60</Cost>
+			<FaithCost>120</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<Range>2</Range>
+			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_ARCHER_BRONZE</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_ARCHER_BRONZE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_ARCHER_BRONZE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_ARCHER_BRONZE</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_CONSTRUCTION</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_ARCHER</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>15</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_ARCHER</UnitArtInfo>
+			<UnitFlagIconOffset>6</UnitFlagIconOffset>
+			<IconAtlas>Technologies_IconAtlas</IconAtlas>
+			<PortraitIndex>33</PortraitIndex>
+		</Row>
+
+		<!-- Аккадские лучники (Вавилон) -->
+		<Replace>
+			<Class>UNITCLASS_ARCHER_BRONZE</Class>
+			<Type>UNIT_BABYLONIAN_BOWMAN</Type>
+			<PrereqTech>TECH_CASTING_WAX_MODEL</PrereqTech>
+			<Combat>8</Combat>
+			<RangedCombat>12</RangedCombat>
+			<Cost>60</Cost>
+			<FaithCost>120</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<Range>2</Range>
+			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_BABYLON_BOWMAN</Description>
+			<Civilopedia>TXT_KEY_CIV5_BABYLON_BOWMAN_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_CIV5_BABYLON_BOWMAN_STRATEGY</Strategy>
+			<Help>TXT_KEY_CIV5_BABYLON_BOWMAN_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_CONSTRUCTION</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_ARCHER</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_U_BABYLONIAN_BOWMAN</UnitArtInfo>
+			<IconAtlas>NEB_UNIT_ATLAS</IconAtlas>
+			<UnitFlagAtlas>NEB_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<PortraitIndex>0</PortraitIndex>
+		</Replace>
+
+
+		<!-- #################### -->
+		<!-- ### Железный век ### -->
+		<!-- #################### -->
+
+		<!-- Лучники (железо) -->
 		<Row>
 			<Class>UNITCLASS_ARCHER</Class>
 			<Type>UNIT_ARCHER</Type>
-			<PrereqTech>TECH_CASTING_WAX_MODEL</PrereqTech>
-			<Combat>7</Combat>
-			<RangedCombat>12</RangedCombat>
+			<PrereqTech>TECH_COMPOSITE_BOW</PrereqTech>
+			<Combat>10</Combat>
+			<RangedCombat>15</RangedCombat>
 			<Cost>60</Cost>
 			<FaithCost>120</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
@@ -157,44 +229,9 @@
 
 
 
-TECH_COMPOSITE_BOW
 
 
 
-
-		<!-- Аккадские лучники (Вавилон) -->
-		<Replace>
-			<Class>UNITCLASS_ARCHER</Class>
-			<Type>UNIT_BABYLONIAN_BOWMAN</Type>
-			<PrereqTech>TECH_CASTING_WAX_MODEL</PrereqTech>
-			<Combat>8</Combat>
-			<RangedCombat>14</RangedCombat>
-			<Cost>60</Cost>
-			<FaithCost>120</FaithCost>
-			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
-			<Moves>2</Moves>
-			<Range>2</Range>
-			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
-			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_BABYLON_BOWMAN</Description>
-			<Civilopedia>TXT_KEY_CIV5_BABYLON_BOWMAN_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_CIV5_BABYLON_BOWMAN_STRATEGY</Strategy>
-			<Help>TXT_KEY_CIV5_BABYLON_BOWMAN_HELP</Help>
-			<MilitarySupport>true</MilitarySupport>
-			<MilitaryProduction>true</MilitaryProduction>
-			<Pillage>true</Pillage>
-			<ObsoleteTech>TECH_CONSTRUCTION</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_COMPOSITE_BOWMAN</GoodyHutUpgradeUnitClass>
-			<AdvancedStartCost>50</AdvancedStartCost>
-			<XPValueAttack>3</XPValueAttack>
-			<XPValueDefense>3</XPValueDefense>
-			<UnitArtInfo>ART_DEF_UNIT_U_BABYLONIAN_BOWMAN</UnitArtInfo>
-			<IconAtlas>NEB_UNIT_ATLAS</IconAtlas>
-			<UnitFlagAtlas>NEB_UNIT_FLAG_ATLAS</UnitFlagAtlas>
-			<UnitFlagIconOffset>0</UnitFlagIconOffset>
-			<PortraitIndex>0</PortraitIndex>
-		</Replace>
 
 		<!-- Меткие лучники -->
 		<Replace>
@@ -247,6 +284,10 @@ TECH_COMPOSITE_BOW
 			<UnitAIType>UNITAI_RANGED</UnitAIType>
 		</Row>
 		<Row>
+			<UnitType>UNIT_ARCHER_BRONZE</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+		<Row>
 			<UnitType>UNIT_ARCHER</UnitType>
 			<UnitAIType>UNITAI_RANGED</UnitAIType>
 		</Row>
@@ -266,24 +307,28 @@ TECH_COMPOSITE_BOW
 
 		<Row>
 			<UnitType>UNIT_INCAN_SLINGER</UnitType>
-			<UnitClassType>UNITCLASS_ARCHER</UnitClassType>
+			<UnitClassType>UNITCLASS_ARCHER_BRONZE</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_MAYAN_ATLATLIST</UnitType>
-			<UnitClassType>UNITCLASS_ARCHER</UnitClassType>
+			<UnitClassType>UNITCLASS_ARCHER_BRONZE</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_HUNTERS</UnitType>
+			<UnitClassType>UNITCLASS_ARCHER_BRONZE</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARCHER_BRONZE</UnitType>
 			<UnitClassType>UNITCLASS_ARCHER</UnitClassType>
 		</Row>
+		<Replace>
+			<UnitType>UNIT_BABYLONIAN_BOWMAN</UnitType>
+			<UnitClassType>UNITCLASS_ARCHER</UnitClassType>
+		</Replace>
 		<Row>
 			<UnitType>UNIT_ARCHER</UnitType>
 			<UnitClassType>UNITCLASS_COMPOSITE_BOWMAN</UnitClassType>
 		</Row>
-		<Replace>
-			<UnitType>UNIT_BABYLONIAN_BOWMAN</UnitType>
-			<UnitClassType>UNITCLASS_COMPOSITE_BOWMAN</UnitClassType>
-		</Replace>
 		<Row>
 			<UnitType>UNIT_COMPOSITE_BOWMAN</UnitType>
 			<UnitClassType>UNITCLASS_CROSSBOWMAN</UnitClassType>
@@ -335,6 +380,21 @@ TECH_COMPOSITE_BOW
 		</Row>
 		<Row>
 			<UnitType>UNIT_HUNTERS</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARCHER_BRONZE</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARCHER_BRONZE</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARCHER_BRONZE</UnitType>
 			<FlavorType>FLAVOR_RANGED</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
@@ -405,6 +465,10 @@ TECH_COMPOSITE_BOW
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
 		</Row>
 		<Row>
+			<UnitType>UNIT_ARCHER_BRONZE</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
 			<UnitType>UNIT_ARCHER</UnitType>
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
 		</Row>
@@ -450,23 +514,33 @@ TECH_COMPOSITE_BOW
 		<Row>
 			<UnitType>UNIT_HUNTERS</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>10</Cost>
+			<Cost>20</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_HUNTERS</UnitType>
 			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>5</Cost>
+			<Cost>13</Cost>
 		</Row>
 
-		<!-- лучники -->
+		<!-- лучники (бронза) -->
 		<Row>
-			<UnitType>UNIT_ARCHER</UnitType>
+			<UnitType>UNIT_ARCHER_BRONZE</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARCHER_BRONZE</UnitType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
 			<Cost>10</Cost>
 		</Row>
 		<Row>
-			<UnitType>UNIT_ARCHER</UnitType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<UnitType>UNIT_ARCHER_BRONZE</UnitType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARCHER_BRONZE</UnitType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
 			<Cost>5</Cost>
 		</Row>
 
@@ -474,44 +548,67 @@ TECH_COMPOSITE_BOW
 		<Row>
 			<UnitType>UNIT_BABYLONIAN_BOWMAN</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>12</Cost>
+			<Cost>20</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_BABYLONIAN_BOWMAN</UnitType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>5</Cost>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>10</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_BABYLONIAN_BOWMAN</UnitType>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<Cost>5</Cost>
+			<Cost>10</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_BABYLONIAN_BOWMAN</UnitType>
 			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
-			<Cost>5</Cost>
+			<Cost>10</Cost>
 		</Row>
+
+		<!-- лучники -->
+		<Row>
+			<UnitType>UNIT_ARCHER</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARCHER</UnitType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARCHER</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARCHER</UnitType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+
 
 		<!-- Меткие лучники -->
 		<Row>
 			<UnitType>UNIT_COMPOSITE_BOWMAN</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>20</Cost>
+			<Cost>25</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_COMPOSITE_BOWMAN</UnitType>
 			<ResourceType>RESOURCE_LUMBER</ResourceType>
-			<Cost>10</Cost>
+			<Cost>25</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_COMPOSITE_BOWMAN</UnitType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
-			<Cost>10</Cost>
+			<Cost>25</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_COMPOSITE_BOWMAN</UnitType>
 			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
-			<Cost>10</Cost>
+			<Cost>25</Cost>
 		</Row>
 
 
@@ -541,10 +638,15 @@ TECH_COMPOSITE_BOW
 			<Cost>1</Cost>
 		</Row>
 
-		<!-- лучники -->
+		<!-- лучники (бронза) -->
 		<Row>
-			<UnitType>UNIT_ARCHER</UnitType>
+			<UnitType>UNIT_ARCHER_BRONZE</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARCHER_BRONZE</UnitType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
 			<Cost>1</Cost>
 		</Row>
 
@@ -554,16 +656,38 @@ TECH_COMPOSITE_BOW
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
 			<Cost>1</Cost>
 		</Row>
+		<Row>
+			<UnitType>UNIT_BABYLONIAN_BOWMAN</UnitType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+		<!-- лучники -->
+		<Row>
+			<UnitType>UNIT_ARCHER</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARCHER</UnitType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>1</Cost>
+		</Row>
 
 		<!-- Меткие лучники -->
 		<Row>
 			<UnitType>UNIT_COMPOSITE_BOWMAN</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_COMPOSITE_BOWMAN</UnitType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_COMPOSITE_BOWMAN</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
 			<Cost>1</Cost>
 		</Row>
 

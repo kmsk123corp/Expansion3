@@ -725,7 +725,7 @@
 			<OpenBordersTradingAllowed>true</OpenBordersTradingAllowed>
 		</Row>
 
-		<!-- Бронзовый доспех -->
+		<!-- Боевой строй -->
 		<Row>
 			<Type>TECH_ARMOUR</Type>
 			<Cost>130</Cost>
@@ -757,21 +757,6 @@
 			<IconAtlas>Technologies_IconAtlas</IconAtlas>
 		</Row>
 
-		<!-- Обод и спицы -->
-		<Row>
-			<Type>TECH_SPOKE_RIM</Type>
-			<Cost>130</Cost>
-			<Description>TXT_KEY_TECH_SPOKE_RIM_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_SPOKE_RIM_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_SPOKE_RIM_HELP</Help>
-			<Era>ERA_BRONZE</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>7</GridX>
-			<GridY>7</GridY>
-			<IconAtlas>Technologies_IconAtlas</IconAtlas>
-			<PortraitIndex>10</PortraitIndex>
-		</Row>
 
 		<!-- ################### -->
 		<!--       GridX 8       -->
@@ -856,23 +841,22 @@
 			<AudioIntroHeader>AS2D_HEADING_TECH_MASONRY</AudioIntroHeader>
 		</Row>
 
-		<!-- Верховая езда -->
+		<!-- Обод и спицы -->
 		<Row>
-			<Type>TECH_HORSEBACK_RIDING</Type>
+			<Type>TECH_SPOKE_RIM</Type>
 			<Cost>194</Cost>
-			<Description>TXT_KEY_TECH_HORSEBACK_RIDING_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_HORSEBACK_RIDING_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_HORSEBACK_RIDING_HELP</Help>
+			<Description>TXT_KEY_TECH_SPOKE_RIM_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_SPOKE_RIM_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_SPOKE_RIM_HELP</Help>
 			<Era>ERA_BRONZE</Era>
 			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
 			<GridX>8</GridX>
 			<GridY>7</GridY>
-			<Quote>TXT_KEY_TECH_HORSEBACK_RIDING_QUOTE</Quote>
-			<PortraitIndex>11</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-			<AudioIntro>AS2D_TECH_HORSEBACK_RIDING</AudioIntro>
-			<AudioIntroHeader>AS2D_HEADING_TECH_HORSEBACK_RIDING</AudioIntroHeader>
+			<IconAtlas>Technologies_IconAtlas</IconAtlas>
+			<PortraitIndex>10</PortraitIndex>
 		</Row>
+
 
 <!-- ####################################################################### -->
 <!-- 				   		     Железный век				  			     -->
@@ -949,6 +933,20 @@
 			<PortraitIndex>44</PortraitIndex>
 		</Row>
 
+		<!-- Композитный лук -->
+		<Row>
+			<Type>TECH_COMPOSITE_BOW</Type>
+			<Cost>324</Cost>
+			<Description>TXT_KEY_TECH_COMPOSITE_BOW_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_COMPOSITE_BOW_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_COMPOSITE_BOW_HELP</Help>
+			<Era>ERA_ANCIENT</Era>
+			<Trade>true</Trade>
+			<GridX>9</GridX>
+			<GridY>7</GridY>
+			<PortraitIndex>30</PortraitIndex>
+			<IconAtlas>Technologies_IconAtlas</IconAtlas>
+		</Row>
 
 		<!-- ################### -->
 		<!--       GridX 10      -->
@@ -1005,19 +1003,22 @@
 			<PortraitIndex>43</PortraitIndex>
 		</Row>
 
-		<!-- Композитный лук -->
+		<!-- Верховая езда -->
 		<Row>
-			<Type>TECH_COMPOSITE_BOW</Type>
-			<Cost>324</Cost>
-			<Description>TXT_KEY_TECH_COMPOSITE_BOW_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_COMPOSITE_BOW_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_COMPOSITE_BOW_HELP</Help>
+			<Type>TECH_HORSEBACK_RIDING</Type>
+			<Cost>259</Cost>
+			<Description>TXT_KEY_TECH_HORSEBACK_RIDING_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_HORSEBACK_RIDING_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_HORSEBACK_RIDING_HELP</Help>
 			<Era>ERA_ANCIENT</Era>
 			<Trade>true</Trade>
 			<GridX>10</GridX>
 			<GridY>7</GridY>
-			<PortraitIndex>30</PortraitIndex>
-			<IconAtlas>Technologies_IconAtlas</IconAtlas>
+			<Quote>TXT_KEY_TECH_HORSEBACK_RIDING_QUOTE</Quote>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<AudioIntro>AS2D_TECH_HORSEBACK_RIDING</AudioIntro>
+			<AudioIntroHeader>AS2D_HEADING_TECH_HORSEBACK_RIDING</AudioIntroHeader>
 		</Row>
 
 		<!-- ################### -->
@@ -4179,14 +4180,6 @@
 			<TechType>TECH_IRRIGATION</TechType>
 			<PrereqTech>TECH_DRY_MASONRY</PrereqTech>
 		</Row>
-		<Row>
-			<TechType>TECH_SPOKE_RIM</TechType>
-			<PrereqTech>TECH_CASTING_WAX_MODEL</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_SPOKE_RIM</TechType>
-			<PrereqTech>TECH_HORSE_HARNESS</PrereqTech>
-		</Row>
 
 		<!-- Бронзовый век [3] row 8 -->
 		<Row>
@@ -4210,9 +4203,10 @@
 			<PrereqTech>TECH_IRRIGATION</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_HORSEBACK_RIDING</TechType>
-			<PrereqTech>TECH_SPOKE_RIM</PrereqTech>
+			<TechType>TECH_SPOKE_RIM</TechType>
+			<PrereqTech>TECH_ARMOUR</PrereqTech>
 		</Row>
+
 
 		<!-- Железный век [1] row 9 -->
 		<Row>
@@ -4235,6 +4229,10 @@
 			<TechType>TECH_LIME_MORTAR</TechType>
 			<PrereqTech>TECH_MASONRY</PrereqTech>
 		</Row>
+		<Row>
+			<TechType>TECH_COMPOSITE_BOW</TechType>
+			<PrereqTech>TECH_SPOKE_RIM</PrereqTech>
+		</Row>
 
 		<!-- Железный век [2] row 10 -->
 		<Row>
@@ -4245,19 +4243,17 @@
 			<TechType>TECH_TWO_HANDED_SAW</TechType>
 			<PrereqTech>TECH_BLACKSMITHING</PrereqTech>
 		</Row>
-
 		<Row>
 			<TechType>TECH_SEWAGE_SYSTEM</TechType>
 			<PrereqTech>TECH_LIME_MORTAR</PrereqTech>
 		</Row>
-
 		<Row>
-			<TechType>TECH_COMPOSITE_BOW</TechType>
+			<TechType>TECH_HORSEBACK_RIDING</TechType>
 			<PrereqTech>TECH_BLACKSMITHING</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_COMPOSITE_BOW</TechType>
-			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+			<TechType>TECH_HORSEBACK_RIDING</TechType>
+			<PrereqTech>TECH_COMPOSITE_BOW</PrereqTech>
 		</Row>
 
 		<!-- Железный век [3] row 11 -->
@@ -4310,7 +4306,7 @@
 		</Row>
 		<Row>
 			<TechType>TECH_CATAPULT</TechType>
-			<PrereqTech>TECH_COMPOSITE_BOW</PrereqTech>
+			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
 		</Row>
 
 		<!-- Античность [2] row 13 -->
