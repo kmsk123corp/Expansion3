@@ -11,43 +11,9 @@
 		<!-- ### Неолит ### -->
 		<!-- ############## -->
 
-		<!-- Пращники  -->
-		<Row>
-			<Class>UNITCLASS_SLINGER</Class>
-			<Type>UNIT_SLINGER</Type>
-			<PrereqTech>TECH_TRAPPING</PrereqTech>
-			<Combat>5</Combat>
-			<RangedCombat>7</RangedCombat>
-			<Cost>40</Cost>
-			<FaithCost>80</FaithCost>
-			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
-			<Moves>2</Moves>
-			<Range>1</Range>
-			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
-			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_SLINGER</Description>
-			<Civilopedia>TXT_KEY_CIV5_SLINGER_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_CIV5_SLINGER_STRATEGY</Strategy>
-			<Help>TXT_KEY_CIV5_SLINGER_HELP</Help>
-			<MilitarySupport>true</MilitarySupport>
-			<MilitaryProduction>true</MilitaryProduction>
-			<Pillage>true</Pillage>
-			<ObsoleteTech>TECH_CONSTRUCTION</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_HUNTERS</GoodyHutUpgradeUnitClass>
-			<AdvancedStartCost>15</AdvancedStartCost>
-			<XPValueAttack>3</XPValueAttack>
-			<XPValueDefense>3</XPValueDefense>
-			<UnitArtInfo>ART_DEF_UNIT_U_INCAN_SLINGER</UnitArtInfo>
-			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
-			<UnitFlagIconOffset>38</UnitFlagIconOffset>
-			<IconAtlas>Technologies_IconAtlas</IconAtlas>
-			<PortraitIndex>55</PortraitIndex>
-		</Row>
-
 		<!-- Уарака (Инки) -->
 		<Replace>
-			<Class>UNITCLASS_SLINGER</Class>
+			<Class>UNITCLASS_HUNTERS</Class>
 			<Type>UNIT_INCAN_SLINGER</Type>
 			<PrereqTech>TECH_TRAPPING</PrereqTech>
 			<Combat>6</Combat>
@@ -68,7 +34,7 @@
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
 			<ObsoleteTech>TECH_CONSTRUCTION</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_HUNTERS</GoodyHutUpgradeUnitClass>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_ARCHER</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>15</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -81,7 +47,7 @@
 
 		<!-- Копьеметатели (Майя) -->
 		<Row>
-			<Class>UNITCLASS_SLINGER</Class>
+			<Class>UNITCLASS_HUNTERS</Class>
 			<Type>UNIT_MAYAN_ATLATLIST</Type>
 			<PrereqTech>TECH_TRAPPING</PrereqTech>
 			<Combat>7</Combat>
@@ -102,7 +68,7 @@
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
 			<ObsoleteTech>TECH_CONSTRUCTION</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_HUNTERS</GoodyHutUpgradeUnitClass>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_ARCHER</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>15</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -267,10 +233,7 @@ TECH_COMPOSITE_BOW
 	</Units>
 
 	<Unit_AITypes>
-		<Row>
-			<UnitType>UNIT_SLINGER</UnitType>
-			<UnitAIType>UNITAI_RANGED</UnitAIType>
-		</Row>
+
 		<Replace>
 			<UnitType>UNIT_INCAN_SLINGER</UnitType>
 			<UnitAIType>UNITAI_RANGED</UnitAIType>
@@ -300,17 +263,14 @@ TECH_COMPOSITE_BOW
 
 	<!-- Во что улучшается? -->
 	<Unit_ClassUpgrades>
-		<Row>
-			<UnitType>UNIT_SLINGER</UnitType>
-			<UnitClassType>UNITCLASS_HUNTERS</UnitClassType>
-		</Row>
+
 		<Row>
 			<UnitType>UNIT_INCAN_SLINGER</UnitType>
-			<UnitClassType>UNITCLASS_HUNTERS</UnitClassType>
+			<UnitClassType>UNITCLASS_ARCHER</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_MAYAN_ATLATLIST</UnitType>
-			<UnitClassType>UNITCLASS_HUNTERS</UnitClassType>
+			<UnitClassType>UNITCLASS_ARCHER</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_HUNTERS</UnitType>
@@ -333,21 +293,6 @@ TECH_COMPOSITE_BOW
 
 	<!-- Для советников -->
 	<Unit_Flavors>
-		<Row>
-			<UnitType>UNIT_SLINGER</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SLINGER</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>1</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SLINGER</UnitType>
-			<FlavorType>FLAVOR_RANGED</FlavorType>
-			<Flavor>8</Flavor>
-		</Row>
 		<Replace>
 			<UnitType>UNIT_INCAN_SLINGER</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
@@ -443,10 +388,6 @@ TECH_COMPOSITE_BOW
 
 	<!-- Способности юнита -->
 	<Unit_FreePromotions>
-		<Row>
-			<UnitType>UNIT_SLINGER</UnitType>
-			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
-		</Row>
 		<Replace>
 			<UnitType>UNIT_INCAN_SLINGER</UnitType>
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
@@ -480,18 +421,6 @@ TECH_COMPOSITE_BOW
 
 	<!-- Стоимость в ресурсов юнитов -->
 	<Unit_ResourceCostRequirements>
-
-		<!-- Пращники -->
-		<Row>
-			<UnitType>UNIT_SLINGER</UnitType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>10</Cost>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SLINGER</UnitType>
-			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>2</Cost>
-		</Row>
 
 		<!-- Уарака (Инки) -->
 		<Row>
@@ -590,13 +519,6 @@ TECH_COMPOSITE_BOW
 
 	<!-- Содержание -->
 	<Unit_ResourceQuantityRequirements>
-
-		<!-- Пращники -->
-		<Row>
-			<UnitType>UNIT_SLINGER</UnitType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>1</Cost>
-		</Row>
 
 		<!-- Уарака (Инки) -->
 		<Row>

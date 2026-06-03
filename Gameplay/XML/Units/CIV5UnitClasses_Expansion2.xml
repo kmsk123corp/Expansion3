@@ -22,11 +22,7 @@
 			<DefaultUnit>UNIT_AXEMAN_BRONZE</DefaultUnit>
 		</Row>
 
-		<Row>
-			<Type>UNITCLASS_SLINGER</Type>
-			<Description>TXT_KEY_UNIT_SLINGER</Description>
-			<DefaultUnit>UNIT_SLINGER</DefaultUnit>
-		</Row>
+
 
 		<Row>
 			<Type>UNITCLASS_ADVENTURER</Type>
