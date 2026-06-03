@@ -100,7 +100,7 @@
 
 
       <Row Tag="TXT_KEY_BELIEF_FEED_WORLD">
-          <Text>Святилища и храмы дают по +1 [ICON_FOOD] каждый</Text>
+          <Text>Святилища и храмы дают по +2 [ICON_FOOD] каждый</Text>
       </Row>
 
 
@@ -217,13 +217,13 @@
     </Row>
 
     <Row Tag="TXT_KEY_BELIEF_ASCETISM">
-      <Text>Святилища дают +1 [ICON_HAPPINESS_1] в городах с 3 почитателями</Text>
+      <Text>Святилища с 3 почитателями дают +1 [ICON_HAPPINESS_1] +1 [ICON_FOOD] +1 [ICON_PEACE] в городах</Text>
     </Row>
     <Row Tag="TXT_KEY_BELIEF_CEREMONIAL_BURIAL">
       <Text>+1 [ICON_HAPPINESS_1] к настроению в державе за каждые два города, исповедующих ту же религию</Text>
     </Row>
     <Row Tag="TXT_KEY_BELIEF_CHORAL_MUSIC">
-      <Text>Храм дает +2 [ICON_CULTURE] в городах с 5 почитателями</Text>
+      <Text>Храм дает +2 [ICON_PEACE] +2 [ICON_CULTURE] +2 [ICON_GOLD] в городах с 6 почитателями</Text>
     </Row>
     <Row Tag="TXT_KEY_BELIEF_CHURCH_PROPERTY">
       <Text>+3 [ICON_GOLD] к золоту за каждый город, исповедующий эту религию</Text>
@@ -234,7 +234,7 @@
     </Row>
 
     <Row Tag="TXT_KEY_BELIEF_DIVINE_INSPIRATION">
-      <Text>Каждое чудо света дает +2 [ICON_PEACE] в городе</Text>
+      <Text>Каждое чудо света дает +5 [ICON_PEACE] в городе</Text>
     </Row>
 
 
@@ -248,7 +248,7 @@
 
 
     <Row Tag="TXT_KEY_BELIEF_GURUSHIP">
-      <Text>+2 [ICON_PRODUCTION] к производству, если в городе есть специалист</Text>
+      <Text>+10 [ICON_PRODUCTION] к производству, если в городе есть специалист</Text>
     </Row>
     <Row Tag="TXT_KEY_BELIEF_HARVEST_FESTIVAL">
       <Text>Placeholder</Text>
@@ -271,9 +271,7 @@
     <Row Tag="TXT_KEY_BELIEF_JUST_WAR">
       <Text>+20%[ICON_STRENGTH] к боевой мощи рядом с вражескими городами, исповедующими эту религию</Text>
     </Row>
-    <Row Tag="TXT_KEY_BELIEF_LITURGICAL_DRAMA">
-      <Text>Амфитеатр дает +1 [ICON_PEACE] к вере в городах с 3 почитателями</Text>
-    </Row>
+
     <Row Tag="TXT_KEY_BELIEF_MESSIAH">
       <Text>Пророки становятся на 25% сильнее, а для их появления требуется на 25% меньше [ICON_PEACE] веры</Text>
     </Row>
@@ -281,7 +279,7 @@
       <Text>+25% к силе убеждения миссионеров</Text>
     </Row>
     <Row Tag="TXT_KEY_BELIEF_MONASTERIES">
-      <Text>Можно строить монастыри (+4 [ICON_PEACE] к вере, +2 [ICON_CULTURE] к культуре, больше очков, если есть [ICON_RES_WINE] вино или [ICON_RES_INCENSE] благовония) за очки [ICON_PEACE] веры</Text>
+      <Text>Можно строить монастыри (+5 [ICON_PEACE] +1 [ICON_CULTURE] +1 [ICON_GOLD], а также в этом городе [ICON_RES_WINE] вино, [ICON_RES_INCENSE] благовония и [ICON_RES_DYE] красители дают +2 [ICON_PEACE] +2 [ICON_CULTURE] +1 [ICON_GOLD]</Text>
     </Row>
 
     <Row Tag="TXT_KEY_BELIEF_MOSQUES">
@@ -306,10 +304,10 @@
       <Text>+2 [ICON_PEACE] к вере за каждый свой город и +2 [ICON_PEACE] к вере за каждый чужой город, исповедующий эту религию</Text>
     </Row>
     <Row Tag="TXT_KEY_BELIEF_RELIGIOUS_CENTER">
-      <Text>Храм дает +2 [ICON_HAPPINESS_1] к настроению в городах с 5 почитателями</Text>
+      <Text>Храм дает +5 [ICON_HAPPINESS_1] к настроению в городах с 5 почитателями</Text>
     </Row>
     <Row Tag="TXT_KEY_BELIEF_RELIGIOUS_COMMUNITY">
-      <Text>+1% [ICON_PRODUCTION] к производству за каждого почитателя (макс.: +15%).</Text>
+      <Text>+1% [ICON_PRODUCTION] к производству за каждого почитателя (макс.: +20%) в городе в мирное время</Text>
     </Row>
 
     <Row Tag="TXT_KEY_BELIEF_RELIGIOUS_UNITY">
@@ -325,7 +323,7 @@
 
 
     <Row Tag="TXT_KEY_BELIEF_SWORD_PLOWSHARES">
-      <Text>+15% к [ICON_FOOD] темпу роста в городах в мирное время</Text>
+      <Text>+1% [ICON_FOOD] к пищи за каждого почитателя (макс.: +20%) в городе в мирное время</Text>
     </Row>
     <Row Tag="TXT_KEY_BELIEF_TITHE">
       <Text>+1 [ICON_GOLD] к золоту за каждых 4 почитателей этой религии</Text>

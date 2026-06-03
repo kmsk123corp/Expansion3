@@ -190,7 +190,7 @@
 			<Pantheon>true</Pantheon>
 		</Row>
 
-		<!-- Бог открытого неба -->
+		<!-- Бог священной коровы -->
 		<Row>
 			<Type>BELIEF_OPEN_SKY</Type>
 			<Description>TXT_KEY_BELIEF_OPEN_SKY</Description>
@@ -522,31 +522,7 @@
 			<Description>TXT_KEY_BELIEF_LITURGICAL_DRAMA</Description>
 			<ShortDescription>TXT_KEY_BELIEF_LITURGICAL_DRAMA_SHORT</ShortDescription>
 			<Follower>true</Follower>
-			<MinFollowers>3</MinFollowers>
-		</Row>
-
-		<!-- Мечети -->
-		<Row>
-			<Type>BELIEF_MOSQUES</Type>
-			<Description>TXT_KEY_BELIEF_MOSQUES</Description>
-			<ShortDescription>TXT_KEY_BELIEF_MOSQUES_SHORT</ShortDescription>
-			<Follower>true</Follower>
-		</Row>
-
-		<!-- Накорми мир -->
-		<Row>
-			<Type>BELIEF_FEED_WORLD</Type>
-			<Description>TXT_KEY_BELIEF_FEED_WORLD</Description>
-			<ShortDescription>TXT_KEY_BELIEF_FEED_WORLD_SHORT</ShortDescription>
-			<Follower>true</Follower>
-		</Row>
-
-		<!-- Пагоды -->
-		<Row>
-			<Type>BELIEF_PAGODAS</Type>
-			<Description>TXT_KEY_BELIEF_PAGODAS</Description>
-			<ShortDescription>TXT_KEY_BELIEF_PAGODAS_SHORT</ShortDescription>
-			<Follower>true</Follower>
+			<MinFollowers>5</MinFollowers>
 		</Row>
 
 		<!-- Мечи на орала -->
@@ -555,7 +531,7 @@
 			<Description>TXT_KEY_BELIEF_SWORD_PLOWSHARES</Description>
 			<ShortDescription>TXT_KEY_BELIEF_SWORD_PLOWSHARES_SHORT</ShortDescription>
 			<Follower>true</Follower>
-			<CityGrowthModifier>15</CityGrowthModifier>
+			<!-- <CityGrowthModifier>25</CityGrowthModifier> -->
 			<RequiresPeace>true</RequiresPeace>
 		</Row>
 
@@ -564,6 +540,14 @@
 			<Type>BELIEF_MONASTERIES</Type>
 			<Description>TXT_KEY_BELIEF_MONASTERIES</Description>
 			<ShortDescription>TXT_KEY_BELIEF_MONASTERIES_SHORT</ShortDescription>
+			<Follower>true</Follower>
+		</Row>
+
+		<!-- Накорми мир -->
+		<Row>
+			<Type>BELIEF_FEED_WORLD</Type>
+			<Description>TXT_KEY_BELIEF_FEED_WORLD</Description>
+			<ShortDescription>TXT_KEY_BELIEF_FEED_WORLD_SHORT</ShortDescription>
 			<Follower>true</Follower>
 		</Row>
 
@@ -589,6 +573,7 @@
 			<Description>TXT_KEY_BELIEF_RELIGIOUS_COMMUNITY</Description>
 			<ShortDescription>TXT_KEY_BELIEF_RELIGIOUS_COMMUNITY_SHORT</ShortDescription>
 			<Follower>true</Follower>
+			<RequiresPeace>true</RequiresPeace>
 		</Row>
 
 		<!-- Религиозный центр -->
@@ -599,6 +584,49 @@
 			<Follower>true</Follower>
 			<MinFollowers>5</MinFollowers>
 		</Row>
+
+		<!-- Хоралы -->
+		<Row>
+			<Type>BELIEF_CHORAL_MUSIC</Type>
+			<Description>TXT_KEY_BELIEF_CHORAL_MUSIC</Description>
+			<ShortDescription>TXT_KEY_BELIEF_CHORAL_MUSIC_SHORT</ShortDescription>
+			<Follower>true</Follower>
+			<MinFollowers>6</MinFollowers>
+		</Row>
+
+
+
+
+
+		<!-- Мечети -->
+		<Row>
+			<Type>BELIEF_MOSQUES</Type>
+			<Description>TXT_KEY_BELIEF_MOSQUES</Description>
+			<ShortDescription>TXT_KEY_BELIEF_MOSQUES_SHORT</ShortDescription>
+			<Follower>true</Follower>
+		</Row>
+
+
+
+		<!-- Пагоды -->
+		<Row>
+			<Type>BELIEF_PAGODAS</Type>
+			<Description>TXT_KEY_BELIEF_PAGODAS</Description>
+			<ShortDescription>TXT_KEY_BELIEF_PAGODAS_SHORT</ShortDescription>
+			<Follower>true</Follower>
+		</Row>
+
+
+
+
+
+
+
+
+
+
+
+
 
 		<!-- Сады мира -->
 		<Row>
@@ -624,14 +652,7 @@
 			<Follower>true</Follower>
 		</Row>
 
-		<!-- Хоралы -->
-		<Row>
-			<Type>BELIEF_CHORAL_MUSIC</Type>
-			<Description>TXT_KEY_BELIEF_CHORAL_MUSIC</Description>
-			<ShortDescription>TXT_KEY_BELIEF_CHORAL_MUSIC_SHORT</ShortDescription>
-			<Follower>true</Follower>
-			<MinFollowers>5</MinFollowers>
-		</Row>
+
 
 		<!-- #################### -->
         <!-- Верования укрепления -->
@@ -832,13 +853,19 @@
 			<BeliefType>BELIEF_FEED_WORLD</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<YieldChange>1</YieldChange>
+			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_FEED_WORLD</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<YieldChange>1</YieldChange>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_CHORAL_MUSIC</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_CHORAL_MUSIC</BeliefType>
@@ -847,16 +874,49 @@
 			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
+			<BeliefType>BELIEF_CHORAL_MUSIC</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+
+		<Row>
 			<BeliefType>BELIEF_RELIGIOUS_ART</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_HERMITAGE</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>5</YieldChange>
+			<YieldChange>20</YieldChange>
 		</Row>
+
+		<Row>
+			<BeliefType>BELIEF_ASCETISM</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ASCETISM</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+
 		<Row>
 			<BeliefType>BELIEF_LITURGICAL_DRAMA</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<YieldChange>1</YieldChange>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_LITURGICAL_DRAMA</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_LITURGICAL_DRAMA</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
 		</Row>
 
 		<Row>
@@ -900,7 +960,7 @@
 		<Row>
 			<BeliefType>BELIEF_RELIGIOUS_CENTER</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
-			<Happiness>2</Happiness>
+			<Happiness>5</Happiness>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_ASCETISM</BeliefType>
@@ -912,7 +972,7 @@
 		<Row>
 			<BeliefType>BELIEF_RELIGIOUS_ART</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_HERMITAGE</BuildingClassType>
-			<Tourism>5</Tourism>
+			<Tourism>10</Tourism>
 		</Row>
 	</Belief_BuildingClassTourism>
 	<Belief_BuildingClassFaithPurchase>
@@ -1430,13 +1490,32 @@
 	</Belief_ImprovementYieldChanges>
 	<Belief_MaxYieldModifierPerFollower>
 		<Row>
-			<BeliefType>BELIEF_RELIGIOUS_COMMUNITY</BeliefType>
+			<BeliefType>BELIEF_SWORD_PLOWSHARES</BeliefType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Max>15</Max>
+			<Max>20</Max>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_COMMUNITY</BeliefType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Max>20</Max>
 		</Row>
 	</Belief_MaxYieldModifierPerFollower>
 	<Belief_ResourceHappiness/>
 	<Belief_ResourceYieldChanges>
+
+
+		<Row>
+			<BeliefType>BELIEF_OPEN_SKY</BeliefType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_OPEN_SKY</BeliefType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
 
 		<Row>
 			<BeliefType>BELIEF_FORMAL_LITURGY</BeliefType>
@@ -1711,7 +1790,7 @@
 		<Row>
 			<BeliefType>BELIEF_GURUSHIP</BeliefType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>10</Yield>
 		</Row>
 	</Belief_YieldChangeAnySpecialist>
 	<Belief_YieldChangeTradeRoute>
@@ -1737,7 +1816,7 @@
 		<Row>
 			<BeliefType>BELIEF_DIVINE_INSPIRATION</BeliefType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>2</Yield>
+			<Yield>5</Yield>
 		</Row>
 	</Belief_YieldChangeWorldWonder>
 	<Belief_YieldModifierNaturalWonder>

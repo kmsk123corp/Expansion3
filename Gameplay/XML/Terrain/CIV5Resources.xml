@@ -883,6 +883,7 @@
 			<PortraitIndex>24</PortraitIndex>
 			<IconAtlas>Resources_IconAtlas</IconAtlas>
 		</Row>
+		<!--	Красители	-->
 		<Row>
 			<Type>RESOURCE_DYE</Type>
 			<Happiness>4</Happiness>

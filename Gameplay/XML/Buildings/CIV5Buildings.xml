@@ -3550,37 +3550,65 @@
 
 
 
-
-
-
-
-
-
-
 		<Row>
 			<BuildingType>BUILDING_MONASTERY</BuildingType>
 			<ResourceType>RESOURCE_INCENSE</ResourceType>
 			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONASTERY</BuildingType>
+			<ResourceType>RESOURCE_INCENSE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONASTERY</BuildingType>
+			<ResourceType>RESOURCE_INCENSE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MONASTERY</BuildingType>
 			<ResourceType>RESOURCE_WINE</ResourceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_MONASTERY</BuildingType>
-			<ResourceType>RESOURCE_INCENSE</ResourceType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MONASTERY</BuildingType>
 			<ResourceType>RESOURCE_WINE</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONASTERY</BuildingType>
+			<ResourceType>RESOURCE_WINE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONASTERY</BuildingType>
+			<ResourceType>RESOURCE_DYE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONASTERY</BuildingType>
+			<ResourceType>RESOURCE_DYE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONASTERY</BuildingType>
+			<ResourceType>RESOURCE_DYE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+
+
+
+
 		<Row>
 			<BuildingType>BUILDING_NATIONAL_RESERVE</BuildingType>
 			<ResourceType>RESOURCE_FUR</ResourceType>
@@ -4042,13 +4070,18 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MONASTERY</BuildingType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>5</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MONASTERY</BuildingType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>4</Yield>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONASTERY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SYNAGOGUE</BuildingType>

@@ -45,7 +45,7 @@
       <Plurality>1</Plurality>
     </Row>
     <Row Tag="TXT_KEY_BELIEF_RELIGIOUS_ART">
-      <Text>Эрмитаж дает +8 [ICON_CULTURE] к культуре и +5 [ICON_TOURISM] к туризму</Text>
+      <Text>Эрмитаж дает +20 [ICON_CULTURE] к культуре и +10 [ICON_TOURISM] к туризму</Text>
     </Row>
     <Row Tag="TXT_KEY_BELIEF_RELIGIOUS_FERVOR">
       <Text>Можно покупать наземные юниты Новейшего времени и позже за [ICON_PEACE]</Text>
