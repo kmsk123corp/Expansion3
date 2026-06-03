@@ -873,7 +873,7 @@
 			<AudioIntro>AS2D_TECH_HORSEBACK_RIDING</AudioIntro>
 			<AudioIntroHeader>AS2D_HEADING_TECH_HORSEBACK_RIDING</AudioIntroHeader>
 		</Row>
-		
+
 <!-- ####################################################################### -->
 <!-- 				   		     Железный век				  			     -->
 <!-- ####################################################################### -->
@@ -915,7 +915,7 @@
 			<PortraitIndex>26</PortraitIndex>
 			<IconAtlas>Technologies_IconAtlas</IconAtlas>
 		</Row>
-		
+
 		<!-- Кузнечное дело -->
 		<Row>
 			<Type>TECH_BLACKSMITHING</Type>
@@ -973,7 +973,7 @@
 			<AudioIntro>AS2D_TECH_MATHEMATICS_BRICK</AudioIntro>
 			<AudioIntroHeader>AS2D_HEADING_TECH_MATHEMATICS_BRICK</AudioIntroHeader>
 		</Row>
-		
+
 		<!-- Двуручная пила -->
 		<Row>
 			<Type>TECH_TWO_HANDED_SAW</Type>
@@ -1004,7 +1004,7 @@
 			<IconAtlas>Technologies_IconAtlas</IconAtlas>
 			<PortraitIndex>43</PortraitIndex>
 		</Row>
-		
+
 		<!-- Композитный лук -->
 		<Row>
 			<Type>TECH_COMPOSITE_BOW</Type>
@@ -1043,7 +1043,7 @@
 			<AudioIntro>AS2D_TECH_OPTICS</AudioIntro>
 			<AudioIntroHeader>AS2D_HEADING_TECH_OPTICS</AudioIntroHeader>
 		</Row>
-		
+
 		<!-- Папирус -->
 		<Row>
 			<Type>TECH_ALPHABET</Type>
@@ -1096,9 +1096,9 @@
 			<PortraitIndex>6</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
-		
-		
-		
+
+
+
 <!-- ####################################################################### -->
 <!-- 				   		  Поздняя Античность				  			 -->
 <!-- ####################################################################### -->
@@ -1106,7 +1106,7 @@
 		<!-- ################### -->
 		<!--       GridX 12      -->
 		<!-- ################### -->
-		
+
 		<!-- Литература -->
 		<Row>
 			<Type>TECH_LITERATURE</Type>
@@ -1263,12 +1263,12 @@
 
 
 
-		
-		
-		
 
-		
-		
+
+
+
+
+
 
 		<!-- ################### -->
 		<!--       GridX 14      -->
@@ -1390,7 +1390,7 @@
 			<AudioIntro>AS2D_TECH_COMPASS</AudioIntro>
 			<AudioIntroHeader>AS2D_HEADING_TECH_COMPASS</AudioIntroHeader>
 		</Row>
-		
+
 		<!-- Образование -->
 		<Row>
 			<Type>TECH_EDUCATION</Type>
@@ -1522,7 +1522,7 @@
 		<!-- ################### -->
 		<!--       GridX 17      -->
 		<!-- ################### -->
-		
+
 		<!-- Сталеварение -->
 		<Row>
 			<Type>TECH_STEEL</Type>
@@ -1540,8 +1540,8 @@
 			<AudioIntro>AS2D_TECH_STEEL</AudioIntro>
 			<AudioIntroHeader>AS2D_HEADING_TECH_STEEL</AudioIntroHeader>
 		</Row>
-		
-		
+
+
 
 <!-- ####################################################################### -->
 <!-- 				   		  Новое время				  			 		 -->
@@ -1716,9 +1716,9 @@
 			<AudioIntro>AS2D_TECH_CHEMISTRY</AudioIntro>
 			<AudioIntroHeader>AS2D_HEADING_TECH_CHEMISTRY</AudioIntroHeader>
 		</Row>
-		
-		
-		
+
+
+
 		<!-- COLUMN 9 -->
 		<Row>
 			<Type>TECH_ARCHAEOLOGY</Type>
@@ -2393,10 +2393,10 @@
 			<AudioIntroHeader>AS2D_HEADING_TECH_FUTURE_TECH</AudioIntroHeader>
 		</Row>
 	</Technologies>
-	
+
 	<!-- Для ботов и советников -->
 	<Technology_Flavors>
-		
+
 		<Row>
 			<TechType>TECH_AGRICULTURE</TechType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -2891,9 +2891,9 @@
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>3</Flavor>
 		</Row>
-		
-		
-		
+
+
+
 		<!-- TECH_AGRICULTURE 		Каменные орудия -->
 		<!-- TECH_STONE_IMPLEMENTS 	Земледение -->
 		<!-- TECH_FOREST_CUTTING 	Вырубка леса -->
@@ -2931,8 +2931,8 @@
 		<!-- TECH_IRON_WORKING 		Сыродутный процесс -->
 		<!-- TECH_MASONRY 			Каменная кладка -->
 		<!-- TECH_HORSEBACK_RIDING 	Верховая езда -->
-		
-		
+
+
 		<!-- TECH_NAVIGATING_STARS 	Навигация по звездам -->
 		<!-- TECH_CLERGY 			Духовенство -->
 		<!-- TECH_BLACKSMITHING 	Кузнечное дело -->
@@ -2943,7 +2943,7 @@
 		<!-- TECH_ALPHABET 			Папирус -->
 		<!-- TECH_CURRENCY 			Монетное дело -->
 		<!-- TECH_ENGINEERING 		Инженерное дело -->
-	
+
 		<Row>
 			<TechType>TECH_OPTICS</TechType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
@@ -2994,18 +2994,18 @@
 			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
-		
-		
-		
-		
-		
+
+
+
+
+
 		<Row>
 			<TechType>TECH_DAMASCUS_STEEL</TechType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
-		
-		
+
+
 		<Row>
 			<TechType>TECH_CERAMIC_BRICK</TechType>
 			<FlavorType>FLAVOR_RANGED</FlavorType>
@@ -3081,8 +3081,8 @@
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>3</Flavor>
 		</Row>
-		
-		
+
+
 		<Row>
 			<TechType>TECH_THEOLOGY</TechType>
 			<FlavorType>FLAVOR_RELIGION</FlavorType>
@@ -3128,7 +3128,7 @@
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
-		
+
 		<Row>
 			<TechType>TECH_METAL_CASTING</TechType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -4235,7 +4235,7 @@
 			<TechType>TECH_LIME_MORTAR</TechType>
 			<PrereqTech>TECH_MASONRY</PrereqTech>
 		</Row>
-		
+
 		<!-- Железный век [2] row 10 -->
 		<Row>
 			<TechType>TECH_MATHEMATICS</TechType>
@@ -4259,7 +4259,7 @@
 			<TechType>TECH_COMPOSITE_BOW</TechType>
 			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
 		</Row>
-		
+
 		<!-- Железный век [3] row 11 -->
 		<Row>
 			<TechType>TECH_OPTICS</TechType>
@@ -4289,7 +4289,7 @@
 			<TechType>TECH_CERAMIC_BRICK</TechType>
 			<PrereqTech>TECH_SEWAGE_SYSTEM</PrereqTech>
 		</Row>
-		
+
 		<!-- Античность [1] row 12 -->
 
 		<Row>
@@ -4324,6 +4324,10 @@
 			<PrereqTech>TECH_LITERATURE</PrereqTech>
 		</Row>
 		<Row>
+			<TechType>TECH_GLASS_BLOWING</TechType>
+			<PrereqTech>TECH_LITERATURE</PrereqTech>
+		</Row>
+		<Row>
 			<TechType>TECH_LAMINAR_ARMOR</TechType>
 			<PrereqTech>TECH_WELDED_WEAPONS</PrereqTech>
 		</Row>
@@ -4353,6 +4357,10 @@
 		<Row>
 			<TechType>TECH_DRAMA</TechType>
 			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_DAMASCUS_STEEL</TechType>
+			<PrereqTech>TECH_GLASS_BLOWING</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_DAMASCUS_STEEL</TechType>

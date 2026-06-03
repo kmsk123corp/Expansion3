@@ -49,7 +49,7 @@
 			<BuildingClass>BUILDINGCLASS_HANGING_GARDEN</BuildingClass>
 			<Cost>1494</Cost>
 			<PrereqTech>TECH_GARDENING</PrereqTech>
-			<PolicyBranchType>POLICY_ARISTOCRACY</PolicyBranchType>
+			<PolicyBranchType>POLICY_TRADITION</PolicyBranchType>
 			<Help>TXT_KEY_WONDER_HANGING_GARDEN_HELP</Help>
 			<Description>TXT_KEY_BUILDING_HANGING_GARDEN</Description>
 			<Civilopedia>TXT_KEY_WONDER_HANGINGGARDENS_DESC</Civilopedia>

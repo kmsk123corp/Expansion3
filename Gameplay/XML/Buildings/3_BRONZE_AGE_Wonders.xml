@@ -31,7 +31,7 @@
             <BuildingClass>BUILDINGCLASS_PYRAMID</BuildingClass>
             <Cost>1494</Cost>
             <PrereqTech>TECH_DRY_MASONRY</PrereqTech>
-            <PolicyBranchType>POLICY_MERITOCRACY</PolicyBranchType>
+            <PolicyBranchType>POLICY_LIBERTY</PolicyBranchType>
             <Help>TXT_KEY_WONDER_CHICHEN_ITZA_HELP</Help>
             <Description>TXT_KEY_BUILDING_PYRAMID</Description>
             <Civilopedia>TXT_KEY_WONDER_PYRAMIDS_DESC</Civilopedia>
@@ -73,7 +73,7 @@
             <IconAtlas>Building_IconAtlas</IconAtlas>
 			<PortraitIndex>38</PortraitIndex>
 		</Row>
-        
+
     </Buildings>
 
 
@@ -105,7 +105,7 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>5</Yield>
 		</Row>
-        
+
     </Building_YieldChanges>
 
 
@@ -242,7 +242,7 @@
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
-        
+
     </Building_Flavors>
 
 

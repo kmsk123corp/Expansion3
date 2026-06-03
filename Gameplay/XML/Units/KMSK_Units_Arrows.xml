@@ -189,6 +189,13 @@
 			<PortraitIndex>6</PortraitIndex>
 		</Row>
 
+
+
+TECH_COMPOSITE_BOW
+
+
+
+
 		<!-- Аккадские лучники (Вавилон) -->
 		<Replace>
 			<Class>UNITCLASS_ARCHER</Class>
@@ -227,7 +234,7 @@
 		<Replace>
 			<Class>UNITCLASS_COMPOSITE_BOWMAN</Class>
 			<Type>UNIT_COMPOSITE_BOWMAN</Type>
-			<PrereqTech>TECH_COMPOSITE_BOW</PrereqTech>
+			<PrereqTech>TECH_CATAPULT</PrereqTech>
 			<Combat>7</Combat>
 			<RangedCombat>11</RangedCombat>
 			<Cost>75</Cost>

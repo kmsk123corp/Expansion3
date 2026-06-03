@@ -207,7 +207,7 @@
 
 		<!-- Уровень 2 -->
 
-		<!-- Войны с топорами -->
+		<!-- Войны с топорами (медь) -->
 		<Row>
 			<Class>UNITCLASS_AXEMAN</Class>
 			<Type>UNIT_AXEMAN</Type>
@@ -236,7 +236,7 @@
 			<UnitArtInfo>ART_DEF_UNIT__AXEMAN</UnitArtInfo>
 			<UnitFlagIconOffset>3</UnitFlagIconOffset>
 			<IconAtlas>Technologies_IconAtlas</IconAtlas>
-			<PortraitIndex>24</PortraitIndex>
+			<PortraitIndex>49</PortraitIndex>
 		</Row>
 
 		<!-- Войны-маори (Полинезия) -->
@@ -274,7 +274,37 @@
 
 		<!-- Уровень 3 -->
 
-
+		<!-- Войны с топорами (бронза) -->
+		<Row>
+			<Class>UNITCLASS_AXEMAN_BRONZE</Class>
+			<Type>UNIT_AXEMAN_BRONZE</Type>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Combat>12</Combat>
+			<Cost>60</Cost>
+			<FaithCost>100</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AXEMAN_BRONZE</Description>
+			<Civilopedia>TXT_KEY_UNIT_AXEMAN_BRONZE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_AXEMAN_BRONZE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_AXEMAN_BRONZE_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_METAL_CASTING</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_SPEARMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>10</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>1</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT__AXEMAN</UnitArtInfo>
+			<UnitFlagIconOffset>3</UnitFlagIconOffset>
+			<IconAtlas>Technologies_IconAtlas</IconAtlas>
+			<PortraitIndex>24</PortraitIndex>
+		</Row>
 
 
 
@@ -536,7 +566,7 @@
 			<Class>UNITCLASS_SPEARMAN</Class>
 			<Type>UNIT_SPEARMAN</Type>
 			<PrereqTech>TECH_ARMOUR</PrereqTech>
-			<Combat>11</Combat>
+			<Combat>14</Combat>
 			<Cost>56</Cost>
 			<FaithCost>112</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
@@ -568,7 +598,7 @@
 			<Class>UNITCLASS_SPEARMAN</Class>
 			<Type>UNIT_ASSYRIA_ROYAL_GUARD</Type>
 			<PrereqTech>TECH_ARMOUR</PrereqTech>
-			<Combat>11</Combat>
+			<Combat>14</Combat>
 			<Cost>56</Cost>
 			<FaithCost>112</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
@@ -601,7 +631,7 @@
 			<Class>UNITCLASS_SPEARMAN</Class>
 			<Type>UNIT_AZTEC_EAGLE</Type>
 			<PrereqTech>TECH_ARMOUR</PrereqTech>
-			<Combat>11</Combat>
+			<Combat>14</Combat>
 			<Cost>56</Cost>
 			<FaithCost>112</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
@@ -634,7 +664,7 @@
 			<Class>UNITCLASS_SPEARMAN</Class>
 			<Type>UNIT_GREEK_HOPLITE</Type>
 			<PrereqTech>TECH_ARMOUR</PrereqTech>
-			<Combat>13</Combat>
+			<Combat>16</Combat>
 			<Cost>56</Cost>
 			<FaithCost>112</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
@@ -666,7 +696,7 @@
 			<Class>UNITCLASS_SPEARMAN</Class>
 			<Type>UNIT_PERSIAN_IMMORTAL</Type>
 			<PrereqTech>TECH_ARMOUR</PrereqTech>
-			<Combat>12</Combat>
+			<Combat>15</Combat>
 			<Cost>56</Cost>
 			<FaithCost>112</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
@@ -698,7 +728,7 @@
 			<Class>UNITCLASS_SPEARMAN</Class>
 			<Type>UNIT_CELT_PICTISH_WARRIOR</Type>
 			<PrereqTech>TECH_ARMOUR</PrereqTech>
-			<Combat>11</Combat>
+			<Combat>14</Combat>
 			<Cost>56</Cost>
 			<FaithCost>112</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
@@ -731,7 +761,7 @@
 			<Class>UNITCLASS_SPEARMAN</Class>
 			<Type>UNIT_HUN_BATTERING_RAM</Type>
 			<PrereqTech>TECH_ARMOUR</PrereqTech>
-			<Combat>10</Combat>
+			<Combat>12</Combat>
 			<Cost>75</Cost>
 			<FaithCost>150</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
@@ -763,7 +793,7 @@
 			<Class>UNITCLASS_SPEARMAN</Class>
 			<Type>UNIT_BARBARIAN_SPEARMAN</Type>
 			<PrereqTech>TECH_ARMOUR</PrereqTech>
-			<Combat>11</Combat>
+			<Combat>14</Combat>
 			<Cost>56</Cost>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
@@ -786,6 +816,9 @@
 			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
 			<PortraitIndex>9</PortraitIndex>
 		</Row>
+
+
+
 
 
 		<!-- Пикинеры -->
@@ -944,6 +977,20 @@
 			<UnitType>UNIT_AXEMAN</UnitType>
 			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
 		</Row>
+
+		<Row>
+			<UnitType>UNIT_AXEMAN_BRONZE</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AXEMAN_BRONZE</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AXEMAN_BRONZE</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+
 		<Row>
 			<UnitType>UNIT_POLYNESIAN_MAORI_WARRIOR</UnitType>
 			<UnitAIType>UNITAI_ATTACK</UnitAIType>
@@ -1196,11 +1243,15 @@
 			<UnitType>UNIT_AZTEC_JAGUAR</UnitType>
 			<UnitClassType>UNITCLASS_SWORDSMAN</UnitClassType>
 		</Row>
-
 		<Row>
 			<UnitType>UNIT_AXEMAN</UnitType>
+			<UnitClassType>UNITCLASS_AXEMAN_BRONZE</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AXEMAN_BRONZE</UnitType>
 			<UnitClassType>UNITCLASS_SWORDSMAN</UnitClassType>
 		</Row>
+
 		<Row>
 			<UnitType>UNIT_POLYNESIAN_MAORI_WARRIOR</UnitType>
 			<UnitClassType>UNITCLASS_SWORDSMAN</UnitClassType>
@@ -1353,6 +1404,23 @@
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>4</Flavor>
 		</Row>
+
+		<Row>
+			<UnitType>UNIT_AXEMAN_BRONZE</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AXEMAN_BRONZE</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AXEMAN_BRONZE</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+
 		<Row>
 			<UnitType>UNIT_POLYNESIAN_MAORI_WARRIOR</UnitType>
 			<FlavorType>FLAVOR_RECON</FlavorType>
@@ -1752,7 +1820,7 @@
 		<Row>
 			<UnitType>UNIT_WARRIOR</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>10</Cost>
+			<Cost>20</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_WARRIOR</UnitType>
@@ -1769,7 +1837,7 @@
 		<Row>
 			<UnitType>UNIT_AZTEC_JAGUAR</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>15</Cost>
+			<Cost>25</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_AZTEC_JAGUAR</UnitType>
@@ -1781,11 +1849,11 @@
 		<!-- Пехота (уровень 2) -->
 		<!-- ################## -->
 
-		<!-- Войны с топорами -->
+		<!-- Войны с топорами (медь) -->
 		<Row>
 			<UnitType>UNIT_AXEMAN</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>15</Cost>
+			<Cost>20</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_AXEMAN</UnitType>
@@ -1795,6 +1863,11 @@
 		<Row>
 			<UnitType>UNIT_AXEMAN</UnitType>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AXEMAN</UnitType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
 			<Cost>5</Cost>
 		</Row>
 
@@ -1813,6 +1886,29 @@
 		<!-- ################## -->
 		<!-- Пехота (уровень 3) -->
 		<!-- ################## -->
+
+		<!-- Войны с топорами (Бронза) -->
+		<Row>
+			<UnitType>UNIT_AXEMAN_BRONZE</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AXEMAN_BRONZE</UnitType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AXEMAN_BRONZE</UnitType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>8</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AXEMAN_BRONZE</UnitType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>8</Cost>
+		</Row>
+
 
 		<!-- Войны-могавки -->
 		<Row>
@@ -2183,6 +2279,13 @@
 			<UnitType>UNIT_AXEMAN</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
 			<Cost>1</Cost>
+		</Row>
+
+		<!-- Войны с топорами -->
+		<Row>
+			<UnitType>UNIT_AXEMAN_BRONZE</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>2</Cost>
 		</Row>
 
 		<!-- Войны-маори -->

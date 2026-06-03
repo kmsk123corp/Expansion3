@@ -16,6 +16,11 @@
 			<Description>TXT_KEY_UNIT_AXEMAN</Description>
 			<DefaultUnit>UNIT_AXEMAN</DefaultUnit>
 		</Row>
+		<Row>
+			<Type>UNITCLASS_AXEMAN_BRONZE</Type>
+			<Description>TXT_KEY_UNIT_AXEMAN_BRONZE</Description>
+			<DefaultUnit>UNIT_AXEMAN_BRONZE</DefaultUnit>
+		</Row>
 
 		<Row>
 			<Type>UNITCLASS_SLINGER</Type>
