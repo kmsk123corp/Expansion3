@@ -138,7 +138,7 @@
 		<!-- Строим лесопилку -->
 		<Row>
 			<Type>BUILD_LUMBERMILL</Type>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
+			<PrereqTech>TECH_WOODWORKING</PrereqTech>
 			<Time>700</Time>
 			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
 			<Description>TXT_KEY_BUILD_LUMBERMILL</Description>
@@ -273,7 +273,7 @@
 		<!-- Вырубаем джунгли -->
 		<Row>
 			<Type>BUILD_REMOVE_JUNGLE</Type>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
+			<PrereqTech>TECH_CHARRING</PrereqTech>
 			<Description>TXT_KEY_BUILD_REMOVE_JUNGLE</Description>
 			<Help>TXT_KEY_BUILD_REMOVE_FEATURE_HELP</Help>
 			<Recommendation>TXT_KEY_BUILD_REMOVE_FEATURE_HELP</Recommendation>
@@ -614,7 +614,7 @@
 		<Row>
 			<BuildType>BUILD_FARM</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
+			<PrereqTech>TECH_CHARRING</PrereqTech>
 			<Time>700</Time>
 			<Remove>true</Remove>
 		</Row>
@@ -638,7 +638,7 @@
 		<Row>
 			<BuildType>BUILD_MINE</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
+			<PrereqTech>TECH_CHARRING</PrereqTech>
 			<Time>700</Time>
 			<Remove>true</Remove>
 		</Row>
@@ -662,7 +662,7 @@
 		<Row>
 			<BuildType>BUILD_TRADING_POST</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
+			<PrereqTech>TECH_CHARRING</PrereqTech>
 			<Time>700</Time>
 		</Row>
 		<Row>
@@ -682,7 +682,7 @@
 		<Row>
 			<BuildType>BUILD_PASTURE</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
+			<PrereqTech>TECH_CHARRING</PrereqTech>
 			<Time>700</Time>
 			<Remove>true</Remove>
 		</Row>
@@ -706,7 +706,7 @@
 		<Row>
 			<BuildType>BUILD_PLANTATION</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
+			<PrereqTech>TECH_CHARRING</PrereqTech>
 			<Time>700</Time>
 			<Remove>true</Remove>
 		</Row>
@@ -729,7 +729,7 @@
 		<Row>
 			<BuildType>BUILD_QUARRY</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
+			<PrereqTech>TECH_CHARRING</PrereqTech>
 			<Time>700</Time>
 			<Remove>true</Remove>
 		</Row>
@@ -753,7 +753,7 @@
 		<Row>
 			<BuildType>BUILD_FORT</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
+			<PrereqTech>TECH_CHARRING</PrereqTech>
 			<Time>700</Time>
 		</Row>
 		<Row>
@@ -773,7 +773,7 @@
 		<Row>
 			<BuildType>BUILD_REMOVE_JUNGLE</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
+			<PrereqTech>TECH_CHARRING</PrereqTech>
 			<Time>700</Time>
 			<Remove>true</Remove>
 		</Row>
@@ -809,7 +809,7 @@
 		<Row>
 			<BuildType>BUILD_LANDMARK</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
+			<PrereqTech>TECH_CHARRING</PrereqTech>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
@@ -830,7 +830,7 @@
 		<Row>
 			<BuildType>BUILD_ACADEMY</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
+			<PrereqTech>TECH_CHARRING</PrereqTech>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
@@ -851,7 +851,7 @@
 		<Row>
 			<BuildType>BUILD_CUSTOMS_HOUSE</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
+			<PrereqTech>TECH_CHARRING</PrereqTech>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
@@ -872,7 +872,7 @@
 		<Row>
 			<BuildType>BUILD_MANUFACTORY</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
+			<PrereqTech>TECH_CHARRING</PrereqTech>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
@@ -893,7 +893,7 @@
 		<Row>
 			<BuildType>BUILD_CITADEL</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
+			<PrereqTech>TECH_CHARRING</PrereqTech>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
@@ -914,7 +914,7 @@
 		<Row>
 			<BuildType>BUILD_WELL</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
+			<PrereqTech>TECH_CHARRING</PrereqTech>
 			<Time>700</Time>
 			<Remove>true</Remove>
 		</Row>
@@ -938,7 +938,7 @@
 		<Row>
 			<BuildType>BUILD_ARCHAEOLOGY_DIG</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
+			<PrereqTech>TECH_CHARRING</PrereqTech>
 			<Time>700</Time>
 			<Remove>true</Remove>
 		</Row>
@@ -962,7 +962,7 @@
 		<Row>
 			<BuildType>BUILD_FEITORIA</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
+			<PrereqTech>TECH_CHARRING</PrereqTech>
 			<Time>700</Time>
 			<Remove>true</Remove>
 		</Row>
@@ -985,7 +985,7 @@
 		<Row>
 			<BuildType>BUILD_CHATEAU</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
+			<PrereqTech>TECH_CHARRING</PrereqTech>
 			<Time>700</Time>
 			<Remove>true</Remove>
 		</Row>
@@ -1009,7 +1009,7 @@
 		<Row>
 			<BuildType>BUILD_HOLY_SITE</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
+			<PrereqTech>TECH_CHARRING</PrereqTech>
 			<Remove>true</Remove>
 		</Row>
 		<Row>
@@ -1030,7 +1030,7 @@
 		<Row>
 			<BuildType>BUILD_MOAI</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
+			<PrereqTech>TECH_CHARRING</PrereqTech>
 			<Time>700</Time>
 			<Remove>true</Remove>
 		</Row>
@@ -1047,7 +1047,7 @@
 		<Row>
 			<BuildType>BUILD_TERRACE_FARM</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
+			<PrereqTech>TECH_CHARRING</PrereqTech>
 			<Time>700</Time>
 			<Remove>true</Remove>
 		</Row>
@@ -1064,7 +1064,7 @@
 		<Row>
 			<BuildType>BUILD_SHOSHONE_TIPI</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
+			<PrereqTech>TECH_CHARRING</PrereqTech>
 			<Time>700</Time>
 			<Remove>true</Remove>
 		</Row>

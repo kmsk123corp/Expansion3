@@ -129,6 +129,8 @@
 	    <!-- Древесина -->
 	    <Row>
 	        <Type>RESOURCE_WOOD</Type>
+<!--			<TechReveal>TECH_FOREST_CUTTING</TechReveal>-->
+<!--			<TechCityTrade>TECH_FOREST_CUTTING</TechCityTrade>-->
 	        <Description>TXT_KEY_RESOURCE_WOOD</Description>
 	        <Civilopedia>TXT_KEY_CIV5_RESOURCE_WOOD_TEXT</Civilopedia>
 	        <Help>TXT_KEY_RESOURCE_WOOD_HELP</Help>
@@ -286,7 +288,7 @@
 			<Player>100</Player>
 			<Hills>true</Hills>
 			<NoRiverSide>true</NoRiverSide>
-			<IconString>[ICON_RES_STONE]</IconString>
+			<IconString>[ICON_RES_STONE_NEW]</IconString>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>EXTENDED_RESOURCE_ATLAS</IconAtlas>
 			<StartingResourceQuantity>65</StartingResourceQuantity>
@@ -316,7 +318,7 @@
 			<Player>100</Player>
 			<Hills>true</Hills>
 			<NoRiverSide>true</NoRiverSide>
-			<IconString>[ICON_RES_MARBLE]</IconString>
+			<IconString>[ICON_RES_MARBLE_NEW]</IconString>
 			<PortraitIndex>14</PortraitIndex>
 			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
 			<StartingResourceQuantity>20</StartingResourceQuantity>
@@ -382,7 +384,7 @@
 			<RandApp2>10</RandApp2>
 			<Player>100</Player>
 			<Flatlands>true</Flatlands>
-			<IconString>[ICON_RES_COPPER]</IconString>
+			<IconString>[ICON_RES_COPPER_NEW]</IconString>
 		    <PortraitIndex>1</PortraitIndex>
 		    <IconAtlas>EXPANSION_RESOURCE_ATLAS</IconAtlas>
 		</Row>

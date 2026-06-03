@@ -201,8 +201,8 @@
 			<GoodyTech>true</GoodyTech>
 			<GridX>0</GridX>
 			<GridY>4</GridY>
-			<PortraitIndex>4</PortraitIndex>
-			<IconAtlas>Technologies_IconAtlas</IconAtlas>
+			<IconAtlas>Technologies_Copper_IconAtlas</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
 		</Row>
 <!-- ################### -->
 <!--       GridX 1       -->
@@ -239,8 +239,8 @@
 			<GridX>1</GridX>
 			<GridY>4</GridY>
 			<Quote>TXT_KEY_TECH_FOREST_CUTTING_QUOTE</Quote>
-			<PortraitIndex>16</PortraitIndex>
-			<IconAtlas>Technologies_IconAtlas</IconAtlas>
+			<IconAtlas>Technologies_Copper_IconAtlas</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
 		</Row>
 
 		<!-- Добыча руды -->
@@ -298,8 +298,8 @@
 			<GridX>2</GridX>
 			<GridY>0</GridY>
 			<Quote>TXT_KEY_TECH_FISHING_QUOTE</Quote>
-			<IconAtlas>Technologies_IconAtlas</IconAtlas>
-			<PortraitIndex>28</PortraitIndex>
+			<IconAtlas>Technologies_Copper_IconAtlas</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
 		</Row>
 		<!-- Гончарное дело -->
 		<Row>
@@ -332,7 +332,7 @@
 			<GridX>2</GridX>
 			<GridY>4</GridY>
 			<Quote>TXT_KEY_TECH_CHARRING_QUOTE</Quote>
-			<IconAtlas>Technologies_IconAtlas</IconAtlas>
+			<IconAtlas>Technologies_Copper_IconAtlas</IconAtlas>
 			<PortraitIndex>3</PortraitIndex>
 		</Row>
 		<!-- Животноводство -->
@@ -392,30 +392,30 @@
 			<GridX>3</GridX>
 			<GridY>4</GridY>
 			<Quote>TXT_KEY_TECH_BRONZE_WORKING_QUOTE</Quote>
-			<PortraitIndex>29</PortraitIndex>
-			<IconAtlas>Technologies_IconAtlas</IconAtlas>
 			<AudioIntro>AS2D_TECH_BRONZE_WORKING</AudioIntro>
 			<AudioIntroHeader>AS2D_HEADING_TECH_BRONZE_WORKING</AudioIntroHeader>
+			<IconAtlas>Technologies_Copper_IconAtlas</IconAtlas>
+			<PortraitIndex>9</PortraitIndex>
 		</Row>
 
 		<!-- Стрельба из лука -->
-		<Row>
-			<Type>TECH_ARCHERY</Type>
-			<Cost>39</Cost>
-			<Description>TXT_KEY_TECH_ARCHERY_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_ARCHERY_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_ARCHERY_HELP</Help>
-			<Era>ERA_ENEOLITHIC</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>3</GridX>
-			<GridY>6</GridY>
-			<Quote>TXT_KEY_TECH_ARCHERY_QUOTE</Quote>
-			<PortraitIndex>7</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-			<AudioIntro>AS2D_TECH_ARCHERY</AudioIntro>
-			<AudioIntroHeader>AS2D_HEADING_TECH_ARCHERY</AudioIntroHeader>
-		</Row>
+<!--		<Row>-->
+<!--			<Type>TECH_ARCHERY</Type>-->
+<!--			<Cost>39</Cost>-->
+<!--			<Description>TXT_KEY_TECH_ARCHERY_TITLE</Description>-->
+<!--			<Civilopedia>TXT_KEY_TECH_ARCHERY_DESC</Civilopedia>-->
+<!--			<Help>TXT_KEY_TECH_ARCHERY_HELP</Help>-->
+<!--			<Era>ERA_ENEOLITHIC</Era>-->
+<!--			<Trade>true</Trade>-->
+<!--			<GoodyTech>true</GoodyTech>-->
+<!--			<GridX>3</GridX>-->
+<!--			<GridY>6</GridY>-->
+<!--			<Quote>TXT_KEY_TECH_ARCHERY_QUOTE</Quote>-->
+<!--			<PortraitIndex>7</PortraitIndex>-->
+<!--			<IconAtlas>TECH_ATLAS_1</IconAtlas>-->
+<!--			<AudioIntro>AS2D_TECH_ARCHERY</AudioIntro>-->
+<!--			<AudioIntroHeader>AS2D_HEADING_TECH_ARCHERY</AudioIntroHeader>-->
+<!--		</Row>-->
 
 		<!-- Кочевничество -->
 		<Row>
@@ -430,10 +430,10 @@
 			<GridX>3</GridX>
 			<GridY>7</GridY>
 			<Quote>TXT_KEY_STEAMPUNK_SCENARIO_TECH_EXPEDITIONARY_SCIENCE_QUOTE</Quote>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>NOMAD_TECH_ATLAS</IconAtlas>
 			<AudioIntro>AS2D_TECH_STEAMP_EXPEDITION</AudioIntro>
 			<AudioIntroHeader>AS2D_HEADING_TECH_NOMAD</AudioIntroHeader>
+			<IconAtlas>Technologies_Copper_IconAtlas</IconAtlas>
+			<PortraitIndex>10</PortraitIndex>
 		</Row>
 
 
@@ -453,8 +453,8 @@
 			<GoodyTech>true</GoodyTech>
 			<GridX>4</GridX>
 			<GridY>0</GridY>
-			<PortraitIndex>11</PortraitIndex>
-			<IconAtlas>Technologies_IconAtlas</IconAtlas>
+			<IconAtlas>Technologies_Copper_IconAtlas</IconAtlas>
+			<PortraitIndex>16</PortraitIndex>
 		</Row>
 		<!-- Протописьменность -->
 		<Row>
@@ -469,8 +469,8 @@
 			<GoodyTech>true</GoodyTech>
 			<GridX>4</GridX>
 			<GridY>2</GridY>
-			<PortraitIndex>7</PortraitIndex>
-			<IconAtlas>Technologies_IconAtlas</IconAtlas>
+			<IconAtlas>Technologies_Copper_IconAtlas</IconAtlas>
+			<PortraitIndex>17</PortraitIndex>
 		</Row>
 		<!-- Деревообработка -->
 		<Row>
@@ -532,8 +532,8 @@
 			<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange>
 			<GridX>4</GridX>
 			<GridY>7</GridY>
-			<IconAtlas>Technologies_IconAtlas</IconAtlas>
-			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>Technologies_Copper_IconAtlas</IconAtlas>
+			<PortraitIndex>18</PortraitIndex>
 		</Row>
 
 		<!-- ################### -->
@@ -552,8 +552,8 @@
 			<GoodyTech>true</GoodyTech>
 			<GridX>5</GridX>
 			<GridY>2</GridY>
-			<PortraitIndex>5</PortraitIndex>
-			<IconAtlas>Technologies_IconAtlas</IconAtlas>
+			<IconAtlas>Technologies_Copper_IconAtlas</IconAtlas>
+			<PortraitIndex>24</PortraitIndex>
 		</Row>
 		<!-- Обработка бронзы -->
 		<Row>
@@ -606,8 +606,8 @@
 			<GridX>5</GridX>
 			<GridY>6</GridY>
 			<Quote>TXT_KEY_TECH_THE_WHEEL_QUOTE</Quote>
-			<PortraitIndex>1</PortraitIndex>
-			<IconAtlas>Technologies_IconAtlas</IconAtlas>
+			<IconAtlas>Technologies_Copper_IconAtlas</IconAtlas>
+			<PortraitIndex>25</PortraitIndex>
 			<AudioIntro>AS2D_TECH_THE_WHEEL</AudioIntro>
 			<AudioIntroHeader>AS2D_HEADING_TECH_THE_WHEEL</AudioIntroHeader>
 		</Row>
@@ -634,8 +634,8 @@
 			<GoodyTech>true</GoodyTech>
 			<GridX>6</GridX>
 			<GridY>0</GridY>
-			<PortraitIndex>13</PortraitIndex>
 			<IconAtlas>Technologies_IconAtlas</IconAtlas>
+			<PortraitIndex>13</PortraitIndex>
 		</Row>
 
 		<!-- Язычество -->
@@ -2516,16 +2516,16 @@
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>6</Flavor>
 		</Row>
-		<Row>
-			<TechType>TECH_ARCHERY</TechType>
-			<FlavorType>FLAVOR_RANGED</FlavorType>
-			<Flavor>4</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_ARCHERY</TechType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>1</Flavor>
-		</Row>
+<!--		<Row>-->
+<!--			<TechType>TECH_ARCHERY</TechType>-->
+<!--			<FlavorType>FLAVOR_RANGED</FlavorType>-->
+<!--			<Flavor>4</Flavor>-->
+<!--		</Row>-->
+<!--		<Row>-->
+<!--			<TechType>TECH_ARCHERY</TechType>-->
+<!--			<FlavorType>FLAVOR_OFFENSE</FlavorType>-->
+<!--			<Flavor>1</Flavor>-->
+<!--		</Row>-->
 		<Row>
 			<TechType>TECH_NOMAD</TechType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -4068,10 +4068,10 @@
 			<TechType>TECH_COPPER_WORKING</TechType>
 			<PrereqTech>TECH_MINING</PrereqTech>
 		</Row>
-		<Row>
-			<TechType>TECH_ARCHERY</TechType>
-			<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
-		</Row>
+<!--		<Row>-->
+<!--			<TechType>TECH_ARCHERY</TechType>-->
+<!--			<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>-->
+<!--		</Row>-->
 		<Row>
 			<TechType>TECH_NOMAD</TechType>
 			<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
@@ -4122,7 +4122,7 @@
 		</Row>
 		<Row>
 			<TechType>TECH_THE_WHEEL</TechType>
-			<PrereqTech>TECH_ARCHERY</PrereqTech>
+			<PrereqTech>TECH_HORSE</PrereqTech>
 		</Row>
 
 		<!-- Бронзовый век [1] row 6 -->
@@ -4158,10 +4158,10 @@
 			<TechType>TECH_HORSE_HARNESS</TechType>
 			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
 		</Row>
-		<Row>
-			<TechType>TECH_HORSE_HARNESS</TechType>
-			<PrereqTech>TECH_HORSE</PrereqTech>
-		</Row>
+<!--		<Row>-->
+<!--			<TechType>TECH_HORSE_HARNESS</TechType>-->
+<!--			<PrereqTech>TECH_HORSE</PrereqTech>-->
+<!--		</Row>-->
 
 		<!-- Бронзовый век [2] row 7 -->
 		<Row>

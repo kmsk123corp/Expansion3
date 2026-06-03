@@ -100,7 +100,7 @@
 
 		<!-- Мрамор new -->
 		<InsertOrAbort>
-			<IconName>ICON_RES_MARBLE2</IconName>
+			<IconName>ICON_RES_MARBLE_NEW</IconName>
 			<IconMapping>109</IconMapping>
 			<IconFontTexture>ICON_FONT_TEXTURE_EXPANSION2</IconFontTexture>
 		</InsertOrAbort>

@@ -87,7 +87,7 @@
 		<Row>
 			<Class>UNITCLASS_HUNTERS</Class>
 			<Type>UNIT_HUNTERS</Type>
-			<PrereqTech>TECH_ARCHERY</PrereqTech>
+			<PrereqTech>TECH_TRAPPING</PrereqTech>
 			<Combat>5</Combat>
 			<RangedCombat>8</RangedCombat>
 			<Cost>50</Cost>

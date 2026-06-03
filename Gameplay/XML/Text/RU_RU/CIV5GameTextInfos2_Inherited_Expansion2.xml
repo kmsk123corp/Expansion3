@@ -13,7 +13,7 @@
           <Text>Дает [ICON_PEACE] веру при военной победе</Text>
       </Row>
       <Row Tag="TXT_KEY_BELIEF_GOD_SEA">
-          <Text>+1 [ICON_FOOD] +1 [ICON_PRODUCTION] за каждую рыбацкую лодку</Text>
+          <Text>+1 [ICON_FOOD] +1 [ICON_PRODUCTION] +1 [ICON_PEACE] за каждую рыбацкую лодку</Text>
       </Row>
       <Row Tag="TXT_KEY_BELIEF_OPEN_SKY">
           <Text>+1 [ICON_FOOD] +1 [ICON_CULTURE] за каждый выгон</Text>

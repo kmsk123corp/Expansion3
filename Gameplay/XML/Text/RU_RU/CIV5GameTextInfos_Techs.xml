@@ -31,11 +31,7 @@
       <Gender>feminine</Gender>
       <Plurality>1</Plurality>
     </Row>
-    <Row Tag="TXT_KEY_TECH_ARCHERY_TITLE">
-      <Text>Стрельба из лука|стрельбы из лука|стрельбе из лука|стрельбу из лука|стрельбой из лука|стрельбе из лука</Text>
-      <Gender>feminine</Gender>
-      <Plurality>1</Plurality>
-    </Row>
+
     <Row Tag="TXT_KEY_TECH_ASTRONOMY_TITLE">
       <Text>Астрономия|астрономии|астрономии|астрономию|астрономией|астрономии</Text>
       <Gender>feminine</Gender>
@@ -81,11 +77,7 @@
       <Gender>masculine</Gender>
       <Plurality>1</Plurality>
     </Row>
-    <Row Tag="TXT_KEY_TECH_CALENDAR_TITLE">
-      <Text>Календарь|календаря|календарю|календарь|календарем|календаре</Text>
-      <Gender>masculine</Gender>
-      <Plurality>1</Plurality>
-    </Row>
+
     <Row Tag="TXT_KEY_TECH_CHEMISTRY">
       <Text>Химия|химии|химии|химию|химией|химии</Text>
       <Gender>feminine</Gender>
