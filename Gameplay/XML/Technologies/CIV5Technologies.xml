@@ -4206,6 +4206,10 @@
 			<TechType>TECH_SPOKE_RIM</TechType>
 			<PrereqTech>TECH_ARMOUR</PrereqTech>
 		</Row>
+		<Row>
+			<TechType>TECH_SPOKE_RIM</TechType>
+			<PrereqTech>TECH_HORSE_HARNESS</PrereqTech>
+		</Row>
 
 
 		<!-- Железный век [1] row 9 -->
