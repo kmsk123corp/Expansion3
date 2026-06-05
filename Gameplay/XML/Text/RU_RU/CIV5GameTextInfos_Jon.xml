@@ -191,9 +191,7 @@
     <Row Tag="TXT_KEY_BUILDING_CASTLE_HELP">
       <Text>В городе должны быть стены.</Text>
     </Row>
-    <Row Tag="TXT_KEY_BUILDING_CIRCUS_HELP">
-      <Text>Рядом с городом должен быть источник [ICON_RES_HORSE] лошадей или [ICON_RES_IVORY] слоновой кости.</Text>
-    </Row>
+
 
     <Row Tag="TXT_KEY_BUILDING_COURTHOUSE_HELP">
       <Text>Устраняет [ICON_HAPPINESS_4] недовольство в [ICON_OCCUPIED] оккупированном городе.</Text>

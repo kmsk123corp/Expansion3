@@ -16,7 +16,7 @@
           <Text>+1 [ICON_FOOD] +1 [ICON_PRODUCTION] +1 [ICON_PEACE] за каждую рыбацкую лодку</Text>
       </Row>
       <Row Tag="TXT_KEY_BELIEF_OPEN_SKY">
-          <Text>+1 [ICON_FOOD] +1 [ICON_CULTURE] за каждый выгон</Text>
+          <Text>+1 [ICON_FOOD] +1 [ICON_CULTURE] за каждый выгон а так же +1 [ICON_PEACE] за [ICON_RES_COW] коров и [ICON_RES_HORSE] лошадей</Text>
       </Row>
       <Row Tag="TXT_KEY_BELIEF_GOD_CRAFTSMEN">
           <Text>+2 [ICON_PRODUCTION] +1 [ICON_CULTURE] в городах с населением 3 и более</Text>
@@ -76,7 +76,7 @@
           <Text>+1 [ICON_CULTURE] к культуре за клетки джунглей</Text>
       </Row>
       <Row Tag="TXT_KEY_BELIEF_TEARS_OF_GODS">
-          <Text>+1 [ICON_GOLD] +1 [ICON_PEACE] за каждый источник [ICON_RES_GEMS] алмазов, [ICON_RES_SAPPHIRE] сапфиров, [ICON_RES_EMERALD] изумрудов, [ICON_RES_RUBY] рубинов и [ICON_RES_PEARLS] жемчуга</Text>
+          <Text>+2 [ICON_GOLD] +1 [ICON_PEACE] за каждый источник [ICON_RES_GEMS] алмазов, [ICON_RES_SAPPHIRE] сапфиров, [ICON_RES_EMERALD] изумрудов, [ICON_RES_RUBY] рубинов и [ICON_RES_PEARLS] жемчуга</Text>
       </Row>
       <Row Tag="TXT_KEY_BELIEF_DANCE_AURORA">
           <Text>+1 [ICON_FOOD] +1 [ICON_PEACE] за клетку тундры без леса</Text>

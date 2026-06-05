@@ -128,7 +128,7 @@
 			<Type>BUILDING_GREAT_LIBRARY</Type>
 			<BuildingClass>BUILDINGCLASS_GREAT_LIBRARY</BuildingClass>
 			<Cost>250</Cost>
-			<PrereqTech>TECH_ALPHABET</PrereqTech>
+			<PrereqTech>TECH_LITERATURE</PrereqTech>
 			<Help>TXT_KEY_WONDER_GREAT_LIBRARY_HELP</Help>
 			<ThemingBonusHelp>TXT_KEY_GREAT_LIBRARY_THEMING_BONUS_HELP</ThemingBonusHelp>
 			<Description>TXT_KEY_BUILDING_GREAT_LIBRARY</Description>
@@ -249,7 +249,7 @@
 			<Type>BUILDING_GREAT_WALL</Type>
 			<BuildingClass>BUILDINGCLASS_GREAT_WALL</BuildingClass>
 			<Cost>500</Cost>
-			<PrereqTech>TECH_CERAMIC_BRICK</PrereqTech>
+			<PrereqTech>TECH_DAMASCUS_STEEL</PrereqTech>
 			<Help>TXT_KEY_WONDER_GREAT_WALL_HELP</Help>
 			<Description>TXT_KEY_BUILDING_GREAT_WALL</Description>
 			<Civilopedia>TXT_KEY_WONDER_GREATWALL_DESC</Civilopedia>
@@ -350,26 +350,7 @@
 			<PortraitIndex>46</PortraitIndex>
 		</Row>
 
-        <!-- Национальная святыня -->
-        <Row>
-			<Type>BUILDING_NATIONAL_SHRINE</Type>
-			<BuildingClass>BUILDINGCLASS_NATIONAL_SHRINE</BuildingClass>
-			<Cost>120</Cost>
-			<PrereqTech>TECH_CLERGY</PrereqTech>
-			<Help>TXT_KEY_BUILDING_NATIONAL_SHRINE_HELP</Help>
-			<Description>TXT_KEY_BUILDING_NATIONAL_SHRINE</Description>
-			<Civilopedia>TXT_KEY_BUILDING_NATIONAL_SHRINE_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_NATIONAL_SHRINE_STRATEGY</Strategy>
-			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_SHRINE</ArtDefineTag>
-			<NukeImmune>true</NukeImmune>
-			<NumCityCostMod>30</NumCityCostMod>
-			<ReligiousPressureModifier>50</ReligiousPressureModifier>
-			<HurryCostModifier>-1</HurryCostModifier>
-			<MinAreaSize>-1</MinAreaSize>
-			<NeverCapture>true</NeverCapture>
-			<IconAtlas>NEW_BUILDING_ATLAS</IconAtlas>
-			<PortraitIndex>20</PortraitIndex>
-		</Row>
+
 
         <!-- Оракул -->
         <Row>
@@ -481,7 +462,7 @@
 			<Type>BUILDING_COLOSSUS</Type>
 			<BuildingClass>BUILDINGCLASS_COLOSSUS</BuildingClass>
 			<Cost>400</Cost>
-			<PrereqTech>TECH_CURRENCY</PrereqTech>
+			<PrereqTech>TECH_MYTHOLOGY</PrereqTech>
 			<Help>TXT_KEY_WONDER_COLOSSUS_HELP</Help>
 			<Description>TXT_KEY_BUILDING_COLOSSUS</Description>
 			<Civilopedia>TXT_KEY_WONDER_COLOSSUS_DESC</Civilopedia>
@@ -648,11 +629,7 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
-        <Row>
-			<BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>2</Yield>
-		</Row>
+
         <Row>
 			<BuildingType>BUILDING_ORACLE</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
@@ -789,18 +766,7 @@
 
     <!-- Улучшает клетки с растительностью -->
     <Building_FeatureYieldChanges>
-        <Row>
-			<BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
-			<FeatureType>FEATURE_FOREST</FeatureType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
-			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
-		</Row>
+
 
 		<Delete BuildingType="BUILDING_PETRA"/>
 		<Row>
@@ -913,10 +879,6 @@
 			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
 		</Row>
         <Row>
-			<BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
-		</Row>
-        <Row>
 			<BuildingType>BUILDING_NATIONAL_EPIC</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
 		</Row>
@@ -936,11 +898,6 @@
         <Row>
 			<BuildingType>BUILDING_NATIONAL_COLLEGE</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
-			<NumBuildingNeeded>2</NumBuildingNeeded>
-		</Row>
-        <Row>
-			<BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
 			<NumBuildingNeeded>2</NumBuildingNeeded>
 		</Row>
         <Row>
@@ -1061,16 +1018,7 @@
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
-        <Row>
-			<BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
-			<FlavorType>FLAVOR_RELIGION</FlavorType>
-			<Flavor>40</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
-			<FlavorType>FLAVOR_WONDER</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
+
         <Row>
 			<BuildingType>BUILDING_ORACLE</BuildingType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>

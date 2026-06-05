@@ -286,7 +286,12 @@
 		<Row>
 			<BuildingType>BUILDING_MARBLE_WORKS</BuildingType>
 			<ResourceType>RESOURCE_LUMBER</ResourceType>
-			<Cost>30</Cost>
+			<Cost>20</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MARBLE_WORKS</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>20</Cost>
 		</Row>
 
 		<!-- Конюшня -->

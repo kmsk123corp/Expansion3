@@ -15,9 +15,9 @@
 			<DefaultUnit>UNIT_HUNTERS</DefaultUnit>
 		</Row>
 		<Row>
-			<Type>UNITCLASS_ARCHER_BRONZE</Type>
-			<Description>TXT_KEY_UNIT_ARCHER_BRONZE</Description>
-			<DefaultUnit>UNIT_ARCHER_BRONZE</DefaultUnit>
+			<Type>UNITCLASS_BRONZEARCHER</Type>
+			<Description>TXT_KEY_UNIT_BRONZEARCHER</Description>
+			<DefaultUnit>UNIT_BRONZEARCHER</DefaultUnit>
 		</Row>
 
 

@@ -57,12 +57,13 @@
         <Row>
 			<Type>BUILDING_LAWS_HAMMURABI</Type>
 			<BuildingClass>BUILDINGCLASS_LAWS_HAMMURABI</BuildingClass>
-			<Cost>598</Cost>
+			<Cost>747</Cost>
 			<PrereqTech>TECH_CODE_LAWS</PrereqTech>
 			<Description>TXT_KEY_BUILDINGS_LAWS_HAMMURABI</Description>
 			<Civilopedia>TXT_KEY_BUILDINGS_LAWS_HAMMURABI_TEXT</Civilopedia>
             <Help>TXT_KEY_BUILDING_LAWS_HAMMURABI_HELP</Help>
 			<MaxStartEra>ERA_CLASSICAL</MaxStartEra>
+            <FreeBuildingThisCity>BUILDINGCLASS_TEMPLE</FreeBuildingThisCity>
             <SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<GreatPeopleRateChange>1</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>

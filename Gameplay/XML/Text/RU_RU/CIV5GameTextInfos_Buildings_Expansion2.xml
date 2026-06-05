@@ -70,11 +70,7 @@
       <Gender>masculine</Gender>
       <Plurality>1</Plurality>
     </Row>
-    <Row Tag="TXT_KEY_BUILDING_NATIONAL_SHRINE">
-      <Text>Национальная святыня|национальной святыни|национальной святыни|национальную святыню|национальной святыней|национальной святыне</Text>
-      <Gender>feminine</Gender>
-      <Plurality>1</Plurality>
-    </Row>
+
     <Row Tag="TXT_KEY_BUILDING_ARMORY_CHAMBER">
       <Text>Оружейная палата|Оружейной палаты|Оружейной палате|Оружейную палату|Оружейной палатой|Оружейной палате</Text>
       <Gender>feminine</Gender>
@@ -141,11 +137,7 @@
       <Gender>neuter</Gender>
       <Plurality>1</Plurality>
     </Row>
-    <Row Tag="TXT_KEY_BUILDING_CARAVANSARY">
-      <Text>Караван-сарай|караван-сарая|караван-сараю|караван-сарай|караван-сараем|караван-сарае</Text>
-      <Gender>masculine</Gender>
-      <Plurality>1</Plurality>
-    </Row>
+
     <Row Tag="TXT_KEY_BUILDING_COLOSSUS">
       <Text>Колосс|Колосса|Колоссу|Колосс|Колоссом|Колоссе</Text>
       <Gender>masculine</Gender>

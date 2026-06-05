@@ -187,10 +187,10 @@
 			<Type>BUILDING_CIRCUS</Type>
 			<BuildingClass>BUILDINGCLASS_CIRCUS</BuildingClass>
 			<Cost>90</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_HORSE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_CIRCUS</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_CIRCUS_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_CIRCUS_STRATEGY</Strategy>
 			<Help>TXT_KEY_BUILDING_CIRCUS_HELP</Help>
 			<ArtDefineTag>ART_DEF_BUILDING_CIRCUS</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
@@ -477,6 +477,8 @@
 			<Yield>1</Yield>
 		</Row>
 
+
+
         <Row>
 			<BuildingType>BUILDING_STONE_WORKS</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
@@ -669,6 +671,7 @@
             <Yield>1</Yield>
         </Row>
 
+
         <Row>
 			<BuildingType>BUILDING_STONE_WORKS</BuildingType>
 			<ResourceType>RESOURCE_MARBLE</ResourceType>
@@ -681,6 +684,29 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_CIRCUS</BuildingType>
+			<ResourceType>RESOURCE_IVORY</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CIRCUS</BuildingType>
+			<ResourceType>RESOURCE_FUR</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CIRCUS</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+
+
+
         <Row>
             <BuildingType>BUILDING_COPPER_MINE</BuildingType>
             <ResourceType>RESOURCE_COPPER</ResourceType>

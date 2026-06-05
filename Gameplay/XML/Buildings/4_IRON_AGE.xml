@@ -41,7 +41,7 @@
             <Type>BUILDING_FORGE</Type>
             <BuildingClass>BUILDINGCLASS_FORGE</BuildingClass>
             <Cost>240</Cost>
-            <GoldMaintenance>1</GoldMaintenance>
+            <GoldMaintenance>2</GoldMaintenance>
             <PrereqTech>TECH_BLACKSMITHING</PrereqTech>
             <Description>TXT_KEY_BUILDING_FORGE</Description>
             <Civilopedia>TXT_KEY_CIV5_BUILDINGS_FORGE_TEXT</Civilopedia>
@@ -94,6 +94,7 @@
             <Strategy>TXT_KEY_BUILDING_MARBLEQUARRY_STRATEGY</Strategy>
             <Help>TXT_KEY_BUILDING_MARBLEQUARRY_HELP</Help>
             <ArtDefineTag>ART_DEF_BUILDING_MARBLEQUARRY</ArtDefineTag>
+            <WonderProductionModifier>5</WonderProductionModifier>
             <MinAreaSize>-1</MinAreaSize>
             <ConquestProb>66</ConquestProb>
             <HurryCostModifier>25</HurryCostModifier>
@@ -109,7 +110,7 @@
         <Row>
             <Type>BUILDING_COPYIST</Type>
             <BuildingClass>BUILDINGCLASS_COPYIST</BuildingClass>
-            <Cost>80</Cost>
+            <Cost>240</Cost>
             <GoldMaintenance>1</GoldMaintenance>
             <PrereqTech>TECH_MATHEMATICS</PrereqTech>
             <Help>TXT_KEY_BUILDING_COPYIST_HELP</Help>
@@ -131,7 +132,7 @@
         <Row>
             <Type>BUILDING_BRICKKILN</Type>
             <BuildingClass>BUILDINGCLASS_BRICKKILN</BuildingClass>
-            <Cost>100</Cost>
+            <Cost>240</Cost>
             <PrereqTech>TECH_CERAMIC_BRICK</PrereqTech>
             <Description>TXT_KEY_BUILDING_BRICKKILN</Description>
             <Civilopedia>TXT_KEY_CIV5_BUILDINGS_BRICKKILN_TEXT</Civilopedia>
@@ -150,7 +151,7 @@
         <Row>
             <Type>BUILDING_MILLLUMBER</Type>
             <BuildingClass>BUILDINGCLASS_MILLLUMBER</BuildingClass>
-            <Cost>120</Cost>
+            <Cost>240</Cost>
             <GoldMaintenance>2</GoldMaintenance>
             <PrereqTech>TECH_TWO_HANDED_SAW</PrereqTech>
             <Description>TXT_KEY_BUILDING_MILLLUMBER</Description>
@@ -186,6 +187,71 @@
             <PortraitIndex>41</PortraitIndex>
         </Row>
 
+        <!-- ############# -->
+        <!-- Монетное дело -->
+        <!-- ############# -->
+
+        <!-- Купеческий двор -->
+        <Row>
+            <Type>BUILDING_MERCHANTS_GUILD</Type>
+            <BuildingClass>BUILDINGCLASS_MERCHANTS_GUILD</BuildingClass>
+            <Cost>75</Cost>
+            <PrereqTech>TECH_CURRENCY</PrereqTech>
+            <Description>TXT_KEY_BUILDING_MERCHANTS_GUILD</Description>
+            <Civilopedia>TXT_KEY_CIV5_BUILDINGS_MERCHANTS_GUILD_TEXT</Civilopedia>
+            <Strategy>TXT_KEY_BUILDING_MERCHANTS_GUILD_STRATEGY</Strategy>
+            <Help>TXT_KEY_BUILDING_MERCHANTS_GUILD_HELP</Help>
+            <ArtDefineTag>ART_DEF_BUILDING_MERCHANTS_GUILD</ArtDefineTag>
+            <MinAreaSize>-1</MinAreaSize>
+            <ConquestProb>66</ConquestProb>
+            <HurryCostModifier>25</HurryCostModifier>
+            <IconAtlas>NEW_BUILDING_ATLAS</IconAtlas>
+            <PortraitIndex>15</PortraitIndex>
+        </Row>
+
+        <!-- Монетный двор -->
+        <Row>
+            <Type>BUILDING_MINT</Type>
+            <BuildingClass>BUILDINGCLASS_MINT</BuildingClass>
+            <Cost>100</Cost>
+            <PrereqTech>TECH_CURRENCY</PrereqTech>
+            <Description>TXT_KEY_BUILDING_MINT</Description>
+            <Civilopedia>TXT_KEY_CIV5_BUILDINGS_MINT_TEXT</Civilopedia>
+            <Strategy>TXT_KEY_BUILDING_MINT_STRATEGY</Strategy>
+            <Help>TXT_KEY_BUILDING_MINT_HELP</Help>
+            <ArtDefineTag>ART_DEF_BUILDING_BANK</ArtDefineTag>
+            <MinAreaSize>-1</MinAreaSize>
+            <ConquestProb>66</ConquestProb>
+            <HurryCostModifier>25</HurryCostModifier>
+            <IconAtlas>BW_ATLAS_1</IconAtlas>
+            <PortraitIndex>34</PortraitIndex>
+        </Row>
+
+
+        <!-- #################### -->
+        <!-- Керамический кирпичь -->
+        <!-- #################### -->
+
+        <!-- Углежогная печь -->
+        <Row>
+            <Type>BUILDING_CARBONBURNER</Type>
+            <BuildingClass>BUILDINGCLASS_CARBONBURNER</BuildingClass>
+            <Cost>240</Cost>
+            <GoldMaintenance>1</GoldMaintenance>
+            <PrereqTech>TECH_CERAMIC_BRICK</PrereqTech>
+            <Help>TXT_KEY_BUILDING_CARBONBURNER_HELP</Help>
+            <Description>TXT_KEY_BUILDING_CARBONBURNER</Description>
+            <Civilopedia>TXT_KEY_CIV5_BUILDINGS_CARBONBURNER_TEXT</Civilopedia>
+            <Strategy>TXT_KEY_BUILDING_CARBONBURNER_STRATEGY</Strategy>
+            <ConquestProb>66</ConquestProb>
+            <MinAreaSize>-1</MinAreaSize>
+            <HurryCostModifier>25</HurryCostModifier>
+            <IconAtlas>Building_IconAtlas</IconAtlas>
+            <PortraitIndex>17</PortraitIndex>
+        </Row>
+
+
+
     </Buildings>
 
 
@@ -196,7 +262,6 @@
             <YieldType>YIELD_PRODUCTION</YieldType>
             <Yield>2</Yield>
         </Row>
-
         <Row>
             <BuildingType>BUILDING_FORGE</BuildingType>
             <YieldType>YIELD_PRODUCTION</YieldType>
@@ -207,8 +272,11 @@
             <YieldType>YIELD_PRODUCTION</YieldType>
             <Yield>3</Yield>
         </Row>
-
-
+        <Row>
+            <BuildingType>BUILDING_CARBONBURNER</BuildingType>
+            <YieldType>YIELD_PRODUCTION</YieldType>
+            <Yield>1</Yield>
+        </Row>
 
     </Building_YieldChanges>
 
@@ -226,6 +294,11 @@
             <YieldType>YIELD_FOOD</YieldType>
             <Yield>10</Yield>
         </Row>
+        <Row>
+            <BuildingType>BUILDING_MERCHANTS_GUILD</BuildingType>
+            <YieldType>YIELD_GOLD</YieldType>
+            <Yield>10</Yield>
+        </Row>
 
     </Building_YieldModifiers>
 
@@ -238,12 +311,44 @@
 
     <!-- Улучшает клетки с ресурсами -->
     <Building_ResourceYieldChanges>
+
         <Row>
             <BuildingType>BUILDING_FORGE</BuildingType>
             <ResourceType>RESOURCE_IRON</ResourceType>
             <YieldType>YIELD_GOLD</YieldType>
             <Yield>1</Yield>
         </Row>
+        <Row>
+            <BuildingType>BUILDING_MERCHANTS_GUILD</BuildingType>
+            <ResourceType>RESOURCE_SUGAR</ResourceType>
+            <YieldType>YIELD_GOLD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MERCHANTS_GUILD</BuildingType>
+            <ResourceType>RESOURCE_SALT</ResourceType>
+            <YieldType>YIELD_GOLD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MERCHANTS_GUILD</BuildingType>
+            <ResourceType>RESOURCE_SPICES</ResourceType>
+            <YieldType>YIELD_GOLD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MINT</BuildingType>
+            <ResourceType>RESOURCE_GOLD</ResourceType>
+            <YieldType>YIELD_GOLD</YieldType>
+            <Yield>2</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MINT</BuildingType>
+            <ResourceType>RESOURCE_SILVER</ResourceType>
+            <YieldType>YIELD_GOLD</YieldType>
+            <Yield>2</Yield>
+        </Row>
+
     </Building_ResourceYieldChanges>
 
 
@@ -253,13 +358,33 @@
 <!--            <BuildingType>BUILDING_FORGE</BuildingType>-->
 <!--            <ResourceType>RESOURCE_IRON</ResourceType>-->
 <!--        </Row>-->
+        <Row>
+            <BuildingType>BUILDING_MERCHANTS_GUILD</BuildingType>
+            <ResourceType>RESOURCE_SUGAR</ResourceType>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MERCHANTS_GUILD</BuildingType>
+            <ResourceType>RESOURCE_SALT</ResourceType>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MERCHANTS_GUILD</BuildingType>
+            <ResourceType>RESOURCE_SPICES</ResourceType>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MINT</BuildingType>
+            <ResourceType>RESOURCE_GOLD</ResourceType>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MINT</BuildingType>
+            <ResourceType>RESOURCE_SILVER</ResourceType>
+        </Row>
     </Building_LocalResourceOrs>
 
     <Building_DomainProductionModifiers>
         <Row>
             <BuildingType>BUILDING_FORGE</BuildingType>
             <DomainType>DOMAIN_LAND</DomainType>
-            <Modifier>25</Modifier>
+            <Modifier>20</Modifier>
         </Row>
     </Building_DomainProductionModifiers>
 
@@ -283,12 +408,12 @@
 
     <!-- С клеток леса -->
     <Building_FeatureYieldChanges>
-        <Row>
-            <BuildingType>BUILDING_MILLLUMBER</BuildingType>
-            <FeatureType>FEATURE_FOREST</FeatureType>
-            <YieldType>YIELD_PRODUCTION</YieldType>
-            <Yield>1</Yield>
-        </Row>
+<!--        <Row>-->
+<!--            <BuildingType>BUILDING_MILLLUMBER</BuildingType>-->
+<!--            <FeatureType>FEATURE_FOREST</FeatureType>-->
+<!--            <YieldType>YIELD_PRODUCTION</YieldType>-->
+<!--            <Yield>1</Yield>-->
+<!--        </Row>-->
     </Building_FeatureYieldChanges>
 
 
@@ -296,8 +421,16 @@
     <Building_ClassesNeededInCity>
 
         <Row>
+            <BuildingType>BUILDING_MILLLUMBER</BuildingType>
+            <BuildingClassType>BUILDINGCLASS_CARPENTER</BuildingClassType>
+        </Row>
+        <Row>
             <BuildingType>BUILDING_CLOACA</BuildingType>
             <BuildingClassType>BUILDINGCLASS_CESSPOOL</BuildingClassType>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_CARBONBURNER</BuildingType>
+            <BuildingClassType>BUILDINGCLASS_CHARCOAL_BURNER</BuildingClassType>
         </Row>
 
     </Building_ClassesNeededInCity>
@@ -305,6 +438,7 @@
 
     <!-- Для ботов похоже... -->
     <Building_Flavors>
+
         <Row>
             <BuildingType>BUILDING_FORGE</BuildingType>
             <FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
@@ -346,6 +480,11 @@
             <Flavor>2</Flavor>
         </Row>
         <Row>
+            <BuildingType>BUILDING_COPYIST</BuildingType>
+            <FlavorType>FLAVOR_EXPANSION</FlavorType>
+            <Flavor>30</Flavor>
+        </Row>
+        <Row>
             <BuildingType>BUILDING_BRICKKILN</BuildingType>
             <FlavorType>FLAVOR_PRODUCTION</FlavorType>
             <Flavor>30</Flavor>
@@ -369,6 +508,26 @@
             <BuildingType>BUILDING_CLOACA</BuildingType>
             <FlavorType>FLAVOR_HAPPINESS</FlavorType>
             <Flavor>25</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_CARBONBURNER</BuildingType>
+            <FlavorType>FLAVOR_PRODUCTION</FlavorType>
+            <Flavor>25</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MERCHANTS_GUILD</BuildingType>
+            <FlavorType>FLAVOR_GROWTH</FlavorType>
+            <Flavor>5</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MERCHANTS_GUILD</BuildingType>
+            <FlavorType>FLAVOR_GOLD</FlavorType>
+            <Flavor>50</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MINT</BuildingType>
+            <FlavorType>FLAVOR_GOLD</FlavorType>
+            <Flavor>100</Flavor>
         </Row>
     </Building_Flavors>
 

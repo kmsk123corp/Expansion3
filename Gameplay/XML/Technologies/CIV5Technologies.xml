@@ -301,6 +301,9 @@
 			<IconAtlas>Technologies_Copper_IconAtlas</IconAtlas>
 			<PortraitIndex>2</PortraitIndex>
 		</Row>
+
+
+
 		<!-- Гончарное дело -->
 		<Row>
 			<Type>TECH_POTTERY</Type>
@@ -319,6 +322,7 @@
 			<AudioIntro>AS2D_TECH_POTTERY</AudioIntro>
 			<AudioIntroHeader>AS2D_HEADING_TECH_POTTERY</AudioIntroHeader>
 		</Row>
+
 		<!-- Углежжение -->
 		<Row>
 			<Type>TECH_CHARRING</Type>
@@ -335,6 +339,27 @@
 			<IconAtlas>Technologies_Copper_IconAtlas</IconAtlas>
 			<PortraitIndex>3</PortraitIndex>
 		</Row>
+
+		<!-- Стрельба из лука-->
+		<Row>
+			<Type>TECH_ARCHERY</Type>
+			<Cost>32</Cost>
+			<Description>TXT_KEY_TECH_ARCHERY_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_ARCHERY_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_ARCHERY_HELP</Help>
+			<Era>ERA_NEOLITHIC</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>2</GridX>
+			<GridY>5</GridY>
+			<Quote>TXT_KEY_TECH_ARCHERY_QUOTE</Quote>
+			<PortraitIndex>7</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<AudioIntro>AS2D_TECH_ARCHERY</AudioIntro>
+			<AudioIntroHeader>AS2D_HEADING_TECH_ARCHERY</AudioIntroHeader>
+		</Row>
+
+
 		<!-- Животноводство -->
 		<Row>
 			<Type>TECH_ANIMAL_HUSBANDRY</Type>
@@ -398,24 +423,25 @@
 			<PortraitIndex>9</PortraitIndex>
 		</Row>
 
-		<!-- Стрельба из лука -->
-<!--		<Row>-->
-<!--			<Type>TECH_ARCHERY</Type>-->
-<!--			<Cost>39</Cost>-->
-<!--			<Description>TXT_KEY_TECH_ARCHERY_TITLE</Description>-->
-<!--			<Civilopedia>TXT_KEY_TECH_ARCHERY_DESC</Civilopedia>-->
-<!--			<Help>TXT_KEY_TECH_ARCHERY_HELP</Help>-->
-<!--			<Era>ERA_ENEOLITHIC</Era>-->
-<!--			<Trade>true</Trade>-->
-<!--			<GoodyTech>true</GoodyTech>-->
-<!--			<GridX>3</GridX>-->
-<!--			<GridY>6</GridY>-->
-<!--			<Quote>TXT_KEY_TECH_ARCHERY_QUOTE</Quote>-->
-<!--			<PortraitIndex>7</PortraitIndex>-->
-<!--			<IconAtlas>TECH_ATLAS_1</IconAtlas>-->
-<!--			<AudioIntro>AS2D_TECH_ARCHERY</AudioIntro>-->
-<!--			<AudioIntroHeader>AS2D_HEADING_TECH_ARCHERY</AudioIntroHeader>-->
-<!--		</Row>-->
+		<!-- Обработка камня -->
+		<Row>
+			<Type>TECH_STONE_PROCESSING</Type>
+			<Cost>39</Cost>
+			<Description>Обработка камня</Description>
+			<Civilopedia>TXT_KEY_TECH_STONE_PROCESSING_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_MINING_HELP</Help>
+			<Era>ERA_ENEOLITHIC</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>3</GridX>
+			<GridY>5</GridY>
+			<Quote>TXT_KEY_TECH_STONE_PROCESSING_QUOTE</Quote>
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<AudioIntroHeader>AS2D_HEADING_TECH_CONSTRUCTION</AudioIntroHeader>
+		</Row>
+
+
 
 		<!-- Кочевничество -->
 		<Row>
@@ -502,23 +528,7 @@
 			<PortraitIndex>18</PortraitIndex>
 			<IconAtlas>Technologies_IconAtlas</IconAtlas>
 		</Row> -->
-		<!-- Обработка камня -->
-		<Row>
-			<Type>TECH_STONE_PROCESSING</Type>
-			<Cost>53</Cost>
-			<Description>Обработка камня</Description>
-			<Civilopedia>TXT_KEY_TECH_STONE_PROCESSING_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_MINING_HELP</Help>
-			<Era>ERA_ENEOLITHIC</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>4</GridX>
-			<GridY>5</GridY>
-			<Quote>TXT_KEY_TECH_STONE_PROCESSING_QUOTE</Quote>
-			<PortraitIndex>3</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-			<AudioIntroHeader>AS2D_HEADING_TECH_CONSTRUCTION</AudioIntroHeader>
-		</Row>
+
 		<!-- Одомашнивание лошади -->
 		<Row>
 			<Type>TECH_HORSE</Type>
@@ -2516,16 +2526,16 @@
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>6</Flavor>
 		</Row>
-<!--		<Row>-->
-<!--			<TechType>TECH_ARCHERY</TechType>-->
-<!--			<FlavorType>FLAVOR_RANGED</FlavorType>-->
-<!--			<Flavor>4</Flavor>-->
-<!--		</Row>-->
-<!--		<Row>-->
-<!--			<TechType>TECH_ARCHERY</TechType>-->
-<!--			<FlavorType>FLAVOR_OFFENSE</FlavorType>-->
-<!--			<Flavor>1</Flavor>-->
-<!--		</Row>-->
+		<Row>
+			<TechType>TECH_ARCHERY</TechType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ARCHERY</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
 		<Row>
 			<TechType>TECH_NOMAD</TechType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -3993,10 +4003,7 @@
 
 
 
-		<!-- <Row>
-			<TechType>TECH_BRONZE_ARROWS</TechType>
-			<PrereqTech>TECH_ARCHERY</PrereqTech>
-		</Row> -->
+
 		<!-- <Row>
 			<TechType>TECH_CHARIOT</TechType>
 			<PrereqTech>TECH_BRONZE_ARROWS</PrereqTech>
@@ -4042,10 +4049,20 @@
 			<TechType>TECH_CHARRING</TechType>
 			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
 		</Row>
+
 		<Row>
-			<TechType>TECH_ANIMAL_HUSBANDRY</TechType>
+			<TechType>TECH_ARCHERY</TechType>
 			<PrereqTech>TECH_FOREST_CUTTING</PrereqTech>
 		</Row>
+		<Row>
+			<TechType>TECH_ARCHERY</TechType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ARCHERY</TechType>
+			<PrereqTech>TECH_TRAPPING</PrereqTech>
+		</Row>
+
 		<Row>
 			<TechType>TECH_ANIMAL_HUSBANDRY</TechType>
 			<PrereqTech>TECH_TRAPPING</PrereqTech>
@@ -4066,8 +4083,13 @@
 		</Row>
 		<Row>
 			<TechType>TECH_COPPER_WORKING</TechType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_ARCHERY</PrereqTech>
 		</Row>
+		<Row>
+			<TechType>TECH_STONE_PROCESSING</TechType>
+			<PrereqTech>TECH_ARCHERY</PrereqTech>
+		</Row>
+
 <!--		<Row>-->
 <!--			<TechType>TECH_ARCHERY</TechType>-->
 <!--			<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>-->
@@ -4088,10 +4110,6 @@
 		</Row>
 		<Row>
 			<TechType>TECH_WOODWORKING</TechType>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_STONE_PROCESSING</TechType>
 			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
 		</Row>
 		<Row>

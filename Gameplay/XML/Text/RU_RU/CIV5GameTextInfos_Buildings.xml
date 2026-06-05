@@ -64,11 +64,7 @@
       <Gender>feminine</Gender>
       <Plurality>1</Plurality>
     </Row>
-    <Row Tag="TXT_KEY_BUILDING_CIRCUS">
-      <Text>Цирк|цирка|цирку|цирк|цирком|цирке</Text>
-      <Gender>masculine</Gender>
-      <Plurality>1</Plurality>
-    </Row>
+
 
     <Row Tag="TXT_KEY_BUILDING_COLOSSEUM">
       <Text>Арена|арены|арене|арену|ареной|арене</Text>

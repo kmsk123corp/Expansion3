@@ -1804,21 +1804,21 @@
 		<Row>
 			<UnitType>UNIT_SCOUT</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>5</Cost>
+			<Cost>10</Cost>
 		</Row>
 
 		<!-- Часки -->
 		<Row>
 			<UnitType>UNIT_INCA_CHASQUI</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>10</Cost>
+			<Cost>25</Cost>
 		</Row>
 
 		<!-- Следопыты -->
 		<Row>
 			<UnitType>UNIT_SHOSHONE_PATHFINDER</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>15</Cost>
+			<Cost>25</Cost>
 		</Row>
 
 		<!-- ################## -->
@@ -1862,7 +1862,7 @@
 		<Row>
 			<UnitType>UNIT_AXEMAN</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>20</Cost>
+			<Cost>30</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_AXEMAN</UnitType>
@@ -1884,7 +1884,7 @@
 		<Row>
 			<UnitType>UNIT_POLYNESIAN_MAORI_WARRIOR</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>20</Cost>
+			<Cost>40</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_POLYNESIAN_MAORI_WARRIOR</UnitType>
@@ -1900,22 +1900,22 @@
 		<Row>
 			<UnitType>UNIT_AXEMAN_BRONZE</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>20</Cost>
+			<Cost>40</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_AXEMAN_BRONZE</UnitType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
 			<Cost>5</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_AXEMAN_BRONZE</UnitType>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<Cost>8</Cost>
+			<Cost>10</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_AXEMAN_BRONZE</UnitType>
 			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
-			<Cost>8</Cost>
+			<Cost>10</Cost>
 		</Row>
 
 
@@ -2290,7 +2290,7 @@
 			<Cost>1</Cost>
 		</Row>
 
-		<!-- Войны с топорами -->
+		<!-- Войны с топорами (бронза) -->
 		<Row>
 			<UnitType>UNIT_AXEMAN_BRONZE</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>

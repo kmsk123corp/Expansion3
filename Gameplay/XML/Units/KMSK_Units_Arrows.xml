@@ -34,7 +34,7 @@
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
 			<ObsoleteTech>TECH_CONSTRUCTION</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_ARCHER_BRONZE</GoodyHutUpgradeUnitClass>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_BRONZEARCHER</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>15</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -68,7 +68,7 @@
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
 			<ObsoleteTech>TECH_CONSTRUCTION</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_ARCHER_BRONZE</GoodyHutUpgradeUnitClass>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_BRONZEARCHER</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>15</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -87,7 +87,7 @@
 		<Row>
 			<Class>UNITCLASS_HUNTERS</Class>
 			<Type>UNIT_HUNTERS</Type>
-			<PrereqTech>TECH_TRAPPING</PrereqTech>
+			<PrereqTech>TECH_ARCHERY</PrereqTech>
 			<Combat>5</Combat>
 			<RangedCombat>8</RangedCombat>
 			<Cost>50</Cost>
@@ -106,7 +106,7 @@
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
 			<ObsoleteTech>TECH_CONSTRUCTION</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_ARCHER_BRONZE</GoodyHutUpgradeUnitClass>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_BRONZEARCHER</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>15</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -124,8 +124,8 @@
 
 		<!-- Лучники (бронза) -->
 		<Row>
-			<Class>UNITCLASS_ARCHER_BRONZE</Class>
-			<Type>UNIT_ARCHER_BRONZE</Type>
+			<Class>UNITCLASS_BRONZEARCHER</Class>
+			<Type>UNIT_BRONZEARCHER</Type>
 			<PrereqTech>TECH_CASTING_WAX_MODEL</PrereqTech>
 			<Combat>6</Combat>
 			<RangedCombat>10</RangedCombat>
@@ -137,10 +137,10 @@
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_ARCHER_BRONZE</Description>
-			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_ARCHER_BRONZE_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_ARCHER_BRONZE_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_HELP_ARCHER_BRONZE</Help>
+			<Description>TXT_KEY_UNIT_BRONZEARCHER</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_BRONZEARCHER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_BRONZEARCHER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_BRONZEARCHER</Help>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
@@ -156,8 +156,8 @@
 		</Row>
 
 		<!-- Аккадские лучники (Вавилон) -->
-		<Replace>
-			<Class>UNITCLASS_ARCHER_BRONZE</Class>
+		<Row>
+			<Class>UNITCLASS_BRONZEARCHER</Class>
 			<Type>UNIT_BABYLONIAN_BOWMAN</Type>
 			<PrereqTech>TECH_CASTING_WAX_MODEL</PrereqTech>
 			<Combat>8</Combat>
@@ -178,7 +178,7 @@
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
 			<ObsoleteTech>TECH_CONSTRUCTION</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_ARCHER</GoodyHutUpgradeUnitClass>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_COMPOSITE_BOWMAN</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>50</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -187,7 +187,7 @@
 			<UnitFlagAtlas>NEB_UNIT_FLAG_ATLAS</UnitFlagAtlas>
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<PortraitIndex>0</PortraitIndex>
-		</Replace>
+		</Row>
 
 
 		<!-- #################### -->
@@ -226,12 +226,6 @@
 			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
 			<PortraitIndex>6</PortraitIndex>
 		</Row>
-
-
-
-
-
-
 
 		<!-- Меткие лучники -->
 		<Replace>
@@ -284,17 +278,17 @@
 			<UnitAIType>UNITAI_RANGED</UnitAIType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_ARCHER_BRONZE</UnitType>
+			<UnitType>UNIT_BRONZEARCHER</UnitType>
 			<UnitAIType>UNITAI_RANGED</UnitAIType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_ARCHER</UnitType>
 			<UnitAIType>UNITAI_RANGED</UnitAIType>
 		</Row>
-		<Replace>
+		<Row>
 			<UnitType>UNIT_BABYLONIAN_BOWMAN</UnitType>
 			<UnitAIType>UNITAI_RANGED</UnitAIType>
-		</Replace>
+		</Row>
 		<Row>
 			<UnitType>UNIT_COMPOSITE_BOWMAN</UnitType>
 			<UnitAIType>UNITAI_RANGED</UnitAIType>
@@ -307,24 +301,24 @@
 
 		<Row>
 			<UnitType>UNIT_INCAN_SLINGER</UnitType>
-			<UnitClassType>UNITCLASS_ARCHER_BRONZE</UnitClassType>
+			<UnitClassType>UNITCLASS_BRONZEARCHER</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_MAYAN_ATLATLIST</UnitType>
-			<UnitClassType>UNITCLASS_ARCHER_BRONZE</UnitClassType>
+			<UnitClassType>UNITCLASS_BRONZEARCHER</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_HUNTERS</UnitType>
-			<UnitClassType>UNITCLASS_ARCHER_BRONZE</UnitClassType>
+			<UnitClassType>UNITCLASS_BRONZEARCHER</UnitClassType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_ARCHER_BRONZE</UnitType>
+			<UnitType>UNIT_BRONZEARCHER</UnitType>
 			<UnitClassType>UNITCLASS_ARCHER</UnitClassType>
 		</Row>
-		<Replace>
+		<Row>
 			<UnitType>UNIT_BABYLONIAN_BOWMAN</UnitType>
 			<UnitClassType>UNITCLASS_ARCHER</UnitClassType>
-		</Replace>
+		</Row>
 		<Row>
 			<UnitType>UNIT_ARCHER</UnitType>
 			<UnitClassType>UNITCLASS_COMPOSITE_BOWMAN</UnitClassType>
@@ -384,17 +378,17 @@
 			<Flavor>5</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_ARCHER_BRONZE</UnitType>
+			<UnitType>UNIT_BRONZEARCHER</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>1</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_ARCHER_BRONZE</UnitType>
+			<UnitType>UNIT_BRONZEARCHER</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>1</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_ARCHER_BRONZE</UnitType>
+			<UnitType>UNIT_BRONZEARCHER</UnitType>
 			<FlavorType>FLAVOR_RANGED</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
@@ -413,21 +407,21 @@
 			<FlavorType>FLAVOR_RANGED</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
-		<Replace>
+		<Row>
 			<UnitType>UNIT_BABYLONIAN_BOWMAN</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>2</Flavor>
-		</Replace>
-		<Replace>
+		</Row>
+		<Row>
 			<UnitType>UNIT_BABYLONIAN_BOWMAN</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>2</Flavor>
-		</Replace>
-		<Replace>
+		</Row>
+		<Row>
 			<UnitType>UNIT_BABYLONIAN_BOWMAN</UnitType>
 			<FlavorType>FLAVOR_RANGED</FlavorType>
 			<Flavor>8</Flavor>
-		</Replace>
+		</Row>
 		<Row>
 			<UnitType>UNIT_COMPOSITE_BOWMAN</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
@@ -465,17 +459,17 @@
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_ARCHER_BRONZE</UnitType>
+			<UnitType>UNIT_BRONZEARCHER</UnitType>
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_ARCHER</UnitType>
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
 		</Row>
-		<Replace>
+		<Row>
 			<UnitType>UNIT_BABYLONIAN_BOWMAN</UnitType>
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
-		</Replace>
+		</Row>
 		<Row>
 			<UnitType>UNIT_COMPOSITE_BOWMAN</UnitType>
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
@@ -524,22 +518,22 @@
 
 		<!-- лучники (бронза) -->
 		<Row>
-			<UnitType>UNIT_ARCHER_BRONZE</UnitType>
+			<UnitType>UNIT_BRONZEARCHER</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
 			<Cost>20</Cost>
 		</Row>
 		<Row>
-			<UnitType>UNIT_ARCHER_BRONZE</UnitType>
+			<UnitType>UNIT_BRONZEARCHER</UnitType>
 			<ResourceType>RESOURCE_LUMBER</ResourceType>
 			<Cost>10</Cost>
 		</Row>
 		<Row>
-			<UnitType>UNIT_ARCHER_BRONZE</UnitType>
+			<UnitType>UNIT_BRONZEARCHER</UnitType>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
 			<Cost>5</Cost>
 		</Row>
 		<Row>
-			<UnitType>UNIT_ARCHER_BRONZE</UnitType>
+			<UnitType>UNIT_BRONZEARCHER</UnitType>
 			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
 			<Cost>5</Cost>
 		</Row>
@@ -640,12 +634,12 @@
 
 		<!-- лучники (бронза) -->
 		<Row>
-			<UnitType>UNIT_ARCHER_BRONZE</UnitType>
+			<UnitType>UNIT_BRONZEARCHER</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
 			<Cost>1</Cost>
 		</Row>
 		<Row>
-			<UnitType>UNIT_ARCHER_BRONZE</UnitType>
+			<UnitType>UNIT_BRONZEARCHER</UnitType>
 			<ResourceType>RESOURCE_WOOD</ResourceType>
 			<Cost>1</Cost>
 		</Row>

@@ -110,7 +110,7 @@
         <Row>
 			<BuildingType>BUILDING_CHARCOAL_BURNER</BuildingType>
 			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>4</Cost>
+			<Cost>2</Cost>
 		</Row>
 
     </Building_ResourceQuantityRequirements>

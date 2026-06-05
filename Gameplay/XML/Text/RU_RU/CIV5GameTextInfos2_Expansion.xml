@@ -199,9 +199,7 @@
     <Row Tag="TXT_KEY_BELIEF_ONE_WITH_NATURE">
       <Text>Дает +4 [ICON_PEACE] к вере за каждое чудо природы.</Text>
     </Row>
-    <Row Tag="TXT_KEY_BELIEF_OPEN_SKY">
-      <Text>Дает +1 [ICON_CULTURE] к культуре за каждую обрабатываемую клетку с выгоном.</Text>
-    </Row>
+
     <Row Tag="TXT_KEY_BELIEF_ORAL_TRADITION">
       <Text>Дает +1 [ICON_CULTURE] к культуре за каждую обрабатываемую клетку с плантацией.</Text>
     </Row>

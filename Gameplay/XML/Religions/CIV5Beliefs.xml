@@ -1647,31 +1647,31 @@
 			<BeliefType>BELIEF_TEARS_OF_GODS</BeliefType>
 			<ResourceType>RESOURCE_PEARLS</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_TEARS_OF_GODS</BeliefType>
 			<ResourceType>RESOURCE_GEMS</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_TEARS_OF_GODS</BeliefType>
 			<ResourceType>RESOURCE_LAPIS</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_TEARS_OF_GODS</BeliefType>
 			<ResourceType>RESOURCE_JADE</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_TEARS_OF_GODS</BeliefType>
 			<ResourceType>RESOURCE_AMBER</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 
 

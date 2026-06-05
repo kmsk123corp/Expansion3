@@ -4,12 +4,35 @@
 
     <Buildings>
 
+
+        <!-- Национальная святыня -->
+        <Row>
+            <Type>BUILDING_NATIONAL_SHRINE</Type>
+            <BuildingClass>BUILDINGCLASS_NATIONAL_SHRINE</BuildingClass>
+            <Cost>440</Cost>
+            <PrereqTech>TECH_CLERGY</PrereqTech>
+            <Help>TXT_KEY_BUILDING_NATIONAL_SHRINE_HELP</Help>
+            <Description>TXT_KEY_BUILDING_NATIONAL_SHRINE</Description>
+            <Civilopedia>TXT_KEY_BUILDING_NATIONAL_SHRINE_PEDIA</Civilopedia>
+            <Strategy>TXT_KEY_BUILDING_NATIONAL_SHRINE_STRATEGY</Strategy>
+            <ArtDefineTag>ART_DEF_BUILDING_NATIONAL_SHRINE</ArtDefineTag>
+            <NukeImmune>true</NukeImmune>
+<!--            <NumCityCostMod>30</NumCityCostMod>-->
+            <ReligiousPressureModifier>50</ReligiousPressureModifier>
+            <HurryCostModifier>-1</HurryCostModifier>
+            <MinAreaSize>-1</MinAreaSize>
+            <NeverCapture>true</NeverCapture>
+            <IconAtlas>NEW_BUILDING_ATLAS</IconAtlas>
+            <PortraitIndex>20</PortraitIndex>
+        </Row>
+
+
         <!-- Храм Артемиды -->
         <Row>
             <Type>BUILDING_TEMPLE_ARTEMIS</Type>
             <BuildingClass>BUILDINGCLASS_TEMPLE_ARTEMIS</BuildingClass>
-            <Cost>400</Cost>
-            <PrereqTech>TECH_ALPHABET</PrereqTech>
+            <Cost>1200</Cost>
+            <PrereqTech>TECH_SEWAGE_SYSTEM</PrereqTech>
             <Help>TXT_KEY_WONDER_TEMPLE_ARTEMIS_HELP</Help>
             <Description>TXT_KEY_BUILDING_TEMPLE_ARTEMIS</Description>
             <Civilopedia>TXT_KEY_WONDER_TEMPLE_ARTEMIS_DESC</Civilopedia>
@@ -38,7 +61,7 @@
         <Row>
             <Type>BUILDING_ASHURBANIPAL_LIBRARY</Type>
             <BuildingClass>BUILDINGCLASS_ASHURBANIPAL_LIBRARY</BuildingClass>
-            <Cost>747</Cost>
+            <Cost>896</Cost>
             <PrereqTech>TECH_ALPHABET</PrereqTech>
             <Description>TXT_KEY_BUILDINGS_ASHURBANIPAL_LIBRARY</Description>
             <Civilopedia>TXT_KEY_BUILDINGS_ASHURBANIPAL_LIBRARY_TEXT</Civilopedia>
@@ -61,6 +84,11 @@
     <Building_YieldChanges>
 
         <Row>
+            <BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
+            <YieldType>YIELD_FAITH</YieldType>
+            <Yield>3</Yield>
+        </Row>
+        <Row>
             <BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
             <YieldType>YIELD_CULTURE</YieldType>
             <Yield>2</Yield>
@@ -70,6 +98,12 @@
             <YieldType>YIELD_FAITH</YieldType>
             <Yield>4</Yield>
         </Row>
+        <Row>
+            <BuildingType>BUILDING_ASHURBANIPAL_LIBRARY</BuildingType>
+            <YieldType>YIELD_SCIENCE</YieldType>
+            <Yield>5</Yield>
+        </Row>
+
 
     </Building_YieldChanges>
 
@@ -87,7 +121,18 @@
 
     <!-- Улучшает клетки с растительностью -->
     <Building_FeatureYieldChanges>
-
+        <Row>
+            <BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
+            <FeatureType>FEATURE_FOREST</FeatureType>
+            <YieldType>YIELD_FAITH</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
+            <FeatureType>FEATURE_JUNGLE</FeatureType>
+            <YieldType>YIELD_FAITH</YieldType>
+            <Yield>1</Yield>
+        </Row>
     </Building_FeatureYieldChanges>
 
 
@@ -121,7 +166,12 @@
 
     <!-- Усиляет другие здания -->
     <Building_BuildingClassYieldChanges>
-
+        <Row>
+            <BuildingType>BUILDING_ASHURBANIPAL_LIBRARY</BuildingType>
+            <BuildingClassType>BUILDINGCLASS_CUNEIFORMLIBRARY</BuildingClassType>
+            <YieldType>YIELD_SCIENCE</YieldType>
+            <YieldChange>1</YieldChange>
+        </Row>
     </Building_BuildingClassYieldChanges>
 
 
@@ -152,9 +202,36 @@
 
     </Building_DomainFreeExperiences>
 
+    <!-- Для постройки нужно здание -->
+    <Building_ClassesNeededInCity>
+        <Row>
+            <BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
+            <BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+        </Row>
+
+    </Building_ClassesNeededInCity>
+
+    <!-- Сколько зданий нужно для постройки -->
+    <Building_PrereqBuildingClasses>
+        <Row>
+            <BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
+            <BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+            <NumBuildingNeeded>3</NumBuildingNeeded>
+        </Row>
+    </Building_PrereqBuildingClasses>
 
     <!-- Для ботов похоже... -->
     <Building_Flavors>
+        <Row>
+            <BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
+            <FlavorType>FLAVOR_RELIGION</FlavorType>
+            <Flavor>40</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
+            <FlavorType>FLAVOR_WONDER</FlavorType>
+            <Flavor>20</Flavor>
+        </Row>
         <Row>
             <BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
             <FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -175,10 +252,106 @@
             <FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
             <Flavor>10</Flavor>
         </Row>
+        <Row>
+            <BuildingType>BUILDING_ASHURBANIPAL_LIBRARY</BuildingType>
+            <FlavorType>FLAVOR_WONDER</FlavorType>
+            <Flavor>15</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_ASHURBANIPAL_LIBRARY</BuildingType>
+            <FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+            <Flavor>10</Flavor>
+        </Row>
+
     </Building_Flavors>
 
 
 
+
+
+
+    <!-- Стоимость постройки -->
+    <Building_ResourceCostRequirements>
+
+        <!-- Национальная святыня -->
+        <Row>
+            <BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
+            <ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+            <Cost>200</Cost>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
+            <ResourceType>RESOURCE_STONE</ResourceType>
+            <Cost>100</Cost>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
+            <ResourceType>RESOURCE_WOOD</ResourceType>
+            <Cost>200</Cost>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
+            <ResourceType>RESOURCE_LUMBER</ResourceType>
+            <Cost>100</Cost>
+        </Row>
+
+        <!-- Храм артемиды -->
+        <Row>
+            <BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+            <ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+            <Cost>800</Cost>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+            <ResourceType>RESOURCE_CHARCOAL</ResourceType>
+            <Cost>200</Cost>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+            <ResourceType>RESOURCE_IRON</ResourceType>
+            <Cost>100</Cost>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+            <ResourceType>RESOURCE_MARBLE</ResourceType>
+            <Cost>250</Cost>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+            <ResourceType>RESOURCE_STONE</ResourceType>
+            <Cost>250</Cost>
+        </Row>
+
+        <!-- Библиотека Ашшурбанипала -->
+        <Row>
+            <BuildingType>BUILDING_ASHURBANIPAL_LIBRARY</BuildingType>
+            <ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+            <Cost>600</Cost>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_ASHURBANIPAL_LIBRARY</BuildingType>
+            <ResourceType>RESOURCE_LUMBER</ResourceType>
+            <Cost>300</Cost>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_ASHURBANIPAL_LIBRARY</BuildingType>
+            <ResourceType>RESOURCE_STONE</ResourceType>
+            <Cost>300</Cost>
+        </Row>
+
+    </Building_ResourceCostRequirements>
+
+
+    <!-- Производит ресурсов -->
+    <Building_ResourceQuantity>
+
+    </Building_ResourceQuantity>
+
+
+    <!-- Потребляет за ход -->
+    <Building_ResourceQuantityRequirements>
+
+    </Building_ResourceQuantityRequirements>
 
 
 </GameData>

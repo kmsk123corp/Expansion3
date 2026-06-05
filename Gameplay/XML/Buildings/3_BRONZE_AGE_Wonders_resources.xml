@@ -37,17 +37,12 @@
 		<Row>
 			<BuildingType>BUILDING_PYRAMID</BuildingType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>400</Cost>
+			<Cost>600</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PYRAMID</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>800</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_PYRAMID</BuildingType>
-			<ResourceType>RESOURCE_LUMBER</ResourceType>
-			<Cost>200</Cost>
+			<Cost>1000</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PYRAMID</BuildingType>
@@ -57,14 +52,14 @@
 		<Row>
 			<BuildingType>BUILDING_PYRAMID</BuildingType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
-			<Cost>400</Cost>
+			<Cost>200</Cost>
 		</Row>
 
 		<!-- Законы Хаммурапи -->
         <Row>
 			<BuildingType>BUILDING_LAWS_HAMMURABI</BuildingType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>600</Cost>
+			<Cost>750</Cost>
 		</Row>
 <!--        <Row>-->
 <!--			<BuildingType>BUILDING_LAWS_HAMMURABI</BuildingType>-->
@@ -74,7 +69,7 @@
         <Row>
 			<BuildingType>BUILDING_LAWS_HAMMURABI</BuildingType>
 			<ResourceType>RESOURCE_MARBLE</ResourceType>
-			<Cost>200</Cost>
+			<Cost>250</Cost>
 		</Row>
 
     </Building_ResourceCostRequirements>

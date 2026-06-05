@@ -259,13 +259,13 @@
         <!-- Стоунхендж -->
 		<Row>
 			<BuildingType>BUILDING_STONEHENGE</BuildingType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>150</Cost>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>100</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_STONEHENGE</BuildingType>
-			<ResourceType>RESOURCE_LUMBER</ResourceType>
-			<Cost>50</Cost>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>100</Cost>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_STONEHENGE</BuildingType>

@@ -215,18 +215,6 @@
             <YieldType>YIELD_GOLD</YieldType>
             <Yield>1</Yield>
         </Row>
-        <Row>
-            <BuildingType>BUILDING_TANNER_HOUSE</BuildingType>
-            <ResourceType>RESOURCE_FUR</ResourceType>
-            <YieldType>YIELD_GOLD</YieldType>
-            <Yield>1</Yield>
-        </Row>
-        <Row>
-            <BuildingType>BUILDING_TANNER_HOUSE</BuildingType>
-            <ResourceType>RESOURCE_HORSE</ResourceType>
-            <YieldType>YIELD_GOLD</YieldType>
-            <Yield>1</Yield>
-        </Row>
     </Building_ResourceYieldChanges>
 
 

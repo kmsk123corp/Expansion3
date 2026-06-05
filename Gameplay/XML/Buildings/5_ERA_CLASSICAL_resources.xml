@@ -212,12 +212,17 @@
         <Row>
 			<BuildingType>BUILDING_BABYLON_ZIGGURAT</BuildingType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>40</Cost>
+			<Cost>50</Cost>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_BABYLON_ZIGGURAT</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>80</Cost>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BABYLON_ZIGGURAT</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>50</Cost>
 		</Row>
 
         <!-- Базилика -->
@@ -273,17 +278,8 @@
 			<Cost>25</Cost>
 		</Row>
 
-        <!-- Рынок -->
-		<Row>
-			<BuildingType>BUILDING_MARKET</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>75</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_MARKET</BuildingType>
-			<ResourceType>RESOURCE_LUMBER</ResourceType>
-			<Cost>50</Cost>
-		</Row>
+
+
 
         <!-- Базар -->
 		<Row>
@@ -326,34 +322,7 @@
 			<Cost>40</Cost>
 		</Row>
 
-        <!-- Купеческий двор -->
-		<Row>
-			<BuildingType>BUILDING_MERCHANTS_GUILD</BuildingType>
-			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>50</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_MERCHANTS_GUILD</BuildingType>
-			<ResourceType>RESOURCE_LUMBER</ResourceType>
-			<Cost>30</Cost>
-		</Row>
 
-        <!-- Монетный двор -->
-		<Row>
-			<BuildingType>BUILDING_MINT</BuildingType>
-			<ResourceType>RESOURCE_IRON</ResourceType>
-			<Cost>50</Cost>
-		</Row>
-        <Row>
-			<BuildingType>BUILDING_MINT</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<Cost>50</Cost>
-		</Row>
-        <Row>
-			<BuildingType>BUILDING_MINT</BuildingType>
-			<ResourceType>RESOURCE_BRICKS</ResourceType>
-			<Cost>50</Cost>
-		</Row>
 
         <!-- Ветренная мельница -->
 		<Row>
@@ -374,22 +343,7 @@
 
 
 
-        <!-- Углежогная печь -->
-        <Row>
-			<BuildingType>BUILDING_CARBONBURNER</BuildingType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>100</Cost>
-		</Row>
-        <Row>
-			<BuildingType>BUILDING_CARBONBURNER</BuildingType>
-			<ResourceType>RESOURCE_IRON</ResourceType>
-			<Cost>50</Cost>
-		</Row>
-        <Row>
-			<BuildingType>BUILDING_CARBONBURNER</BuildingType>
-			<ResourceType>RESOURCE_BRICKS</ResourceType>
-			<Cost>25</Cost>
-		</Row>
+
 
     </Building_ResourceCostRequirements>
 
@@ -429,12 +383,7 @@
 
 
 
-        <!-- Углежогная печь -->
-        <Row>
-			<BuildingType>BUILDING_CARBONBURNER</BuildingType>
-			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
-			<Quantity>10</Quantity>
-		</Row>
+
 
 
     </Building_ResourceQuantity>
@@ -466,40 +415,13 @@
 			<Cost>2</Cost>
 		</Row>
 
-        <!-- Рынок -->
-		<Row>
-			<BuildingType>BUILDING_MARKET</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>4</Cost>
-		</Row>
-
-        <!-- Купеческий двор -->
-        <Row>
-			<BuildingType>BUILDING_MERCHANTS_GUILD</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>2</Cost>
-		</Row>
-
-        <!-- Монетный двор -->
-        <Row>
-			<BuildingType>BUILDING_MINT</BuildingType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-        <Row>
-			<BuildingType>BUILDING_MINT</BuildingType>
-			<ResourceType>RESOURCE_IRON</ResourceType>
-			<Cost>1</Cost>
-		</Row>
 
 
 
-        <!-- Углежогная печь -->
-        <Row>
-			<BuildingType>BUILDING_CARBONBURNER</BuildingType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>10</Cost>
-		</Row>
+
+
+
+
 
     </Building_ResourceQuantityRequirements>
 

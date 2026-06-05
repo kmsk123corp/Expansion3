@@ -186,17 +186,7 @@
 			<Cost>100</Cost>
 		</Row>
 
-        <!-- Национальная святыня -->
-        <Row>
-			<BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>100</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
-			<ResourceType>RESOURCE_LUMBER</ResourceType>
-			<Cost>100</Cost>
-		</Row>
+
 
         <!-- Оракул -->
 		<Row>
