@@ -199,7 +199,7 @@
 	    <!-- Цемент -->
 	    <Row>
 	        <Type>RESOURCE_CEMENT</Type>
-	        <TechReveal>TECH_ENGINEERING</TechReveal>
+	        <TechReveal>TECH_CONSTRUCTION</TechReveal>
 	        <TechCityTrade>TECH_ENGINEERING</TechCityTrade>
 	        <Description>TXT_KEY_RESOURCE_CEMENT</Description>
 	        <Civilopedia>TXT_KEY_CIV5_RESOURCE_CEMENT_TEXT</Civilopedia>

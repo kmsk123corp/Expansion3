@@ -164,6 +164,8 @@
 			<AudioUnitVictoryScript>AS2D_VICTORY_EARLY</AudioUnitVictoryScript>
 			<AudioUnitDefeatScript>AS2D_LOSS_EARLY</AudioUnitDefeatScript>
 		</Row>
+
+		<!-- Бронзовый век -->
 		<Row>
 			<Type>ERA_BRONZE</Type>
 			<Description>TXT_KEY_ERA_BRONZE</Description>
@@ -212,10 +214,8 @@
 			<AudioUnitDefeatScript>AS2D_LOSS_EARLY</AudioUnitDefeatScript>
 		</Row>
 
-
-
+		<!-- Железный век -->
 		<Row>
-
 			<Type>ERA_ANCIENT</Type>
 			<Description>TXT_KEY_ERA_URON</Description>
 			<ShortDescription>TXT_KEY_ERA_URON</ShortDescription>
@@ -262,6 +262,8 @@
 			<AudioUnitVictoryScript>AS2D_VICTORY_EARLY</AudioUnitVictoryScript>
 			<AudioUnitDefeatScript>AS2D_LOSS_EARLY</AudioUnitDefeatScript>
 		</Row>
+
+		<!-- Античность -->
 		<Row>
 			<Type>ERA_CLASSICAL</Type>
 			<Description>TXT_KEY_ERA_ANTIQUITY</Description>
@@ -309,6 +311,8 @@
 			<AudioUnitVictoryScript>AS2D_VICTORY_EARLY</AudioUnitVictoryScript>
 			<AudioUnitDefeatScript>AS2D_LOSS_EARLY</AudioUnitDefeatScript>
 		</Row>
+
+		<!-- Средневековье -->
 		<Row>
 			<Type>ERA_MEDIEVAL</Type>
 			<Description>TXT_KEY_ERA_2</Description>
@@ -356,6 +360,8 @@
 			<AudioUnitVictoryScript>AS2D_VICTORY_MIDDLE</AudioUnitVictoryScript>
 			<AudioUnitDefeatScript>AS2D_LOSS_MIDDLE</AudioUnitDefeatScript>
 		</Row>
+
+		<!-- Новое время -->
 		<Row>
 			<Type>ERA_RENAISSANCE</Type>
 			<Description>TXT_KEY_ERA_3</Description>
@@ -403,6 +409,8 @@
 			<AudioUnitVictoryScript>AS2D_VICTORY_MIDDLE</AudioUnitVictoryScript>
 			<AudioUnitDefeatScript>AS2D_LOSS_MIDDLE</AudioUnitDefeatScript>
 		</Row>
+
+		<!-- Новейшее время -->
 		<Row>
 			<Type>ERA_INDUSTRIAL</Type>
 			<Description>TXT_KEY_ERA_4</Description>
@@ -450,6 +458,8 @@
 			<AudioUnitVictoryScript>AS2D_VICTORY_MIDDLE</AudioUnitVictoryScript>
 			<AudioUnitDefeatScript>AS2D_LOSS_MIDDLE</AudioUnitDefeatScript>
 		</Row>
+
+		<!-- Современность -->
 		<Row>
 			<Type>ERA_MODERN</Type>
 			<Description>TXT_KEY_ERA_5</Description>
@@ -497,6 +507,8 @@
 			<AudioUnitVictoryScript>AS2D_VICTORY_LATE</AudioUnitVictoryScript>
 			<AudioUnitDefeatScript>AS2D_LOSS_LATE</AudioUnitDefeatScript>
 		</Row>
+
+		<!-- Эпоха Атома -->
 		<Row>
 			<Type>ERA_POSTMODERN</Type>
 			<Description>TXT_KEY_ERA_6</Description>
@@ -544,6 +556,8 @@
 			<AudioUnitVictoryScript>AS2D_VICTORY_LATE</AudioUnitVictoryScript>
 			<AudioUnitDefeatScript>AS2D_LOSS_LATE</AudioUnitDefeatScript>
 		</Row>
+
+		<!-- Информационная эра -->
 		<Row>
 			<Type>ERA_FUTURE</Type>
 			<Description>TXT_KEY_ERA_7</Description>

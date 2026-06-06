@@ -1373,7 +1373,7 @@
 			<Type>BUILDING_COMMISSARIAT</Type>
 			<BuildingClass>BUILDINGCLASS_COMMISSARIAT</BuildingClass>
 			<Cost>300</Cost>
-			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
+			<PrereqTech>TECH_ATOMIC_THEORY</PrereqTech>
 			<Help>TXT_KEY_BUILDING_COMMISSARIAT_HELP</Help>
 			<Description>TXT_KEY_BUILDING_COMMISSARIAT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_COMMISSARIAT_PEDIA</Civilopedia>

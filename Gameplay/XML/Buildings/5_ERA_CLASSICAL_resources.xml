@@ -2,6 +2,19 @@
 <!-- edited kmsk | 01.02.2024 -->
 <GameData>
 
+	<!--        RESOURCE_FOODSTUFF-->
+	<!--        RESOURCE_STONE-->
+	<!--        RESOURCE_WOOD-->
+
+	<!--        RESOURCE_CHARCOAL-->
+	<!--        RESOURCE_LUMBER-->
+	<!--        RESOURCE_IRON-->
+
+	<!--        RESOURCE_COPPER-->
+	<!--        RESOURCE_HORSE-->
+	<!--        RESOURCE_MARBLE-->
+	<!--        RESOURCE_BRICKS-->
+
     <!-- Стоимость постройки -->
     <Building_ResourceCostRequirements>
 
@@ -111,6 +124,63 @@
 			<ResourceType>RESOURCE_STONE</ResourceType>
 			<Cost>50</Cost>
 		</Row> -->
+
+
+
+		<!--        RESOURCE_FOODSTUFF-->
+		<!--        RESOURCE_STONE-->
+		<!--        RESOURCE_WOOD-->
+
+		<!--        RESOURCE_CHARCOAL-->
+		<!--        RESOURCE_LUMBER-->
+		<!--        RESOURCE_IRON-->
+
+		<!--        RESOURCE_COPPER-->
+		<!--        RESOURCE_HORSE-->
+		<!--        RESOURCE_MARBLE-->
+		<!--        RESOURCE_BRICKS-->
+
+		<!-- Стеклодувная мастерская -->
+		<Row>
+			<BuildingType>BUILDING_GLASS_BLOWER_WORKSHOP</BuildingType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GLASS_BLOWER_WORKSHOP</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GLASS_BLOWER_WORKSHOP</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+
+		<!-- Шлаковыпускной горн -->
+		<Row>
+			<BuildingType>BUILDING_SLAGOUTLET</BuildingType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SLAGOUTLET</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -347,12 +417,28 @@
 
     </Building_ResourceCostRequirements>
 
+	<!--        RESOURCE_FOODSTUFF-->
+	<!--        RESOURCE_STONE-->
+	<!--        RESOURCE_WOOD-->
 
+	<!--        RESOURCE_CHARCOAL-->
+	<!--        RESOURCE_LUMBER-->
+	<!--        RESOURCE_IRON-->
+
+	<!--        RESOURCE_COPPER-->
+	<!--        RESOURCE_HORSE-->
+	<!--        RESOURCE_MARBLE-->
+	<!--        RESOURCE_BRICKS-->
 
     <!-- Производит ресурсов -->
     <Building_ResourceQuantity>
 
-
+		<!-- Шлаковыпускной горн -->
+		<Row>
+			<BuildingType>BUILDING_SLAGOUTLET</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Quantity>10</Quantity>
+		</Row>
 
 
 
@@ -388,12 +474,28 @@
 
     </Building_ResourceQuantity>
 
+	<!--        RESOURCE_FOODSTUFF-->
+	<!--        RESOURCE_STONE-->
+	<!--        RESOURCE_WOOD-->
 
+	<!--        RESOURCE_CHARCOAL-->
+	<!--        RESOURCE_LUMBER-->
+	<!--        RESOURCE_IRON-->
+
+	<!--        RESOURCE_COPPER-->
+	<!--        RESOURCE_HORSE-->
+	<!--        RESOURCE_MARBLE-->
+	<!--        RESOURCE_BRICKS-->
 
     <!-- Потребляет за ход -->
 	<Building_ResourceQuantityRequirements>
 
-
+		<!-- Шлаковыпускной горн -->
+		<Row>
+			<BuildingType>BUILDING_SLAGOUTLET</BuildingType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>10</Cost>
+		</Row>
 
         <!-- Арена -->
         <Row>
@@ -402,26 +504,12 @@
 			<Cost>2</Cost>
 		</Row>
 
-
-
-
-
-
-
         <!-- Храм -->
         <Row>
 			<BuildingType>BUILDING_TEMPLE</BuildingType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
 			<Cost>2</Cost>
 		</Row>
-
-
-
-
-
-
-
-
 
     </Building_ResourceQuantityRequirements>
 

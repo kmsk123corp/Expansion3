@@ -40,11 +40,16 @@
 
 
 
-<!-- Античность-->
+		<!-- Античность-->
 		<Row>
 			<Type>BUILDINGCLASS_GLASS_BLOWER_WORKSHOP</Type>
 			<DefaultBuilding>BUILDING_GLASS_BLOWER_WORKSHOP</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_GLASS_BLOWER_WORKSHOP</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_SLAGOUTLET</Type>
+			<DefaultBuilding>BUILDING_SLAGOUTLET</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_SLAGOUTLET</Description>
 		</Row>
 
 

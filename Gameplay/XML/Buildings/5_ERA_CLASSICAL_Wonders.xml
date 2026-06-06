@@ -163,7 +163,7 @@
 			<Type>BUILDING_CIRCUS_MAXIMUS</Type>
 			<BuildingClass>BUILDINGCLASS_CIRCUS_MAXIMUS</BuildingClass>
 			<Cost>120</Cost>
-			<PrereqTech>TECH_LAMINAR_ARMOR</PrereqTech>
+			<PrereqTech>TECH_ENGINEERING</PrereqTech>
 			<Help>TXT_KEY_BUILDING_CIRCUS_MAXIMUS_HELP</Help>
 			<Description>TXT_KEY_BUILDING_CIRCUS_MAXIMUS</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CIRCUS_MAXIMUS_PEDIA</Civilopedia>
@@ -223,7 +223,7 @@
 			<Type>BUILDING_MAUSOLEUM_HALICARNASSUS</Type>
 			<BuildingClass>BUILDINGCLASS_MAUSOLEUM_HALICARNASSUS</BuildingClass>
 			<Cost>250</Cost>
-			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<PrereqTech>TECH_ENGINEERING</PrereqTech>
 			<Help>TXT_KEY_WONDER_MAUSOLEUM_HALICARNASSUS_HELP</Help>
 			<Description>TXT_KEY_BUILDING_MAUSOLEUM_HALICARNASSUS</Description>
 			<Civilopedia>TXT_KEY_WONDER_MAUSOLEUM_HALICARNASSUS_DESC</Civilopedia>

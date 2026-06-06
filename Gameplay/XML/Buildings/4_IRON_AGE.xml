@@ -195,7 +195,8 @@
         <Row>
             <Type>BUILDING_MERCHANTS_GUILD</Type>
             <BuildingClass>BUILDINGCLASS_MERCHANTS_GUILD</BuildingClass>
-            <Cost>75</Cost>
+            <Cost>299</Cost>
+            <GoldMaintenance>1</GoldMaintenance>
             <PrereqTech>TECH_CURRENCY</PrereqTech>
             <Description>TXT_KEY_BUILDING_MERCHANTS_GUILD</Description>
             <Civilopedia>TXT_KEY_CIV5_BUILDINGS_MERCHANTS_GUILD_TEXT</Civilopedia>
@@ -213,7 +214,8 @@
         <Row>
             <Type>BUILDING_MINT</Type>
             <BuildingClass>BUILDINGCLASS_MINT</BuildingClass>
-            <Cost>100</Cost>
+            <Cost>299</Cost>
+            <GoldMaintenance>1</GoldMaintenance>
             <PrereqTech>TECH_CURRENCY</PrereqTech>
             <Description>TXT_KEY_BUILDING_MINT</Description>
             <Civilopedia>TXT_KEY_CIV5_BUILDINGS_MINT_TEXT</Civilopedia>
@@ -348,6 +350,12 @@
             <YieldType>YIELD_GOLD</YieldType>
             <Yield>2</Yield>
         </Row>
+        <Row>
+            <BuildingType>BUILDING_MINT</BuildingType>
+            <ResourceType>RESOURCE_COPPER</ResourceType>
+            <YieldType>YIELD_GOLD</YieldType>
+            <Yield>2</Yield>
+        </Row>
 
     </Building_ResourceYieldChanges>
 
@@ -377,6 +385,10 @@
         <Row>
             <BuildingType>BUILDING_MINT</BuildingType>
             <ResourceType>RESOURCE_SILVER</ResourceType>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MINT</BuildingType>
+            <ResourceType>RESOURCE_COPPER</ResourceType>
         </Row>
     </Building_LocalResourceOrs>
 

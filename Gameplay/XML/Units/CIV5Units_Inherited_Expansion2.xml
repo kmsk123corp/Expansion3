@@ -852,7 +852,7 @@
 		<Row>
 			<Class>UNITCLASS_EARLY_DESTROYER</Class>
 			<Type>UNIT_EARLY_DESTROYER</Type>
-			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
+			<PrereqTech>TECH_DYNAMITE</PrereqTech>
 			<Combat>55</Combat>
 			<Cost>375</Cost>
 			<Moves>6</Moves>

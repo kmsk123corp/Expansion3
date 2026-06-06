@@ -256,7 +256,7 @@
 		<!-- Строим форт -->
 		<Row>
 			<Type>BUILD_FORT</Type>
-			<PrereqTech>TECH_ENGINEERING</PrereqTech>
+			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
 			<Time>800</Time>
 			<ImprovementType>IMPROVEMENT_FORT</ImprovementType>
 			<Description>TXT_KEY_BUILD_FORT</Description>
