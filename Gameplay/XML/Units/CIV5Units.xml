@@ -2537,7 +2537,7 @@
 
 		<Row>
 			<Class>UNITCLASS_GALLEY</Class>
-			<Type>UNIT_GALLEY</Type>
+			<Type>UNIT_BARBARIAN_GALLEY</Type>
 			<Combat>7</Combat>
 			<Cost>40</Cost>
 			<Moves>3</Moves>

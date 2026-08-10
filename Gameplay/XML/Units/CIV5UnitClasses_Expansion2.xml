@@ -6,6 +6,16 @@
 
 
 
+		<Row>
+			<Type>UNITCLASS_MONOXYL</Type>
+			<Description>TXT_KEY_UNIT_MONOXYL</Description>
+			<DefaultUnit>UNIT_MONOXYL</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_GALLEY_BRONZE</Type>
+			<Description>TXT_KEY_UNIT_GALLEY_BRONZE</Description>
+			<DefaultUnit>UNIT_GALLEY_BRONZE</DefaultUnit>
+		</Row>
 
 
 

@@ -128,6 +128,44 @@
 
 
 
+		<Row>
+			<Atlas>Units_IconAtlas</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>Art/icons/Kmskmod_Units_IconAtlas256.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>Units_IconAtlas</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>Art/icons/Kmskmod_Units_IconAtlas128.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>Units_IconAtlas</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>ART/icons/Kmskmod_Units_IconAtlas80.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>Units_IconAtlas</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>ART/icons/Kmskmod_Units_IconAtlas64.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>Units_IconAtlas</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>ART/icons/Kmskmod_Units_IconAtlas45.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+
+
+
 
 		<Row>
 			<Atlas>Technologies_IconAtlas</Atlas>

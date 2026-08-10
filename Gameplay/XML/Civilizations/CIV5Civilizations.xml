@@ -6284,7 +6284,7 @@
 		<Row>
 			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
 			<UnitClassType>UNITCLASS_GALLEY</UnitClassType>
-			<UnitType>UNIT_GALLEY</UnitType>
+			<UnitType>UNIT_BARBARIAN_GALLEY</UnitType>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>

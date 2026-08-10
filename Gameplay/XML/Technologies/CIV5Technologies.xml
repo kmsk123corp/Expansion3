@@ -640,6 +640,7 @@
 			<Era>ERA_BRONZE</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
+			<AllowsEmbarking>true</AllowsEmbarking>
 			<GridX>6</GridX>
 			<GridY>0</GridY>
 			<IconAtlas>Technologies_IconAtlas</IconAtlas>
@@ -783,7 +784,6 @@
 			<Trade>true</Trade>
 			<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange>
 			<GoodyTech>true</GoodyTech>
-			<AllowsEmbarking>true</AllowsEmbarking>
 			<GridX>8</GridX>
 			<GridY>0</GridY>
 			<Quote>TXT_KEY_TECH_SAILING_QUOTE</Quote>

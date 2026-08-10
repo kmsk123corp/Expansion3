@@ -575,8 +575,8 @@
 			<Class>UNITCLASS_SPEARMAN</Class>
 			<Type>UNIT_SPEARMAN</Type>
 			<PrereqTech>TECH_ARMOUR</PrereqTech>
-			<Combat>14</Combat>
-			<Cost>56</Cost>
+			<Combat>15</Combat>
+			<Cost>90</Cost>
 			<FaithCost>112</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
@@ -602,46 +602,13 @@
 			<PortraitIndex>9</PortraitIndex>
 		</Row>
 
-		<!-- Царский отряд -->
-		<Row>
-			<Class>UNITCLASS_SPEARMAN</Class>
-			<Type>UNIT_ASSYRIA_ROYAL_GUARD</Type>
-			<PrereqTech>TECH_ARMOUR</PrereqTech>
-			<Combat>14</Combat>
-			<Cost>56</Cost>
-			<FaithCost>112</FaithCost>
-			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
-			<Moves>2</Moves>
-			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
-			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_ASSYRIA_ROYAL_GUARD</Description>
-			<Civilopedia>TXT_KEY_UNIT_ASSYRIA_ROYAL_GUARD_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_ASSYRIA_ROYAL_GUARD_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_ASSYRIA_ROYAL_GUARD_HELP</Help>
-			<MilitarySupport>true</MilitarySupport>
-			<MilitaryProduction>true</MilitaryProduction>
-			<Pillage>true</Pillage>
-			<ObsoleteTech>TECH_CIVIL_SERVICE</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_PIKEMAN</GoodyHutUpgradeUnitClass>
-			<AdvancedStartCost>15</AdvancedStartCost>
-			<XPValueAttack>3</XPValueAttack>
-			<XPValueDefense>3</XPValueDefense>
-			<Conscription>2</Conscription>
-			<UnitArtInfo>ART_DEF_UNIT_ASSYRIA_ROYAL_GUARD</UnitArtInfo>
-			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
-			<UnitFlagIconOffset>11</UnitFlagIconOffset>
-			<IconAtlas>UNIT_UNIQUE_ATLAS_3</IconAtlas>
-			<PortraitIndex>1</PortraitIndex>
-		</Row>
-
 		<!-- Войны-орлы -->
 		<Row>
 			<Class>UNITCLASS_SPEARMAN</Class>
 			<Type>UNIT_AZTEC_EAGLE</Type>
 			<PrereqTech>TECH_ARMOUR</PrereqTech>
-			<Combat>14</Combat>
-			<Cost>56</Cost>
+			<Combat>15</Combat>
+			<Cost>90</Cost>
 			<FaithCost>112</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
@@ -668,13 +635,46 @@
 			<PortraitIndex>2</PortraitIndex>
 		</Row>
 
+		<!-- Царский отряд -->
+		<Row>
+			<Class>UNITCLASS_SPEARMAN</Class>
+			<Type>UNIT_ASSYRIA_ROYAL_GUARD</Type>
+			<PrereqTech>TECH_ARMOUR</PrereqTech>
+			<Combat>16</Combat>
+			<Cost>90</Cost>
+			<FaithCost>112</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_ASSYRIA_ROYAL_GUARD</Description>
+			<Civilopedia>TXT_KEY_UNIT_ASSYRIA_ROYAL_GUARD_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_ASSYRIA_ROYAL_GUARD_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_ASSYRIA_ROYAL_GUARD_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_CIVIL_SERVICE</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_PIKEMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>15</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>2</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_ASSYRIA_ROYAL_GUARD</UnitArtInfo>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<UnitFlagIconOffset>11</UnitFlagIconOffset>
+			<IconAtlas>UNIT_UNIQUE_ATLAS_3</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+		</Row>
+
 		<!-- Гоплиты -->
 		<Row>
 			<Class>UNITCLASS_SPEARMAN</Class>
 			<Type>UNIT_GREEK_HOPLITE</Type>
 			<PrereqTech>TECH_ARMOUR</PrereqTech>
 			<Combat>16</Combat>
-			<Cost>56</Cost>
+			<Cost>90</Cost>
 			<FaithCost>112</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
@@ -706,7 +706,7 @@
 			<Type>UNIT_PERSIAN_IMMORTAL</Type>
 			<PrereqTech>TECH_ARMOUR</PrereqTech>
 			<Combat>15</Combat>
-			<Cost>56</Cost>
+			<Cost>90</Cost>
 			<FaithCost>112</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
@@ -738,7 +738,7 @@
 			<Type>UNIT_CELT_PICTISH_WARRIOR</Type>
 			<PrereqTech>TECH_ARMOUR</PrereqTech>
 			<Combat>14</Combat>
-			<Cost>56</Cost>
+			<Cost>90</Cost>
 			<FaithCost>112</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
@@ -771,7 +771,7 @@
 			<Type>UNIT_HUN_BATTERING_RAM</Type>
 			<PrereqTech>TECH_ARMOUR</PrereqTech>
 			<Combat>12</Combat>
-			<Cost>75</Cost>
+			<Cost>90</Cost>
 			<FaithCost>150</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
@@ -802,7 +802,7 @@
 			<Class>UNITCLASS_SPEARMAN</Class>
 			<Type>UNIT_BARBARIAN_SPEARMAN</Type>
 			<PrereqTech>TECH_ARMOUR</PrereqTech>
-			<Combat>14</Combat>
+			<Combat>15</Combat>
 			<Cost>56</Cost>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
@@ -2059,144 +2059,144 @@
 		<Row>
 			<UnitType>UNIT_SPEARMAN</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>15</Cost>
+			<Cost>60</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_SPEARMAN</UnitType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>10</Cost>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>20</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_SPEARMAN</UnitType>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<Cost>5</Cost>
+			<Cost>20</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_SPEARMAN</UnitType>
 			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
-			<Cost>5</Cost>
+			<Cost>20</Cost>
 		</Row>
 
 		<!-- Царский отряд -->
 		<Row>
 			<UnitType>UNIT_ASSYRIA_ROYAL_GUARD</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>15</Cost>
+			<Cost>80</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_ASSYRIA_ROYAL_GUARD</UnitType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>10</Cost>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>20</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_ASSYRIA_ROYAL_GUARD</UnitType>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<Cost>10</Cost>
+			<Cost>20</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_ASSYRIA_ROYAL_GUARD</UnitType>
 			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
-			<Cost>10</Cost>
+			<Cost>20</Cost>
 		</Row>
 
 		<!-- Войны-орлы -->
 		<Row>
 			<UnitType>UNIT_AZTEC_EAGLE</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>20</Cost>
+			<Cost>70</Cost>
 		</Row>
 		<Row>
-			<UnitType>UNIT_AZTEC_EAGLE</UnitType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>10</Cost>
+			<UnitType>UNIT_ASSYRIA_ROYAL_GUARD</UnitType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>30</Cost>
 		</Row>
 
 		<!-- Гоплиты -->
 		<Row>
 			<UnitType>UNIT_GREEK_HOPLITE</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>15</Cost>
+			<Cost>90</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_GREEK_HOPLITE</UnitType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>10</Cost>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>30</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_GREEK_HOPLITE</UnitType>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<Cost>10</Cost>
+			<Cost>30</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_GREEK_HOPLITE</UnitType>
 			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
-			<Cost>10</Cost>
+			<Cost>30</Cost>
 		</Row>
 
 		<!-- Бессмертные -->
 		<Row>
 			<UnitType>UNIT_PERSIAN_IMMORTAL</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>20</Cost>
+			<Cost>90</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_PERSIAN_IMMORTAL</UnitType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>10</Cost>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>30</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_PERSIAN_IMMORTAL</UnitType>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<Cost>12</Cost>
+			<Cost>30</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_PERSIAN_IMMORTAL</UnitType>
 			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
-			<Cost>12</Cost>
+			<Cost>30</Cost>
 		</Row>
 
 		<!-- Войны-пикты -->
 		<Row>
 			<UnitType>UNIT_CELT_PICTISH_WARRIOR</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>15</Cost>
+			<Cost>100</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_CELT_PICTISH_WARRIOR</UnitType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>10</Cost>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>50</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_CELT_PICTISH_WARRIOR</UnitType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
-			<Cost>10</Cost>
+			<Cost>50</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_CELT_PICTISH_WARRIOR</UnitType>
 			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
-			<Cost>10</Cost>
+			<Cost>50</Cost>
 		</Row>
 
 		<!-- Таран -->
 		<Row>
 			<UnitType>UNIT_HUN_BATTERING_RAM</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>20</Cost>
+			<Cost>100</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_HUN_BATTERING_RAM</UnitType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>30</Cost>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>50</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_HUN_BATTERING_RAM</UnitType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
-			<Cost>20</Cost>
+			<Cost>25</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_HUN_BATTERING_RAM</UnitType>
 			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
-			<Cost>20</Cost>
+			<Cost>25</Cost>
 		</Row>
 
 		<!-- #################### -->
@@ -2367,43 +2367,58 @@
 		<Row>
 			<UnitType>UNIT_SPEARMAN</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SPEARMAN</UnitType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
 			<Cost>1</Cost>
 		</Row>
 		<!-- Царский отряд -->
 		<Row>
 			<UnitType>UNIT_ASSYRIA_ROYAL_GUARD</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>1</Cost>
+			<Cost>4</Cost>
 		</Row>
 		<!-- Войны-орлы -->
 		<Row>
 			<UnitType>UNIT_AZTEC_EAGLE</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>1</Cost>
+			<Cost>4</Cost>
 		</Row>
 		<!-- Гоплиты -->
 		<Row>
 			<UnitType>UNIT_GREEK_HOPLITE</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SPEARMAN</UnitType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
 			<Cost>1</Cost>
 		</Row>
 		<!-- Бессмертные -->
 		<Row>
 			<UnitType>UNIT_PERSIAN_IMMORTAL</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SPEARMAN</UnitType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
 			<Cost>1</Cost>
 		</Row>
 		<!-- Войны-пикты -->
 		<Row>
 			<UnitType>UNIT_CELT_PICTISH_WARRIOR</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>1</Cost>
+			<Cost>5</Cost>
 		</Row>
 		<!-- Таран -->
 		<Row>
 			<UnitType>UNIT_HUN_BATTERING_RAM</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 
 

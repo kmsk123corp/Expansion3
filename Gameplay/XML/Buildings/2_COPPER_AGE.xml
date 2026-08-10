@@ -506,7 +506,7 @@
         <Row>
 			<BuildingType>BUILDING_STONEHENGE</BuildingType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
+			<Yield>3</Yield>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_STONEHENGE</BuildingType>

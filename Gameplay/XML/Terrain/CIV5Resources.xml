@@ -96,7 +96,7 @@
 	        <IconString>[ICON_RES_FOODSTUFF]</IconString>
 	        <PortraitIndex>50</PortraitIndex>
 	        <IconAtlas>Resources_IconAtlas</IconAtlas>
-			<StartingResourceQuantity>230</StartingResourceQuantity>
+			<StartingResourceQuantity>330</StartingResourceQuantity>
 	    </Row>
 
 		<!-- Лошади -->

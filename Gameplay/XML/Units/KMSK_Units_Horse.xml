@@ -13,9 +13,9 @@
 			<Class>UNITCLASS_CHARIOT_ARCHER</Class>
 			<Type>UNIT_CHARIOT_ARCHER</Type>
 			<PrereqTech>TECH_SPOKE_RIM</PrereqTech>
-			<Combat>6</Combat>
-			<RangedCombat>10</RangedCombat>
-			<Cost>56</Cost>
+			<Combat>10</Combat>
+			<RangedCombat>12</RangedCombat>
+			<Cost>150</Cost>
 			<FaithCost>112</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>4</Moves>
@@ -47,12 +47,12 @@
 			<Class>UNITCLASS_CHARIOT_ARCHER</Class>
 			<Type>UNIT_EGYPTIAN_WARCHARIOT</Type>
 			<PrereqTech>TECH_SPOKE_RIM</PrereqTech>
-			<Combat>6</Combat>
-			<RangedCombat>10</RangedCombat>
-			<Cost>56</Cost>
+			<Combat>11</Combat>
+			<RangedCombat>13</RangedCombat>
+			<Cost>150</Cost>
 			<FaithCost>112</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
-			<Moves>5</Moves>
+			<Moves>4</Moves>
 			<Range>2</Range>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -83,7 +83,7 @@
 			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
 			<Combat>9</Combat>
 			<RangedCombat>14</RangedCombat>
-			<Cost>70</Cost>
+			<Cost>150</Cost>
 			<FaithCost>140</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>3</Moves>
@@ -117,7 +117,7 @@
 			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
 			<Combat>7</Combat>
 			<RangedCombat>10</RangedCombat>
-			<Cost>56</Cost>
+			<Cost>150</Cost>
 			<FaithCost>112</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>4</Moves>
@@ -156,7 +156,7 @@
 			<Type>UNIT_PERSIA_CHARIOT</Type>
 			<PrereqTech>TECH_SPOKE_RIM</PrereqTech>
 			<Combat>12</Combat>
-			<Cost>75</Cost>
+			<Cost>150</Cost>
 			<FaithCost>150</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>4</Moves>
@@ -708,49 +708,49 @@
 		<Row>
 			<UnitType>UNIT_CHARIOT_ARCHER</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>20</Cost>
+			<Cost>100</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_CHARIOT_ARCHER</UnitType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
-			<Cost>20</Cost>
+			<Cost>25</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_CHARIOT_ARCHER</UnitType>
 			<ResourceType>RESOURCE_LUMBER</ResourceType>
-			<Cost>20</Cost>
+			<Cost>25</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_CHARIOT_ARCHER</UnitType>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<Cost>10</Cost>
+			<Cost>25</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_CHARIOT_ARCHER</UnitType>
 			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
-			<Cost>10</Cost>
+			<Cost>25</Cost>
 		</Row>
 
 		<!-- Боевые колестницы -->
 		<Row>
 			<UnitType>UNIT_EGYPTIAN_WARCHARIOT</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>20</Cost>
+			<Cost>90</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_EGYPTIAN_WARCHARIOT</UnitType>
 			<ResourceType>RESOURCE_LUMBER</ResourceType>
-			<Cost>10</Cost>
+			<Cost>30</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_EGYPTIAN_WARCHARIOT</UnitType>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<Cost>15</Cost>
+			<Cost>30</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_EGYPTIAN_WARCHARIOT</UnitType>
 			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
-			<Cost>15</Cost>
+			<Cost>30</Cost>
 		</Row>
 
 		<!-- Боевые слоны -->
@@ -936,7 +936,7 @@
 		<Row>
 			<UnitType>UNIT_CHARIOT_ARCHER</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_CHARIOT_ARCHER</UnitType>
@@ -945,7 +945,12 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_CHARIOT_ARCHER</UnitType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CHARIOT_ARCHER</UnitType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
 			<Cost>1</Cost>
 		</Row>
 
@@ -953,11 +958,16 @@
 		<Row>
 			<UnitType>UNIT_EGYPTIAN_WARCHARIOT</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>3</Cost>
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_EGYPTIAN_WARCHARIOT</UnitType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EGYPTIAN_WARCHARIOT</UnitType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
 			<Cost>1</Cost>
 		</Row>
 

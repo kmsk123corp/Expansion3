@@ -1868,11 +1868,6 @@
       <Gender>feminine</Gender>
       <Plurality>1</Plurality>
     </Row>
-    <Row Tag="TXT_KEY_UNIT_WARRIOR">
-      <Text>Воины|воинов|воинам|воинов|воинами|воинах</Text>
-      <Gender>masculine</Gender>
-      <Plurality>2</Plurality>
-    </Row>
     <Row Tag="TXT_KEY_UNIT_WORK_BOAT">
       <Text>Рабочая лодка|рабочей лодки|рабочей лодке|рабочую лодку|рабочей лодкой|рабочей лодке</Text>
       <Gender>feminine</Gender>

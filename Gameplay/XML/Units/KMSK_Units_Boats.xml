@@ -4,9 +4,147 @@
 
 	<Units>
 
-		<!-- ############################### -->
-		<!--   	   корабли ближнего боя  	 -->
-		<!-- ############################### -->
+		<!-- ################################ -->
+		<!-- корабли ближнего боя (уроверь 1) -->
+		<!-- ################################ -->
+
+		<!-- Моноксил (долбенка) -->
+		<Row>
+			<Class>UNITCLASS_MONOXYL</Class>
+			<Type>UNIT_MONOXYL</Type>
+			<PrereqTech>TECH_SEA_FISHING</PrereqTech>
+			<Combat>3</Combat>
+			<RangedCombat>5</RangedCombat>
+			<Cost>60</Cost>
+			<FaithCost>120</FaithCost>
+			<Moves>3</Moves>
+			<Range>1</Range>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_MONOXYL</Description>
+			<Civilopedia>TXT_KEY_UNIT_MONOXYL_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_MONOXYL_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_MONOXYL_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<Mechanized>true</Mechanized>
+			<ObsoleteTech>TECH_COMPASS</ObsoleteTech>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_IROQUOIS_WHALER</UnitArtInfo>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<UnitFlagIconOffset>22</UnitFlagIconOffset>
+			<IconAtlas>Units_IconAtlas</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<MoveRate>WOODEN_BOAT</MoveRate>
+		</Row>
+
+		<!-- Каноэ (Ирокезы) -->
+		<Row>
+			<Class>UNITCLASS_MONOXYL</Class>
+			<Type>UNIT_IROQUOIS_WHALER</Type>
+			<PrereqTech>TECH_SEA_FISHING</PrereqTech>
+			<Combat>3</Combat>
+			<RangedCombat>5</RangedCombat>
+			<Cost>60</Cost>
+			<FaithCost>120</FaithCost>
+			<Moves>3</Moves>
+			<Range>1</Range>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_IROQUOIS_WHALER</Description>
+			<Civilopedia>TXT_KEY_UNIT_IROQUOIS_WHALER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_IROQUOIS_WHALER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_IROQUOIS_WHALER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<Mechanized>true</Mechanized>
+			<ObsoleteTech>TECH_COMPASS</ObsoleteTech>
+			<WorkRate>100</WorkRate>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_IROQUOIS_WHALER</UnitArtInfo>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<UnitFlagIconOffset>22</UnitFlagIconOffset>
+			<IconAtlas>UNIT_UNIQUE_ATLAS_3</IconAtlas>
+			<PortraitIndex>10</PortraitIndex>
+			<MoveRate>WOODEN_BOAT</MoveRate>
+		</Row>
+
+		<!-- Галера -->
+		<Row>
+			<Class>UNITCLASS_GALLEY_BRONZE</Class>
+			<Type>UNIT_GALLEY_BRONZE</Type>
+			<PrereqTech>TECH_SHIPBUILDING</PrereqTech>
+			<Combat>8</Combat>
+			<Cost>75</Cost>
+			<Moves>3</Moves>
+			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_GALLEY_BRONZE</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_GALLEY_BRONZE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_GALLEY_BRONZE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_GALLEY_BRONZE</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<Mechanized>true</Mechanized>
+			<ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_BARBARIAN_GALLEY</UnitArtInfo>
+			<UnitFlagIconOffset>23</UnitFlagIconOffset>
+			<IconAtlas>Units_IconAtlas</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<MoveRate>WOODEN_BOAT</MoveRate>
+		</Row>
+
+
+<!--		<Row>-->
+<!--			<Class>UNITCLASS_GALLEY</Class>-->
+<!--			<Type>UNIT_GALLEY</Type>-->
+<!--			<PrereqTech>TECH_SHIPBUILDING</PrereqTech>-->
+<!--			<Combat>6</Combat>-->
+<!--			<Cost>60</Cost>-->
+<!--			<Moves>3</Moves>-->
+<!--			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>-->
+<!--			<Domain>DOMAIN_SEA</Domain>-->
+<!--			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>-->
+<!--			<Description>TXT_KEY_UNIT_GALLEY_BRONZE</Description>-->
+<!--			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_GALLEY_BRONZE_TEXT</Civilopedia>-->
+<!--			<Strategy>TXT_KEY_UNIT_GALLEY_BRONZE_STRATEGY</Strategy>-->
+<!--			<Help>TXT_KEY_UNIT_HELP_GALLEY_BRONZE</Help>-->
+<!--			<MilitarySupport>true</MilitarySupport>-->
+<!--			<MilitaryProduction>true</MilitaryProduction>-->
+<!--			<Pillage>true</Pillage>-->
+<!--			<Mechanized>true</Mechanized>-->
+<!--			<ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech>-->
+<!--			<AdvancedStartCost>30</AdvancedStartCost>-->
+<!--			<MinAreaSize>10</MinAreaSize>-->
+<!--			<XPValueAttack>3</XPValueAttack>-->
+<!--			<XPValueDefense>3</XPValueDefense>-->
+<!--			<UnitArtInfo>ART_DEF_UNIT_BARBARIAN_GALLEY</UnitArtInfo>-->
+<!--			<UnitFlagIconOffset>23</UnitFlagIconOffset>-->
+<!--			<IconAtlas>Units_IconAtlas</IconAtlas>-->
+<!--			<PortraitIndex>1</PortraitIndex>-->
+<!--			<MoveRate>WOODEN_BOAT</MoveRate>-->
+<!--		</Row>-->
+
+		<!-- ################################ -->
+		<!-- корабли ближнего боя (уроверь 2) -->
+		<!-- ################################ -->
+
 
 		<!-- Трирема -->
 		<Row>
@@ -71,40 +209,7 @@
 			<MoveRate>WOODEN_BOAT</MoveRate>
 		</Row>
 
-		<!-- Каноэ (Ирокезы) -->
-		<Row>
-			<Class>UNITCLASS_TRIREME</Class>
-			<Type>UNIT_IROQUOIS_WHALER</Type>
-			<PrereqTech>TECH_SAILING</PrereqTech>
-			<Combat>6</Combat>
-			<RangedCombat>9</RangedCombat>
-			<Cost>45</Cost>
-			<Moves>3</Moves>
-			<Range>2</Range>
-			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
-			<Domain>DOMAIN_SEA</Domain>
-			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_IROQUOIS_WHALER</Description>
-			<Civilopedia>TXT_KEY_UNIT_IROQUOIS_WHALER_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_IROQUOIS_WHALER_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_IROQUOIS_WHALER_HELP</Help>
-			<MilitarySupport>true</MilitarySupport>
-			<MilitaryProduction>true</MilitaryProduction>
-			<Pillage>true</Pillage>
-			<Mechanized>true</Mechanized>
-			<ObsoleteTech>TECH_COMPASS</ObsoleteTech>
-			<WorkRate>100</WorkRate>
-			<AdvancedStartCost>30</AdvancedStartCost>
-			<MinAreaSize>10</MinAreaSize>
-			<XPValueAttack>3</XPValueAttack>
-			<XPValueDefense>3</XPValueDefense>
-			<UnitArtInfo>ART_DEF_UNIT_IROQUOIS_WHALER</UnitArtInfo>
-			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
-			<UnitFlagIconOffset>22</UnitFlagIconOffset>
-			<IconAtlas>UNIT_UNIQUE_ATLAS_3</IconAtlas>
-			<PortraitIndex>10</PortraitIndex>
-			<MoveRate>WOODEN_BOAT</MoveRate>
-		</Row>
+
 
 		<!-- Квинкверема (Карфаген) -->
 		<Row>
@@ -244,36 +349,24 @@
 
 	<Unit_AITypes>
 		<Row>
-			<UnitType>UNIT_TRIREME</UnitType>
+			<UnitType>UNIT_MONOXYL</UnitType>
 			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_TRIREME</UnitType>
+			<UnitType>UNIT_MONOXYL</UnitType>
 			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_TRIREME</UnitType>
+			<UnitType>UNIT_MONOXYL</UnitType>
 			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_TRIREME</UnitType>
+			<UnitType>UNIT_MONOXYL</UnitType>
 			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
-			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
-			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
-			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
-			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+			<UnitType>UNIT_MONOXYL</UnitType>
+			<UnitAIType>UNITAI_WORKER_SEA</UnitAIType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
@@ -295,6 +388,73 @@
 			<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
 			<UnitAIType>UNITAI_WORKER_SEA</UnitAIType>
 		</Row>
+
+		<Row>
+			<UnitType>UNIT_GALLEY_BRONZE</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GALLEY_BRONZE</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GALLEY_BRONZE</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GALLEY_BRONZE</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_TRIREME</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIREME</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIREME</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIREME</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+
+
+
+
+
+
+
+
+
+		<Row>
+			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+
+
+
+
+
+
+
+
 		<Row>
 			<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
 			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
@@ -371,17 +531,29 @@
 
 	<!-- Во что улучшается? -->
 	<Unit_ClassUpgrades>
+
 		<Row>
-			<UnitType>UNIT_TRIREME</UnitType>
-			<UnitClassType>UNITCLASS_CARAVEL</UnitClassType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
-			<UnitClassType>UNITCLASS_CARAVEL</UnitClassType>
+			<UnitType>UNIT_MONOXYL</UnitType>
+			<UnitClassType>UNITCLASS_GALLEASS</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
 			<UnitClassType>UNITCLASS_GALLEASS</UnitClassType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_GALLEY_BRONZE</UnitType>
+			<UnitClassType>UNITCLASS_TRIREME</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIREME</UnitType>
+			<UnitClassType>UNITCLASS_CARAVEL</UnitClassType>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
+			<UnitClassType>UNITCLASS_CARAVEL</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
@@ -403,6 +575,38 @@
 
 	<!-- Для советников -->
 	<Unit_Flavors>
+
+		<Row>
+			<UnitType>UNIT_MONOXYL</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MONOXYL</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_GALLEY_BRONZE</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GALLEY_BRONZE</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
 		<Row>
 			<UnitType>UNIT_TRIREME</UnitType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
@@ -413,6 +617,10 @@
 			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
+
+
+
+
 		<Row>
 			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
@@ -423,16 +631,15 @@
 			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
 			<Flavor>4</Flavor>
 		</Row>
-		<Row>
-			<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
-			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>6</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
-			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
+
+
+
+
+
+
+
+
+
 		<Row>
 			<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
@@ -477,13 +684,14 @@
 
 	<!-- Способности юнита -->
 	<Unit_FreePromotions>
+
 		<Row>
-			<UnitType>UNIT_TRIREME</UnitType>
-			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
+			<UnitType>UNIT_MONOXYL</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
-			<PromotionType>PROMOTION_EXTRA_SIGHT_I</PromotionType>
+			<UnitType>UNIT_MONOXYL</UnitType>
+			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
@@ -493,6 +701,27 @@
 			<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
 			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
 		</Row>
+
+		<Row>
+			<UnitType>UNIT_GALLEY_BRONZE</UnitType>
+			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIREME</UnitType>
+			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
+			<PromotionType>PROMOTION_EXTRA_SIGHT_I</PromotionType>
+		</Row>
+
+
+
+
+
+
 		<Row>
 			<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
 			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
@@ -534,17 +763,44 @@
 
 			<!-- Уровень 1 -->
 
-				<!-- Каноэ -->
+				<!-- Моноксил (долбенка) -->
+				<Row>
+					<UnitType>UNIT_MONOXYL</UnitType>
+					<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+					<Cost>20</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_MONOXYL</UnitType>
+					<ResourceType>RESOURCE_WOOD</ResourceType>
+					<Cost>20</Cost>
+				</Row>
+
+				<!-- Каноэ (Ирокезы) -->
 				<Row>
 					<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
 					<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-					<Cost>10</Cost>
+					<Cost>20</Cost>
 				</Row>
 				<Row>
 					<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
 					<ResourceType>RESOURCE_WOOD</ResourceType>
-					<Cost>10</Cost>
+					<Cost>20</Cost>
 				</Row>
+
+				<!-- Галера -->
+				<Row>
+					<UnitType>UNIT_GALLEY_BRONZE</UnitType>
+					<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+					<Cost>50</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_GALLEY_BRONZE</UnitType>
+					<ResourceType>RESOURCE_LUMBER</ResourceType>
+					<Cost>50</Cost>
+				</Row>
+
+
+
 				<!-- Трирема -->
 				<Row>
 					<UnitType>UNIT_TRIREME</UnitType>
@@ -955,12 +1211,30 @@
 	<!-- Содержание -->
 	<Unit_ResourceQuantityRequirements>
 
-		<!-- Каноэ -->
+
+		<!-- Долбенка -->
+		<Row>
+			<UnitType>UNIT_MONOXYL</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+		<!-- Каноэ (Ирокезы) -->
 		<Row>
 			<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
 			<Cost>1</Cost>
 		</Row>
+
+		<!-- Галера -->
+		<Row>
+			<UnitType>UNIT_GALLEY_BRONZE</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+
+
 
 		<!-- Трирема -->
 		<Row>

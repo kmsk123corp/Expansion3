@@ -63,6 +63,8 @@
 			<PortraitIndex>20</PortraitIndex>
 			<MoveRate>QUADRUPED</MoveRate>
 		</Row>
+
+		<!-- Грузовой корабль -->
 		<Row>
 			<Class>UNITCLASS_CARGO_SHIP</Class>
 			<Type>UNIT_CARGO_SHIP</Type>
