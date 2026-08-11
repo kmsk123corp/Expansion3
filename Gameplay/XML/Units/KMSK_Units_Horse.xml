@@ -189,8 +189,8 @@
 			<Class>UNITCLASS_HORSEMAN</Class>
 			<Type>UNIT_HORSEMAN</Type>
 			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
-			<Combat>12</Combat>
-			<Cost>75</Cost>
+			<Combat>14</Combat>
+			<Cost>240</Cost>
 			<FaithCost>150</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>4</Moves>
@@ -823,27 +823,27 @@
 		<Row>
 			<UnitType>UNIT_HORSEMAN</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>30</Cost>
+			<Cost>150</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_HORSEMAN</UnitType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
-			<Cost>30</Cost>
+			<Cost>40</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_HORSEMAN</UnitType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>5</Cost>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>10</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_HORSEMAN</UnitType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
-			<Cost>10</Cost>
+			<Cost>50</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_HORSEMAN</UnitType>
 			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
-			<Cost>10</Cost>
+			<Cost>50</Cost>
 		</Row>
 
 		<!-- Гетайры -->
@@ -1016,7 +1016,7 @@
 		<Row>
 			<UnitType>UNIT_HORSEMAN</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>2</Cost>
+			<Cost>6</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_HORSEMAN</UnitType>

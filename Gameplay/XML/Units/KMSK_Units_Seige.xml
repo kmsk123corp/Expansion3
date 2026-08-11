@@ -13,9 +13,9 @@
 			<Class>UNITCLASS_CATAPULT</Class>
 			<Type>UNIT_CATAPULT</Type>
 			<PrereqTech>TECH_CATAPULT</PrereqTech>
-			<Combat>7</Combat>
-			<RangedCombat>8</RangedCombat>
-			<Cost>75</Cost>
+			<Combat>10</Combat>
+			<RangedCombat>10</RangedCombat>
+			<Cost>240</Cost>
 			<FaithCost>150</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
@@ -440,13 +440,33 @@
     	<Row>
     		<UnitType>UNIT_CATAPULT</UnitType>
     		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-    		<Cost>10</Cost>
+    		<Cost>100</Cost>
     	</Row>
     	<Row>
     		<UnitType>UNIT_CATAPULT</UnitType>
     		<ResourceType>RESOURCE_LUMBER</ResourceType>
-    		<Cost>40</Cost>
+    		<Cost>100</Cost>
     	</Row>
+		<Row>
+			<UnitType>UNIT_CATAPULT</UnitType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>25</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CATAPULT</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>25</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CATAPULT</UnitType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>25</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CATAPULT</UnitType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<Cost>25</Cost>
+		</Row>
 
         <!-- Баллисты (Рим) -->
     	<Row>
@@ -526,11 +546,24 @@
 	<Unit_ResourceQuantityRequirements>
 
         <!-- Катапульта -->
-    	<Row>
-    		<UnitType>UNIT_CATAPULT</UnitType>
-    		<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-    		<Cost>1</Cost>
-    	</Row>
+		<Row>
+			<UnitType>UNIT_CATAPULT</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CATAPULT</UnitType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CATAPULT</UnitType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+
+
 
         <!-- Баллисты (Рим) -->
         <Row>

@@ -67,7 +67,7 @@
             <Civilopedia>TXT_KEY_BUILDINGS_ASHURBANIPAL_LIBRARY_TEXT</Civilopedia>
             <Help>TXT_KEY_BUILDING_ASHURBANIPAL_LIBRARY_HELP</Help>
             <MaxStartEra>ERA_CLASSICAL</MaxStartEra>
-            <SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+            <SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
             <GreatPeopleRateChange>1</GreatPeopleRateChange>
             <NukeImmune>true</NukeImmune>
             <HurryCostModifier>-1</HurryCostModifier>
@@ -101,6 +101,11 @@
         <Row>
             <BuildingType>BUILDING_ASHURBANIPAL_LIBRARY</BuildingType>
             <YieldType>YIELD_SCIENCE</YieldType>
+            <Yield>5</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_ASHURBANIPAL_LIBRARY</BuildingType>
+            <YieldType>YIELD_CULTURE</YieldType>
             <Yield>5</Yield>
         </Row>
 

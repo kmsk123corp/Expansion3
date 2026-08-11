@@ -3,9 +3,8 @@
 <GameData>
 
 	<Units>
-
 		<!-- ################################ -->
-		<!-- корабли ближнего боя (уроверь 1) -->
+		<!-- корабли дальнего боя (уроверь 1) -->
 		<!-- ################################ -->
 
 		<!-- Моноксил (долбенка) -->
@@ -79,6 +78,10 @@
 			<MoveRate>WOODEN_BOAT</MoveRate>
 		</Row>
 
+		<!-- ################################ -->
+		<!-- корабли ближнего боя (уроверь 1) -->
+		<!-- ################################ -->
+
 		<!-- Галера -->
 		<Row>
 			<Class>UNITCLASS_GALLEY_BRONZE</Class>
@@ -98,7 +101,7 @@
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
 			<Mechanized>true</Mechanized>
-			<ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech>
+			<ObsoleteTech>TECH_OPTICS</ObsoleteTech>
 			<AdvancedStartCost>30</AdvancedStartCost>
 			<MinAreaSize>10</MinAreaSize>
 			<XPValueAttack>3</XPValueAttack>
@@ -110,49 +113,51 @@
 			<MoveRate>WOODEN_BOAT</MoveRate>
 		</Row>
 
-
-<!--		<Row>-->
-<!--			<Class>UNITCLASS_GALLEY</Class>-->
-<!--			<Type>UNIT_GALLEY</Type>-->
-<!--			<PrereqTech>TECH_SHIPBUILDING</PrereqTech>-->
-<!--			<Combat>6</Combat>-->
-<!--			<Cost>60</Cost>-->
-<!--			<Moves>3</Moves>-->
-<!--			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>-->
-<!--			<Domain>DOMAIN_SEA</Domain>-->
-<!--			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>-->
-<!--			<Description>TXT_KEY_UNIT_GALLEY_BRONZE</Description>-->
-<!--			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_GALLEY_BRONZE_TEXT</Civilopedia>-->
-<!--			<Strategy>TXT_KEY_UNIT_GALLEY_BRONZE_STRATEGY</Strategy>-->
-<!--			<Help>TXT_KEY_UNIT_HELP_GALLEY_BRONZE</Help>-->
-<!--			<MilitarySupport>true</MilitarySupport>-->
-<!--			<MilitaryProduction>true</MilitaryProduction>-->
-<!--			<Pillage>true</Pillage>-->
-<!--			<Mechanized>true</Mechanized>-->
-<!--			<ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech>-->
-<!--			<AdvancedStartCost>30</AdvancedStartCost>-->
-<!--			<MinAreaSize>10</MinAreaSize>-->
-<!--			<XPValueAttack>3</XPValueAttack>-->
-<!--			<XPValueDefense>3</XPValueDefense>-->
-<!--			<UnitArtInfo>ART_DEF_UNIT_BARBARIAN_GALLEY</UnitArtInfo>-->
-<!--			<UnitFlagIconOffset>23</UnitFlagIconOffset>-->
-<!--			<IconAtlas>Units_IconAtlas</IconAtlas>-->
-<!--			<PortraitIndex>1</PortraitIndex>-->
-<!--			<MoveRate>WOODEN_BOAT</MoveRate>-->
-<!--		</Row>-->
-
 		<!-- ################################ -->
 		<!-- корабли ближнего боя (уроверь 2) -->
 		<!-- ################################ -->
 
+		<!-- Бирема -->
+		<Row>
+			<Class>UNITCLASS_BIREMA</Class>
+			<Type>UNIT_BIREMA</Type>
+			<PrereqTech>TECH_NAVIGATING_STARS</PrereqTech>
+			<Combat>12</Combat>
+			<Cost>150</Cost>
+			<Moves>3</Moves>
+			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_BIREMA</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_BIREMA_TEXT</Civilopedia>
+			<Help>TXT_KEY_UNIT_HELP_BIREMA</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<Mechanized>true</Mechanized>
+			<ObsoleteTech>TECH_THEOLOGY</ObsoleteTech>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_TRIREME</UnitArtInfo>
+			<UnitFlagIconOffset>24</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>24</PortraitIndex>
+			<MoveRate>WOODEN_BOAT</MoveRate>
+		</Row>
+
+		<!-- ################################ -->
+		<!-- корабли ближнего боя (уроверь 2) -->
+		<!-- ################################ -->
 
 		<!-- Трирема -->
 		<Row>
 			<Class>UNITCLASS_TRIREME</Class>
 			<Type>UNIT_TRIREME</Type>
 			<PrereqTech>TECH_OPTICS</PrereqTech>
-			<Combat>10</Combat>
-			<Cost>45</Cost>
+			<Combat>18</Combat>
+			<Cost>240</Cost>
 			<Moves>4</Moves>
 			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
@@ -172,10 +177,15 @@
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_TRIREME</UnitArtInfo>
 			<UnitFlagIconOffset>24</UnitFlagIconOffset>
-			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
-			<PortraitIndex>24</PortraitIndex>
+			<IconAtlas>Units_IconAtlas</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
 			<MoveRate>WOODEN_BOAT</MoveRate>
 		</Row>
+
+		<!-- ################################ -->
+		<!-- корабли ближнего боя (уроверь 3) -->
+		<!-- ################################ -->
+
 
 		<!-- Пиниси (Индонезия) -->
 		<Row>
@@ -406,6 +416,25 @@
 			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
 		</Row>
 
+
+		<Row>
+			<UnitType>UNIT_BIREMA</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BIREMA</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BIREMA</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BIREMA</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+
+
 		<Row>
 			<UnitType>UNIT_TRIREME</UnitType>
 			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
@@ -543,12 +572,17 @@
 
 		<Row>
 			<UnitType>UNIT_GALLEY_BRONZE</UnitType>
+			<UnitClassType>UNITCLASS_BIREMA</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BIREMA</UnitType>
 			<UnitClassType>UNITCLASS_TRIREME</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_TRIREME</UnitType>
 			<UnitClassType>UNITCLASS_CARAVEL</UnitClassType>
 		</Row>
+
 
 
 		<Row>
@@ -607,6 +641,18 @@
 			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
+
+		<Row>
+			<UnitType>UNIT_BIREMA</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BIREMA</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+
 		<Row>
 			<UnitType>UNIT_TRIREME</UnitType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
@@ -707,6 +753,10 @@
 			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
 		</Row>
 		<Row>
+			<UnitType>UNIT_BIREMA</UnitType>
+			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
+		</Row>
+		<Row>
 			<UnitType>UNIT_TRIREME</UnitType>
 			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
 		</Row>
@@ -799,24 +849,52 @@
 					<Cost>50</Cost>
 				</Row>
 
-
+				<!-- Бирема -->
+				<Row>
+					<UnitType>UNIT_BIREMA</UnitType>
+					<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+					<Cost>100</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_BIREMA</UnitType>
+					<ResourceType>RESOURCE_LUMBER</ResourceType>
+					<Cost>100</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_BIREMA</UnitType>
+					<ResourceType>RESOURCE_COPPER</ResourceType>
+					<Cost>30</Cost>
+				</Row>
+				<Row>
+					<UnitType>UNIT_BIREMA</UnitType>
+					<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+					<Cost>30</Cost>
+				</Row>
 
 				<!-- Трирема -->
 				<Row>
 					<UnitType>UNIT_TRIREME</UnitType>
 					<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-					<Cost>20</Cost>
+					<Cost>160</Cost>
 				</Row>
 				<Row>
 					<UnitType>UNIT_TRIREME</UnitType>
 					<ResourceType>RESOURCE_LUMBER</ResourceType>
-					<Cost>20</Cost>
+					<Cost>160</Cost>
 				</Row>
 				<Row>
 					<UnitType>UNIT_TRIREME</UnitType>
 					<ResourceType>RESOURCE_COPPER</ResourceType>
-					<Cost>20</Cost>
+					<Cost>60</Cost>
 				</Row>
+				<Row>
+					<UnitType>UNIT_TRIREME</UnitType>
+					<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+					<Cost>60</Cost>
+				</Row>
+
+
+
 				<!-- Пиниси -->
 				<Row>
 					<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
@@ -1233,14 +1311,18 @@
 			<Cost>2</Cost>
 		</Row>
 
-
-
+		<!-- Бирема -->
+		<Row>
+			<UnitType>UNIT_BIREMA</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>3</Cost>
+		</Row>
 
 		<!-- Трирема -->
 		<Row>
 			<UnitType>UNIT_TRIREME</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>2</Cost>
+			<Cost>5</Cost>
 		</Row>
 
 		<!-- Пиниси -->

@@ -13,7 +13,7 @@
 			<Type>BUILDING_LIGHTHOUSE</Type>
 			<BuildingClass>BUILDINGCLASS_LIGHTHOUSE</BuildingClass>
 			<FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
-			<Cost>75</Cost>
+			<Cost>299</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_OPTICS</PrereqTech>
 			<Help>TXT_KEY_BUILDING_LIGHTHOUSE_HELP</Help>
@@ -41,7 +41,7 @@
 			<Type>BUILDING_LIBRARY</Type>
 			<BuildingClass>BUILDINGCLASS_LIBRARY</BuildingClass>
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
-			<Cost>75</Cost>
+			<Cost>447</Cost>
 			<FaithCost>100</FaithCost>
 			<UnlockedByBelief>true</UnlockedByBelief>
 			<GoldMaintenance>1</GoldMaintenance>
@@ -63,7 +63,7 @@
 			<Type>BUILDING_PAPER_MAKER</Type>
 			<BuildingClass>BUILDINGCLASS_LIBRARY</BuildingClass>
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
-			<Cost>75</Cost>
+			<Cost>447</Cost>
 			<FaithCost>100</FaithCost>
 			<UnlockedByBelief>true</UnlockedByBelief>
 			<PrereqTech>TECH_LITERATURE</PrereqTech>
@@ -84,7 +84,7 @@
 			<Type>BUILDING_ROYAL_LIBRARY</Type>
 			<BuildingClass>BUILDINGCLASS_LIBRARY</BuildingClass>
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
-			<Cost>75</Cost>
+			<Cost>447</Cost>
 			<FaithCost>100</FaithCost>
 			<UnlockedByBelief>true</UnlockedByBelief>
 			<GoldMaintenance>1</GoldMaintenance>
@@ -113,7 +113,7 @@
 			<Type>BUILDING_COLOSSEUM</Type>
 			<BuildingClass>BUILDINGCLASS_COLOSSEUM</BuildingClass>
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
-			<Cost>100</Cost>
+			<Cost>299</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_WELDED_WEAPONS</PrereqTech>
 			<Help>TXT_KEY_BUILDING_COLOSSEUM_STRATEGY</Help>
@@ -136,7 +136,7 @@
 			<Type>BUILDING_SPAIN_BULLRING</Type>
 			<BuildingClass>BUILDINGCLASS_COLOSSEUM</BuildingClass>
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
-			<Cost>100</Cost>
+			<Cost>299</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_WELDED_WEAPONS</PrereqTech>
 			<Help>TXT_KEY_BUILDING_SPAIN_BULLRING_HELP</Help>
@@ -159,7 +159,7 @@
 			<Type>BUILDING_MAYA_BALLCOURT</Type>
 			<BuildingClass>BUILDINGCLASS_COLOSSEUM</BuildingClass>
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
-			<Cost>100</Cost>
+			<Cost>299</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_WELDED_WEAPONS</PrereqTech>
 			<Help>TXT_KEY_BUILDING_MAYA_BALLCOURT_HELP</Help>
@@ -187,7 +187,7 @@
         <Row>
 			<Type>BUILDING_WATERMILL</Type>
 			<BuildingClass>BUILDINGCLASS_WATERMILL</BuildingClass>
-			<Cost>75</Cost>
+			<Cost>299</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_WATER_WHEEL</PrereqTech>
 			<Description>TXT_KEY_BUILDING_WATERMILL</Description>
@@ -207,7 +207,7 @@
         <Row>
 			<Type>BUILDING_FLOATING_GARDENS</Type>
 			<BuildingClass>BUILDINGCLASS_WATERMILL</BuildingClass>
-			<Cost>75</Cost>
+			<Cost>299</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FLOATING_GARDENS_HELP</Help>
@@ -235,7 +235,7 @@
         <Row>
 			<Type>BUILDING_AQUEDUCT</Type>
 			<BuildingClass>BUILDINGCLASS_AQUEDUCT</BuildingClass>
-			<Cost>100</Cost>
+			<Cost>299</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_GARDENING</PrereqTech>
 			<Help>TXT_KEY_BUILDING_AQUEDUCT_HELP</Help>
@@ -255,7 +255,7 @@
         <Row>
 			<Type>BUILDING_VENICE_CANALS</Type>
 			<BuildingClass>BUILDINGCLASS_GARDEN</BuildingClass>
-			<Cost>120</Cost>
+			<Cost>299</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_CERAMIC_BRICK</PrereqTech>
 			<Description>TXT_KEY_BUILDING_VENICE_CANALS</Description>
@@ -321,7 +321,7 @@
 			<Type>BUILDING_TEMPLE</Type>
 			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
 			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
-			<Cost>100</Cost>
+			<Cost>299</Cost>
 			<GoldMaintenance>2</GoldMaintenance>
 			<PrereqTech>TECH_CLERGY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_TEMPLE_DESC</Description>
@@ -340,7 +340,7 @@
 			<Type>BUILDING_MUD_PYRAMID_MOSQUE</Type>
 			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
 			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
-			<Cost>100</Cost>
+			<Cost>299</Cost>
 			<GoldMaintenance>0</GoldMaintenance>
 			<PrereqTech>TECH_CLERGY</PrereqTech>
 			<Help>TXT_KEY_BUILDING_MUD_PYRAMID_MOSQUE_HELP</Help>
@@ -360,7 +360,7 @@
 			<Type>BUILDING_BURIAL_TOMB</Type>
 			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
 			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
-			<Cost>100</Cost>
+			<Cost>299</Cost>
 			<GoldMaintenance>0</GoldMaintenance>
 			<PrereqTech>TECH_CLERGY</PrereqTech>
 			<Help>TXT_KEY_BUILDING_BURIAL_TOMB_HELP</Help>
@@ -403,7 +403,7 @@
 			<Type>BUILDING_BYZANTINE_BASILICA</Type>
 			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
 			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
-			<Cost>100</Cost>
+			<Cost>299</Cost>
 			<GoldMaintenance>2</GoldMaintenance>
 			<PrereqTech>TECH_CLERGY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_BYZANTINE_BASILICA</Description>
@@ -423,7 +423,7 @@
 			<Type>BUILDING_MOROCCO_ZELLIGE_TEMPLE</Type>
 			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
 			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
-			<Cost>100</Cost>
+			<Cost>299</Cost>
 			<GoldMaintenance>2</GoldMaintenance>
 			<PrereqTech>TECH_CLERGY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_MOROCCO_ZELLIGE_TEMPLE</Description>
@@ -444,7 +444,7 @@
 			<Type>BUILDING_ETHIOPIA_MONOLITHIC_CHURCH</Type>
 			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
 			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
-			<Cost>100</Cost>
+			<Cost>299</Cost>
 			<PrereqTech>TECH_CLERGY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_ETHIOPIA_MONOLITHIC_CHURCH</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ETHIOPIA_MONOLITHIC_CHURCH_TEXT</Civilopedia>
@@ -468,7 +468,7 @@
 			<Type>BUILDING_AMPHITHEATER</Type>
 			<BuildingClass>BUILDINGCLASS_AMPHITHEATER</BuildingClass>
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
-			<Cost>100</Cost>
+			<Cost>299</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_DRAMA</PrereqTech>
 			<Description>TXT_KEY_BUILDING_AMPHITHEATER</Description>
@@ -493,7 +493,7 @@
 			<Type>BUILDING_MARKET</Type>
 			<BuildingClass>BUILDINGCLASS_MARKET</BuildingClass>
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
-			<Cost>444</Cost>
+			<Cost>447</Cost>
 			<PrereqTech>TECH_CURRENCY</PrereqTech>
 			<Help>TXT_KEY_BUILDING_MARKET_STRATEGY</Help>
 			<Description>TXT_KEY_BUILDING_MARKET</Description>

@@ -200,12 +200,12 @@
 			<Type>UNIT_ARCHER</Type>
 			<PrereqTech>TECH_COMPOSITE_BOW</PrereqTech>
 			<Combat>10</Combat>
-			<RangedCombat>15</RangedCombat>
-			<Cost>60</Cost>
+			<RangedCombat>14</RangedCombat>
+			<Cost>90</Cost>
 			<FaithCost>120</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
-			<Range>1</Range>
+			<Range>2</Range>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
@@ -232,9 +232,9 @@
 			<Class>UNITCLASS_COMPOSITE_BOWMAN</Class>
 			<Type>UNIT_COMPOSITE_BOWMAN</Type>
 			<PrereqTech>TECH_CATAPULT</PrereqTech>
-			<Combat>7</Combat>
-			<RangedCombat>11</RangedCombat>
-			<Cost>75</Cost>
+			<Combat>12</Combat>
+			<RangedCombat>18</RangedCombat>
+			<Cost>150</Cost>
 			<FaithCost>150</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
@@ -520,7 +520,7 @@
 		<Row>
 			<UnitType>UNIT_BRONZEARCHER</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>20</Cost>
+			<Cost>40</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_BRONZEARCHER</UnitType>
@@ -542,7 +542,7 @@
 		<Row>
 			<UnitType>UNIT_BABYLONIAN_BOWMAN</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>20</Cost>
+			<Cost>40</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_BABYLONIAN_BOWMAN</UnitType>
@@ -564,7 +564,7 @@
 		<Row>
 			<UnitType>UNIT_ARCHER</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>20</Cost>
+			<Cost>60</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_ARCHER</UnitType>
@@ -574,12 +574,12 @@
 		<Row>
 			<UnitType>UNIT_ARCHER</UnitType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
-			<Cost>10</Cost>
+			<Cost>20</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_ARCHER</UnitType>
 			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
-			<Cost>10</Cost>
+			<Cost>20</Cost>
 		</Row>
 
 
@@ -587,22 +587,22 @@
 		<Row>
 			<UnitType>UNIT_COMPOSITE_BOWMAN</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>25</Cost>
+			<Cost>100</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_COMPOSITE_BOWMAN</UnitType>
 			<ResourceType>RESOURCE_LUMBER</ResourceType>
-			<Cost>25</Cost>
+			<Cost>40</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_COMPOSITE_BOWMAN</UnitType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
-			<Cost>25</Cost>
+			<Cost>30</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_COMPOSITE_BOWMAN</UnitType>
 			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
-			<Cost>25</Cost>
+			<Cost>30</Cost>
 		</Row>
 
 
@@ -636,7 +636,7 @@
 		<Row>
 			<UnitType>UNIT_BRONZEARCHER</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>1</Cost>
+			<Cost>2</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_BRONZEARCHER</UnitType>
@@ -648,7 +648,7 @@
 		<Row>
 			<UnitType>UNIT_BABYLONIAN_BOWMAN</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>1</Cost>
+			<Cost>2</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_BABYLONIAN_BOWMAN</UnitType>
@@ -660,7 +660,7 @@
 		<Row>
 			<UnitType>UNIT_ARCHER</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>2</Cost>
+			<Cost>3</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_ARCHER</UnitType>

@@ -95,7 +95,7 @@
         <Row>
             <Type>BUILDING_GREAT_LIGHTHOUSE</Type>
             <BuildingClass>BUILDINGCLASS_GREAT_LIGHTHOUSE</BuildingClass>
-            <Cost>400</Cost>
+            <Cost>1494</Cost>
             <PrereqTech>TECH_OPTICS</PrereqTech>
             <Help>TXT_KEY_WONDER_GREAT_LIGHTHOUSE_HELP</Help>
             <Description>TXT_KEY_BUILDING_GREAT_LIGHTHOUSE</Description>
@@ -127,7 +127,7 @@
         <Row>
 			<Type>BUILDING_GREAT_LIBRARY</Type>
 			<BuildingClass>BUILDINGCLASS_GREAT_LIBRARY</BuildingClass>
-			<Cost>250</Cost>
+			<Cost>1494</Cost>
 			<PrereqTech>TECH_LITERATURE</PrereqTech>
 			<Help>TXT_KEY_WONDER_GREAT_LIBRARY_HELP</Help>
 			<ThemingBonusHelp>TXT_KEY_GREAT_LIBRARY_THEMING_BONUS_HELP</ThemingBonusHelp>
@@ -194,7 +194,7 @@
 		<Replace>
 			<Type>BUILDING_PETRA</Type>
 			<BuildingClass>BUILDINGCLASS_PETRA</BuildingClass>
-			<Cost>250</Cost>
+			<Cost>1494</Cost>
 			<PrereqTech>TECH_ENGINEERING</PrereqTech>
 			<Help>TXT_KEY_WONDER_PETRA_HELP</Help>
 			<Description>TXT_KEY_BUILDING_PETRA</Description>
@@ -222,7 +222,7 @@
         <Row>
 			<Type>BUILDING_MAUSOLEUM_HALICARNASSUS</Type>
 			<BuildingClass>BUILDINGCLASS_MAUSOLEUM_HALICARNASSUS</BuildingClass>
-			<Cost>250</Cost>
+			<Cost>1494</Cost>
 			<PrereqTech>TECH_ENGINEERING</PrereqTech>
 			<Help>TXT_KEY_WONDER_MAUSOLEUM_HALICARNASSUS_HELP</Help>
 			<Description>TXT_KEY_BUILDING_MAUSOLEUM_HALICARNASSUS</Description>
@@ -248,7 +248,7 @@
         <Row>
 			<Type>BUILDING_GREAT_WALL</Type>
 			<BuildingClass>BUILDINGCLASS_GREAT_WALL</BuildingClass>
-			<Cost>500</Cost>
+			<Cost>1494</Cost>
 			<PrereqTech>TECH_DAMASCUS_STEEL</PrereqTech>
 			<Help>TXT_KEY_WONDER_GREAT_WALL_HELP</Help>
 			<Description>TXT_KEY_BUILDING_GREAT_WALL</Description>
@@ -280,7 +280,7 @@
         <Row>
 			<Type>BUILDING_HEROIC_EPIC</Type>
 			<BuildingClass>BUILDINGCLASS_HEROIC_EPIC</BuildingClass>
-			<Cost>120</Cost>
+			<Cost>1494</Cost>
 			<PrereqTech>TECH_LAMINAR_ARMOR</PrereqTech>
 			<Help>TXT_KEY_BUILDING_HEROIC_EPIC_HELP</Help>
 			<Description>TXT_KEY_BUILDING_HEROIC_EPIC</Description>
@@ -303,7 +303,7 @@
         <Replace>
 			<Type>BUILDING_TERRACOTTA_ARMY</Type>
 			<BuildingClass>BUILDINGCLASS_TERRACOTTA_ARMY</BuildingClass>
-			<Cost>200</Cost>
+			<Cost>1494</Cost>
 			<PrereqTech>TECH_LAMINAR_ARMOR</PrereqTech>
 			<Help>TXT_KEY_WONDER_TERRA_COTTA_ARMY_HELP</Help>
 			<Description>TXT_KEY_BUILDING_TERRACOTTA_ARMY</Description>
@@ -334,7 +334,7 @@
         <Row>
 			<Type>BUILDING_NATIONAL_COLLEGE</Type>
 			<BuildingClass>BUILDINGCLASS_NATIONAL_COLLEGE</BuildingClass>
-			<Cost>120</Cost>
+			<Cost>1494</Cost>
 			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
 			<Help>TXT_KEY_BUILDING_NATIONAL_COLLEGE_HELP</Help>
 			<Description>TXT_KEY_BUILDING_NATIONAL_COLLEGE</Description>
@@ -356,7 +356,7 @@
         <Row>
 			<Type>BUILDING_ORACLE</Type>
 			<BuildingClass>BUILDINGCLASS_ORACLE</BuildingClass>
-			<Cost>400</Cost>
+			<Cost>1494</Cost>
 			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
 			<Help>TXT_KEY_WONDER_ORACLE_HELP</Help>
 			<Description>TXT_KEY_BUILDING_ORACLE</Description>
@@ -386,7 +386,7 @@
         <Row>
 			<Type>BUILDING_WRITERS_GUILD</Type>
 			<BuildingClass>BUILDINGCLASS_WRITERS_GUILD</BuildingClass>
-			<Cost>100</Cost>
+			<Cost>1494</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_DRAMA</PrereqTech>
 			<Description>TXT_KEY_BUILDING_WRITERS_GUILD</Description>
@@ -407,7 +407,7 @@
         <Row>
 			<Type>BUILDING_NATIONAL_EPIC</Type>
 			<BuildingClass>BUILDINGCLASS_NATIONAL_EPIC</BuildingClass>
-			<Cost>120</Cost>
+			<Cost>1494</Cost>
 			<PrereqTech>TECH_DRAMA</PrereqTech>
 			<Help>TXT_KEY_BUILDING_NATIONAL_EPIC_HELP</Help>
 			<Description>TXT_KEY_BUILDING_NATIONAL_EPIC</Description>
@@ -430,7 +430,7 @@
         <Row>
 			<Type>BUILDING_PARTHENON</Type>
 			<BuildingClass>BUILDINGCLASS_PARTHENON</BuildingClass>
-			<Cost>400</Cost>
+			<Cost>1494</Cost>
 			<PrereqTech>TECH_DRAMA</PrereqTech>
 			<Description>TXT_KEY_BUILDING_PARTHENON</Description>
 			<Quote>TXT_KEY_BUILDING_PARTHENON_QUOTE</Quote>
@@ -461,7 +461,7 @@
         <Row>
 			<Type>BUILDING_COLOSSUS</Type>
 			<BuildingClass>BUILDINGCLASS_COLOSSUS</BuildingClass>
-			<Cost>400</Cost>
+			<Cost>1494</Cost>
 			<PrereqTech>TECH_MYTHOLOGY</PrereqTech>
 			<Help>TXT_KEY_WONDER_COLOSSUS_HELP</Help>
 			<Description>TXT_KEY_BUILDING_COLOSSUS</Description>
@@ -578,7 +578,7 @@
         <Row>
 			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>4</Yield>
+			<Yield>5</Yield>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>

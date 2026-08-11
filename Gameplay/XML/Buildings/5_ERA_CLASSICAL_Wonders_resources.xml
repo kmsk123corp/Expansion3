@@ -58,40 +58,41 @@
         <!-- Фаросский маяк -->
 		<Row>
 			<BuildingType>BUILDING_GREAT_LIGHTHOUSE</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIGHTHOUSE</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>300</Cost>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIGHTHOUSE</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>500</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_GREAT_LIGHTHOUSE</BuildingType>
 			<ResourceType>RESOURCE_MARBLE</ResourceType>
-			<Cost>300</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_GREAT_LIGHTHOUSE</BuildingType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>300</Cost>
+			<Cost>500</Cost>
 		</Row>
 
+
         <!-- Александрийская библиотека -->
-        <Row>
-			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>200</Cost>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
-			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>150</Cost>
-		</Row>
 		<Row>
 			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
 			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>200</Cost>
+			<Cost>1000</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>500</Cost>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
 			<ResourceType>RESOURCE_MARBLE</ResourceType>
-			<Cost>50</Cost>
+			<Cost>500</Cost>
 		</Row>
 
 		<!-- Петра -->

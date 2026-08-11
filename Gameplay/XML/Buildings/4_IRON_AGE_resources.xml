@@ -57,6 +57,23 @@
             <Cost>50</Cost>
         </Row>
 
+        <!-- Мраморный карьер -->
+        <Row>
+            <BuildingType>BUILDING_MARBLEQUARRY</BuildingType>
+            <ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+            <Cost>150</Cost>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MARBLEQUARRY</BuildingType>
+            <ResourceType>RESOURCE_LUMBER</ResourceType>
+            <Cost>50</Cost>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MARBLEQUARRY</BuildingType>
+            <ResourceType>RESOURCE_IRON</ResourceType>
+            <Cost>50</Cost>
+        </Row>
+
         <!-- Переписчик -->
         <Row>
             <BuildingType>BUILDING_COPYIST</BuildingType>
@@ -243,6 +260,13 @@
             <Quantity>6</Quantity>
         </Row>
 
+        <!-- Мраморный карьер -->
+        <Row>
+            <BuildingType>BUILDING_MARBLEQUARRY</BuildingType>
+            <ResourceType>RESOURCE_MARBLE</ResourceType>
+            <Quantity>10</Quantity>
+        </Row>
+
         <!-- Рынок -->
         <Row>
             <BuildingType>BUILDING_MARKET</BuildingType>
@@ -342,6 +366,23 @@
             <BuildingType>BUILDING_WORKSHOP</BuildingType>
             <ResourceType>RESOURCE_COPPER</ResourceType>
             <Cost>2</Cost>
+        </Row>
+
+        <!-- Мраморный карьер -->
+        <Row>
+            <BuildingType>BUILDING_MARBLEQUARRY</BuildingType>
+            <ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+            <Cost>10</Cost>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MARBLEQUARRY</BuildingType>
+            <ResourceType>RESOURCE_IRON</ResourceType>
+            <Cost>1</Cost>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MARBLEQUARRY</BuildingType>
+            <ResourceType>RESOURCE_LUMBER</ResourceType>
+            <Cost>1</Cost>
         </Row>
 
         <!-- Рынок -->

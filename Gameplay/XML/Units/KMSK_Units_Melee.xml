@@ -40,6 +40,39 @@
 			<PortraitIndex>5</PortraitIndex>
 		</Row>
 
+
+		<!-- Странники -->
+		<Row>
+			<Class>UNITCLASS_STRANNIK</Class>
+			<Type>UNIT_STRANNIK</Type>
+			<PrereqTech>TECH_NAVIGATING_STARS</PrereqTech>
+			<Combat>10</Combat>
+			<Cost>60</Cost>
+			<FaithCost>50</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>3</Moves>
+			<CombatClass>UNITCOMBAT_RECON</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_EXPLORE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_STRANNIK</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_STRANNIK_TEXT</Civilopedia>
+			<Help>TXT_KEY_UNIT_HELP_STRANNIK</Help>
+			<NoBadGoodies>true</NoBadGoodies>
+			<Pillage>true</Pillage>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_WARRIOR</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>10</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SCOUT</UnitArtInfo>
+			<UnitFlagIconOffset>5</UnitFlagIconOffset>
+			<IconAtlas>Units_IconAtlas</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
+		</Row>
+
+
 		<!-- Часки (Инки) -->
 		<Row>
 			<Class>UNITCLASS_SCOUT</Class>
@@ -937,6 +970,12 @@
 			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
 		</Row>
 		<Row>
+			<UnitType>UNIT_STRANNIK</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+
+
+		<Row>
 			<UnitType>UNIT_INCA_CHASQUI</UnitType>
 			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
 		</Row>
@@ -1233,8 +1272,13 @@
 
 		<Row>
 			<UnitType>UNIT_SCOUT</UnitType>
+			<UnitClassType>UNITCLASS_STRANNIK</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STRANNIK</UnitType>
 			<UnitClassType>UNITCLASS_ADVENTURER</UnitClassType>
 		</Row>
+
 		<Row>
 			<UnitType>UNIT_INCA_CHASQUI</UnitType>
 			<UnitClassType>UNITCLASS_ADVENTURER</UnitClassType>
@@ -1356,6 +1400,12 @@
 			<FlavorType>FLAVOR_RECON</FlavorType>
 			<Flavor>7</Flavor>
 		</Row>
+		<Row>
+			<UnitType>UNIT_STRANNIK</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+
 		<Row>
 			<UnitType>UNIT_INCA_CHASQUI</UnitType>
 			<FlavorType>FLAVOR_RECON</FlavorType>
@@ -1638,6 +1688,10 @@
 			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
 		</Row>
 		<Row>
+			<UnitType>UNIT_STRANNIK</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
 			<UnitType>UNIT_SHOSHONE_PATHFINDER</UnitType>
 			<PromotionType>PROMOTION_GOODY_HUT_PICKER</PromotionType>
 		</Row>
@@ -1806,6 +1860,15 @@
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
 			<Cost>10</Cost>
 		</Row>
+
+		<!-- Разведчики -->
+		<Row>
+			<UnitType>UNIT_STRANNIK</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>40</Cost>
+		</Row>
+
+
 
 		<!-- Часки -->
 		<Row>
@@ -2268,6 +2331,13 @@
 
 	<!-- Содержание -->
 	<Unit_ResourceQuantityRequirements>
+
+		<!-- Странники -->
+		<Row>
+			<UnitType>UNIT_STRANNIK</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1</Cost>
+		</Row>
 
 		<!-- Войны -->
 		<!-- <Row>

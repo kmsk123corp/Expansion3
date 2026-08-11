@@ -18,42 +18,45 @@
     <!-- Стоимость постройки -->
     <Building_ResourceCostRequirements>
 
-
-
 		<!-- Библиотека -->
 		<Row>
 			<BuildingType>BUILDING_LIBRARY</BuildingType>
 			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>50</Cost>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LIBRARY</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>100</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LIBRARY</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>50</Cost>
+			<Cost>100</Cost>
 		</Row>
 
 		<!-- Бумажная мастерская (Китай) -->
 		<Row>
 			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>60</Cost>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>150</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>20</Cost>
+			<Cost>150</Cost>
 		</Row>
 
 		<!-- Царская библиотека (Ассирия) -->
 		<Row>
 			<BuildingType>BUILDING_ROYAL_LIBRARY</BuildingType>
 			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>20</Cost>
+			<Cost>100</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_ROYAL_LIBRARY</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>60</Cost>
+			<Cost>200</Cost>
 		</Row>
 
 
@@ -64,15 +67,19 @@
         <!-- Маяк -->
 		<Row>
 			<BuildingType>BUILDING_LIGHTHOUSE</BuildingType>
-			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>50</Cost>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>100</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LIGHTHOUSE</BuildingType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>25</Cost>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>70</Cost>
 		</Row>
-
+		<Row>
+			<BuildingType>BUILDING_LIGHTHOUSE</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>30</Cost>
+		</Row>
 
 
         

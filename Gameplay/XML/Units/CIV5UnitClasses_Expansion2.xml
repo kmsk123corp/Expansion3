@@ -4,8 +4,11 @@
 	<!-- Table data -->
 	<UnitClasses>
 
-
-
+		<Row>
+			<Type>UNITCLASS_BIREMA</Type>
+			<Description>TXT_KEY_UNIT_BIREMA</Description>
+			<DefaultUnit>UNIT_BIREMA</DefaultUnit>
+		</Row>
 		<Row>
 			<Type>UNITCLASS_MONOXYL</Type>
 			<Description>TXT_KEY_UNIT_MONOXYL</Description>
@@ -17,8 +20,11 @@
 			<DefaultUnit>UNIT_GALLEY_BRONZE</DefaultUnit>
 		</Row>
 
-
-
+		<Row>
+			<Type>UNITCLASS_STRANNIK</Type>
+			<Description>TXT_KEY_UNIT_STRANNIK</Description>
+			<DefaultUnit>UNIT_STRANNIK</DefaultUnit>
+		</Row>
 		<Row>
 			<Type>UNITCLASS_HUNTERS</Type>
 			<Description>TXT_KEY_UNIT_HUNTERS</Description>
