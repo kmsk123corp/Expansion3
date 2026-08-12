@@ -4,7 +4,6 @@
 
     <Buildings>
 
-
         <!-- Национальная святыня -->
         <Row>
             <Type>BUILDING_NATIONAL_SHRINE</Type>
@@ -26,12 +25,11 @@
             <PortraitIndex>20</PortraitIndex>
         </Row>
 
-
         <!-- Храм Артемиды -->
         <Row>
             <Type>BUILDING_TEMPLE_ARTEMIS</Type>
             <BuildingClass>BUILDINGCLASS_TEMPLE_ARTEMIS</BuildingClass>
-            <Cost>1200</Cost>
+            <Cost>1195</Cost>
             <PrereqTech>TECH_SEWAGE_SYSTEM</PrereqTech>
             <Help>TXT_KEY_WONDER_TEMPLE_ARTEMIS_HELP</Help>
             <Description>TXT_KEY_BUILDING_TEMPLE_ARTEMIS</Description>

@@ -457,12 +457,30 @@
 
     <!-- С клеток леса -->
     <Building_FeatureYieldChanges>
-<!--        <Row>-->
-<!--            <BuildingType>BUILDING_MILLLUMBER</BuildingType>-->
-<!--            <FeatureType>FEATURE_FOREST</FeatureType>-->
-<!--            <YieldType>YIELD_PRODUCTION</YieldType>-->
-<!--            <Yield>1</Yield>-->
-<!--        </Row>-->
+        <Row>
+            <BuildingType>BUILDING_MILLLUMBER</BuildingType>
+            <FeatureType>FEATURE_FOREST</FeatureType>
+            <YieldType>YIELD_PRODUCTION</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MILLLUMBER</BuildingType>
+            <FeatureType>FEATURE_JUNGLE</FeatureType>
+            <YieldType>YIELD_PRODUCTION</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MILLLUMBER</BuildingType>
+            <FeatureType>FEATURE_FOREST</FeatureType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>-1</Yield>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_MILLLUMBER</BuildingType>
+            <FeatureType>FEATURE_JUNGLE</FeatureType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>-1</Yield>
+        </Row>
     </Building_FeatureYieldChanges>
 
 
