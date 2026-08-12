@@ -237,64 +237,47 @@
 			<Cost>50</Cost>
 		</Row>
 
-
-
         <!-- Храм -->
-        <Row>
-			<BuildingType>BUILDING_TEMPLE</BuildingType>
-			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>50</Cost>
-		</Row>
 		<Row>
 			<BuildingType>BUILDING_TEMPLE</BuildingType>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<Cost>25</Cost>
+			<Cost>100</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_TEMPLE</BuildingType>
 			<ResourceType>RESOURCE_MARBLE</ResourceType>
-			<Cost>20</Cost>
+			<Cost>100</Cost>
 		</Row>
 
         <!-- Глинянная мечеть -->
         <Row>
             <BuildingType>BUILDING_MUD_PYRAMID_MOSQUE</BuildingType>
             <ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-            <Cost>50</Cost>
+            <Cost>100</Cost>
         </Row>
         <Row>
             <BuildingType>BUILDING_MUD_PYRAMID_MOSQUE</BuildingType>
             <ResourceType>RESOURCE_STONE</ResourceType>
-            <Cost>50</Cost>
+            <Cost>100</Cost>
         </Row>
 
         <!-- Гробница -->
-        <Row>
-			<BuildingType>BUILDING_BURIAL_TOMB</BuildingType>
-			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>60</Cost>
-		</Row>
 		<Row>
 			<BuildingType>BUILDING_BURIAL_TOMB</BuildingType>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<Cost>30</Cost>
+			<Cost>150</Cost>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_BURIAL_TOMB</BuildingType>
 			<ResourceType>RESOURCE_MARBLE</ResourceType>
-			<Cost>10</Cost>
+			<Cost>50</Cost>
 		</Row>
 
         <!-- Зиккурат -->
         <Row>
 			<BuildingType>BUILDING_BABYLON_ZIGGURAT</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>50</Cost>
-		</Row>
-        <Row>
-			<BuildingType>BUILDING_BABYLON_ZIGGURAT</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>100</Cost>
+			<Cost>150</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BABYLON_ZIGGURAT</BuildingType>

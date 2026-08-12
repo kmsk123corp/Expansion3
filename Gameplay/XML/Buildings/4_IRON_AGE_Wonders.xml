@@ -9,12 +9,12 @@
         <Row>
             <Type>BUILDING_NATIONAL_SHRINE</Type>
             <BuildingClass>BUILDINGCLASS_NATIONAL_SHRINE</BuildingClass>
-            <Cost>440</Cost>
+            <Cost>747</Cost>
             <PrereqTech>TECH_CLERGY</PrereqTech>
-            <Help>TXT_KEY_BUILDING_NATIONAL_SHRINE_HELP</Help>
             <Description>TXT_KEY_BUILDING_NATIONAL_SHRINE</Description>
             <Civilopedia>TXT_KEY_BUILDING_NATIONAL_SHRINE_PEDIA</Civilopedia>
             <Strategy>TXT_KEY_BUILDING_NATIONAL_SHRINE_STRATEGY</Strategy>
+            <Help>TXT_KEY_BUILDING_NATIONAL_SHRINE_HELP</Help>
             <ArtDefineTag>ART_DEF_BUILDING_NATIONAL_SHRINE</ArtDefineTag>
             <NukeImmune>true</NukeImmune>
 <!--            <NumCityCostMod>30</NumCityCostMod>-->
@@ -86,7 +86,7 @@
         <Row>
             <BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
             <YieldType>YIELD_FAITH</YieldType>
-            <Yield>3</Yield>
+            <Yield>4</Yield>
         </Row>
         <Row>
             <BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
@@ -213,7 +213,6 @@
             <BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
             <BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
         </Row>
-
     </Building_ClassesNeededInCity>
 
     <!-- Сколько зданий нужно для постройки -->
@@ -282,22 +281,7 @@
         <Row>
             <BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
             <ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-            <Cost>200</Cost>
-        </Row>
-        <Row>
-            <BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
-            <ResourceType>RESOURCE_STONE</ResourceType>
-            <Cost>100</Cost>
-        </Row>
-        <Row>
-            <BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
-            <ResourceType>RESOURCE_WOOD</ResourceType>
-            <Cost>200</Cost>
-        </Row>
-        <Row>
-            <BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
-            <ResourceType>RESOURCE_LUMBER</ResourceType>
-            <Cost>100</Cost>
+            <Cost>1000</Cost>
         </Row>
 
         <!-- Храм артемиды -->
