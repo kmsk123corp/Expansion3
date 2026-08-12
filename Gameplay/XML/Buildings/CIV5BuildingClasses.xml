@@ -38,6 +38,12 @@
 			<MaxGlobalInstances>1</MaxGlobalInstances>
 		</Row>
 
+		<Row>
+			<Type>BUILDINGCLASS_CLOACAMAXIM</Type>
+			<DefaultBuilding>BUILDING_CLOACAMAXIM</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_CLOACAMAXIM</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
 
 
 		<!-- Античность-->

@@ -75,6 +75,31 @@
             <PortraitIndex>37</PortraitIndex>
         </Row>
 
+        <!-- ###### -->
+        <!-- Кирпич -->
+        <!-- ###### -->
+
+        <!-- Клоака Максима -->
+        <Row>
+            <Type>BUILDING_CLOACAMAXIM</Type>
+            <BuildingClass>BUILDINGCLASS_CLOACAMAXIM</BuildingClass>
+            <Cost>1195</Cost>
+            <PrereqTech>TECH_CERAMIC_BRICK</PrereqTech>
+            <Description>TXT_KEY_BUILDINGS_CLOACAMAXIM</Description>
+            <Civilopedia>TXT_KEY_BUILDINGS_CLOACAMAXIM_TEXT</Civilopedia>
+            <Help>TXT_KEY_BUILDING_CLOACAMAXIM_HELP</Help>
+            <MaxStartEra>ERA_CLASSICAL</MaxStartEra>
+            <Happiness>10</Happiness>
+            <SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+            <GreatPeopleRateChange>1</GreatPeopleRateChange>
+            <NukeImmune>true</NukeImmune>
+            <HurryCostModifier>-1</HurryCostModifier>
+            <MinAreaSize>-1</MinAreaSize>
+            <ConquestProb>100</ConquestProb>
+            <IconAtlas>Technologies_IconAtlas</IconAtlas>
+            <PortraitIndex>43</PortraitIndex>
+        </Row>
+
     </Buildings>
 
 
@@ -106,6 +131,12 @@
             <YieldType>YIELD_CULTURE</YieldType>
             <Yield>5</Yield>
         </Row>
+        <Row>
+            <BuildingType>BUILDING_CLOACAMAXIM</BuildingType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>5</Yield>
+        </Row>
+
 
 
     </Building_YieldChanges>
@@ -169,12 +200,21 @@
 
     <!-- Усиляет другие здания -->
     <Building_BuildingClassYieldChanges>
+
         <Row>
             <BuildingType>BUILDING_ASHURBANIPAL_LIBRARY</BuildingType>
             <BuildingClassType>BUILDINGCLASS_CUNEIFORMLIBRARY</BuildingClassType>
             <YieldType>YIELD_SCIENCE</YieldType>
             <YieldChange>1</YieldChange>
         </Row>
+        <Row>
+            <BuildingType>BUILDING_CLOACAMAXIM</BuildingType>
+            <BuildingClassType>BUILDINGCLASS_CLOACA</BuildingClassType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <YieldChange>1</YieldChange>
+        </Row>
+
+
     </Building_BuildingClassYieldChanges>
 
 
@@ -207,19 +247,32 @@
 
     <!-- Для постройки нужно здание -->
     <Building_ClassesNeededInCity>
+
         <Row>
             <BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
             <BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
         </Row>
+        <Row>
+            <BuildingType>BUILDING_CLOACAMAXIM</BuildingType>
+            <BuildingClassType>BUILDINGCLASS_CLOACA</BuildingClassType>
+        </Row>
+
     </Building_ClassesNeededInCity>
 
     <!-- Сколько зданий нужно для постройки -->
     <Building_PrereqBuildingClasses>
+
         <Row>
             <BuildingType>BUILDING_NATIONAL_SHRINE</BuildingType>
             <BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
             <NumBuildingNeeded>3</NumBuildingNeeded>
         </Row>
+        <Row>
+            <BuildingType>BUILDING_CLOACAMAXIM</BuildingType>
+            <BuildingClassType>BUILDINGCLASS_CLOACA</BuildingClassType>
+            <NumBuildingNeeded>3</NumBuildingNeeded>
+        </Row>
+
     </Building_PrereqBuildingClasses>
 
     <!-- Для ботов похоже... -->
@@ -264,6 +317,23 @@
             <FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
             <Flavor>10</Flavor>
         </Row>
+
+        <Row>
+            <BuildingType>BUILDING_CLOACAMAXIM</BuildingType>
+            <FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+            <Flavor>25</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_CLOACAMAXIM</BuildingType>
+            <FlavorType>FLAVOR_GROWTH</FlavorType>
+            <Flavor>30</Flavor>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_CLOACAMAXIM</BuildingType>
+            <FlavorType>FLAVOR_WONDER</FlavorType>
+            <Flavor>25</Flavor>
+        </Row>
+
 
     </Building_Flavors>
 
@@ -324,6 +394,18 @@
             <BuildingType>BUILDING_ASHURBANIPAL_LIBRARY</BuildingType>
             <ResourceType>RESOURCE_STONE</ResourceType>
             <Cost>300</Cost>
+        </Row>
+
+        <!-- Клоака Максима -->
+        <Row>
+            <BuildingType>BUILDING_CLOACAMAXIM</BuildingType>
+            <ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+            <Cost>800</Cost>
+        </Row>
+        <Row>
+            <BuildingType>BUILDING_CLOACAMAXIM</BuildingType>
+            <ResourceType>RESOURCE_STONE</ResourceType>
+            <Cost>800</Cost>
         </Row>
 
     </Building_ResourceCostRequirements>
