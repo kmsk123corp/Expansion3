@@ -48,6 +48,12 @@
 			<DefaultUnit>UNIT_AXEMAN_BRONZE</DefaultUnit>
 		</Row>
 
+		<Row>
+			<Type>UNITCLASS_PHALANX</Type>
+			<Description>TXT_KEY_UNIT_PHALANX</Description>
+			<DefaultUnit>UNIT_PHALANX</DefaultUnit>
+		</Row>
+
 
 
 		<Row>

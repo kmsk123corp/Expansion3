@@ -859,17 +859,44 @@
 			<PortraitIndex>9</PortraitIndex>
 		</Row>
 
-
-
-
+		<!-- Фаланга -->
+		<Row>
+			<Class>UNITCLASS_PHALANX</Class>
+			<Type>UNIT_PHALANX</Type>
+			<PrereqTech>TECH_TWO_HANDED_SAW</PrereqTech>
+			<Combat>20</Combat>
+			<Cost>120</Cost>
+			<FaithCost>112</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_PHALANX</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_PHALANX_TEXT</Civilopedia>
+			<Help>TXT_KEY_UNIT_HELP_PHALANX</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_CIVIL_SERVICE</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_PIKEMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>15</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>2</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_SPEARMAN</UnitArtInfo>
+			<UnitFlagIconOffset>9</UnitFlagIconOffset>
+			<IconAtlas>Units_IconAtlas</IconAtlas>
+			<PortraitIndex>16</PortraitIndex>
+		</Row>
 
 		<!-- Пикинеры -->
 		<Row>
 			<Class>UNITCLASS_PIKEMAN</Class>
 			<Type>UNIT_PIKEMAN</Type>
 			<PrereqTech>TECH_CIVIL_SERVICE</PrereqTech>
-			<Combat>16</Combat>
-			<Cost>90</Cost>
+			<Combat>30</Combat>
+			<Cost>150</Cost>
 			<FaithCost>180</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
@@ -1081,6 +1108,23 @@
 			<UnitType>UNIT_SPEARMAN</UnitType>
 			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
 		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_PHALANX</UnitType>
+			<UnitAIType>UNITAI_COUNTER</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PHALANX</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PHALANX</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+<!--	!!!!	-->
+
+
 		<Row>
 			<UnitType>UNIT_ASSYRIA_ROYAL_GUARD</UnitType>
 			<UnitAIType>UNITAI_COUNTER</UnitAIType>
@@ -1344,10 +1388,19 @@
 			<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
 		</Row>
 
+
 		<Row>
 			<UnitType>UNIT_SPEARMAN</UnitType>
+			<UnitClassType>UNITCLASS_PHALANX</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PHALANX</UnitType>
 			<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
 		</Row>
+
+<!--		!!!!! -->
+
+
 		<Row>
 			<UnitType>UNIT_ASSYRIA_ROYAL_GUARD</UnitType>
 			<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
@@ -1517,6 +1570,22 @@
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>4</Flavor>
 		</Row>
+
+
+
+		<Row>
+			<UnitType>UNIT_PHALANX</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PHALANX</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+<!--		!!!!!-->
+
+
 		<Row>
 			<UnitType>UNIT_ASSYRIA_ROYAL_GUARD</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
@@ -1736,6 +1805,13 @@
 			<UnitType>UNIT_SPEARMAN</UnitType>
 			<PromotionType>PROMOTION_ANTI_MOUNTED_I</PromotionType>
 		</Row>
+		<Row>
+			<UnitType>UNIT_PHALANX</UnitType>
+			<PromotionType>PROMOTION_ANTI_MOUNTED_I</PromotionType>
+		</Row>
+
+<!--		!!!!! -->
+
 		<Row>
 			<UnitType>UNIT_ASSYRIA_ROYAL_GUARD</UnitType>
 			<PromotionType>PROMOTION_ANTI_MOUNTED_I</PromotionType>
@@ -2266,26 +2342,53 @@
 		<!-- Пикинеры (уровень 2) -->
 		<!-- #################### -->
 
+		<!-- Фаланга -->
+		<Row>
+			<UnitType>UNIT_PHALANX</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>80</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PHALANX</UnitType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PHALANX</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>40</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PHALANX</UnitType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>40</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PHALANX</UnitType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>40</Cost>
+		</Row>
+
 		<!-- Пикинеры -->
 		<Row>
 			<UnitType>UNIT_PIKEMAN</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>40</Cost>
+			<Cost>100</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_PIKEMAN</UnitType>
 			<ResourceType>RESOURCE_LUMBER</ResourceType>
-			<Cost>10</Cost>
+			<Cost>20</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_PIKEMAN</UnitType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
-			<Cost>30</Cost>
+			<Cost>50</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_PIKEMAN</UnitType>
 			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
-			<Cost>30</Cost>
+			<Cost>50</Cost>
 		</Row>
 
 		<!-- Сохэи (Япония) -->
@@ -2492,11 +2595,29 @@
 		</Row>
 
 
+
+		<!-- Фаланга -->
+		<Row>
+			<UnitType>UNIT_PHALANX</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>4</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PHALANX</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
 		<!-- Пикинеры -->
 		<Row>
 			<UnitType>UNIT_PIKEMAN</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>3</Cost>
+			<Cost>5</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PIKEMAN</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
 		</Row>
 
 		<!-- Сохэи (Япония) -->
