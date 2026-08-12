@@ -105,7 +105,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<ObsoleteTech>TECH_CONSTRUCTION</ObsoleteTech>
+			<ObsoleteTech>TECH_CASTING_WAX_MODEL</ObsoleteTech>
 			<GoodyHutUpgradeUnitClass>UNITCLASS_BRONZEARCHER</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>15</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
