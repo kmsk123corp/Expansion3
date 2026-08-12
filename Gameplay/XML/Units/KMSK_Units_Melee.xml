@@ -29,7 +29,7 @@
 			<Pillage>true</Pillage>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
-			<ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech>
+			<ObsoleteTech>TECH_NAVIGATING_STARS</ObsoleteTech>
 			<GoodyHutUpgradeUnitClass>UNITCLASS_WARRIOR</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>10</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
@@ -39,39 +39,6 @@
 			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
 			<PortraitIndex>5</PortraitIndex>
 		</Row>
-
-
-		<!-- Странники -->
-		<Row>
-			<Class>UNITCLASS_STRANNIK</Class>
-			<Type>UNIT_STRANNIK</Type>
-			<PrereqTech>TECH_NAVIGATING_STARS</PrereqTech>
-			<Combat>10</Combat>
-			<Cost>60</Cost>
-			<FaithCost>50</FaithCost>
-			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
-			<Moves>3</Moves>
-			<CombatClass>UNITCOMBAT_RECON</CombatClass>
-			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_EXPLORE</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_STRANNIK</Description>
-			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_STRANNIK_TEXT</Civilopedia>
-			<Help>TXT_KEY_UNIT_HELP_STRANNIK</Help>
-			<NoBadGoodies>true</NoBadGoodies>
-			<Pillage>true</Pillage>
-			<MilitarySupport>true</MilitarySupport>
-			<MilitaryProduction>true</MilitaryProduction>
-			<ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_WARRIOR</GoodyHutUpgradeUnitClass>
-			<AdvancedStartCost>10</AdvancedStartCost>
-			<XPValueAttack>3</XPValueAttack>
-			<XPValueDefense>3</XPValueDefense>
-			<UnitArtInfo>ART_DEF_UNIT_SCOUT</UnitArtInfo>
-			<UnitFlagIconOffset>5</UnitFlagIconOffset>
-			<IconAtlas>Units_IconAtlas</IconAtlas>
-			<PortraitIndex>8</PortraitIndex>
-		</Row>
-
 
 		<!-- Часки (Инки) -->
 		<Row>
@@ -94,7 +61,7 @@
 			<Pillage>true</Pillage>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
-			<ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech>
+			<ObsoleteTech>TECH_NAVIGATING_STARS</ObsoleteTech>
 			<GoodyHutUpgradeUnitClass>UNITCLASS_WARRIOR</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>10</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
@@ -127,7 +94,7 @@
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
 			<NoBadGoodies>true</NoBadGoodies>
-			<ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech>
+			<ObsoleteTech>TECH_NAVIGATING_STARS</ObsoleteTech>
 			<GoodyHutUpgradeUnitClass>UNITCLASS_WARRIOR</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>10</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
@@ -139,12 +106,42 @@
 			<PortraitIndex>14</PortraitIndex>
 		</Row>
 
+		<!-- Странники -->
+		<Row>
+			<Class>UNITCLASS_STRANNIK</Class>
+			<Type>UNIT_STRANNIK</Type>
+			<PrereqTech>TECH_NAVIGATING_STARS</PrereqTech>
+			<Combat>9</Combat>
+			<Cost>60</Cost>
+			<FaithCost>50</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>3</Moves>
+			<CombatClass>UNITCOMBAT_RECON</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_EXPLORE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_STRANNIK</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_STRANNIK_TEXT</Civilopedia>
+			<Help>TXT_KEY_UNIT_HELP_STRANNIK</Help>
+			<NoBadGoodies>true</NoBadGoodies>
+			<Pillage>true</Pillage>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_WARRIOR</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>10</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SCOUT</UnitArtInfo>
+			<UnitFlagIconOffset>5</UnitFlagIconOffset>
+			<IconAtlas>Units_IconAtlas</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
+		</Row>
+
 		<!-- ############################### -->
 		<!--   		Войска ближнего боя  	 -->
 		<!-- ############################### -->
-		<!-- /// Античность /// -->
 
-		<!-- Уровень 1 -->
+		<!-- Уровень 1 (каменный век) -->
 
 		<!-- Войны -->
 		<Row>
@@ -184,7 +181,7 @@
 			<Class>UNITCLASS_WARRIOR</Class>
 			<Type>UNIT_AZTEC_JAGUAR</Type>
 			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
-			<Combat>8</Combat>
+			<Combat>9</Combat>
 			<Cost>40</Cost>
 			<FaithCost>80</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
@@ -238,7 +235,7 @@
 			<MoveRate>HEAVY_BIPED</MoveRate>
 		</Row>
 
-		<!-- Уровень 2 -->
+		<!-- Уровень 2 (Медный век)-->
 
 		<!-- Войны с топорами (медь) -->
 		<Row>
@@ -260,7 +257,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<ObsoleteTech>TECH_METAL_CASTING</ObsoleteTech>
+			<ObsoleteTech>TECH_BRONZE_WORKING</ObsoleteTech>
 			<GoodyHutUpgradeUnitClass>UNITCLASS_SPEARMAN</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>10</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
@@ -268,44 +265,11 @@
 			<Conscription>1</Conscription>
 			<UnitArtInfo>ART_DEF_UNIT__AXEMAN</UnitArtInfo>
 			<UnitFlagIconOffset>3</UnitFlagIconOffset>
-			<IconAtlas>Technologies_IconAtlas</IconAtlas>
-			<PortraitIndex>49</PortraitIndex>
+			<IconAtlas>Units_IconAtlas</IconAtlas>
+			<PortraitIndex>17</PortraitIndex>
 		</Row>
 
-		<!-- Войны-маори (Полинезия) -->
-		<Row>
-			<Class>UNITCLASS_AXEMAN</Class>
-			<Type>UNIT_POLYNESIAN_MAORI_WARRIOR</Type>
-			<PrereqTech>TECH_COPPER_WORKING</PrereqTech>
-			<Combat>10</Combat>
-			<Cost>50</Cost>
-			<FaithCost>80</FaithCost>
-			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
-			<Moves>2</Moves>
-			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
-			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_POLYNESIAN_MAORI_WARRIOR</Description>
-			<Civilopedia>TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_STRATEGY</Strategy>
-			<Help>TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_HELP</Help>
-			<MilitarySupport>true</MilitarySupport>
-			<MilitaryProduction>true</MilitaryProduction>
-			<Pillage>true</Pillage>
-			<ObsoleteTech>TECH_METAL_CASTING</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_SPEARMAN</GoodyHutUpgradeUnitClass>
-			<AdvancedStartCost>10</AdvancedStartCost>
-			<XPValueAttack>3</XPValueAttack>
-			<XPValueDefense>3</XPValueDefense>
-			<Conscription>1</Conscription>
-			<UnitArtInfo>ART_DEF_UNIT_U_POLYNESIAN_MAORI_WARRIOR</UnitArtInfo>
-			<IconAtlas>KAMEHAMEHA_UNIT_ATLAS</IconAtlas>
-			<UnitFlagAtlas>KAMEHAMEHA_UNIT_FLAG_ATLAS</UnitFlagAtlas>
-			<UnitFlagIconOffset>0</UnitFlagIconOffset>
-			<PortraitIndex>0</PortraitIndex>
-		</Row>
-
-		<!-- Уровень 3 -->
+		<!-- Уровень 3 (бронзовый век) -->
 
 		<!-- Войны с топорами (бронза) -->
 		<Row>
@@ -335,18 +299,18 @@
 			<Conscription>1</Conscription>
 			<UnitArtInfo>ART_DEF_UNIT__AXEMAN</UnitArtInfo>
 			<UnitFlagIconOffset>3</UnitFlagIconOffset>
-			<IconAtlas>Technologies_IconAtlas</IconAtlas>
-			<PortraitIndex>24</PortraitIndex>
+			<IconAtlas>Units_IconAtlas</IconAtlas>
+			<PortraitIndex>18</PortraitIndex>
 		</Row>
 
-		<!-- Хопеш -->
+		<!-- Хопеш (бронза) -->
 		<Row>
 			<Class>UNITCLASS_AXEMAN_BRONZE</Class>
 			<Type>UNIT_EGYPT_KHOPESH_SWORDSMAN</Type>
 			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 			<Combat>14</Combat>
-			<Cost>75</Cost>
-			<FaithCost>150</FaithCost>
+			<Cost>60</Cost>
+			<FaithCost>100</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<HurryCostModifier>20</HurryCostModifier>
@@ -374,24 +338,80 @@
 			<MoveRate>HEAVY_BIPED</MoveRate>
 		</Row>
 
+		<!-- Уровень 3 (железный век) -->
 
+		<!-- Войны с топорами (железо) -->
+		<Row>
+			<Class>UNITCLASS_AXEMAN_IRON</Class>
+			<Type>UNIT_AXEMAN_IRON</Type>
+			<PrereqTech>TECH_IRON_WORKING</PrereqTech>
+			<Combat>14</Combat>
+			<Cost>90</Cost>
+			<FaithCost>100</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AXEMAN_IRON</Description>
+			<Civilopedia>TXT_KEY_UNIT_AXEMAN_IRON_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_AXEMAN_IRON_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_AXEMAN_IRON_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_METAL_CASTING</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_SPEARMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>10</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>1</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT__AXEMAN</UnitArtInfo>
+			<UnitFlagIconOffset>3</UnitFlagIconOffset>
+			<IconAtlas>Units_IconAtlas</IconAtlas>
+			<PortraitIndex>19</PortraitIndex>
+		</Row>
 
-
-
-
-
-
-
-
-
+		<!-- Войны-маори (Полинезия) -->
+		<Row>
+			<Class>UNITCLASS_AXEMAN</Class>
+			<Type>UNIT_POLYNESIAN_MAORI_WARRIOR</Type>
+			<PrereqTech>TECH_IRON_WORKING</PrereqTech>
+			<Combat>15</Combat>
+			<Cost>90</Cost>
+			<FaithCost>80</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_POLYNESIAN_MAORI_WARRIOR</Description>
+			<Civilopedia>TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_STRATEGY</Strategy>
+			<Help>TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_METAL_CASTING</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_SPEARMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>10</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>1</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_U_POLYNESIAN_MAORI_WARRIOR</UnitArtInfo>
+			<IconAtlas>KAMEHAMEHA_UNIT_ATLAS</IconAtlas>
+			<UnitFlagAtlas>KAMEHAMEHA_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
 
 		<!-- Войны-могавки -->
 		<Row>
-			<Class>UNITCLASS_SWORDSMAN</Class>
+			<Class>UNITCLASS_AXEMAN_IRON</Class>
 			<Type>UNIT_IROQUOIAN_MOHAWKWARRIOR</Type>
-			<PrereqTech>TECH_LAMINAR_ARMOR</PrereqTech>
-			<Combat>13</Combat>
-			<Cost>70</Cost>
+			<PrereqTech>TECH_IRON_WORKING</PrereqTech>
+			<Combat>15</Combat>
+			<Cost>90</Cost>
 			<FaithCost>150</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
@@ -418,14 +438,48 @@
 			<PortraitIndex>16</PortraitIndex>
 		</Row>
 
+		<!-- Мечник с крисом -->
+		<Row>
+			<Class>UNITCLASS_AXEMAN_IRON</Class>
+			<Type>UNIT_KRIS_SWORDSMAN</Type>
+			<PrereqTech>TECH_IRON_WORKING</PrereqTech>
+			<Combat>15</Combat>
+			<Cost>90</Cost>
+			<FaithCost>150</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<HurryCostModifier>20</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_INDONESIAN_KRIS_SWORDSMAN</Description>
+			<Civilopedia>TXT_KEY_CIV5_INDONESIAN_KRIS_SWORDSMAN_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_INDONESIAN_KRIS_SWORDSMAN_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_INDONESIAN_KRIS_SWORDSMAN</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_STEEL</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_LONGSWORDSMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>20</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>1</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_U_INDONESIAN_KRIS_SWORDSMAN</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION2_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>11</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION2_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>11</PortraitIndex>
+		</Row>
 
+		<!-- Уровень 3 (Античность) -->
 
 		<!-- Мечники -->
 		<Row>
 			<Class>UNITCLASS_SWORDSMAN</Class>
 			<Type>UNIT_SWORDSMAN</Type>
 			<PrereqTech>TECH_LAMINAR_ARMOR</PrereqTech>
-			<Combat>14</Combat>
+			<Combat>25</Combat>
 			<Cost>75</Cost>
 			<FaithCost>150</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
@@ -454,46 +508,12 @@
 			<MoveRate>HEAVY_BIPED</MoveRate>
 		</Row>
 
-		<!-- Мечник с крисом -->
-		<Row>
-			<Class>UNITCLASS_SWORDSMAN</Class>
-			<Type>UNIT_KRIS_SWORDSMAN</Type>
-			<PrereqTech>TECH_LAMINAR_ARMOR</PrereqTech>
-			<Combat>15</Combat>
-			<Cost>75</Cost>
-			<FaithCost>150</FaithCost>
-			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
-			<Moves>2</Moves>
-			<HurryCostModifier>20</HurryCostModifier>
-			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
-			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_INDONESIAN_KRIS_SWORDSMAN</Description>
-			<Civilopedia>TXT_KEY_CIV5_INDONESIAN_KRIS_SWORDSMAN_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_INDONESIAN_KRIS_SWORDSMAN_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_HELP_INDONESIAN_KRIS_SWORDSMAN</Help>
-			<MilitarySupport>true</MilitarySupport>
-			<MilitaryProduction>true</MilitaryProduction>
-			<Pillage>true</Pillage>
-			<ObsoleteTech>TECH_STEEL</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_LONGSWORDSMAN</GoodyHutUpgradeUnitClass>
-			<AdvancedStartCost>20</AdvancedStartCost>
-			<XPValueAttack>3</XPValueAttack>
-			<XPValueDefense>3</XPValueDefense>
-			<Conscription>1</Conscription>
-			<UnitArtInfo>ART_DEF_UNIT_U_INDONESIAN_KRIS_SWORDSMAN</UnitArtInfo>
-			<UnitFlagAtlas>EXPANSION2_UNIT_FLAG_ATLAS</UnitFlagAtlas>
-			<UnitFlagIconOffset>11</UnitFlagIconOffset>
-			<IconAtlas>EXPANSION2_UNIT_ATLAS</IconAtlas>
-			<PortraitIndex>11</PortraitIndex>
-		</Row>
-
 		<!-- Легион -->
 		<Row>
 			<Class>UNITCLASS_SWORDSMAN</Class>
 			<Type>UNIT_ROMAN_LEGION</Type>
 			<PrereqTech>TECH_LAMINAR_ARMOR</PrereqTech>
-			<Combat>16</Combat>
+			<Combat>28</Combat>
 			<Cost>75</Cost>
 			<FaithCost>150</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
@@ -558,7 +578,8 @@
 			<MoveRate>HEAVY_BIPED</MoveRate>
 		</Row>
 
-		<!-- Уровень 3 -->
+		<!-- Уровень 3 (Средневековье) -->
+
 		<!-- Длинный мечь -->
 		<Row>
 			<Class>UNITCLASS_LONGSWORDSMAN</Class>
@@ -623,7 +644,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<ObsoleteTech>TECH_CIVIL_SERVICE</ObsoleteTech>
+			<ObsoleteTech>TECH_TWO_HANDED_SAW</ObsoleteTech>
 			<GoodyHutUpgradeUnitClass>UNITCLASS_PIKEMAN</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>15</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
@@ -655,7 +676,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<ObsoleteTech>TECH_CIVIL_SERVICE</ObsoleteTech>
+			<ObsoleteTech>TECH_TWO_HANDED_SAW</ObsoleteTech>
 			<GoodyHutUpgradeUnitClass>UNITCLASS_PIKEMAN</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>15</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
@@ -688,7 +709,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<ObsoleteTech>TECH_CIVIL_SERVICE</ObsoleteTech>
+			<ObsoleteTech>TECH_TWO_HANDED_SAW</ObsoleteTech>
 			<GoodyHutUpgradeUnitClass>UNITCLASS_PIKEMAN</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>15</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
@@ -1040,6 +1061,7 @@
 			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
 		</Row>
 
+
 		<Row>
 			<UnitType>UNIT_AXEMAN</UnitType>
 			<UnitAIType>UNITAI_ATTACK</UnitAIType>
@@ -1050,21 +1072,35 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_AXEMAN</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AXEMAN_BRONZE</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AXEMAN_BRONZE</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AXEMAN_BRONZE</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AXEMAN_IRON</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AXEMAN_IRON</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AXEMAN_IRON</UnitType>
 			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
 		</Row>
 
-		<Row>
-			<UnitType>UNIT_AXEMAN_BRONZE</UnitType>
-			<UnitAIType>UNITAI_ATTACK</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_AXEMAN_BRONZE</UnitType>
-			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_AXEMAN_BRONZE</UnitType>
-			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
-		</Row>
+
+
 
 		<Row>
 			<UnitType>UNIT_POLYNESIAN_MAORI_WARRIOR</UnitType>
@@ -1324,21 +1360,8 @@
 		</Row>
 
 		<Row>
-			<UnitType>UNIT_INCA_CHASQUI</UnitType>
-			<UnitClassType>UNITCLASS_ADVENTURER</UnitClassType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SHOSHONE_PATHFINDER</UnitType>
-			<UnitClassType>UNITCLASS_ADVENTURER</UnitClassType>
-		</Row>
-
-		<Row>
 			<UnitType>UNIT_WARRIOR</UnitType>
 			<UnitClassType>UNITCLASS_AXEMAN</UnitClassType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_AZTEC_JAGUAR</UnitType>
-			<UnitClassType>UNITCLASS_SWORDSMAN</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_AXEMAN</UnitType>
@@ -1346,8 +1369,26 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_AXEMAN_BRONZE</UnitType>
+			<UnitClassType>UNITCLASS_AXEMAN_IRON</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AXEMAN_IRON</UnitType>
 			<UnitClassType>UNITCLASS_SWORDSMAN</UnitClassType>
 		</Row>
+
+		<Row>
+			<UnitType>UNIT_INCA_CHASQUI</UnitType>
+			<UnitClassType>UNITCLASS_ADVENTURER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SHOSHONE_PATHFINDER</UnitType>
+			<UnitClassType>UNITCLASS_ADVENTURER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AZTEC_JAGUAR</UnitType>
+			<UnitClassType>UNITCLASS_SWORDSMAN</UnitClassType>
+		</Row>
+
 
 		<Row>
 			<UnitType>UNIT_POLYNESIAN_MAORI_WARRIOR</UnitType>
@@ -1532,6 +1573,24 @@
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>4</Flavor>
 		</Row>
+
+		<Row>
+			<UnitType>UNIT_AXEMAN_IRON</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AXEMAN_IRON</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AXEMAN_IRON</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+
+
 
 		<Row>
 			<UnitType>UNIT_POLYNESIAN_MAORI_WARRIOR</UnitType>
@@ -2057,6 +2116,30 @@
 			<Cost>10</Cost>
 		</Row>
 
+		<!-- Войны с топорами (Железо) -->
+		<Row>
+			<UnitType>UNIT_AXEMAN_IRON</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>40</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AXEMAN_IRON</UnitType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AXEMAN_IRON</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AXEMAN_IRON</UnitType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+
+
+
 
 		<!-- Войны-могавки -->
 		<Row>
@@ -2456,7 +2539,7 @@
 			<Cost>2</Cost>
 		</Row>
 
-		<!-- Войны с топорами -->
+		<!-- Войны с топорами (Медь) -->
 		<Row>
 			<UnitType>UNIT_AXEMAN</UnitType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
@@ -2469,6 +2552,19 @@
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
 			<Cost>2</Cost>
 		</Row>
+
+		<!-- Войны с топорами (Железо) -->
+		<Row>
+			<UnitType>UNIT_AXEMAN_IRON</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+
+
+
+
+
+
 
 		<!-- Войны-маори -->
 		<Row>

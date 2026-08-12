@@ -1076,7 +1076,7 @@
 		<Row>
 			<Type>TECH_CERAMIC_BRICK</Type>
 			<Cost>388</Cost>
-			<Description>Керамический кирпич</Description>
+			<Description>TXT_KEY_TECH_CERAMIC_BRICK</Description>
 			<Civilopedia>TXT_KEY_TECH_CERAMIC_BRICK_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_CERAMIC_BRICK_HELP</Help>
 			<Era>ERA_ANCIENT</Era>

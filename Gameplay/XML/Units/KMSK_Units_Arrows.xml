@@ -151,8 +151,8 @@
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_ARCHER</UnitArtInfo>
 			<UnitFlagIconOffset>6</UnitFlagIconOffset>
-			<IconAtlas>Technologies_IconAtlas</IconAtlas>
-			<PortraitIndex>33</PortraitIndex>
+			<IconAtlas>Units_IconAtlas</IconAtlas>
+			<PortraitIndex>9</PortraitIndex>
 		</Row>
 
 		<!-- Аккадские лучники (Вавилон) -->

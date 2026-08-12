@@ -47,6 +47,13 @@
 			<Description>TXT_KEY_UNIT_AXEMAN_BRONZE</Description>
 			<DefaultUnit>UNIT_AXEMAN_BRONZE</DefaultUnit>
 		</Row>
+		<Row>
+			<Type>UNITCLASS_AXEMAN_IRON</Type>
+			<Description>TXT_KEY_UNIT_AXEMAN_IRON</Description>
+			<DefaultUnit>UNIT_AXEMAN_IRON</DefaultUnit>
+		</Row>
+
+
 
 		<Row>
 			<Type>UNITCLASS_PHALANX</Type>
