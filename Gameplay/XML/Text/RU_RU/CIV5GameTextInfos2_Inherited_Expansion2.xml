@@ -52,7 +52,7 @@
           <Text>+1 [ICON_PEACE] за клетку пустыни</Text>
       </Row>
       <Row Tag="TXT_KEY_BELIEF_EARTH_MOTHER">
-        <Text>+1 [ICON_PRODUCTION] +1 к [ICON_PEACE] за каждое месторождение [ICON_RES_COPPER] меди, [ICON_RES_IRON] железа и [ICON_RES_SALT] соли</Text>
+        <Text>+1 [ICON_PRODUCTION] +1 [ICON_GOLD] +1 [ICON_PEACE] за каждое месторождение [ICON_RES_COPPER] меди, [ICON_RES_IRON] железа. А также для[ICON_RES_SALT] соли + 3 [ICON_PEACE] + 1 [ICON_GOLD] + 1 [ICON_PRODUCTION] + 1 [ICON_FOOD]</Text>
       </Row>
       <Row Tag="TXT_KEY_BELIEF_FERTILITY_RITES">
           <Text>Производство пищи растет на 20% [ICON_FOOD]</Text>
