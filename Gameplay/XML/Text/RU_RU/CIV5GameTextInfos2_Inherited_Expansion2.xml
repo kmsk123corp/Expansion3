@@ -48,9 +48,20 @@
       <Row Tag="TXT_KEY_BELIEF_ANCESTOR_WORSHIP">
           <Text>+1 [ICON_CULTURE] +1 [ICON_PEACE] за святилища</Text>
       </Row>
+
+
       <Row Tag="TXT_KEY_BELIEF_DESERT_FOLKLORE">
-          <Text>+1 [ICON_PEACE] за клетку пустыни</Text>
+          <Text>+1 [ICON_CULTURE] +1 [ICON_PEACE] за клетку пустыни</Text>
       </Row>
+      <Row Tag="TXT_KEY_BELIEF_DESERT_FOLKLORE_SHORT">
+          <Text>Легенды пустыни</Text>
+          <Gender>feminine</Gender>
+          <Plurality>2</Plurality>
+      </Row>
+
+
+
+
       <Row Tag="TXT_KEY_BELIEF_EARTH_MOTHER">
         <Text>+1 [ICON_PRODUCTION] +1 [ICON_GOLD] +1 [ICON_PEACE] за каждое месторождение [ICON_RES_COPPER] меди, [ICON_RES_IRON] железа. А также для[ICON_RES_SALT] соли + 3 [ICON_PEACE] + 1 [ICON_GOLD] + 1 [ICON_PRODUCTION] + 1 [ICON_FOOD]</Text>
       </Row>

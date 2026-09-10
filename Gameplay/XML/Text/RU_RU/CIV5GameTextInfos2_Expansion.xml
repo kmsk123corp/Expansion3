@@ -123,9 +123,7 @@
     <Row Tag="TXT_KEY_BELIEF_DEFENDER_FAITH">
       <Text>+20% [ICON_STRENGTH] к боевой мощи рядом с дружественными городами, исповедующими эту религию</Text>
     </Row>
-    <Row Tag="TXT_KEY_BELIEF_DESERT_FOLKLORE">
-      <Text>+1 [ICON_PEACE] за клетку пустыни</Text>
-    </Row>
+
 
     <Row Tag="TXT_KEY_BELIEF_FAITH_HEALERS">
       <Text>Излечение 30 ОЗ за ход рядом с дружественным городом</Text>

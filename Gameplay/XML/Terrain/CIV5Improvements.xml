@@ -1026,6 +1026,14 @@
 	</Improvement_ResourceType_Yields>
 	<Improvement_TechYieldChanges>
 
+		<!-- Клинопись (Плантации) -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<TechType>TECH_CUNEIFORM</TechType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
 		<!-- Обработка бронзы (ШАХТА) -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
@@ -1037,6 +1045,13 @@
 		<!-- Литье по восковой модели (ЛЕСОПИЛКА) -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+			<TechType>TECH_CASTING_WAX_MODEL</TechType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<!-- Литье по восковой модели (ВЫГОНЫ, ПАСТБИЩА) -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
 			<TechType>TECH_CASTING_WAX_MODEL</TechType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
@@ -1081,6 +1096,8 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+
+
 
 
 		<Row>

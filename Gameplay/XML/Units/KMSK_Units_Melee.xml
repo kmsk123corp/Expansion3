@@ -131,8 +131,9 @@
 			<AdvancedStartCost>10</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
+			<UnitFlagAtlas>STRANNIK_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<UnitArtInfo>ART_DEF_UNIT_SCOUT</UnitArtInfo>
-			<UnitFlagIconOffset>5</UnitFlagIconOffset>
 			<IconAtlas>Units_IconAtlas</IconAtlas>
 			<PortraitIndex>8</PortraitIndex>
 		</Row>
@@ -170,7 +171,7 @@
 			<XPValueDefense>3</XPValueDefense>
 			<Conscription>1</Conscription>
 			<UnitArtInfo>ART_DEF_UNIT__WARRIOR</UnitArtInfo>
-			<UnitFlagAtlas>AXEMAN_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagAtlas>AXEMAN_STONE_ATLAS</UnitFlagAtlas>
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
 			<PortraitIndex>3</PortraitIndex>
@@ -263,8 +264,9 @@
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<Conscription>1</Conscription>
+			<UnitFlagAtlas>AXEMAN_COPPER_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<UnitArtInfo>ART_DEF_UNIT__AXEMAN</UnitArtInfo>
-			<UnitFlagIconOffset>3</UnitFlagIconOffset>
 			<IconAtlas>Units_IconAtlas</IconAtlas>
 			<PortraitIndex>17</PortraitIndex>
 		</Row>
@@ -297,8 +299,9 @@
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<Conscription>1</Conscription>
+			<UnitFlagAtlas>AXEMAN_BRONZE_ATLAS</UnitFlagAtlas>
 			<UnitArtInfo>ART_DEF_UNIT__AXEMAN</UnitArtInfo>
-			<UnitFlagIconOffset>3</UnitFlagIconOffset>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<IconAtlas>Units_IconAtlas</IconAtlas>
 			<PortraitIndex>18</PortraitIndex>
 		</Row>
@@ -905,8 +908,11 @@
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<Conscription>2</Conscription>
+
 			<UnitArtInfo>ART_DEF_UNIT_SPEARMAN</UnitArtInfo>
-			<UnitFlagIconOffset>9</UnitFlagIconOffset>
+			<UnitFlagAtlas>PHALANX_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+
 			<IconAtlas>Units_IconAtlas</IconAtlas>
 			<PortraitIndex>16</PortraitIndex>
 		</Row>

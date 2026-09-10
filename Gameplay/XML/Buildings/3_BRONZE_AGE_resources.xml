@@ -367,7 +367,7 @@
 		<Row>
 			<BuildingType>BUILDING_MILL</BuildingType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Quantity>4</Quantity>
+			<Quantity>5</Quantity>
 		</Row>
 
 		<!-- Сыродутная печь -->

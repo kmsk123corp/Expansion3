@@ -49,11 +49,7 @@
       <Gender>masculine</Gender>
       <Plurality>1</Plurality>
     </Row>
-    <Row Tag="TXT_KEY_BELIEF_DESERT_FOLKLORE_SHORT">
-      <Text>Легенды пустыни</Text>
-      <Gender>feminine</Gender>
-      <Plurality>2</Plurality>
-    </Row>
+
     <Row Tag="TXT_KEY_BELIEF_DIVINE_INSPIRATION_SHORT">
       <Text>Божественное вдохновение</Text>
       <Gender>neuter</Gender>

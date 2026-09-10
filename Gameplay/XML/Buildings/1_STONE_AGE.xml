@@ -128,7 +128,7 @@
 		<Row>
 			<Type>BUILDING_TANNER_HOUSE</Type>
 			<BuildingClass>BUILDINGCLASS_TANNER_HOUSE</BuildingClass>
-			<Cost>60</Cost>
+			<Cost>75</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
 			<Happiness>1</Happiness>
 			<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>

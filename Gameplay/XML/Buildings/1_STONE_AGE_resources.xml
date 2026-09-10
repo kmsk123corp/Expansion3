@@ -29,12 +29,7 @@
         <Row>
 			<BuildingType>BUILDING_FISH_HOUSE</BuildingType>
 			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>30</Cost>
-		</Row>
-        <Row>
-			<BuildingType>BUILDING_FISH_HOUSE</BuildingType>
-			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>10</Cost>
+			<Cost>40</Cost>
 		</Row>
 
         <!-- Погреб -->
@@ -72,7 +67,7 @@
 		<Row>
 			<BuildingType>BUILDING_TANNER_HOUSE</BuildingType>
 			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>40</Cost>
+			<Cost>50</Cost>
 		</Row>
 
     </Building_ResourceCostRequirements>
@@ -84,14 +79,7 @@
 		<Row>
 			<BuildingType>BUILDING_FISH_HOUSE</BuildingType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Quantity>1</Quantity>
-		</Row>
-
-		<!-- Погреб -->
-		<Row>
-			<BuildingType>BUILDING_CELLAR</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Quantity>1</Quantity>
+			<Quantity>2</Quantity>
 		</Row>
 
         <!-- Углежогная яма -->
@@ -105,6 +93,13 @@
 
     <!-- Потребляет за ход -->
 	<Building_ResourceQuantityRequirements>
+
+		<!-- Погреб -->
+		<Row>
+			<BuildingType>BUILDING_CELLAR</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1</Cost>
+		</Row>
 
         <!-- Углежогная яма -->
         <Row>

@@ -427,9 +427,9 @@
 		<Row>
 			<Type>TECH_STONE_PROCESSING</Type>
 			<Cost>39</Cost>
-			<Description>Обработка камня</Description>
+			<Description>TXT_KEY_TECH_STONE_PROCESSING_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_STONE_PROCESSING_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_MINING_HELP</Help>
+			<Help>TXT_KEY_TECH_STONE_PROCESSING_HELP</Help>
 			<Era>ERA_ENEOLITHIC</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
