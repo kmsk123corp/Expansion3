@@ -1146,21 +1146,35 @@
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
 
-		<!-- Садоводство -->
+		<!-- Водяное колесо -->
 		<Row>
-			<Type>TECH_GARDENING</Type>
+			<Type>TECH_WATER_WHEEL</Type>
 			<Cost>500</Cost>
-			<Description>TXT_KEY_TECH_GARDENING_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_GARDENING_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_GARDENING_HELP</Help>
+			<Description>TXT_KEY_TECH_WATER_WHEEL_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_WATER_WHEEL_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_WATER_WHEEL_HELP</Help>
 			<Era>ERA_CLASSICAL</Era>
 			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
 			<GridX>12</GridX>
 			<GridY>6</GridY>
-			<PortraitIndex>45</PortraitIndex>
-			<IconAtlas>Technologies_IconAtlas</IconAtlas>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>29</PortraitIndex>
 		</Row>
+		<!-- Садоводство -->
+<!--		<Row>-->
+<!--			<Type>TECH_GARDENING</Type>-->
+<!--			<Cost>500</Cost>-->
+<!--			<Description>TXT_KEY_TECH_GARDENING_TITLE</Description>-->
+<!--			<Civilopedia>TXT_KEY_TECH_GARDENING_DESC</Civilopedia>-->
+<!--			<Help>TXT_KEY_TECH_GARDENING_HELP</Help>-->
+<!--			<Era>ERA_CLASSICAL</Era>-->
+<!--			<Trade>true</Trade>-->
+<!--			<GoodyTech>true</GoodyTech>-->
+<!--			<GridX>12</GridX>-->
+<!--			<GridY>6</GridY>-->
+<!--			<PortraitIndex>45</PortraitIndex>-->
+<!--			<IconAtlas>Technologies_IconAtlas</IconAtlas>-->
+<!--		</Row>-->
 
 		<!-- Метательные машины -->
 		<Row>
@@ -1323,20 +1337,7 @@
 			<PortraitIndex>52</PortraitIndex>
 		</Row>
 
-		<!-- Водяное колесо -->
-		<Row>
-			<Type>TECH_WATER_WHEEL</Type>
-			<Cost>1500</Cost>
-			<Description>TXT_KEY_TECH_WATER_WHEEL_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_WATER_WHEEL_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_WATER_WHEEL_HELP</Help>
-			<Era>ERA_CLASSICAL</Era>
-			<Trade>true</Trade>
-			<GridX>14</GridX>
-			<GridY>6</GridY>
-			<IconAtlas>BW_ATLAS_1</IconAtlas>
-			<PortraitIndex>29</PortraitIndex>
-		</Row>
+
 
 
 
@@ -4507,11 +4508,11 @@
 			<PrereqTech>TECH_CURRENCY</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_GARDENING</TechType>
+			<TechType>TECH_WATER_WHEEL</TechType>
 			<PrereqTech>TECH_CURRENCY</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_GARDENING</TechType>
+			<TechType>TECH_WATER_WHEEL</TechType>
 			<PrereqTech>TECH_CERAMIC_BRICK</PrereqTech>
 		</Row>
 		<Row>
@@ -4541,14 +4542,13 @@
 			<TechType>TECH_LAMINAR_ARMOR</TechType>
 			<PrereqTech>TECH_WELDED_WEAPONS</PrereqTech>
 		</Row>
-
 		<Row>
 			<TechType>TECH_ENGINEERING</TechType>
 			<PrereqTech>TECH_WELDED_WEAPONS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_ENGINEERING</TechType>
-			<PrereqTech>TECH_GARDENING</PrereqTech>
+			<PrereqTech>TECH_WATER_WHEEL</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_ENGINEERING</TechType>
@@ -4556,6 +4556,7 @@
 		</Row>
 
 		<!-- Античность [3] row 14 -->
+
 		<Row>
 			<TechType>TECH_DRAMA</TechType>
 			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
@@ -4568,10 +4569,7 @@
 			<TechType>TECH_DAMASCUS_STEEL</TechType>
 			<PrereqTech>TECH_LAMINAR_ARMOR</PrereqTech>
 		</Row>
-		<Row>
-            <TechType>TECH_WATER_WHEEL</TechType>
-            <PrereqTech>TECH_ENGINEERING</PrereqTech>
-        </Row>
+
 
 		<!-- Средневековье [1] row 15 -->
 
@@ -4587,12 +4585,15 @@
 			<TechType>TECH_CIVIL_SERVICE</TechType>
 			<PrereqTech>TECH_DAMASCUS_STEEL</PrereqTech>
 		</Row>
+
+
 		<Row>
 			<TechType>TECH_CONSTRUCTION</TechType>
-			<PrereqTech>TECH_WATER_WHEEL</PrereqTech>
+			<PrereqTech>TECH_DAMASCUS_STEEL</PrereqTech>
 		</Row>
 
 		<!-- Средневековье [2] row 16 -->
+
 		<Row>
 			<TechType>TECH_COMPASS</TechType>
 			<PrereqTech>TECH_CIVIL_SERVICE</PrereqTech>

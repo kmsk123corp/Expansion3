@@ -237,7 +237,7 @@
 			<BuildingClass>BUILDINGCLASS_AQUEDUCT</BuildingClass>
 			<Cost>299</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
-			<PrereqTech>TECH_GARDENING</PrereqTech>
+			<PrereqTech>TECH_WATER_WHEEL</PrereqTech>
 			<Help>TXT_KEY_BUILDING_AQUEDUCT_HELP</Help>
 			<Description>TXT_KEY_BUILDING_AQUEDUCT</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_AQUEDUCT_TEXT</Civilopedia>
@@ -315,6 +315,51 @@
         <!-- ######### -->
         <!-- Философия -->
         <!-- ######### -->
+
+		<!-- Сад -->
+		<Row>
+			<Type>BUILDING_GARDEN</Type>
+			<BuildingClass>BUILDINGCLASS_GARDEN</BuildingClass>
+			<Cost>120</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_GARDEN</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_GARDEN_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_GARDEN_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_GARDEN_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_GARDEN</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<FreshWater>true</FreshWater>
+			<GreatPeopleRateModifier>25</GreatPeopleRateModifier>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>24</PortraitIndex>
+		</Row>
+
+		<!-- Канди -->
+		<Row>
+			<Type>BUILDING_CANDI</Type>
+			<BuildingClass>BUILDINGCLASS_GARDEN</BuildingClass>
+			<Cost>120</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_THEOLOGY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_CANDI_HELP</Help>
+			<Description>TXT_KEY_BUILDING_CANDI_DESC</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_CANDI_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_CANDI_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_GARDEN</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<GreatPeopleRateModifier>25</GreatPeopleRateModifier>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>EXPANSION2_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+
+
+
+
 
         <!-- Храм -->
         <Row>
@@ -964,7 +1009,11 @@
     <!-- Для ботов похоже... -->
     <Building_Flavors>
 
-
+		<Row>
+			<BuildingType>BUILDING_GARDEN</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
 		<Row>
 			<BuildingType>BUILDING_SLAGOUTLET</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>

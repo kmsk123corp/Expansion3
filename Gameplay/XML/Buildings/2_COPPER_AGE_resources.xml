@@ -50,12 +50,12 @@
         <Row>
             <BuildingType>BUILDING_YUKOLA</BuildingType>
             <ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-            <Cost>50</Cost>
+            <Cost>40</Cost>
         </Row>
         <Row>
 			<BuildingType>BUILDING_YUKOLA</BuildingType>
 			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>10</Cost>
+			<Cost>20</Cost>
 		</Row>
 
         <!-- Рыбный загон (Полинезия) -->
@@ -276,12 +276,19 @@
     <!-- Производит ресурсов -->
     <Building_ResourceQuantity>
 
+		<!-- юкола -->
+		<Row>
+            <BuildingType>BUILDING_YUKOLA</BuildingType>
+            <ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+            <Quantity>5</Quantity>
+        </Row>
+
         <!-- Рыбный загон (Полинезия) -->
-        <!-- <Row>
+        <Row>
 			<BuildingType>BUILDING_POLYNESIA_FISH_POND</BuildingType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Quantity>2</Quantity>
-		</Row> -->
+			<Quantity>10</Quantity>
+		</Row>
 
         <!-- Плавильная печь -->
 		<Row>
@@ -290,11 +297,12 @@
 			<Quantity>2</Quantity>
 		</Row>
 
-		<Row>
-			<BuildingType>BUILDING_GRANARY</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Quantity>4</Quantity>
-		</Row>
+		<!-- Амбар -->
+<!--		<Row>-->
+<!--			<BuildingType>BUILDING_GRANARY</BuildingType>-->
+<!--			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>-->
+<!--			<Quantity>4</Quantity>-->
+<!--		</Row>-->
 
         <!-- Юрта (Гунны) -->
         <Row>
@@ -367,11 +375,18 @@
 		</Row>
 
         <!-- юкола -->
-        <!-- <Row>
+        <Row>
             <BuildingType>BUILDING_YUKOLA</BuildingType>
-            <ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+            <ResourceType>RESOURCE_WOOD</ResourceType>
             <Cost>1</Cost>
-        </Row> -->
+        </Row>
+
+		<!-- Амбар -->
+		<Row>
+			<BuildingType>BUILDING_GRANARY</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>4</Cost>
+		</Row>
 
         <!-- Плотник -->
 		<Row>

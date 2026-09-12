@@ -48,7 +48,7 @@
 			<Type>BUILDING_HANGING_GARDEN</Type>
 			<BuildingClass>BUILDINGCLASS_HANGING_GARDEN</BuildingClass>
 			<Cost>1494</Cost>
-			<PrereqTech>TECH_GARDENING</PrereqTech>
+			<PrereqTech>TECH_WATER_WHEEL</PrereqTech>
 			<PolicyBranchType>POLICY_TRADITION</PolicyBranchType>
 			<Help>TXT_KEY_WONDER_HANGING_GARDEN_HELP</Help>
 			<Description>TXT_KEY_BUILDING_HANGING_GARDEN</Description>
@@ -324,6 +324,64 @@
 			<WonderSplashAudio>AS2D_WONDER_SPEECH_TERRACOTTA_ARMY</WonderSplashAudio>
 		</Replace>
 
+		<!-- ######### -->
+		<!-- Мифология -->
+		<!-- ######### -->
+
+		<!-- Колосс -->
+		<Row>
+			<Type>BUILDING_COLOSSUS</Type>
+			<BuildingClass>BUILDINGCLASS_COLOSSUS</BuildingClass>
+			<Cost>1494</Cost>
+			<PrereqTech>TECH_MYTHOLOGY</PrereqTech>
+			<Help>TXT_KEY_WONDER_COLOSSUS_HELP</Help>
+			<Description>TXT_KEY_BUILDING_COLOSSUS</Description>
+			<Civilopedia>TXT_KEY_WONDER_COLOSSUS_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_COLOSSUS_QUOTE</Quote>
+			<ArtDefineTag>THE COLOSSUS</ArtDefineTag>
+			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
+			<Water>true</Water>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>10</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<DisplayPosition>8</DisplayPosition>
+			<TradeRouteRecipientBonus>2</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>1</TradeRouteTargetBonus>
+			<NumTradeRouteBonus>1</NumTradeRouteBonus>
+			<IconAtlas>BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+			<WonderSplashImage>WonderConceptColossus.dds</WonderSplashImage>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_THE_COLOSSUS</WonderSplashAudio>
+		</Row>
+
+		<!-- Оракул -->
+		<Row>
+			<Type>BUILDING_ORACLE</Type>
+			<BuildingClass>BUILDINGCLASS_ORACLE</BuildingClass>
+			<Cost>1494</Cost>
+			<PrereqTech>TECH_MYTHOLOGY</PrereqTech>
+			<Help>TXT_KEY_WONDER_ORACLE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_ORACLE</Description>
+			<Civilopedia>TXT_KEY_WONDER_ORACLE_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_ORACLE_QUOTE</Quote>
+			<ArtDefineTag>THE ORACLE</ArtDefineTag>
+			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<FreePolicies>1</FreePolicies>
+			<DisplayPosition>4</DisplayPosition>
+			<IconAtlas>BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
+			<WonderSplashImage>WonderConceptOracle.dds</WonderSplashImage>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_THE_ORACLE_01</WonderSplashAudio>
+		</Row>
 
 
         <!-- ######### -->
@@ -352,31 +410,7 @@
 
 
 
-        <!-- Оракул -->
-        <Row>
-			<Type>BUILDING_ORACLE</Type>
-			<BuildingClass>BUILDINGCLASS_ORACLE</BuildingClass>
-			<Cost>1494</Cost>
-			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
-			<Help>TXT_KEY_WONDER_ORACLE_HELP</Help>
-			<Description>TXT_KEY_BUILDING_ORACLE</Description>
-			<Civilopedia>TXT_KEY_WONDER_ORACLE_DESC</Civilopedia>
-			<Quote>TXT_KEY_WONDER_ORACLE_QUOTE</Quote>
-			<ArtDefineTag>THE ORACLE</ArtDefineTag>
-			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
-			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
-			<GreatPeopleRateChange>1</GreatPeopleRateChange>
-			<NukeImmune>true</NukeImmune>
-			<HurryCostModifier>-1</HurryCostModifier>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
-			<FreePolicies>1</FreePolicies>
-			<DisplayPosition>4</DisplayPosition>
-			<IconAtlas>BW_ATLAS_2</IconAtlas>
-			<PortraitIndex>6</PortraitIndex>
-			<WonderSplashImage>WonderConceptOracle.dds</WonderSplashImage>
-			<WonderSplashAudio>AS2D_WONDER_SPEECH_THE_ORACLE_01</WonderSplashAudio>
-		</Row>
+
 
         <!-- ############## -->
         <!-- Драма и поэзия -->
@@ -457,34 +491,7 @@
         <!-- Деньги -->
         <!-- ###### -->
 
-        <!-- Колосс -->
-        <Row>
-			<Type>BUILDING_COLOSSUS</Type>
-			<BuildingClass>BUILDINGCLASS_COLOSSUS</BuildingClass>
-			<Cost>1494</Cost>
-			<PrereqTech>TECH_MYTHOLOGY</PrereqTech>
-			<Help>TXT_KEY_WONDER_COLOSSUS_HELP</Help>
-			<Description>TXT_KEY_BUILDING_COLOSSUS</Description>
-			<Civilopedia>TXT_KEY_WONDER_COLOSSUS_DESC</Civilopedia>
-			<Quote>TXT_KEY_WONDER_COLOSSUS_QUOTE</Quote>
-			<ArtDefineTag>THE COLOSSUS</ArtDefineTag>
-			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
-			<Water>true</Water>
-			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
-			<GreatPeopleRateChange>1</GreatPeopleRateChange>
-			<NukeImmune>true</NukeImmune>
-			<HurryCostModifier>-1</HurryCostModifier>
-			<MinAreaSize>10</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
-			<DisplayPosition>8</DisplayPosition>
-			<TradeRouteRecipientBonus>2</TradeRouteRecipientBonus>
-			<TradeRouteTargetBonus>1</TradeRouteTargetBonus>
-			<NumTradeRouteBonus>1</NumTradeRouteBonus>
-			<IconAtlas>BW_ATLAS_2</IconAtlas>
-			<PortraitIndex>4</PortraitIndex>
-			<WonderSplashImage>WonderConceptColossus.dds</WonderSplashImage>
-			<WonderSplashAudio>AS2D_WONDER_SPEECH_THE_COLOSSUS</WonderSplashAudio>
-		</Row>
+
 
 
 

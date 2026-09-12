@@ -5,22 +5,7 @@
     <!-- Стоимость постройки -->
     <Building_ResourceCostRequirements>
 
-        <!-- Сад -->
-		<Row>
-			<BuildingType>BUILDING_GARDEN</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>100</Cost>
-		</Row>
-        <Row>
-			<BuildingType>BUILDING_GARDEN</BuildingType>
-			<ResourceType>RESOURCE_MARBLE</ResourceType>
-			<Cost>50</Cost>
-		</Row>
-        <Row>
-			<BuildingType>BUILDING_GARDEN</BuildingType>
-			<ResourceType>RESOURCE_IRON</ResourceType>
-			<Cost>50</Cost>
-		</Row>
+
 
         <!-- Канди -->
         <Row>
