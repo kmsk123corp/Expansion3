@@ -88,16 +88,21 @@
         <Row>
 			<BuildingType>BUILDING_COLOSSEUM</BuildingType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>25</Cost>
+			<Cost>100</Cost>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_COLOSSEUM</BuildingType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
 			<Cost>50</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COLOSSEUM</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COLOSSEUM</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
 			<Cost>50</Cost>
 		</Row>
 
@@ -210,14 +215,18 @@
 		<Row>
 			<BuildingType>BUILDING_WATERMILL</BuildingType>
 			<ResourceType>RESOURCE_LUMBER</ResourceType>
-			<Cost>40</Cost>
+			<Cost>80</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_WATERMILL</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>20</Cost>
+			<Cost>80</Cost>
 		</Row>
-
+		<Row>
+			<BuildingType>BUILDING_WATERMILL</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>60</Cost>
+		</Row>
 
 
         <!-- Плавучие сады (Ацтеки) -->
@@ -231,17 +240,17 @@
         <Row>
 			<BuildingType>BUILDING_AQUEDUCT</BuildingType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>50</Cost>
+			<Cost>100</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_AQUEDUCT</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>25</Cost>
+			<Cost>100</Cost>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_AQUEDUCT</BuildingType>
 			<ResourceType>RESOURCE_BRICKS</ResourceType>
-			<Cost>50</Cost>
+			<Cost>100</Cost>
 		</Row>
 
 
@@ -339,18 +348,18 @@
         <!-- Амфитеатр -->
         <Row>
 			<BuildingType>BUILDING_AMPHITHEATER</BuildingType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>50</Cost>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>100</Cost>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_AMPHITHEATER</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>50</Cost>
+			<Cost>100</Cost>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_AMPHITHEATER</BuildingType>
 			<ResourceType>RESOURCE_MARBLE</ResourceType>
-			<Cost>25</Cost>
+			<Cost>100</Cost>
 		</Row>
 
 

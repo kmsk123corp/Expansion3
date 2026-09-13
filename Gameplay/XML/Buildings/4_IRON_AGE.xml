@@ -169,7 +169,7 @@
         <!-- Канализация и дренаж -->
         <!-- #################### -->
 
-        <!-- Клоака Максима -->
+        <!-- Клоака -->
         <Row>
             <Type>BUILDING_CLOACA</Type>
             <BuildingClass>BUILDINGCLASS_CLOACA</BuildingClass>

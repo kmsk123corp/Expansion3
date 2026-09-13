@@ -533,6 +533,43 @@
     </Row>
 
 
+        <!-- Дамасская сталь -->
+        <Row Tag="TXT_KEY_TECH_FORTIFICATION">
+            <Text>Фортификация</Text>
+            <Gender>neuter</Gender>
+            <Plurality>1</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_TECH_FORTIFICATION_TITLE">
+            <Text>Фортификация</Text>
+            <Gender>neuter</Gender>
+            <Plurality>1</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_TECH_FORTIFICATION_HELP">
+            <Text>Открывает подразделение [COLOR_POSITIVE_TEXT]???[ENDCOLOR].</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TECH_FORTIFICATION_DESC">
+            <Text></Text>
+        </Row>
+
+        <!-- Винтовой пресс -->
+        <Row Tag="TXT_KEY_TECH_SCREW_PRESS">
+            <Text>Винтовой пресс</Text>
+            <Gender>neuter</Gender>
+            <Plurality>1</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_TECH_SCREW_PRESS_TITLE">
+            <Text>Винтовой пресс</Text>
+            <Gender>neuter</Gender>
+            <Plurality>1</Plurality>
+        </Row>
+        <Row Tag="TXT_KEY_TECH_SCREW_PRESS_HELP">
+            <Text>Открывает подразделение [COLOR_POSITIVE_TEXT]???[ENDCOLOR].</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TECH_SCREW_PRESS_DESC">
+            <Text>Появление винта с резьбой позволило создать мощные прессы для отжима оливкового масла и винограда. Это кардинально подняло объемы производства главных товаров Средиземноморья. Позже этот же принцип винта лег в основу печатного станка Гутенберга</Text>
+        </Row>
+
+
     <!-- Сухая кладка -->
     <Row Tag="TXT_KEY_TECH_DRY_MASONRY">
         <Text>Сухая кладка</Text>

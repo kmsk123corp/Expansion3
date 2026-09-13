@@ -56,12 +56,7 @@
 			<Description>TXT_KEY_BUILDING_INTELLIGENCE_AGENCY</Description>
 			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Replace>
-		<Replace>
-			<Type>BUILDINGCLASS_GRAND_TEMPLE</Type>
-			<DefaultBuilding>BUILDING_GRAND_TEMPLE</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_GRAND_TEMPLE</Description>
-			<MaxPlayerInstances>1</MaxPlayerInstances>
-		</Replace>
+
 		<!-- Wonders -->
 		<Replace>
 			<Type>BUILDINGCLASS_ALHAMBRA</Type>

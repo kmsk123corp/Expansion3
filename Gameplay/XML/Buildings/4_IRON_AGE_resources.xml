@@ -447,7 +447,7 @@
         <Row>
             <BuildingType>BUILDING_MILLLUMBER</BuildingType>
             <ResourceType>RESOURCE_WOOD</ResourceType>
-            <Cost>10</Cost>
+            <Cost>5</Cost>
         </Row>
         <Row>
             <BuildingType>BUILDING_MILLLUMBER</BuildingType>

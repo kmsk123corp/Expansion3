@@ -1337,8 +1337,37 @@
 			<PortraitIndex>52</PortraitIndex>
 		</Row>
 
+		<!-- Фортификация -->
+		<Row>
+			<Type>TECH_FORTIFICATION</Type>
+			<Cost>1500</Cost>
+			<Description>TXT_KEY_TECH_FORTIFICATION_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_FORTIFICATION_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_FORTIFICATION_HELP</Help>
+			<Era>ERA_CLASSICAL</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>14</GridX>
+			<GridY>6</GridY>
+			<IconAtlas>Technologies_IconAtlas</IconAtlas>
+			<PortraitIndex>40</PortraitIndex>
+		</Row>
 
-
+		<!-- Винтовой пресс -->
+		<Row>
+			<Type>TECH_SCREW_PRESS</Type>
+			<Cost>1500</Cost>
+			<Description>TXT_KEY_TECH_SCREW_PRESS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_SCREW_PRESS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_SCREW_PRESS_HELP</Help>
+			<Era>ERA_CLASSICAL</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>14</GridX>
+			<GridY>8</GridY>
+			<IconAtlas>Technologies_IconAtlas</IconAtlas>
+			<PortraitIndex>19</PortraitIndex>
+		</Row>
 
 
 <!-- ####################################################################### -->
@@ -1351,7 +1380,7 @@
 		<!-- Богословие -->
 		<Row>
 			<Type>TECH_THEOLOGY</Type>
-			<Cost>675</Cost>
+			<Cost>2000</Cost>
 			<Description>TXT_KEY_TECH_THEOLOGY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_THEOLOGY_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_THEOLOGY_HELP</Help>
@@ -1369,7 +1398,7 @@
 		<!-- Гос. служба -->
 		<Row>
 			<Type>TECH_CIVIL_SERVICE</Type>
-			<Cost>675</Cost>
+			<Cost>2000</Cost>
 			<Description>TXT_KEY_TECH_CIVIL_SERVICE_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_CIVIL_SERVICE_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_CIVIL_SERVICE_HELP</Help>
@@ -1387,7 +1416,7 @@
 		<!-- Металлоконструкции -->
 		<Row>
 			<Type>TECH_CONSTRUCTION</Type>
-			<Cost>15000</Cost>
+			<Cost>2000</Cost>
 			<Description>TXT_KEY_TECH_CONSTRUCTION_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_CONSTRUCTION_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_CONSTRUCTION_HELP</Help>
@@ -1426,22 +1455,23 @@
 			<AudioIntroHeader>AS2D_HEADING_TECH_COMPASS</AudioIntroHeader>
 		</Row>
 
-		<!-- Гильдии -->
+		<!-- Рыцарство -->
 		<Row>
-			<Type>TECH_GUILDS</Type>
+			<Type>TECH_CHIVALRY</Type>
 			<Cost>15000</Cost>
-			<Description>TXT_KEY_TECH_GUILDS_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_GUILDS_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_GUILDS_HELP</Help>
+			<Description>TXT_KEY_TECH_CHIVALRY_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_CHIVALRY_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_CHIVALRY_HELP</Help>
 			<Era>ERA_MEDIEVAL</Era>
 			<Trade>true</Trade>
 			<GridX>16</GridX>
 			<GridY>4</GridY>
-			<Quote>TXT_KEY_TECH_GUILDS_QUOTE</Quote>
-			<PortraitIndex>2</PortraitIndex>
-			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
-			<AudioIntro>AS2D_TECH_GUILDS</AudioIntro>
-			<AudioIntroHeader>AS2D_HEADING_TECH_GUILDS</AudioIntroHeader>
+			<Quote>TXT_KEY_TECH_CHIVALRY_QUOTE</Quote>
+			<DefensivePactTradingAllowed>true</DefensivePactTradingAllowed>
+			<PortraitIndex>27</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<AudioIntro>AS2D_TECH_CHIVALRY</AudioIntro>
+			<AudioIntroHeader>AS2D_HEADING_TECH_CHIVALRY</AudioIntroHeader>
 		</Row>
 
 		<!-- Литье -->
@@ -1503,24 +1533,25 @@
 			<AudioIntroHeader>AS2D_HEADING_TECH_EDUCATION</AudioIntroHeader>
 		</Row>
 
-		<!-- Рыцарство -->
+		<!-- Гильдии -->
 		<Row>
-			<Type>TECH_CHIVALRY</Type>
+			<Type>TECH_GUILDS</Type>
 			<Cost>15000</Cost>
-			<Description>TXT_KEY_TECH_CHIVALRY_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_CHIVALRY_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_CHIVALRY_HELP</Help>
+			<Description>TXT_KEY_TECH_GUILDS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_GUILDS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_GUILDS_HELP</Help>
 			<Era>ERA_MEDIEVAL</Era>
 			<Trade>true</Trade>
 			<GridX>17</GridX>
 			<GridY>4</GridY>
-			<Quote>TXT_KEY_TECH_CHIVALRY_QUOTE</Quote>
-			<DefensivePactTradingAllowed>true</DefensivePactTradingAllowed>
-			<PortraitIndex>27</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-			<AudioIntro>AS2D_TECH_CHIVALRY</AudioIntro>
-			<AudioIntroHeader>AS2D_HEADING_TECH_CHIVALRY</AudioIntroHeader>
+			<Quote>TXT_KEY_TECH_GUILDS_QUOTE</Quote>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<AudioIntro>AS2D_TECH_GUILDS</AudioIntro>
+			<AudioIntroHeader>AS2D_HEADING_TECH_GUILDS</AudioIntroHeader>
 		</Row>
+
+
 
 		<!-- Сталеварение -->
 		<Row>
@@ -3196,6 +3227,21 @@
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
+		<Row>
+			<TechType>TECH_FORTIFICATION</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+
+
+
+		<Row>
+			<TechType>TECH_SCREW_PRESS</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+
+
 
 
 		<Row>
@@ -4562,14 +4608,28 @@
 			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_DAMASCUS_STEEL</TechType>
-			<PrereqTech>TECH_GLASS_BLOWING</PrereqTech>
+			<TechType>TECH_DRAMA</TechType>
+			<PrereqTech>TECH_ENGINEERING</PrereqTech>
 		</Row>
+
 		<Row>
 			<TechType>TECH_DAMASCUS_STEEL</TechType>
 			<PrereqTech>TECH_LAMINAR_ARMOR</PrereqTech>
 		</Row>
 
+		<Row>
+			<TechType>TECH_FORTIFICATION</TechType>
+			<PrereqTech>TECH_ENGINEERING</PrereqTech>
+		</Row>
+
+		<Row>
+			<TechType>TECH_SCREW_PRESS</TechType>
+			<PrereqTech>TECH_ENGINEERING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_SCREW_PRESS</TechType>
+			<PrereqTech>TECH_GLASS_BLOWING</PrereqTech>
+		</Row>
 
 		<!-- Средневековье [1] row 15 -->
 
@@ -4581,44 +4641,52 @@
 			<TechType>TECH_THEOLOGY</TechType>
 			<PrereqTech>TECH_MYTHOLOGY</PrereqTech>
 		</Row>
+
 		<Row>
 			<TechType>TECH_CIVIL_SERVICE</TechType>
 			<PrereqTech>TECH_DAMASCUS_STEEL</PrereqTech>
 		</Row>
-
-
 		<Row>
 			<TechType>TECH_CONSTRUCTION</TechType>
-			<PrereqTech>TECH_DAMASCUS_STEEL</PrereqTech>
+			<PrereqTech>TECH_FORTIFICATION</PrereqTech>
 		</Row>
+
 
 		<!-- Средневековье [2] row 16 -->
 
 		<Row>
 			<TechType>TECH_COMPASS</TechType>
-			<PrereqTech>TECH_CIVIL_SERVICE</PrereqTech>
+			<PrereqTech>TECH_THEOLOGY</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_GUILDS</TechType>
+			<TechType>TECH_CHIVALRY</TechType>
+			<PrereqTech>TECH_THEOLOGY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_CHIVALRY</TechType>
 			<PrereqTech>TECH_CIVIL_SERVICE</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_METAL_CASTING</TechType>
-			<PrereqTech>TECH_CIVIL_SERVICE</PrereqTech>
+			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_MACHINERY</TechType>
 			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
 		</Row>
+		<Row>
+			<TechType>TECH_MACHINERY</TechType>
+			<PrereqTech>TECH_SCREW_PRESS</PrereqTech>
+		</Row>
 
 		<!-- Средневековье [3] row 17 -->
 		<Row>
 			<TechType>TECH_EDUCATION</TechType>
-			<PrereqTech>TECH_GUILDS</PrereqTech>
+			<PrereqTech>TECH_CHIVALRY</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_CHIVALRY</TechType>
-			<PrereqTech>TECH_GUILDS</PrereqTech>
+			<TechType>TECH_GUILDS</TechType>
+			<PrereqTech>TECH_CHIVALRY</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_STEEL</TechType>

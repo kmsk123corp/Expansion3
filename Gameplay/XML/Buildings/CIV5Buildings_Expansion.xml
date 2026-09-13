@@ -188,31 +188,8 @@
 			<WonderSplashImage>WonderConceptHubble.dds</WonderSplashImage>
 			<WonderSplashAudio>AS2D_WONDER_SPEECH_HUBBLE_SPACE_TELESCOPE</WonderSplashAudio>
 		</Row>
-		<Row>
-			<Type>BUILDING_LEANING_TOWER</Type>
-			<BuildingClass>BUILDINGCLASS_LEANING_TOWER</BuildingClass>
-			<Cost>500</Cost>
-			<PrereqTech>TECH_PRINTING_PRESS</PrereqTech>
-			<Help>TXT_KEY_WONDER_LEANING_TOWER_HELP</Help>
-			<Description>TXT_KEY_BUILDING_LEANING_TOWER</Description>
-			<Civilopedia>TXT_KEY_WONDER_LEANING_TOWER_DESC</Civilopedia>
-			<Quote>TXT_KEY_WONDER_LEANING_TOWER_QUOTE</Quote>
-			<ArtDefineTag>TOWER OF PISA</ArtDefineTag>
-			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
-			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
-			<GreatPeopleRateChange>1</GreatPeopleRateChange>
-			<NukeImmune>true</NukeImmune>
-			<HurryCostModifier>-1</HurryCostModifier>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
-			<GlobalGreatPeopleRateModifier>25</GlobalGreatPeopleRateModifier>
-			<FreeGreatPeople>1</FreeGreatPeople>
-			<DisplayPosition>2</DisplayPosition>
-			<IconAtlas>EXPANSION_BW_ATLAS_2</IconAtlas>
-			<PortraitIndex>4</PortraitIndex>
-			<WonderSplashImage>WonderConceptLeaningTower.dds</WonderSplashImage>
-			<WonderSplashAudio>AS2D_WONDER_SPEECH_LEANING_TOWER</WonderSplashAudio>
-		</Row>
+
+
 
 		<Row>
 			<Type>BUILDING_NEUSCHWANSTEIN</Type>
@@ -649,16 +626,7 @@
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
 			<Flavor>6</Flavor>
 		</Row>
-		<Row>
-			<BuildingType>BUILDING_LEANING_TOWER</BuildingType>
-			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
-			<Flavor>50</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_LEANING_TOWER</BuildingType>
-			<FlavorType>FLAVOR_WONDER</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
@@ -868,11 +836,7 @@
 			<Yield>2</Yield>
 		</InsertOrAbort>
 		
-		<Row>
-			<BuildingType>BUILDING_LEANING_TOWER</BuildingType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
-		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>

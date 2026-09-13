@@ -124,12 +124,12 @@
         <Row>
             <BuildingType>BUILDING_ASHURBANIPAL_LIBRARY</BuildingType>
             <YieldType>YIELD_SCIENCE</YieldType>
-            <Yield>5</Yield>
+            <Yield>3</Yield>
         </Row>
         <Row>
             <BuildingType>BUILDING_ASHURBANIPAL_LIBRARY</BuildingType>
             <YieldType>YIELD_CULTURE</YieldType>
-            <Yield>5</Yield>
+            <Yield>3</Yield>
         </Row>
         <Row>
             <BuildingType>BUILDING_CLOACAMAXIM</BuildingType>

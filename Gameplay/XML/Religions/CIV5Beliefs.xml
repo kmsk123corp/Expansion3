@@ -835,6 +835,12 @@
 			<YieldType>YIELD_FAITH</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
+		<Row>
+			<BeliefType>BELIEF_STONE_CIRCLES</BeliefType>
+			<BuildingClassType>BUILDING_STONEHENGE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
 
 		<Row>
 			<BeliefType>BELIEF_ANCESTOR_WORSHIP</BeliefType>
@@ -1454,7 +1460,7 @@
 			<BeliefType>BELIEF_STONE_CIRCLES</BeliefType>
 			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>2</Yield>
+			<Yield>3</Yield>
 		</Row>
 
 
@@ -1617,32 +1623,33 @@
 			<BeliefType>BELIEF_TEARS_OF_GODS</BeliefType>
 			<ResourceType>RESOURCE_PEARLS</ResourceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_TEARS_OF_GODS</BeliefType>
 			<ResourceType>RESOURCE_GEMS</ResourceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_TEARS_OF_GODS</BeliefType>
 			<ResourceType>RESOURCE_LAPIS</ResourceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_TEARS_OF_GODS</BeliefType>
 			<ResourceType>RESOURCE_JADE</ResourceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_TEARS_OF_GODS</BeliefType>
 			<ResourceType>RESOURCE_AMBER</ResourceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
+
 		<Row>
 			<BeliefType>BELIEF_TEARS_OF_GODS</BeliefType>
 			<ResourceType>RESOURCE_PEARLS</ResourceType>

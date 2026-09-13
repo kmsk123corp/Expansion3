@@ -23,6 +23,15 @@
 	<BuildingClasses>
 		<!-- Special Buildings -->
 
+
+		<Replace>
+			<Type>BUILDINGCLASS_GRAND_TEMPLE</Type>
+			<DefaultBuilding>BUILDING_GRAND_TEMPLE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_GRAND_TEMPLE</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Replace>
+
+
 		<Row>
 			<Type>BUILDINGCLASS_LAWS_HAMMURABI</Type>
 			<DefaultBuilding>BUILDING_LAWS_HAMMURABI</DefaultBuilding>

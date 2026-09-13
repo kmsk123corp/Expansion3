@@ -714,12 +714,17 @@
             <Yield>1</Yield>
         </Row>
 
-
+		<Row>
+			<BuildingType>BUILDING_STONEHENGE</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
         <Row>
 			<BuildingType>BUILDING_STONEHENGE</BuildingType>
 			<ResourceType>RESOURCE_MARBLE</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_STONEHENGE</BuildingType>
@@ -727,11 +732,18 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_STONEHENGE</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
 		<Row>
 			<BuildingType>BUILDING_STONEHENGE</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_STONEHENGE</BuildingType>

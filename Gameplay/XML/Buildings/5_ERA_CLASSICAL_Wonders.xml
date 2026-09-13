@@ -49,7 +49,7 @@
 			<BuildingClass>BUILDINGCLASS_HANGING_GARDEN</BuildingClass>
 			<Cost>1494</Cost>
 			<PrereqTech>TECH_WATER_WHEEL</PrereqTech>
-			<PolicyBranchType>POLICY_TRADITION</PolicyBranchType>
+			<PolicyBranchType>POLICY_BRANCH_TRADITION</PolicyBranchType>
 			<Help>TXT_KEY_WONDER_HANGING_GARDEN_HELP</Help>
 			<Description>TXT_KEY_BUILDING_HANGING_GARDEN</Description>
 			<Civilopedia>TXT_KEY_WONDER_HANGINGGARDENS_DESC</Civilopedia>
@@ -194,7 +194,7 @@
 		<Replace>
 			<Type>BUILDING_PETRA</Type>
 			<BuildingClass>BUILDINGCLASS_PETRA</BuildingClass>
-			<Cost>1494</Cost>
+			<Cost>2240</Cost>
 			<PrereqTech>TECH_ENGINEERING</PrereqTech>
 			<Help>TXT_KEY_WONDER_PETRA_HELP</Help>
 			<Description>TXT_KEY_BUILDING_PETRA</Description>
@@ -249,7 +249,7 @@
 			<Type>BUILDING_GREAT_WALL</Type>
 			<BuildingClass>BUILDINGCLASS_GREAT_WALL</BuildingClass>
 			<Cost>1494</Cost>
-			<PrereqTech>TECH_DAMASCUS_STEEL</PrereqTech>
+			<PrereqTech>TECH_FORTIFICATION</PrereqTech>
 			<Help>TXT_KEY_WONDER_GREAT_WALL_HELP</Help>
 			<Description>TXT_KEY_BUILDING_GREAT_WALL</Description>
 			<Civilopedia>TXT_KEY_WONDER_GREATWALL_DESC</Civilopedia>
@@ -280,7 +280,7 @@
         <Row>
 			<Type>BUILDING_HEROIC_EPIC</Type>
 			<BuildingClass>BUILDINGCLASS_HEROIC_EPIC</BuildingClass>
-			<Cost>1494</Cost>
+			<Cost>896</Cost>
 			<PrereqTech>TECH_LAMINAR_ARMOR</PrereqTech>
 			<Help>TXT_KEY_BUILDING_HEROIC_EPIC_HELP</Help>
 			<Description>TXT_KEY_BUILDING_HEROIC_EPIC</Description>
@@ -441,7 +441,7 @@
         <Row>
 			<Type>BUILDING_NATIONAL_EPIC</Type>
 			<BuildingClass>BUILDINGCLASS_NATIONAL_EPIC</BuildingClass>
-			<Cost>1494</Cost>
+			<Cost>1195</Cost>
 			<PrereqTech>TECH_DRAMA</PrereqTech>
 			<Help>TXT_KEY_BUILDING_NATIONAL_EPIC_HELP</Help>
 			<Description>TXT_KEY_BUILDING_NATIONAL_EPIC</Description>
@@ -590,18 +590,18 @@
         <Row>
 			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
+			<Yield>5</Yield>
 		</Row>
 
         <Row>
 			<BuildingType>BUILDING_MAUSOLEUM_HALICARNASSUS</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
+			<Yield>5</Yield>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_MAUSOLEUM_HALICARNASSUS</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<Yield>5</Yield>
 		</Row>
 
 
@@ -624,8 +624,14 @@
         <Row>
 			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
+			<Yield>4</Yield>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+
         <Row>
 			<BuildingType>BUILDING_NATIONAL_COLLEGE</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
@@ -640,23 +646,23 @@
         <Row>
 			<BuildingType>BUILDING_ORACLE</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>3</Yield>
+			<Yield>10</Yield>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_NATIONAL_EPIC</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>5</Yield>
+			<Yield>10</Yield>
 		</Row>
 
         <Row>
 			<BuildingType>BUILDING_PARTHENON</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>6</Yield>
+			<Yield>5</Yield>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_PARTHENON</BuildingType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>6</Yield>
+			<Yield>5</Yield>
 		</Row>
 
 		<Delete BuildingType="BUILDING_PETRA"/>
@@ -673,7 +679,7 @@
         <Row>
 			<BuildingType>BUILDING_HEROIC_EPIC</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
+			<Yield>6</Yield>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_COLOSSUS</BuildingType>

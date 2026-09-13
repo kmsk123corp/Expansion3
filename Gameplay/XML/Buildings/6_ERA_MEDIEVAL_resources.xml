@@ -6,6 +6,27 @@
     <Building_ResourceCostRequirements>
 
 
+		<!-- Церковь -->
+		<Row>
+			<BuildingType>BUILDING_CHURCH</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHURCH</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHURCH</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHURCH</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>50</Cost>
+		</Row>
 
         <!-- Канди -->
         <Row>

@@ -99,36 +99,45 @@
 		<Row>
 			<BuildingType>BUILDING_PETRA</BuildingType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>200</Cost>
+			<Cost>1000</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PETRA</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>400</Cost>
+			<Cost>1000</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PETRA</BuildingType>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<Cost>200</Cost>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>500</Cost>
 		</Row>
 
         <!-- Галикарнасский мавзалей -->
 		<Row>
 			<BuildingType>BUILDING_MAUSOLEUM_HALICARNASSUS</BuildingType>
 			<ResourceType>RESOURCE_MARBLE</ResourceType>
-			<Cost>200</Cost>
+			<Cost>1000</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MAUSOLEUM_HALICARNASSUS</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>200</Cost>
+			<Cost>500</Cost>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_MAUSOLEUM_HALICARNASSUS</BuildingType>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<Cost>100</Cost>
+			<Cost>250</Cost>
 		</Row>
-
+		<Row>
+			<BuildingType>BUILDING_MAUSOLEUM_HALICARNASSUS</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>250</Cost>
+		</Row>
 
 
 
@@ -157,12 +166,12 @@
         <Row>
 			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>400</Cost>
+			<Cost>1000</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
-			<Cost>400</Cost>
+			<Cost>1000</Cost>
 		</Row>
 
         <!-- Национальный колледж -->
@@ -192,48 +201,67 @@
         <!-- Оракул -->
 		<Row>
 			<BuildingType>BUILDING_ORACLE</BuildingType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>600</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ORACLE</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>300</Cost>
+			<Cost>600</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_ORACLE</BuildingType>
 			<ResourceType>RESOURCE_MARBLE</ResourceType>
-			<Cost>100</Cost>
+			<Cost>600</Cost>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_ORACLE</BuildingType>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<Cost>100</Cost>
+			<Cost>200</Cost>
 		</Row>
 
         <!-- Национальный эпос -->
         <Row>
 			<BuildingType>BUILDING_NATIONAL_EPIC</BuildingType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>100</Cost>
+			<Cost>400</Cost>
 		</Row>
-        <Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_EPIC</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>400</Cost>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_NATIONAL_EPIC</BuildingType>
 			<ResourceType>RESOURCE_MARBLE</ResourceType>
-			<Cost>100</Cost>
+			<Cost>400</Cost>
 		</Row>
-
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_EPIC</BuildingType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>400</Cost>
+		</Row>
 
         <!-- Парфеон -->
         <Row>
 			<BuildingType>BUILDING_PARTHENON</BuildingType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>200</Cost>
+			<Cost>500</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PARTHENON</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>200</Cost>
+			<Cost>500</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PARTHENON</BuildingType>
 			<ResourceType>RESOURCE_MARBLE</ResourceType>
-			<Cost>200</Cost>
+			<Cost>500</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PARTHENON</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>500</Cost>
 		</Row>
 
         <!-- Гильдия писателей -->
@@ -269,12 +297,12 @@
         <Row>
 			<BuildingType>BUILDING_HEROIC_EPIC</BuildingType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>100</Cost>
+			<Cost>600</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HEROIC_EPIC</BuildingType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
-			<Cost>100</Cost>
+			<Cost>600</Cost>
 		</Row>
 
         <!-- Колосс -->
@@ -286,22 +314,22 @@
 		<Row>
 			<BuildingType>BUILDING_COLOSSUS</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>200</Cost>
+			<Cost>300</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COLOSSUS</BuildingType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
-			<Cost>200</Cost>
+			<Cost>300</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COLOSSUS</BuildingType>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<Cost>250</Cost>
+			<Cost>400</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COLOSSUS</BuildingType>
 			<ResourceType>RESOURCE_LUMBER</ResourceType>
-			<Cost>200</Cost>
+			<Cost>600</Cost>
 		</Row>
 
     </Building_ResourceCostRequirements>
@@ -322,7 +350,7 @@
 		<Row>
 			<BuildingType>BUILDING_MAUSOLEUM_HALICARNASSUS</BuildingType>
 			<ResourceType>RESOURCE_MARBLE</ResourceType>
-			<Quantity>6</Quantity>
+			<Quantity>20</Quantity>
 		</Row>
 
     </Building_ResourceQuantity>

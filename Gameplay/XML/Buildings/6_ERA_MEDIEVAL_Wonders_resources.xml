@@ -9,75 +9,80 @@
         <Row>
 			<BuildingType>BUILDING_GRAND_TEMPLE</BuildingType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>150</Cost>
+			<Cost>400</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_GRAND_TEMPLE</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>150</Cost>
+			<Cost>400</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_GRAND_TEMPLE</BuildingType>
 			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>150</Cost>
+			<Cost>400</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GRAND_TEMPLE</BuildingType>
+			<ResourceType>RESOURCE_BRICKS</ResourceType>
+			<Cost>500</Cost>
 		</Row>
 
         <!-- Собор святой софии -->
         <Row>
 			<BuildingType>BUILDING_HAGIA_SOPHIA</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>200</Cost>
+			<Cost>500</Cost>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_HAGIA_SOPHIA</BuildingType>
 			<ResourceType>RESOURCE_BRICKS</ResourceType>
-			<Cost>200</Cost>
+			<Cost>500</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HAGIA_SOPHIA</BuildingType>
 			<ResourceType>RESOURCE_MARBLE</ResourceType>
-			<Cost>200</Cost>
+			<Cost>500</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HAGIA_SOPHIA</BuildingType>
 			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>200</Cost>
+			<Cost>500</Cost>
 		</Row>
 
         <!-- Бородобур -->
 		<Row>
 			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>500</Cost>
+			<Cost>1000</Cost>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>500</Cost>
+			<Cost>1000</Cost>
 		</Row>
 
         <!-- Великая мечеть дженне -->
 		<Row>
 			<BuildingType>BUILDING_MOSQUE_OF_DJENNE</BuildingType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>500</Cost>
+			<Cost>1500</Cost>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_MOSQUE_OF_DJENNE</BuildingType>
 			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>250</Cost>
+			<Cost>500</Cost>
 		</Row>
 
         <!-- Чичен ица -->
         <Row>
             <BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
             <ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-            <Cost>1000</Cost>
+            <Cost>1500</Cost>
         </Row>
         <Row>
             <BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
             <ResourceType>RESOURCE_STONE</ResourceType>
-            <Cost>1000</Cost>
+            <Cost>1500</Cost>
         </Row>
 
         <!-- Гильдия художников -->

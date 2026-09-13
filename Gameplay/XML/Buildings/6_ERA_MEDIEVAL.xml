@@ -8,9 +8,24 @@
         <!-- Богословие -->
         <!-- ########## -->
 
-
-
-
+		<!-- Церковь -->
+		<Replace>
+			<Type>BUILDING_CHURCH</Type>
+			<BuildingClass>BUILDINGCLASS_CHURCH</BuildingClass>
+			<FreeStartEra>ERA_MEDIEVAL</FreeStartEra>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<Cost>448</Cost>
+			<GoldMaintenance>3</GoldMaintenance>
+			<PrereqTech>TECH_THEOLOGY</PrereqTech>
+			<Description>Церковь</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_CHURCH_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_CHURCH_STRATEGY</Strategy>
+			<ConquestProb>66</ConquestProb>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>EXPANSION_BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>9</PortraitIndex>
+		</Replace>
 
         <!-- ##### -->
         <!-- Литье -->
@@ -184,26 +199,6 @@
         <!-- Рыцарство -->
         <!-- ######### -->
 
-
-		<!-- Церковь -->
-		<Replace>
-			<Type>BUILDING_CHURCH</Type>
-			<BuildingClass>BUILDINGCLASS_CHURCH</BuildingClass>
-			<FreeStartEra>ERA_MEDIEVAL</FreeStartEra>
-			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
-			<Cost>150</Cost>
-			<GoldMaintenance>1</GoldMaintenance>
-			<PrereqTech>TECH_CHIVALRY</PrereqTech>
-			<Description>Церковь</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_CHURCH_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_CHURCH_STRATEGY</Strategy>
-			<ConquestProb>66</ConquestProb>
-			<MinAreaSize>-1</MinAreaSize>
-			<HurryCostModifier>25</HurryCostModifier>
-			<IconAtlas>EXPANSION_BW_ATLAS_1</IconAtlas>
-			<PortraitIndex>9</PortraitIndex>
-		</Replace>
-
         <!-- Замок -->
         <Row>
 			<Type>BUILDING_CASTLE</Type>
@@ -364,6 +359,13 @@
     <!-- Производит -->
     <Building_YieldChanges>
 
+
+		<Row>
+			<BuildingType>BUILDING_CHURCH</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>5</Yield>
+		</Row>
+
         <Row>
 			<BuildingType>BUILDING_SAWMILL</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
@@ -409,6 +411,11 @@
 
     <!-- Увеличивает в процентах -->
     <Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_CHURCH</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>
         <Row>
 			<BuildingType>BUILDING_UNIVERSITY</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
@@ -639,6 +646,13 @@
 
     <!-- Для постройки нужно здание -->
     <Building_ClassesNeededInCity>
+
+
+		<Row>
+			<BuildingType>BUILDING_CHURCH</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+		</Row>
+
         <Row>
 			<BuildingType>BUILDING_STUKOFEN</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_BLOOMERYE</BuildingClassType>
@@ -700,6 +714,12 @@
 
     <!-- Для ботов похоже... -->
     <Building_Flavors>
+
+		<Row>
+			<BuildingType>BUILDING_CHURCH</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
         <Row>
 			<BuildingType>BUILDING_STUKOFEN</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>

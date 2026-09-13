@@ -12,7 +12,7 @@
         <Replace>
 			<Type>BUILDING_GRAND_TEMPLE</Type>
 			<BuildingClass>BUILDINGCLASS_GRAND_TEMPLE</BuildingClass>
-			<Cost>180</Cost>
+			<Cost>1195</Cost>
 			<PrereqTech>TECH_THEOLOGY</PrereqTech>
 			<Help>TXT_KEY_BUILDING_GRAND_TEMPLE_HELP</Help>
 			<Description>TXT_KEY_BUILDING_GRAND_TEMPLE</Description>
@@ -34,7 +34,7 @@
         <Row>
 			<Type>BUILDING_HAGIA_SOPHIA</Type>
 			<BuildingClass>BUILDINGCLASS_HAGIA_SOPHIA</BuildingClass>
-			<Cost>300</Cost>
+			<Cost>1494</Cost>
 			<PrereqTech>TECH_THEOLOGY</PrereqTech>
 			<Help>TXT_KEY_WONDER_HAGIA_SOPHIA_HELP</Help>
 			<Description>TXT_KEY_BUILDING_HAGIA_SOPHIA</Description>
@@ -58,7 +58,7 @@
         <Row>
 			<Type>BUILDING_BOROBUDUR</Type>
 			<BuildingClass>BUILDINGCLASS_BOROBUDUR</BuildingClass>
-			<Cost>300</Cost>
+			<Cost>1494</Cost>
 			<PrereqTech>TECH_THEOLOGY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_BOROBUDUR</Description>
 			<Quote>TXT_KEY_BUILDING_BOROBUDUR_QUOTE</Quote>
@@ -82,7 +82,7 @@
         <Row>
 			<Type>BUILDING_MOSQUE_OF_DJENNE</Type>
 			<BuildingClass>BUILDINGCLASS_MOSQUE_OF_DJENNE</BuildingClass>
-			<Cost>300</Cost>
+			<Cost>1494</Cost>
 			<PrereqTech>TECH_THEOLOGY</PrereqTech>
 			<PolicyBranchType>POLICY_BRANCH_PIETY</PolicyBranchType>
 			<Help>TXT_KEY_WONDER_MOSQUE_OF_DJENNE_HELP</Help>
@@ -116,7 +116,7 @@
         <Row>
 			<Type>BUILDING_CHICHEN_ITZA</Type>
 			<BuildingClass>BUILDINGCLASS_CHICHEN_ITZA</BuildingClass>
-			<Cost>300</Cost>
+			<Cost>2240</Cost>
 			<PrereqTech>TECH_CIVIL_SERVICE</PrereqTech>
 			<Help>TXT_KEY_WONDER_TAJ_MAHAL_HELP</Help>
 			<Description>TXT_KEY_BUILDING_CHICHEN_ITZA</Description>

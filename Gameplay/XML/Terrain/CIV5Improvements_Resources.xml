@@ -15,11 +15,7 @@
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
 			<Cost>2</Cost>
 		</Row>
-		<Row>
-			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>1</Cost>
-		</Row>
+
 		<Row>
 			<ImprovementType>IMPROVEMENT_FEITORIA</ImprovementType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
@@ -42,6 +38,16 @@
 			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
 			<Cost>2</Cost>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>1</Cost>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>

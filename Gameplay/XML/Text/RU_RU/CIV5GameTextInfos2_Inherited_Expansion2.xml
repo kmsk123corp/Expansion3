@@ -43,7 +43,7 @@
           <Text>+5 [ICON_PEACE] к вере за чудеса природы</Text>
       </Row>
       <Row Tag="TXT_KEY_BELIEF_STONE_CIRCLES">
-          <Text>+2 [ICON_PEACE] к вере за каменоломни, а также +1 [ICON_PEACE] к вере за кромлех и моаи</Text>
+          <Text>+3 [ICON_PEACE] к вере за каждую клетку каменоломни и +1 [ICON_PEACE] к вере за моаи, а также зданиям +3 [ICON_PEACE] к вере к Стоунхенджу и +1 [ICON_PEACE] к вере к кромлеху.</Text>
       </Row>
       <Row Tag="TXT_KEY_BELIEF_ANCESTOR_WORSHIP">
           <Text>+1 [ICON_CULTURE] +1 [ICON_PEACE] за святилища</Text>
@@ -87,7 +87,7 @@
           <Text>+1 [ICON_CULTURE] к культуре за клетки джунглей</Text>
       </Row>
       <Row Tag="TXT_KEY_BELIEF_TEARS_OF_GODS">
-          <Text>+2 [ICON_GOLD] +1 [ICON_PEACE] за каждый источник [ICON_RES_GEMS] алмазов, [ICON_RES_SAPPHIRE] сапфиров, [ICON_RES_EMERALD] изумрудов, [ICON_RES_RUBY] рубинов и [ICON_RES_PEARLS] жемчуга</Text>
+          <Text>+2 [ICON_GOLD] +2 [ICON_PEACE] за каждый источник [ICON_RES_GEMS] алмазов, [ICON_RES_SAPPHIRE] сапфиров, [ICON_RES_EMERALD] изумрудов, [ICON_RES_RUBY] рубинов и [ICON_RES_PEARLS] жемчуга</Text>
       </Row>
       <Row Tag="TXT_KEY_BELIEF_DANCE_AURORA">
           <Text>+1 [ICON_FOOD] +1 [ICON_PEACE] за клетку тундры без леса</Text>
