@@ -176,12 +176,12 @@
 		<Row>
 			<BuildingType>BUILDING_ALHAMBRA</BuildingType>
 			<ResourceType>RESOURCE_BRICKS</ResourceType>
-			<Cost>600</Cost>
+			<Cost>2000</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_ALHAMBRA</BuildingType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
-			<Cost>600</Cost>
+			<Cost>2000</Cost>
 		</Row>
 
         <!-- Национальный парк -->
@@ -220,6 +220,12 @@
     <!-- Производит ресурсов -->
     <Building_ResourceQuantity>
 
+		<!-- Алегамбра -->
+		<Row>
+			<BuildingType>BUILDING_ALHAMBRA</BuildingType>
+			<ResourceType>RESOURCE_SALTPETER</ResourceType>
+			<Quantity>10</Quantity>
+		</Row>
 
     </Building_ResourceQuantity>
 

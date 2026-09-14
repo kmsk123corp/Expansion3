@@ -425,7 +425,7 @@
 			<Trade>true</Trade>
 			<GridX>3</GridX>
 			<GridY>9</GridY>
-			<BridgeBuilding>true</BridgeBuilding>
+
 			<Quote>TXT_KEY_TECH_ENGINEERING_QUOTE</Quote>
 			<AudioIntro>AS2D_TECH_ENGINEERING</AudioIntro>
 			<AudioIntroHeader>AS2D_HEADING_TECH_ENGINEERING</AudioIntroHeader>

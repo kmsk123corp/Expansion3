@@ -248,7 +248,7 @@
         <Row>
 			<Type>BUILDING_GREAT_WALL</Type>
 			<BuildingClass>BUILDINGCLASS_GREAT_WALL</BuildingClass>
-			<Cost>1494</Cost>
+			<Cost>2240</Cost>
 			<PrereqTech>TECH_FORTIFICATION</PrereqTech>
 			<Help>TXT_KEY_WONDER_GREAT_WALL_HELP</Help>
 			<Description>TXT_KEY_BUILDING_GREAT_WALL</Description>

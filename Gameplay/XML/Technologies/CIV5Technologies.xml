@@ -465,21 +465,7 @@
 <!--       GridX 4       -->
 <!-- ################### -->
 
-		<!-- Морское рыболовство -->
-		<Row>
-			<Type>TECH_SEA_FISHING</Type>
-			<Cost>53</Cost>
-			<Description>TXT_KEY_TECH_SEA_FISHING_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_SEA_FISHING_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_SEA_FISHING_HELP</Help>
-			<Era>ERA_ENEOLITHIC</Era>
-			<Trade>true</Trade>
-			<GoodyTech>true</GoodyTech>
-			<GridX>4</GridX>
-			<GridY>0</GridY>
-			<IconAtlas>Technologies_Copper_IconAtlas</IconAtlas>
-			<PortraitIndex>16</PortraitIndex>
-		</Row>
+
 		<!-- Протописьменность -->
 		<Row>
 			<Type>TECH_PROTO_WRITING</Type>
@@ -547,6 +533,22 @@
 		<!-- ################### -->
 		<!--       GridX 5       -->
 		<!-- ################### -->
+
+		<!-- Морское рыболовство -->
+		<Row>
+			<Type>TECH_SEA_FISHING</Type>
+			<Cost>53</Cost>
+			<Description>TXT_KEY_TECH_SEA_FISHING_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_SEA_FISHING_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_SEA_FISHING_HELP</Help>
+			<Era>ERA_ENEOLITHIC</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>5</GridX>
+			<GridY>0</GridY>
+			<IconAtlas>Technologies_Copper_IconAtlas</IconAtlas>
+			<PortraitIndex>16</PortraitIndex>
+		</Row>
 
 		<!-- Клинопись -->
 		<Row>
@@ -1281,27 +1283,9 @@
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 		</Row>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 		<!-- ################### -->
 		<!--       GridX 14      -->
 		<!-- ################### -->
-
-
 
 		<!-- Драма и поэзия -->
 		<Row>
@@ -1321,20 +1305,21 @@
 			<AudioIntroHeader>AS2D_HEADING_TECH_DRAMA</AudioIntroHeader>
 		</Row>
 
-		<!-- Дамаская сталь -->
+		<!-- Стремя -->
 		<Row>
-			<Type>TECH_DAMASCUS_STEEL</Type>
+			<Type>TECH_STIRRUP</Type>
 			<Cost>1500</Cost>
-			<Description>TXT_KEY_TECH_DAMASCUS_STEEL_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_DAMASCUS_STEEL_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_DAMASCUS_STEEL_HELP</Help>
+			<Description>TXT_KEY_TECH_STIRRUP_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_STIRRUP_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_STIRRUP_HELP</Help>
 			<Era>ERA_CLASSICAL</Era>
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>14</GridX>
 			<GridY>4</GridY>
-			<IconAtlas>Technologies_IconAtlas</IconAtlas>
-			<PortraitIndex>52</PortraitIndex>
+			<Quote>TXT_KEY_TECH_STIRRUP_QUOTE</Quote>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<PortraitIndex>11</PortraitIndex>
 		</Row>
 
 		<!-- Фортификация -->
@@ -1373,6 +1358,7 @@
 <!-- ####################################################################### -->
 <!-- 				   		  Средневековье				  			 		 -->
 <!-- ####################################################################### -->
+
 		<!-- ################### -->
 		<!--       GridX 15      -->
 		<!-- ################### -->
@@ -1431,34 +1417,33 @@
 			<AudioIntroHeader>AS2D_HEADING_TECH_CONSTRUCTION</AudioIntroHeader>
 		</Row>
 
-
 		<!-- ################### -->
 		<!--       GridX 16      -->
 		<!-- ################### -->
 
-		<!-- Компас -->
+		<!-- Образование -->
 		<Row>
-			<Type>TECH_COMPASS</Type>
-			<Cost>15000</Cost>
-			<Description>TXT_KEY_TECH_COMPASS_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_COMPASS_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_COMPASS_HELP</Help>
+			<Type>TECH_EDUCATION</Type>
+			<Cost>2000</Cost>
+			<Description>TXT_KEY_TECH_EDUCATION_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_EDUCATION_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_EDUCATION_HELP</Help>
 			<Era>ERA_MEDIEVAL</Era>
-			<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange>
+			<ResearchAgreementTradingAllowed>true</ResearchAgreementTradingAllowed>
 			<Trade>true</Trade>
 			<GridX>16</GridX>
-			<GridY>0</GridY>
-			<Quote>TXT_KEY_TECH_COMPASS_QUOTE</Quote>
-			<PortraitIndex>23</PortraitIndex>
+			<GridY>2</GridY>
+			<Quote>TXT_KEY_TECH_EDUCATION_QUOTE</Quote>
+			<PortraitIndex>25</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-			<AudioIntro>AS2D_TECH_COMPASS</AudioIntro>
-			<AudioIntroHeader>AS2D_HEADING_TECH_COMPASS</AudioIntroHeader>
+			<AudioIntro>AS2D_TECH_EDUCATION</AudioIntro>
+			<AudioIntroHeader>AS2D_HEADING_TECH_EDUCATION</AudioIntroHeader>
 		</Row>
 
 		<!-- Рыцарство -->
 		<Row>
 			<Type>TECH_CHIVALRY</Type>
-			<Cost>15000</Cost>
+			<Cost>2000</Cost>
 			<Description>TXT_KEY_TECH_CHIVALRY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_CHIVALRY_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_CHIVALRY_HELP</Help>
@@ -1477,7 +1462,7 @@
 		<!-- Литье -->
 		<Row>
 			<Type>TECH_METAL_CASTING</Type>
-			<Cost>15000</Cost>
+			<Cost>2000</Cost>
 			<Description>TXT_KEY_TECH_METAL_CASTING_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_METAL_CASTING_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_METAL_CASTING_HELP</Help>
@@ -1495,7 +1480,7 @@
 		<!-- Машиностроение -->
 		<Row>
 			<Type>TECH_MACHINERY</Type>
-			<Cost>15000</Cost>
+			<Cost>2000</Cost>
 			<Description>TXT_KEY_TECH_MACHINERY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_MACHINERY_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_MACHINERY_HELP</Help>
@@ -1514,23 +1499,23 @@
 		<!--       GridX 17      -->
 		<!-- ################### -->
 
-		<!-- Образование -->
+		<!-- Компас -->
 		<Row>
-			<Type>TECH_EDUCATION</Type>
+			<Type>TECH_COMPASS</Type>
 			<Cost>15000</Cost>
-			<Description>TXT_KEY_TECH_EDUCATION_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_EDUCATION_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_EDUCATION_HELP</Help>
+			<Description>TXT_KEY_TECH_COMPASS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_COMPASS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_COMPASS_HELP</Help>
 			<Era>ERA_MEDIEVAL</Era>
-			<ResearchAgreementTradingAllowed>true</ResearchAgreementTradingAllowed>
+			<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange>
 			<Trade>true</Trade>
 			<GridX>17</GridX>
-			<GridY>2</GridY>
-			<Quote>TXT_KEY_TECH_EDUCATION_QUOTE</Quote>
-			<PortraitIndex>25</PortraitIndex>
+			<GridY>0</GridY>
+			<Quote>TXT_KEY_TECH_COMPASS_QUOTE</Quote>
+			<PortraitIndex>23</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-			<AudioIntro>AS2D_TECH_EDUCATION</AudioIntro>
-			<AudioIntroHeader>AS2D_HEADING_TECH_EDUCATION</AudioIntroHeader>
+			<AudioIntro>AS2D_TECH_COMPASS</AudioIntro>
+			<AudioIntroHeader>AS2D_HEADING_TECH_COMPASS</AudioIntroHeader>
 		</Row>
 
 		<!-- Гильдии -->
@@ -1550,8 +1535,6 @@
 			<AudioIntro>AS2D_TECH_GUILDS</AudioIntro>
 			<AudioIntroHeader>AS2D_HEADING_TECH_GUILDS</AudioIntroHeader>
 		</Row>
-
-
 
 		<!-- Сталеварение -->
 		<Row>
@@ -3223,7 +3206,7 @@
 
 
 		<Row>
-			<TechType>TECH_DAMASCUS_STEEL</TechType>
+			<TechType>TECH_STIRRUP</TechType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
@@ -4328,10 +4311,6 @@
 
 		<!-- Медный век [2] row 4 -->
 		<Row>
-			<TechType>TECH_SEA_FISHING</TechType>
-			<PrereqTech>TECH_FISHING</PrereqTech>
-		</Row>
-		<Row>
 			<TechType>TECH_PROTO_WRITING</TechType>
 			<PrereqTech>TECH_CALENDAR</PrereqTech>
 		</Row>
@@ -4345,6 +4324,14 @@
 		</Row>
 
 		<!-- Медный век [3] row 5 -->
+		<Row>
+			<TechType>TECH_SEA_FISHING</TechType>
+			<PrereqTech>TECH_FISHING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_SEA_FISHING</TechType>
+			<PrereqTech>TECH_PROTO_WRITING</PrereqTech>
+		</Row>
 		<Row>
 			<TechType>TECH_CUNEIFORM</TechType>
 			<PrereqTech>TECH_PROTO_WRITING</PrereqTech>
@@ -4605,6 +4592,10 @@
 
 		<Row>
 			<TechType>TECH_DRAMA</TechType>
+			<PrereqTech>TECH_MYTHOLOGY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_DRAMA</TechType>
 			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
 		</Row>
 		<Row>
@@ -4613,7 +4604,7 @@
 		</Row>
 
 		<Row>
-			<TechType>TECH_DAMASCUS_STEEL</TechType>
+			<TechType>TECH_STIRRUP</TechType>
 			<PrereqTech>TECH_LAMINAR_ARMOR</PrereqTech>
 		</Row>
 
@@ -4621,7 +4612,6 @@
 			<TechType>TECH_FORTIFICATION</TechType>
 			<PrereqTech>TECH_ENGINEERING</PrereqTech>
 		</Row>
-
 		<Row>
 			<TechType>TECH_SCREW_PRESS</TechType>
 			<PrereqTech>TECH_ENGINEERING</PrereqTech>
@@ -4638,24 +4628,27 @@
 			<PrereqTech>TECH_DRAMA</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_THEOLOGY</TechType>
-			<PrereqTech>TECH_MYTHOLOGY</PrereqTech>
+			<TechType>TECH_CIVIL_SERVICE</TechType>
+			<PrereqTech>TECH_STIRRUP</PrereqTech>
 		</Row>
-
 		<Row>
 			<TechType>TECH_CIVIL_SERVICE</TechType>
-			<PrereqTech>TECH_DAMASCUS_STEEL</PrereqTech>
+			<PrereqTech>TECH_FORTIFICATION</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_CONSTRUCTION</TechType>
 			<PrereqTech>TECH_FORTIFICATION</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_CONSTRUCTION</TechType>
+			<PrereqTech>TECH_SCREW_PRESS</PrereqTech>
 		</Row>
 
 
 		<!-- Средневековье [2] row 16 -->
 
 		<Row>
-			<TechType>TECH_COMPASS</TechType>
+			<TechType>TECH_EDUCATION</TechType>
 			<PrereqTech>TECH_THEOLOGY</PrereqTech>
 		</Row>
 		<Row>
@@ -4667,6 +4660,10 @@
 			<PrereqTech>TECH_CIVIL_SERVICE</PrereqTech>
 		</Row>
 		<Row>
+			<TechType>TECH_CHIVALRY</TechType>
+			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+		</Row>
+		<Row>
 			<TechType>TECH_METAL_CASTING</TechType>
 			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
 		</Row>
@@ -4674,15 +4671,11 @@
 			<TechType>TECH_MACHINERY</TechType>
 			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
 		</Row>
-		<Row>
-			<TechType>TECH_MACHINERY</TechType>
-			<PrereqTech>TECH_SCREW_PRESS</PrereqTech>
-		</Row>
 
 		<!-- Средневековье [3] row 17 -->
 		<Row>
-			<TechType>TECH_EDUCATION</TechType>
-			<PrereqTech>TECH_CHIVALRY</PrereqTech>
+			<TechType>TECH_COMPASS</TechType>
+			<PrereqTech>TECH_EDUCATION</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_GUILDS</TechType>
@@ -4700,15 +4693,15 @@
 		<!-- Новое время [1] row 18 -->
 		<Row>
 			<TechType>TECH_ASTRONOMY</TechType>
-			<PrereqTech>TECH_EDUCATION</PrereqTech>
+			<PrereqTech>TECH_COMPASS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_ACOUSTICS</TechType>
-			<PrereqTech>TECH_EDUCATION</PrereqTech>
+			<PrereqTech>TECH_GUILDS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_BANKING</TechType>
-			<PrereqTech>TECH_EDUCATION</PrereqTech>
+			<PrereqTech>TECH_GUILDS</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_BANKING</TechType>
@@ -4718,10 +4711,10 @@
 			<TechType>TECH_BANKING</TechType>
 			<PrereqTech>TECH_STEEL</PrereqTech>
 		</Row>
-		<Row>
-			<TechType>TECH_PRINTING_PRESS</TechType>
-			<PrereqTech>TECH_STEEL</PrereqTech>
-		</Row>
+<!--		<Row>-->
+<!--			<TechType>TECH_PRINTING_PRESS</TechType>-->
+<!--			<PrereqTech>TECH_BANKING</PrereqTech>-->
+<!--		</Row>-->
 		<Row>
 			<TechType>TECH_GUNPOWDER</TechType>
 			<PrereqTech>TECH_PHYSICS</PrereqTech>

@@ -280,17 +280,17 @@
         <Row>
 			<BuildingType>BUILDING_GREAT_WALL</BuildingType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>500</Cost>
+			<Cost>1000</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_GREAT_WALL</BuildingType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>500</Cost>
+			<Cost>1000</Cost>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_GREAT_WALL</BuildingType>
 			<ResourceType>RESOURCE_BRICKS</ResourceType>
-			<Cost>500</Cost>
+			<Cost>1000</Cost>
 		</Row>
 
         <!-- Героический эпос -->

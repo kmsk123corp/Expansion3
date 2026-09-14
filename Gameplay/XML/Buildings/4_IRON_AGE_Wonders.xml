@@ -83,7 +83,7 @@
         <Row>
             <Type>BUILDING_CLOACAMAXIM</Type>
             <BuildingClass>BUILDINGCLASS_CLOACAMAXIM</BuildingClass>
-            <Cost>1195</Cost>
+            <Cost>1494</Cost>
             <PrereqTech>TECH_CERAMIC_BRICK</PrereqTech>
             <Description>TXT_KEY_BUILDINGS_CLOACAMAXIM</Description>
             <Civilopedia>TXT_KEY_BUILDINGS_CLOACAMAXIM_TEXT</Civilopedia>
@@ -505,12 +505,12 @@
         <Row>
             <BuildingType>BUILDING_CLOACAMAXIM</BuildingType>
             <ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-            <Cost>800</Cost>
+            <Cost>1000</Cost>
         </Row>
         <Row>
             <BuildingType>BUILDING_CLOACAMAXIM</BuildingType>
             <ResourceType>RESOURCE_STONE</ResourceType>
-            <Cost>800</Cost>
+            <Cost>1000</Cost>
         </Row>
 
     </Building_ResourceCostRequirements>
