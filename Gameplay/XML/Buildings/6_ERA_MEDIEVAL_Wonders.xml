@@ -447,7 +447,7 @@
         <Row>
 			<BuildingType>BUILDING_ALHAMBRA</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>5</Yield>
+			<Yield>10</Yield>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_NOTRE_DAME</BuildingType>

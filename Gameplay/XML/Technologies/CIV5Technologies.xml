@@ -1639,6 +1639,24 @@
 			<AudioIntroHeader>AS2D_HEADING_TECH_BANKING</AudioIntroHeader>
 		</Row>
 
+		<!-- печатный пресс -->
+		<Row>
+			<Type>TECH_PRINTING_PRESS</Type>
+			<Cost>780</Cost>
+			<Description>TXT_KEY_TECH_PRINTING_PRESS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_PRINTING_PRESS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_PRINTING_PRESS_HELP</Help>
+			<Era>ERA_RENAISSANCE</Era>
+			<Trade>true</Trade>
+			<GridX>18</GridX>
+			<GridY>6</GridY>
+			<AllowsWorldCongress>true</AllowsWorldCongress>
+			<Quote>TXT_KEY_TECH_PRINTING_PRESS_QUOTE</Quote>
+			<PortraitIndex>30</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<AudioIntro>AS2D_TECH_PRINTING_PRESS</AudioIntro>
+			<AudioIntroHeader>AS2D_HEADING_TECH_PRINTING_PRESS</AudioIntroHeader>
+		</Row>
 
 
 		<!-- Порох -->
@@ -1679,25 +1697,6 @@
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 			<AudioIntro>AS2D_TECH_ECONOMICS</AudioIntro>
 			<AudioIntroHeader>AS2D_HEADING_TECH_ECONOMICS</AudioIntroHeader>
-		</Row>
-
-		<!-- печатный пресс -->
-		<Row>
-			<Type>TECH_PRINTING_PRESS</Type>
-			<Cost>780</Cost>
-			<Description>TXT_KEY_TECH_PRINTING_PRESS_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_PRINTING_PRESS_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_PRINTING_PRESS_HELP</Help>
-			<Era>ERA_RENAISSANCE</Era>
-			<Trade>true</Trade>
-			<GridX>19</GridX>
-			<GridY>6</GridY>
-			<AllowsWorldCongress>true</AllowsWorldCongress>
-			<Quote>TXT_KEY_TECH_PRINTING_PRESS_QUOTE</Quote>
-			<PortraitIndex>30</PortraitIndex>
-			<IconAtlas>TECH_ATLAS_1</IconAtlas>
-			<AudioIntro>AS2D_TECH_PRINTING_PRESS</AudioIntro>
-			<AudioIntroHeader>AS2D_HEADING_TECH_PRINTING_PRESS</AudioIntroHeader>
 		</Row>
 
 		<!-- Химия -->
@@ -4711,10 +4710,10 @@
 			<TechType>TECH_BANKING</TechType>
 			<PrereqTech>TECH_STEEL</PrereqTech>
 		</Row>
-<!--		<Row>-->
-<!--			<TechType>TECH_PRINTING_PRESS</TechType>-->
-<!--			<PrereqTech>TECH_BANKING</PrereqTech>-->
-<!--		</Row>-->
+		<Row>
+			<TechType>TECH_PRINTING_PRESS</TechType>
+			<PrereqTech>TECH_STEEL</PrereqTech>
+		</Row>
 		<Row>
 			<TechType>TECH_GUNPOWDER</TechType>
 			<PrereqTech>TECH_PHYSICS</PrereqTech>
@@ -4729,10 +4728,10 @@
 			<TechType>TECH_ECONOMICS</TechType>
 			<PrereqTech>TECH_BANKING</PrereqTech>
 		</Row>
-		<Row>
-			<TechType>TECH_ECONOMICS</TechType>
-			<PrereqTech>TECH_PRINTING_PRESS</PrereqTech>
-		</Row>
+<!--		<Row>-->
+<!--			<TechType>TECH_ECONOMICS</TechType>-->
+<!--			<PrereqTech>TECH_PRINTING_PRESS</PrereqTech>-->
+<!--		</Row>-->
 		<Row>
 			<TechType>TECH_METALLURGY</TechType>
 			<PrereqTech>TECH_PRINTING_PRESS</PrereqTech>
