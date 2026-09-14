@@ -122,6 +122,29 @@
 			<PortraitIndex>7</PortraitIndex>
 		</Replace>
 
+		<!-- Гробница -->
+		<Row>
+			<Type>BUILDING_BURIAL_TOMB</Type>
+			<BuildingClass>BUILDINGCLASS_SHRINE</BuildingClass>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<Cost>299</Cost>
+			<GoldMaintenance>0</GoldMaintenance>
+			<PrereqTech>TECH_PAGANISM</PrereqTech>
+			<Help>TXT_KEY_BUILDING_BURIAL_TOMB_HELP</Help>
+			<Description>TXT_KEY_BUILDING_BURIAL_TOMB_DESC</Description>
+			<Civilopedia>TXT_KEY_BUILDING_BURIAL_TOMB_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BURIAL_TOMB_STRATEGY</Strategy>
+			<ArtDefineTag>BURIAL_TOMB</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<CapturePlunderModifier>100</CapturePlunderModifier>
+			<Happiness>2</Happiness>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>55</PortraitIndex>
+		</Row>
+
+
         <!-- ######################## -->
         <!-- Литье по восковой модели -->
         <!-- ######################## -->
@@ -502,6 +525,11 @@
 			<BuildingType>BUILDING_SHRINE</BuildingType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BURIAL_TOMB</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_CELTS_DRUIDS</BuildingType>
@@ -1046,6 +1074,16 @@
 			<BuildingType>BUILDING_SHRINE</BuildingType>
 			<FlavorType>FLAVOR_RELIGION</FlavorType>
 			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BURIAL_TOMB</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BURIAL_TOMB</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>20</Flavor>
 		</Row>
         <Row>
 			<BuildingType>BUILDING_CELTS_DRUIDS</BuildingType>

@@ -401,27 +401,7 @@
 			<PortraitIndex>60</PortraitIndex>
 		</Row>
 
-        <!-- Гробница -->
-        <Row>
-			<Type>BUILDING_BURIAL_TOMB</Type>
-			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
-			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
-			<Cost>299</Cost>
-			<GoldMaintenance>0</GoldMaintenance>
-			<PrereqTech>TECH_CLERGY</PrereqTech>
-			<Help>TXT_KEY_BUILDING_BURIAL_TOMB_HELP</Help>
-			<Description>TXT_KEY_BUILDING_BURIAL_TOMB_DESC</Description>
-			<Civilopedia>TXT_KEY_BUILDING_BURIAL_TOMB_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_BURIAL_TOMB_STRATEGY</Strategy>
-			<ArtDefineTag>BURIAL_TOMB</ArtDefineTag>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>66</ConquestProb>
-			<CapturePlunderModifier>100</CapturePlunderModifier>
-			<Happiness>2</Happiness>
-			<HurryCostModifier>25</HurryCostModifier>
-			<IconAtlas>BW_ATLAS_1</IconAtlas>
-			<PortraitIndex>55</PortraitIndex>
-		</Row>
+
 
         <!-- Зиккурат -->
         <Row>
@@ -697,11 +677,7 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>4</Yield>
 		</Row>
-        <Row>
-			<BuildingType>BUILDING_BURIAL_TOMB</BuildingType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>4</Yield>
-		</Row>
+
         <Row>
 			<BuildingType>BUILDING_BABYLON_ZIGGURAT</BuildingType>
 			<YieldType>YIELD_FAITH</YieldType>
@@ -972,10 +948,6 @@
 			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
 		</Row>
         <Row>
-			<BuildingType>BUILDING_BURIAL_TOMB</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
-		</Row>
-        <Row>
 			<BuildingType>BUILDING_BABYLON_ZIGGURAT</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
 		</Row>
@@ -1188,16 +1160,7 @@
 			<FlavorType>FLAVOR_RELIGION</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
-        <Row>
-			<BuildingType>BUILDING_BURIAL_TOMB</BuildingType>
-			<FlavorType>FLAVOR_RELIGION</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_BURIAL_TOMB</BuildingType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
+
         <Row>
 			<BuildingType>BUILDING_BABYLON_ZIGGURAT</BuildingType>
 			<FlavorType>FLAVOR_RELIGION</FlavorType>

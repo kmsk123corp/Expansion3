@@ -1259,7 +1259,7 @@
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_EGYPT</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
 			<BuildingType>BUILDING_BURIAL_TOMB</BuildingType>
 		</Row>
 		<Row>
