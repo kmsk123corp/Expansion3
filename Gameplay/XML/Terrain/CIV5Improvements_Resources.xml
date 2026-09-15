@@ -5,77 +5,49 @@
 
 	<Improvement_ResourceProduces>
 
-
-		<!-- Уник -->
-
-
-
-		<Row>
-			<ImprovementType>IMPROVEMENT_POLDER</ImprovementType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>2</Cost>
-		</Row>
-
-		<Row>
-			<ImprovementType>IMPROVEMENT_FEITORIA</ImprovementType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-		<Row>
-			<ImprovementType>IMPROVEMENT_FEITORIA</ImprovementType>
-			<ResourceType>RESOURCE_COPPER</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-		<Row>
-			<ImprovementType>IMPROVEMENT_SHOSHONE_TIPI</ImprovementType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>2</Cost>
-		</Row>
-
-
-		<!-- Стандарт -->
+		<!-- Ферма -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
 			<Cost>2</Cost>
 		</Row>
-		<Row>
-			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>3</Cost>
-		</Row>
-		<Row>
-			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
-			<ResourceType>RESOURCE_STONE</ResourceType>
-			<Cost>1</Cost>
-		</Row>
-		<Row>
-			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
-			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-			<Cost>4</Cost>
-		</Row>
+
+		<!-- Плантация -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
 			<Cost>2</Cost>
 		</Row>
+
+		<!-- Лагерь -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
 			<Cost>3</Cost>
 		</Row>
+
+		<!-- Пастбище / Выгон -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>4</Cost>
+		</Row>
+
+		<!-- Рыбацкая лодка -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
 			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
 			<Cost>3</Cost>
 		</Row>
 
+		<!-- Рудник -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
 			<Cost>1</Cost>
 		</Row>
 
+		<!-- Каменоломня -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
 			<ResourceType>RESOURCE_STONE</ResourceType>
@@ -87,27 +59,63 @@
 			<Cost>1</Cost>
 		</Row>
 
-		<!-- <Row>
-			<ImprovementType>IMPROVEMENT_JUNGLE_LUMBERMILL</ImprovementType>
-			<ResourceType>RESOURCE_WOOD</ResourceType>
-			<Cost>5</Cost>
-		</Row> -->
+		<!-- Лесопилка -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
 			<ResourceType>RESOURCE_WOOD</ResourceType>
 			<Cost>5</Cost>
 		</Row>
+
+		<!-- Ферма-терраса (Инки) -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+		<!-- Польдер (Нидерланды) -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_POLDER</ImprovementType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+
+		<!-- Фактория (Португалия) -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_FEITORIA</ImprovementType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FEITORIA</ImprovementType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+		<!-- Типи (Шошоны) -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_SHOSHONE_TIPI</ImprovementType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+		<!-- Вырубка красного дерева (Бразилия) -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_BRAZILWOOD_CAMP</ImprovementType>
 			<ResourceType>RESOURCE_WOOD</ResourceType>
 			<Cost>8</Cost>
 		</Row>
 
-		<Row>
-			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
-			<ResourceType>RESOURCE_IRON</ResourceType>
-			<Cost>5</Cost>
-		</Row>
-
+<!--		<Row>-->
+<!--			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>-->
+<!--			<ResourceType>RESOURCE_IRON</ResourceType>-->
+<!--			<Cost>5</Cost>-->
+<!--		</Row>-->
 
 	</Improvement_ResourceProduces>
+</GameData>
