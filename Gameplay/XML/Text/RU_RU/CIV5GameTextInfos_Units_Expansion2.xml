@@ -1096,11 +1096,7 @@
       <Gender>masculine</Gender>
       <Plurality>1</Plurality>
     </Row>
-    <Row Tag="TXT_KEY_UNIT_INDONESIAN_KRIS_SWORDSMAN">
-      <Text>Мечники с крисом|мечников с крисом|мечникам с крисом|мечников с крисом|мечниками с крисом|мечниках с крисом</Text>
-      <Gender>masculine</Gender>
-      <Plurality>2</Plurality>
-    </Row>
+
     <Row Tag="TXT_KEY_UNIT_POLISH_WINGED_HUSSAR">
       <Text>Крылатые гусары|крылатых гусар|крылатым гусарам|крылатых гусар|крылатыми гусарами|крылатых гусарах</Text>
       <Gender>masculine</Gender>
