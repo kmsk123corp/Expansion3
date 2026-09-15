@@ -250,8 +250,9 @@
             <Text>Амбар увеличивает производство [ICON_FOOD] пищи городом и ускоряет прирост населения. Он необходим, если вы хотите быстро создать большой город.</Text>
         </Row>
         <Row Tag="TXT_KEY_BUILDING_GRANARY_HELP">
-            <Text>Каждая обрабатываемая городом клетка с [ICON_RES_WHEAT] пшеницей, [ICON_RES_BANANA] бананами, [ICON_RES_BISON] бизонами или [ICON_RES_DEER] оленями дает +1 [ICON_FOOD] к пище.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Позволяет в границах вашей державы вывозить [ICON_FOOD] пищу из города по торговым путям.[/COLOR][NEWLINE][NEWLINE][COLOR:195:195:195:255]В городе должен быть [COLOR_POSITIVE_TEXT]погреб[COLOR:195:195:195:255].[/COLOR]</Text>
+            <Text>+1 [ICON_FOOD] [COLOR_POSITIVE_TEXT]еды[ENDCOLOR] [COLOR:195:195:195:255]с клеток с [ICON_RES_WHEAT] пшеницы[ENDCOLOR][NEWLINE] +1 [ICON_FOOD] [COLOR_POSITIVE_TEXT]еды[ENDCOLOR] [COLOR:195:195:195:255]с клеток с [ICON_RES_BANANA] бананов[ENDCOLOR][NEWLINE] +1 [ICON_FOOD] [COLOR_POSITIVE_TEXT]еды[ENDCOLOR] [COLOR:195:195:195:255]с клеток с [ICON_RES_DEER] оленей[ENDCOLOR][NEWLINE] +1 [ICON_FOOD] [COLOR_POSITIVE_TEXT]еды[ENDCOLOR] [COLOR:195:195:195:255]с клеток с [ICON_RES_BISON] бизонов[ENDCOLOR][NEWLINE] +1 [ICON_FOOD] [COLOR_POSITIVE_TEXT]еды[ENDCOLOR] [COLOR:195:195:195:255]с клеток с [RESOURCE_SHEEP] овец[ENDCOLOR][NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Позволяет в границах вашей державы вывозить [ICON_FOOD] пищу из города по торговым путям.[/COLOR][NEWLINE][NEWLINE][COLOR:195:195:195:255]В городе должен быть [COLOR_POSITIVE_TEXT]погреб[COLOR:195:195:195:255].[/COLOR]</Text>
         </Row>
+
 
         <!-- Юрта -->
         <Row Tag="TXT_KEY_BUILDING_HUNS_YURT">

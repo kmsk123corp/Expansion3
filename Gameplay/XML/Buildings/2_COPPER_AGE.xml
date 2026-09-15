@@ -592,6 +592,15 @@
             <YieldType>YIELD_FOOD</YieldType>
             <Yield>1</Yield>
         </Row>
+		<Row>
+			<BuildingType>BUILDING_GRANARY</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+
+
         <Row>
             <BuildingType>BUILDING_HUNS_YURT</BuildingType>
             <ResourceType>RESOURCE_DEER</ResourceType>
