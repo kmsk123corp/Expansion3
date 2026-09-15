@@ -204,9 +204,11 @@
 			<IconAtlas>Technologies_Copper_IconAtlas</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
 		</Row>
+
 <!-- ################### -->
 <!--       GridX 1       -->
 <!-- ################### -->
+
 		<!-- Земледение -->
 		<Row>
 			<Type>TECH_STONE_IMPLEMENTS</Type>
@@ -262,7 +264,6 @@
 			<AudioIntroHeader>AS2D_HEADING_TECH_MINING</AudioIntroHeader>
 		</Row>
 
-
 		<!-- Охота -->
 		<Row>
 			<Type>TECH_TRAPPING</Type>
@@ -285,6 +286,7 @@
 <!-- ################### -->
 <!--       GridX 2       -->
 <!-- ################### -->
+
 		<!-- Рыболовные сети -->
 		<Row>
 			<Type>TECH_FISHING</Type>
@@ -301,8 +303,6 @@
 			<IconAtlas>Technologies_Copper_IconAtlas</IconAtlas>
 			<PortraitIndex>2</PortraitIndex>
 		</Row>
-
-
 
 		<!-- Гончарное дело -->
 		<Row>
@@ -359,7 +359,6 @@
 			<AudioIntroHeader>AS2D_HEADING_TECH_ARCHERY</AudioIntroHeader>
 		</Row>
 
-
 		<!-- Животноводство -->
 		<Row>
 			<Type>TECH_ANIMAL_HUSBANDRY</Type>
@@ -379,13 +378,13 @@
 			<AudioIntroHeader>AS2D_HEADING_TECH_ANIMAL_HUSBANDRY</AudioIntroHeader>
 		</Row>
 
-
 <!-- ####################################################################### -->
 <!-- 				   		       Медный век				  			     -->
 <!-- ####################################################################### -->
 <!-- ################### -->
 <!--       GridX 3       -->
 <!-- ################### -->
+
 		<!-- Календарь -->
 		<Row>
 			<Type>TECH_CALENDAR</Type>
@@ -404,6 +403,7 @@
 			<AudioIntro>AS2D_TECH_CALENDAR</AudioIntro>
 			<AudioIntroHeader>AS2D_HEADING_TECH_CALENDAR</AudioIntroHeader>
 		</Row>
+
 		<!-- Обработка меди -->
 		<Row>
 			<Type>TECH_COPPER_WORKING</Type>
@@ -465,7 +465,6 @@
 <!--       GridX 4       -->
 <!-- ################### -->
 
-
 		<!-- Протописьменность -->
 		<Row>
 			<Type>TECH_PROTO_WRITING</Type>
@@ -482,6 +481,7 @@
 			<IconAtlas>Technologies_Copper_IconAtlas</IconAtlas>
 			<PortraitIndex>17</PortraitIndex>
 		</Row>
+
 		<!-- Деревообработка -->
 		<Row>
 			<Type>TECH_WOODWORKING</Type>
@@ -497,6 +497,7 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>28</PortraitIndex>
 		</Row>
+
 		<!-- Касситерит ? -->
 		<!-- <Row>
 			<Type>TECH_CASSITERITE</Type>
@@ -565,6 +566,7 @@
 			<IconAtlas>Technologies_Copper_IconAtlas</IconAtlas>
 			<PortraitIndex>24</PortraitIndex>
 		</Row>
+
 		<!-- Обработка бронзы -->
 		<Row>
 			<Type>TECH_BRONZE_WORKING</Type>
@@ -626,6 +628,7 @@
 <!-- ####################################################################### -->
 <!-- 				   		     Бронзовый век				  			     -->
 <!-- ####################################################################### -->
+
 		<!-- ################### -->
 		<!--       GridX 6       -->
 		<!-- ################### -->

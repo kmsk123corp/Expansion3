@@ -48,7 +48,7 @@
 			<Type>UNIT_IROQUOIS_WHALER</Type>
 			<PrereqTech>TECH_SEA_FISHING</PrereqTech>
 			<Combat>3</Combat>
-			<RangedCombat>5</RangedCombat>
+			<RangedCombat>6</RangedCombat>
 			<Cost>60</Cost>
 			<FaithCost>120</FaithCost>
 			<Moves>3</Moves>
@@ -82,12 +82,12 @@
 		<!-- корабли ближнего боя (уроверь 1) -->
 		<!-- ################################ -->
 
-		<!-- Галера -->
+		<!-- Прото-галера -->
 		<Row>
 			<Class>UNITCLASS_GALLEY_BRONZE</Class>
 			<Type>UNIT_GALLEY_BRONZE</Type>
 			<PrereqTech>TECH_SHIPBUILDING</PrereqTech>
-			<Combat>8</Combat>
+			<Combat>7</Combat>
 			<Cost>75</Cost>
 			<Moves>3</Moves>
 			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
@@ -117,14 +117,49 @@
 		<!-- корабли ближнего боя (уроверь 2) -->
 		<!-- ################################ -->
 
+		<!-- Триаконтора -->
+		<Row>
+			<Class>UNITCLASS_TRIACONTOR</Class>
+			<Type>UNIT_TRIACONTOR</Type>
+			<PrereqTech>TECH_SAILING</PrereqTech>
+			<Combat>10</Combat>
+			<Cost>75</Cost>
+			<Moves>3</Moves>
+			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_TRIACONTOR</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_TRIACONTOR_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_TRIACONTOR_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_TRIACONTOR_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<Mechanized>true</Mechanized>
+			<ObsoleteTech>TECH_OPTICS</ObsoleteTech>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_BARBARIAN_GALLEY</UnitArtInfo>
+			<UnitFlagIconOffset>23</UnitFlagIconOffset>
+			<IconAtlas>Units_IconAtlas</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<MoveRate>WOODEN_BOAT</MoveRate>
+		</Row>
+
+		<!-- ################################ -->
+		<!-- корабли ближнего боя (уроверь 3) -->
+		<!-- ################################ -->
+
 		<!-- Бирема -->
 		<Row>
 			<Class>UNITCLASS_BIREMA</Class>
 			<Type>UNIT_BIREMA</Type>
 			<PrereqTech>TECH_NAVIGATING_STARS</PrereqTech>
-			<Combat>12</Combat>
+			<Combat>13</Combat>
 			<Cost>150</Cost>
-			<Moves>3</Moves>
+			<Moves>4</Moves>
 			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
@@ -148,7 +183,7 @@
 		</Row>
 
 		<!-- ################################ -->
-		<!-- корабли ближнего боя (уроверь 2) -->
+		<!-- корабли ближнего боя (уроверь 4) -->
 		<!-- ################################ -->
 
 		<!-- Трирема -->
@@ -186,47 +221,12 @@
 		<!-- корабли ближнего боя (уроверь 3) -->
 		<!-- ################################ -->
 
-
-		<!-- Пиниси (Индонезия) -->
-		<Row>
-			<Class>UNITCLASS_TRIREME</Class>
-			<Type>UNIT_INDONESIA_CETBANG</Type>
-			<PrereqTech>TECH_SAILING</PrereqTech>
-			<Combat>10</Combat>
-			<Cost>30</Cost>
-			<Moves>3</Moves>
-			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
-			<Domain>DOMAIN_SEA</Domain>
-			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_INDONESIA_CETBANG</Description>
-			<Civilopedia>TXT_KEY_UNIT_INDONESIA_CETBANG_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_INDONESIA_CETBANG_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_INDONESIA_CETBANG_HELP</Help>
-			<MilitarySupport>true</MilitarySupport>
-			<MilitaryProduction>true</MilitaryProduction>
-			<Pillage>true</Pillage>
-			<Mechanized>true</Mechanized>
-			<ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech>
-			<AdvancedStartCost>30</AdvancedStartCost>
-			<MinAreaSize>10</MinAreaSize>
-			<XPValueAttack>3</XPValueAttack>
-			<XPValueDefense>3</XPValueDefense>
-			<UnitArtInfo>ART_DEF_UNIT_INDONESIA_CETBANG</UnitArtInfo>
-			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
-			<UnitFlagIconOffset>18</UnitFlagIconOffset>
-			<IconAtlas>UNIT_UNIQUE_ATLAS_3</IconAtlas>
-			<PortraitIndex>8</PortraitIndex>
-			<MoveRate>WOODEN_BOAT</MoveRate>
-		</Row>
-
-
-
 		<!-- Квинкверема (Карфаген) -->
 		<Row>
 			<Class>UNITCLASS_TRIREME</Class>
 			<Type>UNIT_CARTHAGINIAN_QUINQUEREME</Type>
-			<PrereqTech>TECH_SAILING</PrereqTech>
-			<Combat>14</Combat>
+			<PrereqTech>TECH_OPTICS</PrereqTech>
+			<Combat>20</Combat>
 			<Cost>45</Cost>
 			<Moves>4</Moves>
 			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
@@ -284,6 +284,38 @@
 			<UnitFlagIconOffset>5</UnitFlagIconOffset>
 			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
 			<PortraitIndex>5</PortraitIndex>
+			<MoveRate>WOODEN_BOAT</MoveRate>
+		</Row>
+
+		<!-- Пиниси (Индонезия) -->
+		<Row>
+			<Class>UNITCLASS_TRIREME</Class>
+			<Type>UNIT_INDONESIA_CETBANG</Type>
+			<PrereqTech>TECH_SAILING</PrereqTech>
+			<Combat>10</Combat>
+			<Cost>30</Cost>
+			<Moves>3</Moves>
+			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_INDONESIA_CETBANG</Description>
+			<Civilopedia>TXT_KEY_UNIT_INDONESIA_CETBANG_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_INDONESIA_CETBANG_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_INDONESIA_CETBANG_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<Mechanized>true</Mechanized>
+			<ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_INDONESIA_CETBANG</UnitArtInfo>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS_2</UnitFlagAtlas>
+			<UnitFlagIconOffset>18</UnitFlagIconOffset>
+			<IconAtlas>UNIT_UNIQUE_ATLAS_3</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
 			<MoveRate>WOODEN_BOAT</MoveRate>
 		</Row>
 
@@ -398,7 +430,6 @@
 			<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
 			<UnitAIType>UNITAI_WORKER_SEA</UnitAIType>
 		</Row>
-
 		<Row>
 			<UnitType>UNIT_GALLEY_BRONZE</UnitType>
 			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
@@ -415,8 +446,22 @@
 			<UnitType>UNIT_GALLEY_BRONZE</UnitType>
 			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
 		</Row>
-
-
+		<Row>
+			<UnitType>UNIT_TRIACONTOR</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIACONTOR</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIACONTOR</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIACONTOR</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
 		<Row>
 			<UnitType>UNIT_BIREMA</UnitType>
 			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
@@ -433,8 +478,6 @@
 			<UnitType>UNIT_BIREMA</UnitType>
 			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
 		</Row>
-
-
 		<Row>
 			<UnitType>UNIT_TRIREME</UnitType>
 			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
@@ -451,39 +494,6 @@
 			<UnitType>UNIT_TRIREME</UnitType>
 			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
 		</Row>
-
-
-
-
-
-
-
-
-
-		<Row>
-			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
-			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
-			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
-			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
-			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
-		</Row>
-
-
-
-
-
-
-
-
 		<Row>
 			<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
 			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
@@ -500,6 +510,8 @@
 			<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
 			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
 		</Row>
+
+
 		<Row>
 			<UnitType>UNIT_BYZANTINE_DROMON</UnitType>
 			<UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
@@ -514,6 +526,24 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_BYZANTINE_DROMON</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
 			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
 		</Row>
 		<Row>
@@ -572,6 +602,10 @@
 
 		<Row>
 			<UnitType>UNIT_GALLEY_BRONZE</UnitType>
+			<UnitClassType>UNITCLASS_TRIACONTOR</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIACONTOR</UnitType>
 			<UnitClassType>UNITCLASS_BIREMA</UnitClassType>
 		</Row>
 		<Row>
@@ -582,20 +616,18 @@
 			<UnitType>UNIT_TRIREME</UnitType>
 			<UnitClassType>UNITCLASS_CARAVEL</UnitClassType>
 		</Row>
-
-
-
-		<Row>
-			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
-			<UnitClassType>UNITCLASS_CARAVEL</UnitClassType>
-		</Row>
 		<Row>
 			<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
 			<UnitClassType>UNITCLASS_CARAVEL</UnitClassType>
 		</Row>
+
 		<Row>
 			<UnitType>UNIT_BYZANTINE_DROMON</UnitType>
 			<UnitClassType>UNITCLASS_GALLEASS</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
+			<UnitClassType>UNITCLASS_CARAVEL</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_GALLEASS</UnitType>
@@ -605,6 +637,7 @@
 			<UnitType>UNIT_VENETIAN_GALLEASS</UnitType>
 			<UnitClassType>UNITCLASS_FRIGATE</UnitClassType>
 		</Row>
+
 	</Unit_ClassUpgrades>
 
 	<!-- Для советников -->
@@ -630,7 +663,6 @@
 			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
-
 		<Row>
 			<UnitType>UNIT_GALLEY_BRONZE</UnitType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
@@ -641,7 +673,16 @@
 			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
-
+		<Row>
+			<UnitType>UNIT_TRIACONTOR</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIACONTOR</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
 		<Row>
 			<UnitType>UNIT_BIREMA</UnitType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
@@ -652,7 +693,6 @@
 			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
-
 		<Row>
 			<UnitType>UNIT_TRIREME</UnitType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
@@ -663,29 +703,6 @@
 			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
-
-
-
-
-		<Row>
-			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
-			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
-			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
-			<Flavor>4</Flavor>
-		</Row>
-
-
-
-
-
-
-
-
-
 		<Row>
 			<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
@@ -695,6 +712,16 @@
 			<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
 			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
 			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>4</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_BYZANTINE_DROMON</UnitType>
@@ -753,6 +780,10 @@
 			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
 		</Row>
 		<Row>
+			<UnitType>UNIT_TRIACONTOR</UnitType>
+			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
+		</Row>
+		<Row>
 			<UnitType>UNIT_BIREMA</UnitType>
 			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
 		</Row>
@@ -760,21 +791,14 @@
 			<UnitType>UNIT_TRIREME</UnitType>
 			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
 		</Row>
-
+		<Row>
+			<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
+			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
+		</Row>
 
 		<Row>
 			<UnitType>UNIT_INDONESIA_CETBANG</UnitType>
 			<PromotionType>PROMOTION_EXTRA_SIGHT_I</PromotionType>
-		</Row>
-
-
-
-
-
-
-		<Row>
-			<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
-			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_BYZANTINE_DROMON</UnitType>
@@ -809,90 +833,124 @@
 	<!-- Стоимость в ресурсов юнитов -->
 	<Unit_ResourceCostRequirements>
 
-		<!-- Флот -->
+		<!-- Дальний бой (Уровень 1) -->
+		<!-- Моноксил (долбенка) -->
+		<Row>
+			<UnitType>UNIT_MONOXYL</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MONOXYL</UnitType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>20</Cost>
+		</Row>
 
-			<!-- Уровень 1 -->
+		<!-- Каноэ (Ирокезы) -->
+		<Row>
+			<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
+			<ResourceType>RESOURCE_WOOD</ResourceType>
+			<Cost>20</Cost>
+		</Row>
 
-				<!-- Моноксил (долбенка) -->
-				<Row>
-					<UnitType>UNIT_MONOXYL</UnitType>
-					<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-					<Cost>20</Cost>
-				</Row>
-				<Row>
-					<UnitType>UNIT_MONOXYL</UnitType>
-					<ResourceType>RESOURCE_WOOD</ResourceType>
-					<Cost>20</Cost>
-				</Row>
+		<!-- Ближний бой (Уровень 1) -->
+		<!-- Прото-галера -->
+		<Row>
+			<UnitType>UNIT_GALLEY_BRONZE</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>50</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GALLEY_BRONZE</UnitType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>50</Cost>
+		</Row>
 
-				<!-- Каноэ (Ирокезы) -->
-				<Row>
-					<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
-					<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-					<Cost>20</Cost>
-				</Row>
-				<Row>
-					<UnitType>UNIT_IROQUOIS_WHALER</UnitType>
-					<ResourceType>RESOURCE_WOOD</ResourceType>
-					<Cost>20</Cost>
-				</Row>
+		<!-- Ближний бой (Уровень 2) -->
+		<!-- Триаконтора -->
+		<Row>
+			<UnitType>UNIT_TRIACONTOR</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIACONTOR</UnitType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>100</Cost>
+		</Row>
 
-				<!-- Галера -->
-				<Row>
-					<UnitType>UNIT_GALLEY_BRONZE</UnitType>
-					<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-					<Cost>50</Cost>
-				</Row>
-				<Row>
-					<UnitType>UNIT_GALLEY_BRONZE</UnitType>
-					<ResourceType>RESOURCE_LUMBER</ResourceType>
-					<Cost>50</Cost>
-				</Row>
+		<!-- Ближний бой (Уровень 3) -->
+		<!-- Бирема -->
+		<Row>
+			<UnitType>UNIT_BIREMA</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>180</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BIREMA</UnitType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>180</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BIREMA</UnitType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>20</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BIREMA</UnitType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>20</Cost>
+		</Row>
 
-				<!-- Бирема -->
-				<Row>
-					<UnitType>UNIT_BIREMA</UnitType>
-					<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-					<Cost>100</Cost>
-				</Row>
-				<Row>
-					<UnitType>UNIT_BIREMA</UnitType>
-					<ResourceType>RESOURCE_LUMBER</ResourceType>
-					<Cost>100</Cost>
-				</Row>
-				<Row>
-					<UnitType>UNIT_BIREMA</UnitType>
-					<ResourceType>RESOURCE_COPPER</ResourceType>
-					<Cost>30</Cost>
-				</Row>
-				<Row>
-					<UnitType>UNIT_BIREMA</UnitType>
-					<ResourceType>RESOURCE_CHARCOAL</ResourceType>
-					<Cost>30</Cost>
-				</Row>
+		<!-- Ближний бой (Уровень 4) -->
+		<!-- Трирема -->
+		<Row>
+			<UnitType>UNIT_TRIREME</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIREME</UnitType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>250</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIREME</UnitType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>70</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIREME</UnitType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>70</Cost>
+		</Row>
 
-				<!-- Трирема -->
-				<Row>
-					<UnitType>UNIT_TRIREME</UnitType>
-					<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-					<Cost>160</Cost>
-				</Row>
-				<Row>
-					<UnitType>UNIT_TRIREME</UnitType>
-					<ResourceType>RESOURCE_LUMBER</ResourceType>
-					<Cost>160</Cost>
-				</Row>
-				<Row>
-					<UnitType>UNIT_TRIREME</UnitType>
-					<ResourceType>RESOURCE_COPPER</ResourceType>
-					<Cost>60</Cost>
-				</Row>
-				<Row>
-					<UnitType>UNIT_TRIREME</UnitType>
-					<ResourceType>RESOURCE_CHARCOAL</ResourceType>
-					<Cost>60</Cost>
-				</Row>
-
+		<!-- Квинтерема -->
+		<Row>
+			<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
+			<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
+			<Cost>300</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
+			<ResourceType>RESOURCE_LUMBER</ResourceType>
+			<Cost>300</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<Cost>100</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
+			<ResourceType>RESOURCE_CHARCOAL</ResourceType>
+			<Cost>100</Cost>
+		</Row>
 
 
 				<!-- Пиниси -->
@@ -906,22 +964,7 @@
 					<ResourceType>RESOURCE_WOOD</ResourceType>
 					<Cost>15</Cost>
 				</Row>
-				<!-- Квинтерема -->
-				<Row>
-					<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
-					<ResourceType>RESOURCE_FOODSTUFF</ResourceType>
-					<Cost>20</Cost>
-				</Row>
-				<Row>
-					<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
-					<ResourceType>RESOURCE_WOOD</ResourceType>
-					<Cost>30</Cost>
-				</Row>
-				<Row>
-					<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
-					<ResourceType>RESOURCE_COPPER</ResourceType>
-					<Cost>5</Cost>
-				</Row>
+
 				<!-- Дромон -->
 				<Row>
 					<UnitType>UNIT_BYZANTINE_DROMON</UnitType>
